@@ -9,14 +9,12 @@ $$f(\{x_0,x_1,x_2,...\}) \rightarrow 0 \textrm{ or } 1 \textrm{ where } x_n \tex
 Form: $f(x) = s \cdot x \, \text{(mod 2)}$，given x to get s.
 
 Steps:
-
 1. Initiation |0⟩⊗n  state, and output qubit to  |−⟩ . 
 2. Hardmard Operator for Input Register.
 3. Measurement to Output Register.
     
 For hardmard operators:
 $$|a\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}|x\rangle.$$
-
 
 Use n Hadamard gates $|00\dots 0\rangle$ to result quantum superposition:
 
@@ -30,9 +28,7 @@ Afterwards, use $f_{s}$ function. The inital state of output register is $|{-}\r
 
 $$|x \rangle \xrightarrow{f_s} (-1)^{s\cdot x} |x \rangle$$
 
-
 $$|00\dots 0\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} |x\rangle \xrightarrow{f_a} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}|x\rangle$$
-
 
 Because of reversibility of quantum computing，Using Hardmard Gate again can get a.
 
