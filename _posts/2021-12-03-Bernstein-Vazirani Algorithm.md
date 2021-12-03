@@ -2,6 +2,7 @@
 title: Bernstein-Vazirani Algorithm
 tags: QuantumComputing
 mathjax: true
+author: Si Yuan JIN
 ---
 
 **Question**: For function
@@ -9,30 +10,29 @@ $$f(\{x_0,x_1,x_2,...\}) \rightarrow 0 \textrm{ or } 1 \textrm{ where } x_n \tex
 Form: $f(x) = s \cdot x \, \text{(mod 2)}$，given x to get s.
 
 Steps:
-1. Initiation |0⟩⊗n  state, and output qubit to  |−⟩ . 
+1. Initiation \vert 0⟩⊗n  state, and output qubit to \vert −⟩. 
 2. Hardmard Operator for Input Register.
 3. Measurement to Output Register.
     
 For hardmard operators:
-$$|a\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}|x\rangle.$$
+$$\vert a\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}\vert x\rangle.$$
 
-Use n Hadamard gates $|00\dots 0\rangle$ to result quantum superposition:
-
-$$|00\dots 0\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} |x\rangle$$
+Use n Hadamard gates $\vert 00\dots 0\rangle$ to result quantum superposition:
+$$\vert 00\dots 0\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} \vert x\rangle$$
 
 $(-1)^{a\cdot x}=0$ , since $a=0,$ and thus $(-1)^{a\cdot x} = 1$.
 
-Afterwards, use $f_{s}$ function. The inital state of output register is $|{-}\rangle$.
- - if f(x) = 1，$|a \oplus f(x)\rangle = -|{-}\rangle$ 
- - if f(x) = 0，$|a \oplus   f(x)\rangle = |{-}\rangle$
+Afterwards, use $f_{s}$ function. The inital state of output register is $\vert {-}\rangle$.
+ - if f(x) = 1，$\vert a \oplus f(x)\rangle = -\vert {-}\rangle$ 
+ - if f(x) = 0，$\vert a \oplus   f(x)\rangle = \vert {-}\rangle$
 
-$$|x \rangle \xrightarrow{f_s} (-1)^{s\cdot x} |x \rangle$$
+$$\vert x \rangle \xrightarrow{f_s} (-1)^{s\cdot x} \vert x \rangle$$
 
-$$|00\dots 0\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} |x\rangle \xrightarrow{f_a} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}|x\rangle$$
+$$\vert 00\dots 0\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} \vert x\rangle \xrightarrow{f_a} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}\vert x\rangle$$
 
 Because of reversibility of quantum computing，Using Hardmard Gate again can get a.
 
-$$\frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}|x\rangle \xrightarrow{H^{\otimes n}} |a\rangle$$
+$$\frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}\vert x\rangle \xrightarrow{H^{\otimes n}} \vert a\rangle$$
 
 
 
@@ -58,7 +58,7 @@ s = '011'   # the hidden binary string
 # Also need n classical bits to write the output to
 bv_circuit = QuantumCircuit(n+1, n)
 
-# put auxiliary in state |->
+# put auxiliary in state \vert ->
 bv_circuit.h(n)
 bv_circuit.z(n)
 
