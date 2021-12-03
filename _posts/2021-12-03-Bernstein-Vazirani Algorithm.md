@@ -1,12 +1,12 @@
 ---
 title: Bernstein-Vazirani Algorithm
-tags: Quantum Computing Algorithm
+tags: QuantumComputing
 mathjax: true
 ---
 
 Question: For function
 $$f(\{x_0,x_1,x_2,...\}) \rightarrow 0 \textrm{ or } 1 \textrm{ where } x_n \textrm{ is }0 \textrm{ or } 1$$
-Form: $f(x) = s \cdot x \, \text{(mod 2)}$，给定x，得到f(x)，求s的值。
+Form: $f(x) = s \cdot x \, \text{(mod 2)}$，given x to get s.
 
 Steps:
 
@@ -19,15 +19,15 @@ Steps:
 $$|a\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}|x\rangle.$$
 
 
-我们对 $|00\dots 0\rangle$ 使用n Hadamard gates得到量子叠加态:
+Use n Hadamard gates $|00\dots 0\rangle$ to result quantum superposition:
 
 $$|00\dots 0\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} |x\rangle$$
 
 $(-1)^{a\cdot x}=0$ , since $a=0,$ and thus $(-1)^{a\cdot x} = 1$.
 
-之后，我们作用$f_{s}$函数。这里我们的ouput初始状态a为$|{-}\rangle$.
- - 若f(x) = 1，$|a \oplus f(x)\rangle = -|{-}\rangle$ 
- - 若f(x) = 0，$|a \oplus   f(x)\rangle = |{-}\rangle$
+Afterwards, use $f_{s}$ function. The inital state of output register is $|{-}\rangle$.
+ - if f(x) = 1，$|a \oplus f(x)\rangle = -|{-}\rangle$ 
+ - if f(x) = 0，$|a \oplus   f(x)\rangle = |{-}\rangle$
 
 $$|x \rangle \xrightarrow{f_s} (-1)^{s\cdot x} |x \rangle$$
 
@@ -37,7 +37,7 @@ $$|x \rangle \xrightarrow{f_s} (-1)^{s\cdot x} |x \rangle$$
 $$|00\dots 0\rangle \xrightarrow{H^{\otimes n}} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} |x\rangle \xrightarrow{f_a} \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}|x\rangle$$
 
 
-由于量子计算是可逆的，我们再使用Hardmard Gate便可以得到a。
+Because of reversibility of quantum computing，Using Hardmard Gate again can get a.
 
 $$\frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{a\cdot x}|x\rangle \xrightarrow{H^{\otimes n}} |a\rangle$$
 
