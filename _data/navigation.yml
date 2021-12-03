@@ -1,21 +1,21 @@
 header:
   - titles: 
       # @start locale config
-      en      : &EN       Home
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  主页
-      
-    url: /archive.html
-
-  - titles: 
-      # @start locale config
       en      : &EN       Notes
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  笔记
+      
+    url: /archive.html
+
+  - titles: 
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
     url: /about.html

@@ -1,6 +1,7 @@
 ---
 title: Post with Header Image
 tags: TeXt
+author: Si Yuan JIN
 article_header:
   type: cover
   image:
