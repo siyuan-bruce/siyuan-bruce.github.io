@@ -25,23 +25,24 @@ titles:
   # @end locale config
 key: page-about
 ---
-## **About Me**
 
-My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing & DLT research at HSBC Lab.
+### **Introduction**
+
+My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing & DLT research at HSBC Lab. My job is to study how we can leverage technology to empower business.
 
 ---
 
-## **Research Interests**
+### **Research Interests**
 - **Quantum Computing**: Quantum Finance, Quantum Algorithms
 - **Distributed Ledger Technology(DLT)**: Central Bank Digital Currency, Consensus Algorithm
 
 ---
 
-## **Education**
+### **Education**
 - South China University of Technology (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. GPA:3.83/4, Rank:1/33
 
 ---
 
-## **Profile**
+### **Profile**
 
-![Image](./images/profile.jpg)
+![Image](./images/profile.jpg "Image@64x64"){:width="64px"}
