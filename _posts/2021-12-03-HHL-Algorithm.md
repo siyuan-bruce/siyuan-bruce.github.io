@@ -3,6 +3,10 @@ title: HHL Algorithm
 tags: QuantumComputing
 mathjax: true
 author: Si Yuan JIN
+article_header:
+  type: cover
+  image:
+    src: /images/vg1.png
 ---
 ## Introduction
 Systems of linear equations arise naturally in many real-life applications in a wide range of areas, such as in the solution of Partial Differential Equations, the calibration of financial models, fluid simulation or numerical field calculation. The problem can be defined as, given a $matrix A\in\mathbb{C}^{N\times N}$ and a vector $\vec{b}\in\mathbb{C}^{N}$, find $\vec{x}\in\mathbb{C}^{N}$ satisfying $A\vec{x}=\vec{b}$

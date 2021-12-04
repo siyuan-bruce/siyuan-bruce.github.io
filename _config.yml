@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://jsybruce.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Bruce King's Homepage
+title   : Si Yuan (Bruce) JIN's Homepage
 description: > # this means to ignore newlines until "Language & timezone"
   This website is used for recording Bruce's life and research notes.
 
