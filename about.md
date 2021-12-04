@@ -25,6 +25,9 @@ titles:
   # @end locale config
 key: page-about
 ---
+About Me
+
+
 
 ### **Introduction**
 
@@ -45,4 +48,4 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 
 ### **Profile**
 
-![Image](./images/profile.jpg "Image@64x64"){:width="64px"}
+![Image](./images/profile.jpg "Image@256x256"){:width="256px"}
