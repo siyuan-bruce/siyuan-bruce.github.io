@@ -60,7 +60,7 @@ Before the apparatus interacts with the spin, the window is blank. After it meas
 
 ![Image](https://raw.githubusercontent.com/JSYBruce/Homepage/master/assets/images/posts/Quantum-Bits/Apparatus.jpg "Image@512x512"){:width="512px"}
 
-![Image](./../assets/images/posts/Quantum-Bits/Apparatus.jpg"Image@512x512"){:width="512px"}
+![Image](./../assets/images/posts/Quantum-Bits/Apparatus.jpg){:width="512px"}
 
 The spin is now prepared in the $\sigma_{z} = +1$ state. If the spin is not disturbed and the apparatus keeps the same orientation, all subsequent measurements will give the same result.
 
