@@ -29,7 +29,7 @@ Figure below shows the schematic of the HHL algorithm and the corresponding circ
 estimation (IQPE), and measurement.
 
 
-![Image](https://raw.githubusercontent.com/JSYBruce/Homepage/master/assets/images/posts/HHL/CircuitsDesign.png "Image@512x512"){:width="512px"}
+![Image](https://jsybruce.github.io/Homepage/assets/images/posts/HHL/CircuitsDesign.png "Image@512x512"){:width="512px"}
 
 **The clock qubits
 are used to store the encoded eigenvalues of A and larger n results in higher accuracy when
@@ -89,7 +89,7 @@ $$
 \end{aligned}
 $$
 
-![Image](https://raw.githubusercontent.com/JSYBruce/Homepage/master/assets/images/posts/HHL/ControlledRotation.png "Image@512x512"){:width="512px"}
+![Image](https://jsybruce.github.io/Homepage/assets/images/posts/HHL/ControlledRotation.png "Image@512x512"){:width="512px"}
 
 In the controlled rotation part, $U$ is applied to $\vert b\rangle$ with the clock qubits as the control qubits (Figure 2). For simplicity, we begin by assuming that $\vert b\rangle$ is an eigenvector of $U$ with eigenvalue $e^{2 \pi i \phi}$. Therefore
 

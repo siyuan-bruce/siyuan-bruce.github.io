@@ -16,7 +16,7 @@ A complex number z is the sum of a real number and an imaginary number. We can w
 
 $$ z=x+i y $$
 
-![Image](https://raw.githubusercontent.com/JSYBruce/Homepage/master/assets/images/posts/Mathmatical-Background/ComplexNumber.png "Image@512x512"){:width="512px"}
+![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Mathmatical-Background/ComplexNumber.png "Image@512x512"){:width="512px"}
 
 Two Common Ways to Represent Complex Numbers. In the Cartesian representation, x and y are the horizontal (real) and vertical (imaginary) components. In the polar representation, r is the radius, $\theta$ and is the angle made with the x axis. In each case, it takes two real numbers to represent a single complex number.
 

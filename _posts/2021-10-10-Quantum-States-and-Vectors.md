@@ -41,7 +41,8 @@ $$
 These equations are extremely abstract, and it is not at all obvious what their physical significance is. I am going to tell you right now what they mean: First of all, $\vert A\rangle$ can represent any state of the spin, prepared in any manner. The components $\alpha_{u}$ and $\alpha_{d}$ are complex numbers; by themselves, they have no experimental meaning, but their magnitudes do. 
 
 In particular, 
-$$\alpha_{u}^{*}\alpha_{u}$$ and 
+$$\alpha_{u}^{*}\alpha_{u}$$ 
+and 
 $$\alpha_{d}^{*}\alpha_{d}$$
 have the following meaning:
 
