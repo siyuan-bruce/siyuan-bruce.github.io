@@ -73,7 +73,7 @@ $$
 \langle u \vert d\rangle=0 .
 $$
 
-Recalling our column representations of $\vert u\rangle$ and $\vert d\rangle$ from Eqs. $2.11$ and $2.12$ , we can write Eqs. $3.12$ in matrix form as
+Recalling our column representations of $\vert u\rangle$ and $\vert d\rangle$ , we can write it in matrix form as
 
 $$
 \left(\begin{array}{ll}

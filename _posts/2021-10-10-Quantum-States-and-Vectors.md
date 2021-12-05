@@ -80,9 +80,9 @@ This is a very general principle of quantum mechanics that extends to all quantu
 ## 2. Along the x Axis
 We said before that we can represent any spin state as a linear combination of the basis vectors $\vert u\rangle$ and $\vert d\rangle$ . Let's try doing this now for the vectors $\vert r\rangle$ and $\vert l\rangle$ , which represent spins prepared along the $x$ axis. We'll start with $\vert r\rangle$ . If $A$ initially prepares $\vert r\rangle$ , and is then rotated to measure $\sigma_{z}$ , there will be equal probabilities for $u p$ and $down$ . 
 
-Thus, $\alpha_{u}^{*}\alpha_{u}$ and 
-$\alpha_{d}^{*}\alpha_{d}$ must both be equal to 
-$\frac{1}{2}$ . 
+Thus, 
+$\alpha_{u}^{*}\alpha_{u}$ and 
+$\alpha_{d}^{*}\alpha_{d}$ must both be equal to $\frac{1}{2}$ . 
 A simple vector that satisfies this rule is
 
 $$\vert r\rangle=\frac{1}{\sqrt{2}}\vert u\rangle+\frac{1}{\sqrt{2}}\vert d\rangle$$
@@ -112,7 +112,7 @@ $$
 
 Similarly, we have enough conditions to determine the form of the vectors $\vert i\rangle$ and \vert o), apart from the phase ambiguity. Here is the result:
 
-$$\vert i\rangle=\frac{1}{\sqrt{2}}\vert u\rangle+\frac{i}{\sqrt{2}}\vert d\rangle$ $\vert 0\rangle=\frac{1}{\sqrt{2}}\vert u\rangle-\frac{i}{\sqrt{2}}\vert d\rangle$$
+$$\vert i\rangle=\frac{1}{\sqrt{2}}\vert u\rangle+\frac{i}{\sqrt{2}}\vert d\rangle \vert 0\rangle=\frac{1}{\sqrt{2}}\vert u\rangle-\frac{i}{\sqrt{2}}\vert d\rangle$$
 
 ## 3. Counting Parameter
 The general spin state is defined by two complex numbers, $\alpha_{u}$ and $\alpha_{d}$ . That seems
