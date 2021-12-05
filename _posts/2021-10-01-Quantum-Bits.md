@@ -58,7 +58,7 @@ Initially, we have no knowledge of whether $\sigma = +1$ or $\sigma = -1$ . Our 
 
 Before the apparatus interacts with the spin, the window is blank. After it measures , the window shows a +1 or a −1. By looking at the apparatus, we determine the value of $\sigma$.
 
-![Image](https://github.com/JSYBruce/Homepage/blob/main/assets/images/posts/Quantum-Bits/Apparatus.png){:width="512px"}
+![Image](./images/Quantum-Bits/Apparatus.png "Image@512x512"){:width="512px"}
 
 The spin is now prepared in the $\sigma_{z} = +1$ state. If the spin is not disturbed and the apparatus keeps the same orientation, all subsequent measurements will give the same result.
 
@@ -70,7 +70,7 @@ If we are convinced that the spin is a vector, we would naturally describe it by
 
 So far, there is still no difference between classical physics and quantum physics. The difference only becomes apparent when we rotate the apparatus through an arbitrary angle, say $\frac{\pi}{2}$ radians (90 degrees).(Figure below)
 
-![Image](https://github.com/JSYBruce/Homepage/blob/main/assets/images/posts/Quantum-Bits/Apparatus90.png){:width="512px"}
+![Image](./images/Quantum-Bits/Apparatus90.png){:width="512px"}
 
 The apparatus begins in the upright position (with the up-arrow along the z axis). A spin is prepared with $\sigma = +1$. Next, rotate $A$ so that the up-arrow points along the $x$ axis, and then make a measurement of what is presumably the $x$ component of the spin, $\sigma_{x}$.
 
@@ -86,7 +86,7 @@ Nevertheless, we do find something interesting. Suppose we repeat the operation 
 
 The repeated experiment spits out a random series of plus-ones and minus-ones. Determinism has broken down, but in a particular way. If we do many repetitions, we will find that the numbers of events $\sigma=+1$ and events $\sigma=-1$ are statistically equal. In other words, the average value of is zero.
 
-![Image](https://github.com/JSYBruce/Homepage/blob/main/assets/images/posts/Quantum-Bits/ApparatusRandom.png){:width="512px"}
+![Image](./images/Quantum-Bits/ApparatusRandom.png){:width="512px"}
 
 Now let’s do the whole thing over again, but instead of rotating $A$ to lie on the $x$ axis, rotate it to an arbitrary direction along the unit vector $n$. Classically, if $\sigma$ were a vector, we would expect the result of the experiment to be the component $\sigma$ of along the $n$ axis. If $n$ lies at an angle $\theta$ with respect to $z$, the classical answer would be $\sigma= cos\theta$ . But as you might guess, each time we do the experiment we get $\sigma=+1$ or $\sigma=-1$. However, the result is statistically biased so that the average value is $cos\theta$. In other words, the average will be $n \dot m$.
 
