@@ -50,10 +50,20 @@ The $\lambda_{i}$ are the eigenvalues of $\mathbf{L}$ , and $\left \vert \lambda
 ## 4. Example
 
 Now, let's work out the details of spin operators. The first goal is to construct operators to represent the components of spin, $\sigma_{z}, \sigma_{y}$ , and $\sigma_{z}$ . Then we'll build on those results to construct an operator that represents a spin component in any direction. As usual, we begin with 
-$\boldsymbol{\sigma}_{\boldsymbol{z}}$ . 
+$$\boldsymbol{\sigma}_{\boldsymbol{z}}$$
+ . 
+
 We know that $\sigma_{z}$ has
-definite, unambiguous values for the states $\vert u\rangle$ and $\vert d\rangle$ , 
-and that the corresponding measurement values are $$\sigma_{z}=+\mathbf{1}$$ and $$\sigma_{z}=-\mathbf{1}$$ . 
+definite, unambiguous values for the states 
+$$\vert u\rangle$$
+ and 
+$$\vert d\rangle$$
+ , 
+and that the corresponding measurement values are 
+$$\sigma_{z}=+\mathbf{1}$$
+ and 
+ $$\sigma_{z}=-\mathbf{1}$$
+  . 
 
 Here is what the first three principles tell us:
 - Principle 1: Each component of $\boldsymbol{\sigma}$ is represented by a linear operator.

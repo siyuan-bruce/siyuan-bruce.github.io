@@ -47,6 +47,7 @@ We now discussed simple evolution laws in quantum world. The simplest law is jus
 $$ \mathcal \sigma(n+1) = \sigma(n)
 \tag{1.1}
 $$
+
 ### 3.2. New assumption
 An experiment involves more than just a system to study. It also involves an apparatus A to make measurements and record the results of the measurements.
 
@@ -62,7 +63,7 @@ Before the apparatus interacts with the spin, the window is blank. After it meas
 
 The spin is now prepared in the $\sigma_{z} = +1$ state. If the spin is not disturbed and the apparatus keeps the same orientation, all subsequent measurements will give the same result.
 
-Now that we’ve measured $\sigma$ , let’s reset the apparatus to neutral and, without disturbing the spin, measure $\sigma$ again. Assuming the simple law of Eq.1, we should get the same asnwer as we did the first time. The result $\sigma_{z} = +1$ will be followed by $\sigma_{z} = +1$ . Likewise for $\sigma_{z} = -1$. The same will be true for any number of repetitions. **This is important because it allows us to confirm the result of an experiment.**  So far, there is no difference between classical and quantum physics. 
+Now that we’ve measured $\sigma$ , let’s reset the apparatus to neutral and, without disturbing the spin, measure $\sigma$ again. Assuming the simple law, we should get the same asnwer as we did the first time. The result $\sigma_{z} = +1$ will be followed by $\sigma_{z} = +1$ . Likewise for $\sigma_{z} = -1$. The same will be true for any number of repetitions. **This is important because it allows us to confirm the result of an experiment.**  So far, there is no difference between classical and quantum physics. 
 
 From these results, we might conclude that is a degree of freedom that is associated with a sense of direction in space. If $\sigma$ were an oriented vector of some sort, then it would be natural to expect that turning the apparatus over would reverse the reading.
 
