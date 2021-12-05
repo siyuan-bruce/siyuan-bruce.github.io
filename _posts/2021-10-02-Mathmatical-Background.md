@@ -31,6 +31,7 @@ Adding complex numbers is easy in component form: just add the components. Simil
 $$
 \left(r_{1} e^{i \theta_{1}}\right)\left(r_{2} e^{i \theta_{2}}\right)=\left(r_{1} r_{2}\right) e^{i\left(\theta_{1}+\theta_{2}\right)}
 $$
+
 Every complex number $z$ has a complex conjugate $z^{*}$ that is obtained by simply reversing the sign of the imaginary part.
 If
 
@@ -44,7 +45,10 @@ Multiplying a complex number and its conjugate always gives a positive real resu
 
 $$z^{*} z=r^{2}$$
 
-It is of course true that every complex conjugate is itself a complex number, but it's often helpful to think of $z$ and $z^{*}$ as belonging to separate "dual" number systems. Dual here means that for every $z$ there is a unique $z^{*}$ and vice versa.
+It is of course true that every complex conjugate is itself a complex number, but it's often helpful to think of $z$ and 
+$z^{*}$ as belonging to separate "dual" number systems. Dual here means that for every 
+$z$
+there is a unique $z^{*}$ and vice versa.
 
 There is a special class of complex numbers that I'll call "phase-factors." A phase-factor is simply a complex number whose $r$-component is 1 . If $z$ is a phase-factor, then the following hold:
 

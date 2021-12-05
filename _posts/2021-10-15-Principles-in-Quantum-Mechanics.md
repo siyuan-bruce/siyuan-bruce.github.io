@@ -33,15 +33,18 @@ The gears turn and the machine delivers a result in the output port. This result
 - Principle 1: The observable or measurable quantities of quantum mechanics are represented by linear operators $\mathbf{L}$.
 
 We'll soon see that $\mathbf{L}$ must also be Hermitian. Some authors regard this as a postulate, or basic principle. We have chosen instead to derive it from the other principles. The end result is the same either way: the operators that represent observables are Hermitian.
-- Principle 2: The possible results of a measurement are the eigenvalues of the operator that represents the observable. We'll call these eigenvalues $\lambda_{i}$. The state for which the result of a measurement is unambiguously $\lambda_{i}$ is the corresponding eigenvector $\left\vert \lambda_{i}\right\rangle$. Don't unpack your surfboard just yet.
+- Principle 2: The possible results of a measurement are the eigenvalues of the operator that represents the observable. We'll call these eigenvalues $\lambda_{i}$. The state for which the result of a measurement is unambiguously $\lambda_{i}$ is the corresponding eigenvector $\left \vert \lambda_{i} \right \rangle$.
 
-Here's another way to say it: if the system is in the eigenstate $\left\vert \lambda_{i}\right\rangle$, the result of a measurement is guaranteed to be $\lambda_{i}$.
+Here's another way to say it: if the system is in the eigenstate $\left \vert \lambda_{i}\right \rangle$, the result of a measurement is guaranteed to be $\lambda_{i}$.
 - Principle 3: Unambiguously distinguishable states are represented by orthogonal vectors.
 - Principle 4: If $\vert A\rangle$ is the state-vector of a system, and the observable $\mathbf{L}$ is measured, the probability to observe value $\lambda_{i}$ is
+
+
 $$
 P\left(\lambda_{i}\right)=\left\langle A \vert \lambda_{i}\right\rangle\left\langle\lambda_{i} \vert A\right\rangle
 $$
-The $\lambda_{i}$ are the eigenvalues of $\mathbf{L}$, and $\left\vert \lambda_{i}\right\rangle$ are the corresponding eigenvectors.
+
+The $\lambda_{i}$ are the eigenvalues of $\mathbf{L}$, and $\left \vert \lambda_{i}\right \rangle$ are the corresponding eigenvectors.
 
 
 ## 4. Example
@@ -50,17 +53,23 @@ Now, let's work out the details of spin operators. The first goal is to construc
 definite, unambiguous values for the states $\vert u\rangle$ and $\vert d\rangle$, and that the corresponding measurement values are $\sigma_{z}=+\mathbf{1}$ and $\boldsymbol{\sigma}_{z}=-\mathbf{1}$. Here is what the first three principles tell us:
 - Principle 1: Each component of $\boldsymbol{\sigma}$ is represented by a linear operator.
 - Principle 2: The eigenvectors of $\sigma_{z}$ are $\vert u\rangle$ and $\vert d\rangle$. The corresponding eigenvalues are $+1$ and $-1$. We can express this with the abstract equations
+
+
 $$
 \begin{aligned}
 &\sigma_{z}\vert u\rangle=\vert u\rangle \\
 &\sigma_{z}\vert d\rangle=-\vert d\rangle
 \end{aligned}
 $$
+
 - Principle 3: States $\vert u\rangle$ and $\vert d\rangle$ are orthogonal to each other. This can be expressed as
+- 
 $$
 \langle u \vert d\rangle=0 .
 $$
+
 Recalling our column representations of $\vert u\rangle$ and $\vert d\rangle$ from Eqs. $2.11$ and $2.12$, we can write Eqs. $3.12$ in matrix form as
+
 $$
 \left(\begin{array}{ll}
 \left(\sigma_{z}\right)_{11} & \left(\sigma_{z}\right)_{12} \\
@@ -73,7 +82,9 @@ $$
 0
 \end{array}\right)
 $$
+
 and
+
 $$
 \left(\begin{array}{cc}
 \left(\sigma_{z}\right)_{11} & \left(\sigma_{z}\right)_{12} \\
@@ -86,7 +97,9 @@ $$
 1
 \end{array}\right)
 $$
+
 There is only one matrix that satisfies these equations. I leave it as an exercise to prove
+
 $$
 \left(\begin{array}{ll}
 \left(\sigma_{z}\right)_{11} & \left(\sigma_{z}\right)_{12} \\
@@ -96,7 +109,9 @@ $$
 0 & -1
 \end{array}\right)
 $$
+
 or, more concisely,
+
 $$
 \sigma_{z}=\left(\begin{array}{rr}
 1 & 0 \\
@@ -108,6 +123,7 @@ $$
 ## 5. Summary
 
 To summarize, the three operators $\sigma_{x}, \sigma_{y}$, and $\sigma_{z}$ are represented by the three matrices
+
 $$
 \begin{aligned}
 &\sigma_{z}=\left(\begin{array}{cc}

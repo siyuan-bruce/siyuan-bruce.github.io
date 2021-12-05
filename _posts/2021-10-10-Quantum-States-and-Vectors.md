@@ -22,13 +22,15 @@ On the other hand, if the apparatus is oriented along the $x$ axis and registers
 The idea that there are no hidden variables has a very simple mathematical representation: the space of states for a single spin has only two dimensions. This point deserves emphasis:
 **All possible spin states can be represented in a two-dimensional vector space.**
 
-We could, somewhat arbitrarily, ${ }^{1}$ choose $\vert u\rangle$ and $\vert d\rangle$ as the two basis vectors and write any state as a linear superposition of these two. We'll adopt that choice for now. Let's use the symbol $\vert A\rangle$ for a generic state. We can write this as an equation,
+We could, somewhat arbitrarily, choose $\vert u\rangle$ and $\vert d\rangle$ as the two basis vectors and write any state as a linear superposition of these two. We'll adopt that choice for now. Let's use the symbol $\vert A\rangle$ for a generic state. We can write this as an equation,
+
 $$
 \vert A\rangle=\alpha_{u}\vert u\rangle+\alpha_{d}\vert d\rangle
 $$
 
 where $\alpha_{u}$ and $\alpha_{d}$ are the components of $\vert A\rangle$ along the basis directions $\vert u\rangle$
 and $\vert d\rangle$. Mathematically, we can identify the components of $\vert A\rangle$ as
+
 $$
 \begin{aligned}
 &\alpha_{u}=\langle u \vert A\rangle \\
@@ -45,6 +47,7 @@ have the following meaning:
 - Likewise, $\alpha_{d}^{*} \alpha_{d}$ is the probability that $\sigma_{z}$ would be down if measured.
 
 The $\alpha$ values, or equivalently $\langle u \vert A\rangle$ and $\langle d \vert A\rangle$, are called probability amplitudes. They are themselves not probabilities. To compute a probability, their magnitudes must be squared. In other words, the probabilities for measurements of $u p$ and down are given by
+
 $$
 \begin{aligned}
 &P_{u}=\langle A \vert u\rangle\langle u \vert A\rangle \\
@@ -53,18 +56,23 @@ $$
 $$
 
 Two other points are important: First, note that and are mutually orthogonal. The physical meaning of this is that, if the spin is prepared up, then the probability to detect it down is zero,
+
 $$\langle u  \vert u\rangle=0$$
 
 The directions up and down are not orthogonal directions in space, even though their associated state-vectors are orthogonal in state space.
 
 The second important point is that for the total probability to come out equal to unity, we must have
+
 $$
 \alpha_{u}^{*} \alpha_{u}+\alpha_{d}^{*} \alpha_{d}=1
 $$
+
 This is equivalent to saying that the vector $\vert A\rangle$ is normalized to a unit vector:
+
 $$
 \langle A \vert A\rangle=1
 $$
+
 This is a very general principle of quantum mechanics that extends to all quantum systems: the state of a system is represented by a unit (normalized) vector in a vector space of states. Moreover, **the squared magnitudes of the components of the state-vector, along particular basis vectors, represent probabilities for various experimental outcomes.**
 
 ## 2. Along the x Axis
@@ -74,7 +82,9 @@ $$\vert r\rangle=\frac{1}{\sqrt{2}}\vert u\rangle+\frac{1}{\sqrt{2}}\vert d\rang
 
 There is some ambiguity in this choice, but as we will see later, it is nothing more than the ambiguity in our choice of exact directions for the $x$ and $y$ axes.
 
-Next, let's look at the vector $\vert l\rangle$. Here is what we know: when the spin has been prepared in the left configuration, the probabilities for $\sigma_{z}$ are again equal to $\frac{1}{2}$. That is not enough to determine the values $\alpha_{u}^{*} \alpha_{u}$ and $\boldsymbol{\alpha}_{d}^{*} \alpha_{d}$, but there is another condition that we can infer. Earlier, I told you that $\vert u\rangle$ and $\vert d\rangle$ are orthogonal for the simple reason that, if the spin is $u p$, it's definitely not down. But there is nothing special about $u p$ and down that is not also true of right and left. In particular, if the spin is right, it has zero probability of being left. Thus, by analogy with Eq. 2.3,
+Next, let's look at the vector $\vert l\rangle$. Here is what we know: when the spin has been prepared in the left configuration, the probabilities for $\sigma_{z}$ are again equal to $\frac{1}{2}$. That is not enough to determine the values $\alpha_{u}^{*} \alpha_{u}$ and $\alpha_{d}^{*} \alpha_{d}$, but there is another condition that we can infer. 
+
+$\vert u\rangle$ and $\vert d\rangle$ are orthogonal for the simple reason that, if the spin is $u p$, it's definitely not down. But there is nothing special about $u p$ and down that is not also true of right and left. In particular, if the spin is right, it has zero probability of being left. Thus, by analogy with Eq. 2.3,
 
 $$\begin{aligned}
 &\langle r \vert l\rangle=0 \\
