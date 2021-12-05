@@ -41,8 +41,8 @@ $$
 These equations are extremely abstract, and it is not at all obvious what their physical significance is. I am going to tell you right now what they mean: First of all, $\vert A\rangle$ can represent any state of the spin, prepared in any manner. The components $\alpha_{u}$ and $\alpha_{d}$ are complex numbers; by themselves, they have no experimental meaning, but their magnitudes do. 
 
 In particular, 
-$\alpha_{u}^{*}\alpha_{u}$ and 
-$\alpha_{d}^{*}\alpha_{d}$ 
+$$\alpha_{u}^{*}\alpha_{u}$$ and 
+$$\alpha_{d}^{*}\alpha_{d}$$
 have the following meaning:
 
 - Given that the spin has been prepared in the state $\vert A\rangle$ , and that the apparatus is oriented along $z$ , the quantity $\alpha_{u}^{*}\alpha_{u}$ is the probability that the spin would be measured as $\sigma_{z}=+1$ . In other words, it is the probability of the spin being $u p$ if measured along the $z$ axis.
@@ -84,7 +84,9 @@ Thus,
 $$\alpha_{u}^{*}\alpha_{u}$$
 and 
 $$\alpha_{d}^{*}\alpha_{d}$$
-must both be equal to $\frac{1}{2}$ . 
+must both be equal to 
+$$\frac{1}{2}$$
+. 
 A simple vector that satisfies this rule is
 
 $$\vert r\rangle=\frac{1}{\sqrt{2}}\vert u\rangle+\frac{1}{\sqrt{2}}\vert d\rangle$$
