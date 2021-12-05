@@ -45,7 +45,7 @@ or $\sigma = -1$ and there is nothing in between. In quantum mechanics, we’ll 
 We now discussed simple evolution laws in quantum world. The simplest law is just that nothing happens. In that case, if we go from one discrete instant (n) to the next (n + 1), the law of evolution is
 
 $$ \mathcal \sigma(n+1) = \sigma(n)
-\tag{1.1} \label{eq1}
+\tag{1.1}
 $$
 ### 3.2. New assumption
 An experiment involves more than just a system to study. It also involves an apparatus A to make measurements and record the results of the measurements.
