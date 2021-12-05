@@ -25,13 +25,12 @@ titles:
   # @end locale config
 key: page-about
 ---
-About Me
 
 
 
 ### **Introduction**
 
-My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing & DLT research at HSBC Lab. My job is to study how we can leverage technology to empower business.
+My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing & DLT research at HSBC Lab. My job is to study how to leverage technology to empower business.
 
 ---
 
