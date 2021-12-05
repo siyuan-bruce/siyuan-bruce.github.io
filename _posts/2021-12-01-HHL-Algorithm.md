@@ -257,7 +257,7 @@ $$
 A quick calculation shows that
 
 $$
-\frac{\frac{1}{2 \sqrt{2}}\left\vert u_{1}\right\rangle+\frac{1}{4 \sqrt{2}}\left\vert u_{2}\right\rangle}{\sqrt{5 / 32}}=\frac{\vert x\rangle}{\\vert x\\vert }
+\frac{\frac{1}{2 \sqrt{2}}\left\vert u_{1}\right\rangle+\frac{1}{4 \sqrt{2}}\left\vert u_{2}\right\rangle}{\sqrt{5 / 32}}=\frac{\vert x\rangle}{\vert \vert x \vert \vert }
 $$
 
 Since $\vec{b}$ is a 2-dimensional complex vector, it can be encoded using 1 qubit and, thus, $n_{b}=1$.
