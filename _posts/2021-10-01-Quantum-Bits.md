@@ -60,8 +60,6 @@ Before the apparatus interacts with the spin, the window is blank. After it meas
 
 ![Image](https://raw.githubusercontent.com/JSYBruce/Homepage/master/assets/images/posts/Quantum-Bits/Apparatus.jpg "Image@512x512"){:width="512px"}
 
-![Image](./../assets/images/posts/Quantum-Bits/Apparatus.jpg){:width="512px"}
-
 The spin is now prepared in the $\sigma_{z} = +1$ state. If the spin is not disturbed and the apparatus keeps the same orientation, all subsequent measurements will give the same result.
 
 Now that we’ve measured $\sigma$ , let’s reset the apparatus to neutral and, without disturbing the spin, measure $\sigma$ again. Assuming the simple law of Eq.1, we should get the same asnwer as we did the first time. The result $\sigma_{z} = +1$ will be followed by $\sigma_{z} = +1$ . Likewise for $\sigma_{z} = -1$. The same will be true for any number of repetitions. **This is important because it allows us to confirm the result of an experiment.**  So far, there is no difference between classical and quantum physics. 
