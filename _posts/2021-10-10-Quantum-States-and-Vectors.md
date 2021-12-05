@@ -38,12 +38,14 @@ $$
 \end{aligned}
 $$
 
-These equations are extremely abstract, and it is not at all obvious what their physical significance is. I am going to tell you right now what they mean: First of all, $\vert A\rangle$ can represent any state of the spin, prepared in any manner. The components $\alpha_{u}$ and $\alpha_{d}$ are complex numbers; by themselves, they have no experimental meaning, but their magnitudes do. In particular, 
-$\alpha_{u}^{*} \alpha_{u}$ and 
-$\alpha_{d}^{*} \alpha_{d}$ 
+These equations are extremely abstract, and it is not at all obvious what their physical significance is. I am going to tell you right now what they mean: First of all, $\vert A\rangle$ can represent any state of the spin, prepared in any manner. The components $\alpha_{u}$ and $\alpha_{d}$ are complex numbers; by themselves, they have no experimental meaning, but their magnitudes do. 
+
+In particular, 
+$\alpha_{u}^{*}\alpha_{u}$ and 
+$\alpha_{d}^{*}\alpha_{d}$ 
 have the following meaning:
 
-- Given that the spin has been prepared in the state $\vert A\rangle$ , and that the apparatus is oriented along $z$ , the quantity $\alpha_{u}^{*} \alpha_{u}$ is the probability that the spin would be measured as $\sigma_{z}=+1$ . In other words, it is the probability of the spin being $u p$ if measured along the $z$ axis.
+- Given that the spin has been prepared in the state $\vert A\rangle$ , and that the apparatus is oriented along $z$ , the quantity $\alpha_{u}^{*}\alpha_{u}$ is the probability that the spin would be measured as $\sigma_{z}=+1$ . In other words, it is the probability of the spin being $u p$ if measured along the $z$ axis.
 - Likewise, $\alpha_{d}^{*} \alpha_{d}$ is the probability that $\sigma_{z}$ would be down if measured.
 
 The $\alpha$ values, or equivalently $\langle u \vert A\rangle$ and $\langle d \vert A\rangle$ , are called probability amplitudes. They are themselves not probabilities. To compute a probability, their magnitudes must be squared. In other words, the probabilities for measurements of $u p$ and down are given by
@@ -76,8 +78,13 @@ $$
 This is a very general principle of quantum mechanics that extends to all quantum systems: the state of a system is represented by a unit (normalized) vector in a vector space of states. Moreover, **the squared magnitudes of the components of the state-vector, along particular basis vectors, represent probabilities for various experimental outcomes.**
 
 ## 2. Along the x Axis
-We said before that we can represent any spin state as a linear combination of the basis vectors $\vert u\rangle$ and $\vert d\rangle$ . Let's try doing this now for the vectors $\vert r\rangle$ and $\vert l\rangle$ , which represent spins prepared along the $x$ axis. We'll start with $\vert r\rangle$ . If $A$ initially prepares $\vert r\rangle$ , and is then rotated to measure $\sigma_{z}$ , there will be equal probabilities for $u p$ and $down$ . Thus, 
-$\alpha_{u}^{*} \alpha_{u}$ and $\alpha_{d}^{*} \alpha_{d}$ must both be equal to $\frac{1}{2}$ . A simple vector that satisfies this rule is
+We said before that we can represent any spin state as a linear combination of the basis vectors $\vert u\rangle$ and $\vert d\rangle$ . Let's try doing this now for the vectors $\vert r\rangle$ and $\vert l\rangle$ , which represent spins prepared along the $x$ axis. We'll start with $\vert r\rangle$ . If $A$ initially prepares $\vert r\rangle$ , and is then rotated to measure $\sigma_{z}$ , there will be equal probabilities for $u p$ and $down$ . 
+
+Thus, $\alpha_{u}^{*}\alpha_{u}$ and 
+$\alpha_{d}^{*}\alpha_{d}$ must both be equal to 
+$\frac{1}{2}$ . 
+A simple vector that satisfies this rule is
+
 $$\vert r\rangle=\frac{1}{\sqrt{2}}\vert u\rangle+\frac{1}{\sqrt{2}}\vert d\rangle$$
 
 There is some ambiguity in this choice, but as we will see later, it is nothing more than the ambiguity in our choice of exact directions for the $x$ and $y$ axes.
@@ -128,6 +135,7 @@ $$
 0
 \end{array}\right)
 $$
+
 $$
 \vert d\rangle=\left(\begin{array}{l}
 0 \\

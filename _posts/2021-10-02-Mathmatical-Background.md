@@ -99,7 +99,7 @@ $$\begin{aligned}
 Axioms 6 and 7 taken together are often called linearity. Axiom 6 allows a vector to be multiplied by any complex number.
 
 ## 3. Bras and Kets
-As we have seen, the complex numbers have a dual version: in the form of complex conjugate numbers. In the same way, a complex vector space has a dual version that is essentially the complex conjugate vector space. For every ket-vector $\vert A\rangle$ , there is a "bra" vector in the dual space, denoted by $\langle A\vert$ . Why the strange terms bra and ket? Shortly, we will define inner products of bras and kets, using expressions like $\langle B \vert A\rangle$ to form bra-kets or brackets. Inner products are extremely important in the mathematical machinery of quantum mechanics, and for characterizing vector spaces in general.
+As we have seen, the complex numbers have a dual version: in the form of complex conjugate numbers. In the same way, a complex vector space has a dual version that is essentially the complex conjugate vector space. For every ket-vector $\vert A\rangle$ , there is a "bra" vector in the dual space, denoted by $\langle A\vert$ . Why the strange terms bra and ket Shortly, we will define inner products of bras and kets, using expressions like $\langle B \vert A\rangle$ to form bra-kets or brackets. Inner products are extremely important in the mathematical machinery of quantum mechanics, and for characterizing vector spaces in general.
 
 Bra vectors satisfy the same axioms as the ket-vectors, but there are two things to keep in mind about the correspondence between kets and bras:
 1. Suppose $\langle A\vert$ is the bra corresponding to the ket $\vert A\rangle$ , and $\langle B\vert$ is the bra corresponding to the ket $\vert B\rangle$ . Then the bra corresponding to
@@ -177,11 +177,14 @@ $$
 The rule for inner products is essentially the same as for dot products: add the products of corresponding components of the vectors whose inner product is being calculated.
 
 - Normalized Vector: A vector is said to be normalized if its inner product with itself is 1 . Normalized vectors satisfy,
+
 $$
 \langle A \vert A\rangle=1
 $$
 
 - Orthogonal Vectors: Two vectors are said to be orthogonal if their inner product is zero. $\vert A\rangle$ and $\vert B\rangle$ are orthogonal if
+
+
 $$
 \langle B \vert A\rangle=0
 $$
@@ -192,18 +195,21 @@ Obviously, there is nothing special about the particular axes x, y, and z. As lo
 Let’s consider an N-dimensional space and a particular orthonormal basis
 
 of ket-vectors labeled $\vert i\rangle$ The label $i$ runs from 1 to $N$ . Consider a vector $\vert A\rangle$ , written as a sum of basis vectors:
+
 $$
 \vert A\rangle=\sum_{i} \alpha_{i}\vert i\rangle
 $$
+
 The $\alpha_{i}$ are complex numbers called the components of the vector, and to calculate them we take the inner product of both sides with a basis bra $\langle j\vert$ :
+
 $$
 \langle j \vert A\rangle=\sum_{i} \alpha_{i}\langle j \vert i\rangle
 $$
+
 Next, we use the fact that the basis vectors are orthonormal. This implies that $\langle j \vert i\rangle=0$ if $i$ is not equal to $j$ , and $\langle j \vert i\rangle=1$ if $i=j$ . In other words, $\langle j \vert i\rangle=\delta_{i j}$ . This makes the sum in Eq. $1.4$ collapse to one term:
+
 $$
 \langle j \vert A\rangle=\alpha_{j}
 $$
-Thus, we see that the components of a vector are just its inner products with the basis vectors. We can rewrite Eq. $1.3$ in the elegant form
-$$
-\vert A\rangle=\sum_{i}\vert i\rangle\langle i \vert A\rangle
-$$
+
+Thus, we see that the components of a vector are just its inner products with the basis vectors.
