@@ -148,7 +148,13 @@ $$
 \left\vert \Psi_{4}\right\rangle=\sum_{j=0}^{2^{n_{b}-1}} b_{j}\left\vert u_{j}\right\rangle\left\vert N \lambda_{j} t / 2 \pi\right\rangle\vert 0\rangle_{a}
 $$
 
-$\lambda_{j}$ are usually not integers. We will choose $t$ so that $\tilde{\lambda}_{j}=N \lambda_{j} t / 2 \pi$ are integers. Therefore, the encoded values $\tilde{\lambda}_{j}$ can be different from $\lambda_{j} . \Psi_{4}$ can be rewritten as
+$\lambda_{j}$ are usually not integers. We will choose $t$ so that 
+$$\tilde{\lambda}_{j}=N \lambda_{j} t / 2 \pi$$
+are integers. Therefore, the encoded values 
+$$\tilde{\lambda}_{j}$$
+ can be different from 
+$$\lambda_{j} . \Psi_{4}$$
+can be rewritten as
 
 $$
 \left\vert \Psi_{4}\right\rangle=\sum_{j=0}^{2^{n_{b}-1}} b_{j}\left\vert u_{j}\right\rangle\left\vert \tilde{\lambda}_{j}\right\rangle\vert 0\rangle_{a}
@@ -183,7 +189,9 @@ $$
 \left\vert \Psi_{8}\right\rangle=\frac{1}{2^{n / 2} \sqrt{\sum_{j-0}^{2 n-1}\left\vert \frac{b_{2} C}{\lambda_{j}}\right\vert ^{2}}} \sum_{j=0}^{2^{n b-1}} \frac{b_{j} C}{\overline{\lambda_{j}}}\left\vert u_{j}\right\rangle\left(e^{-i \lambda_{j} t} \sum_{j=0}^{2^{n}-1} e^{2 \pi i y \lambda_{j} / N}\vert y\rangle\right)\vert 1\rangle_{a}
 $$
 
-Since we have set $\bar{\lambda}_{j}=N \lambda_{j} t / 2 \pi$, therefore, the two exponential terms cancel each other and
+Since we have set 
+$$\bar{\lambda}_{j}=N \lambda_{j} t / 2 \pi$$
+, therefore, the two exponential terms cancel each other and
 
 $$
 \begin{aligned}
