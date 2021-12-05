@@ -246,7 +246,13 @@ $$\lambda_{1}=2 / 3 \quad \text { and } \quad \lambda_{2}=4 / 3$$
 2 qubits are needed by encoding $\lambda_{1}$ and $\lambda_{2}$ as $\vert01\rangle$ $\vert10\rangle$ so that
 it maintains the ratio of e1/e0 = 2
 
-it maintains the ratio of $e_{1} / e_{0}=2 .$ This means $\tilde{\lambda}_{0}=1$ and $\tilde{\lambda}_{1}=2$ or in other words, $\left\vert \tilde{\lambda_{0}}\right\rangle=\vert 01\rangle$ and $\left\vert \tilde{\lambda_{1}}\right\rangle=\vert 10\rangle$. This gives a perfect encoding with $n=2($ i.e. $N=4)$. Therefore, $t$ is chosen to be $\frac{3 \pi}{4}$ to achieve the encoding scheme since $\tilde{\lambda}_{j}=N \lambda_{j} t / 2 \pi$.
+it maintains the ratio of $e_{1} / e_{0}=2 .$ This means 
+$$\tilde{\lambda}_{0}=1$ and $\tilde{\lambda}_{1}=2$$
+ or in other words, 
+ $$\left\vert \tilde{\lambda_{0}}\right\rangle=\vert 01\rangle$$
+  and 
+ $$\left\vert \tilde{\lambda_{1}}\right\rangle=\vert 10\rangle$$
+ . This gives a perfect encoding with $n=2($ i.e. $N=4)$. Therefore, $t$ is chosen to be $\frac{3 \pi}{4}$ to achieve the encoding scheme since $\tilde{\lambda}_{j}=N \lambda_{j} t / 2 \pi$.
 
 On outcome 1 when measuring the auxiliary qubit, the state is
 
