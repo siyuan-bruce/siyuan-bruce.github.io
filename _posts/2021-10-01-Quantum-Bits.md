@@ -60,7 +60,7 @@ Initially, we have no knowledge of whether $\sigma = +1$ or $\sigma = -1$ . Our 
 Before the apparatus interacts with the spin, the window is blank. After it measures , the window shows a +1 or a −1. By looking at the apparatus, we determine the value of $\sigma$.
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Apparatus.jpg "Image@512x512"){:width="512px"}
+![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Quantum-Bits/Apparatus.jpg "Image@512x512"){:width="512px"}
 
 The spin is now prepared in the $\sigma_{z} = +1$ state. If the spin is not disturbed and the apparatus keeps the same orientation, all subsequent measurements will give the same result.
 
