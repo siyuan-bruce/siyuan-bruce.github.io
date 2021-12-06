@@ -155,3 +155,5 @@ i & 0
 \end{array}\right)
 \end{aligned}
 $$
+
+If we use $\sigma_{x}$ to measure state $\vert up \rangle$, we will have half possibility to get value 0 and half possibility to get value 1. To be mentioned, the corresponding eigenvectors are $\vert left \rangle$ and $\vert right \rangle$. If we still use $\vert up \rangle$ and $\vert down \rangle$ to express the result, we can only get the flipped value.
