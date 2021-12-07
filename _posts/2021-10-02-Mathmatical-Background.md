@@ -216,8 +216,9 @@ Thus, we see that the components of a vector are just its inner products with th
 
 ---
 
-**Reference: **
+**Reference:**
 
+<font color=#999AAA >
 Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
 
 Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.

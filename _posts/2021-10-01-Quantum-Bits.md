@@ -101,9 +101,9 @@ What we are learning is that quantum mechanical systems are not deterministic—
 
 ---
 
-**Reference: **
+**Reference:**
 
-Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+<font color=#999AAA >Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
 
 Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
 
