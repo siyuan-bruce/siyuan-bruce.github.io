@@ -156,3 +156,14 @@ Here is a brief outline of what we did:
 - We found that it takes two independent parameters to specify a spin state, and then we arbitrarily chose one of the orthogonal pairs, $\vert u\rangle$ and $\vert d\rangle$ , as our basis vectors for representing all spin states - even though the two complex numbers in a state-vector require four real numbers to specify them. How did we get away with this? We were clever enough to notice that these four numbers are not all independent. The normalization constraint (total probability must equal 1) eliminates one independent parameter, and "phase indifference" (the physics of a statevector is unaffected by its overall phase-factor) eliminates a second.
 - Having chosen $\vert u\rangle$ and $\vert d\rangle$ as our main basis vectors, we figured out how to represent the other two pairs of basis vectors as linear combinations of $\vert u\rangle$ and $\vert d\rangle$ , using additional orthogonality and probability-based constraints.
 - Finally, we established a way to represent our main basis vectors as columns. This representation is not unique. 
+
+
+---
+
+**Reference: **
+
+Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+
+Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
+
+Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.

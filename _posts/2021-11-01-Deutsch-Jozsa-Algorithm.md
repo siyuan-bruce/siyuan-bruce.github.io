@@ -120,3 +120,14 @@ $$
 Let's look at the two possible cases $f$ constant and $f$ balanced $-$ to discern what happens. In the case where $f$ is constant the amplitude for $\vert 0\rangle^{\otimes n}$ is $+1$ or $-1$, depending on the constant value $f(x)$ takes. Because $\left\vert \psi_{3}\right\rangle$ is of unit length it follows that all the other amplitudes must be zero, and an observation will yield 0s for all qubits in the query register. 
 
 If $f$ is balanced then the positive and negative contributions to the amplitude for $\vert 0\rangle^{\otimes n}$ cancel, leaving an amplitude of zero, and a measurement must yield a result other than 0 on at least one qubit in the query register. 
+
+
+---
+
+**Reference: **
+
+Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+
+Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
+
+Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.

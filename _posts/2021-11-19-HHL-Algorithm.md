@@ -296,3 +296,15 @@ $$
 whereby, the ratio of 
 $$\left\vert x_{0}\right\vert ^{2} \text { to }\left\vert x_{1}\right\vert ^{2} \text { is } 1: 9$$
 . 
+
+---
+
+**Reference: **
+
+Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+
+Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
+
+Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.
+
+Morrell Jr, Hector Jose, and Hiu Yung Wong. "Step-by-Step HHL Algorithm Walkthrough to Enhance the Understanding of Critical Quantum Computing Concepts." arXiv preprint arXiv:2108.09004 (2021).

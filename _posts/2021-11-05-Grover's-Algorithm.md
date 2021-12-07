@@ -93,3 +93,13 @@ Grover Algorithm can help to find specific value in an unsorted array, with quad
   - Classical Algorithm: $\Omega(n)$
   - Quantum Algorithm: $O(\sqrt{n})$
 
+
+---
+
+**Reference: **
+
+Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+
+Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
+
+Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.

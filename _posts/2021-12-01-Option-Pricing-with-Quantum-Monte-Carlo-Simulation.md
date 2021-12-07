@@ -60,3 +60,16 @@ This quadratic dependency in  is analogous to the classical Monte Carlo depen
 ## 2. How to speed up the process by circuit design?
 
 To be further updated.
+
+
+---
+
+**Reference: **
+
+Rebentrost, Patrick, Brajesh Gupt, and Thomas R. Bromley. "Quantum computational finance: Monte Carlo pricing of financial derivatives." Physical Review A 98.2 (2018): 022321.
+
+Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+
+Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
+
+Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.

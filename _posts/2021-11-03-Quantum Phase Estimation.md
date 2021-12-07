@@ -106,3 +106,13 @@ Until now, we can find that the eigenvalue $\theta$ already presents on the stat
 Generally, we would use $U$ as an observables to decribe the system. Therefore, eigenvalues may be expected to be input into state information and join computation. Then we can leverage quantum phase estimation to make eigenvalue into state information. 
 
 Quantum phase estimation would be one part of complex quantum algorithm, which we would further dig into in the next few articles.
+
+---
+
+**Reference: **
+
+Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+
+Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
+
+Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.

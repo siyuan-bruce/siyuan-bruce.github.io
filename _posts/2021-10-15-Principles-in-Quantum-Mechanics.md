@@ -157,3 +157,13 @@ i & 0
 $$
 
 If we use $\sigma_{x}$ to measure state $\vert up \rangle$, we will have half possibility to get value 0 and half possibility to get value 1. To be mentioned, the corresponding eigenvectors are $\vert left \rangle$ and $\vert right \rangle$. If we still use $\vert up \rangle$ and $\vert down \rangle$ to express the result, we can only get the flipped value.
+
+---
+
+**Reference: **
+
+Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+
+Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
+
+Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.
