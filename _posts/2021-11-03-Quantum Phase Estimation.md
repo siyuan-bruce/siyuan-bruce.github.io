@@ -109,10 +109,10 @@ Quantum phase estimation would be one part of complex quantum algorithm, which w
 
 ---
 
-**Reference: **
+**Reference:**
 
-Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.
+`1. Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.`
 
-Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.
+`2. Asfaw, Abraham, et al. "Learn quantum computation using qiskit." Accessed: Oct 24 (2020): 2020.`
 
-Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.
+`3. Susskind, Leonard, and Art Friedman. Quantum mechanics: the theoretical minimum. Basic Books, 2014.`
