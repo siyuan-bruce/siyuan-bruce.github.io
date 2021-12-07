@@ -26,6 +26,7 @@ $$
 $$
 
 Or the unitary matrix:
+
 $$
 U_{Q F T}=\frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} \sum_{k=0}^{N-1} e^{\frac{i 2\pi j k}{N}}\vert k\rangle\langle j\vert 
 $$

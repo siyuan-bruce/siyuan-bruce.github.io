@@ -78,7 +78,7 @@ $$
 $$
 
 - Principle 3: States $\vert u\rangle$ and $\vert d\rangle$ are orthogonal to each other. This can be expressed as
-- 
+
 $$
 \langle u \vert d\rangle=0 .
 $$
