@@ -89,12 +89,11 @@ Deutsch-Jozsa Algorithm extends Deutsch algorithm into $2^{n}$ dimensions.
 The algorithm goes with following precedures:
 
 1. State Preparation
-
+   
 $$
 \left\vert \psi_{0}\right\rangle=\vert 0\rangle^{\otimes n}\vert 1\rangle $$
 
-2. Superposition by using Hardmard Gate
-
+1. Superposition by using Hardmard Gate
 $$
 \left\vert \psi_{1}\right\rangle=\sum_{x \in\{0,1\}^{n}} \frac{\vert x\rangle}{\sqrt{2^{n}}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right]$$
 
