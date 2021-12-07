@@ -13,44 +13,44 @@ For the pricing problem in finance, the main challenge is to compute an expectat
 
 ## 1. How quantum computing can result an expectation value?
 
-### We can implement a rotation onto an ancilla qubit that we can input information into circuit:
+#### We can implement a rotation onto an ancilla qubit that we can input information into circuit:
 
-$$\mathcal{R}|x\rangle|0\rangle=|x\rangle(\sqrt{1-v(x)}|0\rangle+\sqrt{v(x)}|1\rangle)$$
+$$\mathcal{R}\vert x\rangle\vert 0\rangle=\vert x\rangle(\sqrt{1-v(x)}\vert 0\rangle+\sqrt{v(x)}\vert 1\rangle)$$
 
 In this equation, $v$ could be the price of assets and some other information.
 
-### Then we can mesaure $\mathbb{E}[v(\mathcal{A})]$
+#### Then we can mesaure $\mathbb{E}[v(\mathcal{A})]$
 $A$ is an algorithm to describe the distribution of $x$.
 
 $v(A)$ denotes the random variable specified by the algorithm $A$ and the function $v(x)$.
 
-$\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left|a_{x}\right|^{2} v(x)$
+$\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x)$
 
 
 1. Apply the algorithm $A$, 
    
-   $$\mathcal{A}\left|0^{n}\right\rangle=\sum_{x=0}^{2^{n}-1} a_{x}|x\rangle$$
+   $$\mathcal{A}\left\vert 0^{n}\right\rangle=\sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle$$
    
-   where $\left|0^{n}\right\rangle$ denotes the $n$ qubit register with all qubits in the state $|0\rangle$. 
+   where $\left\vert 0^{n}\right\rangle$ denotes the $n$ qubit register with all qubits in the state $\vert 0\rangle$. 
 2. Perform the rotation of an ancilla via $\mathcal{R}$
   $$
   \begin{gathered}
-  \sum_{x=0}^{2^{n}-1} a_{x}|x\rangle|0\rangle \\
-  \rightarrow \sum_{x=0}^{2^{n}-1} a_{x}|x\rangle(\sqrt{1-v(x)}|0\rangle+\sqrt{v(x)}|1\rangle)=:|\chi\rangle
+  \sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle\vert 0\rangle \\
+  \rightarrow \sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle(\sqrt{1-v(x)}\vert 0\rangle+\sqrt{v(x)}\vert 1\rangle)=:\vert \chi\rangle
   \end{gathered}
   $$
 3. Measure the ancilla in the state $\vert 1 \rangle$ obtains as the success probability of the expectation value
   $$
-  \mu:=\left\langle\chi\left|\left(\mathcal{I}_{2^{n}} \otimes|1\rangle\langle 1|\right)\right| \chi\right\rangle=\sum_{x=0}^{2^{n}-1}\left|a_{x}\right|^{2} v(x) \equiv \mathbb{E}[v(\mathcal{A})] .
+  \mu:=\left\langle\chi\left\vert \left(\mathcal{I}_{2^{n}} \otimes\vert 1\rangle\langle 1\vert \right)\right\vert  \chi\right\rangle=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x) \equiv \mathbb{E}[v(\mathcal{A})] .
   $$
 
 
-<!-- Combining the two operations defines a unitary $\mathcal{F}$ and the resulting state $|\chi\rangle$
+<!-- Combining the two operations defines a unitary $\mathcal{F}$ and the resulting state $\vert \chi\rangle$
 $$
-\mathcal{F}\left|0^{n+1}\right\rangle:=\mathcal{R}\left(\mathcal{A} \otimes \mathcal{I}_{2}\right)\left|0^{n+1}\right\rangle \equiv|\chi\rangle .
+\mathcal{F}\left\vert 0^{n+1}\right\rangle:=\mathcal{R}\left(\mathcal{A} \otimes \mathcal{I}_{2}\right)\left\vert 0^{n+1}\right\rangle \equiv\vert \chi\rangle .
 $$ -->
 
-This success probability can be obtained by repeating the procedure $t$ times and collecting the clicks for the |1) state as a fraction of the total measurements. The variance is $\epsilon^{2}=\frac{\mu(1-\mu)}{t}$ from the Bernoulli distribution, i.e. the standard deviation is $\epsilon=\sqrt{\frac{\mu(1-\mu)}{t}}$. Hence, the experiment has to be repeated
+This success probability can be obtained by repeating the procedure $t$ times and collecting the clicks for the \vert 1) state as a fraction of the total measurements. The variance is $\epsilon^{2}=\frac{\mu(1-\mu)}{t}$ from the Bernoulli distribution, i.e. the standard deviation is $\epsilon=\sqrt{\frac{\mu(1-\mu)}{t}}$. Hence, the experiment has to be repeated
 $$
 t=\mathcal{O}\left(\frac{\mu(1-\mu)}{\epsilon^{2}}\right)
 $$
@@ -58,3 +58,5 @@ $$
 This quadratic dependency in  is analogous to the classical Monte Carlo dependency.
 
 ## 2. How to speed up the process by circuit design?
+
+To be further updated.
