@@ -60,7 +60,7 @@ This operation is sometimes referred to as the inversion about mean operation.
 
 ## 3. Visualization
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Grover/Grover.png "Image@512x512"){:width="512px"}
+![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Grover/Grover.png "Image@512x512"){:width="256px"}
 
 In this figure, dimension $\vert \alpha \rangle$ is all dimensions but $\vert \beta \rangle$ . For general Hilbert Space, $\vert \alpha \rangle$ is orthogonal to $\vert \beta \rangle$.
 
