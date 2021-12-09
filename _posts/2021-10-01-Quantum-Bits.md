@@ -41,7 +41,7 @@ $$ \sigma = -1 $$
 Classically, that’s all there is to the space of states. The system is either in state $\sigma = +1$ 
 or $\sigma = -1$ and there is nothing in between. In quantum mechanics, we’ll think of this system as a qubit.
 
-### 3.1. Evalution Law
+### 3.1. Evolution Law
 We now discussed simple evolution laws in quantum world. The simplest law is just that nothing happens. In that case, if we go from one discrete instant (n) to the next (n + 1), the law of evolution is
 
 $$ \mathcal \sigma(n+1) = \sigma(n)
