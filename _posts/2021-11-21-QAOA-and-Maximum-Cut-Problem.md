@@ -104,7 +104,7 @@ f(0 \ldots 00) & 0 & 0 & 0 & 0 \\
 
 
 $$
-C|x\rangle=\left(\begin{array}{ccccc}
+C\vert x\rangle=\left(\begin{array}{ccccc}
 f(0 \ldots 00) & 0 & 0 & 0 & 0 \\
 0 & f(0 \ldots 01) & 0 & 0 & 0 \\
 \vdots & & \ddots & & \\
@@ -117,7 +117,7 @@ f(0 \ldots 00) & 0 & 0 & 0 & 0 \\
 \vdots \\
 0
 
-\end{array}\right)=f(x)|x\rangle \quad \forall x \in\{0,1\}^{n}
+\end{array}\right)=f(x)\vert x\rangle \quad \forall x \in\{0,1\}^{n}
 $$
 
 
@@ -136,7 +136,7 @@ C=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)
 $$
 - Want to show:
 $$
-C|x\rangle=C(\mathbf{x})|x\rangle
+C\vert x\rangle=C(\mathbf{x})\vert x\rangle
 
 $$
 
@@ -156,7 +156,7 @@ $$
 - Note that it has eigenvalues $-1,+1$ with eigenvectors being computational basis states
 $$
 \begin{aligned}
-&Z|0\rangle=\left[\begin{array}{cc}
+&Z\vert 0\rangle=\left[\begin{array}{cc}
 1 & 0 \\
 0 & -1
 
@@ -168,8 +168,8 @@ $$
 1 \\
 0
 
-\end{array}\right]=|0\rangle \\
-&Z|1\rangle=\left[\begin{array}{cc}
+\end{array}\right]=\vert 0\rangle \\
+&Z\vert 1\rangle=\left[\begin{array}{cc}
 1 & 0 \\
 0 & -1
 
@@ -181,7 +181,7 @@ $$
 0 \\
 -1
 
-\end{array}\right]=(-1)|1\rangle
+\end{array}\right]=(-1)\vert 1\rangle
 
 \end{aligned}
 $$
@@ -191,14 +191,14 @@ Therefore,
 
 
 $$
-Z|x\rangle=(-1)^{x}|x\rangle \quad x \in\{0,1\}$$
+Z\vert x\rangle=(-1)^{x}\vert x\rangle \quad x \in\{0,1\}$$
 
 
 - Acting on the i-th qubit:
   $$
   \begin{aligned}
-  Z_{i}\left|x_{0} \ldots x_{n}\right\rangle &=I \otimes \ldots \otimes Z_{i} \otimes \ldots \otimes I\left|x_{0} \ldots x_{n}\right\rangle \\
-  &=(-1)^{x_{i}}\left|x_{0} \ldots x_{n}\right\rangle \quad x_{i} \in\{0,1\}, \quad i=1, \ldots n
+  Z_{i}\left\vert x_{0} \ldots x_{n}\right\rangle &=I \otimes \ldots \otimes Z_{i} \otimes \ldots \otimes I\left\vert x_{0} \ldots x_{n}\right\rangle \\
+  &=(-1)^{x_{i}}\left\vert x_{0} \ldots x_{n}\right\rangle \quad x_{i} \in\{0,1\}, \quad i=1, \ldots n
   \end{aligned}
   $$
 
@@ -206,8 +206,8 @@ Z|x\rangle=(-1)^{x}|x\rangle \quad x \in\{0,1\}$$
 - Acting on the $\mathrm{i}$-th and $\mathrm{j}$-th qubit:
   $$
   \begin{aligned}
-  Z_{i} Z_{j}\left|x_{0} \ldots x_{n}\right\rangle &=I \otimes \ldots \otimes Z_{i} \otimes Z_{j} \otimes \ldots \otimes I\left|x_{0} \ldots x_{n}\right\rangle \\
-  &=(-1)^{x_{i}}(-1)^{x_{j}}\left|x_{0} \ldots x_{n}\right\rangle \quad x_{i} \in\{0,1\}, \quad i=1, \ldots n
+  Z_{i} Z_{j}\left\vert x_{0} \ldots x_{n}\right\rangle &=I \otimes \ldots \otimes Z_{i} \otimes Z_{j} \otimes \ldots \otimes I\left\vert x_{0} \ldots x_{n}\right\rangle \\
+  &=(-1)^{x_{i}}(-1)^{x_{j}}\left\vert x_{0} \ldots x_{n}\right\rangle \quad x_{i} \in\{0,1\}, \quad i=1, \ldots n
   \end{aligned}
   $$
 
@@ -247,10 +247,10 @@ $$
 
 
 $$\begin{aligned}
-C|x\rangle &=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)\left|x_{0} \ldots x_{n}\right\rangle \\
-&=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)\left|x_{0} \ldots x_{n}\right\rangle \\
-&=\frac{1}{2} \sum_{i j \in E}\left(\left|x_{0} \ldots x_{n}\right\rangle-Z_{i} Z_{j}\left|x_{0} \ldots x_{n}\right\rangle\right) \\
-&\left.=\frac{1}{2} \sum_{i j \in E}(1-(-1)^{x_{i}}(-1)^{x_{j}}\right) \left|x_{0} \ldots x_{n}\right\rangle=C(\mathbf{x})|x\rangle \\
+C\vert x\rangle &=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)\left\vert x_{0} \ldots x_{n}\right\rangle \\
+&=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)\left\vert x_{0} \ldots x_{n}\right\rangle \\
+&=\frac{1}{2} \sum_{i j \in E}\left(\left\vert x_{0} \ldots x_{n}\right\rangle-Z_{i} Z_{j}\left\vert x_{0} \ldots x_{n}\right\rangle\right) \\
+&\left.=\frac{1}{2} \sum_{i j \in E}(1-(-1)^{x_{i}}(-1)^{x_{j}}\right) \left\vert x_{0} \ldots x_{n}\right\rangle=C(\mathbf{x})\vert x\rangle \\
 x_{i} & \in\{0,1\}, \quad i=1, \ldots n
 \end{aligned}$$
 
@@ -265,8 +265,8 @@ x_{i} & \in\{0,1\}, \quad i=1, \ldots n
 
 $$
 \begin{aligned}
-|\psi(\boldsymbol{\theta})\rangle &=|\psi(\boldsymbol{\beta}, \gamma)\rangle \\
-&=e^{-i \beta_{p} B} e^{-i \gamma_{p} C} \cdots e^{-i \beta_{1} B} e^{-i \gamma_{1} C} H^{\otimes n}|0\rangle
+\vert \psi(\boldsymbol{\theta})\rangle &=\vert \psi(\boldsymbol{\beta}, \gamma)\rangle \\
+&=e^{-i \beta_{p} B} e^{-i \gamma_{p} C} \cdots e^{-i \beta_{1} B} e^{-i \gamma_{1} C} H^{\otimes n}\vert 0\rangle
 
 \end{aligned}
 $$
@@ -296,7 +296,7 @@ Then a classical optimizer is used to vary the parameters $\boldsymbol{\beta}, \
 
 
 $$
-f(\boldsymbol{\beta}, \boldsymbol{\gamma})=\langle\psi(\boldsymbol{\beta}, \boldsymbol{\gamma})|C| \psi(\boldsymbol{\beta}, \boldsymbol{\gamma})\rangle
+f(\boldsymbol{\beta}, \boldsymbol{\gamma})=\langle\psi(\boldsymbol{\beta}, \boldsymbol{\gamma})\vert C\vert  \psi(\boldsymbol{\beta}, \boldsymbol{\gamma})\rangle
 
 $$
 
