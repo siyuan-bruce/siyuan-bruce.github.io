@@ -58,9 +58,9 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 ---
 
 ## Volunteer
-- Director at South China University of Technology Innovation Club for Science and TechnologySouth China University of Technology Innovation Club for Science and Technology
+- Director at South China University of Technology Innovation Club for Science and Technology
   Sep 2018 - Mar 2019
-- Member of South China University of Technology Innovation Club for Science and TechnologySouth China University of Technology Innovation Club for Science and Technology
+- Member of South China University of Technology Innovation Club for Science and Technology
   Mar 2018 - Sep 2018 
 
 ## Award
