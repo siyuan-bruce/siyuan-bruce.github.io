@@ -44,7 +44,10 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 - South China University of Technology (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
   - GPA: 3.83 / 4.00 
   - Rank: 1 / 33
-- Obtained 2020 China National Scholarship
+- Obtained 2021 University-level excellent graduation thesis
+- Obtained 2020 China National Scholarship (Top 0.1%)
+- Obtained 2019 First prize of South China University of Technology (Top 1%)
+- Obtained 2018 First prize of South China University of Technology (Top 1%)
 
 ---
 
@@ -54,11 +57,18 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 
 ---
 
+## Volunteer
+- Director at South China University of Technology Innovation Club for Science and TechnologySouth China University of Technology Innovation Club for Science and Technology
+  Sep 2018 - Mar 2019
+- Member of South China University of Technology Innovation Club for Science and TechnologySouth China University of Technology Innovation Club for Science and Technology
+  Mar 2018 - Sep 2018 
+
+## Award
+- 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
 ## Skills
 ### Language
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
-
 
 ---
 
