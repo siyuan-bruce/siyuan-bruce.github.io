@@ -1,5 +1,5 @@
 ---
-title: QAOA-and-Maximum-Cut-Problem
+title: QAOA and Maximum Cut Problem
 
 tags: QuantumComputing
 
