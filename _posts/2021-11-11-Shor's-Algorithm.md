@@ -22,12 +22,14 @@ Order-finding is believed to be a hard problem on a classical computer, in the s
 
 Inputs: 
 
-(1) A black box $U_{x, N}$ which performs the transformation $\vert j\rangle\vert k\rangle \rightarrow\vert j\rangle\left\vert x^{j} k \bmod N\right\rangle$, for $x$ co-prime to the $L$-bit number $N
+(1) A black box $U_{x, N}$ which performs the transformation $\vert j\rangle\vert k\rangle \rightarrow\vert j\rangle\left\vert x^{j} k \bmod N\right\rangle$, for $x$ co-prime to the $L$-bit number $N$
 
-(2)$ $t=2 L+1+\left\lceil\log \left(2+\frac{1}{2 \epsilon}\right)\right\rceil$ qubits initialized to $\vert 0\rangle$
+(2) $$t=2 L+1+\left\lceil\log \left(2+\frac{1}{2 \epsilon}\right)\right\rceil$$
+ qubits initialized to $\vert 0\rangle$
 
 (3) $L$ qubits initialized to the state $\vert 1\rangle$.
 Outputs: The least integer $r>0$ such that $x^{r}=1(\bmod N)$.
+
 Runtime: $O\left(L^{3}\right)$ operations. Succeeds with probability $O(1)$.
 
 **Procedure:**
