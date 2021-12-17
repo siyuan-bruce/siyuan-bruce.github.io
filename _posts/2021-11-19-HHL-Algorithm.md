@@ -78,6 +78,7 @@ by using the fact that $\left\langle u_{i} \mid u_{j}\right\rangle=\delta_{i j}$
 ## 2. State Preparation
 
 There are total $n_{b}+n+1$ qubits, and they are initialized as
+
 $$
 \left\vert \Psi_{0}\right\rangle=\vert 0 \cdots 0\rangle_{b}\vert 0 \cdots 0\rangle_{c}\vert 0\rangle_{a}=\vert 0\rangle^{\otimes n_{b}}\vert 0\rangle^{\otimes n}\vert 0\rangle
 $$
@@ -92,8 +93,6 @@ $$
 \beta_{N_{b}-1}
 \end{array}\right) \Leftrightarrow \beta_{0}\vert 0\rangle+\beta_{1}\vert 1\rangle+\cdots+\beta_{N_{b}-1}\left\vert N_{b}-1\right\rangle=\vert b\rangle
 $$
-
-
 
 The vector $\vec{b}$ is represented in a column form on the left with coefficients $\beta^{\prime} s$, which is also a valid representation of $\vert b\rangle$. On the right, the corresponding basis of the Hilbert space formed by the $n_{b}$ qubits is written explicitly. Therefore,
 
