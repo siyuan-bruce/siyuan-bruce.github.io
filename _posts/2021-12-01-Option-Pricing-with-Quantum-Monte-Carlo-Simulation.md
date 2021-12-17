@@ -193,7 +193,7 @@ Therefore, by evaluating $\sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)$ we
 
 ## 4. Qiskit Implementation
 
-```python
+```
 import matplotlib.pyplot as plt
 
 %matplotlib inline
@@ -247,7 +247,7 @@ plt.show()
 ![Image](https://jsybruce.github.io/Homepage/assets/images/posts/OptionPricing/data.png "data distribution"){:width="512px"}
 
 
-```python
+```
 # set the strike price (should be within the low and the high value of the uncertainty)
 strike_price = 1.896
 
@@ -294,7 +294,7 @@ plt.show()
 ![Image](https://jsybruce.github.io/Homepage/assets/images/posts/OptionPricing/payoff.png "payoff function"){:width="512px"}
 
 
-```python
+```
 # set target precision and confidence level
 epsilon = 0.01
 alpha = 0.05
