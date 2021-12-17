@@ -337,3 +337,5 @@ In this qiskit example, we leverage a LinearAmplititudeFunction to translate $f(
 `4. Rebentrost, Patrick; Gupt, Brajesh; Bromley, Thomas R. (2018): Quantum computational finance: Monte Carlo pricing of financial derivatives. In Phys. Rev. A 98 (2), p. 41. DOI: 10.1103/PhysRevA.98.022321.`
 
 `5. Brassard, Gilles, et al. "Quantum amplitude amplification and estimation." Contemporary Mathematics 305 (2002): 53-74.`
+
+`6. Stamatopoulos, Nikitas, et al. "Option pricing using quantum computers." Quantum 4 (2020): 291.`
