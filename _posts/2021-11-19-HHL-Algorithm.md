@@ -77,7 +77,7 @@ by using the fact that $\left\langle u_{i} \mid u_{j}\right\rangle=\delta_{i j}$
 
 ## 2. State Preparation
 
-There are total $n_{b}+n+1$ qubits, and they are initialized as
+There are total $n_{b}+n+1$ qubits, and they are initialized as:
 
 $$
 \left\vert \Psi_{0}\right\rangle=\vert 0 \cdots 0\rangle_{b}\vert 0 \cdots 0\rangle_{c}\vert 0\rangle_{a}=\vert 0\rangle^{\otimes n_{b}}\vert 0\rangle^{\otimes n}\vert 0\rangle
@@ -106,8 +106,6 @@ From now on, some of the subscripts of the kets will be omitted when there is no
 
 
 ## 3. Phase Estimation
-
-
 
 Quantum phase estimation (QPE) is also an eigenvalue estimation algorithm. QPE has three components, namely the superposition of the clock qubits through Hadamard gates, controlled rotation, and Inverse Quantum Fourier Transform (IQFT). Here we assume the readers are already familiar with IQFT and it will not be explained in detail. In the first step where a superposition of the clock qubits is created, Hadamard gates are applied to the clock qubits to obtain,
 
