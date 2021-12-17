@@ -66,7 +66,7 @@ The basic idea is that we can levarage Quantum Amplititude Estimation to achieve
 AE uses $m$ additional sampling qubits and Quantum Phase Estimation to produce an estimator $\tilde{a}=\sin ^{2}(y \pi / M)$ of $a$, where $y \in\{0, \ldots, M-1\}$ and $M$ (the number of samples, is $2^{m}$). The estimator $\tilde{a}$ satisfies
 
 $$
-|a-\tilde{a}| \leq \frac{\pi}{M}+\frac{\pi^{2}}{M^{2}}=O\left(M^{-1}\right) \text {, }
+\vert a-\tilde{a}\vert  \leq \frac{\pi}{M}+\frac{\pi^{2}}{M^{2}}=O\left(M^{-1}\right) \text {, }
 $$
 
 with probability of at least $8 / \pi^{2}$. This represents a quadratic speedup compared to the $O\left(M^{-1 / 2}\right)$ convergence rate of classical Monte Carlo methods.
@@ -93,7 +93,7 @@ Overall, we can see the task of the quantum algorithm will be to improve the $\e
 To use $A E$ to estimate quantities related to a random variable $X$ we must first represent $X$ as a quantum state. Using $n$ qubits we $\operatorname{map} X$ to the interval $\{0, \ldots, N-1\}$, where $N=2^{n} . X$ is then represented by the state
 
 $$
-\mathcal{R}|0\rangle_{n}=|\psi\rangle_{n}=\sum_{i=0}^{N-1} \sqrt{p_{i}}|i\rangle_{n} \quad \text { with } \sum_{i=0}^{N-1} p_{i}=1
+\mathcal{R}\vert 0\rangle_{n}=\vert \psi\rangle_{n}=\sum_{i=0}^{N-1} \sqrt{p_{i}}\vert i\rangle_{n} \quad \text { with } \sum_{i=0}^{N-1} p_{i}=1
 $$
 
 We now look at the overall circuit for this problem.
@@ -102,52 +102,52 @@ We now look at the overall circuit for this problem.
 
 Note that we can slightly redefine the quantity being measured. Define the unitary
 $$
-\mathcal{V}:=\mathcal{I}_{2^{n+1}}-2 \mathcal{I}_{2^{n}} \otimes|1\rangle\langle 1|,
+\mathcal{V}:=\mathcal{I}_{2^{n+1}}-2 \mathcal{I}_{2^{n}} \otimes\vert 1\rangle\langle 1\vert ,
 $$
-for which $\mathcal{V}=\mathcal{V}^{\dagger}$ and $\mathcal{V}^{2}=\mathcal{I}_{2^{n+1}} .$ A measurement of $\mathcal{V}$ on $|\chi\rangle$ obtains $\langle\chi|\mathcal{V}| \chi\rangle=1-2 \mu$. From this measurement we can extract the desired expectation value.
-Any quantum state in the $(n+1)$-qubit Hilbert space can be expressed as a linear combination of $|\chi\rangle$ and a specific orthogonal complement $\left|\chi^{\perp}\right\rangle$. Thus, we can express $\mathcal{V}|\chi\rangle=\cos (\theta / 2)|\chi\rangle+e^{i \phi} \sin (\theta / 2)\left|\chi^{\perp}\right\rangle$, with the angles $\phi$ and $\theta$. Note that our expectation value can be retrieved via
+for which $\mathcal{V}=\mathcal{V}^{\dagger}$ and $\mathcal{V}^{2}=\mathcal{I}_{2^{n+1}} .$ A measurement of $\mathcal{V}$ on $\vert \chi\rangle$ obtains $\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$. From this measurement we can extract the desired expectation value.
+Any quantum state in the $(n+1)$-qubit Hilbert space can be expressed as a linear combination of $\vert \chi\rangle$ and a specific orthogonal complement $\left\vert \chi^{\perp}\right\rangle$. Thus, we can express $\mathcal{V}\vert \chi\rangle=\cos (\theta / 2)\vert \chi\rangle+e^{i \phi} \sin (\theta / 2)\left\vert \chi^{\perp}\right\rangle$, with the angles $\phi$ and $\theta$. Note that our expectation value can be retrieved via
 $$
 1-2 \mu=\cos (\theta / 2) \text {. }
 $$
 The task becomes to measure $\theta$. **We now define a transformation $\mathcal{Q}$ that encodes $\theta$ in its eigenvalues.** First, define the unitary reflection
 $$
-\mathcal{U}:=\mathcal{I}_{2^{n+1}}-2|\chi\rangle\langle\chi| \text {, }
+\mathcal{U}:=\mathcal{I}_{2^{n+1}}-2\vert \chi\rangle\langle\chi\vert  \text {, }
 $$
-which acts as $\mathcal{U}|\chi\rangle=-|\chi\rangle$ and $\mathcal{U}\left|\chi^{\perp}\right\rangle=\left|\chi^{\perp}\right\rangle$ for any orthogonal state. Note that $-\mathcal{U}$ reflects across $|\chi\rangle$ and leaves $|\chi\rangle$ itself unchanged. This unitary can be implemented as $\mathcal{U}=\mathcal{F Z F}^{\dagger}$, where $\mathcal{F}^{\dagger}$ is the inverse of $\mathcal{F}$ and $\mathcal{Z}:=\mathcal{I}_{2^{n+1}}-2\left|0^{n+1}\right\rangle\left\langle 0^{n+1}\right|$ is the reflection of the computational zero state. Similarly, define the unitary
+which acts as $\mathcal{U}\vert \chi\rangle=-\vert \chi\rangle$ and $\mathcal{U}\left\vert \chi^{\perp}\right\rangle=\left\vert \chi^{\perp}\right\rangle$ for any orthogonal state. Note that $-\mathcal{U}$ reflects across $\vert \chi\rangle$ and leaves $\vert \chi\rangle$ itself unchanged. This unitary can be implemented as $\mathcal{U}=\mathcal{F Z F}^{\dagger}$, where $\mathcal{F}^{\dagger}$ is the inverse of $\mathcal{F}$ and $\mathcal{Z}:=\mathcal{I}_{2^{n+1}}-2\left\vert 0^{n+1}\right\rangle\left\langle 0^{n+1}\right\vert $ is the reflection of the computational zero state. Similarly, define the unitary
 $$
-\mathcal{S}:=\mathcal{I}_{2^{n+1}}-2 \mathcal{V}|\chi\rangle\langle\chi| \mathcal{V} \equiv \mathcal{V} \mathcal{U} \mathcal{V} .
+\mathcal{S}:=\mathcal{I}_{2^{n+1}}-2 \mathcal{V}\vert \chi\rangle\langle\chi\vert  \mathcal{V} \equiv \mathcal{V} \mathcal{U} \mathcal{V} .
 $$
 
-Note that $-\mathcal{S}$ reflects across $\mathcal{V}|\chi\rangle$ and leaves $\mathcal{V}|\chi\rangle$ itself unchanged. The transformation
+Note that $-\mathcal{S}$ reflects across $\mathcal{V}\vert \chi\rangle$ and leaves $\mathcal{V}\vert \chi\rangle$ itself unchanged. The transformation
 $$
 \mathcal{Q}:=\mathcal{U S}=\mathcal{U V U V}
 $$
-performs a rotation by an angle $2 \theta$ in the two-dimensional Hilbert space spanned by $|\chi\rangle$ and $\mathcal{V}|\chi\rangle$. Figure 2 (a) shows the breakdown of $\mathcal{Q}$ into its constituent unitaries and Fig. 2 (b) illustrates how $\mathcal{Q}$ imprints a phase of $2 \theta$ via the reflections just discussed. The eigenvalues of $\mathcal{Q}$ are $e^{\pm i \theta}$ with corresponding eigenstates $\left|\psi_{\pm}\right\rangle$. The task is to resolve these eigenvalues via phase estimation.
+performs a rotation by an angle $2 \theta$ in the two-dimensional Hilbert space spanned by $\vert \chi\rangle$ and $\mathcal{V}\vert \chi\rangle$. Figure 2 (a) shows the breakdown of $\mathcal{Q}$ into its constituent unitaries and Fig. 2 (b) illustrates how $\mathcal{Q}$ imprints a phase of $2 \theta$ via the reflections just discussed. The eigenvalues of $\mathcal{Q}$ are $e^{\pm i \theta}$ with corresponding eigenstates $\left\vert \psi_{\pm}\right\rangle$. The task is to resolve these eigenvalues via phase estimation.
 
 For phase estimation, we require the conditional application of the operation $\mathcal{Q}$. Concretely, we require
 $$
-\mathcal{Q}^{c}:|j\rangle|\psi\rangle \rightarrow|j\rangle \mathcal{Q}^{j}|\psi\rangle
+\mathcal{Q}^{c}:\vert j\rangle\vert \psi\rangle \rightarrow\vert j\rangle \mathcal{Q}^{j}\vert \psi\rangle
 $$
 
-for an arbitrary $n$ qubit state $|\psi\rangle$. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $|\chi\rangle$ by applying $\mathcal{F}$ to a register of qubits in $\left|0^{n+1}\right\rangle$. Then prepare an additional $m$-qubit register in the uniform superposition via the Hadamard operation $\mathcal{H}$
+for an arbitrary $n$ qubit state $\vert \psi\rangle$. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $\vert \chi\rangle$ by applying $\mathcal{F}$ to a register of qubits in $\left\vert 0^{n+1}\right\rangle$. Then prepare an additional $m$-qubit register in the uniform superposition via the Hadamard operation $\mathcal{H}$
 
 $$
-\mathcal{H}^{\otimes m}\left|0^{m}\right\rangle|\chi\rangle=\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}|j\rangle|\chi\rangle
+\mathcal{H}^{\otimes m}\left\vert 0^{m}\right\rangle\vert \chi\rangle=\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle\vert \chi\rangle
 $$
 
 Then perform the controlled operation $\mathcal{Q}^{c}$ to obtain
 
 $$
-\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}|j\rangle \mathcal{Q}^{j}|\chi\rangle
+\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle \mathcal{Q}^{j}\vert \chi\rangle
 $$
 
-One can show that $|\chi\rangle=\frac{1}{\sqrt{2}}\left(\left|\psi_{+}\right\rangle+\left|\psi_{-}\right\rangle\right)$is the expansion of $|\chi\rangle$ into the two eigenvectors of $\mathcal{Q}$ corresponding to the eigenvalues $e^{\pm i \theta}[15]$. An inverse quantum Fourier transformation applied to Eq. (30) prepares the state
+One can show that $\vert \chi\rangle=\frac{1}{\sqrt{2}}\left(\left\vert \psi_{+}\right\rangle+\left\vert \psi_{-}\right\rangle\right)$is the expansion of $\vert \chi\rangle$ into the two eigenvectors of $\mathcal{Q}$ corresponding to the eigenvalues $e^{\pm i \theta}[15]$. An inverse quantum Fourier transformation applied to Eq. (30) prepares the state
 
 $$
-\sum_{x=0}^{2^{m}-1} \alpha_{+}(x)|x\rangle\left|\psi_{+}\right\rangle+\alpha_{-}(x)|x\rangle\left|\psi_{-}\right\rangle
+\sum_{x=0}^{2^{m}-1} \alpha_{+}(x)\vert x\rangle\left\vert \psi_{+}\right\rangle+\alpha_{-}(x)\vert x\rangle\left\vert \psi_{-}\right\rangle
 $$
 
-The $\left|\alpha_{\pm}(x)\right|^{2}$ are peaked where $x / 2^{m}=\pm \hat{\theta}$ is an $m$-bit approximation to $\pm \theta$. Hence, measurement of the $|x\rangle$ register will retrieve the approximations $\pm \hat{\theta}$.
+The $\left\vert \alpha_{\pm}(x)\right\vert ^{2}$ are peaked where $x / 2^{m}=\pm \hat{\theta}$ is an $m$-bit approximation to $\pm \theta$. Hence, measurement of the $\vert x\rangle$ register will retrieve the approximations $\pm \hat{\theta}$.
 
 Overall, quantum amplititude estimation can help us to find $\tilde{a}=\sin ^{2}(y \pi / M)$.
 
@@ -160,20 +160,20 @@ Taking a dffierent step, we can set $f(i)$ inside sin function ($sinf(i)$.)
 
 The payoff function for the option contracts of interest is piece-wise linear and as such we only need to consider linear functions $f:\left\{0, \ldots, 2^{n}-1\right\} \rightarrow[0,1]$ which we write $f(i)=f_{1} i+f_{0}$. We can efficiently create an operator that performs
 $$
-|i\rangle_{n}|0\rangle \rightarrow|i\rangle_{n}(\cos [f(i)]|0\rangle+\sin [f(i)]|1\rangle)
+\vert i\rangle_{n}\vert 0\rangle \rightarrow\vert i\rangle_{n}(\cos [f(i)]\vert 0\rangle+\sin [f(i)]\vert 1\rangle)
 $$
 using controlled Y-rotations. 
 
 
-We now describe how to obtain $\mathbb{E}[f(X)]$ for a linear function $f$ of a random variable $X$ which is mapped to integer values $i \in\left\{0, \ldots, 2^{n}-1\right\}$ that occur with probability $p_{i}$ respectively. To do this we use the procedure outlined immediately above to create the operator that maps $\sum_{i} \sqrt{p_{i}}|i\rangle_{n}|0\rangle$ to
+We now describe how to obtain $\mathbb{E}[f(X)]$ for a linear function $f$ of a random variable $X$ which is mapped to integer values $i \in\left\{0, \ldots, 2^{n}-1\right\}$ that occur with probability $p_{i}$ respectively. To do this we use the procedure outlined immediately above to create the operator that maps $\sum_{i} \sqrt{p_{i}}\vert i\rangle_{n}\vert 0\rangle$ to
 $$
-\sum_{i=0}^{2^{n}-1} \sqrt{p_{i}}|i\rangle_{n}\left[\cos \left(c \tilde{f}(i)+\frac{\pi}{4}\right)|0\rangle+\sin \left(c \tilde{f}(i)+\frac{\pi}{4}\right)|1\rangle\right]
+\sum_{i=0}^{2^{n}-1} \sqrt{p_{i}}\vert i\rangle_{n}\left[\cos \left(c \tilde{f}(i)+\frac{\pi}{4}\right)\vert 0\rangle+\sin \left(c \tilde{f}(i)+\frac{\pi}{4}\right)\vert 1\rangle\right]
 $$
 where $\tilde{f}(i)$ is a scaled version of $f(i)$ given by
 $$
 \tilde{f}(i)=2 \frac{f(i)-f_{\min }}{f_{\max }-f_{\min }}-1,
 $$
-with $f_{\min }=\min _{i} f(i)$ and $f_{\max }=\max _{i} f(i)$, and $c \in[0,1]$ is an additional scaling parameter. The relation in Eq. (11) is chosen so that $\tilde{f}(i) \in[-1,1]$. Consequently, $\sin ^{2}[c \tilde{f}(i)+\pi / 4]$ is an anti-symmetric function around $\tilde{f}(i)=0$. With these definitions, the probability to find the ancilla qubit in state $|1\rangle$, namely
+with $f_{\min }=\min _{i} f(i)$ and $f_{\max }=\max _{i} f(i)$, and $c \in[0,1]$ is an additional scaling parameter. The relation in Eq. (11) is chosen so that $\tilde{f}(i) \in[-1,1]$. Consequently, $\sin ^{2}[c \tilde{f}(i)+\pi / 4]$ is an anti-symmetric function around $\tilde{f}(i)=0$. With these definitions, the probability to find the ancilla qubit in state $\vert 1\rangle$, namely
 $$
 P_{1}=\sum_{i=0}^{2^{n}-1} p_{i} \sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)
 $$
