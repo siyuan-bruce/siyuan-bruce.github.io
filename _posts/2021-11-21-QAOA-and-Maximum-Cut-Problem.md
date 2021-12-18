@@ -58,9 +58,9 @@ For the following example, the answer would be that six edges are cut.
 
 ## 2. Solving Combinatorial Optimization Problems on a Quantum Computer
 
+**Maximizing objective:** 
 
-
-**Maximizing objective:** $\max _{\mathbf{s}} C(\mathbf{s})=\frac{1}{2} \sum_{i j \in E}\left(1-s_{i} s_{j}\right)$
+$$\max _{\mathbf{s}} C(\mathbf{s})=\frac{1}{2} \sum_{i j \in E}\left(1-s_{i} s_{j}\right)$$
 
 
 **Objective in Quantum Computing:** Characterizing a Hamiltonian (Hermitian operator) $C$
@@ -83,7 +83,6 @@ Since the Hamiltonian is classical, this eigenstate is a computational basis sta
 
 Hamiltonian is diagonal, with values on the diagonal corresponding to the
 values of the objective function.
-
 
 As we discussed, our objective function is:
 $$\max _{x \in\{0,1\}^{n}} f(x)$$
@@ -135,9 +134,9 @@ $$
 C=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)
 $$
 - Want to show:
+- 
 $$
 C\vert x\rangle=C(\mathbf{x})\vert x\rangle
-
 $$
 
 
@@ -148,51 +147,42 @@ $$
 Z=\left[\begin{array}{cc}
 1 & 0 \\
 0 & -1
-
 \end{array}\right]
 $$
 
 
 - Note that it has eigenvalues $-1,+1$ with eigenvectors being computational basis states
-$$
-\begin{aligned}
-&Z\vert 0\rangle=\left[\begin{array}{cc}
-1 & 0 \\
-0 & -1
-
-\end{array}\right]\left[\begin{array}{l}
-1 \\
-0
-
-\end{array}\right]=\left[\begin{array}{c}
-1 \\
-0
-
-\end{array}\right]=\vert 0\rangle \\
-&Z\vert 1\rangle=\left[\begin{array}{cc}
-1 & 0 \\
-0 & -1
-
-\end{array}\right]\left[\begin{array}{l}
-0 \\
-1
-
-\end{array}\right]=\left[\begin{array}{c}
-0 \\
--1
-
-\end{array}\right]=(-1)\vert 1\rangle
-
-\end{aligned}
-$$
+  $$
+  \begin{aligned}
+  &Z\vert 0\rangle=\left[\begin{array}{cc}
+  1 & 0 \\
+  0 & -1
+  \end{array}\right]\left[\begin{array}{l}
+  1 \\
+  0
+  \end{array}\right]=\left[\begin{array}{c}
+  1 \\
+  0
+  \end{array}\right]=\vert 0\rangle \\
+  &Z\vert 1\rangle=\left[\begin{array}{cc}
+  1 & 0 \\
+  0 & -1
+  \end{array}\right]\left[\begin{array}{l}
+  0 \\
+  1
+  \end{array}\right]=\left[\begin{array}{c}
+  0 \\
+  -1
+  \end{array}\right]=(-1)\vert 1\rangle
+  \end{aligned}
+  $$
 
 
 Therefore,
 
-
 $$
-Z\vert x\rangle=(-1)^{x}\vert x\rangle \quad x \in\{0,1\}$$
-
+Z\vert x\rangle=(-1)^{x}\vert x\rangle \quad x \in\{0,1\}
+$$
 
 - Acting on the i-th qubit:
   $$
