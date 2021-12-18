@@ -116,22 +116,23 @@ $$\mathcal{V}$$
   obtains 
   $$\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$$ 
   . From this measurement we can extract the desired expectation value.
-Any quantum state in the $(n+1)$-qubit Hilbert space can be expressed as a linear combination of $
-$\vert \chi\rangle$$
- and a specific orthogonal complement $$\left\vert \chi^{\perp}\right\rangle$$
+Any quantum state in the $(n+1)$-qubit Hilbert space can be expressed as a linear combination of 
+$$\vert \chi\rangle$$
+ and a specific orthogonal complement 
+ $$\left\vert \chi^{\perp}\right\rangle$$
  . Thus, we can express 
  $$\mathcal{V}\vert \chi\rangle=\cos (\theta / 2)\vert \chi\rangle+e^{i \phi} \sin (\theta / 2)\left\vert \chi^{\perp}\right\rangle$$
  , with the angles $\phi$ and $\theta$. Note that our expectation value can be retrieved via
 
 $$
-1-2 \mu=\cos (\theta / 2) \text {. }
+1-2 \mu=\cos (\theta / 2)
 $$
 
 The task becomes to measure $\theta$. 
 
 **We now define a transformation $\mathcal{Q}$ that encodes $\theta$ in its eigenvalues.** First, define the unitary reflection
 $$
-\mathcal{U}:=\mathcal{I}_{2^{n+1}}-2\vert \chi\rangle\langle\chi\vert  \text {, }
+\mathcal{U}:=\mathcal{I}_{2^{n+1}}-2\vert \chi\rangle\langle\chi\vert
 $$
 which acts as $\mathcal{U}\vert \chi\rangle=-\vert \chi\rangle$ and $\mathcal{U}\left\vert \chi^{\perp}\right\rangle=\left\vert \chi^{\perp}\right\rangle$ for any orthogonal state. Note that $-\mathcal{U}$ reflects across $\vert \chi\rangle$ and leaves $\vert \chi\rangle$ itself unchanged. This unitary can be implemented as $\mathcal{U}=\mathcal{F Z F}^{\dagger}$, where $\mathcal{F}^{\dagger}$ is the inverse of $\mathcal{F}$ and $\mathcal{Z}:=\mathcal{I}_{2^{n+1}}-2\left\vert 0^{n+1}\right\rangle\left\langle 0^{n+1}\right\vert $ is the reflection of the computational zero state. Similarly, define the unitary
 $$

@@ -22,7 +22,7 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : Si's Quantum Computing House
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+ Notes about Quantum Computing
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
