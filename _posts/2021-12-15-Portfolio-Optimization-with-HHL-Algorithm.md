@@ -54,31 +54,31 @@ $$
 \end{array}\right) .
 $$
 
-Quantum mechanically, we solve the corresponding linear system $\hat{M}|\eta, \theta, \vec{w}\rangle=|\mu, \xi, \overrightarrow{0}\rangle$ via the HHL algorithm and its variants. The eigenvalues of the matrix $\hat{M}=M / \operatorname{Tr} M$ are denoted by $\lambda_{j}$ and the eigenvectors by $\left|u_{j}\right\rangle$. The right-hand side becomes the normalized quantum state $|\mu, \xi, \overrightarrow{0}\rangle .$ Such a state is easy to prepare since it only consists of the two quantities $\mu$ and $\xi$. The solution the HHL algorithm provides is the normalized quantum state:
+Quantum mechanically, we solve the corresponding linear system $\hat{M}\vert \eta, \theta, \vec{w}\rangle=\vert \mu, \xi, \overrightarrow{0}\rangle$ via the HHL algorithm and its variants. The eigenvalues of the matrix $\hat{M}=M / \operatorname{Tr} M$ are denoted by $\lambda_{j}$ and the eigenvectors by $\left\vert u_{j}\right\rangle$. The right-hand side becomes the normalized quantum state $\vert \mu, \xi, \overrightarrow{0}\rangle .$ Such a state is easy to prepare since it only consists of the two quantities $\mu$ and $\xi$. The solution the HHL algorithm provides is the normalized quantum state:
 
 $$
-|\eta, \theta, \vec{w}\rangle=\frac{1}{|v|} \sum_{j: \lambda_{j} \geq 1 / \kappa} \frac{\beta_{j}}{\lambda_{j}}\left|u_{j}\right\rangle,
+\vert \eta, \theta, \vec{w}\rangle=\frac{1}{\vert v\vert } \sum_{j: \lambda_{j} \geq 1 / \kappa} \frac{\beta_{j}}{\lambda_{j}}\left\vert u_{j}\right\rangle,
 $$
 
-with the norm $|v|=\sqrt{\sum_{j: \lambda_{j} \geq 1 / \kappa}\left(\beta_{j} / \lambda_{j}\right)^{2}}$ and $\beta_{j}:=\left\langle u_{j} \mid \mu, \xi, \overrightarrow{0}\right\rangle .$ Here, $\kappa$ is chosen to be a constant. The HHL algorithm projects onto the well-conditioned subspace with eigenvalues greater than $1 / \kappa$. In this way, the algorithm finds the pseudoinverse of $\hat{M}$ in such a way that only eigenvalues $\lambda_{j} \geq 1 / \kappa$ are taken into account. Let us denote this pseudoinverse by $\hat{M}_{\kappa}^{-1}$. The procedure is equal to the actual pseudoinverse $\hat{M}^{-1}$ whenever $1 / \kappa$ is smaller than the smallest eigenvalue $\left|\lambda_{\min }\right|$ of $\hat{M}$. Otherwise, $\hat{M}_{\kappa}^{-1}|\overrightarrow{0}, \mu, \xi\rangle$ approximates $\hat{M}^{-1}|\overrightarrow{0}, \mu, \xi\rangle$ to an error
+with the norm $\vert v\vert =\sqrt{\sum_{j: \lambda_{j} \geq 1 / \kappa}\left(\beta_{j} / \lambda_{j}\right)^{2}}$ and $\beta_{j}:=\left\langle u_{j} \mid \mu, \xi, \overrightarrow{0}\right\rangle .$ Here, $\kappa$ is chosen to be a constant. The HHL algorithm projects onto the well-conditioned subspace with eigenvalues greater than $1 / \kappa$. In this way, the algorithm finds the pseudoinverse of $\hat{M}$ in such a way that only eigenvalues $\lambda_{j} \geq 1 / \kappa$ are taken into account. Let us denote this pseudoinverse by $\hat{M}_{\kappa}^{-1}$. The procedure is equal to the actual pseudoinverse $\hat{M}^{-1}$ whenever $1 / \kappa$ is smaller than the smallest eigenvalue $\left\vert \lambda_{\min }\right\vert $ of $\hat{M}$. Otherwise, $\hat{M}_{\kappa}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$ approximates $\hat{M}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$ to an error
 
 $$
-\left.\epsilon_{\kappa}:=\left|\hat{M}_{\kappa}^{-1}\right| \overrightarrow{0}, \mu, \xi\right\rangle-\left.\hat{M}^{-1}|\overrightarrow{0}, \mu, \xi\rangle\right|_{2}
+\left.\epsilon_{\kappa}:=\left\vert \hat{M}_{\kappa}^{-1}\right\vert  \overrightarrow{0}, \mu, \xi\right\rangle-\left.\hat{M}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle\right\vert _{2}
 $$
 
-Thus, efficient quantum portfolio optimization requires $\kappa=O($ poly $(\log d))$, but also the requirement that $\hat{M}$ to be such that either (1) $\left|\lambda_{\min }\right| \geq 1 / \kappa$, with no additional errors in finding the pseudoinverse, or (2) $\left|\lambda_{\min }\right|<1 / \kappa$ but with $\epsilon_{\kappa}=\mathcal{O}(\epsilon)$ so that the error $\epsilon_{\kappa}$ accumulates in accordance with an overall desired error $\mathcal{O}(\epsilon)$.
+Thus, efficient quantum portfolio optimization requires $\kappa=O($ poly $(\log d))$, but also the requirement that $\hat{M}$ to be such that either (1) $\left\vert \lambda_{\min }\right\vert  \geq 1 / \kappa$, with no additional errors in finding the pseudoinverse, or (2) $\left\vert \lambda_{\min }\right\vert <1 / \kappa$ but with $\epsilon_{\kappa}=\mathcal{O}(\epsilon)$ so that the error $\epsilon_{\kappa}$ accumulates in accordance with an overall desired error $\mathcal{O}(\epsilon)$.
 
-The success probability of preparing $|\eta, \theta, \vec{w}\rangle$ is
+The success probability of preparing $\vert \eta, \theta, \vec{w}\rangle$ is
 
 $$
-P_{w}=C^{2} \sum_{j: \lambda_{j} \geq 1 / \kappa}\left|\frac{\beta_{j}}{\lambda_{j}}\right|^{2}
+P_{w}=C^{2} \sum_{j: \lambda_{j} \geq 1 / \kappa}\left\vert \frac{\beta_{j}}{\lambda_{j}}\right\vert ^{2}
 $$
 
-with a user-specified $C=\mathcal{O}(1 / \kappa)$. We can determine $P_{w}$ itself from multiple runs of the linear systems algorithm. To relate the quantum state $|\eta, \theta, \vec{w}\rangle$ to the actual solution of (20), we multiply $|\eta, \theta, \vec{w}\rangle$ by a factor
+with a user-specified $C=\mathcal{O}(1 / \kappa)$. We can determine $P_{w}$ itself from multiple runs of the linear systems algorithm. To relate the quantum state $\vert \eta, \theta, \vec{w}\rangle$ to the actual solution of (20), we multiply $\vert \eta, \theta, \vec{w}\rangle$ by a factor
 $$
 \sqrt{\frac{P_{w}\left(\mu^{2}+\xi^{2}\right)}{C^{2}}} \operatorname{tr} \Sigma,
 $$
-which involves only known quantities. The trace $\operatorname{tr} \Sigma$ is estimated via Appendix A, Eq. (A15). When measuring properties of the portfolio we always multiply the result by this factor to obtain the actual desired value. To obtain a quantum state $|\vec{w}\rangle$ **we project the state $|\eta, \theta, \vec{w}\rangle$ onto the desired part.**
+which involves only known quantities. The trace $\operatorname{tr} \Sigma$ is estimated via Appendix A, Eq. (A15). When measuring properties of the portfolio we always multiply the result by this factor to obtain the actual desired value. To obtain a quantum state $\vert \vec{w}\rangle$ **we project the state $\vert \eta, \theta, \vec{w}\rangle$ onto the desired part.**
 
 ## 3. Specific Simulation
 
