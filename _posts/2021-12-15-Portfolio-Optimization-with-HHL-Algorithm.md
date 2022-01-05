@@ -12,8 +12,7 @@ article_header:
 
 ## 1. Introduction
 
-Modern finance employs large amounts of computational resources for a variety of tasks. Computers
-are used for example for the analysis of historical data, high-frequency trading, pricing of exotic financial derivatives, portfolio optimization and risk management.
+Modern finance employs large amounts of computational resources for a variety of tasks. Computers are used for example for the analysis of historical data, high-frequency trading, pricing of exotic financial derivatives, portfolio optimization and risk management.
 
 
 Portfolio optimization can be phrased as an equality-constraint quadratic programming
@@ -60,7 +59,18 @@ $$
 \vert \eta, \theta, \vec{w}\rangle=\frac{1}{\vert v\vert } \sum_{j: \lambda_{j} \geq 1 / \kappa} \frac{\beta_{j}}{\lambda_{j}}\left\vert u_{j}\right\rangle,
 $$
 
-with the norm $\vert v\vert =\sqrt{\sum_{j: \lambda_{j} \geq 1 / \kappa}\left(\beta_{j} / \lambda_{j}\right)^{2}}$ and $\beta_{j}:=\left\langle u_{j} \mid \mu, \xi, \overrightarrow{0}\right\rangle .$ Here, $\kappa$ is chosen to be a constant. The HHL algorithm projects onto the well-conditioned subspace with eigenvalues greater than $1 / \kappa$. In this way, the algorithm finds the pseudoinverse of $\hat{M}$ in such a way that only eigenvalues $\lambda_{j} \geq 1 / \kappa$ are taken into account. Let us denote this pseudoinverse by $\hat{M}_{\kappa}^{-1}$. The procedure is equal to the actual pseudoinverse $\hat{M}^{-1}$ whenever $1 / \kappa$ is smaller than the smallest eigenvalue $\left\vert \lambda_{\min }\right\vert $ of $\hat{M}$. Otherwise, $\hat{M}_{\kappa}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$ approximates $\hat{M}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$ to an error
+with the norm $\vert v\vert =\sqrt{\sum_{j: \lambda_{j} \geq 1 / \kappa}\left(\beta_{j} / \lambda_{j}\right)^{2}}$ and $\beta_{j}:=\left\langle u_{j} \mid \mu, \xi, \overrightarrow{0}\right\rangle .$ Here, $\kappa$ is chosen to be a constant. The HHL algorithm projects onto the well-conditioned subspace with eigenvalues greater than $1 / \kappa$. In this way, the algorithm finds the pseudoinverse of $\hat{M}$ in such a way that only eigenvalues $\lambda_{j} \geq 1 / \kappa$ are taken into account. Let us denote this pseudoinverse by 
+$$\hat{M}_{\kappa}^{-1}$$
+. The procedure is equal to the actual pseudoinverse $$\hat{M}^{-1}$ whenever $1 / \kappa$$
+is smaller than the smallest eigenvalue 
+$$\left\vert \lambda_{\min }\right\vert $$
+ of 
+ $$\hat{M}$$
+ . Otherwise, 
+ $$\hat{M}_{\kappa}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$$
+  approximates $
+  $\hat{M}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$$
+   to an error
 
 $$
 \left.\epsilon_{\kappa}:=\left\vert \hat{M}_{\kappa}^{-1}\right\vert  \overrightarrow{0}, \mu, \xi\right\rangle-\left.\hat{M}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle\right\vert _{2}
@@ -84,7 +94,7 @@ which involves only known quantities. The trace $\operatorname{tr} \Sigma$ is es
 
 ## 4. Improvement
 
-## 5. Summanry
+## 5. Summary
 
 We leverage HHL algorithm and Lagrange multipliers to compute resulting state with two ancilla parameters.
 
