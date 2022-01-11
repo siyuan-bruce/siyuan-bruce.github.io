@@ -61,7 +61,7 @@ $$
 
 with the norm $\vert v\vert =\sqrt{\sum_{j: \lambda_{j} \geq 1 / \kappa}\left(\beta_{j} / \lambda_{j}\right)^{2}}$ and $\beta_{j}:=\left\langle u_{j} \mid \mu, \xi, \overrightarrow{0}\right\rangle .$ Here, $\kappa$ is chosen to be a constant. The HHL algorithm projects onto the well-conditioned subspace with eigenvalues greater than $1 / \kappa$. In this way, the algorithm finds the pseudoinverse of $\hat{M}$ in such a way that only eigenvalues $\lambda_{j} \geq 1 / \kappa$ are taken into account. Let us denote this pseudoinverse by 
 $$\hat{M}_{\kappa}^{-1}$$
-. The procedure is equal to the actual pseudoinverse $$\hat{M}^{-1}$ whenever $1 / \kappa$$
+. The procedure is equal to the actual pseudoinverse $$\hat{M}^{-1}$$ whenever $$1 / \kappa$$
 is smaller than the smallest eigenvalue 
 $$\left\vert \lambda_{\min }\right\vert $$
  of 
