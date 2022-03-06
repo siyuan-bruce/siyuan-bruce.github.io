@@ -1,5 +1,5 @@
 ---
-title: Option Pricing with Quantum Monte Carlo Simulation
+title: Quantum Maximum Likelihood Amplititude Estimation
 tags: QuantumComputing
 mathjax: true
 author: Si Yuan JIN
