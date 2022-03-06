@@ -22,7 +22,7 @@ Experiment Reproducement for JP Morgan's paper `Stamatopoulos, Nikitas, et al. "
 ---
 ## QAE Algorithm
 
-### 1. Rview of Grover Search
+### 1. Review of Grover Search
 The amplitude amplification operator
 $$\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .
 $$
@@ -238,7 +238,6 @@ $$
 \tilde{a}=\sin ^{2}(y \pi / M)
 $$
 
----
 ---
 ### Maximum Likelihood Estimation
 
