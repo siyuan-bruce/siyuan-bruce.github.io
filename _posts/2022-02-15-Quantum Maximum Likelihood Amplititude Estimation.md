@@ -24,8 +24,11 @@ Experiment Reproducement for JP Morgan's paper `Stamatopoulos, Nikitas, et al. "
 
 ### 1. Rview of Grover Search
 The amplitude amplification operator
-- $\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .$
-- $U_{\chi}$ is the oracle function: $\vert x\rangle \longmapsto\left\{\begin{aligned}-\vert x\rangle & \text { if } \chi(x)=1 \\\vert x\rangle & \text { otherwise } \end{aligned}\right.$
+$$\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .
+$$
+
+- $U_{\chi}$ is the oracle function: 
+  $$\vert x\rangle \longmapsto\left\{\begin{aligned}-\vert x\rangle & \text { if } \chi(x)=1 \\\vert x\rangle & \text { otherwise } \end{aligned}\right.$$
 
 $$
 U_{\chi}=\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I
@@ -36,9 +39,11 @@ $$U_{0}=I-2\vert 0\rangle\langle 0\vert  .$$
 $$
 Q=-\mathcal{A} U_{0} \mathcal{A}^{\dagger} U_{\chi}
 $$
+
 In this equation, $\mathcal{A}$ helps to transfer $\vert 0 \rangle$ to state $\vert \Psi_{0} \rangle$.
 
-- The amplitude amplification operator is: $Q=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times U_{\chi}$
+- The amplitude amplification operator is: 
+  $$Q=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times U_{\chi}$$
 
 $$
 =(2\vert \Psi\rangle\langle\Psi\vert -I)\left(\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I\right)
@@ -48,6 +53,7 @@ $$
 <img src="https://jsybruce.github.io/Homepage/assets/images/posts/AE/Visualization.jpg" alt="drawing" width="600"/>
 
 Now we try to infer
+
 $$
 \begin{aligned}
 Q\left\vert \Psi_{1}\right\rangle &=U_{\Psi} U_{\Psi_{0}}\left\vert \Psi_{1}\right\rangle=-U_{\Psi}\left\vert \Psi_{1}\right\rangle=(I-2\vert \Psi\rangle\langle\Psi\vert )\left\vert \Psi_{1}\right\rangle \\
@@ -56,7 +62,10 @@ Q\left\vert \Psi_{0}\right\rangle &=U_{\Psi}\left\vert \Psi_{0}\right\rangle=(2\
 &=2(1-a)\vert \Psi\rangle-\left\vert \Psi_{0}\right\rangle=2(1-a)\left\vert \Psi_{1}\right\rangle+(1-2 a)\left\vert \Psi_{0}\right\rangle
 \end{aligned}
 $$
+
 Using $\sin ^{2}\left(\theta_{a}\right)=a$ and $\cos ^{2}\left(\theta_{a}\right)=1-a$, we get:
+
+
 $$
 \begin{aligned}
 Q \frac{\left\vert \Psi_{1}\right\rangle}{\sqrt{a}} &=(1-2 a) \frac{\left\vert \Psi_{1}\right\rangle}{\sqrt{a}}-2 \sqrt{a(1-a)} \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}} \\
@@ -66,7 +75,8 @@ Q \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}} &=\sin \left(2 \theta_{a}\
 \end{aligned}
 $$
 
-Thus, $Q$ is a rotation matrix in the basis $\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$ :
+Thus, $Q$ is a rotation matrix in the basis 
+$$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$
 
 $$
 Q=\left(\begin{array}{cc}
@@ -75,15 +85,37 @@ Q=\left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-It has eigenvalues $e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}$ with corresponding eigenvectors $\frac{1}{2}(1 i), \frac{1}{2}(1-i)$, noted $\left\vert \Psi_{+}\right\rangle$and $\left\vert \Psi_{-}\right\rangle$.
+It has eigenvalues \
+$$e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}
+$$
+with corresponding eigenvectors 
+$$
+\frac{1}{2}(1 i), \frac{1}{2}(1-i)
+$$
+, noted 
+$$
+\left\vert \Psi_{+}\right\rangle
+$$
+and 
+
+$$
+\left\vert \Psi_{-}\right\rangle
+$$
+.
 
 We can now write $\vert \Psi\rangle$ in the $Q$-eigenvector basis:
-$\vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)$and it follows that:
+
+$$\vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
+$$
+
+and it follows that:
 $$
 Q^{j}\vert \Psi\rangle=\frac{-i}{2}\left(e^{(2 j+1) i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-(2 j+1) i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
 $$
 
-By writing it back in the original $\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$ basis:
+By writing it back in the original 
+$$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$
+ basis:
 $$
 Q^{j}\vert \Psi\rangle=\sin \left((2 j+1) \theta_{a}\right) \frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle+\cos \left((2 j+1) \theta_{a}\right) \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle
 $$
@@ -93,7 +125,11 @@ $$
 
 The basic idea is that we can levarage Quantum Amplititude Estimation to achieve a quadratic speedup since the information we want are included in the amplititutde.
 
-AE uses $m$ additional sampling qubits and Quantum Phase Estimation to produce an estimator $\tilde{a}=\sin ^{2}(y \pi / M)$ of $a$, where $y \in\{0, \ldots, M-1\}$ and $M$ (the number of samples, is $2^{m}$). The estimator $\tilde{a}$ satisfies
+AE uses $m$ additional sampling qubits and Quantum Phase Estimation to produce an estimator 
+$$\tilde{a}=\sin ^{2}(y \pi / M)$$
+ of $a$, where 
+ $$y \in\{0, \ldots, M-1\}$$
+  and $M$ (the number of samples, is $2^{m}$). The estimator $\tilde{a}$ satisfies
 
 $$
 \vert a-\tilde{a}\vert  \leq \frac{\pi}{M}+\frac{\pi^{2}}{M^{2}}=O\left(M^{-1}\right) \text {, }
@@ -135,7 +171,19 @@ $$
 \mathcal{Q}^{c}:\vert j\rangle\vert \psi\rangle \rightarrow\vert j\rangle \mathcal{Q}^{j}\vert \psi\rangle
 $$
 
-for an arbitrary $n$ qubit state $\vert \psi\rangle$. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $\vert \chi\rangle$ by applying $\mathcal{F}$ to a register of qubits in $\left\vert 0^{n+1}\right\rangle$. Then prepare an additional $m$-qubit register in the uniform superposition via the Hadamard operation $\mathcal{H}$
+for an arbitrary $n$ qubit state 
+$$
+\vert \psi\rangle$$
+. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of 
+$$
+\vert \chi\rangle
+$$
+
+by applying $\mathcal{F}$ to a register of qubits in 
+$$
+\left\vert 0^{n+1}\right\rangle
+$$
+. Then prepare an additional $m$-qubit register in the uniform superposition via the Hadamard operation $\mathcal{H}$
 
 $$
 \mathcal{H}^{\otimes m}\left\vert 0^{m}\right\rangle\vert \chi\rangle=\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle\vert \chi\rangle
@@ -147,15 +195,48 @@ $$
 \frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle \mathcal{Q}^{j}\vert \chi\rangle
 $$
 
-One can show that $\vert \chi\rangle=\frac{1}{\sqrt{2}}\left(\left\vert \psi_{+}\right\rangle+\left\vert \psi_{-}\right\rangle\right)$is the expansion of $\vert \chi\rangle$ into the two eigenvectors of $\mathcal{Q}$ corresponding to the eigenvalues $e^{\pm i \theta}[15]$. An inverse quantum Fourier transformation applied to Eq. (30) prepares the state
+One can show that 
+$$
+\vert \chi\rangle=\frac{1}{\sqrt{2}}\left(\left\vert \psi_{+}\right\rangle+\left\vert \psi_{-}\right\rangle\right)
+$$
+is the expansion of 
+$$
+\vert \chi\rangle
+$$
+into the two eigenvectors of $\mathcal{Q}$ corresponding to the eigenvalues 
+$$
+e^{\pm i \theta}
+$$
+. An inverse quantum Fourier transformation applied to prepare the state
 
 $$
 \sum_{x=0}^{2^{m}-1} \alpha_{+}(x)\vert x\rangle\left\vert \psi_{+}\right\rangle+\alpha_{-}(x)\vert x\rangle\left\vert \psi_{-}\right\rangle
 $$
 
-The $\left\vert \alpha_{\pm}(x)\right\vert ^{2}$ are peaked where $x / 2^{m}=\pm \hat{\theta}$ is an $m$-bit approximation to $\pm \theta$. Hence, measurement of the $\vert x\rangle$ register will retrieve the approximations $\pm \hat{\theta}$.
+The 
+$$
+\left\vert \alpha_{\pm}(x)\right\vert ^{2}
+$$
+are peaked where 
+$$
+x / 2^{m}=\pm \hat{\theta}
+$$
+ is an $m$-bit approximation to 
+$\pm \theta$
+. Hence, measurement of the 
+$$
+\vert x\rangle
+$$
+register will retrieve the approximations 
+$$
+\pm \hat{\theta}
+$$
+.
 
-Overall, quantum amplititude estimation can help us to find $\tilde{a}=\sin ^{2}(y \pi / M)$.
+Overall, quantum amplititude estimation can help us to find 
+$$
+\tilde{a}=\sin ^{2}(y \pi / M)
+$$
 
 ---
 ---
@@ -184,14 +265,24 @@ P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 55
 \end{array}\right) p^{55}(1-p)^{45}
 $$
-You should read $P(55$ heads $\mid p)$ as:
+You should read 
+$$
+P(55 heads \mid p)
+$$
+ as:
 'the probability of 55 heads given $p$,'
 or more precisely as
-'the probability of 55 heads given that the probability of heads on a single toss is $p .$ ' Here are some standard terms we will use as we do statistics.
+'the probability of 55 heads given that the probability of heads on a single toss is $p$
+
+Here are some standard terms we will use as we do statistics.
 - Experiment: Flip the coin 100 times and count the number of heads.
 - Data: The data is the result of the experiment. In this case it is ' 55 heads'.
-- Parameter(s) of interest: We are interested in the value of the unknown parameter $p$.
-- Likelihood, or likelihood function: this is $P($ data $\mid p)$. Note it is a function of both the data and the parameter $p$. In this case the likelihood is
+- Parameter(s) of interest: We are interested in the value of the unknown parameter $p$
+- Likelihood, or likelihood function: this is 
+$$
+P( data \mid p)
+$$
+. Note it is a function of both the data and the parameter $p$. In this case the likelihood is
 $$
 P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 100 \\
@@ -199,7 +290,12 @@ P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 \end{array}\right) p^{55}(1-p)^{45}
 $$
 
-Definition: Given data the maximum likelihood estimate (MLE) for the parameter $p$ is the value of $p$ that maximizes the likelihood $P(data $\mid$ p)$. That is, the MLE is the value of $p$ for which the data is most likely.
+Definition: Given data the maximum likelihood estimate (MLE) for the parameter $p$ is the value of $p$ that maximizes the likelihood 
+$$
+P(data \mid p)
+$$
+.
+ That is, the MLE is the value of $p$ for which the data is most likely.
 answer: For the problem at hand, we saw above that the likelihood
 $$
 P(55 \text { heads } \mid p)=\left(\begin{array}{c}
@@ -221,7 +317,10 @@ $$
 &55=100 p
 \end{aligned}
 $$
-the MLE is $\hat{p}=.55$
+the MLE is 
+$$
+\hat{p}=.55
+$$
 Note: 
 
 1. The MLE for $p$ turned out to be exactly the fraction of heads we saw in our data.
@@ -599,14 +698,18 @@ $A$ is an algorithm to describe the distribution of $x$.
 
 $v(A)$ denotes the random variable specified by the algorithm $A$ and the function $v(x)$.
 
-$\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x)$
+$$\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x)$$
 
 
 1. Apply the algorithm $A$, 
 
 $$\mathcal{A}\left\vert 0^{n}\right\rangle=\sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle$$
 
-where $\left\vert 0^{n}\right\rangle$ denotes the $n$ qubit register with all qubits in the state $\vert 0\rangle$. 
+where 
+$$
+\left\vert 0^{n}\right\rangle
+$$
+ denotes the $n$ qubit register with all qubits in the state $\vert 0\rangle$. 
 
 2. Perform the rotation of an ancilla via $\mathcal{R}$
 $$
@@ -615,21 +718,37 @@ $$
 \rightarrow \sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle(\sqrt{1-v(x)}\vert 0\rangle+\sqrt{v(x)}\vert 1\rangle)=:\vert \chi\rangle
 \end{gathered}
 $$
-3. Measure the ancilla in the state $\vert 1 \rangle$ obtains as the success probability of the expectation value
+3. Measure the ancilla in the state 
+$$
+\vert 1 \rangle
+$$
+ obtains as the success probability of the expectation value
 $$
 \mu:=\left\langle\chi\left\vert \left(\mathcal{I}_{2^{n}} \otimes\vert 1\rangle\langle 1\vert \right)\right\vert  \chi\right\rangle=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x) \equiv \mathbb{E}[v(\mathcal{A})] .
 $$
 
 
-<!-- Combining the two operations defines a unitary $\mathcal{F}$ and the resulting state $\vert \chi\rangle$
+<!-- Combining the two operations defines a unitary $\mathcal{F}$ and the resulting state $$\vert \chi\rangle$$
 $$
 \mathcal{F}\left\vert 0^{n+1}\right\rangle:=\mathcal{R}\left(\mathcal{A} \otimes \mathcal{I}_{2}\right)\left\vert 0^{n+1}\right\rangle \equiv\vert \chi\rangle .
 $$ -->
 
-This success probability can be obtained by repeating the procedure $t$ times and collecting the clicks for the $\vert 1 \rangle$ state as a fraction of the total measurements. The variance is $\epsilon^{2}=\frac{\mu(1-\mu)}{t}$ from the Bernoulli distribution, i.e. the standard deviation is $\epsilon=\sqrt{\frac{\mu(1-\mu)}{t}}$. Hence, the experiment has to be repeated
-$
+This success probability can be obtained by repeating the procedure $t$ times and collecting the clicks for the 
+$$
+\vert 1 \rangle
+$$
+state as a fraction of the total measurements. The variance is 
+$$
+\epsilon^{2}=\frac{\mu(1-\mu)}{t}
+$$
+from the Bernoulli distribution, i.e. the standard deviation is 
+$$
+\epsilon=\sqrt{\frac{\mu(1-\mu)}{t}}
+$$
+. Hence, the experiment has to be repeated
+$$
 t=\mathcal{O}\left(\frac{\mu(1-\mu)}{\epsilon^{2}}\right)
-$
+$$
 
 Note that we can slightly redefine the quantity being measured. Define the unitary
 
@@ -637,14 +756,20 @@ $$
 \mathcal{V}:=\mathcal{I}_{2^{n+1}}-2 \mathcal{I}_{2^{n}} \otimes\vert 1\rangle\langle 1\vert ,
 $$
 
-for which $\mathcal{V}=\mathcal{V}^{\dagger}$ and 
-$\mathcal{V}^{2}=\mathcal{I}_{2^{n+1}} .$
+for which 
+$$
+\mathcal{V}=\mathcal{V}^{\dagger}
+$$
+ and 
+$$
+\mathcal{V}^{2}=\mathcal{I}_{2^{n+1}} .
+$$
 A measurement of 
 $\mathcal{V}$
 on 
-$\vert \chi\rangle$
+$$\vert \chi\rangle$$
 obtains 
-$\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$
+$$\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$$
 
 From this measurement we can extract the desired expectation value.
 Any quantum state in the $(n+1)$-qubit Hilbert space can be expressed as a linear combination of 
@@ -654,14 +779,17 @@ $$\left\vert \chi^{\perp}\right\rangle$$
 
 
 Thus, we can express 
-$\mathcal{V}\vert \chi\rangle=\cos (\theta / 2)\vert \chi\rangle+e^{i \phi} \sin (\theta / 2)\left\vert \chi^{\perp}\right\rangle$
-, with the angles $\phi$ and $\theta$. Note that our expectation value can be retrieved via
+$$\mathcal{V}\vert \chi\rangle=\cos (\theta / 2)\vert \chi\rangle+e^{i \phi} \sin (\theta / 2)\left\vert \chi^{\perp}\right\rangle$$
+, with the angles 
+$\phi$ and $\theta$
+. 
+Note that our expectation value can be retrieved via
 
-$
+$$
 1-2 \mu=\cos (\theta / 2)
-$
+$$
 
-The task becomes to measure $\theta$. 
+The task becomes to measure $\theta$
 
 This quadratic dependency is analogous to the classical Monte Carlo dependency.
 
@@ -677,44 +805,84 @@ We need to design a function that encode the expected value into the $sin$ funct
 Taking a dffierent step, we can set $f(i)$ inside sin function ($sinf(i)$.)
 
 The payoff function for the option contracts of interest is piece-wise linear and as such we only need to consider linear functions 
-$$f:\left\{0, \ldots, 2^{n}-1\right\} \rightarrow[0,1]$$
- which we write $f(i)=f_{1} i+f_{0}$
+$$
+f:\left\{0, \ldots, 2^{n}-1\right\} \rightarrow[0,1]
+$$
+which we write 
+$$
+f(i)=f_{1} i+f_{0}
+$$
  
 We can efficiently create an operator that performs
-$
+$$
 \vert i\rangle_{n}\vert 0\rangle \rightarrow\vert i\rangle_{n}(\cos [f(i)]\vert 0\rangle+\sin [f(i)]\vert 1\rangle)
-$
+$$
 
 using controlled Y-rotations. 
 
 
 We now describe how to obtain 
 $$\mathbb{E}[f(X)]$$
- for a linear function $f$ of a random variable $X$ which is mapped to integer values 
- $$i \in\left\{0, \ldots, 2^{n}-1\right\}$$
-  that occur with probability $p_{i}$ respectively. To do this we use the procedure outlined immediately above to create the operator that maps $$\sum_{i} \sqrt{p_{i}}\vert i\rangle_{n}\vert 0\rangle$$
-   to
+for a linear function $f$ of a random variable $X$ which is mapped to integer values 
+$$
+i \in\left\{0, \ldots, 2^{n}-1\right\}
+$$
+
+that occur with probability $p_{i}$ respectively. To do this we use the procedure outlined immediately above to create the operator that maps 
+
+$$
+\sum_{i} \sqrt{p_{i}}\vert i\rangle_{n}\vert 0\rangle
+$$
+
+to
 
 $$
 \sum_{i=0}^{2^{n}-1} \sqrt{p_{i}}\vert i\rangle_{n}\left[\cos \left(c \tilde{f}(i)+\frac{\pi}{4}\right)\vert 0\rangle+\sin \left(c \tilde{f}(i)+\frac{\pi}{4}\right)\vert 1\rangle\right]
 $$
 
-where $\tilde{f}(i)$ is a scaled version of $f(i)$ given by
+where 
+$$
+\tilde{f}(i)
+$$
+ is a scaled version of $f(i)$ given by
 
 $$
 \tilde{f}(i)=2 \frac{f(i)-f_{\min }}{f_{\max }-f_{\min }}-1,
 $$
 
 with 
-$$f_{\min }=\min _{i} f(i)$$
- 
- and $f_{\max }=\max _{i} f(i)$, and $c \in[0,1]$ is an additional scaling parameter. The relation in Eq. (11) is chosen so that 
- $\tilde{f}(i) \in[-1,1]$ 
- 
+$$
+f_{\min }=\min _{i} f(i)
+$$
+
+and 
+$$
+f_{\max }=\max _{i} f(i)
+$$
+
+and 
+$$
+c \in[0,1]
+$$
+is an additional scaling parameter. The relation is chosen so that 
+$$
+\tilde{f}(i) \in[-1,1]
+$$ 
+
  Consequently, 
- $$\sin ^{2}[c \tilde{f}(i)+\pi / 4]$$
-  is an anti-symmetric function around $\tilde{f}(i)=0$. With these definitions, the probability to find the ancilla qubit in state 
-  $\vert 1\rangle$, namely
+
+$$\sin ^{2}[c \tilde{f}(i)+\pi / 4]
+$$
+is an anti-symmetric function around 
+$$\tilde{f}(i)=0
+$$
+  
+With these definitions, the probability to find the ancilla qubit in state 
+
+$$
+\vert 1\rangle
+$$
+, namely
 
 $$
 P_{1}=\sum_{i=0}^{2^{n}-1} p_{i} \sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)
@@ -732,10 +900,16 @@ $$
 \sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)=c \tilde{f}(i)+\frac{1}{2}+\mathcal{O}\left(c^{3} \tilde{f}^{3}(i)\right)
 $$
 
-which is valid for small values of $c \tilde{f}(i)$. 
+which is valid for small values of 
+$$
+c \tilde{f}(i)
+$$
+. 
 
 Therefore, by evaluating 
-$$\sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)$$
+$$
+\sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)
+$$
  we can find $\tilde{f}(i)$ easily and to know the $\mathbb{E}[f(X)]$.
 
 
@@ -774,8 +948,8 @@ plt.bar(x, y, width=0.2)
 plt.xticks(x, size=15, rotation=90)
 plt.yticks(size=15)
 plt.grid()
-plt.xlabel("Spot Price at Maturity $S_T$ (\$)", size=15)
-plt.ylabel("Probability ($\%$)", size=15)
+plt.xlabel("Spot Price at Maturity $$S_T$$ (\$$)", size=15)
+plt.ylabel("Probability ($$\%$$)", size=15)
 plt.show()
 
 # set the strike price (should be within the low and the high value of the uncertainty)
