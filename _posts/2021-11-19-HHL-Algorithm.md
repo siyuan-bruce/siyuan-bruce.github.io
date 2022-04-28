@@ -365,7 +365,6 @@ $$
 \frac{\frac{1}{\sqrt{2}}\vert 00\rangle\left\vert u_{1}\right\rangle \frac{1}{2}\vert 1\rangle+\frac{1}{\sqrt{2}}\vert 00\rangle\left\vert u_{2}\right\rangle \frac{1}{4}\vert 1\rangle}{\sqrt{5 / 32}}
 $$
 
-
 A quick calculation shows that
 
 $$

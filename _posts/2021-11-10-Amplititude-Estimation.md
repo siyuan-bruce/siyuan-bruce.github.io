@@ -53,7 +53,7 @@ Q=-\mathcal{A} S_{0} \mathcal{A}^{\dagger} S_{\chi}
 $$
 In this equation, $\mathcal{A}$ helps to transfer $\vert 0 \rangle$ to state $\vert \Psi_{0} \rangle$.
 
-- The amplitude amplification operator is: $=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times S_{\chi}$
+- The amplitude amplification operator is: $Q=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times S_{\chi}$
 
 $$
 =(2\vert \Psi\rangle\langle\Psi\vert -I)\left(\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I\right)

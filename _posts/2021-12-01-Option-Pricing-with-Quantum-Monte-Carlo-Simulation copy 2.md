@@ -94,7 +94,7 @@ Overall, we can see the task of the quantum algorithm will be to improve the $\e
 To use $A E$ to estimate quantities related to a random variable $X$ we must first represent $X$ as a quantum state. Using $n$ qubits we $\operatorname{map} X$ to the interval $\{0, \ldots, N-1\}$, where $N=2^{n} . X$ is then represented by the state
 
 $$
-\mathcal{R}\vert 0\rangle_{n}=\vert \psi\rangle_{n}=\sum_{i=0}^{N-1} \sqrt{p_{i}}\vert i\rangle_{n} \quad \text { with } \sum_{i=0}^{N-1} p_{i}=1
+\mathcal{A}\vert 0\rangle_{n}=\vert \psi\rangle_{n}=\sum_{i=0}^{N-1} \sqrt{p_{i}}\vert i\rangle_{n} \quad \text { with } \sum_{i=0}^{N-1} p_{i}=1
 $$
 
 We now look at the overall circuit for this problem.
@@ -393,3 +393,6 @@ In this qiskit example, we leverage a LinearAmplititudeFunction to translate $f(
 `5. Brassard, Gilles, et al. "Quantum amplitude amplification and estimation." Contemporary Mathematics 305 (2002): 53-74.`
 
 `6. Stamatopoulos, Nikitas, et al. "Option pricing using quantum computers." Quantum 4 (2020): 291.`
+
+`7. Y. Suzuki, S. Uno, R. Raymond, T. Tanaka, T. Onodera, and N. Yamamoto, “Amplitude estimation without phase estimation,” Quantum Inf Process, vol. 19, no. 2, p. 75, Feb. 2020, doi: 10.1007/s11128-019-2565-2.`
+
