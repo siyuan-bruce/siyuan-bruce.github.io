@@ -46,13 +46,13 @@ We introduce three methods to encode data:
 ### 2.1 Basis encoding
 This refers to encode data into computational basis states.
 
-For example, if $x_{1} = 01$ and $x_{2} = 10$, we can use a two-qubit quantum state that is a superposition of state $|01\rangle$ and $|10\rangle$.
+For example, if $x_{1} = 01$ and $x_{2} = 10$, we can use a two-qubit quantum state that is a superposition of state $\vert 01\rangle$ and $\vert 10\rangle$.
 
 ### 2.2 Amplitude Encoding
 
 This refers to encode data into amplititudes.
 
-For example, if a vector is $[1,1,0,1]$, we can use a two-qubit quantum state that is a superposition of state $|00\rangle$, $|01\rangle$, $|11\rangle$ with equal weights.
+For example, if a vector is $[1,1,0,1]$, we can use a two-qubit quantum state that is a superposition of state $\vert 00\rangle$, $\vert 01\rangle$, $\vert 11\rangle$ with equal weights.
 
 ### 2.3 Angle Encoding
 
@@ -147,7 +147,7 @@ Result: [0.70710678+0.j 0.70710678+0.j]
 
 Here we get a qubit's statevector instead of the Bloch vector. The state vector is 
 
-$$|q\rangle = 0.70711|0\rangle + 0.70711|1\rangle$$
+$$\vert q\rangle = 0.70711\vert 0\rangle + 0.70711\vert 1\rangle$$
 
 THe bloch vector is shown in the below figure:
 <img src="https://jsybruce.github.io/Homepage/assets/images/posts/QuantumNeuralNetowrk/bloch1.png" alt="drawing" width="600"/>
