@@ -70,6 +70,10 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
 
+## Contact
+- Wechat: siyuan-bruce
+- linkedin: https://www.linkedin.cn/incareer/in/si-yuan-bruce-jin-3a0227193
+
 ---
 
 ### **Profile**
