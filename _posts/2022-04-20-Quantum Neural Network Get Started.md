@@ -205,10 +205,10 @@ With the same projection idea, we can know the cost is -1.
 Now we know how neural network forwards and we can compute the exact cost value by ourselves.
 
 
-### 3. Quantum Neural Network Backward
+## 4. Quantum Neural Network Backward
 Quantum neural network uses parameter shift method to compute gradient.
 
-#### 3.1 Pauli gate example
+### 4.1 Pauli gate example
 
 Consider a quantum computer with parameterized gates of the form
 $$
@@ -247,7 +247,7 @@ $$
 \nabla_{\theta} f(x ; \theta)=\frac{1}{2}\left[f\left(x ; \theta+\frac{\pi}{2}\right)-f\left(x ; \theta-\frac{\pi}{2}\right)\right]
 $$
 
-### 4. TwoLayerQNN
+## 5. TwoLayerQNN
 Now we start to construct a more complex quantum neural network.
 
 ```py
@@ -267,7 +267,7 @@ observable = PauliSumOp.from_list([("Z" * num_qubits, 1)])
 print(observable)
 ```
 
-#### 4.1 ZZFeatureMap
+### 5.1 ZZFeatureMap
 
 We first need to understand ZZFeatureMap.
 
@@ -367,19 +367,19 @@ e^{-i \lambda} & 0 & 0 & 0 \\
 \end{aligned}
 $$
 
-#### 4.2 RealAmplititude
+### 5.2 RealAmplititude
 The RealAmplititude circuit consists of of alternating layers of rotations Y and entanglements CX. The entanglement pattern can be user-defined or selected from a predefined set. It is called RealAmplitudes since the prepared quantum states will only have real amplitudes, the complex part is always 0.
 
 The real-amplitude builds two-local circuit.
 
 
-#### 4.3 The two-local circuit
+### 5.3 The two-local circuit
 
 The two-local circuit is a parameterized circuit consisting of alternating rotation layers and entanglement layers. The rotation layers are single qubit gates applied on all qubits. The entanglement layer uses two-qubit gates to entangle the qubits according to a strategy set using `entanglement`.
 
 quantum circuit that has N qudits is said to be n-local if the gates act nontrivially on *at most* nn-qudits with n≤Nn≤N. As an example, here is a circuit of non-trivial gates acting on *at most* 22-qubits in a system of 33-qubits.
 
-#### 4.4 Why we use two-local circuit as Anastz
+### 5.4 Why we use two-local circuit as Anastz
 
 If we want to get some eigenstate by optimization, we need to present these eigenstates. Most eigenstates are entangled. 
 
@@ -418,7 +418,7 @@ Here you should notice that these states are all entangled. So if we want to use
 
 To summary, entanglement is neccessary in some cases.
 
-#### 4.5 Overall Circuit
+### 5.5 Overall Circuit
 
 ```py
 from qiskit_machine_learning.neural_networks import TwoLayerQNN
@@ -448,6 +448,7 @@ qnn3.forward(input3, weights3)
 # QNN backward pass
 qnn3.backward(input3, weights3)
 ```
+
 
 **Reference:**
 
