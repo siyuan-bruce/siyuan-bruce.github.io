@@ -15,7 +15,9 @@ article_header:
 2. Quantum PoW Workflow
 3. Highlight
 4. Quantum Circuit Deep In
+
 ---
+
 ## 1. Quantum Proof of Work Overview
 Bitcoin's Proof of Work prevents the double-spend and the Sybil attack very well. However, it consumes a large volume of energy.
 
