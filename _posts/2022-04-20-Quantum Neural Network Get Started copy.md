@@ -449,6 +449,7 @@ qnn3.forward(input3, weights3)
 qnn3.backward(input3, weights3)
 ```
 
+## 6. Quantum Neural Network Output
 
 **Reference:**
 
