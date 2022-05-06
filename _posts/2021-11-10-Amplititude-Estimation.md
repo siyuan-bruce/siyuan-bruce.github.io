@@ -223,9 +223,30 @@ $$
 $$
 
 Since the minimum of this expression is reached at $\Delta=1 /(2 M)$.
-A bounding error on $\tilde{\theta}_{a}$ translates into a bound on $\tilde{a}$.
+
+A bounding error on 
+$$
+\tilde{\theta}_{a}
+$$ 
+translates into a bound on 
+$$
+\tilde{a}
+$$
+.
 Lemma:
-Let $a=\sin ^{2}\left(\theta_{a}\right)$ and $\tilde{a}=\sin ^{2}\left(\tilde{\theta}_{a}\right)$ with $0 \leq \theta_{a}, \tilde{\theta}_{a} \leq \frac{\pi}{2}$. Then:
+Let 
+$$
+a=\sin ^{2}\left(\theta_{a}\right)
+$$
+and 
+$$
+\tilde{a}=\sin ^{2}\left(\tilde{\theta}_{a}\right)
+$$
+with 
+$$
+0 \leq \theta_{a}, \tilde{\theta}_{a} \leq \frac{\pi}{2}
+$$
+. Then:
 
 $$
 \left\vert \tilde{\theta}_{a}-\theta_{a}\right\vert  \leq \epsilon \Longrightarrow\vert \tilde{a}-a\vert  \leq 2 \epsilon \sqrt{a(1-a)}+\epsilon^{2}
