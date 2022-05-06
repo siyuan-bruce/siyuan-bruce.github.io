@@ -21,7 +21,7 @@ Bitcoin's Proof of Work prevents the double-spend and the Sybil attack very well
 
 ## 2. Quantum Proof of Work Workflow
 
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/QPoW/workflow.png" alt="drawing" width="600"/>
+<img src="https://jsybruce.github.io/Homepage/assets/images/posts/QuantumPoW/workflow.png" alt="drawing" width="600"/>
 
 The input data (‘text’) is a concatenated string containing: nonce, transaction information and a hash string from a previous block. A nonce is a 32-bit randomly generated integer; transaction information is a ledger entry. By SHA3 algorithm the 'text' is transformed into a 256-bit hash-string that is then pushed through the qPoW stages. After the second hash module, we have a 256-bit hash-string as an output. If the output satisfies the conditions set by the task difficulty, i.e. the output string starts from a certain number of zeros, then the block is reported to be successfully mined. Otherwise, the output string is discarded and a new nonce is randomly generated for the next mining cycle. When the block is finally found (i.e., the difficulty check is passed), it goes through a verification test performed by a quantum simulator ran on a classical computer.
 
