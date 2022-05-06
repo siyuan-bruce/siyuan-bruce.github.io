@@ -172,9 +172,13 @@ $$
 - By tracing out the second register in the eigenvector basis $\left\vert \Psi_{+}\right\rangle,\left\vert \Psi_{-}\right\rangle$, we obtain a $\frac{1}{2}-\frac{1}{2}$ mixture of $F_{M}^{-1}\left\vert S_{M}\left(\theta_{a} / \pi\right)\right\rangle$ and $F_{M}^{-1}\left\vert S_{M}\left(1-\theta_{a} / \pi\right)\right\rangle .$
 - By symmetry (since $\sin ^{2}\left(\pi \frac{y}{M}\right)=\sin ^{2}\left(\pi\left(1-\frac{y}{M}\right)\right)$ ), we can assume the measured $\vert y\rangle$ is the result of measuring $F_{M}^{-1}\left\vert S_{M}\left(\theta_{a} / \pi\right)\right\rangle$.
 - We thus have 
-$\tilde{\theta}_{a}=\pi \frac{y}{M}$
+$$
+\tilde{\theta}_{a}=\pi \frac{y}{M}
+$$
 is a good estimate of 
-$\theta_{a}$
+$$
+\theta_{a}
+$$
 .
 
 
