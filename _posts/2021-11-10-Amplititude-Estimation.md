@@ -40,7 +40,11 @@ amplification enables a quadratic speed-up in $\mathcal{O}(1 / \sqrt{a})$.
 ## 2. Rview of Grover Search
 The amplitude amplification operator
 - $\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .$
-- $S_{\chi}$ is the oracle function: $\vert x\rangle \longmapsto\left\{\begin{aligned}-\vert x\rangle & \text { if } \chi(x)=1 \\\vert x\rangle & \text { otherwise } \end{aligned}\right.$
+- $S_{\chi}$ is the oracle function: 
+
+$$
+\vert x\rangle \longmapsto\left\{\begin{aligned}-\vert x\rangle & \text { if } \chi(x)=1 \\ \vert x\rangle & \text { otherwise } \end{aligned} \right.
+$$
 
 $$
 S_{\chi}=\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I
@@ -98,9 +102,11 @@ $$
 Q^{j}\vert \Psi\rangle=\frac{-i}{2}\left(e^{(2 j+1) i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-(2 j+1) i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
 $$
 
-By writing it back in the original $\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$ basis:
-$$
+By writing it back in the original 
+$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$ basis:
 
+
+$$
 Q^{j}\vert \Psi\rangle=\sin \left((2 j+1) \theta_{a}\right) \frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle+\cos \left((2 j+1) \theta_{a}\right) \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle
 $$
 
