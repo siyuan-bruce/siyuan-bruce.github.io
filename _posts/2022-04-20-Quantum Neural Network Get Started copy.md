@@ -1,6 +1,6 @@
 ---
 title: Quantum Neural Network Get Started
-tags: QuantumComputing
+tags: QuantumComputing, Neural Network
 mathjax: true
 author: Si Yuan JIN
 article_header:

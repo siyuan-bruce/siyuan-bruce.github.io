@@ -27,7 +27,6 @@ key: page-about
 ---
 
 
-
 ## **Introduction**
 
 My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing & DLT research at HSBC Lab. My job is to study how to leverage technology to empower business.
@@ -41,6 +40,7 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 ---
 
 ## **Education**
+- Hong Kong University of Science and Technology (Aug 2022 - Jul 2027). PhD student in Financial Technology
 - South China University of Technology (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
   - GPA: 3.83 / 4.00 
   - Rank: 1 / 33
@@ -57,14 +57,20 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 
 ---
 
+## Award
+- 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
+- 2021.06 University-level excellent graduation thesis (Top 1%)
+- 2019.10 Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
+- 2019.10 Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
+- 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
+
 ## Volunteer
 - Director at South China University of Technology Innovation Club for Science and Technology
   Sep 2018 - Mar 2019
 - Member of South China University of Technology Innovation Club for Science and Technology
   Mar 2018 - Sep 2018 
 
-## Award
-- 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
+
 ## Skills
 ### Language
 - Chinese (Native)
