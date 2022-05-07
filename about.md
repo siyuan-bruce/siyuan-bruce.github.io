@@ -52,7 +52,7 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 ---
 
 ## Employment
-- HSBC Lab (May 2021 - now). Full Stack Engineer.
+- HSBC Lab (May 2021 - Aug 2022). Full Stack Engineer on Fintech.
 - HSBC Lab (Seq 2020 - May 2021). Internship.
 
 ---
