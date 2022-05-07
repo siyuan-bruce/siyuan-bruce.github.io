@@ -45,7 +45,7 @@ We introduce three methods to encode data:
 ### 2.1 Basis encoding
 This refers to encode data into computational basis states.
 
-For example, if $x_{1} = 01$ and $x_{2} = 10$, we can use a two-qubit quantum state that is a superposition of state $\vert 01\rangle$ and $\vert 10\rangle$.
+For example, if $x_{1} = 01$ and $x_{2} = 10$, we can use a two-qubit quantum state that is a superposition of state $\vert 01 \rangle$ and $\vert 10 \rangle$.
 
 ### 2.2 Amplitude Encoding
 
@@ -448,8 +448,6 @@ qnn3.forward(input3, weights3)
 # QNN backward pass
 qnn3.backward(input3, weights3)
 ```
-
-## 6. Quantum Neural Network Output
 
 **Reference:**
 

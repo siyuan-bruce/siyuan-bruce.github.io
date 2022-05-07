@@ -1,6 +1,6 @@
 ---
 title: Portfolio Optimization with HHL Algorithm
-tags: QuantumComputing
+tags: QuantumComputing, Finance
 mathjax: true
 author: Si Yuan JIN
 article_header:
@@ -71,8 +71,8 @@ $$\left\vert \lambda_{\min }\right\vert $$
  $$\hat{M}$$
  . Otherwise, 
  $$\hat{M}_{\kappa}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$$
-  approximates $
-  $\hat{M}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$$
+  approximates 
+  $$\hat{M}^{-1}\vert \overrightarrow{0}, \mu, \xi\rangle$$
    to an error
 
 $$
