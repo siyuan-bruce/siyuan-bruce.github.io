@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 
-My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing & DLT research at HSBC Lab. My job is to study how to leverage technology to empower business.
+My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing & DLT research at HSBC Lab. My job is to study how to leverage technology to empower business. I interviewed many PhDs for quantum scientists for HSBC Lab.
 
 ---
 
