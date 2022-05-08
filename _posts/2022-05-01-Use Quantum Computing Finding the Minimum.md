@@ -32,12 +32,13 @@ If there are $t \geq 1$ marked table entries, the quantum exponential searching 
 
 ---
 #### Qiskit Implementation Here
+To be updated
 ---
 
 Theorem 1 The algorithm given below finds the index of the minimum value with probability at least $\frac{1}{2}$. Its running time is $\mathcal{O}(\sqrt{N})$.
 
 ## 3. Qiskit Overall Circuit
-
+To be updated
 
 **Reference:**
 
