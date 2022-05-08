@@ -47,8 +47,12 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 
 
 ## Employment
-- HSBC Lab (May 2021 - Aug 2022). Full Stack Engineer on Fintech.
-- HSBC Lab (Seq 2020 - May 2021). Internship.
+- **HSBC Lab** (May 2021 - Aug 2022). 
+  - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
+  - 2021 Top Perfomer | 2021 Role Model | 2021 Global CBDC Challenge Finalist
+- **HSBC Lab** (Seq 2020 - May 2021)
+  - Internship on CBDC work
+  - Angle Fund Winner | Corda Prototype Development
 
 
 ## Award
@@ -69,6 +73,35 @@ My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing 
 ### Language
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
+
+### Licenses & Certifications
+- Verified Certificate for WEB 3.0 KNOWLEDGE CERTIFICATE IN FINANCIAL SERVICES
+  - National University of Singapore
+  - issued Nov 2021 - No Expiration Date
+
+- Deep Learning Series Course
+  - Coursera
+  - issued Mar 2020 - No Expiration Date
+  - Including: Sequence Models, Convolutional Neural Networks, Neural Networks and Deep Learning
+- Game Theory Course
+  - Coursera
+  - Issued Feb 2020
+- Blockchain: Foundations and Use Cases
+  - Coursera
+  - Issued Aug 2019 - No Expiration Date
+- Google Cloud Platform Fundamentals: Core Infrastructure
+  - Coursera
+  - Issued Aug 2019 - No Expiration Date
+- Google Cloud Platform Big Date and Machine Learning Fundamentals
+  - Coursera
+  - Issued Aug 2019 - No Expiration Date
+- Machine Learning Foundations: A Case Study Approach
+  - Coursera
+  - Issued Aug 2019 - No Expiration Date
+- Getting Started With Go
+  - Coursera
+  - Issued Jan 2020 - No Expiration Date
+  
 
 ## Contact
 - Wechat: siyuan-bruce
