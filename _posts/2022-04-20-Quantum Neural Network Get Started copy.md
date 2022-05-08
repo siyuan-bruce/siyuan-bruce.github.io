@@ -381,7 +381,7 @@ The real-amplitude builds two-local circuit.
 
 The two-local circuit is a parameterized circuit consisting of alternating rotation layers and entanglement layers. The rotation layers are single qubit gates applied on all qubits. The entanglement layer uses two-qubit gates to entangle the qubits according to a strategy set using `entanglement`.
 
-quantum circuit that has N qudits is said to be n-local if the gates act nontrivially on *at most* nn-qudits with n≤Nn≤N. As an example, here is a circuit of non-trivial gates acting on *at most* 22-qubits in a system of 33-qubits.
+quantum circuit that has N qudits is said to be n-local if the gates act nontrivially on *at most* nn-qudits with n≤Nn≤N. As an example, here is a circuit of non-trivial gates acting on *at most* 2-qubits in a system of 3-qubits.
 
 ### 5.4 Why we use two-local circuit as Anastz
 
