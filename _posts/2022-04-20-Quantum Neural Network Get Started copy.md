@@ -214,7 +214,11 @@ Consider a quantum computer with parameterized gates of the form
 $$
 U_{i}\left(\theta_{i}\right)=\exp \left(-i \frac{\theta_{i}}{2} \hat{P}_{i}\right),
 $$
-where $\hat{P}_{i}=\hat{P}_{i}^{\dagger}$ is a Pauli operator.
+where 
+$$
+\hat{P}_{i}=\hat{P}_{i}^{\dagger}
+$$
+ is a Pauli operator.
 
 The gradient of this unitary is
 $$
