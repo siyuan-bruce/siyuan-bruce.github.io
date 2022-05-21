@@ -1,6 +1,6 @@
 ---
 title: Portfolio Optimization with HHL Algorithm
-tags: QuantumComputing, Finance
+tags: QuantumComputing Finance
 mathjax: true
 author: Si Yuan JIN
 article_header:

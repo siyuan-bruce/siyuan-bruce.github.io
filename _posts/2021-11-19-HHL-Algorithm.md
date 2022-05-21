@@ -395,6 +395,52 @@ $$\left\vert x_{0}\right\vert ^{2} \text { to }\left\vert x_{1}\right\vert ^{2} 
 .
 
 
+## 7. Qiskit Version of HHL
+Qiskit's implementation of HHL has slight differences with the above. The following part introduces HHL's implementation and finds the differences.
+
+The following figure shows the overall circuit.
+![Image](https://jsybruce.github.io/Homepage/assets/images/posts/HHL/hhlcircuit.png "Image@512x512"){:width="512px"}
+
+The algorithm goes as the following:
+1. Load the data $|b\rangle \in \mathbb{C}^{N}$. That is, perform the transformation
+    
+$$
+|0\rangle_{n_{b}} \mapsto|b\rangle_{n_{b}}
+$$
+
+2. Apply Quantum Phase Estimation (QPE) with
+$$
+U=e^{i A t}:=\sum_{j=0}^{N-1} e^{i \lambda_{j} t}\left|u_{j}\right\rangle\left\langle u_{j}\right|
+$$
+The quantum state of the register expressed in the eigenbasis of $A$ is now
+$$
+\sum_{j=0}^{N-1} b_{j}\left|\lambda_{j}\right\rangle_{n l}\left|u_{j}\right\rangle_{n_{b}}
+$$
+where $\left|\lambda_{j}\right\rangle_{n l}$ is the $n_{l}$-bit binary representation of $\lambda_{j}$.
+
+3. Add an auxiliary qubit and apply a rotation conditioned on $\left|\lambda_{j}\right\rangle$,
+   
+$$
+\sum_{j=0}^{N-1} b_{j}\left|\lambda_{j}\right\rangle_{n_{l}}\left|u_{j}\right\rangle_{n_{b}}\left(\sqrt{1-\frac{C^{2}}{\lambda_{j}^{2}}}|0\rangle+\frac{C}{\lambda_{j}}|1\rangle\right)
+$$
+
+where $C$ is a normalisation constant, and, as expressed in the current form above, should be less than the smallest eigenvalue $\lambda_{\min }$ in magnitude, i.e., $|C|<\lambda_{\min }$.
+
+4. Apply $\mathrm{QPE}^{\dagger}$. Ignoring possible errors from QQE, this results in
+$$
+\sum_{j=0}^{N-1} b_{j}|0\rangle_{n_{l}}\left|u_{j}\right\rangle_{n_{b}}\left(\sqrt{1-\frac{C^{2}}{\lambda_{j}^{2}}}|0\rangle+\frac{C}{\lambda_{j}}|1\rangle\right)
+$$
+
+5. Measure the auxiliary qubit in the computational basis. If the outcome is 1 , the register is in the post-measurement state
+   
+$$
+\left(\sqrt{\frac{1}{\sum_{j=0}^{N-1}\left|b_{j}\right|^{2} /\left|\lambda_{j}\right|^{2}}}\right) \sum_{j=0}^{N-1} \frac{b_{j}}{\lambda_{j}}|0\rangle_{n l}\left|u_{j}\right\rangle_{n_{b}}
+$$
+
+which up to a normalisation factor corresponds to the solution.
+
+6. Apply an observable $M$ to calculate $F(x):=\langle x|M| x\rangle$.
+
 ---
 
 

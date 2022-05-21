@@ -91,7 +91,7 @@ $$
 Replacing $x$ by $2^{n} \theta$ in the above expression gives exactly the expression derived in step 2 above. Therefore, to recover the state $\left\vert 2^{n} \theta\right\rangle$, apply an inverse Fourier transform on the auxiliary register. Doing so, we find
 
 $$
-\left\vert \psi_{3}\right\rangle=\frac{1}{2^{\frac{1}{2}}} \sum_{k=0}^{2^{n}-1} e^{2 \pi i \theta k}\vert k\rangle \otimes\vert \psi\rangle \stackrel{\operatorname{erc}^{-1}}{\longrightarrow} \frac{1}{2^{n}} \sum_{x=0}^{2^{n}-1} \sum_{k=0}^{2^{n}-1} e^{-\frac{3 \pi i k}{2^{k}}\left(z-2^{n} \theta\right)}\vert x\rangle \otimes\vert \psi\rangle
+\left\vert \psi_{3}\right\rangle=\frac{1}{2^{\frac{1}{2}}} \sum_{k=0}^{2^{n}-1} e^{2 \pi i \theta k}\vert k\rangle \otimes\vert \psi\rangle \stackrel{\operatorname{QFT}^{-1}}{\longrightarrow} \frac{1}{2^{n}} \sum_{x=0}^{2^{n}-1} \sum_{k=0}^{2^{n}-1} e^{-\frac{3 \pi i k}{2^{k}}\left(x-2^{n} \theta\right)}\vert x\rangle \otimes\vert \psi\rangle
 $$
 
 v. Measurement: The above expression peaks near $x=2^{n} \theta$. For the case when $2^{n} \theta$ is an integer, measuring in the computational basis gives the phase in the auxiliary register with high probability:

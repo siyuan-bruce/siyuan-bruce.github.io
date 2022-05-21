@@ -1,6 +1,6 @@
 ---
 title: Quantum Proof of Work
-tags: QuantumComputing, Blockchain
+tags: QuantumComputing Blockchain
 mathjax: true
 author: Si Yuan JIN
 article_header:
