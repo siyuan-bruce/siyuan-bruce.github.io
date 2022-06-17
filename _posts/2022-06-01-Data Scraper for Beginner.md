@@ -15,7 +15,7 @@ Data Scraper is an efficient way to get massive internet data in a certain manne
 
 The key thing is that we need to simulate requests to the remote server. There are usually two types of data we can get: 1. Static website data. 2. Dynamic website data.
 
-## 2. Core 
+## 2. Core Code
 The core code is the following:
 ```
 import requests
@@ -23,7 +23,7 @@ response = requests.request("GET", url, headers=headers)
 ```
 As mentioned, we need to use python to simulate the request, including **URL**, **headers**, and potentially **params**. We then use two cases to demonstrate how we get the data.
 
-## 2.  Static Data
+## 3.  Static Data
 The server sends whole HTML documents to users in this case. 
 
 We can use GitHub as an example, in which we just simply use the "github.com" as the URL. In this case, we do not have some specific headers or params.
@@ -41,7 +41,7 @@ soup = BeautifulSoup(response.text)
 
 Then you can use the soup's functions to find what you want.
 
-## 3. Dynamic data
+## 4. Dynamic data
 Now let's see some more complex cases. Assume we want to get data with dynamic parameters. For example, we want to get PHANTA Bear data, which includes 1 to 10,000 different NFTs.
 
 First, we must interact with the website to find where the data comes from.
@@ -91,5 +91,5 @@ for i in range(1, 10000):
     data = response.json()
 ```
 
-## 4. Conclusion
+## 5. Conclusion
 The difficulty in data scraper is to simulate the request. Therefore, we need to carefully interact with the website and find where its data comes from. And then we can get it! In some cases, we may use **post** method to get data that needs params in the request. But it would not be the hard part. 
