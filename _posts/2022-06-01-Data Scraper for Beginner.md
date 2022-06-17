@@ -89,4 +89,4 @@ for i in range(1, 10000):
 ```
 
 ## 4. Conclusion
-The diffucity in data scraper is to simluate the request. Therefore, we need to carefully interact with the website and find where its data from. And then we can get it!
+The diffucity in data scraper is to simluate the request. Therefore, we need to carefully interact with the website and find where its data from. And then we can get it! In some case, we may use **post** method to get data that needs params in the request. But it would not be the hard part. 
