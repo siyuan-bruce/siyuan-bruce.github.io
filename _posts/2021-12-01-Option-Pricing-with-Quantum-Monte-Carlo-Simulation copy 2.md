@@ -1,6 +1,6 @@
 ---
 title: Option Pricing with Quantum Monte Carlo Simulation
-tags: QuantumComputing, Finance
+tags: QuantumComputing Finance
 mathjax: true
 author: Si Yuan JIN
 article_header:
