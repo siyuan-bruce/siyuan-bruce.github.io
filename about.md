@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 
-My name is Siyuan Jin (金思远). Currently, I am working on Quantum Computing & DLT research at HSBC Lab. My job is to study how to leverage technology to empower business. 
+Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. He focuses on state-of-art technologies and enhances their potential applications in financial areas.
 
 ---
 
