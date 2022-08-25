@@ -105,6 +105,7 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. Hi
   
 
 ## **Contact**
+- Email: siyuan.jin@connect.ust.hk
 - Wechat: siyuan-bruce
 - linkedin: https://www.linkedin.com/in/si-yuan-bruce-jin-3a0227193/
 
