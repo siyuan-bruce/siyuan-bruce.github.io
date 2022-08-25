@@ -37,7 +37,8 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. Hi
 
 
 ## **Education**
-- Hong Kong University of Science and Technology (Aug 2022 - Jul 2027). PhD student in Financial Technology
+- Hong Kong University of Science and Technology (Aug 2022 - Jul 2027). MPhil-PhD Student in Information Systems.
+  - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming SHao.
 - South China University of Technology (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
   - GPA: 3.83 / 4.00 
   - Rank: 1 / 33
