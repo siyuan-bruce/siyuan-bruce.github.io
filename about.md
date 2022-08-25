@@ -25,7 +25,7 @@ titles:
   # @end locale config
 key: page-about
 ---
-
+<img src= "./images/profile.jpg" align=right width="200"/>
 Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. He focuses on state-of-art technologies and enhances their potential applications in financial areas.
 
 ---
@@ -46,7 +46,7 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. He
 - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
 
-## Employment
+## **Employment**
 - **HSBC Lab** (May 2021 - Aug 2022). 
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
@@ -55,21 +55,21 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. He
   - Angle Fund Winner \| Corda Prototype Development
 
 
-## Award
+## **Award**
 - 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
 - 2021.06 University-level excellent graduation thesis (Top 1%)
 - 2019.10 Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
 - 2019.10 Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
 - 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
 
-## Volunteer
+## **Volunteer**
 - Director at South China University of Technology Innovation Club for Science and Technology
   Sep 2018 - Mar 2019
 - Member of South China University of Technology Innovation Club for Science and Technology
   Mar 2018 - Sep 2018 
 
 
-## Skills
+## **Skills**
 ### Language
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
@@ -103,12 +103,9 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. He
   - Issued Jan 2020 - No Expiration Date
   
 
-## Contact
+## **Contact**
 - Wechat: siyuan-bruce
-- linkedin: https://www.linkedin.cn/incareer/in/si-yuan-bruce-jin-3a0227193
+- linkedin: https://www.linkedin.com/in/si-yuan-bruce-jin-3a0227193/
 
----
 
-### **Profile**
 
-![Image](./images/profile.jpg "Image@256x256"){:width="256px"}
