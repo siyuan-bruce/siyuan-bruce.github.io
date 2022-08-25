@@ -25,8 +25,9 @@ titles:
   # @end locale config
 key: page-about
 ---
-<img src= "./images/profile.jpg" align=right width="200"/>
-Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. He focuses on state-of-art technologies and enhances their potential applications in financial areas.
+<img src= "./images/profile.jpg" align=right width="150"/>
+Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. His program is information Systems. He is supervised by Prof. Kar Yan Tam, Prof. Bei Zeng and Prof Qiming Shao. He focuses on state-of-art technologies and enhances their potential applications in financial areas. 
+
 
 ---
 
