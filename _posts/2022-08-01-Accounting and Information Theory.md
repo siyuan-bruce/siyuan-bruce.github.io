@@ -16,7 +16,7 @@ Information is defined in this context as a function of the two sets of probabil
 The function:
 
 $$
-h(p)=log\frac{1}{p}=-log p
+h(p)=log\frac{1}{p}=-log(p)
 $$
 
 - The total amount of information received is independent of the order in which the messages arrive.
@@ -107,8 +107,8 @@ Balance sheet information measure
 
 |  | Assets | Liabilities | Total |
 | --- | --- | --- | --- |
-| Current | ⁍ | ⁍ | ⁍ |
-| Fixed | ⁍ | ⁍ | ⁍ |
+| Current | $p_{11}$ | $p_{12}$ | $p_{1.}$ |
+| Fixed | $p_{21}$ | $p_{22}$ | $p_{2.}$ |
 | Total | 1/2 | 1/2 | 1 |
 
 Two ways of measuring information values:
@@ -129,7 +129,8 @@ The balance sheet information is equal to the arithmetic mean of the assets info
 Time horizon decomposition
 
 $$
-\sum_{i=1}^{2}\sum_{j=1}^{2}{q_{ij}log\frac{q_{ij}}{p_{ij}}}=\sum_{i=1}^{2}{q_{i.}}\sum_{j=1}^{2}{\frac{q_{ij}}{q_{i.}}log\frac{q_{ij}/q_{.i}}{p_{ij}/p_{.i}}} + \sum_{i=1}^{2}{q_{i.}}log\frac{q_{i.}}{p_{i.}}\\ = \text{weighted means of current items information and fixed items information} \\ \text{+ time-horizon information}
+\sum_{i=1}^{2}\sum_{j=1}^{2}{q_{ij}log\frac{q_{ij}}{p_{ij}}}=\sum_{i=1}^{2}{q_{i.}}\sum_{j=1}^{2}{\frac{q_{ij}}{q_{i.}}log\frac{q_{ij}/q_{.i}}{p_{ij}/p_{.i}}} + \sum_{i=1}^{2}{q_{i.}}log\frac{q_{i.}}{p_{i.}}
+\\ = \text{weighted means of current items information and fixed items information} \\ \text{+ time-horizon information}
 $$
 
 time-horizon information concerned with the changes in the relative positions of all current items
