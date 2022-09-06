@@ -29,5 +29,5 @@ header:
       en-AU   : *EN
       zh-Hans : &ZH_HANS  Gallery
       
-    url: /gallery.html
+    url: /gallery/
 
