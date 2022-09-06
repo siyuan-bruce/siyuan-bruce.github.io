@@ -20,7 +20,7 @@ header:
       zh-Hans : &ZH_HANS  关于
     url: /about.html
 
-    - titles: 
+  - titles: 
       # @start locale config
       en      : &EN       Gallery
       en-GB   : *EN
