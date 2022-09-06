@@ -1,0 +1,30 @@
+---
+layout: page
+type: article
+---
+
+{%- include snippets/assign.html
+  target = site.data.variables.default.page.sharing
+  source0=layout.sharing source1=page.sharing -%}
+{%- assign _sharing = __return -%}
+
+<div class="layout--article">
+  {%- include article/top/custom.html -%}
+
+  <div class="article__content" itemprop="articleBody">{{ content }}</div>
+
+  {%- if _sharing -%}
+    <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
+  {%- endif -%}
+
+  <div class="d-print-none">
+    {%- include article-footer.html -%}
+    {%- include article-section-navigator.html -%}
+  </div>
+
+</div>
+
+<script>
+  {%- include scripts/article.js -%}
+</script>
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5sfj0elsehn&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
