@@ -19,3 +19,15 @@ header:
       en-AU   : *EN
       zh-Hans : &ZH_HANS  关于
     url: /about.html
+
+      - titles: 
+      # @start locale config
+      en      : &EN       Gallery
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  Gallery
+      
+    url: /gallery.html
+
