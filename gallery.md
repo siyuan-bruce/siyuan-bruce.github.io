@@ -32,7 +32,7 @@ This page presents some of my previous moment captures.
 #### Alicloud Conference, Shenzhen, China
  ![Image](assets/images/gallery/AliCloud.jpg "Image@512x512")
 
- #### Graduation at South China University of Technology
+#### Graduation at South China University of Technology
  ![Image](assets/images/gallery/graduation2.jpg "Image@512x512")
 
 #### Global CBDC Challenge, Online, Singapore Fintech Festival (Dr. Yong Xia, Mark Liu, Me, Bing Qu)
@@ -45,3 +45,5 @@ This page presents some of my previous moment captures.
 ### **2018**
 #### School Team Time, Guangzhou, China
 ![Image](assets/images/gallery/2018_Basketball.jpg "Image@512x512")
+#### Class Team Time, Guangzhou, China
+![Image](assets/images/gallery/2018_Basketball2.jpg "Image@512x512")
