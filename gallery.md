@@ -14,5 +14,6 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-gallery
+permalink: /gallery.html
 ---
 This is a gallery page.
