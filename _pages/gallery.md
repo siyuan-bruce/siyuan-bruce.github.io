@@ -13,5 +13,6 @@ titles:
   fr-FR   : *FR
   fr-LU   : *FR
   # @end locale config
-key: page-Gallery
+key: gallery
 ---
+This is a gallery page.
