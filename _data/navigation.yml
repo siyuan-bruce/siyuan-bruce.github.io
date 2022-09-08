@@ -29,3 +29,12 @@ header:
       zh-Hans : &ZH_HANS  Gallery
     url: /gallery.html
 
+  - titles: 
+      # @start locale config
+      en      : &EN       Github
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  Github
+    url: https://github.com/siyuan-bruce/Quantum-Finance
