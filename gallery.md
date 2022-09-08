@@ -47,4 +47,4 @@ This page presents some of my previous moment captures.
 ![Image](assets/images/gallery/2018_Basketball.jpg "School Team Time")
 
 #### Class Team Time, Guangzhou, China
-![Image](assets/images/gallery/2018_Basketball2.jpg "Class Team Time")
+![Image](assets/images/gallery/2018_basketball2.jpg "Class Team Time")
