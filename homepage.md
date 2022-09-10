@@ -36,10 +36,13 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. Hi
 - **Quantum Computing**: Quantum Finance, Quantum Algorithms
 - **Distributed Ledger Technology(DLT)**: Central Bank Digital Currency, Consensus Algorithm
 
+## **Selected Publication**
+- **(HSBC Lab)** Jin, Si Yuan, and Yong Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
 
 ## **Education**
-- Hong Kong University of Science and Technology (Aug 2022 - Jul 2027). MPhil-PhD Student in Information Systems.
+- Hong Kong University of Science and Technology (Aug 2022 - now). MPhil-PhD Student in Information Systems.
   - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
+  - Research Direction: Central Bank Digital Currency, Quantum Finance
 - South China University of Technology (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
   - GPA: 3.83 / 4.00 
   - Rank: 1 / 33
@@ -80,30 +83,21 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. Hi
 ### Licenses & Certifications
 - Verified Certificate for WEB 3.0 KNOWLEDGE CERTIFICATE IN FINANCIAL SERVICES
   - National University of Singapore
-  - issued Nov 2021 - No Expiration Date
 
+#### Coursera:
+- Machine Learning
 - Deep Learning Series Course
-  - Coursera
-  - issued Mar 2020 - No Expiration Date
-  - Including: Sequence Models, Convolutional Neural Networks, Neural Networks and Deep Learning
+  - Sequence Models
+  - Convolutional Neural Networks 
+  - Neural Networks
+  - Deep Learning
 - Game Theory Course
-  - Coursera
-  - Issued Feb 2020
 - Blockchain: Foundations and Use Cases
-  - Coursera
-  - Issued Aug 2019 - No Expiration Date
 - Google Cloud Platform Fundamentals: Core Infrastructure
-  - Coursera
-  - Issued Aug 2019 - No Expiration Date
 - Google Cloud Platform Big Date and Machine Learning Fundamentals
-  - Coursera
-  - Issued Aug 2019 - No Expiration Date
 - Machine Learning Foundations: A Case Study Approach
-  - Coursera
-  - Issued Aug 2019 - No Expiration Date
 - Getting Started With Go
-  - Coursera
-  - Issued Jan 2020 - No Expiration Date
+- Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
   
 
 ## **Contact**
