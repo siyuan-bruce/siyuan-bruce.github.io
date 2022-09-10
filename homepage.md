@@ -2,28 +2,22 @@
 layout: article
 titles:
   # @start locale config
-  en      : &EN       About
+  en      : &EN       Homepage
   en-GB   : *EN
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
+  zh-Hans : &ZH_HANS  主页
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR
   fr-FR   : *FR
   fr-LU   : *FR
   # @end locale config
-key: page-about
+key: page-homepage
 ---
 
 <img src= "./images/profile.jpg" align=right width="150"/>
@@ -83,7 +77,6 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. Hi
 ### Licenses & Certifications
 - Verified Certificate for WEB 3.0 KNOWLEDGE CERTIFICATE IN FINANCIAL SERVICES
   - National University of Singapore
-
 #### Coursera:
 - Machine Learning
 - Deep Learning Series Course
