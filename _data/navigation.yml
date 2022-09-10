@@ -1,16 +1,6 @@
 header:
   - titles: 
       # @start locale config
-      en      : &EN       Notes
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  笔记
-    url: /archive.html
-
-  - titles: 
-      # @start locale config
       en      : &EN       Homepage
       en-GB   : *EN
       en-US   : *EN
@@ -19,6 +9,16 @@ header:
       zh-Hans : &ZH_HANS  主页
     url: /homepage.html
 
+  - titles: 
+      # @start locale config
+      en      : &EN       Notes
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  笔记
+    url: /archive.html
+    
   - titles: 
       # @start locale config
       en      : &EN       Gallery
