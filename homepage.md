@@ -27,7 +27,7 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 ---
 
 ## **Research Interests (Technology: Business Scenario)**
-- **Quantum Computing**: Quantum Finance
+- **Quantum Computing**: Quantum Finance (If you are interested in this topic, please check https://github.com/siyuan-bruce/Quantum-Finance)
 - **Distributed Ledger Technology(DLT)**: Central Bank Digital Currency
 
 ## **Selected Publication**
