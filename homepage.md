@@ -26,9 +26,9 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 
 ---
 
-## **Research Interests (Technology: Business Scenario)**
+## **Research Interests**
 - **Quantum Computing**: Quantum Finance (If you are interested in this topic, please check https://github.com/siyuan-bruce/Quantum-Finance)
-- **Distributed Ledger Technology(DLT)**: Central Bank Digital Currency
+- **Distributed Ledger Technology (DLT)**: Central Bank Digital Currency
 
 ## **Selected Publication**
 - **(HSBC Lab)** Jin, Si Yuan, and Yong Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
@@ -40,10 +40,10 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 - South China University of Technology (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
   - GPA: 3.83 / 4.00 
   - Rank: 1 / 33
-- Obtained 2021 University-level excellent graduation thesis
-- Obtained 2020 China National Scholarship (Top 0.1%)
-- Obtained 2019 First prize of South China University of Technology (Top 1%)
-- Obtained 2018 First prize of South China University of Technology (Top 1%)
+  - Obtained 2021 University-level excellent graduation thesis
+  - Obtained 2020 China National Scholarship (Top 0.1%)
+  - Obtained 2019 First prize of South China University of Technology (Top 1%)
+  - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
 
 ## **Employment**
