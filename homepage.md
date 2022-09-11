@@ -21,14 +21,14 @@ key: page-homepage
 ---
 
 <img src= "./images/profile.jpg" align=right width="150"/>
-Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. His program is information Systems. He is supervised by Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao. He focuses on state-of-art technologies and enhances their potential applications in financial areas. 
+Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of HKUST. His program is information Systems. He is supervised by Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao. He focuses on state-of-art technologies and enhances their potential applications in financial areas. 
 
 
 ---
 
-## **Research Interests**
-- **Quantum Computing**: Quantum Finance, Quantum Algorithms
-- **Distributed Ledger Technology(DLT)**: Central Bank Digital Currency, Consensus Algorithm
+## **Research Interests (Technology: Business Scenario)**
+- **Quantum Computing**: Quantum Finance
+- **Distributed Ledger Technology(DLT)**: Central Bank Digital Currency
 
 ## **Selected Publication**
 - **(HSBC Lab)** Jin, Si Yuan, and Yong Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
@@ -77,14 +77,15 @@ Si Yuan JIN is currently a MPhil-PhD student at the Business School of HKUST. Hi
 ### Licenses & Certifications
 - Verified Certificate for WEB 3.0 KNOWLEDGE CERTIFICATE IN FINANCIAL SERVICES
   - National University of Singapore
+
 #### Coursera:
 - Machine Learning
-- Deep Learning Series Course
+- Deep Learning Series
   - Sequence Models
   - Convolutional Neural Networks 
   - Neural Networks
   - Deep Learning
-- Game Theory Course
+- Game Theory
 - Blockchain: Foundations and Use Cases
 - Google Cloud Platform Fundamentals: Core Infrastructure
 - Google Cloud Platform Big Date and Machine Learning Fundamentals
