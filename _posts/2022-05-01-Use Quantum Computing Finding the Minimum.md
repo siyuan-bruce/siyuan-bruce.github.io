@@ -15,20 +15,20 @@ Quantum Minimum Search algorithm helps to find the minimum. The general idea of 
 
 ## 2. Algorithm Workflow
 QUANTUM MINIMUM SEARCHING ALGORITHM
-1. Choose threshold index $0 \leq y \leq N-1$ uniformly at random.
-2. Repeat the following and interrupt it when the total running time is more than $22.5 \sqrt{N}+$ $1.4 \lg ^{2} N .{ }^{1}$ Then go to stage $2(2 \mathrm{c})$.
+1. Choose threshold index $$0 \leq y \leq N-1$$ uniformly at random.
+2. Repeat the following and interrupt it when the total running time is more than $$22.5 \sqrt{N}+$$ $$1.4 \lg ^{2} N .{ }^{1}$$ Then go to stage $$2(2 \mathrm{c})$$.
 (a) Initialize the memory as 
 $$
 \sum_{j} \frac{1}{\sqrt{N}}|j\rangle|y\rangle
 $$
 .
-Mark every item $j$ for which $T[j]<T[y]$.
+Mark every item $$j$$ for which $$T[j]<T[y]$$.
 (b) Apply the quantum exponential searching algorithm of [2].
-(c) Observe the first register: let $y^{\prime}$ be the outcome. If $T\left[y^{\prime}\right]<T[y]$, then set threshold index $y$ to $y^{\prime}$.
-3. Return $y$.
+(c) Observe the first register: let $$y^{\prime}$$ be the outcome. If $$T\left[y^{\prime}\right]<T[y]$$, then set threshold index $$y$$ to $$y^{\prime}$$.
+3. Return $$y$$.
 
 ### 2.1 How to determine the times of rotations?
-If there are $t \geq 1$ marked table entries, the quantum exponential searching algorithm will return one of them with equal probability after an expected number of $\mathcal{O}(\sqrt{N / t})$ iterations. If no entry is marked, then it will run forever. The algorithm given below finds the index of the minimum value with probability at least $\frac{1}{2}$. Its running time is $\mathcal{O}(\sqrt{N})$.
+If there are $$t \geq 1$$ marked table entries, the quantum exponential searching algorithm will return one of them with equal probability after an expected number of $$\mathcal{O}(\sqrt{N / t})$$ iterations. If no entry is marked, then it will run forever. The algorithm given below finds the index of the minimum value with probability at least $$\frac{1}{2}$$. Its running time is $$\mathcal{O}(\sqrt{N})$$.
 
 ---
 #### Qiskit Implementation Here

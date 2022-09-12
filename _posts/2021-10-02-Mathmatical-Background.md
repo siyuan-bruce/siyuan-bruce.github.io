@@ -18,9 +18,9 @@ $$ z=x+i y $$
 
 ![Image](/assets/images/posts/Mathmatical-Background/ComplexNumber.png "Image@512x512"){:width="512px"}
 
-Two Common Ways to Represent Complex Numbers. In the Cartesian representation, x and y are the horizontal (real) and vertical (imaginary) components. In the polar representation, r is the radius, $\theta$ and is the angle made with the x axis. In each case, it takes two real numbers to represent a single complex number.
+Two Common Ways to Represent Complex Numbers. In the Cartesian representation, x and y are the horizontal (real) and vertical (imaginary) components. In the polar representation, r is the radius, $$$\theta$$ and is the angle made with the x axis. In each case, it takes two real numbers to represent a single complex number.
 
-where $x$ and $y$ are real and $i^{2}=-1$ . Complex numbers can be added, multiplied, and divided by the standard rules of arithmetic. They can be visualized as points on the complex plane with coordinates $x, y$ . They can also be represented in polar coordinates:
+where $$x$$ and $$y$$ are real and $$i^{2}=-1$$ . Complex numbers can be added, multiplied, and divided by the standard rules of arithmetic. They can be visualized as points on the complex plane with coordinates $$x, y$$ . They can also be represented in polar coordinates:
 
 $$
 z=r e^{i \theta}=r(\cos \theta+i \sin \theta) .
@@ -32,7 +32,7 @@ $$
 \left(r_{1} e^{i \theta_{1}}\right)\left(r_{2} e^{i \theta_{2}}\right)=\left(r_{1} r_{2}\right) e^{i\left(\theta_{1}+\theta_{2}\right)}
 $$
 
-Every complex number $z$ has a complex conjugate $z^{*}$ that is obtained by simply reversing the sign of the imaginary part.
+Every complex number $$z$$ has a complex conjugate $$z^{*}$$ that is obtained by simply reversing the sign of the imaginary part.
 If
 
 $$z=x+i y=r e^{i \theta}$$
@@ -45,11 +45,11 @@ Multiplying a complex number and its conjugate always gives a positive real resu
 
 $$z^{*} z=r^{2}$$
 
-It is of course true that every complex conjugate is itself a complex number, but it's often helpful to think of $z$ and $z^{*}$ as belonging to separate "dual" number systems. 
+It is of course true that every complex conjugate is itself a complex number, but it's often helpful to think of $$z$$ and $$z^{*}$$ as belonging to separate "dual" number systems. 
 
-Dual here means that for every $z$ there is a unique $z^{*}$ and vice versa.
+Dual here means that for every $$z$$ there is a unique $$z^{*}$$ and vice versa.
 
-There is a special class of complex numbers that I'll call "phase-factors." A phase-factor is simply a complex number whose $r$-component is 1 . If $z$ is a phase-factor, then the following hold:
+There is a special class of complex numbers that I'll call "phase-factors." A phase-factor is simply a complex number whose $$r$-component is 1 . If $$z$$ is a phase-factor, then the following hold:
 
 $$\begin{gathered}
 z^{*} z=1 \\
@@ -64,7 +64,7 @@ The space of states of a quantum system is not a mathematical set;6 it is a vect
 
 In quantum mechanics, a vector space is composed of elements called ket-vectors or just kets.
 
-In quantum mechanics, a vector space is composed of elements $\vert A\rangle$ called ket-vectors or just kets. Here are the axioms we will use to define the vector space of states of a quantum system ( $z$ and $w$ are complex numbers):
+In quantum mechanics, a vector space is composed of elements $$\vert A\rangle$$ called ket-vectors or just kets. Here are the axioms we will use to define the vector space of states of a quantum system ( $$z$$ and $$w$$ are complex numbers):
 1. The sum of any two ket-vectors is also a ket-vector:
    
 $$\vert A\rangle+\vert B\rangle=\vert C\rangle$$
@@ -81,11 +81,11 @@ $$\{\vert A\rangle+\vert B\rangle\}+\vert C\rangle=\vert A\rangle+\{\vert B\rang
 
 $$\vert A\rangle+0=\vert A\rangle$$
 
-5. Given any ket $\vert A\rangle$ , there is a unique ket $-\vert A\rangle$ such that
+5. Given any ket $$\vert A\rangle$$ , there is a unique ket $$-\vert A\rangle$$ such that
 
 $$\vert A\rangle+(-\vert A\rangle)=0$$
 
-6. Given any ket $\vert A\rangle$ and any complex number $z$ , you can multiply them to get a new ket. Also, multiplication by a scalar is linear:
+6. Given any ket $$\vert A\rangle$$ and any complex number $$z$$ , you can multiply them to get a new ket. Also, multiplication by a scalar is linear:
 
 $$\vert z A\rangle=z\vert A\rangle=\vert B\rangle .$$
 
@@ -99,10 +99,10 @@ $$\begin{aligned}
 Axioms 6 and 7 taken together are often called linearity. Axiom 6 allows a vector to be multiplied by any complex number.
 
 ## 3. Bras and Kets
-As we have seen, the complex numbers have a dual version: in the form of complex conjugate numbers. In the same way, a complex vector space has a dual version that is essentially the complex conjugate vector space. For every ket-vector $\vert A\rangle$ , there is a "bra" vector in the dual space, denoted by $\langle A\vert$ . Why the strange terms bra and ket Shortly, we will define inner products of bras and kets, using expressions like $\langle B \vert A\rangle$ to form bra-kets or brackets. Inner products are extremely important in the mathematical machinery of quantum mechanics, and for characterizing vector spaces in general.
+As we have seen, the complex numbers have a dual version: in the form of complex conjugate numbers. In the same way, a complex vector space has a dual version that is essentially the complex conjugate vector space. For every ket-vector $$\vert A\rangle$$ , there is a "bra" vector in the dual space, denoted by $$\langle A\vert$$ . Why the strange terms bra and ket Shortly, we will define inner products of bras and kets, using expressions like $$\langle B \vert A\rangle$$ to form bra-kets or brackets. Inner products are extremely important in the mathematical machinery of quantum mechanics, and for characterizing vector spaces in general.
 
 Bra vectors satisfy the same axioms as the ket-vectors, but there are two things to keep in mind about the correspondence between kets and bras:
-1. Suppose $\langle A\vert$ is the bra corresponding to the ket $\vert A\rangle$ , and $\langle B\vert$ is the bra corresponding to the ket $\vert B\rangle$ . Then the bra corresponding to
+1. Suppose $$\langle A\vert$$ is the bra corresponding to the ket $$\vert A\rangle$$ , and $$\langle B\vert$$ is the bra corresponding to the ket $$\vert B\rangle$$ . Then the bra corresponding to
 
 $$
 \vert A\rangle+\vert B\rangle
@@ -114,7 +114,7 @@ $$
 \langle A\vert +\langle B\vert 
 $$
 
-2. If $z$ is a complex number, then it is not true that the bra corresponding to $z\vert A\rangle$ is $\langle A\vert  z$ . You have to remember to complexconjugate. Thus, the bra corresponding to
+2. If $$z$$ is a complex number, then it is not true that the bra corresponding to $$z\vert A\rangle$$ is $$\langle A\vert  z$$ . You have to remember to complexconjugate. Thus, the bra corresponding to
    
 $$
 z\vert A\rangle
@@ -126,7 +126,7 @@ $$
 \langle A\vert  z^{*}
 $$
 
-In the concrete example where kets are represented by column vectors, the dual bras are represented by row vectors, with the entries being drawn from the complex conjugate numbers. Thus, if the ket $\vert A\rangle$ is represented by the column
+In the concrete example where kets are represented by column vectors, the dual bras are represented by row vectors, with the entries being drawn from the complex conjugate numbers. Thus, if the ket $$\vert A\rangle$$ is represented by the column
 
 $$
 \left(\begin{array}{l}
@@ -138,7 +138,7 @@ $$
 \end{array}\right)
 $$
 
-then the corresponding bra $\langle A\vert$ is represented by the row
+then the corresponding bra $$\langle A\vert$$ is represented by the row
 
 $$
 \left(\begin{array}{lllll}
@@ -182,7 +182,7 @@ $$
 \langle A \vert A\rangle=1
 $$
 
-- Orthogonal Vectors: Two vectors are said to be orthogonal if their inner product is zero. $\vert A\rangle$ and $\vert B\rangle$ are orthogonal if
+- Orthogonal Vectors: Two vectors are said to be orthogonal if their inner product is zero. $$\vert A\rangle$$ and $$\vert B\rangle$$ are orthogonal if
 
 
 $$
@@ -194,19 +194,19 @@ Obviously, there is nothing special about the particular axes x, y, and z. As lo
 
 Let’s consider an N-dimensional space and a particular orthonormal basis
 
-of ket-vectors labeled $\vert i\rangle$ The label $i$ runs from 1 to $N$ . Consider a vector $\vert A\rangle$ , written as a sum of basis vectors:
+of ket-vectors labeled $$\vert i\rangle$$ The label $$i$$ runs from 1 to $$N$$ . Consider a vector $$\vert A\rangle$$ , written as a sum of basis vectors:
 
 $$
 \vert A\rangle=\sum_{i} \alpha_{i}\vert i\rangle
 $$
 
-The $\alpha_{i}$ are complex numbers called the components of the vector, and to calculate them we take the inner product of both sides with a basis bra $\langle j\vert$ :
+The $$\alpha_{i}$$ are complex numbers called the components of the vector, and to calculate them we take the inner product of both sides with a basis bra $$\langle j\vert$$ :
 
 $$
 \langle j \vert A\rangle=\sum_{i} \alpha_{i}\langle j \vert i\rangle
 $$
 
-Next, we use the fact that the basis vectors are orthonormal. This implies that $\langle j \vert i\rangle=0$ if $i$ is not equal to $j$ , and $\langle j \vert i\rangle=1$ if $i=j$ . In other words, $\langle j \vert i\rangle=\delta_{i j}$ . This makes the sum in Eq. $1.4$ collapse to one term:
+Next, we use the fact that the basis vectors are orthonormal. This implies that $$\langle j \vert i\rangle=0$$ if $$i$$ is not equal to $$j$$ , and $$\langle j \vert i\rangle=1$$ if $$i=j$$ . In other words, $$\langle j \vert i\rangle=\delta_{i j}$$ . This makes the sum in Eq. $$1.4$$ collapse to one term:
 
 $$
 \langle j \vert A\rangle=\alpha_{j}

@@ -45,17 +45,17 @@ We introduce three methods to encode data:
 ### 2.1 Basis encoding
 This refers to encode data into computational basis states.
 
-For example, if $x_{1} = 01$ and $x_{2} = 10$, we can use a two-qubit quantum state that is a superposition of state $\vert 01 \rangle$ and $\vert 10 \rangle$.
+For example, if $$x_{1} = 01$$ and $$x_{2} = 10$$, we can use a two-qubit quantum state that is a superposition of state $$\vert 01 \rangle$$ and $$\vert 10 \rangle$$.
 
 ### 2.2 Amplitude Encoding
 
 This refers to encode data into amplititudes.
 
-For example, if a vector is $[1,1,0,1]$, we can use a two-qubit quantum state that is a superposition of state $\vert 00\rangle$, $\vert 01\rangle$, $\vert 11\rangle$ with equal weights.
+For example, if a vector is $$[1,1,0,1]$$, we can use a two-qubit quantum state that is a superposition of state $$\vert 00\rangle$$, $$\vert 01\rangle$$, $$\vert 11\rangle$$ with equal weights.
 
 ### 2.3 Angle Encoding
 
-This refers to encode data into rotation angle. We can see the following figure that encodes $x_{1}$, $x_{2}$, $x_{3}$ on the circuit.
+This refers to encode data into rotation angle. We can see the following figure that encodes $$x_{1}$$, $$x_{2}$$, $$x_{3}$$ on the circuit.
 
 ![Image](/assets/images/posts/QuantumNeuralNetwork/angleEncoding.png "Angle Encoding")
 
@@ -160,7 +160,7 @@ Now, we need to consider what is the cost value now?
 
 The cost is a sum of two operators Z and X.
 
-We think from a projection perspective, $[1,0,0]$ has projection on Z with value of 0 and has projection on X with value of 1. The final result should be 1. 
+We think from a projection perspective, $$[1,0,0]$$ has projection on Z with value of 0 and has projection on X with value of 1. The final result should be 1. 
 
 Let's verify it.
 
@@ -226,14 +226,14 @@ $$
 \nabla_{\theta_{i}} U_{i}\left(\theta_{i}\right)=-\frac{i}{2} \hat{P}_{i} U_{i}\left(\theta_{i}\right)=-\frac{i}{2} U_{i}\left(\theta_{i}\right) \hat{P}_{i}
 $$
 
-Substituting this into the quantum circuit function $f(x ; \theta)$, we get
+Substituting this into the quantum circuit function $$f(x ; \theta)$$, we get
 $$
 \begin{aligned}
 \nabla_{\theta_{i}} f(x ; \theta) &=\frac{i}{2}\left\langle\psi_{i-1}\left|U_{i}^{\dagger}\left(\theta_{i}\right)\left(P_{i} \hat{B}_{i+1}-\hat{B}_{i+1} P_{i}\right) U_{i}\left(\theta_{i}\right)\right| \psi_{i-1}\right\rangle \\
 &=\frac{i}{2}\left\langle\psi_{i-1}\left|U_{i}^{\dagger}\left(\theta_{i}\right)\left[P_{i}, \hat{B}_{i+1}\right] U_{i}\left(\theta_{i}\right)\right| \psi_{i-1}\right\rangle
 \end{aligned}
 $$
-where $[X, Y]=X Y-Y X$ is the commutator.
+where $$[X, Y]=X Y-Y X$$ is the commutator.
 We now make use of the following mathematical identity for commutators involving Pauli operators (Mitarai et al. (2018)):
 $$
 \left[\hat{P}_{i}, \hat{B}\right]=-i\left(U_{i}^{\dagger}\left(\frac{\pi}{2}\right) \hat{B} U_{i}\left(\frac{\pi}{2}\right)-U_{i}^{\dagger}\left(-\frac{\pi}{2}\right) \hat{B} U_{i}\left(-\frac{\pi}{2}\right)\right)
@@ -276,14 +276,14 @@ print(observable)
 
 We first need to understand ZZFeatureMap.
 
-ZZFeatureMap embedding $n$-dimensional classical data on $n$ qubits: $U_{\phi(x)} H^{\otimes n}$, where
+ZZFeatureMap embedding $$n$-dimensional classical data on $$n$$ qubits: $$U_{\phi(x)} H^{\otimes n}$$, where
 $$
 \begin{gathered}
 U_{\phi(x)}=\exp \left(i \sum_{S \subseteq[n]} \phi_{S}(x) \prod_{i \in S} Z_{i}\right) \\
 \phi_{i}(x)=x_{i}, \phi_{\{i, j\}}(x)=\left(\pi-x_{0}\right)\left(\pi-x_{1}\right)
 \end{gathered}
 $$
-and $Z_{i}$ is a $Z$-gate on the $i$-th qubit.
+and $$Z_{i}$$ is a $$Z$-gate on the $$i$-th qubit.
 
 **ZZFeatureMap is using RZ operator to transfer input data into a higher dimension data. **
 
@@ -292,11 +292,11 @@ $$
 U_{\phi(x)}=\exp \left(i x_{0} Z_{0}+i x_{1} Z_{1}+i\left(\pi-x_{0}\right)\left(\pi-x_{1}\right) Z_{0} Z_{1}\right)
 $$
 
-The first $2 U 1$ rotations is that since $\exp (i \theta Z)=R Z(2 \theta)$ up to global phase and $R Z$ is equivalent to $U 1$ up to global phase, we might as well use $U 1\left(2 \phi_{i}(x)\right)$. Is that correct?
+The first $$2 U 1$$ rotations is that since $$\exp (i \theta Z)=R Z(2 \theta)$$ up to global phase and $$R Z$$ is equivalent to $$U 1$$ up to global phase, we might as well use $$U 1\left(2 \phi_{i}(x)\right)$$. Is that correct?
 
-Then how do we then get $C X U 1\left(2 \phi_{\{0,1\}}(x)\right) C X$ from $\exp \left(i \phi_{\{0,1\}}(x) Z_{0} Z_{1}\right)$ ?
+Then how do we then get $$C X U 1\left(2 \phi_{\{0,1\}}(x)\right) C X$$ from $$\exp \left(i \phi_{\{0,1\}}(x) Z_{0} Z_{1}\right)$$ ?
 
-By the definition of $U 1(\lambda)$ in qiskit, it is equivalent to $R Z$ up up a phase factor.
+By the definition of $$U 1(\lambda)$$ in qiskit, it is equivalent to $$R Z$$ up up a phase factor.
 Now note that:
 $$
 Z_{0} Z_{1}=Z \otimes Z=\left(\begin{array}{cc}
@@ -325,10 +325,10 @@ R_{Z}(2 \lambda) & \mathbf{0} \\
 \mathbf{0} & X R_{Z}(2 \lambda) X
 \end{array}\right)
 $$
-since $X R_{Z}(2 \lambda) X=\left(\begin{array}{cc}0 & 1 \\ 1 & 0\end{array}\right)\left(\begin{array}{cc}e^{-i \lambda} & 0 \\ 0 & e^{i \lambda}\end{array}\right)\left(\begin{array}{cc}0 & 1 \\ 1 & 0\end{array}\right)=\left(\begin{array}{cc}e^{i \lambda} & 0 \\ 0 & e^{-i \lambda}\end{array}\right)$
+since $$X R_{Z}(2 \lambda) X=\left(\begin{array}{cc}0 & 1 \\ 1 & 0\end{array}\right)\left(\begin{array}{cc}e^{-i \lambda} & 0 \\ 0 & e^{i \lambda}\end{array}\right)\left(\begin{array}{cc}0 & 1 \\ 1 & 0\end{array}\right)=\left(\begin{array}{cc}e^{i \lambda} & 0 \\ 0 & e^{-i \lambda}\end{array}\right)$
 
-Thus, to implement $e^{-i \lambda Z_{0} Z_{1}}$ we would have a circuit like:
-Note that this circuit can be written as $C X \cdot\left(I \otimes R_{Z}\right) \cdot C X$. Also by knowing this, you can check this explicitly as well, by first note that
+Thus, to implement $$e^{-i \lambda Z_{0} Z_{1}}$$ we would have a circuit like:
+Note that this circuit can be written as $$C X \cdot\left(I \otimes R_{Z}\right) \cdot C X$$. Also by knowing this, you can check this explicitly as well, by first note that
 $$
 \otimes R_{Z}(2 \lambda)=\left(\begin{array}{cc}
 1 & 0 \\
@@ -344,7 +344,7 @@ e^{-i \lambda} & 0 & 0 & 0 \\
 \end{array}\right)
 $$
 
-then $C X \cdot(I \otimes R Z(2 \lambda)) \cdot C X$ is equal to
+then $$C X \cdot(I \otimes R Z(2 \lambda)) \cdot C X$$ is equal to
 $$
 \begin{aligned}
 \left(\begin{array}{llll}
@@ -388,9 +388,9 @@ quantum circuit that has N qudits is said to be n-local if the gates act nont
 
 If we want to get some eigenstate by optimization, we need to present these eigenstates. Most eigenstates are entangled. 
 
-Here is an example to see why you need to be able to generate entangle state to have successful VQE calculation, supposed you have the Hamiltonian $H=\left(\begin{array}{llll}0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 1 & 0 & 0 & 0\end{array}\right)$
+Here is an example to see why you need to be able to generate entangle state to have successful VQE calculation, supposed you have the Hamiltonian $$H=\left(\begin{array}{llll}0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 1 & 0 & 0 & 0\end{array}\right)$
 
-And you running VQE to find the lowest eigenvalue to this Hamiltonian. This means you need to be able to generate the eigenstate that correspond to the lowest eigenvalue. Now, if you look at all the eigenstates of $H$ and their correspondence eigenvalues:
+And you running VQE to find the lowest eigenvalue to this Hamiltonian. This means you need to be able to generate the eigenstate that correspond to the lowest eigenvalue. Now, if you look at all the eigenstates of $$H$$ and their correspondence eigenvalues:
 
 $$
 \begin{aligned}
@@ -419,7 +419,7 @@ $$
 \end{aligned}
 $$
 
-Here you should notice that these states are all entangled. So if we want to use the algorithm to find the lowest eigenvalue $(-1)$ in this case, it must be able to generate an entangled state. 
+Here you should notice that these states are all entangled. So if we want to use the algorithm to find the lowest eigenvalue $$(-1)$$ in this case, it must be able to generate an entangled state. 
 
 To summary, entanglement is neccessary in some cases.
 

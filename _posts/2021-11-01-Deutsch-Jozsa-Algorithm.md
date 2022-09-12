@@ -23,13 +23,13 @@ The Deutsch-Jozsa algorithm, first introduced in Reference, was the first exampl
 
 
 
-Given a function $f(x), x\in\{0,1\}$, how can we know whether f(x) is a balanced function or constant function?
+Given a function $$f(x), x\in\{0,1\}$$, how can we know whether f(x) is a balanced function or constant function?
 
 
 We first dig into what is the balanced function and constant function are.
 
 
-- Balanced Function means $f(0)\ne f(1)$, including two possibilites:
+- Balanced Function means $$f(0)\ne f(1)$$, including two possibilites:
   - $$f(0) = 0, f(1) = 1$$
 
 ![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/BalancedOne.png "Image@512x512"){:width="256px"}
@@ -40,7 +40,7 @@ We first dig into what is the balanced function and constant function are.
 ![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/BalancedTwo.png "Image@512x512"){:width="256px"}
 
 
-- Constant Function means $f(0)= f(1)$, including two possibilites:
+- Constant Function means $$f(0)= f(1)$$, including two possibilites:
   - $$f(0) = f(1) = 0$$
 
 ![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/ConstantOne.png "Image@512x512"){:width="256px"}
@@ -53,7 +53,7 @@ We first dig into what is the balanced function and constant function are.
 
 ### 1.2 Solution Circuit
 
-We first present the solution circuit and try to find why it can help find the solution. In the following picture, we assume $n=1$ in the upper register.
+We first present the solution circuit and try to find why it can help find the solution. In the following picture, we assume $$n=1$$ in the upper register.
 
 
 ![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deutsch-Circuit.png "Image@512x512"){:width="512px"}
@@ -111,7 +111,7 @@ $$
 $$
 
 
-We can find that the results of the first register in two circuits are $\vert 1\rangle$. Similarly, if we use the constant function as an example, the result will be $\vert 0\rangle$. So that's what Deutsch can do to solve this problem.
+We can find that the results of the first register in two circuits are $$\vert 1\rangle$$. Similarly, if we use the constant function as an example, the result will be $$\vert 0\rangle$$. So that's what Deutsch can do to solve this problem.
 
 
 By only one measurement, we can know whether a function is balanced or constant, while in the classical computing world, we need twice to see the result.
@@ -120,7 +120,7 @@ By only one measurement, we can know whether a function is balanced or constant,
 
 ## 2. Deutsch-Jozsa Algorithm
 
-Deutsch-Jozsa Algorithm extends Deutsch algorithm into $2^{n}$ dimensions.
+Deutsch-Jozsa Algorithm extends Deutsch algorithm into $$2^{n}$$ dimensions.
 
 
 The algorithm goes with the following procedures:
@@ -133,26 +133,26 @@ The algorithm goes with the following procedures:
   $$
   \left\vert \psi_{1}\right\rangle=\sum_{x \in\{0,1\}^{n}} \frac{\vert x\rangle}{\sqrt{2^{n}}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right]$$
 3. Use targeted function in the circuit
-   $$ \left\vert \psi_{2}\right\rangle=\sum_{x} \frac{(-1)^{f(x)}\vert x\rangle}{\sqrt{2^{n}}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right] $$
+   $$$ \left\vert \psi_{2}\right\rangle=\sum_{x} \frac{(-1)^{f(x)}\vert x\rangle}{\sqrt{2^{n}}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right] $$
 
 4. Another Hardmard Gate
 $$H^{\otimes n}$$
 
 to the first register.
-  $$ \left\vert \psi_{3}\right\rangle=\sum_{z} \sum_{x} \frac{(-1)^{x \cdot z+f(x)}\vert z\rangle}{2^{n}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right]$$
+  $$$ \left\vert \psi_{3}\right\rangle=\sum_{z} \sum_{x} \frac{(-1)^{x \cdot z+f(x)}\vert z\rangle}{2^{n}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right]$$
 
 5. Measurement. Note that the amplitude of the state
 $$
 \vert 0\rangle^{\otimes n} $$
 is
-  $$ \sum_{x}(-1)^{f(x)} / 2^{n}
+  $$$ \sum_{x}(-1)^{f(x)} / 2^{n}
   $$
 
 
-Let's look at the two possible cases $f$ constant and $f$ balanced $-$ to discern what happens. In the case where $f$ is constant the amplitude for $\vert 0\rangle^{\otimes n}$ is $+1$ or $-1$, depending on the constant value $f(x)$ takes. Because $\left\vert \psi_{3}\right\rangle$ is of unit length, it follows that all the other amplitudes must be zero, and observation will yield 0s for all qubits in the query register.
+Let's look at the two possible cases $$f$$ constant and $$f$$ balanced $$-$$ to discern what happens. In the case where $$f$$ is constant the amplitude for $$\vert 0\rangle^{\otimes n}$$ is $$+1$$ or $$-1$$, depending on the constant value $$f(x)$$ takes. Because $$\left\vert \psi_{3}\right\rangle$$ is of unit length, it follows that all the other amplitudes must be zero, and observation will yield 0s for all qubits in the query register.
 
 
-If $f$ is balanced, then the positive and negative contributions to the amplitude for $\vert 0\rangle^{\otimes n}$ cancel, leaving an amplitude of zero, and measurement must yield a result other than 0 on at least one qubit in the query register.
+If $$f$$ is balanced, then the positive and negative contributions to the amplitude for $$\vert 0\rangle^{\otimes n}$$ cancel, leaving an amplitude of zero, and measurement must yield a result other than 0 on at least one qubit in the query register.
 
 
 

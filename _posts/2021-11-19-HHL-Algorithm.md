@@ -25,7 +25,7 @@ A \vec{x}=\vec{b}
 $$
 
 
-where $A$ is an $N_{b} \times N_{b}$ Hermitian matrix and $\vec{x}$ and $\vec{b}$ are $N_{b}$-dimensional vectors. For simplicity, it is assumed $N_{b}=2^{n_{b}} . A$ and $\vec{b}$ are known and $\vec{x}$ is the unknown to be solved, i.e.
+where $$A$$ is an $$N_{b} \times N_{b}$$ Hermitian matrix and $$\vec{x}$$ and $$\vec{b}$$ are $$N_{b}$-dimensional vectors. For simplicity, it is assumed $$N_{b}=2^{n_{b}} . A$$ and $$\vec{b}$$ are known and $$\vec{x}$$ is the unknown to be solved, i.e.
 
 
 $$
@@ -46,7 +46,7 @@ are used to store the encoded eigenvalues of A, and larger n results in higher a
 the encoding is not exact.**
 
 
-The matrix $A$, which is a Hamiltonian, may be written as a linear combination of its eigenvectors, $\left\vert u_{i}\right\rangle$ weighted by its eigenvalues, $\lambda_{i}$.
+The matrix $$A$$, which is a Hamiltonian, may be written as a linear combination of its eigenvectors, $$\left\vert u_{i}\right\rangle$$ weighted by its eigenvalues, $$\lambda_{i}$$.
 
 
 $$
@@ -54,7 +54,7 @@ A=\sum_{i=0}^{2^{n_{b}-1}} \lambda_{i}\left\vert u_{i}\right\rangle\left\langle 
 $$
 
 
-Since $\mathrm{A}$ is diagonal in its eigenvector basis, its inverse is simply, $A^{-1}=\sum_{i=0}^{2^{n} b-1} \lambda_{i}^{-1}\left\vert u_{i}\right\rangle\left\langle u_{i}\right\vert $. $\vec{b}$ can be also expressed in the basis of $\mathrm{A}$, such that
+Since $$\mathrm{A}$$ is diagonal in its eigenvector basis, its inverse is simply, $$A^{-1}=\sum_{i=0}^{2^{n} b-1} \lambda_{i}^{-1}\left\vert u_{i}\right\rangle\left\langle u_{i}\right\vert $$. $$\vec{b}$$ can be also expressed in the basis of $$\mathrm{A}$$, such that
 
 
 $$
@@ -70,18 +70,18 @@ $$
 $$
 
 
-by using the fact that $\left\langle u_{i} \mid u_{j}\right\rangle=\delta_{i j}$. The goal of the HHL algorithm is to find the solution in this form and $\vert x\rangle$ is stored in the b-register.
+by using the fact that $$\left\langle u_{i} \mid u_{j}\right\rangle=\delta_{i j}$$. The goal of the HHL algorithm is to find the solution in this form and $$\vert x\rangle$$ is stored in the b-register.
 
 
 ## 2. State Preparation
 
-There are total $n_{b}+n+1$ qubits, and they are initialized as:
+There are total $$n_{b}+n+1$$ qubits, and they are initialized as:
 
 $$
 \left\vert \Psi_{0}\right\rangle=\vert 0 \cdots 0\rangle_{b}\vert 0 \cdots 0\rangle_{c}\vert 0\rangle_{a}=\vert 0\rangle^{\otimes n_{b}}\vert 0\rangle^{\otimes n}\vert 0\rangle
 $$
 
-In the state preparation, $\vert 0 \cdots 0\rangle_{b}$ in the b-register needs to be rotated to have the amplitudes correspond to the coefficients of $\vec{b}$. That is
+In the state preparation, $$\vert 0 \cdots 0\rangle_{b}$$ in the b-register needs to be rotated to have the amplitudes correspond to the coefficients of $$\vec{b}$$. That is
 
 $$
 \vec{b}=\left(\begin{array}{c}
@@ -92,7 +92,7 @@ $$
 \end{array}\right) \Leftrightarrow \beta_{0}\vert 0\rangle+\beta_{1}\vert 1\rangle+\cdots+\beta_{N_{b}-1}\left\vert N_{b}-1\right\rangle=\vert b\rangle
 $$
 
-The vector $\vec{b}$ is represented in a column form on the left with coefficients $\beta^{\prime} s$, which is also a valid representation of $\vert b\rangle$. On the right, the corresponding basis of the Hilbert space formed by the $n_{b}$ qubits is written explicitly. Therefore,
+The vector $$\vec{b}$$ is represented in a column form on the left with coefficients $$\beta^{\prime} s$$, which is also a valid representation of $$\vert b\rangle$$. On the right, the corresponding basis of the Hilbert space formed by the $$n_{b}$$ qubits is written explicitly. Therefore,
 
 
 $$
@@ -100,7 +100,7 @@ $$
 $$
 
 
-From now on, some of the subscripts of the kets will be omitted when there is no ambiguity. Since the state preparation depends on the actual value of $\vec{b}$, it will be discussed in more detail in the numerical example.
+From now on, some of the subscripts of the kets will be omitted when there is no ambiguity. Since the state preparation depends on the actual value of $$\vec{b}$$, it will be discussed in more detail in the numerical example.
 
 
 ## 3. Phase Estimation
@@ -119,7 +119,7 @@ $$
 ![Image](/assets/images/posts/HHL/ControlledRotation.png "Image@512x512"){:width="512px"}
 
 
-In the controlled rotation part, $U$ is applied to $\vert b\rangle$ with the clock qubits as the control qubits (Figure 2). For simplicity, we begin by assuming that $\vert b\rangle$ is an eigenvector of $U$ with eigenvalue $e^{2 \pi i \phi}$. Therefore
+In the controlled rotation part, $$U$$ is applied to $$\vert b\rangle$$ with the clock qubits as the control qubits (Figure 2). For simplicity, we begin by assuming that $$\vert b\rangle$$ is an eigenvector of $$U$$ with eigenvalue $$e^{2 \pi i \phi}$$. Therefore
 
 
 $$
@@ -127,7 +127,7 @@ U\vert b\rangle=e^{2 \pi i \phi}\vert b\rangle
 $$
 
 
-When the control clock qubit is $\vert 0\rangle,\vert b\rangle$ will not be affected. If the clock bit is $\vert 1\rangle, U$ will be applied to $\vert b\rangle$. This is equivalent to multiplying $e^{2 \pi i \phi 2^{i}}$ in front of the $\vert 1\rangle$ of the $i-t h$ clock qubit. Therefore, after the controlled- $U$ operation, we have
+When the control clock qubit is $$\vert 0\rangle,\vert b\rangle$$ will not be affected. If the clock bit is $$\vert 1\rangle, U$$ will be applied to $$\vert b\rangle$$. This is equivalent to multiplying $$e^{2 \pi i \phi 2^{i}}$$ in front of the $$\vert 1\rangle$$ of the $$i-t h$$ clock qubit. Therefore, after the controlled- $$U$$ operation, we have
 
 
 $$
@@ -151,7 +151,7 @@ $$
 $$
 
 
-Due to interference, only for $\vert y\rangle$ satisfying the condition $\phi-y / N=0$ will have a finite amplitude of $\sum_{k=0}^{2^{n}-1} e^{0}=2^{n}$. Otherwise, the amplitude is $\sum_{k=0}^{2^{n}-1} e^{2 \pi i k(\phi-y / N)}=0$ due to destructive interference. By ignoring the states with zero amplitude, we may rewirte $\left\vert \Psi_{4}\right\rangle$ as
+Due to interference, only for $$\vert y\rangle$$ satisfying the condition $$\phi-y / N=0$$ will have a finite amplitude of $$\sum_{k=0}^{2^{n}-1} e^{0}=2^{n}$$. Otherwise, the amplitude is $$\sum_{k=0}^{2^{n}-1} e^{2 \pi i k(\phi-y / N)}=0$$ due to destructive interference. By ignoring the states with zero amplitude, we may rewirte $$\left\vert \Psi_{4}\right\rangle$$ as
 
 
 $$
@@ -159,8 +159,8 @@ $$
 $$
 
 
-Therefore, in QPE, the clock qubits are used to represent the phase information of $U$, which is $\phi$, and the accuracy depends on the number of qubits, $n$.
-In Hamiltonian encoding, $U$ is related to $A$ through
+Therefore, in QPE, the clock qubits are used to represent the phase information of $$U$$, which is $$\phi$$, and the accuracy depends on the number of qubits, $$n$$.
+In Hamiltonian encoding, $$U$$ is related to $$A$$ through
 
 
 $$
@@ -168,7 +168,7 @@ U=e^{i A t}
 $$
 
 
-where $t$ is the evolution time for that Hamiltonian. $U$ is obviously also diagonal in $A^{\prime} s$ eigenvector, $\left\vert u_{i}\right\rangle$, basis. If $\vert b\rangle=\left\vert u_{j}\right\rangle$,
+where $$t$$ is the evolution time for that Hamiltonian. $$U$$ is obviously also diagonal in $$A^{\prime} s$$ eigenvector, $$\left\vert u_{i}\right\rangle$$, basis. If $$\vert b\rangle=\left\vert u_{j}\right\rangle$$,
 
 
 $$
@@ -176,7 +176,7 @@ U\vert b\rangle=e^{i \lambda_{j} t}\left\vert u_{j}\right\rangle
 $$
 
 
-By equating $i \lambda_{j} t$ to $2 \pi i \phi$ in Eq. (11), we get $\phi=\lambda_{j} t / 2 \pi$ and Eq. (14) becomes
+By equating $$i \lambda_{j} t$$ to $$2 \pi i \phi$$ in Eq. (11), we get $$\phi=\lambda_{j} t / 2 \pi$$ and Eq. (14) becomes
 
 
 $$
@@ -184,7 +184,7 @@ $$
 $$
 
 
-Thus the eigenvalues of $A$ have been encodeded in the clock qubits (basis encoding). However, in general, $\vert b\rangle=\sum_{j=0}^{2^{n} b-1} b_{j}\left\vert u_{j}\right\rangle$ (Eq. 4), by using superposition,
+Thus the eigenvalues of $$A$$ have been encodeded in the clock qubits (basis encoding). However, in general, $$\vert b\rangle=\sum_{j=0}^{2^{n} b-1} b_{j}\left\vert u_{j}\right\rangle$$ (Eq. 4), by using superposition,
 
 
 $$
@@ -192,7 +192,7 @@ $$
 $$
 
 
-$\lambda_{j}$ are usually not integers. We will choose $t$ so that
+$\lambda_{j}$$ are usually not integers. We will choose $$t$$ so that
 $$\tilde{\lambda}_{j}=N \lambda_{j} t / 2 \pi$$
 
 are integers. Therefore, the encoded values
@@ -211,7 +211,7 @@ $$
 
 ## 4. Controlled Rotation and Measurement of the Ancilla Qubit
 
-The next step is to rotate the ancilla qubit, $\vert 0\rangle_{a}$, based on the encoded eigenvalues in the c-register, such that
+The next step is to rotate the ancilla qubit, $$\vert 0\rangle_{a}$$, based on the encoded eigenvalues in the c-register, such that
 
 
 $$
@@ -219,7 +219,7 @@ $$
 $$
 
 
-where $C$ is a constant. When the ancilla qubit is measured, the ancilla qubit wavefunction will collapse to either $\vert 0\rangle$ or $\vert 1\rangle$. If it is $\vert 0\rangle$, the result will be discarded and the computation will be repeated until the measurement is $\vert 1\rangle$. Therefore, the final wavefunction of interest is
+where $$C$$ is a constant. When the ancilla qubit is measured, the ancilla qubit wavefunction will collapse to either $$\vert 0\rangle$$ or $$\vert 1\rangle$$. If it is $$\vert 0\rangle$$, the result will be discarded and the computation will be repeated until the measurement is $$\vert 1\rangle$$. Therefore, the final wavefunction of interest is
 
 
 $$
@@ -227,7 +227,7 @@ $$
 $$
 
 
-where the prefactor is due to normalization after measurement. Since $\left\vert \frac{C}{\lambda_{j}}\right\vert ^{2}$ is the probably of obtaining $\vert 1\rangle$ when the ancilla bit is measured, $C$ should be chosen to be as large as possible. Compared to Eq. (5), the result resembles the answer $\vert x\rangle$ that we are looking for. However, it is entangled with the clock qubits, $\left\vert \tilde{\lambda}_{j}\right\rangle$. This means that we cannot factorize the result into a tensor product of the c-register and b-register. Therefore, we need to uncompute the state to unentangle them.
+where the prefactor is due to normalization after measurement. Since $$\left\vert \frac{C}{\lambda_{j}}\right\vert ^{2}$$ is the probably of obtaining $$\vert 1\rangle$$ when the ancilla bit is measured, $$C$$ should be chosen to be as large as possible. Compared to Eq. (5), the result resembles the answer $$\vert x\rangle$$ that we are looking for. However, it is entangled with the clock qubits, $$\left\vert \tilde{\lambda}_{j}\right\rangle$$. This means that we cannot factorize the result into a tensor product of the c-register and b-register. Therefore, we need to uncompute the state to unentangle them.
 
 
 The measurement can be and is usually performed after uncomputation. However, since the ancilla bit is not involved in any operations after the controlled rotation, measuring the ancilla bit before the uncomputation gives the same result. For simplicity in the derivation, it is thus performed before the uncomputation.
@@ -244,7 +244,7 @@ $$\left\vert \Psi_{7}\right\rangle=\frac{1}{\sqrt{\sum_{j=0}^{2^{n_{-}-1}}\left\
 
 
 
-Then inverse controlled-rotations of the b-register by the clock qubits are applied with $U^{-1}=e^{-i A t}$. Similar to the forward process, when the control clock qubit is $\vert 0\rangle,\left\vert u_{j}\right\rangle$ will not be affected. If the clock bit is $\vert 1\rangle, U^{-1}$ will be applied to $\left\vert u_{j}\right\rangle$. This is equivalent to multiplying $e^{-i \lambda_{j} t}$ in front of the $\vert 1\rangle$ of the $i-t h$ clock bit. Therefore,
+Then inverse controlled-rotations of the b-register by the clock qubits are applied with $$U^{-1}=e^{-i A t}$$. Similar to the forward process, when the control clock qubit is $$\vert 0\rangle,\left\vert u_{j}\right\rangle$$ will not be affected. If the clock bit is $$\vert 1\rangle, U^{-1}$$ will be applied to $$\left\vert u_{j}\right\rangle$$. This is equivalent to multiplying $$e^{-i \lambda_{j} t}$$ in front of the $$\vert 1\rangle$$ of the $$i-t h$$ clock bit. Therefore,
 
 
 $$
@@ -267,7 +267,7 @@ $$
 $$
 
 
-The clock qubits and the b-register are now unentangled, and the b-register stores $\vert x\rangle$. By applying the Hadamard gate on the clock qubits, finally, we have
+The clock qubits and the b-register are now unentangled, and the b-register stores $$\vert x\rangle$$. By applying the Hadamard gate on the clock qubits, finally, we have
 
 
 $$
@@ -280,7 +280,7 @@ $$
 
 ## 6. Example
 
-For example, take $N=2$,
+For example, take $$N=2$$,
 
 
 $$
@@ -299,7 +299,7 @@ x_{2}
 $$
 
 
-Then the problem can also be written as find $x_{1}, x_{2} \in \mathbb{C}$ such that
+Then the problem can also be written as find $$x_{1}, x_{2} \in \mathbb{C}$$ such that
 
 
 $$
@@ -333,11 +333,11 @@ $$\lambda_{1}=2 / 3 \quad \text { and } \quad \lambda_{2}=4 / 3$$
 .
 
 
-2 qubits are needed by encoding $\lambda_{1}$ and $\lambda_{2}$ as $\vert01\rangle$ $\vert10\rangle$ so that
+2 qubits are needed by encoding $$\lambda_{1}$$ and $$\lambda_{2}$$ as $$\vert01\rangle$$ $$\vert10\rangle$$ so that
 it maintains the ratio of e1/e0 = 2
 
 
-it maintains the ratio of $e_{1} / e_{0}=2 .$ This means
+it maintains the ratio of $$e_{1} / e_{0}=2 .$$ This means
 $$\tilde{\lambda}_{0}=1$$
 
  and
@@ -349,7 +349,7 @@ $$\tilde{\lambda}_{0}=1$$
   and
  $$\left\vert \tilde{\lambda_{1}}\right\rangle=\vert 10\rangle$$
 
- . This gives a perfect encoding with $n=2($ i.e. $N=4)$. Therefore, $t$ is chosen to be
+ . This gives a perfect encoding with $$n=2($$ i.e. $$N=4)$$. Therefore, $$t$$ is chosen to be
  $$\frac{3 \pi}{4}$$
 
   to achieve the encoding scheme since
@@ -372,10 +372,10 @@ $$
 $$
 
 
-Since $\vec{b}$ is a 2-dimensional complex vector, it can be encoded using 1 qubit and, thus, $n_{b}=1$.
+Since $$\vec{b}$$ is a 2-dimensional complex vector, it can be encoded using 1 qubit and, thus, $$n_{b}=1$$.
 
 
-We can use $\vert u_{1} \rangle$ and $\vert u_{2} \rangle$ to find what is x.
+We can use $$\vert u_{1} \rangle$$ and $$\vert u_{2} \rangle$$ to find what is x.
 
 
 The solution to the LSP is found to be
@@ -402,7 +402,7 @@ The following figure shows the overall circuit.
 ![Image](/assets/images/posts/HHL/hhlcircuit.png "Image@512x512"){:width="512px"}
 
 The algorithm goes as the following:
-1. Load the data $|b\rangle \in \mathbb{C}^{N}$. That is, perform the transformation
+1. Load the data $$|b\rangle \in \mathbb{C}^{N}$$. That is, perform the transformation
     
 $$
 |0\rangle_{n_{b}} \mapsto|b\rangle_{n_{b}}
@@ -412,21 +412,21 @@ $$
 $$
 U=e^{i A t}:=\sum_{j=0}^{N-1} e^{i \lambda_{j} t}\left|u_{j}\right\rangle\left\langle u_{j}\right|
 $$
-The quantum state of the register expressed in the eigenbasis of $A$ is now
+The quantum state of the register expressed in the eigenbasis of $$A$$ is now
 $$
 \sum_{j=0}^{N-1} b_{j}\left|\lambda_{j}\right\rangle_{n l}\left|u_{j}\right\rangle_{n_{b}}
 $$
-where $\left|\lambda_{j}\right\rangle_{n l}$ is the $n_{l}$-bit binary representation of $\lambda_{j}$.
+where $$\left|\lambda_{j}\right\rangle_{n l}$$ is the $$n_{l}$-bit binary representation of $$\lambda_{j}$$.
 
-3. Add an auxiliary qubit and apply a rotation conditioned on $\left|\lambda_{j}\right\rangle$,
+3. Add an auxiliary qubit and apply a rotation conditioned on $$\left|\lambda_{j}\right\rangle$$,
    
 $$
 \sum_{j=0}^{N-1} b_{j}\left|\lambda_{j}\right\rangle_{n_{l}}\left|u_{j}\right\rangle_{n_{b}}\left(\sqrt{1-\frac{C^{2}}{\lambda_{j}^{2}}}|0\rangle+\frac{C}{\lambda_{j}}|1\rangle\right)
 $$
 
-where $C$ is a normalisation constant, and, as expressed in the current form above, should be less than the smallest eigenvalue $\lambda_{\min }$ in magnitude, i.e., $|C|<\lambda_{\min }$.
+where $$C$$ is a normalisation constant, and, as expressed in the current form above, should be less than the smallest eigenvalue $$\lambda_{\min }$$ in magnitude, i.e., $$|C|<\lambda_{\min }$$.
 
-4. Apply $\mathrm{QPE}^{\dagger}$. Ignoring possible errors from QQE, this results in
+4. Apply $$\mathrm{QPE}^{\dagger}$$. Ignoring possible errors from QQE, this results in
 $$
 \sum_{j=0}^{N-1} b_{j}|0\rangle_{n_{l}}\left|u_{j}\right\rangle_{n_{b}}\left(\sqrt{1-\frac{C^{2}}{\lambda_{j}^{2}}}|0\rangle+\frac{C}{\lambda_{j}}|1\rangle\right)
 $$
@@ -439,7 +439,7 @@ $$
 
 which up to a normalisation factor corresponds to the solution.
 
-6. Apply an observable $M$ to calculate $F(x):=\langle x|M| x\rangle$.
+6. Apply an observable $$M$$ to calculate $$F(x):=\langle x|M| x\rangle$$.
 
 ---
 

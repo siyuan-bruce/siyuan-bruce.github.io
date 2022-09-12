@@ -107,8 +107,8 @@ Balance sheet information measure
 
 |  | Assets | Liabilities | Total |
 | --- | --- | --- | --- |
-| Current | $p_{11}$ | $p_{12}$ | $p_{1.}$ |
-| Fixed | $p_{21}$ | $p_{22}$ | $p_{2.}$ |
+| Current | $$p_{11}$$ | $$p_{12}$$ | $$p_{1.}$$ |
+| Fixed | $$p_{21}$$ | $$p_{22}$$ | $$p_{2.}$$ |
 | Total | 1/2 | 1/2 | 1 |
 
 Two ways of measuring information values:
@@ -168,7 +168,7 @@ Their causes are traced to:
 
 **Summarizing measures** useful in handling complicated budgets and in analyzing mass data.
 
-sets of fractions by the familiar procedure of dividing each individual item by the total. We obtain a set of **predicted** fractions, denoted by $p_{1},p_{2},···p_{n}$, and a set of **realized** fractions, denoted by $p_{1},p_{2},···p_{n}$. Application of the expected information to the two sets of fractions provides us with the information inaccuracy
+sets of fractions by the familiar procedure of dividing each individual item by the total. We obtain a set of **predicted** fractions, denoted by $$p_{1},p_{2},···p_{n}$$, and a set of **realized** fractions, denoted by $$p_{1},p_{2},···p_{n}$$. Application of the expected information to the two sets of fractions provides us with the information inaccuracy
 
 $$
 I=\sum_{i=1}^{n}{q_{i}log\frac{q_{i}}{p_{i}}}
@@ -176,7 +176,7 @@ $$
 
 which is a measure for the quality of the forcast.
 
-- **The information inaccuracy** will be infinite when $q_{i}>p_{i}=0$, which means **the prediction error** is infinitely large.
+- **The information inaccuracy** will be infinite when $$q_{i}>p_{i}=0$$, which means **the prediction error** is infinitely large.
 
 The information content of realization message is in fact equivalent to the **inaccurancy of the forecast** because the more inaccurate the forecast the larger the surprise caused to the forecaster, hense the larger the information content of the message about realizations.
 
@@ -270,7 +270,7 @@ $$
 H=\frac{1}{2}log2\pi e \sigma^{2}+logk
 $$
 
-prediction error is of the form ($P(\tau)$ is the peak demand which will occur in month t; $\tau$ is the time prior to t.)
+prediction error is of the form $$P(\tau)$$ is the peak demand which will occur in month t; $$\tau$$ is the time prior to t.)
 
 $$
 e_{t}(\tau) = log\frac{P_{t}(\tau)}{A_{t}}

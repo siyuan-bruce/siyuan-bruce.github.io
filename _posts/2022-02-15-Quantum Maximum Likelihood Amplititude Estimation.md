@@ -18,7 +18,7 @@ Experiment Reproducement for JP Morgan's paper `Stamatopoulos, Nikitas, et al. "
 - QAE + MLE
 - Expectation Value Computation
 - Option Pricing Scenario (JP's Contribution)
-  
+  $$
 ---
 ## QAE Algorithm
 
@@ -27,7 +27,7 @@ The amplitude amplification operator
 $$\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .
 $$
 
-- $U_{\chi}$ is the oracle function: 
+- $$U_{\chi}$$ is the oracle function: $$
   $$\vert x\rangle \longmapsto\left\{\begin{aligned}-\vert x\rangle & \text { if } \chi(x)=1 \\\vert x\rangle & \text { otherwise } \end{aligned}\right.$$
 
 $$
@@ -40,9 +40,9 @@ $$
 Q=-\mathcal{A} U_{0} \mathcal{A}^{\dagger} U_{\chi}
 $$
 
-In this equation, $\mathcal{A}$ helps to transfer $\vert 0 \rangle$ to state $\vert \Psi_{0} \rangle$.
+In this equation, $$\mathcal{A}$$ helps to transfer $$\vert 0 \rangle$$ to state $$\vert \Psi_{0} \rangle$$.
 
-- The amplitude amplification operator is: 
+- The amplitude amplification operator is: $$
   $$Q=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times U_{\chi}$$
 
 $$
@@ -62,7 +62,7 @@ Q\left\vert \Psi_{0}\right\rangle &=U_{\Psi}\left\vert \Psi_{0}\right\rangle=(2\
 \end{aligned}
 $$
 
-Using $\sin ^{2}\left(\theta_{a}\right)=a$ and $\cos ^{2}\left(\theta_{a}\right)=1-a$, we get:
+Using $$\sin ^{2}\left(\theta_{a}\right)=a$$ and $$\cos ^{2}\left(\theta_{a}\right)=1-a$$, we get:
 
 
 $$
@@ -74,7 +74,7 @@ Q \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}} &=\sin \left(2 \theta_{a}\
 \end{aligned}
 $$
 
-Thus, $Q$ is a rotation matrix in the basis 
+Thus, $$Q$$ is a rotation matrix in the basis $$
 $$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$
 
 $$
@@ -87,22 +87,22 @@ $$
 It has eigenvalues \
 $$e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}
 $$
-with corresponding eigenvectors 
+with corresponding eigenvectors $$
 $$
 \frac{1}{2}(1 i), \frac{1}{2}(1-i)
 $$
-, noted 
+, noted $$
 $$
 \left\vert \Psi_{+}\right\rangle
 $$
-and 
+and $$
 
 $$
 \left\vert \Psi_{-}\right\rangle
 $$
 .
 
-We can now write $\vert \Psi\rangle$ in the $Q$-eigenvector basis:
+We can now write $$\vert \Psi\rangle$$ in the $$Q$-eigenvector basis:
 
 $$\vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
 $$
@@ -112,7 +112,7 @@ $$
 Q^{j}\vert \Psi\rangle=\frac{-i}{2}\left(e^{(2 j+1) i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-(2 j+1) i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
 $$
 
-By writing it back in the original 
+By writing it back in the original $$
 $$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$
  basis:
 $$
@@ -124,21 +124,21 @@ $$
 
 The basic idea is that we can levarage Quantum Amplititude Estimation to achieve a quadratic speedup since the information we want are included in the amplititutde.
 
-AE uses $m$ additional sampling qubits and Quantum Phase Estimation to produce an estimator 
+AE uses $$m$$ additional sampling qubits and Quantum Phase Estimation to produce an estimator $$
 $$\tilde{a}=\sin ^{2}(y \pi / M)$$
- of $a$, where 
+ of $$a$$, where $$
  $$y \in\{0, \ldots, M-1\}$$
-  and $M$ (the number of samples, is $2^{m}$). The estimator $\tilde{a}$ satisfies
+  and $$M$$ (the number of samples, is $$2^{m}$). The estimator $$\tilde{a}$$ satisfies
 
 $$
 \vert a-\tilde{a}\vert  \leq \frac{\pi}{M}+\frac{\pi^{2}}{M^{2}}=O\left(M^{-1}\right) \text {, }
 $$
 
-with probability of at least $8 / \pi^{2}$. This represents a quadratic speedup compared to the $O\left(M^{-1 / 2}\right)$ convergence rate of classical Monte Carlo methods.
+with probability of at least $$8 / \pi^{2}$$. This represents a quadratic speedup compared to the $$O\left(M^{-1 / 2}\right)$$ convergence rate of classical Monte Carlo methods.
 
 Q: how we can result a quadratic speedup?
 
-A: M is the number of samples, with accraucy  $\epsilon$, classical monte carlo simulation needs t times repetation, just like t times of sampling.
+A: M is the number of samples, with accraucy  $$\epsilon$$, classical monte carlo simulation needs t times repetation, just like t times of sampling.
 
 $$
 t=\mathcal{O}\left(\frac{\mu(1-\mu)}{\epsilon^{2}}\right)
@@ -152,10 +152,10 @@ $$
 Q: How can we interpret the M in amplititude estimation?
 M should be the evalutions of function f, but I also read some ideas that say it it also the number of reflections during the algorithm.
 
-Overall, we can see the task of the quantum algorithm will be to improve the $\epsilon$ dependence from $\epsilon^{2}$ to $\epsilon$. 
+Overall, we can see the task of the quantum algorithm will be to improve the $$\epsilon$$ dependence from $$\epsilon^{2}$$ to $$\epsilon$$. $$
 
- 
-To use $A E$ to estimate quantities related to a random variable $X$ we must first represent $X$ as a quantum state. Using $n$ qubits we $\operatorname{map} X$ to the interval $\{0, \ldots, N-1\}$, where $N=2^{n} . X$ is then represented by the state
+ $$
+To use $$A E$$ to estimate quantities related to a random variable $$X$$ we must first represent $$X$$ as a quantum state. Using $$n$$ qubits we $$\operatorname{map} X$$ to the interval $$\{0, \ldots, N-1\}$$, where $$N=2^{n} . X$$ is then represented by the state
 
 $$
 \mathcal{R}\vert 0\rangle_{n}=\vert \psi\rangle_{n}=\sum_{i=0}^{N-1} \sqrt{p_{i}}\vert i\rangle_{n} \quad \text { with } \sum_{i=0}^{N-1} p_{i}=1
@@ -165,44 +165,44 @@ We now look at the overall circuit for this problem.
 
 ![image](/assets/images/posts/OptionPricing/OverallCircuit.png "Circuit")
 
-For phase estimation, we require the conditional application of the operation $\mathcal{Q}$. Concretely, we require
+For phase estimation, we require the conditional application of the operation $$\mathcal{Q}$$. Concretely, we require
 $$
 \mathcal{Q}^{c}:\vert j\rangle\vert \psi\rangle \rightarrow\vert j\rangle \mathcal{Q}^{j}\vert \psi\rangle
 $$
 
-for an arbitrary $n$ qubit state 
+for an arbitrary $$n$$ qubit state $$
 $$
 \vert \psi\rangle$$
-. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of 
+. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $$
 $$
 \vert \chi\rangle
 $$
 
-by applying $\mathcal{F}$ to a register of qubits in 
+by applying $$\mathcal{F}$$ to a register of qubits in $$
 $$
 \left\vert 0^{n+1}\right\rangle
 $$
-. Then prepare an additional $m$-qubit register in the uniform superposition via the Hadamard operation $\mathcal{H}$
+. Then prepare an additional $$m$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$
 
 $$
 \mathcal{H}^{\otimes m}\left\vert 0^{m}\right\rangle\vert \chi\rangle=\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle\vert \chi\rangle
 $$
 
-Then perform the controlled operation $\mathcal{Q}^{c}$ to obtain
+Then perform the controlled operation $$\mathcal{Q}^{c}$$ to obtain
 
 $$
 \frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle \mathcal{Q}^{j}\vert \chi\rangle
 $$
 
-One can show that 
+One can show that $$
 $$
 \vert \chi\rangle=\frac{1}{\sqrt{2}}\left(\left\vert \psi_{+}\right\rangle+\left\vert \psi_{-}\right\rangle\right)
 $$
-is the expansion of 
+is the expansion of $$
 $$
 \vert \chi\rangle
 $$
-into the two eigenvectors of $\mathcal{Q}$ corresponding to the eigenvalues 
+into the two eigenvectors of $$\mathcal{Q}$$ corresponding to the eigenvalues $$
 $$
 e^{\pm i \theta}
 $$
@@ -212,27 +212,27 @@ $$
 \sum_{x=0}^{2^{m}-1} \alpha_{+}(x)\vert x\rangle\left\vert \psi_{+}\right\rangle+\alpha_{-}(x)\vert x\rangle\left\vert \psi_{-}\right\rangle
 $$
 
-The 
+The $$
 $$
 \left\vert \alpha_{\pm}(x)\right\vert ^{2}
 $$
-are peaked where 
+are peaked where $$
 $$
 x / 2^{m}=\pm \hat{\theta}
 $$
- is an $m$-bit approximation to 
+ is an $$m$-bit approximation to $$
 $\pm \theta$
-. Hence, measurement of the 
+. Hence, measurement of the $$
 $$
 \vert x\rangle
 $$
-register will retrieve the approximations 
+register will retrieve the approximations $$
 $$
 \pm \hat{\theta}
 $$
 .
 
-Overall, quantum amplititude estimation can help us to find 
+Overall, quantum amplititude estimation can help us to find $$
 $$
 \tilde{a}=\sin ^{2}(y \pi / M)
 $$
@@ -247,40 +247,40 @@ The MLE is an example of a point estimate because it gives a single value for th
 examples. We will explain the MLE through a series of examples.
 
 **Example**
-A coin is flipped 100 times. Given that there were 55 heads, find the maximum likelihood estimate for the probability $p$ of heads on a single toss.
+A coin is flipped 100 times. Given that there were 55 heads, find the maximum likelihood estimate for the probability $$p$$ of heads on a single toss.
 Before actually solving the problem, let's establish some notation and terms.
-We can think of counting the number of heads in 100 tosses as an experiment. For a given value of $p$, the probability of getting 55 heads in this experiment is the binomial probability
+We can think of counting the number of heads in 100 tosses as an experiment. For a given value of $$p$$, the probability of getting 55 heads in this experiment is the binomial probability
 $$
 P(55 \text { heads })=\left(\begin{array}{c}
 100 \\
 55
 \end{array}\right) p^{55}(1-p)^{45}
 $$
-The probability of getting 55 heads depends on the value of $p$, so let's include $p$ in by using the notation of conditional probability:
+The probability of getting 55 heads depends on the value of $$p$$, so let's include $$p$$ in by using the notation of conditional probability:
 $$
 P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 100 \\
 55
 \end{array}\right) p^{55}(1-p)^{45}
 $$
-You should read 
+You should read $$
 $$
 P(55 heads \mid p)
 $$
  as:
-'the probability of 55 heads given $p$,'
+'the probability of 55 heads given $$p$$,'
 or more precisely as
-'the probability of 55 heads given that the probability of heads on a single toss is $p$
+'the probability of 55 heads given that the probability of heads on a single toss is $$p$
 
 Here are some standard terms we will use as we do statistics.
 - Experiment: Flip the coin 100 times and count the number of heads.
 - Data: The data is the result of the experiment. In this case it is ' 55 heads'.
-- Parameter(s) of interest: We are interested in the value of the unknown parameter $p$
-- Likelihood, or likelihood function: this is 
+- Parameter(s) of interest: We are interested in the value of the unknown parameter $$p$
+- Likelihood, or likelihood function: this is $$
 $$
 P( data \mid p)
 $$
-. Note it is a function of both the data and the parameter $p$. In this case the likelihood is
+. Note it is a function of both the data and the parameter $$p$$. In this case the likelihood is
 $$
 P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 100 \\
@@ -288,26 +288,26 @@ P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 \end{array}\right) p^{55}(1-p)^{45}
 $$
 
-Definition: Given data the maximum likelihood estimate (MLE) for the parameter $p$ is the value of $p$ that maximizes the likelihood 
+Definition: Given data the maximum likelihood estimate (MLE) for the parameter $$p$$ is the value of $$p$$ that maximizes the likelihood $$
 $$
 P(data \mid p)
 $$
 .
- That is, the MLE is the value of $p$ for which the data is most likely.
+ That is, the MLE is the value of $$p$$ for which the data is most likely.
 answer: For the problem at hand, we saw above that the likelihood
 $$
 P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 100 \\
 55\end{array}\right) p^{55}(1-p)^{45}
 $$
-We'll use the notation $\hat{p}$ for the MLE. We use calculus to find it by taking the derivative of the likelihood function and setting it to 0 .
+We'll use the notation $$\hat{p}$$ for the MLE. We use calculus to find it by taking the derivative of the likelihood function and setting it to 0 .
 $$
 \frac{d}{d p} P(\text { data } \mid p)=\left(\begin{array}{c}
 100 \\
 55
 \end{array}\right)\left(55 p^{54}(1-p)^{45}-45 p^{55}(1-p)^{44}\right)=0
 $$
-Solving this for $p$ we get
+Solving this for $$p$$ we get
 $$
 \begin{aligned}
 &55 p^{54}(1-p)^{45}=45 p^{55}(1-p)^{44} \\
@@ -315,13 +315,13 @@ $$
 &55=100 p
 \end{aligned}
 $$
-the MLE is 
+the MLE is $$
 $$
 \hat{p}=.55
 $$
-Note: 
+Note: $$
 
-1. The MLE for $p$ turned out to be exactly the fraction of heads we saw in our data.
+1. The MLE for $$p$$ turned out to be exactly the fraction of heads we saw in our data.
 2. The MLE is computed from the data. That is, it is a statistic.
 3. Officially you should check that the critical point is indeed a maximum. You can do this with the second derivative test.
 
@@ -330,9 +330,9 @@ Note:
 
 ![Image](/assets/images/posts/OptionPricing/maximumlikelihoodAE.png "Image@512x512")
 
-The idea of QAE + MLE is to use quantum amplification to amplify angle $\theta$. And measure the result of the objective state. For example, in the above figure, we can get one result for each shot. And then we can measure several times can get lots of 0 and 1 (good result). 
+The idea of QAE + MLE is to use quantum amplification to amplify angle $$\theta$$. And measure the result of the objective state. For example, in the above figure, we can get one result for each shot. And then we can measure several times can get lots of 0 and 1 (good result). $$
 
-Then we solve the parameter $\theta$ with Maximum Likelihood Estimation.
+Then we solve the parameter $$\theta$$ with Maximum Likelihood Estimation.
 ![Image](/assets/images/posts/MaximumLikelihoodEstimationAE/calculate.png "Image@512x512")
 
 ---
@@ -459,7 +459,7 @@ class MaximumLikelihoodAmplitudeEstimation(AmplitudeEstimator):
             estimation_problem.state_preparation.num_qubits,
             estimation_problem.grover_operator.num_qubits,
         )
-        
+        $$
         q = QuantumRegister(num_qubits, "q")
         qc_0 = QuantumCircuit(q, name="qc_a")
 
@@ -473,7 +473,7 @@ class MaximumLikelihoodAmplitudeEstimation(AmplitudeEstimator):
 
         for k in self._evaluation_schedule:
             qc_k = qc_0.copy(name="qc_a_q_%s" % k)
-            
+            $$
             if k != 0:
                 qc_k.compose(estimation_problem.grover_operator.power(k), inplace=True)
 
@@ -487,10 +487,10 @@ class MaximumLikelihoodAmplitudeEstimation(AmplitudeEstimator):
             circuits += [qc_k]
             print("j:", k)
             print(qc_k.draw())
-        
+        $$
         return circuits
 
-    
+    $$
     def compute_mle(
         self,
         circuit_results: Union[List[Dict[str, int]], List[np.ndarray]],
@@ -526,7 +526,7 @@ class MaximumLikelihoodAmplitudeEstimation(AmplitudeEstimator):
                 loglik += np.log(np.sin(angle) ** 2) * good_counts[i]
                 loglik += np.log(np.cos(angle) ** 2) * (all_counts[i] - good_counts[i])
             return -loglik
-        
+        $$
         est_theta = self._minimizer(loglikelihood, [search_range])
 
         if return_counts:
@@ -575,7 +575,7 @@ class MaximumLikelihoodAmplitudeEstimation(AmplitudeEstimator):
         theta, good_counts = self.compute_mle(
             result.circuit_results, estimation_problem, num_state_qubits, True
         )
-        
+        $$
         # store results
         result.theta = theta
         result.good_counts = good_counts
@@ -677,7 +677,7 @@ def _get_counts(
                     if estimation_problem.is_good_state(bitstr)
                 )
             )
-    
+    $$
     print("one_hits", one_hits)
     print("all_hits", all_hits)
     return one_hits, all_hits
@@ -690,33 +690,33 @@ def _get_counts(
 
 $$\mathcal{R}\vert x\rangle\vert 0\rangle=\vert x\rangle(\sqrt{1-v(x)}\vert 0\rangle+\sqrt{v(x)}\vert 1\rangle)$$
 
-In this equation, $v$ could be the price of assets and some other information.
+In this equation, $$v$$ could be the price of assets and some other information.
 
-$A$ is an algorithm to describe the distribution of $x$.
+$A$$ is an algorithm to describe the distribution of $$x$$.
 
-$v(A)$ denotes the random variable specified by the algorithm $A$ and the function $v(x)$.
+$v(A)$$ denotes the random variable specified by the algorithm $$A$$ and the function $$v(x)$$.
 
 $$\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x)$$
 
 
-1. Apply the algorithm $A$, 
+1. Apply the algorithm $$A$$, $$
 
 $$\mathcal{A}\left\vert 0^{n}\right\rangle=\sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle$$
 
-where 
+where $$
 $$
 \left\vert 0^{n}\right\rangle
 $$
- denotes the $n$ qubit register with all qubits in the state $\vert 0\rangle$. 
+ denotes the $$n$$ qubit register with all qubits in the state $$\vert 0\rangle$$. $$
 
-2. Perform the rotation of an ancilla via $\mathcal{R}$
+2. Perform the rotation of an ancilla via $$\mathcal{R}$
 $$
 \begin{gathered}
 \sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle\vert 0\rangle \\
 \rightarrow \sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle(\sqrt{1-v(x)}\vert 0\rangle+\sqrt{v(x)}\vert 1\rangle)=:\vert \chi\rangle
 \end{gathered}
 $$
-3. Measure the ancilla in the state 
+3. Measure the ancilla in the state $$
 $$
 \vert 1 \rangle
 $$
@@ -726,20 +726,20 @@ $$
 $$
 
 
-<!-- Combining the two operations defines a unitary $\mathcal{F}$ and the resulting state $$\vert \chi\rangle$$
+<!-- Combining the two operations defines a unitary $$\mathcal{F}$$ and the resulting state $$\vert \chi\rangle$$
 $$
 \mathcal{F}\left\vert 0^{n+1}\right\rangle:=\mathcal{R}\left(\mathcal{A} \otimes \mathcal{I}_{2}\right)\left\vert 0^{n+1}\right\rangle \equiv\vert \chi\rangle .
 $$ -->
 
-This success probability can be obtained by repeating the procedure $t$ times and collecting the clicks for the 
+This success probability can be obtained by repeating the procedure $$t$$ times and collecting the clicks for the $$
 $$
 \vert 1 \rangle
 $$
-state as a fraction of the total measurements. The variance is 
+state as a fraction of the total measurements. The variance is $$
 $$
 \epsilon^{2}=\frac{\mu(1-\mu)}{t}
 $$
-from the Bernoulli distribution, i.e. the standard deviation is 
+from the Bernoulli distribution, i.e. the standard deviation is $$
 $$
 \epsilon=\sqrt{\frac{\mu(1-\mu)}{t}}
 $$
@@ -754,40 +754,40 @@ $$
 \mathcal{V}:=\mathcal{I}_{2^{n+1}}-2 \mathcal{I}_{2^{n}} \otimes\vert 1\rangle\langle 1\vert ,
 $$
 
-for which 
+for which $$
 $$
 \mathcal{V}=\mathcal{V}^{\dagger}
 $$
- and 
+ and $$
 $$
 \mathcal{V}^{2}=\mathcal{I}_{2^{n+1}} .
 $$
-A measurement of 
+A measurement of $$
 $\mathcal{V}$
-on 
+on $$
 $$\vert \chi\rangle$$
-obtains 
+obtains $$
 $$\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$$
 
 From this measurement we can extract the desired expectation value.
-Any quantum state in the $(n+1)$-qubit Hilbert space can be expressed as a linear combination of 
+Any quantum state in the $$(n+1)$-qubit Hilbert space can be expressed as a linear combination of $$
 $$\vert \chi\rangle$$
-and a specific orthogonal complement 
+and a specific orthogonal complement $$
 $$\left\vert \chi^{\perp}\right\rangle$$
 
 
-Thus, we can express 
+Thus, we can express $$
 $$\mathcal{V}\vert \chi\rangle=\cos (\theta / 2)\vert \chi\rangle+e^{i \phi} \sin (\theta / 2)\left\vert \chi^{\perp}\right\rangle$$
-, with the angles 
-$\phi$ and $\theta$
-. 
+, with the angles $$
+$\phi$$ and $$\theta$
+. $$
 Note that our expectation value can be retrieved via
 
 $$
 1-2 \mu=\cos (\theta / 2)
 $$
 
-The task becomes to measure $\theta$
+The task becomes to measure $$\theta$
 
 This quadratic dependency is analogous to the classical Monte Carlo dependency.
 
@@ -798,35 +798,35 @@ This quadratic dependency is analogous to the classical Monte Carlo dependency.
 
 #### 3. How can we use this technique to price options?
 
-We need to design a function that encode the expected value into the $sin$ function. 
+We need to design a function that encode the expected value into the $$sin$$ function. $$
 
-Taking a dffierent step, we can set $f(i)$ inside sin function ($sinf(i)$.)
+Taking a dffierent step, we can set $$f(i)$$ inside sin function ($sinf(i)$$.)
 
-The payoff function for the option contracts of interest is piece-wise linear and as such we only need to consider linear functions 
+The payoff function for the option contracts of interest is piece-wise linear and as such we only need to consider linear functions $$
 $$
 f:\left\{0, \ldots, 2^{n}-1\right\} \rightarrow[0,1]
 $$
-which we write 
+which we write $$
 $$
 f(i)=f_{1} i+f_{0}
 $$
- 
+ $$
 We can efficiently create an operator that performs
 $$
 \vert i\rangle_{n}\vert 0\rangle \rightarrow\vert i\rangle_{n}(\cos [f(i)]\vert 0\rangle+\sin [f(i)]\vert 1\rangle)
 $$
 
-using controlled Y-rotations. 
+using controlled Y-rotations. $$
 
 
-We now describe how to obtain 
+We now describe how to obtain $$
 $$\mathbb{E}[f(X)]$$
-for a linear function $f$ of a random variable $X$ which is mapped to integer values 
+for a linear function $$f$$ of a random variable $$X$$ which is mapped to integer values $$
 $$
 i \in\left\{0, \ldots, 2^{n}-1\right\}
 $$
 
-that occur with probability $p_{i}$ respectively. To do this we use the procedure outlined immediately above to create the operator that maps 
+that occur with probability $$p_{i}$$ respectively. To do this we use the procedure outlined immediately above to create the operator that maps $$
 
 $$
 \sum_{i} \sqrt{p_{i}}\vert i\rangle_{n}\vert 0\rangle
@@ -838,44 +838,44 @@ $$
 \sum_{i=0}^{2^{n}-1} \sqrt{p_{i}}\vert i\rangle_{n}\left[\cos \left(c \tilde{f}(i)+\frac{\pi}{4}\right)\vert 0\rangle+\sin \left(c \tilde{f}(i)+\frac{\pi}{4}\right)\vert 1\rangle\right]
 $$
 
-where 
+where $$
 $$
 \tilde{f}(i)
 $$
- is a scaled version of $f(i)$ given by
+ is a scaled version of $$f(i)$$ given by
 
 $$
 \tilde{f}(i)=2 \frac{f(i)-f_{\min }}{f_{\max }-f_{\min }}-1,
 $$
 
-with 
+with $$
 $$
 f_{\min }=\min _{i} f(i)
 $$
 
-and 
+and $$
 $$
 f_{\max }=\max _{i} f(i)
 $$
 
-and 
+and $$
 $$
 c \in[0,1]
 $$
-is an additional scaling parameter. The relation is chosen so that 
+is an additional scaling parameter. The relation is chosen so that $$
 $$
 \tilde{f}(i) \in[-1,1]
-$$ 
+$$ $$
 
- Consequently, 
+ Consequently, $$
 
 $$\sin ^{2}[c \tilde{f}(i)+\pi / 4]
 $$
-is an anti-symmetric function around 
+is an anti-symmetric function around $$
 $$\tilde{f}(i)=0
 $$
-  
-With these definitions, the probability to find the ancilla qubit in state 
+  $$
+With these definitions, the probability to find the ancilla qubit in state $$
 
 $$
 \vert 1\rangle
@@ -898,17 +898,17 @@ $$
 \sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)=c \tilde{f}(i)+\frac{1}{2}+\mathcal{O}\left(c^{3} \tilde{f}^{3}(i)\right)
 $$
 
-which is valid for small values of 
+which is valid for small values of $$
 $$
 c \tilde{f}(i)
 $$
-. 
+. $$
 
-Therefore, by evaluating 
+Therefore, by evaluating $$
 $$
 \sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)
 $$
- we can find $\tilde{f}(i)$ easily and to know the $\mathbb{E}[f(X)]$.
+ we can find $$\tilde{f}(i)$$ easily and to know the $$\mathbb{E}[f(X)]$$.
 
 
  ```python
@@ -937,7 +937,7 @@ high = mean + 3 * stddev
 uncertainty_model = LogNormalDistribution(
     num_uncertainty_qubits, mu=mu, sigma=sigma ** 2, bounds=(low, high)
 )
- 
+ $$
 
  # plot probability distribution
 x = uncertainty_model.values

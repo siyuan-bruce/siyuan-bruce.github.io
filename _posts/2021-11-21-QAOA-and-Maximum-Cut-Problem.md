@@ -23,7 +23,7 @@ article_header:
 
 
 
-The goal of maximum cut is to split the set of vertices $V$ of a graph into two disjoint parts such that the number of edges spanning two parts is maximized.
+The goal of maximum cut is to split the set of vertices $$V$$ of a graph into two disjoint parts such that the number of edges spanning two parts is maximized.
 
 
 For example, if color denotes part,
@@ -63,7 +63,7 @@ For the following example, the answer would be that six edges are cut.
 $$\max _{\mathbf{s}} C(\mathbf{s})=\frac{1}{2} \sum_{i j \in E}\left(1-s_{i} s_{j}\right)$$
 
 
-**Objective in Quantum Computing:** Characterizing a Hamiltonian (Hermitian operator) $C$
+**Objective in Quantum Computing:** Characterizing a Hamiltonian (Hermitian operator) $$C$
 
 
 To solve an optimization problem on a quantum computer, we need to convert it into a problem of characterizing a quantum Hamiltonian.
@@ -73,7 +73,7 @@ To solve an optimization problem on a quantum computer, we need to convert it in
 The classical solution would be some
 $$\mathbf{s} \in\{-1,+1\}^{n}$$
 
-. The quantum solution would be the highest energy eigenstate $\vert s \rangle$ with the largest eigenvalue.
+. The quantum solution would be the highest energy eigenstate $$\vert s \rangle$$ with the largest eigenvalue.
 
 
 Since the Hamiltonian is classical, this eigenstate is a computational basis state*, we can measure it and get the solution with certainty.
@@ -129,7 +129,7 @@ This Hamiltonian is too large to construct explicitly!
 $$
 \max _{\mathbf{s}} \frac{1}{2} \sum_{i j \in E}\left(1-s_{i} s_{j}\right) \quad s_{i} \in\{-1,+1\}
 $$
-- MAXCUT Hamiltonian is constructed by mapping binary variables $s_{i}$ onto the eigenvalues of $Z$
+- MAXCUT Hamiltonian is constructed by mapping binary variables $$s_{i}$$ onto the eigenvalues of $$Z$
 $$
 C=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)
 $$
@@ -151,7 +151,7 @@ Z=\left[\begin{array}{cc}
 $$
 
 
-- Note that it has eigenvalues $-1,+1$ with eigenvectors being computational basis states
+- Note that it has eigenvalues $$-1,+1$$ with eigenvectors being computational basis states
   $$
   \begin{aligned}
   &Z\vert 0\rangle=\left[\begin{array}{cc}
@@ -193,7 +193,7 @@ $$
   $$
 
 
-- Acting on the $\mathrm{i}$-th and $\mathrm{j}$-th qubit:
+- Acting on the $$\mathrm{i}$-th and $$\mathrm{j}$-th qubit:
   $$
   \begin{aligned}
   Z_{i} Z_{j}\left\vert x_{0} \ldots x_{n}\right\rangle &=I \otimes \ldots \otimes Z_{i} \otimes Z_{j} \otimes \ldots \otimes I\left\vert x_{0} \ldots x_{n}\right\rangle \\
@@ -262,10 +262,10 @@ $$
 $$
 
 
-- Here $C$ is the problem Hamiltonian, e.g. for MAXCUT: $C=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)$
+- Here $$C$$ is the problem Hamiltonian, e.g. for MAXCUT: $$C=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)$
 
 
-- $B$ is the mixer Hamiltonian: $B=\sum_{i} X_{i}$
+- $$B$$ is the mixer Hamiltonian: $$B=\sum_{i} X_{i}$
 
 
 **Why do we need a mixer Hamiltonian operator:**
@@ -282,7 +282,7 @@ Actually, we can use only one layer to optimize this circuit on universal quantu
 
 
 
-Then a classical optimizer is used to vary the parameters $\boldsymbol{\beta}, \boldsymbol{\gamma}$ to maximize:
+Then a classical optimizer is used to vary the parameters $$\boldsymbol{\beta}, \boldsymbol{\gamma}$$ to maximize:
 
 
 $$
