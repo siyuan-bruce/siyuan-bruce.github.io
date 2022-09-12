@@ -58,7 +58,7 @@ The following figure shows how quantum phase estimation works:
 
 ![Image](/assets/images/posts/Quantum-Phase-Estimation/circuit.png "Image@512x512"){:width="512px"}
 
-i. Setup: $$\vert \psi\rangle$$ is in one set of qubit registers. An additional set of $$\mathrm{n}$$ qubits form the counting register on which we will store the value $$2^{n} \theta$$ : $$\psi_{0}=\vert 0\rangle^{\otimes} \pi\vert \psi\rangle$
+i. Setup: $$\vert \psi\rangle$$ is in one set of qubit registers. An additional set of $$\mathrm{n}$$ qubits form the counting register on which we will store the value $$2^{n} \theta$$ : $$\psi_{0}=\vert 0\rangle^{\otimes} \pi\vert \psi\rangle$$
 
 ii. Superposition: Apply a n-bit Hadamard gate operation $$H^{2 n}$$ on the counting register:
 
@@ -81,8 +81,8 @@ $$
 \end{aligned}
 $$
 
-where $$k$$ denotes the integer representation of $$n$-bit binary numbers.
-iv. Inverse Fourier Transform: Notice that the above expression is exactly the result of applying a quantum Fourier transform as we derived in the notebook on Quantum Fourier Transform and its Qiskit Implementation. Recall that QFT maps an n-qubit input state $$\vert x\rangle$$ into an output as
+where $$k$$ denotes the integer representation of $$n$$ -bit binary numbers.
+iv. Inverse Fourier Transform: Notice that the above expression is exactly the result of applying a quantum Fourier transform as we derived in the notebook on Quantum Fourier Transform and its Qiskit Implementation. Recall that QFT maps an n-qubit input state $$\ket{x}$$ into an output as
 
 $$
 Q F T\vert x\rangle=\frac{1}{2^{\frac{\pi}{2}}}\left(\vert 0\rangle+e^{\frac{2 \pi i}{2} x}\vert 1\rangle\right) \otimes\left(\vert 0\rangle+e^{\frac{2 \pi i}{2} x}\vert 1\rangle\right) \otimes \ldots \otimes\left(\vert 0\rangle+e^{\frac{2 \pi i}{2 \pi-1} x}\vert 1\rangle\right) \otimes\left(\vert 0\rangle+e^{\frac{2 \pi i}{2 t}}\vert 1\rangle\right)
