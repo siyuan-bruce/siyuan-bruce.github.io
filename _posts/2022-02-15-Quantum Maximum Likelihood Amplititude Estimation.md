@@ -18,31 +18,29 @@ Experiment Reproducement for JP Morgan's paper `Stamatopoulos, Nikitas, et al. "
 - QAE + MLE
 - Expectation Value Computation
 - Option Pricing Scenario (JP's Contribution)
-  $$
 ---
 ## QAE Algorithm
 
 ### 1. Review of Grover Search
 The amplitude amplification operator
-$$\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .
-$$
+$$\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .$$
 
-- $$U_{\chi}$$ is the oracle function: $$
+- $$U_{\chi}$$ is the oracle function:
   $$\vert x\rangle \longmapsto\left\{\begin{aligned}-\vert x\rangle & \text { if } \chi(x)=1 \\\vert x\rangle & \text { otherwise } \end{aligned}\right.$$
 
 $$
 U_{\chi}=\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I
 $$
 
-$$U_{0}=I-2\vert 0\rangle\langle 0\vert  .$$
+$$U_{0}=I-2\vert 0\rangle\langle 0\vert .$$
 
 $$
 Q=-\mathcal{A} U_{0} \mathcal{A}^{\dagger} U_{\chi}
 $$
 
-In this equation, $$\mathcal{A}$$ helps to transfer $$\vert 0 \rangle$$ to state $$\vert \Psi_{0} \rangle$$.
+In this equation, $$\mathcal{A}$$ helps to transfer $$\vert 0\rangle$$ to state $$\vert\Psi_{0}\rangle$$.
 
-- The amplitude amplification operator is: $$
+- The amplitude amplification operator is: 
   $$Q=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times U_{\chi}$$
 
 $$
@@ -74,7 +72,7 @@ Q \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}} &=\sin \left(2 \theta_{a}\
 \end{aligned}
 $$
 
-Thus, $$Q$$ is a rotation matrix in the basis $$
+Thus, $$Q$$ is a rotation matrix in the basis
 $$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$
 
 $$
@@ -91,11 +89,13 @@ with corresponding eigenvectors $$
 $$
 \frac{1}{2}(1 i), \frac{1}{2}(1-i)
 $$
-, noted $$
+, noted
+
 $$
 \left\vert \Psi_{+}\right\rangle
 $$
-and $$
+
+and
 
 $$
 \left\vert \Psi_{-}\right\rangle
@@ -112,7 +112,7 @@ $$
 Q^{j}\vert \Psi\rangle=\frac{-i}{2}\left(e^{(2 j+1) i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-(2 j+1) i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
 $$
 
-By writing it back in the original $$
+By writing it back in the original
 $$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$
  basis:
 $$
@@ -152,9 +152,8 @@ $$
 Q: How can we interpret the M in amplititude estimation?
 M should be the evalutions of function f, but I also read some ideas that say it it also the number of reflections during the algorithm.
 
-Overall, we can see the task of the quantum algorithm will be to improve the $$\epsilon$$ dependence from $$\epsilon^{2}$$ to $$\epsilon$$. $$
+Overall, we can see the task of the quantum algorithm will be to improve the $$\epsilon$$ dependence from $$\epsilon^{2}$$ to $$\epsilon$$. 
 
- $$
 To use $$A E$$ to estimate quantities related to a random variable $$X$$ we must first represent $$X$$ as a quantum state. Using $$n$$ qubits we $$\operatorname{map} X$$ to the interval $$\{0, \ldots, N-1\}$$, where $$N=2^{n} . X$$ is then represented by the state
 
 $$
@@ -170,19 +169,18 @@ $$
 \mathcal{Q}^{c}:\vert j\rangle\vert \psi\rangle \rightarrow\vert j\rangle \mathcal{Q}^{j}\vert \psi\rangle
 $$
 
-for an arbitrary $$n$$ qubit state $$
-$$
-\vert \psi\rangle$$
+for an arbitrary $$n$$ qubit state
+$$\vert \psi\rangle$$
 . Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $$
 $$
 \vert \chi\rangle
 $$
 
-by applying $$\mathcal{F}$$ to a register of qubits in $$
+by applying $$\mathcal{F}$$ to a register of qubits in
 $$
 \left\vert 0^{n+1}\right\rangle
 $$
-. Then prepare an additional $$m$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$
+. Then prepare an additional $$m$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$$
 
 $$
 \mathcal{H}^{\otimes m}\left\vert 0^{m}\right\rangle\vert \chi\rangle=\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle\vert \chi\rangle
@@ -194,11 +192,11 @@ $$
 \frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle \mathcal{Q}^{j}\vert \chi\rangle
 $$
 
-One can show that $$
+One can show that
 $$
 \vert \chi\rangle=\frac{1}{\sqrt{2}}\left(\left\vert \psi_{+}\right\rangle+\left\vert \psi_{-}\right\rangle\right)
 $$
-is the expansion of $$
+is the expansion of
 $$
 \vert \chi\rangle
 $$
@@ -212,27 +210,27 @@ $$
 \sum_{x=0}^{2^{m}-1} \alpha_{+}(x)\vert x\rangle\left\vert \psi_{+}\right\rangle+\alpha_{-}(x)\vert x\rangle\left\vert \psi_{-}\right\rangle
 $$
 
-The $$
+The
 $$
 \left\vert \alpha_{\pm}(x)\right\vert ^{2}
 $$
-are peaked where $$
+are peaked where
 $$
 x / 2^{m}=\pm \hat{\theta}
 $$
- is an $$m$-bit approximation to $$
+ is an $$m$-bit approximation to
 $\pm \theta$
-. Hence, measurement of the $$
+. Hence, measurement of the
 $$
 \vert x\rangle
 $$
-register will retrieve the approximations $$
+register will retrieve the approximations
 $$
 \pm \hat{\theta}
 $$
 .
 
-Overall, quantum amplititude estimation can help us to find $$
+Overall, quantum amplititude estimation can help us to find
 $$
 \tilde{a}=\sin ^{2}(y \pi / M)
 $$
@@ -270,13 +268,13 @@ $$
  as:
 'the probability of 55 heads given $$p$$,'
 or more precisely as
-'the probability of 55 heads given that the probability of heads on a single toss is $$p$
+'the probability of 55 heads given that the probability of heads on a single toss is $$p$$
 
 Here are some standard terms we will use as we do statistics.
 - Experiment: Flip the coin 100 times and count the number of heads.
 - Data: The data is the result of the experiment. In this case it is ' 55 heads'.
 - Parameter(s) of interest: We are interested in the value of the unknown parameter $$p$
-- Likelihood, or likelihood function: this is $$
+- Likelihood, or likelihood function: this is
 $$
 P( data \mid p)
 $$
@@ -288,7 +286,7 @@ P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 \end{array}\right) p^{55}(1-p)^{45}
 $$
 
-Definition: Given data the maximum likelihood estimate (MLE) for the parameter $$p$$ is the value of $$p$$ that maximizes the likelihood $$
+Definition: Given data the maximum likelihood estimate (MLE) for the parameter $$p$$ is the value of $$p$$ that maximizes the likelihood 
 $$
 P(data \mid p)
 $$
@@ -315,11 +313,11 @@ $$
 &55=100 p
 \end{aligned}
 $$
-the MLE is $$
+the MLE is 
 $$
 \hat{p}=.55
 $$
-Note: $$
+Note: 
 
 1. The MLE for $$p$$ turned out to be exactly the fraction of heads we saw in our data.
 2. The MLE is computed from the data. That is, it is a statistic.
@@ -330,7 +328,7 @@ Note: $$
 
 ![Image](/assets/images/posts/OptionPricing/maximumlikelihoodAE.png "Image@512x512")
 
-The idea of QAE + MLE is to use quantum amplification to amplify angle $$\theta$$. And measure the result of the objective state. For example, in the above figure, we can get one result for each shot. And then we can measure several times can get lots of 0 and 1 (good result). $$
+The idea of QAE + MLE is to use quantum amplification to amplify angle $$\theta$$. And measure the result of the objective state. For example, in the above figure, we can get one result for each shot. And then we can measure several times can get lots of 0 and 1 (good result). 
 
 Then we solve the parameter $$\theta$$ with Maximum Likelihood Estimation.
 ![Image](/assets/images/posts/MaximumLikelihoodEstimationAE/calculate.png "Image@512x512")
