@@ -11,8 +11,10 @@ article_header:
 ---
 
 ## 1. Problem Statement
-If we have a periodic function $f(x)=a^{x}(\bmod N)$ (Following figure), how can we find the order $r$ in a quantum algorithm?
-- For example, $a^{0}(\bmod N)$=1 and $a^{r}(\bmod N)$=1.
+If we have a periodic function 
+$f(x)=a^{x}(\bmod N)$
+(Following figure), how can we find the order $r$ in a quantum algorithm?
+- For example, $$a^{0}(\bmod N)=1$$ and $$a^{r}(\bmod N)=1.$$
 
 ![Image](/assets/images/posts/Shor/Order-function.png "Oracle Function")
 
@@ -44,7 +46,7 @@ Runtime: $O\left(L^{3}\right)$ operations. Succeeds with probability $O(1)$.
 5. measure first register $\rightarrow \widehat{s / r}$ 
 6. apply continued fractions algorithm $\rightarrow r$ 
 
-![Image](/assets/images/posts/Shor/Circuit.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Shor/Circuit.png "Image@512x512")
 
 The quantum algorithm for order-finding is just the phase estimation algorithm applied to the unitary operator
 $$
@@ -61,7 +63,7 @@ $$
 \left\vert u_{s}\right\rangle \equiv \frac{1}{\sqrt{r}} \sum_{k=0}^{r-1} \exp \left[\frac{-2 \pi i s k}{r}\right]\left\vert x^{k} \bmod N\right\rangle,
 $$
 
-for integer $0 \leq s \leq r-1$ are eigenstates of $U$, since
+for integer $0\leq s\leq r-1$ are eigenstates of $U$, since
 
 $$
 \begin{aligned}
