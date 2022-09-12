@@ -12,13 +12,13 @@ article_header:
 
 ## 1. Problem Statement
 If we have a periodic function 
-$f(x)=a^{x}(\bmod N)$
+$$f(x)=a^{x}(\bmod N)$$
 (Following figure), how can we find the order $r$ in a quantum algorithm?
 - For example, $$a^{0}(\bmod N)=1$$ and $$a^{r}(\bmod N)=1.$$
 
 ![Image](/assets/images/posts/Shor/Order-function.png "Oracle Function")
 
-Order-finding is believed to be a hard problem on a classical computer, in the sense that no algorithm is known to solve the problem using resources polynomial in the $O(L)$ bits needed to specify the problem, where $L \equiv\lceil\log (N)\rceil$ is the number of bits needed to specify $N$. 
+Order-finding is believed to be a hard problem on a classical computer, in the sense that no algorithm is known to solve the problem using resources polynomial in the $O(L)$ bits needed to specify the problem, where $L \equiv\lceil\log (N)\rceil$ is the number of bits needed to specify $$N$$. 
 
 ## 2. Circuit Design
 
