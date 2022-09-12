@@ -24,20 +24,20 @@ Order-finding is believed to be a hard problem on a classical computer, in the s
 
 Inputs: 
 
-(1) A black box $$U_{x, N}$$ which performs the transformation $$\vert j\rangle\vert k\rangle \rightarrow\vert j\rangle\left\vert x^{j} k \bmod N\right\rangle$$, for $$x$$ co-prime to the $L$-bit number $N$
+(1) A black box $$U_{x, N}$$ which performs the transformation $$\vert j\rangle\vert k\rangle \rightarrow\vert j\rangle\left\vert x^{j} k \bmod N\right\rangle$$, for $$x$$ co-prime to the $$L$$-bit number $$N$$
 
 (2) $$t=2 L+1+\left\lceil\log \left(2+\frac{1}{2 \epsilon}\right)\right\rceil$$
  qubits initialized to $$\vert 0\rangle$$
 
 (3) $$L$$ qubits initialized to the state $$\vert 1\rangle$$.
-Outputs: The least integer $r>0$$ such that $$x^{r}=1(\bmod N)$$.
+Outputs: The least integer $$r>0$$ such that $$x^{r}=1(\bmod N)$$.
 
 Runtime: $$O\left(L^{3}\right)$$ operations. Succeeds with probability $$O(1)$$.
 
 **Procedure:**
 1. initial state $$\vert 0\rangle\vert 1\rangle$$
 2. create superposition $$\rightarrow \frac{1}{\sqrt{2^{t}}} \sum_{j=0}^{2^{t}-1}\vert j\rangle\vert 1\rangle$$
-3. apply $U_{x, N}$$ $$\rightarrow \frac{1}{\sqrt{2^{t}}} \sum_{j=0}^{2^{t}-1}\vert j\rangle\left\vert x^{j} \bmod N\right\rangle$$
+3. apply $$U_{x, N}$$ $$\rightarrow \frac{1}{\sqrt{2^{t}}} \sum_{j=0}^{2^{t}-1}\vert j\rangle\left\vert x^{j} \bmod N\right\rangle$$
   $$
   \approx \frac{1}{\sqrt{r 2^{t}}} \sum_{s=0}^{r-1} \sum_{j=0}^{t^{t}-1} e^{2 \pi i s j / r}\vert j\rangle\left\vert u_{s}\right\rangle
   $$
@@ -84,9 +84,9 @@ $$
 \frac{1}{\sqrt{r}} \sum_{s=0}^{r-1}\left\vert u_{s}\right\rangle=\vert 1\rangle .
 $$
 
-In performing the phase estimation procedure, if we use $$t=2 L+1+\left\lceil\log \left(2+\frac{1}{2 \epsilon}\right)\right\rceil$$ qubits in the first register and prepare the second register in the state $$\vert 1\rangle$$. It follows that for each $s$$ in the range 0 through $$r-1$$, we will obtain an estimate of the phase $$\varphi \approx s / r$$ accurate to $2 L+1$$ bits, with probability at least $$(1-\epsilon) / r$$. 
+In performing the phase estimation procedure, if we use $$t=2 L+1+\left\lceil\log \left(2+\frac{1}{2 \epsilon}\right)\right\rceil$$ qubits in the first register and prepare the second register in the state $$\vert 1\rangle$$. It follows that for each $$s$$ in the range 0 through $$r-1$$, we will obtain an estimate of the phase $$\varphi \approx s / r$$ accurate to $$2 L+1$$ bits, with probability at least $$(1-\epsilon) / r$$. 
 
-**Now let's think does L qubits satisfy enough information about state $\vert u \rangle$?**
+**Now let's think does L qubits satisfy enough information about state $$\vert u \rangle$$ ?**
 
 We have seen that $$L \equiv\lceil\log (N)\rceil$$, so $$2^{L}>N$$. Besides, we know that we need r different states for all basis. So we oeed to prove that $$N>r$$. According to Euler's theorem, $$N > r$$, which will not be proved in this part.
 
@@ -131,10 +131,10 @@ Inputs: A composite number $$N$$
 Outputs: A non-trivial factor of $$N$$.
 Runtime: $$O\left((\log N)^{3}\right)$$ operations. Succeeds with probability $$O(1)$$.
 Procedure:
-1. If $N$$ is even, return the factor 2 .
-2. Determine whether $N=a^{b}$$ for integers $$a \geq 1$$ and $$b \geq 2$$, and if so return the factor $$a$$.
-3. Randomly choose $x$$ in the range 1 to $$N-1$$. If $$\operatorname{gcd}(x, N)>1$$ then return the factor $$\operatorname{gcd}(x, N)$$.
-4. Use the order-finding subroutine to find the order $$r$$ of $x$$ modulo $$N$$.
+1. If $$N$$ is even, return the factor 2 .
+2. Determine whether $$N=a^{b}$$ for integers $$a \geq 1$$ and $$b \geq 2$$, and if so return the factor $$a$$.
+3. Randomly choose $$x$$ in the range 1 to $$N-1$$. If $$\operatorname{gcd}(x, N)>1$$ then return the factor $$\operatorname{gcd}(x, N)$$.
+4. Use the order-finding subroutine to find the order $$r$$ of $$x$$ modulo $$N$$.
 5. If $$r$$ is even and $$x^{r / 2} \neq-1(\bmod N)$$ then compute $$\operatorname{gcd}\left(x^{r / 2}-1, N\right)$$ and $$\operatorname{gcd}\left(x^{r / 2}+1, N\right)$$, and test to see if one of these is a non-trivial factor, returning that factor if so. Otherwise, the algorithm fails.
 
 
