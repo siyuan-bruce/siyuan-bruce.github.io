@@ -164,7 +164,7 @@ $$
 
 for an arbitrary $$n$$ qubit state
 $$\vert \psi\rangle$$
-. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $$
+. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of 
 $$
 \vert \chi\rangle
 $$
@@ -254,14 +254,9 @@ P(55 \text { heads } \mid p)=\left(\begin{array}{c}
 55
 \end{array}\right) p^{55}(1-p)^{45}
 $$
-You should read $$
-$$
-P(55 heads \mid p)
-$$
+You should read $$ P(55 heads \mid p) $$
  as:
-'the probability of 55 heads given $$p$$,'
-or more precisely as
-'the probability of 55 heads given that the probability of heads on a single toss is $$p$$
+'the probability of 55 heads given $$p$$,' or more precisely as 'the probability of 55 heads given that the probability of heads on a single toss is $$p$$
 
 Here are some standard terms we will use as we do statistics.
 - Experiment: Flip the coin 100 times and count the number of heads.
@@ -683,24 +678,20 @@ $$\mathcal{R}\vert x\rangle\vert 0\rangle=\vert x\rangle(\sqrt{1-v(x)}\vert 0\ra
 
 In this equation, $$v$$ could be the price of assets and some other information.
 
-$A$$ is an algorithm to describe the distribution of $$x$$.
+$$A$$ is an algorithm to describe the distribution of $$x$$.
 
-$v(A)$$ denotes the random variable specified by the algorithm $$A$$ and the function $$v(x)$$.
+$$v(A)$$ denotes the random variable specified by the algorithm $$A$$ and the function $$v(x)$$.
 
 $$\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x)$$
 
 
-1. Apply the algorithm $$A$$, $$
+1. Apply the algorithm $$A$$,
 
 $$\mathcal{A}\left\vert 0^{n}\right\rangle=\sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle$$
 
-where $$
-$$
-\left\vert 0^{n}\right\rangle
-$$
- denotes the $$n$$ qubit register with all qubits in the state $$\vert 0\rangle$$. $$
+where $$ \left\vert 0^{n}\right\rangle $$ denotes the $$n$$ qubit register with all qubits in the state $$\vert 0\rangle$$.
 
-2. Perform the rotation of an ancilla via $$\mathcal{R}$
+2. Perform the rotation of an ancilla via $$\mathcal{R}$$:
 $$
 \begin{gathered}
 \sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle\vert 0\rangle \\
@@ -722,22 +713,8 @@ $$
 \mathcal{F}\left\vert 0^{n+1}\right\rangle:=\mathcal{R}\left(\mathcal{A} \otimes \mathcal{I}_{2}\right)\left\vert 0^{n+1}\right\rangle \equiv\vert \chi\rangle .
 $$ -->
 
-This success probability can be obtained by repeating the procedure $$t$$ times and collecting the clicks for the $$
-$$
-\vert 1 \rangle
-$$
-state as a fraction of the total measurements. The variance is $$
-$$
-\epsilon^{2}=\frac{\mu(1-\mu)}{t}
-$$
-from the Bernoulli distribution, i.e. the standard deviation is $$
-$$
-\epsilon=\sqrt{\frac{\mu(1-\mu)}{t}}
-$$
-. Hence, the experiment has to be repeated
-$$
-t=\mathcal{O}\left(\frac{\mu(1-\mu)}{\epsilon^{2}}\right)
-$$
+This success probability can be obtained by repeating the procedure $$t$$ times and collecting the clicks for the $$  \vert 1 \rangle $$ state as a fraction of the total measurements. The variance is $$ \epsilon^{2}=\frac{\mu(1-\mu)}{t} $$ from the Bernoulli distribution, i.e. the standard deviation is $$ \epsilon=\sqrt{\frac{\mu(1-\mu)}{t}} $$
+. Hence, the experiment has to be repeated $$ t=\mathcal{O}\left(\frac{\mu(1-\mu)}{\epsilon^{2}}\right) $$
 
 Note that we can slightly redefine the quantity being measured. Define the unitary
 
@@ -746,39 +723,33 @@ $$
 $$
 
 for which $$
-$$
 \mathcal{V}=\mathcal{V}^{\dagger}
 $$
- and $$
+ and 
 $$
 \mathcal{V}^{2}=\mathcal{I}_{2^{n+1}} .
 $$
-A measurement of $$
-$\mathcal{V}$
-on $$
-$$\vert \chi\rangle$$
-obtains $$
-$$\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$$
+A measurement of $$\mathcal{V}$$ on $$\vert \chi\rangle$$ obtains $$\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$$
 
 From this measurement we can extract the desired expectation value.
-Any quantum state in the $$(n+1)$-qubit Hilbert space can be expressed as a linear combination of $$
+Any quantum state in the $$(n+1)$-qubit Hilbert space can be expressed as a linear combination of 
 $$\vert \chi\rangle$$
-and a specific orthogonal complement $$
+and a specific orthogonal complement
 $$\left\vert \chi^{\perp}\right\rangle$$
 
 
-Thus, we can express $$
+Thus, we can express
 $$\mathcal{V}\vert \chi\rangle=\cos (\theta / 2)\vert \chi\rangle+e^{i \phi} \sin (\theta / 2)\left\vert \chi^{\perp}\right\rangle$$
-, with the angles $$
-$\phi$$ and $$\theta$
-. $$
+, with the angles 
+$$\phi$$ and $$\theta$$
+.
 Note that our expectation value can be retrieved via
 
 $$
 1-2 \mu=\cos (\theta / 2)
 $$
 
-The task becomes to measure $$\theta$
+The task becomes to measure $$\theta$$
 
 This quadratic dependency is analogous to the classical Monte Carlo dependency.
 
@@ -791,34 +762,32 @@ This quadratic dependency is analogous to the classical Monte Carlo dependency.
 
 We need to design a function that encode the expected value into the $$sin$$ function. $$
 
-Taking a dffierent step, we can set $$f(i)$$ inside sin function ($sinf(i)$$.)
+Taking a dffierent step, we can set $$f(i)$$ inside sin function ( $$sinf(i)$$.)
 
-The payoff function for the option contracts of interest is piece-wise linear and as such we only need to consider linear functions $$
+The payoff function for the option contracts of interest is piece-wise linear and as such we only need to consider linear functions 
 $$
 f:\left\{0, \ldots, 2^{n}-1\right\} \rightarrow[0,1]
 $$
-which we write $$
+which we write 
 $$
 f(i)=f_{1} i+f_{0}
 $$
- $$
+ 
 We can efficiently create an operator that performs
 $$
 \vert i\rangle_{n}\vert 0\rangle \rightarrow\vert i\rangle_{n}(\cos [f(i)]\vert 0\rangle+\sin [f(i)]\vert 1\rangle)
 $$
 
-using controlled Y-rotations. $$
+using controlled Y-rotations. 
 
-
-We now describe how to obtain $$
+We now describe how to obtain 
 $$\mathbb{E}[f(X)]$$
-for a linear function $$f$$ of a random variable $$X$$ which is mapped to integer values $$
+for a linear function $$f$$ of a random variable $$X$$ which is mapped to integer values 
 $$
 i \in\left\{0, \ldots, 2^{n}-1\right\}
 $$
 
-that occur with probability $$p_{i}$$ respectively. To do this we use the procedure outlined immediately above to create the operator that maps $$
-
+that occur with probability $$p_{i}$$ respectively. To do this we use the procedure outlined immediately above to create the operator that maps 
 $$
 \sum_{i} \sqrt{p_{i}}\vert i\rangle_{n}\vert 0\rangle
 $$
@@ -829,7 +798,7 @@ $$
 \sum_{i=0}^{2^{n}-1} \sqrt{p_{i}}\vert i\rangle_{n}\left[\cos \left(c \tilde{f}(i)+\frac{\pi}{4}\right)\vert 0\rangle+\sin \left(c \tilde{f}(i)+\frac{\pi}{4}\right)\vert 1\rangle\right]
 $$
 
-where $$
+where 
 $$
 \tilde{f}(i)
 $$
@@ -839,7 +808,7 @@ $$
 \tilde{f}(i)=2 \frac{f(i)-f_{\min }}{f_{\max }-f_{\min }}-1,
 $$
 
-with $$
+with 
 $$
 f_{\min }=\min _{i} f(i)
 $$
@@ -849,24 +818,21 @@ $$
 f_{\max }=\max _{i} f(i)
 $$
 
-and $$
+and 
 $$
 c \in[0,1]
 $$
-is an additional scaling parameter. The relation is chosen so that $$
+is an additional scaling parameter. The relation is chosen so that 
 $$
 \tilde{f}(i) \in[-1,1]
-$$ $$
+$$ 
 
- Consequently, $$
+ Consequently, 
 
-$$\sin ^{2}[c \tilde{f}(i)+\pi / 4]
-$$
-is an anti-symmetric function around $$
-$$\tilde{f}(i)=0
-$$
-  $$
-With these definitions, the probability to find the ancilla qubit in state $$
+$$\sin ^{2}[c \tilde{f}(i)+\pi / 4] $$
+is an anti-symmetric function around 
+$$\tilde{f}(i)=0 $$
+With these definitions, the probability to find the ancilla qubit in state 
 
 $$
 \vert 1\rangle
@@ -889,13 +855,13 @@ $$
 \sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)=c \tilde{f}(i)+\frac{1}{2}+\mathcal{O}\left(c^{3} \tilde{f}^{3}(i)\right)
 $$
 
-which is valid for small values of $$
+which is valid for small values of 
 $$
 c \tilde{f}(i)
 $$
-. $$
+. 
 
-Therefore, by evaluating $$
+Therefore, by evaluating 
 $$
 \sin ^{2}\left(c \tilde{f}(i)+\frac{\pi}{4}\right)
 $$
