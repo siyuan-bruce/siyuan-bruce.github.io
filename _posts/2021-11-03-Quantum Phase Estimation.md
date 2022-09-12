@@ -33,7 +33,7 @@ $$
 
 **Quantum Fourier Transform achieves following transform:**
 
-$\mid$$ State in Computational Basis $$\rangle$$ $$\stackrel{\text { QFT }}{\rightarrow} \quad$$ $$\mid$$ State in Fourier Basis $$\rangle$
+$$\mid$$ State in Computational Basis $$\rangle$$ $$\stackrel{\text { QFT }}{\rightarrow} \quad$$ $$\mid$$ State in Fourier Basis $$\rangle$$
 
 $$\mathrm{QFT}\vert x\rangle=\vert \tilde{x}\rangle$$
 
