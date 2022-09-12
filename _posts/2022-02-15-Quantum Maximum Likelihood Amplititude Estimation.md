@@ -82,14 +82,7 @@ Q=\left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-It has eigenvalues \
-$$e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}
-$$
-with corresponding eigenvectors $$
-$$
-\frac{1}{2}(1 i), \frac{1}{2}(1-i)
-$$
-, noted
+It has eigenvalues $$e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}$$ with corresponding eigenvectors $$\frac{1}{2}(1 i), \frac{1}{2}(1-i)$$, noted
 
 $$
 \left\vert \Psi_{+}\right\rangle
@@ -102,7 +95,7 @@ $$
 $$
 .
 
-We can now write $$\vert \Psi\rangle$$ in the $$Q$-eigenvector basis:
+We can now write $$\vert \Psi\rangle$$ in the $$Q$$-eigenvector basis:
 
 $$\vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
 $$
@@ -128,7 +121,7 @@ AE uses $$m$$ additional sampling qubits and Quantum Phase Estimation to produce
 $$\tilde{a}=\sin ^{2}(y \pi / M)$$
  of $$a$$, where $$
  $$y \in\{0, \ldots, M-1\}$$
-  and $$M$$ (the number of samples, is $$2^{m}$). The estimator $$\tilde{a}$$ satisfies
+  and $$M$$ (the number of samples, is $$2^{m}$$). The estimator $$\tilde{a}$$ satisfies
 
 $$
 \vert a-\tilde{a}\vert  \leq \frac{\pi}{M}+\frac{\pi^{2}}{M^{2}}=O\left(M^{-1}\right) \text {, }
@@ -180,7 +173,7 @@ by applying $$\mathcal{F}$$ to a register of qubits in
 $$
 \left\vert 0^{n+1}\right\rangle
 $$
-. Then prepare an additional $$m$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$$
+. Then prepare an additional $$m$$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$$
 
 $$
 \mathcal{H}^{\otimes m}\left\vert 0^{m}\right\rangle\vert \chi\rangle=\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle\vert \chi\rangle
@@ -218,7 +211,7 @@ are peaked where
 $$
 x / 2^{m}=\pm \hat{\theta}
 $$
- is an $$m$-bit approximation to
+ is an $$m$$-bit approximation to
 $\pm \theta$
 . Hence, measurement of the
 $$

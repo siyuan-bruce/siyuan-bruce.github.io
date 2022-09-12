@@ -39,7 +39,7 @@ amplification enables a quadratic speed-up in $$\mathcal{O}(1 / \sqrt{a})$$.
 
 ## 2. Rview of Grover Search
 The amplitude amplification operator
-- $$\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .$
+- $$\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .$$
 - $$S_{\chi}$$ is the oracle function: 
 
 $$
@@ -96,7 +96,7 @@ $$
 
 It has eigenvalues $$e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}$$ with corresponding eigenvectors $$\frac{1}{2}(1 i), \frac{1}{2}(1-i)$$, noted $$\left\vert \Psi_{+}\right\rangle$and $$\left\vert \Psi_{-}\right\rangle$$.
 
-We can now write $$\vert \Psi\rangle$$ in the $$Q$-eigenvector basis:
+We can now write $$\vert \Psi\rangle$$ in the $$Q$$ -eigenvector basis:
 $\vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)$and it follows that:
 $$
 Q^{j}\vert \Psi\rangle=\frac{-i}{2}\left(e^{(2 j+1) i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-(2 j+1) i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
@@ -112,7 +112,7 @@ $$
 
 After $$m$$ applications of the operator $$Q$$, measuring the state $$\vert \Psi\rangle$$ produces a good state with probability equal to $$\sin ^{2}\left((2 m+1) \theta_{a}\right)$$.
 
-$\sin ^{2}\left((2 x+1) \theta_{a}\right)$$ is maximized for $$x=\frac{\pi}{4 \theta}-\frac{1}{2} .$
+$$\sin ^{2}\left((2 x+1) \theta_{a}\right)$$ is maximized for $$x=\frac{\pi}{4 \theta}-\frac{1}{2} .$$
 
 Thus the probability is maximized for $$m=\left\lfloor\pi /\left(4 \theta_{a}\right)\right\rfloor$$ (when the value of $$a$$ is known).
 
@@ -169,7 +169,7 @@ $$
 \frac{e^{i \theta_{a}}}{\sqrt{2}} F_{M}^{-1}\left\vert S_{M}\left(\theta_{a} / \pi\right)\right\rangle \otimes\left\vert \Psi_{+}\right\rangle-\frac{e^{-i \theta_{a}}}{\sqrt{2}} F_{M}^{-1}\left\vert S_{M}\left(1-\theta_{a} / \pi\right)\right\rangle \otimes\left\vert \Psi_{-}\right\rangle
 $$
 
-- By tracing out the second register in the eigenvector basis $$\left\vert \Psi_{+}\right\rangle,\left\vert \Psi_{-}\right\rangle$$, we obtain a $$\frac{1}{2}-\frac{1}{2}$$ mixture of $$F_{M}^{-1}\left\vert S_{M}\left(\theta_{a} / \pi\right)\right\rangle$$ and $$F_{M}^{-1}\left\vert S_{M}\left(1-\theta_{a} / \pi\right)\right\rangle .$
+- By tracing out the second register in the eigenvector basis $$\left\vert \Psi_{+}\right\rangle,\left\vert \Psi_{-}\right\rangle$$, we obtain a $$\frac{1}{2}-\frac{1}{2}$$ mixture of $$F_{M}^{-1}\left\vert S_{M}\left(\theta_{a} / \pi\right)\right\rangle$$ and $$F_{M}^{-1}\left\vert S_{M}\left(1-\theta_{a} / \pi\right)\right\rangle .$$
 - By symmetry (since $$\sin ^{2}\left(\pi \frac{y}{M}\right)=\sin ^{2}\left(\pi\left(1-\frac{y}{M}\right)\right)$$ ), we can assume the measured $$\vert y\rangle$$ is the result of measuring $$F_{M}^{-1}\left\vert S_{M}\left(\theta_{a} / \pi\right)\right\rangle$$.
 - We thus have 
 $$

@@ -15,14 +15,14 @@ Given an unsorted array, how to find a specific element in the array?
 
 - Example:
   - Find data record in place i
-  - Search Hash function: find x s.t. $$h(x)=y$
+  - Search Hash function: find x s.t. $$h(x)=y$$
   - Find the best strategy
 
 In quantum computing world, it would be a system that has following states:
 
 $$\vert 1 \rangle \vert f(1) \rangle + \vert 2 \rangle \vert f(2) \rangle + ··· + \vert N \rangle \vert f(N) \rangle$$
 
-Then how can we get a measurement result of exact $$f(i)$? It is not easy to find that the probability of getting $$f(i)$$ is $$1/N$$ now .
+Then how can we get a measurement result of exact $$f(i)$$? It is not easy to find that the probability of getting $$f(i)$$ is $$1/N$$ now .
 
 Now we use mathmatical language to describe this problem:
 - Input: $$f:(0,1,...,N-1)->\{0,1\}$$ with promise that there exists exactly one j s.t. $$f(j)=1$$.
@@ -32,7 +32,7 @@ Now we use mathmatical language to describe this problem:
 ## 2. Quantum Computing Solution
 The following figure shows schematic circuit for the quantum search algorithm, in which we can see there are $$\sqrt{n}$$ circuit G. Oracle workplace would be used to load f(x) on the register.
 
-![Image](/assets/images/posts/Grover/CircuitSolution.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Grover/CircuitSolution.png "Image@512x512")
 
 The following figure shows circuit details. In the oracle function, we use f(x) to distinguish amplititude of between targeted $$\vert j \rangle$$ and other states.
 

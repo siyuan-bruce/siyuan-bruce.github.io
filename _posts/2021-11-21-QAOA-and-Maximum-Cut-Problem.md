@@ -129,7 +129,8 @@ This Hamiltonian is too large to construct explicitly!
 $$
 \max _{\mathbf{s}} \frac{1}{2} \sum_{i j \in E}\left(1-s_{i} s_{j}\right) \quad s_{i} \in\{-1,+1\}
 $$
-- MAXCUT Hamiltonian is constructed by mapping binary variables $$s_{i}$$ onto the eigenvalues of $$Z$
+- MAXCUT Hamiltonian is constructed by mapping binary variables $$s_{i}$$ onto the eigenvalues of $$Z$$
+  
 $$
 C=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)
 $$

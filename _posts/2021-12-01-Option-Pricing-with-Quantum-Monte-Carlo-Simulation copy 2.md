@@ -64,7 +64,7 @@ The basic idea is that we can levarage Quantum Amplititude Estimation to achieve
 
 **AE Estimation Review**
 
-AE uses $$m$$ additional sampling qubits and Quantum Phase Estimation to produce an estimator $$\tilde{a}=\sin ^{2}(y \pi / M)$$ of $$a$$, where $$y \in\{0, \ldots, M-1\}$$ and $$M$$ (the number of samples, is $$2^{m}$). The estimator $$\tilde{a}$$ satisfies
+AE uses $$m$$ additional sampling qubits and Quantum Phase Estimation to produce an estimator $$\tilde{a}=\sin ^{2}(y \pi / M)$$ of $$a$$, where $$y \in\{0, \ldots, M-1\}$$ and $$M$$ (the number of samples, is $$2^{m}$$). The estimator $$\tilde{a}$$ satisfies
 
 $$
 \vert a-\tilde{a}\vert  \leq \frac{\pi}{M}+\frac{\pi^{2}}{M^{2}}=O\left(M^{-1}\right) \text {, }

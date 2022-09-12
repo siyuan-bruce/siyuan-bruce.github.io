@@ -25,7 +25,7 @@ A \vec{x}=\vec{b}
 $$
 
 
-where $$A$$ is an $$N_{b} \times N_{b}$$ Hermitian matrix and $$\vec{x}$$ and $$\vec{b}$$ are $$N_{b}$-dimensional vectors. For simplicity, it is assumed $$N_{b}=2^{n_{b}} . A$$ and $$\vec{b}$$ are known and $$\vec{x}$$ is the unknown to be solved, i.e.
+where $$A$$ is an $$N_{b} \times N_{b}$$ Hermitian matrix and $$\vec{x}$$ and $$\vec{b}$$ are $$N_{b}$$-dimensional vectors. For simplicity, it is assumed $$N_{b}=2^{n_{b}} . A$$ and $$\vec{b}$$ are known and $$\vec{x}$$ is the unknown to be solved, i.e.
 
 
 $$
