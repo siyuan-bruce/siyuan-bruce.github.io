@@ -63,7 +63,7 @@ For the following example, the answer would be that six edges are cut.
 $$\max _{\mathbf{s}} C(\mathbf{s})=\frac{1}{2} \sum_{i j \in E}\left(1-s_{i} s_{j}\right)$$
 
 
-**Objective in Quantum Computing:** Characterizing a Hamiltonian (Hermitian operator) $$C$
+**Objective in Quantum Computing:** Characterizing a Hamiltonian (Hermitian operator) $$C$$
 
 
 To solve an optimization problem on a quantum computer, we need to convert it into a problem of characterizing a quantum Hamiltonian.

@@ -133,19 +133,19 @@ The algorithm goes with the following procedures:
   $$
   \left\vert \psi_{1}\right\rangle=\sum_{x \in\{0,1\}^{n}} \frac{\vert x\rangle}{\sqrt{2^{n}}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right]$$
 3. Use targeted function in the circuit
-   $$$ \left\vert \psi_{2}\right\rangle=\sum_{x} \frac{(-1)^{f(x)}\vert x\rangle}{\sqrt{2^{n}}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right] $$
+   $$ \left\vert \psi_{2}\right\rangle=\sum_{x} \frac{(-1)^{f(x)}\vert x\rangle}{\sqrt{2^{n}}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right] $$
 
 4. Another Hardmard Gate
 $$H^{\otimes n}$$
 
 to the first register.
-  $$$ \left\vert \psi_{3}\right\rangle=\sum_{z} \sum_{x} \frac{(-1)^{x \cdot z+f(x)}\vert z\rangle}{2^{n}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right]$$
+  $$ \left\vert \psi_{3}\right\rangle=\sum_{z} \sum_{x} \frac{(-1)^{x \cdot z+f(x)}\vert z\rangle}{2^{n}}\left[\frac{\vert 0\rangle-\vert 1\rangle}{\sqrt{2}}\right]$$
 
 5. Measurement. Note that the amplitude of the state
 $$
 \vert 0\rangle^{\otimes n} $$
 is
-  $$$ \sum_{x}(-1)^{f(x)} / 2^{n}
+  $$ \sum_{x}(-1)^{f(x)} / 2^{n}
   $$
 
 

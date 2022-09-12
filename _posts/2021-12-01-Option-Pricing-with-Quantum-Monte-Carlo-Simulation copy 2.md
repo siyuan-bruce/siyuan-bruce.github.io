@@ -116,7 +116,7 @@ $$\mathcal{V}$$
   obtains 
   $$\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$$ 
   . From this measurement we can extract the desired expectation value.
-Any quantum state in the $$(n+1)$-qubit Hilbert space can be expressed as a linear combination of 
+Any quantum state in the $$(n+1)$$-qubit Hilbert space can be expressed as a linear combination of 
 $$\vert \chi\rangle$$
  and a specific orthogonal complement 
  $$\left\vert \chi^{\perp}\right\rangle$$
@@ -150,7 +150,7 @@ $$
 \mathcal{Q}^{c}:\vert j\rangle\vert \psi\rangle \rightarrow\vert j\rangle \mathcal{Q}^{j}\vert \psi\rangle
 $$
 
-for an arbitrary $$n$$ qubit state $$\vert \psi\rangle$$. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $$\vert \chi\rangle$$ by applying $$\mathcal{F}$$ to a register of qubits in $$\left\vert 0^{n+1}\right\rangle$$. Then prepare an additional $$m$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$
+for an arbitrary $$n$$ qubit state $$\vert \psi\rangle$$. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $$\vert \chi\rangle$$ by applying $$\mathcal{F}$$ to a register of qubits in $$\left\vert 0^{n+1}\right\rangle$$. Then prepare an additional $$m$$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$
 
 $$
 \mathcal{H}^{\otimes m}\left\vert 0^{m}\right\rangle\vert \chi\rangle=\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle\vert \chi\rangle
@@ -168,7 +168,7 @@ $$
 \sum_{x=0}^{2^{m}-1} \alpha_{+}(x)\vert x\rangle\left\vert \psi_{+}\right\rangle+\alpha_{-}(x)\vert x\rangle\left\vert \psi_{-}\right\rangle
 $$
 
-The $$\left\vert \alpha_{\pm}(x)\right\vert ^{2}$$ are peaked where $$x / 2^{m}=\pm \hat{\theta}$$ is an $$m$-bit approximation to $$\pm \theta$$. Hence, measurement of the $$\vert x\rangle$$ register will retrieve the approximations $$\pm \hat{\theta}$$.
+The $$\left\vert \alpha_{\pm}(x)\right\vert ^{2}$$ are peaked where $$x / 2^{m}=\pm \hat{\theta}$$ is an $$m$$-bit approximation to $$\pm \theta$$. Hence, measurement of the $$\vert x\rangle$$ register will retrieve the approximations $$\pm \hat{\theta}$$.
 
 Overall, quantum amplititude estimation can help us to find $$\tilde{a}=\sin ^{2}(y \pi / M)$$.
 
