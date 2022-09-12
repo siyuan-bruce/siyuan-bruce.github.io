@@ -192,7 +192,7 @@ $$
 $$
 
 
-$\lambda_{j}$$ are usually not integers. We will choose $$t$$ so that
+$$\lambda_{j}$$ are usually not integers. We will choose $$t$$ so that
 $$\tilde{\lambda}_{j}=N \lambda_{j} t / 2 \pi$$
 
 are integers. Therefore, the encoded values
@@ -343,11 +343,10 @@ $$\tilde{\lambda}_{0}=1$$
  and
  $$\tilde{\lambda}_{1}=2$$
 
- or in other words,
- $$\left\vert \tilde{\lambda_{0}}\right\rangle=\vert 01\rangle$$
+ or in other words, $$\ket{\tilde{\lambda_{0}}}=\ket{ 01}$$
 
   and
- $$\left\vert \tilde{\lambda_{1}}\right\rangle=\vert 10\rangle$$
+ $$\ket{ \tilde{\lambda_{1}}}=\vert 10\rangle$$
 
  . This gives a perfect encoding with $$n=2($$ i.e. $$N=4)$$. Therefore, $$t$$ is chosen to be
  $$\frac{3 \pi}{4}$$
@@ -362,20 +361,21 @@ On outcome 1 when measuring the auxiliary qubit, the state is
 
 
 $$
-\frac{\frac{1}{\sqrt{2}}\vert 00\rangle\left\vert u_{1}\right\rangle \frac{1}{2}\vert 1\rangle+\frac{1}{\sqrt{2}}\vert 00\rangle\left\vert u_{2}\right\rangle \frac{1}{4}\vert 1\rangle}{\sqrt{5 / 32}}
+\frac{\frac{1}{\sqrt{2}} \ket{00}\ket{u_{1}}
+\frac{1}{2}\ket{ 1}+\frac{1}{\sqrt{2}}\ket{ 00}\ket{u_{2}} \frac{1}{4}\ket{ 1}}{\sqrt{5 / 32}}
 $$
 
 A quick calculation shows that
 
 $$
-\frac{\frac{1}{2 \sqrt{2}}\left\vert u_{1}\right\rangle+\frac{1}{4 \sqrt{2}}\left\vert u_{2}\right\rangle}{\sqrt{5 / 32}}=\frac{\vert x\rangle}{\vert \vert x \vert \vert }
+\frac{\frac{1}{2 \sqrt{2}}\ket{u_{1}}+\frac{1}{4 \sqrt{2}}\ket{u_{2}}}{\sqrt{5 / 32}}=\frac{\ket{ x}}{\vert \vert x \vert \vert }
 $$
 
 
 Since $$\vec{b}$$ is a 2-dimensional complex vector, it can be encoded using 1 qubit and, thus, $$n_{b}=1$$.
 
 
-We can use $$\vert u_{1} \rangle$$ and $$\vert u_{2} \rangle$$ to find what is x.
+We can use $$\ket{u_{1}}$$ and $$\ket{u_{2}}$$ to find what is x.
 
 
 The solution to the LSP is found to be
