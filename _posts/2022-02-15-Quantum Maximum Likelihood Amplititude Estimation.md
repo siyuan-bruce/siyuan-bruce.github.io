@@ -49,8 +49,7 @@ $$
 =(2\vert \Psi\rangle\langle\Psi\vert -I)\left(\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I\right)
 $$
 
-
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/AE/Visualization.jpg" alt="drawing" width="600"/>
+![Image](/assets/images/posts/AE/Visualization.jpg "Visualization")
 
 Now we try to infer
 
@@ -164,7 +163,7 @@ $$
 
 We now look at the overall circuit for this problem.
 
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/OptionPricing/OverallCircuit.png" alt="drawing" width="800"/>
+![image](/assets/images/posts/OptionPricing/OverallCircuit.png "Circuit")
 
 For phase estimation, we require the conditional application of the operation $\mathcal{Q}$. Concretely, we require
 $$
@@ -329,12 +328,12 @@ Note:
 ---
 ## QAE + MLE
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/OptionPricing/maximumlikelihoodAE.png "Image@512x512")
+![Image](/assets/images/posts/OptionPricing/maximumlikelihoodAE.png "Image@512x512")
 
 The idea of QAE + MLE is to use quantum amplification to amplify angle $\theta$. And measure the result of the objective state. For example, in the above figure, we can get one result for each shot. And then we can measure several times can get lots of 0 and 1 (good result). 
 
 Then we solve the parameter $\theta$ with Maximum Likelihood Estimation.
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/MaximumLikelihoodEstimationAE/calculate.png "Image@512x512")
+![Image](/assets/images/posts/MaximumLikelihoodEstimationAE/calculate.png "Image@512x512")
 
 ---
 ### Code

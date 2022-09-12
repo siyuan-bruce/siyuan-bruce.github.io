@@ -99,7 +99,7 @@ $$
 
 We now look at the overall circuit for this problem.
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/OptionPricing/OverallCircuit.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/OptionPricing/OverallCircuit.png "Image@512x512"){:width="512px"}
 
 Note that we can slightly redefine the quantity being measured. Define the unitary
 
@@ -298,7 +298,7 @@ plt.ylabel("Probability ($\%$)", size=15)
 plt.show()
 ```
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/OptionPricing/data.png "data distribution"){:width="512px"}
+![Image](/assets/images/posts/OptionPricing/data.png "data distribution"){:width="512px"}
 
 
 ```
@@ -345,7 +345,7 @@ plt.yticks(size=15)
 plt.show()
 ```
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/OptionPricing/payoff.png "payoff function"){:width="512px"}
+![Image](/assets/images/posts/OptionPricing/payoff.png "payoff function"){:width="512px"}
 
 
 ```

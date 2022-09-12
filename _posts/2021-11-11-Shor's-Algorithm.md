@@ -14,7 +14,7 @@ article_header:
 If we have a periodic function $f(x)=a^{x}(\bmod N)$ (Following figure), how can we find the order $r$ in a quantum algorithm?
 - For example, $a^{0}(\bmod N)$=1 and $a^{r}(\bmod N)$=1.
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Shor/Order-function.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Shor/Order-function.png "Oracle Function")
 
 Order-finding is believed to be a hard problem on a classical computer, in the sense that no algorithm is known to solve the problem using resources polynomial in the $O(L)$ bits needed to specify the problem, where $L \equiv\lceil\log (N)\rceil$ is the number of bits needed to specify $N$. 
 
@@ -24,7 +24,7 @@ Inputs:
 
 (1) A black box $U_{x, N}$ which performs the transformation $\vert j\rangle\vert k\rangle \rightarrow\vert j\rangle\left\vert x^{j} k \bmod N\right\rangle$, for $x$ co-prime to the $L$-bit number $N$
 
-(2) $$t=2 L+1+\left\lceil\log \left(2+\frac{1}{2 \epsilon}\right)\right\rceil$$
+(2) $t=2 L+1+\left\lceil\log \left(2+\frac{1}{2 \epsilon}\right)\right\rceil$
  qubits initialized to $\vert 0\rangle$
 
 (3) $L$ qubits initialized to the state $\vert 1\rangle$.
@@ -44,7 +44,7 @@ Runtime: $O\left(L^{3}\right)$ operations. Succeeds with probability $O(1)$.
 5. measure first register $\rightarrow \widehat{s / r}$ 
 6. apply continued fractions algorithm $\rightarrow r$ 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Shor/Circuit.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Shor/Circuit.png "Image@512x512"){:width="512px"}
 
 The quantum algorithm for order-finding is just the phase estimation algorithm applied to the unitary operator
 $$
@@ -99,7 +99,7 @@ $$
 \end{aligned}
 $$
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Shor/ModularExponention.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Shor/ModularExponention.png "Image@512x512"){:width="512px"}
 
 Therefore, we only need use controlled-$U^{2^{j}}$ to rotate different qubits we can result a system we want.
 
@@ -116,7 +116,7 @@ $$
 
 without explanation. To create $U^{x}$, we will simply repeat the circuit $x$ times. 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Shor/QiskitExample.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Shor/QiskitExample.png "Image@512x512"){:width="512px"}
 
 We can analyse codes provided by Qiskit in the future..
 

@@ -56,7 +56,7 @@ $$
 
 The following figure shows how quantum phase estimation works:
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Quantum-Phase-Estimation/circuit.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Quantum-Phase-Estimation/circuit.png "Image@512x512"){:width="512px"}
 
 i. Setup: $\vert \psi\rangle$ is in one set of qubit registers. An additional set of $\mathrm{n}$ qubits form the counting register on which we will store the value $2^{n} \theta$ : $\psi_{0}=\vert 0\rangle^{\otimes} \pi\vert \psi\rangle$
 

@@ -30,7 +30,7 @@ For example, if color denotes part,
 in the graph on the following 4 edges are cut:
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/QAOA/MAXCUT.png "MAXCUT"){:width="256px"}
+![Image](/assets/images/posts/QAOA/MAXCUT.png "MAXCUT"){:width="256px"}
 
 
 Maximum cut can be formulated as an optimization problem:
@@ -53,7 +53,7 @@ $$
 For the following example, the answer would be that six edges are cut.
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/QAOA/MAXCUT_Ex.png "MAXCUT"){:width="256px"}
+![Image](/assets/images/posts/QAOA/MAXCUT_Ex.png "MAXCUT"){:width="256px"}
 
 
 ## 2. Solving Combinatorial Optimization Problems on a Quantum Computer
@@ -296,7 +296,7 @@ quantum evolution and can therefore find the exact optimal solution
 • For small p, picture is more mixed, but there is some indication of the potential for quantum advantage.
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/QAOA/Optimization.png "MAXCUT"){:width="512px"}
+![Image](/assets/images/posts/QAOA/Optimization.png "MAXCUT"){:width="512px"}
 
 
 

@@ -32,23 +32,23 @@ We first dig into what is the balanced function and constant function are.
 - Balanced Function means $f(0)\ne f(1)$, including two possibilites:
   - $$f(0) = 0, f(1) = 1$$
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/BalancedOne.png "Image@512x512"){:width="256px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/BalancedOne.png "Image@512x512"){:width="256px"}
 
 
   - $$f(0) = 1, f(1) = 0$$
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/BalancedTwo.png "Image@512x512"){:width="256px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/BalancedTwo.png "Image@512x512"){:width="256px"}
 
 
 - Constant Function means $f(0)= f(1)$, including two possibilites:
   - $$f(0) = f(1) = 0$$
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/ConstantOne.png "Image@512x512"){:width="256px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/ConstantOne.png "Image@512x512"){:width="256px"}
 
 
   - $$f(0) = f(1) = 1$$
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/ConstantTwo.png "Image@512x512"){:width="256px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/ConstantTwo.png "Image@512x512"){:width="256px"}
 
 
 ### 1.2 Solution Circuit
@@ -56,19 +56,19 @@ We first dig into what is the balanced function and constant function are.
 We first present the solution circuit and try to find why it can help find the solution. In the following picture, we assume $n=1$ in the upper register.
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/Deutsch-Circuit.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deutsch-Circuit.png "Image@512x512"){:width="512px"}
 
 
 The following figure shows how we deduce from the beginning to the end. (I will spend some time using markdown to compile it in the future :).)
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction1.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction1.png "Image@512x512"){:width="512px"}
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction2.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction2.png "Image@512x512"){:width="512px"}
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction3.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction3.png "Image@512x512"){:width="512px"}
 
 
 ### 1.3 Example Circuit
@@ -79,7 +79,7 @@ We use the balanced function as an example to see what happened.
 - Balanced Function One
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/ExampleBalancedOne.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/ExampleBalancedOne.png "Image@512x512"){:width="512px"}
 
 
 The process goes like this:
@@ -95,7 +95,7 @@ $$
 $$
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Deutsch-Jozsa-Algorithm/ExampleBalancedTwo.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/ExampleBalancedTwo.png "Image@512x512"){:width="512px"}
 
 
 The process goes like this:

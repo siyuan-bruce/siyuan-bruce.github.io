@@ -32,11 +32,11 @@ Now we use mathmatical language to describe this problem:
 ## 2. Quantum Computing Solution
 The following figure shows schematic circuit for the quantum search algorithm, in which we can see there are $\sqrt{n}$ circuit G. Oracle workplace would be used to load f(x) on the register.
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Grover/CircuitSolution.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Grover/CircuitSolution.png "Image@512x512"){:width="512px"}
 
 The following figure shows circuit details. In the oracle function, we use f(x) to distinguish amplititude of between targeted $\vert j \rangle$ and other states.
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Grover/CircuitG.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Grover/CircuitG.png "Image@512x512"){:width="512px"}
 
 Then we would use a inverse mean function. Each of the operations in the Grover iteration may be efficiently implemented on a quantum computer. Steps 2 and 4, the Hadamard transforms, require $n=\log (N)$ operations each. Step 3 , the conditional phase shift, may be implemented using the techniques of Section 4.3, using $O(n)$ gates. The cost of the oracle call depends upon the specific application; It is useful to note that the combined effect of steps 2,3, and 4 is
 
@@ -60,7 +60,7 @@ This operation is sometimes referred to as the inversion about mean operation.
 
 ## 3. Visualization
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/Grover/Grover.png "Image@512x512"){:width="256px"}
+![Image](/assets/images/posts/Grover/Grover.png "Image@512x512"){:width="256px"}
 
 In this figure, dimension $\vert \alpha \rangle$ is all dimensions but $\vert \beta \rangle$ . For general Hilbert Space, $\vert \alpha \rangle$ is orthogonal to $\vert \beta \rangle$.
 

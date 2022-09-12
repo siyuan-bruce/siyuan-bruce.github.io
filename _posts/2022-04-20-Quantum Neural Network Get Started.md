@@ -57,7 +57,7 @@ For example, if a vector is $[1,1,0,1]$, we can use a two-qubit quantum state th
 
 This refers to encode data into rotation angle. We can see the following figure that encodes $x_{1}$, $x_{2}$, $x_{3}$ on the circuit.
 
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/QuantumNeuralNetwork/angleEncoding.png" alt="drawing" width="400"/>
+![Image](/assets/images/posts/QuantumNeuralNetwork/angleEncoding.png "Angle Encoding")
 
 
 ## 3. Quantum Neural Network Forward
@@ -65,7 +65,7 @@ We combine Qiskit to explain how neural network forwards to the final cost funct
 
 The following circuit uses a Hardmard gate, followed by a Rotation-Y and Rotation-X. The input and weight is encoded as angle to these two operations.
 
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/QuantumNeuralNetwork/NNForward.png" alt="drawing" width="400"/>
+![Image](/assets/images/posts/QuantumNeuralNetwork/NNForward.png "Circuit")
 
 We then introduce Cost function to the circuit. The tutorial use a PauliSUmOp as the cost function, which means the Z and X operator will be used as the measurement operator to the final result. Both operator will times 1 and add together.
 
@@ -149,7 +149,8 @@ Here we get a qubit's statevector instead of the Bloch vector. The state vector 
 $$\vert q\rangle = 0.70711\vert 0\rangle + 0.70711\vert 1\rangle$$
 
 THe bloch vector is shown in the below figure:
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/QuantumNeuralNetwork/bloch1.png" alt="drawing" width="400"/>
+
+![Image](/assets/images/posts/QuantumNeuralNetwork/bloch1.png "Block Sphere")
 
 As you can see, the bloch vector is 
 
@@ -195,7 +196,7 @@ qnn1.forward(input1, weights1)
 array([[-1.]])
 ```
 We also draw the bloch sphere here:
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/QuantumNeuralNetwork/bloch2.png" alt="drawing" width="400"/>
+![Image](/assets/images/posts/QuantumNeuralNetwork/bloch2.png "Block Sphere")
 
 The bloch vector is 
 $$[0,0,-1]$$

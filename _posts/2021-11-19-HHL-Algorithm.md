@@ -38,7 +38,7 @@ estimation (IQPE), and measurement.
 
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/HHL/CircuitsDesign.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/HHL/CircuitsDesign.png "Image@512x512"){:width="512px"}
 
 
 **The clock qubits
@@ -116,7 +116,7 @@ $$
 $$
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/HHL/ControlledRotation.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/HHL/ControlledRotation.png "Image@512x512"){:width="512px"}
 
 
 In the controlled rotation part, $U$ is applied to $\vert b\rangle$ with the clock qubits as the control qubits (Figure 2). For simplicity, we begin by assuming that $\vert b\rangle$ is an eigenvector of $U$ with eigenvalue $e^{2 \pi i \phi}$. Therefore
@@ -399,7 +399,7 @@ $$\left\vert x_{0}\right\vert ^{2} \text { to }\left\vert x_{1}\right\vert ^{2} 
 Qiskit's implementation of HHL has slight differences with the above. The following part introduces HHL's implementation and finds the differences.
 
 The following figure shows the overall circuit.
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/HHL/hhlcircuit.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/HHL/hhlcircuit.png "Image@512x512"){:width="512px"}
 
 The algorithm goes as the following:
 1. Load the data $|b\rangle \in \mathbb{C}^{N}$. That is, perform the transformation

@@ -64,7 +64,7 @@ $$
 $$
 
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/AE/Visualization.jpg "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/AE/Visualization.jpg "Image@512x512"){:width="512px"}
 
 Now we try to infer
 $$
@@ -138,7 +138,7 @@ From above conclusion, we can find that $\theta_{a}$ should be small enough to g
 
 Then if we do not know $\alpha$ in the first place, how can we find it?
 
-![Image](https://jsybruce.github.io/Homepage/assets/images/posts/AE/AECircuit.jpg "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/AE/AECircuit.jpg "Image@512x512"){:width="512px"}
 
 $$\left(F_{M}^{-1} \otimes I\right)\left(\Lambda_{M}(Q)\right)\left(F_{M} \otimes I\right) \text { applied on the state }\vert 0\rangle \otimes \mathcal{A}\vert 0\rangle
 $$

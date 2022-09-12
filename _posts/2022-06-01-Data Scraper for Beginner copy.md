@@ -48,13 +48,16 @@ First, we must interact with the website to find where the data comes from.
 
 Now we open a bear's data (https://cryptoslam.io/phantabear/mint/5672). We then need to find where the website data is from. Luckily, we got the following figure:
 
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/DataScraper/webpage.png" alt="drawing" width="800"/>
+![Image](/assets/images/posts/DataScraper/webpage.png "Figure1")
+
+
 
 This request helps the website to get the data we want, including the bear's features and transaction history.
 
 We now need to analyse this link, shown in the following figure:
 
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/DataScraper/url.png" alt="drawing" width="600"/>
+![Image](/assets/images/posts/DataScraper/url.png "Figure2")
+
 
 We can find that the URL contains the bear's id, and we can quickly go through the headers of this request to make sure there is no need to specify for us. But, of course, you can specify them in the headers property, shown in the following code.
 
@@ -72,7 +75,8 @@ for i in range(1, 1000):
 
 Now, let's see another more complex case. We want to get data from OpenSea API. However, the API needs a key for each request. Luckily, when surfing the internet, we find that a website gets data from opensea, as shown in the following figure.
 
-<img src="https://jsybruce.github.io/Homepage/assets/images/posts/DataScraper/opensea.png" alt="drawing" width="800"/>
+
+![Image](/assets/images/posts/DataScraper/opensea.png "Figure3")
 
 Now! we can use its API to get the data.
 ```
