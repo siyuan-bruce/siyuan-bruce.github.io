@@ -56,19 +56,19 @@ We first dig into what is the balanced function and constant function are.
 We first present the solution circuit and try to find why it can help find the solution. In the following picture, we assume $$n=1$$ in the upper register.
 
 
-![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deutsch-Circuit.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deutsch-Circuit.png "Image@512x512") 
 
 
 The following figure shows how we deduce from the beginning to the end. (I will spend some time using markdown to compile it in the future :).)
 
 
-![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction1.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction1.png "Image@512x512") 
 
 
-![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction2.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction2.png "Image@512x512") 
 
 
-![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction3.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deduction3.png "Image@512x512") 
 
 
 ### 1.3 Example Circuit
@@ -79,7 +79,7 @@ We use the balanced function as an example to see what happened.
 - Balanced Function One
 
 
-![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/ExampleBalancedOne.png "Image@512x512"){:width="512px"}
+![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/ExampleBalancedOne.png "Image@512x512") 
 
 
 The process goes like this:

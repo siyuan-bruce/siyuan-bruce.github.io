@@ -20,12 +20,12 @@ $$\mathcal{R}\vert x\rangle\vert 0\rangle=\vert x\rangle(\sqrt{1-v(x)}\vert 0\ra
 
 In this equation, $$v$$ could be the price of assets and some other information.
 
-#### Then we can mesaure $$\mathbb{E}[v(\mathcal{A})]$
-$A$$ is an algorithm to describe the distribution of $$x$$.
+#### Then we can mesaure $$\mathbb{E}[v(\mathcal{A})]$$
+$$A$$ is an algorithm to describe the distribution of $$x$$.
 
-$v(A)$$ denotes the random variable specified by the algorithm $$A$$ and the function $$v(x)$$.
+$$v(A)$$ denotes the random variable specified by the algorithm $$A$$ and the function $$v(x)$$.
 
-$\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x)$
+$$\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x)$$
 
 
 1. Apply the algorithm $$A$$, 
@@ -33,7 +33,7 @@ $\mathbb{E}[v(\mathcal{A})]:=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2
    $$\mathcal{A}\left\vert 0^{n}\right\rangle=\sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle$$
    
    where $$\left\vert 0^{n}\right\rangle$$ denotes the $$n$$ qubit register with all qubits in the state $$\vert 0\rangle$$. 
-2. Perform the rotation of an ancilla via $$\mathcal{R}$
+2. Perform the rotation of an ancilla via $$\mathcal{R}$$
   $$
   \begin{gathered}
   \sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle\vert 0\rangle \\

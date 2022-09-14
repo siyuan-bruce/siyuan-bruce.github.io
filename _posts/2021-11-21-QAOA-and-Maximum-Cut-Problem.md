@@ -194,7 +194,7 @@ $$
   $$
 
 
-- Acting on the $$\mathrm{i}$-th and $$\mathrm{j}$-th qubit:
+- Acting on the $$\mathrm{i}$$-th and $$\mathrm{j}$$-th qubit:
   $$
   \begin{aligned}
   Z_{i} Z_{j}\left\vert x_{0} \ldots x_{n}\right\rangle &=I \otimes \ldots \otimes Z_{i} \otimes Z_{j} \otimes \ldots \otimes I\left\vert x_{0} \ldots x_{n}\right\rangle \\
@@ -263,10 +263,10 @@ $$
 $$
 
 
-- Here $$C$$ is the problem Hamiltonian, e.g. for MAXCUT: $$C=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)$
+- Here $$C$$ is the problem Hamiltonian, e.g. for MAXCUT: $$C=\frac{1}{2} \sum_{i j \in E}\left(I-Z_{i} Z_{j}\right)$$
 
 
-- $$B$$ is the mixer Hamiltonian: $$B=\sum_{i} X_{i}$
+- $$B$$ is the mixer Hamiltonian: $$B=\sum_{i} X_{i}$$
 
 
 **Why do we need a mixer Hamiltonian operator:**
@@ -288,7 +288,6 @@ Then a classical optimizer is used to vary the parameters $$\boldsymbol{\beta}, 
 
 $$
 f(\boldsymbol{\beta}, \boldsymbol{\gamma})=\langle\psi(\boldsymbol{\beta}, \boldsymbol{\gamma})\vert C\vert  \psi(\boldsymbol{\beta}, \boldsymbol{\gamma})\rangle
-
 $$
 
 
@@ -306,7 +305,7 @@ Crucially, the quality of QAOA solution heavily depends on the quality of the pa
 
 ## 4. Constructing a Hamiltonian for a general problem
 
-How can we do this efficiently for an arbitrary function f? In other words, how do we map Boolean and real functions to diagonal Hamiltonians acting on qubits?
+How can we do this efficiently for an arbitrary function $$f$$? In other words, how do we map Boolean and real functions to diagonal Hamiltonians acting on qubits?
 
 
 To be updated.

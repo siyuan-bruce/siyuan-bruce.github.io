@@ -90,8 +90,8 @@ That is why we think the complexity of Grover algorithm is $$\sqrt{N}$$.
 Grover Algorithm can help to find specific value in an unsorted array, with quadratic speedup.
 
 - Comlexity:
-  - Classical Algorithm: $$\Omega(n)$
-  - Quantum Algorithm: $$O(\sqrt{n})$
+  - Classical Algorithm: $$\Omega(n)$$
+  - Quantum Algorithm: $$O(\sqrt{n})$$
 
 ## 5. Qiskit Implementation
 

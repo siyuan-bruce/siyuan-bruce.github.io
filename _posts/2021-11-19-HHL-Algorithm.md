@@ -426,7 +426,7 @@ $$
 \sum_{j=0}^{N-1} b_{j}\ket{\lambda_{j}}_{n_{l}}\ket{u_{j}}_{n_{b}}(\sqrt{1-\frac{C^{2}}{\lambda_{j}^{2}}}\ket{0}+\frac{C}{\lambda_{j}}\ket{1})
 $$
 
-where $$C$$ is a normalisation constant, and, as expressed in the current form above, should be less than the smallest eigenvalue $$\lambda_{\min }$$ in magnitude, i.e., $$|C|<\lambda_{\min }$$.
+where $$C$$ is a normalisation constant, and, as expressed in the current form above, should be less than the smallest eigenvalue $$\lambda_{\min }$$ in magnitude, i.e., $$ \vert C \vert <\lambda_{\min }$$.
 
 4. Apply $$\mathrm{QPE}^{\dagger}$$. Ignoring possible errors from QQE, this results in
 $$
@@ -441,7 +441,7 @@ $$
 
 which up to a normalisation factor corresponds to the solution.
 
-6. Apply an observable $$M$$ to calculate $$F(x):=\langle x|M| x\rangle$$.
+6. Apply an observable $$M$$ to calculate $$F(x):=\bra{x} M \ket{x} $$.
 
 ---
 

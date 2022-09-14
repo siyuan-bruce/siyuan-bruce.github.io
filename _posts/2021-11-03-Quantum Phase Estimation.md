@@ -63,7 +63,7 @@ i. Setup: $$\vert \psi\rangle$$ is in one set of qubit registers. An additional 
 ii. Superposition: Apply a n-bit Hadamard gate operation $$H^{2 n}$$ on the counting register:
 
 $$
-\psi_{1}=\frac{1}{2^{\frac{\sharp}{2}}}(\vert 0\rangle+\vert 1\rangle)^{\otimes n}\vert \psi\rangle
+\psi_{1}=\frac{1}{2^{\frac{n}{2}}}(\vert 0\rangle+\vert 1\rangle)^{\otimes n}\vert \psi\rangle
 $$
 
 iii. Controlled Unitary Operations: We need to introduce the controlled unitary C-U that applies the unitary operator U on the target register only if its corresponding control bit is $$\vert 1\rangle$$. Since $$U$$ is a unitary operator with eigenvector $$\mid$$ psìrangle such that $$U\vert \psi\rangle=$$ $$e^{2 \pi i \theta}\vert \psi\rangle$$, this means:
@@ -72,7 +72,7 @@ $$
 U^{2 j}\vert \psi\rangle=U^{2^{j}-1} U\vert \psi\rangle=U^{2^{j}-1} e^{2 \pi i \theta}\vert \psi\rangle=\cdots=e^{2 \pi i 2^{j} \theta}\vert \psi\rangle
 $$
 
-Applying all the $$\mathrm{n}$$ controlled operations $$\mathrm{C}-U^{2 j}$$ with $$0 \leq j \leq n-1$$, and using the relation $$\vert 0\rangle \otimes\vert \psi\rangle+\vert 1\rangle \otimes e^{2 \pi i \theta}\vert \psi\rangle=$$ $$\left(\vert 0\rangle+e^{2 \pi i \theta}\vert 1\rangle\right) \otimes\vert \psi\rangle$
+Applying all the $$\mathrm{n}$$ controlled operations $$\mathrm{C}-U^{2 j}$$ with $$0 \leq j \leq n-1$$, and using the relation $$\vert 0\rangle \otimes\vert \psi\rangle+\vert 1\rangle \otimes e^{2 \pi i \theta}\vert \psi\rangle=$$ $$\left(\vert 0\rangle+e^{2 \pi i \theta}\vert 1\rangle\right) \otimes\vert \psi\rangle$$
 
 $$
 \begin{aligned}

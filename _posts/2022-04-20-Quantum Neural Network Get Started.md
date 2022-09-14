@@ -276,14 +276,14 @@ print(observable)
 
 We first need to understand ZZFeatureMap.
 
-ZZFeatureMap embedding $$n$-dimensional classical data on $$n$$ qubits: $$U_{\phi(x)} H^{\otimes n}$$, where
+ZZFeatureMap embedding $$n$$-dimensional classical data on $$n$$ qubits: $$U_{\phi(x)} H^{\otimes n}$$, where
 $$
 \begin{gathered}
 U_{\phi(x)}=\exp \left(i \sum_{S \subseteq[n]} \phi_{S}(x) \prod_{i \in S} Z_{i}\right) \\
 \phi_{i}(x)=x_{i}, \phi_{\{i, j\}}(x)=\left(\pi-x_{0}\right)\left(\pi-x_{1}\right)
 \end{gathered}
 $$
-and $$Z_{i}$$ is a $$Z$-gate on the $$i$-th qubit.
+and $$Z_{i}$$ is a $$Z$$-gate on the $$i$$-th qubit.
 
 **ZZFeatureMap is using RZ operator to transfer input data into a higher dimension data. **
 

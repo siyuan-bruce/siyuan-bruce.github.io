@@ -16,9 +16,13 @@ element, i.e. an $$x \in X$$ such that $$\chi(x)=1$$.
 
 
 If there is only one good element, a classical search algorithm has an average complexity of
-$\sum_{i=1}^{N} i \times \frac{1}{N}=\frac{N+1}{2}$$.
-Quantum approach: given an equal superposition of states $$\vert \Psi\rangle=\frac{1}{\sqrt{N}} \sum_{x=0}^{N-1}\vert x\rangle$$, if we measure $$\vert \Psi\rangle$$, we
-get the correct $$\vert x\rangle$$ with probability $$1 / N$$ : so, the average number of iterations is $$N$$.
+
+$$\sum_{i=1}^{N} i \times \frac{1}{N}=\frac{N+1}{2}$$
+Quantum approach: given an equal superposition of states 
+$$\ket{\Psi}=\frac{1}{\sqrt{N}} \sum_{x=0}^{N-1}\vert x\rangle$$ 
+,
+if we measure $$\ket{\Psi}$$, we
+get the correct $$\ket{x}$$ with probability $$1 / N$$ : so, the average number of iterations is $$N$$.
 
 
 Grover's algorithm: we can transform $$\vert \Psi\rangle$$ in $$\mathcal{O}(\sqrt{N})$$ iterations so that performing a measurement on
@@ -57,7 +61,7 @@ Q=-\mathcal{A} S_{0} \mathcal{A}^{\dagger} S_{\chi}
 $$
 In this equation, $$\mathcal{A}$$ helps to transfer $$\vert 0 \rangle$$ to state $$\vert \Psi_{0} \rangle$$.
 
-- The amplitude amplification operator is: $$Q=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times S_{\chi}$
+- The amplitude amplification operator is: $$Q=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times S_{\chi}$$
 
 $$
 =(2\vert \Psi\rangle\langle\Psi\vert -I)\left(\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I\right)
@@ -94,10 +98,10 @@ Q=\left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-It has eigenvalues $$e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}$$ with corresponding eigenvectors $$\frac{1}{2}(1 i), \frac{1}{2}(1-i)$$, noted $$\left\vert \Psi_{+}\right\rangle$and $$\left\vert \Psi_{-}\right\rangle$$.
+It has eigenvalues $$e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}$$ with corresponding eigenvectors $$\frac{1}{2}(1 i), \frac{1}{2}(1-i)$$, noted $$\left\vert \Psi_{+}\right\rangle $$ and $$\left\vert \Psi_{-}\right\rangle$$.
 
 We can now write $$\vert \Psi\rangle$$ in the $$Q$$ -eigenvector basis:
-$\vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)$and it follows that:
+$$ \vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)$$ and it follows that:
 $$
 Q^{j}\vert \Psi\rangle=\frac{-i}{2}\left(e^{(2 j+1) i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-(2 j+1) i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
 $$
@@ -292,7 +296,7 @@ $$
 ## 4. Application to Monte Carlo sampling
 
 - Let $$X$$ be a random variable taking values $$0, \ldots, N$$ with probability $$p_{i}$$. We want to compute $$\mathbb{E}[f(X)]$$.
-- Using Monte Carlo sampling, with $$M$$ evaluations of $$f$$, we get: $$\frac{1}{M} \sum_{k=0}^{M} f\left(X_{k}\right) \approx \mathbb{E}[f(X)] \pm \frac{C}{\sqrt{M}}$
+- Using Monte Carlo sampling, with $$M$$ evaluations of $$f$$, we get: $$\frac{1}{M} \sum_{k=0}^{M} f\left(X_{k}\right) \approx \mathbb{E}[f(X)] \pm \frac{C}{\sqrt{M}}$$
 
 Quantum approach: define
 

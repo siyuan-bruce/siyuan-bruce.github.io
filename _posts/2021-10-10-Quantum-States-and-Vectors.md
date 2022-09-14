@@ -28,7 +28,7 @@ $$
 \vert A\rangle=\alpha_{u}\vert u\rangle+\alpha_{d}\vert d\rangle
 $$
 
-where $$\alpha_{u}$$ and $$\alpha_{d}$$ are the components of $$\vert A\rangle$$ along the basis directions $$\vert u\rangle$
+where $$\alpha_{u}$$ and $$\alpha_{d}$$ are the components of $$\vert A\rangle$$ along the basis directions $$\vert u\rangle$$
 and $$\vert d\rangle$$ . Mathematically, we can identify the components of $$\vert A\rangle$$ as
 
 $$
@@ -100,7 +100,7 @@ $$\alpha_{u}^{*} \alpha_{u}$$
 $$\alpha_{d}^{*} \alpha_{d}$$
  , but there is another condition that we can infer. 
 
-$\vert u\rangle$$ and $$\vert d\rangle$$ are orthogonal for the simple reason that, if the spin is $$u p$$ , it's definitely not down. But there is nothing special about $$u p$$ and down that is not also true of right and left. In particular, if the spin is right, it has zero probability of being left. Thus,
+$$\vert u\rangle$$ and $$\vert d\rangle$$ are orthogonal for the simple reason that, if the spin is $$u p$$ , it's definitely not down. But there is nothing special about $$u p$$ and down that is not also true of right and left. In particular, if the spin is right, it has zero probability of being left. Thus,
 
 $$
 \begin{aligned}

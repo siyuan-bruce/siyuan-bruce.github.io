@@ -49,7 +49,7 @@ It is of course true that every complex conjugate is itself a complex number, bu
 
 Dual here means that for every $$z$$ there is a unique $$z^{*}$$ and vice versa.
 
-There is a special class of complex numbers that I'll call "phase-factors." A phase-factor is simply a complex number whose $$r$-component is 1 . If $$z$$ is a phase-factor, then the following hold:
+There is a special class of complex numbers that I'll call "phase-factors." A phase-factor is simply a complex number whose $$r$$-component is 1 . If $$z$$ is a phase-factor, then the following hold:
 
 $$\begin{gathered}
 z^{*} z=1 \\
@@ -148,10 +148,10 @@ $$
 
 ## 4. Inner Product
 The analogous operation for bras and kets is the inner product. The inner product is always the product of a bra and a ket and it is written this way:
-$\langle B \vert A\rangle$
+$$\langle B \vert A\rangle$$
 The result of this operation is a complex number. The axioms for inner products are not too hard to guess:
 1. They are linear:
-$\langle C\vert \{\vert A\rangle+\vert B\rangle\}=\langle C \vert A\rangle+\langle C \vert B\rangle$
+$$\langle C\vert \{\vert A\rangle+\vert B\rangle\}=\langle C \vert A\rangle+\langle C \vert B\rangle$$
 2. Interchanging bras and kets corresponds to complex conjugation:
 $$
 \langle B \vert A\rangle=\langle A \vert B\rangle^{*} \text {. }
