@@ -21,7 +21,7 @@ This page presents some of my previous moment captures.
 ### **2022**
 
 #### HSBC Lab Farewell, Guangzhou, China
- ![Image](assets/images/gallery/HSBC_Lab.jpg "HSBC_Lab"){width="100"}
+ <img src="assets/images/gallery/HSBC_Lab.jpg" alt="Image" title="HSBC_Lab" width=200>
 
 #### Government Report, Guangzhou, China (Dr. Ziyuan Li, me)
  ![Image](assets/images/gallery/Government%20Report.jpg "Image@512x512")
