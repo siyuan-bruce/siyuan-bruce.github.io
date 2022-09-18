@@ -1,6 +1,6 @@
 ---
 title: Practical Byzantine Fault Tolerance (In Progress)
-tags: Information
+tags: Information, Consensus
 mathjax: true
 author: Si Yuan JIN
 article_header:
@@ -14,11 +14,63 @@ Recently, I found a figure about PBFT state machine which describes how the netw
 
 ![Image](../assets/images/posts/PBFT/state_machine.png "PBFT State Machine")
 
-PBFT is a fault tolerated algorithm, which will continue to work if up to 1/3 of machines fail in arbitrary ways. How to ensure that?
+PBFT is a fault tolerated algorithm, which will continue to work if up to $$1/3$$ of machines fail in arbitrary ways. How to ensure that?
 
-Let us image the worst case which the 1/3 of machines (we denote the number of machines as f) are all normal machines that fails now. However, we still have 1 + f normal machines which is still more than f malicous machines. Therefore, when processing request, normal machine will still take the lead, which means PBFT can work if network has f malicous machines.
+Let us imagine the worst case in which the $$1/3$$ of machines (we denote the number of machines as f) are all normal machines that fail now. However, we still have $$1 + f$$ normal machines, which is still more than f malicious machines. Therefore, when processing the request, normal machines will still take the lead, which means PBFT can work if the network has $$f$$ malicious machines.
 
-On the other perspective, normal machines do not need to get all prevotes and precommits in the process, and they just need to wait to get 1 + 2f responses to trigger next move.
+On the other hand, normal machines do not need to get all prevotes and precommits in the process; they just need to wait to get $$1 + 2f$$ responses to trigger the next move.
+
+We can formally prove why the number is $$1/3$$. Let us assume we have a network of $$n$$ machines, and the network can function well if $$f$$ machines are malicious. Therefore we have $$n - f$$ normal machines.
+
+Then to make sure the network can function well, we need to know how many votes are needed in each round, denoted as $$X$$. 
+
+To make sure that the decision is right, normal machines should be more than malicious machines at decisions:
+
+$$
+X>\frac{n-f}{2} + f
+$$
+
+And we know that X should satisfy the following condition:
+
+$$
+X \leq n
+$$
+
+Combining the above two inequalities, we can get:
+$$
+n>3f
+$$
+Recently, I found a figure about PBFT state machine which describes how the network processes request [1]. 
+
+![Image](../assets/images/posts/PBFT/state_machine.png "PBFT State Machine")
+
+PBFT is a fault tolerated algorithm, which will continue to work if up to $$1/3$$ of machines fail in arbitrary ways. How to ensure that?
+
+Let us image the worst case which the $$1/3$$ of machines (we denote the number of machines as f) are all normal machines that fails now. However, we still have $$1 + f$$ normal machines which is still more than f malicous machines. Therefore, when processing request, normal machine will still take the lead, which means PBFT can work if network has $$f$$ malicous machines.
+
+On the other perspective, normal machines do not need to get all prevotes and precommits in the process, and they just need to wait to get $$1 + 2f$$responses to trigger next move.
+
+We can formally prove why the number is $$1/3$$. Let us assume we have a network of $$n$$ machines and the network can function well if $$f$$ machines are malicous. Therefore we have $$n - f$$ normal machines.
+
+Then to make sure the network can function well, we need to know how many votes are neede in each round, denoted as $$X$$. 
+
+To make sure the decision is right, normal machines should be more than malicous machines at decisions:
+
+$$
+X>\frac{n-f}{2} + f
+$$
+
+And we know that X should satisfy the following condition:
+
+$$
+X \leq n
+$$
+
+Combining the above two inequalities together, we can get:
+$$
+n>3f
+$$
+
 
 **Reference:**
 
