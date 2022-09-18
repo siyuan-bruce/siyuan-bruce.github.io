@@ -16,7 +16,7 @@ Recently, I found a figure about PBFT state machine which describes how the netw
 
 PBFT is a fault tolerated algorithm, which will continue to work if up to $$1/3$$ of machines fail in arbitrary ways. How to ensure that?
 
-Let us imagine the worst case in which the $$1/3$$ of machines (we denote the number of machines as f) are all normal machines that fail now. However, we still have $$1 + f$$ normal machines, which is still more than f malicious machines. Therefore, when processing the request, normal machines will still take the lead, which means PBFT can work if the network has $$f$$ malicious machines.
+Let us imagine the worst case in which the $$1/3$$ of machines (we denote the number of machines as $$f$$) are all normal machines that fail now. However, we still have $$1 + f$$ normal machines, which is still more than f malicious machines. Therefore, when processing the request, normal machines will still take the lead, which means PBFT can work if the network has $$f$$ malicious machines.
 
 On the other hand, normal machines do not need to get all prevotes and precommits in the process; they just need to wait to get $$1 + 2f$$ responses to trigger the next move.
 
