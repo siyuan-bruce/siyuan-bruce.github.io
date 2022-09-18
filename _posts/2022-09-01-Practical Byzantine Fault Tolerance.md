@@ -1,6 +1,6 @@
 ---
 title: Practical Byzantine Fault Tolerance (In Progress)
-tags: Information, Consensus
+tags: Blockchain, Consensus
 mathjax: true
 author: Si Yuan JIN
 article_header:
