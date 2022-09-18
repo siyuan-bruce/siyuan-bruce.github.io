@@ -1,5 +1,5 @@
 ---
-title: Use Quantum Computing Finding the Minimum
+title: Use Quantum Computing Finding the Minimum (In Progress)
 tags: QuantumComputing
 mathjax: true
 author: Si Yuan JIN
