@@ -20,20 +20,21 @@ Let us imagine the worst case in which the $$1/3$$ of machines (we denote the nu
 
 On the other hand, normal machines do not need to get all prevotes and precommits in the process; they just need to wait to get $$1 + 2f$$ responses to trigger the next move.
 
-We can formally prove why the number is $$1/3$$. Let us assume we have a network of $$n$$ machines, and the network can function well if $$f$$ machines are malicious. Therefore we have $$n - f$$ normal machines.
+We can formally prove why the number is $$1/3$$. Let us assume we have a network of $$n$$ machines, and the network can function well if $$f$$ machines are malicous. Therefore we have $$n - f$$ normal machines.
 
 Then to make sure the network can function well, we need to know how many votes are needed in each round, denoted as $$X$$. 
+The reason is that we know the malicous nodes can do not vote and delay the decision. If we keep waiting n nodes to vote, we may not be able to make any decision.
 
-To make sure that the decision is right, normal machines should be more than malicious machines at decisions:
-
-$$
-X>\frac{n-f}{2} + f
-$$
-
-And we know that X should satisfy the following condition:
+So $$X$$ should not be greater than or equal to the number of normal machines:
 
 $$
-X \leq n
+X <= n - f 
+$$
+
+However, we have to be worried that some of votes are given by malicous nodes. Therefore, we need to ensure more than half of the votes should be from normal machines, or half of the votes should be more than the number of malicous machines.
+
+$$
+X/2 > f
 $$
 
 Combining the above two inequalities, we can get:
