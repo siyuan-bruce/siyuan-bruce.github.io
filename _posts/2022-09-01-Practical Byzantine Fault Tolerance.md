@@ -39,6 +39,7 @@ $$
 
 Combining the above two inequalities, we can get:
 
+
 $$
 n>3f
 $$

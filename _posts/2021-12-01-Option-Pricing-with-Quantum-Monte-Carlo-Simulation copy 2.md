@@ -177,7 +177,7 @@ Overall, quantum amplititude estimation can help us to find $$\tilde{a}=\sin ^{2
 
 We need to design a function that encode the expected value into the $$sin$$ function. 
 
-Taking a dffierent step, we can set $$f(i)$$ inside sin function ($sinf(i)$$.)
+Taking a dffierent step, we can set $$f(i)$$ inside sin function ($$sinf(i)$$.)
 
 The payoff function for the option contracts of interest is piece-wise linear and as such we only need to consider linear functions 
 $$f:\left\{0, \ldots, 2^{n}-1\right\} \rightarrow[0,1]$$
