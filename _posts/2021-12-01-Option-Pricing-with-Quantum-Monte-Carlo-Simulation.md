@@ -150,7 +150,7 @@ $$
 \mathcal{Q}^{c}:\vert j\rangle\vert \psi\rangle \rightarrow\vert j\rangle \mathcal{Q}^{j}\vert \psi\rangle
 $$
 
-for an arbitrary $$n$$ qubit state $$\vert \psi\rangle$$. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $$\vert \chi\rangle$$ by applying $$\mathcal{F}$$ to a register of qubits in $$\left\vert 0^{n+1}\right\rangle$$. Then prepare an additional $$m$$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$
+for an arbitrary $$n$$ qubit state $$\vert \psi\rangle$$. Phase estimation then proceeds in the following way, see Fig. 2 (c). Take a copy of $$\vert \chi\rangle$$ by applying $$\mathcal{F}$$ to a register of qubits in $$\left\vert 0^{n+1}\right\rangle$$. Then prepare an additional $$m$$-qubit register in the uniform superposition via the Hadamard operation $$\mathcal{H}$$.
 
 $$
 \mathcal{H}^{\otimes m}\left\vert 0^{m}\right\rangle\vert \chi\rangle=\frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle\vert \chi\rangle
@@ -162,7 +162,7 @@ $$
 \frac{1}{\sqrt{2^{m}}} \sum_{j=0}^{2^{m}-1}\vert j\rangle \mathcal{Q}^{j}\vert \chi\rangle
 $$
 
-One can show that $$\vert \chi\rangle=\frac{1}{\sqrt{2}}\left(\left\vert \psi_{+}\right\rangle+\left\vert \psi_{-}\right\rangle\right)$is the expansion of $$\vert \chi\rangle$$ into the two eigenvectors of $$\mathcal{Q}$$ corresponding to the eigenvalues $$e^{\pm i \theta}[15]$$. An inverse quantum Fourier transformation applied to Eq. (30) prepares the state
+One can show that $$\vert \chi\rangle=\frac{1}{\sqrt{2}}\left(\left\vert \psi_{+}\right\rangle+\left\vert \psi_{-}\right\rangle\right)$$ is the expansion of $$\vert \chi\rangle$$ into the two eigenvectors of $$\mathcal{Q}$$ corresponding to the eigenvalues $$e^{\pm i \theta}[15]$$. An inverse quantum Fourier transformation applied to Eq. (30) prepares the state
 
 $$
 \sum_{x=0}^{2^{m}-1} \alpha_{+}(x)\vert x\rangle\left\vert \psi_{+}\right\rangle+\alpha_{-}(x)\vert x\rangle\left\vert \psi_{-}\right\rangle
