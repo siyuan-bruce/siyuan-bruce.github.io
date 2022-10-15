@@ -192,7 +192,7 @@ is the expansion of
 $$
 \vert \chi\rangle
 $$
-into the two eigenvectors of $$\mathcal{Q}$$ corresponding to the eigenvalues $$
+into the two eigenvectors of $$\mathcal{Q}$$ corresponding to the eigenvalues
 $$
 e^{\pm i \theta}
 $$
@@ -211,7 +211,7 @@ $$
 x / 2^{m}=\pm \hat{\theta}
 $$
  is an $$m$$-bit approximation to
-$\pm \theta$
+$$\pm \theta$$
 . Hence, measurement of the
 $$
 \vert x\rangle
@@ -260,7 +260,7 @@ You should read $$ P(55 heads \mid p) $$
 Here are some standard terms we will use as we do statistics.
 - Experiment: Flip the coin 100 times and count the number of heads.
 - Data: The data is the result of the experiment. In this case it is ' 55 heads'.
-- Parameter(s) of interest: We are interested in the value of the unknown parameter $$p$
+- Parameter(s) of interest: We are interested in the value of the unknown parameter $$p$$
 - Likelihood, or likelihood function: this is
 $$
 P( data \mid p)
@@ -697,14 +697,13 @@ $$
 \rightarrow \sum_{x=0}^{2^{n}-1} a_{x}\vert x\rangle(\sqrt{1-v(x)}\vert 0\rangle+\sqrt{v(x)}\vert 1\rangle)=:\vert \chi\rangle
 \end{gathered}
 $$
-3. Measure the ancilla in the state $$
-$$
-\vert 1 \rangle
-$$
+3. Measure the ancilla in the state
+$$ \vert 1 \rangle $$
  obtains as the success probability of the expectation value
 $$
-\mu:=\left\langle\chi\left\vert \left(\mathcal{I}_{2^{n}} \otimes\vert 1\rangle\langle 1\vert \right)\right\vert  \chi\right\rangle=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x) \equiv \mathbb{E}[v(\mathcal{A})] .
+\mu:=\left\langle\chi\left\vert \left(\mathcal{I}_{2^{n}} \otimes\vert 1\rangle\langle 1\vert \right)\right\vert  \chi\right\rangle=\sum_{x=0}^{2^{n}-1}\left\vert a_{x}\right\vert ^{2} v(x) \equiv \mathbb{E}[v(\mathcal{A})]
 $$
+.
 
 
 <!-- Combining the two operations defines a unitary $$\mathcal{F}$$ and the resulting state $$\vert \chi\rangle$$
@@ -731,7 +730,7 @@ $$
 A measurement of $$\mathcal{V}$$ on $$\vert \chi\rangle$$ obtains $$\langle\chi\vert \mathcal{V}\vert  \chi\rangle=1-2 \mu$$
 
 From this measurement we can extract the desired expectation value.
-Any quantum state in the $$(n+1)$-qubit Hilbert space can be expressed as a linear combination of 
+Any quantum state in the $$(n+1)$$-qubit Hilbert space can be expressed as a linear combination of 
 $$\vert \chi\rangle$$
 and a specific orthogonal complement
 $$\left\vert \chi^{\perp}\right\rangle$$
@@ -759,7 +758,7 @@ This quadratic dependency is analogous to the classical Monte Carlo dependency.
 
 #### 3. How can we use this technique to price options?
 
-We need to design a function that encode the expected value into the $$sin$$ function. $$
+We need to design a function that encode the expected value into the $$sin$$ function.
 
 Taking a dffierent step, we can set $$f(i)$$ inside sin function ( $$sinf(i)$$.)
 
@@ -812,7 +811,7 @@ $$
 f_{\min }=\min _{i} f(i)
 $$
 
-and $$
+and
 $$
 f_{\max }=\max _{i} f(i)
 $$
@@ -959,7 +958,7 @@ european_call_objective.post_processing(result.estimation)
  ```
 
  Experiment Reproducement for JP Morgan's paper `Stamatopoulos, Nikitas, et al. "Option pricing using quantum computers." Quantum 4 (2020): 291.`
- 
+
 **Reference:**
 
 `1. Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.`
