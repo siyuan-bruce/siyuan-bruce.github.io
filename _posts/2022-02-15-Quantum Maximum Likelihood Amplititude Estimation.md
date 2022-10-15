@@ -10,14 +10,13 @@ article_header:
   background_image: false
 ---
 
-Experiment Reproducement for JP Morgan's paper `Stamatopoulos, Nikitas, et al. "Option pricing using quantum computers." Quantum 4 (2020): 291.`
-
 ## Content
 - QAE Algorithm
 - Maximum Likelihood Estimation
 - QAE + MLE
 - Expectation Value Computation
-- Option Pricing Scenario (JP's Contribution)
+- Option Pricing Scenario
+
 ---
 ## QAE Algorithm
 
@@ -958,6 +957,9 @@ result = ae.estimate(problem)
 
 european_call_objective.post_processing(result.estimation)
  ```
+
+ Experiment Reproducement for JP Morgan's paper `Stamatopoulos, Nikitas, et al. "Option pricing using quantum computers." Quantum 4 (2020): 291.`
+ 
 **Reference:**
 
 `1. Nielsen, Michael A., and Isaac Chuang. "Quantum computation and quantum information." (2002): 558-559.`
