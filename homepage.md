@@ -47,9 +47,6 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 
 
 ## **Employment**
-- **HSBC HK** (Oct 2022 - now).
-  - HSBC Research Consultant
-  - CBDC | Quantum Finance
 - **HSBC Lab** (May 2021 - Aug 2022). 
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists

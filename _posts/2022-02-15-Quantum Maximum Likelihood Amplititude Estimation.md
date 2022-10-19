@@ -760,7 +760,7 @@ This quadratic dependency is analogous to the classical Monte Carlo dependency.
 
 We need to design a function that encode the expected value into the $$sin$$ function.
 
-Taking a dffierent step, we can set $$f(i)$$ inside sin function ( $$sinf(i)$$.)
+Taking a dffierent step, we can set $$f(i)$$ inside sin function $$sin(f(i))$$.
 
 The payoff function for the option contracts of interest is piece-wise linear and as such we only need to consider linear functions 
 $$
