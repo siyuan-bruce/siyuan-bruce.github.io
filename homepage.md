@@ -97,7 +97,7 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 ## **Contact**
 - Email: siyuan.jin@connect.ust.hk
 - Wechat: siyuan-bruce
-- linkedin: https://www.linkedin.com/in/si-yuan-bruce-jin-3a0227193/
+- linkedin: https://www.linkedin.com/in/si-yuan-bruce-jin/
 
 
 
