@@ -62,6 +62,9 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 - 2019.10 Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
 - 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
 
+## **Invited Talk**
+- Europe Innovation Cummunity of Practice, Online, Sep 2022.
+
 ## **Volunteer**
 - Director at South China University of Technology Innovation Club for Science and Technology
   Sep 2018 - Mar 2019
