@@ -33,6 +33,9 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 ## **Selected Publication**
 - **(HSBC Lab)** Jin, Si Yuan, and Yong Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
 
+## **Patent**
+Three patents are already filed.
+
 ## **Education**
 - Hong Kong University of Science and Technology (Aug 2022 - now). MPhil-PhD Student in Information Systems.
   - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
@@ -63,7 +66,7 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 - 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
 
 ## **Invited Talk**
-- Europe Innovation Cummunity of Practice, Online, Sep 2022.
+- Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
 
 ## **Volunteer**
 - Director at South China University of Technology Innovation Club for Science and Technology
