@@ -20,8 +20,13 @@ This page presents some of my previous moment captures.
 
 ### **2022**
 
+#### HKUST Fintechstic NFT & Metaverse Competition
+ <img src="assets/images/gallery/Fintechstic_NFT.jpg" alt="Image" title="HSBC_Lab" width=400>
+
+
 #### HSBC Lab Farewell, Guangzhou, China
  <img src="assets/images/gallery/HSBC_Lab.jpg" alt="Image" title="HSBC_Lab" width=200>
+ <img src="assets/images/gallery/three_NFT.png" alt="Image" title="HSBC_Lab" width=400>
 
 #### Government Report, Guangzhou, China (Dr. Ziyuan Li, me)
  ![Image](assets/images/gallery/Government%20Report.jpg "Image@512x512")
