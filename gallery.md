@@ -21,15 +21,17 @@ This page presents some of my previous moment captures.
 ### **2022**
 
 #### HKUST Fintechstic NFT & Metaverse Competition
- <img src="assets/images/gallery/Fintechstic_NFT.jpg" alt="Image" title="HSBC_Lab" width=400>
+ <img src="assets/images/gallery/Fintechstic_NFT.jpg" alt="Image" title="HKUST_Fintechstic" width=600>
+
+ <img src="assets/images/gallery/mentor.jpg" alt="Image" title="mentor" width=600>
 
 
-#### HSBC Lab Farewell, Guangzhou, China
- <img src="assets/images/gallery/HSBC_Lab.jpg" alt="Image" title="HSBC_Lab" width=200>
- <img src="assets/images/gallery/three_NFT.png" alt="Image" title="HSBC_Lab" width=400>
+#### HSBC Lab Farewell, Guangzhou, China (me, Dr. Bing Zhu, Dr. Ziyuan Li)
+ <img src="assets/images/gallery/HSBC_Lab.jpg" alt="Image" title="HSBC_Lab" width=300>
+ <img src="assets/images/gallery/three_NFT.png" alt="Image" title="NFT" width=600>
 
 #### Government Report, Guangzhou, China (Dr. Ziyuan Li, me)
- ![Image](assets/images/gallery/Government%20Report.jpg "Image@512x512")
+<img src="assets/images/gallery/Government%20Report.jpg" alt="Image" title="Report" width=600>
 
 #### Skiing, Guangzhou, China (Me, Zhang Yi, Yinzhi Xiong, Dr. Ziyuan Li)
  ![Image](assets/images/gallery/Skiing.jpg "Image@512x512")
