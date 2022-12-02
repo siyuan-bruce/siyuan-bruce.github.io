@@ -23,6 +23,7 @@ key: page-homepage
 <img src= "./images/profile.jpg" align=right width="150"/>
 Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of HKUST. His program is information Systems. He is supervised by Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao. He focuses on state-of-art technologies and enhances their potential applications in financial areas. 
 
+<font color = "rgba(255,255,255,0.7)">I am really grateful for this period of time. Rather than judging my ideas, my supervisors would guide me to the right directions without criticsms. This means a lot for me.</font>
 
 ---
 
