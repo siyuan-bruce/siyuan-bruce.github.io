@@ -11,11 +11,11 @@ article_header:
 ---
 
 # Quantum Mechanics Is Different
-The simplest classical system—the basic logical unit for computer science —is the two-state system. Sometimes it’s called a bit. It can represent anything that has only two states: a coin that can show heads or tails, a switch that is on or off, or a tiny magnet that is constrained to point either north or south.
+The two-state system, also known as a bit, is the most basic classical system used in computer science. It serves as the fundamental unit of information, representing anything that has only two possible states, such as a coin that can be heads or tails, a switch that can be on or off, or a tiny magnet that is constrained to point north or south.
 
-In this section, we’re going to begin with the quantum version of the two-state system, called a qubit, which is far more interesting.
+In the realm of quantum mechanics, the two-state system is referred to as a qubit, which is significantly more complex and interesting. Due to the incredibly small size of the objects studied in quantum mechanics, our human senses are not equipped to visualize them. Instead, we must rely on mathematical abstractions to understand the behavior of subatomic particles such as electrons.
 
-Quantum mechanics deals with the behavior of objects so small that we humans are ill equipped to visualize them at all. Our sensory organs are simply not built to perceive the motion of an electron. The best we can do is to try to understand electrons and their motion as mathematical abstractions.
+The qubit allows for a much greater range of possibilities than its classical counterpart, the bit. While a bit can only exist in one of two states, a qubit can exist in a superposition of both states at once. This phenomenon, known as quantum superposition, allows for vastly greater computational power and opens up new possibilities in the fields of computer science and information technology.
 
 ## 1. How quantum mechanics is different:
 1. Different Abstractions. Quantum abstractions are fundamentally different from classical ones.
