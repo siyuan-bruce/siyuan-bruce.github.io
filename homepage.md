@@ -58,6 +58,11 @@ Three patents are already filed.
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
 
+## **Teaching**
+- 2022.11 Mentor of 2022 HKUST Fintechstic Competition.
+- 2022.10 ~ now: I am supervising 5 Msc students on their research projects.
+  - To be added.
+
 
 ## **Award**
 - 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
