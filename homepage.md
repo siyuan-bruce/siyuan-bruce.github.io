@@ -40,7 +40,7 @@ Three patents are already filed.
 ## **Education**
 - Hong Kong University of Science and Technology (Aug 2022 - now). MPhil-PhD Student in Information Systems.
   - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
-  - Research Direction: Central Bank Digital Currency, Quantum Finance
+  - Research Direction: Web 3.0, Central Bank Digital Currency, Quantum Finance
 - South China University of Technology (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
   - GPA: 3.83 / 4.00 
   - Rank: 1 / 33
@@ -61,8 +61,8 @@ Three patents are already filed.
 ## **Teaching**
 - 2022.11 Mentor of 2022 HKUST Fintechstic Competition.
 - 2022.10 ~ now: I am supervising 5 Msc students on their research projects.
+  - Qiskit Certificate Training. 
   - To be added.
-
 
 ## **Award**
 - 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
@@ -72,14 +72,14 @@ Three patents are already filed.
 - 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
 
 ## **Invited Talk**
-- Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
+- "A UTXO-based Sharding Method for Stablecoin," 2022 Fourth International Conference on Blockchain Computing and Applications (BCCA), 2022, San Antonio, TX, USA.
+- "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
 
 ## **Volunteer**
 - Director at South China University of Technology Innovation Club for Science and Technology
   Sep 2018 - Mar 2019
 - Member of South China University of Technology Innovation Club for Science and Technology
   Mar 2018 - Sep 2018 
-
 
 ## **Skills**
 ### Language
