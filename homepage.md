@@ -59,10 +59,14 @@ Three patents are already filed.
   - Angle Fund Winner \| Corda Prototype Development
 
 ## **Teaching**
-- 2022.11 Mentor of 2022 HKUST Fintechstic Competition.
-- 2022.10 ~ now: I am supervising 5 Msc students on their research projects.
+- 2022.10 ~ now: I am supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
   - To be added.
+
+
+## **Services**
+- 2022.11-2022.12: Reviewing papers of Quantum Information Processing (QIP)
+- 2022.11: Mentoring HKUST Fintechstic Competition
 
 ## **Award**
 - 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
@@ -105,7 +109,6 @@ Three patents are already filed.
 - Getting Started With Go
 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
   
-
 ## **Contact**
 - Email: siyuan.jin@connect.ust.hk
 - Wechat: siyuan-bruce
