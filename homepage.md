@@ -79,6 +79,9 @@ Three patents are already filed.
 - "A UTXO-based Sharding Method for Stablecoin," 2022 Fourth International Conference on Blockchain Computing and Applications (BCCA), 2022, San Antonio, TX, USA.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
 
+## Industry Consulting
+- 2022.09 ~ now: work with HSBC Hong Kong in Quantum Finance.
+
 ## **Volunteer**
 - Director at South China University of Technology Innovation Club for Science and Technology
   Sep 2018 - Mar 2019
