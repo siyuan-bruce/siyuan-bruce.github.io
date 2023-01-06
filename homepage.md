@@ -70,14 +70,14 @@ Four patents are already filed.
 - 2022.11-2022.12: Reviewing papers of Quantum Information Processing (QIP)
 - 2022.11: Mentoring HKUST Fintechstic Competition
 
-## **Award**
+## **Awards**
 - 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
 - 2021.06 University-level excellent graduation thesis (Top 1%)
 - 2019.10 Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
 - 2019.10 Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
 - 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
 
-## **Invited Talk**
+## **Invited Talks**
 - "A UTXO-based Sharding Method for Stablecoin," 2022 Fourth International Conference on Blockchain Computing and Applications (BCCA), 2022, San Antonio, TX, USA.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
 
