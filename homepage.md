@@ -28,17 +28,18 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 ---
 
 ## **Research Interests**
+- **Distributed Ledger Technology (DLT)**: Central Bank Digital Currency, Web 3.0
 - **Quantum Computing**: Quantum Finance (If you are interested in this topic, please check https://github.com/siyuan-bruce/Quantum-Finance)
-- **Distributed Ledger Technology (DLT)**: Central Bank Digital Currency
 
 ## **Selected Publication**
 - **(HSBC Lab)** Jin, Si Yuan, and Yong Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
 
 ## **Patent**
-Three patents are already filed.
+Four patents are already filed.
 
 ## **Education**
 - Hong Kong University of Science and Technology (Aug 2022 - now). MPhil-PhD Student in Information Systems.
+  - GPA: 4.00 in 2022 - 2023 Fall Semester
   - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
   - Research Direction: Web 3.0, Central Bank Digital Currency, Quantum Finance
 - South China University of Technology (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
@@ -54,6 +55,7 @@ Three patents are already filed.
 - **HSBC Lab** (May 2021 - Aug 2022). 
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
+  - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
 - **HSBC Lab** (Seq 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
@@ -116,6 +118,4 @@ Three patents are already filed.
 - Email: siyuan.jin@connect.ust.hk
 - Wechat: siyuan-bruce
 - linkedin: https://www.linkedin.com/in/si-yuan-bruce-jin/
-
-
 
