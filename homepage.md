@@ -64,6 +64,7 @@ Four patents are already filed.
 - 2022.10 ~ now: I am supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
   - To be added.
+- 2021.02 ~ 03： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
 
 ## **Services**
