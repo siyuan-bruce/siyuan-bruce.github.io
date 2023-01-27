@@ -81,7 +81,7 @@ Four patents are already filed.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
 
 ## Industry Consulting
-- 2022.09 ~ now: work with HSBC Hong Kong in Quantum Finance.
+- 2022.09 ~ now: work with HSBC Hong Kong in CBDC, Quantum Finance.
 
 ## **Volunteer**
 - Director at South China University of Technology Innovation Club for Science and Technology
