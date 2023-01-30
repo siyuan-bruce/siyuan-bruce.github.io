@@ -11,22 +11,22 @@ article_header:
 ---
 
 ## 1. Overview
-Data Scraper is an efficient way to get massive internet data in a certain manner. This blog introduces a simple tutorial on how we can scrape data easily.
+Data scraping is an efficient method for acquiring large amounts of internet data in a specific manner. This blog post provides a straightforward tutorial on how to easily scrape data.
 
-The key thing is that we need to simulate requests to the remote server. There are usually two types of data we can get: 1. Static website data. 2. Dynamic website data.
+It is important to note that simulating requests to remote servers is necessary. Typically, there are two types of data that can be obtained: 1) static website data and 2) dynamic website data.
 
 ## 2. Core Code
-The core code is the following:
+The core code for data scraping is as follows:
 ```
 import requests
 response = requests.request("GET", url, headers=headers)
 ```
-As mentioned, we need to use python to simulate the request, including **URL**, **headers**, and potentially **params**. We then use two cases to demonstrate how we get the data.
+As previously mentioned, it is necessary to use Python to simulate the request, which includes the **URL**, **headers**, and potentially **params**. Two examples are provided to demonstrate how to acquire the data."
 
 ## 3.  Static Data
-The server sends whole HTML documents to users in this case. 
+In this scenario, the server sends entire HTML documents to users.
 
-We can use GitHub as an example, in which we just simply use the "github.com" as the URL. In this case, we do not have some specific headers or params.
+For instance, using GitHub as an example, the URL would simply be "github.com" and there would be no need for specific headers or parameters.
 ```
 import requests
 response = requests.request("GET", "https://github.com/")
@@ -42,11 +42,11 @@ soup = BeautifulSoup(response.text)
 Then you can use the soup's functions to find what you want.
 
 ## 4. Dynamic data
-Now let's see some more complex cases. Assume we want to get data with dynamic parameters. For example, we want to get PHANTA Bear data, which includes 1 to 10,000 different NFTs.
+Now let's take a look at more complex cases. Suppose we want to retrieve data with dynamic parameters. For example, we want to obtain data on PHANTA Bear which comprises 1 to 10,000 different NFTs.
 
-First, we must interact with the website to find where the data comes from.
+To achieve this, we must first interact with the website to identify the source of the data.
 
-Now we open a bear's data (https://cryptoslam.io/phantabear/mint/5672). We then need to find where the website data is from. Luckily, we got the following figure:
+In this example, we will open a bear's data (https://cryptoslam.io/phantabear/mint/5672). Then, we must locate where the website data originates from. Fortunately, we were able to obtain the following information:
 
 ![Image](/assets/images/posts/DataScraper/webpage.png "Figure1")
 
@@ -59,7 +59,7 @@ We now need to analyse this link, shown in the following figure:
 ![Image](/assets/images/posts/DataScraper/url.png "Figure2")
 
 
-We can find that the URL contains the bear's id, and we can quickly go through the headers of this request to make sure there is no need to specify for us. But, of course, you can specify them in the headers property, shown in the following code.
+We can see that the URL includes the bear's id, and by examining the headers of this request, we can confirm that there is no need to specify any additional parameters. However, it is possible to include them in the headers property, as shown in the following code.
 
 ```
 for i in range(1, 1000):
@@ -73,7 +73,7 @@ for i in range(1, 1000):
         response = requests.request("GET", tx_url, headers=headers)
 ```
 
-Now, let's see another more complex case. We want to get data from OpenSea API. However, the API needs a key for each request. Luckily, when surfing the internet, we find that a website gets data from opensea, as shown in the following figure.
+Now, let's consider another more complex scenario. We want to retrieve data from OpenSea API, but the API requires a key for each request. Fortunately, while browsing the internet, we discovered a website that obtains data from OpenSea, as demonstrated in the following image.
 
 
 ![Image](/assets/images/posts/DataScraper/opensea.png "Figure3")
@@ -96,4 +96,4 @@ for i in range(1, 10000):
 ```
 
 ## 5. Conclusion
-The difficulty in data scraper is to simulate the request. Therefore, we need to carefully interact with the website and find where its data comes from. And then we can get it! In some cases, we may use **post** method to get data that needs params in the request. But it would not be the hard part. 
+The challenge in data scraping lies in simulating the request. Therefore, it is crucial to closely interact with the website and determine the source of its data. Once we have identified it, we can proceed to acquire the data. In certain instances, we may need to use the post method to obtain data that requires parameters in the request, but this should not pose a significant difficulty.
