@@ -59,6 +59,7 @@ Four patents are already filed.
   - Angle Fund Winner \| Corda Prototype Development
 
 ## **Teaching**
+- 2023.2 ~ now: TA for ISOM 2020: Coding for Business
 - 2022.10 ~ now: I am supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
   - To be added.
