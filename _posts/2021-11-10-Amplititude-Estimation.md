@@ -21,36 +21,19 @@ Amplitude amplification is a generalization of Grover's algorithm where the inpu
 
 Therefore, the classical approach requires $$\mathcal{O}(1/a)$$ iterations to find a good state, while amplitude amplification provides a quadratic speed-up in $$\mathcal{O}(\sqrt{1/a})$$.
 
-## 2. Rview of Grover Search
-The amplitude amplification operator
-- $$\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle .$$
-- $$S_{\chi}$$ is the oracle function: 
-
-$$
-\vert x\rangle \longmapsto\left\{\begin{aligned}-\vert x\rangle & \text { if } \chi(x)=1 \\ \vert x\rangle & \text { otherwise } \end{aligned} \right.
-$$
-
-$$
-S_{\chi}=\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I
-$$
-
-$$S_{0}=I-2\vert 0\rangle\langle 0\vert  .$$
-
-$$
-Q=-\mathcal{A} S_{0} \mathcal{A}^{\dagger} S_{\chi}
-$$
-In this equation, $$\mathcal{A}$$ helps to transfer $$\vert 0 \rangle$$ to state $$\vert \Psi_{0} \rangle$$.
-
-- The amplitude amplification operator is: $$Q=\left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) \times S_{\chi}$$
-
-$$
-=(2\vert \Psi\rangle\langle\Psi\vert -I)\left(\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I\right)
-$$
-
-
+## 2. Review of Grover Search
+The amplitude amplification operator $Q$ is defined in terms of the oracle function $S_{\chi}$, which maps the state $\vert x\rangle$ to $-\vert x\rangle$ if $\chi(x)=1$ and to $\vert x\rangle$ otherwise. The operator $\mathcal{A}$ transforms the state $\vert 0\rangle$ to the state $\vert \Psi\rangle=\vert \Psi_{1}\rangle+\vert \Psi_{0}\rangle$. The oracle function $S_{\chi}$ is defined as $S_{\chi}=\frac{2}{1-a}\vert \Psi_{0}\rangle\langle\Psi_{0}\vert -I$. The operator $S_{0}$ is defined as $S_{0}=I-2\vert 0\rangle\langle 0\vert$. The amplitude amplification operator is then defined as 
+\begin{equation}
+\begin{split}
+    Q&= - \mathcal{A} S_0 \mathcal{A}^{\dagger}  S_{\chi} =  \left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) S_{\chi} \\
+&=(2\vert \Psi\rangle\langle\Psi\vert -I)\left(\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I\right) \\
+&=U_\Psi U_{\Psi_0}
+\end{split}
+\end{equation}
 ![Image](/assets/images/posts/AE/Visualization.jpg "Image@512x512"){:width="512px"}
 
-Now we try to infer
+Then we have:
+
 $$
 \begin{aligned}
 Q\left\vert \Psi_{1}\right\rangle &=U_{\Psi} U_{\Psi_{0}}\left\vert \Psi_{1}\right\rangle=-U_{\Psi}\left\vert \Psi_{1}\right\rangle=(I-2\vert \Psi\rangle\langle\Psi\vert )\left\vert \Psi_{1}\right\rangle \\
@@ -59,63 +42,35 @@ Q\left\vert \Psi_{0}\right\rangle &=U_{\Psi}\left\vert \Psi_{0}\right\rangle=(2\
 &=2(1-a)\vert \Psi\rangle-\left\vert \Psi_{0}\right\rangle=2(1-a)\left\vert \Psi_{1}\right\rangle+(1-2 a)\left\vert \Psi_{0}\right\rangle
 \end{aligned}
 $$
-Using $$\sin ^{2}\left(\theta_{a}\right)=a$$ and $$\cos ^{2}\left(\theta_{a}\right)=1-a$$, we get:
+
+Using the identity $$\sin^{2}(\theta_a)=a$$ and $$\cos^{2}(\theta_a)=1-a$$, we can derive the following:
+
 $$
 \begin{aligned}
-Q \frac{\left\vert \Psi_{1}\right\rangle}{\sqrt{a}} &=(1-2 a) \frac{\left\vert \Psi_{1}\right\rangle}{\sqrt{a}}-2 \sqrt{a(1-a)} \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}} \\
-&=\left(1-2 \sin ^{2}\left(\theta_{a}\right)\right) \frac{\left\vert \Psi_{1}\right\rangle}{\sqrt{a}}-2 \cos \left(\theta_{a}\right) \sin \left(\theta_{a}\right) \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}} \\
-&=\cos \left(2 \theta_{a}\right) \frac{\left\vert \Psi_{1}\right\rangle}{\sqrt{a}}-\sin \left(2 \theta_{a}\right) \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}} \\
-Q \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}} &=\sin \left(2 \theta_{a}\right) \frac{\left\vert \Psi_{1}\right\rangle}{\sqrt{a}}+\cos \left(2 \theta_{a}\right) \frac{\left\vert \Psi_{0}\right\rangle}{\sqrt{1-a}}
+Q\frac{\vert \Psi_{1}\rangle}{\sqrt{a}} &=  (1-2a)\frac{\vert \Psi_{1}\rangle}{\sqrt{a}} - 2\sqrt{a(1-a)}\frac{\vert \Psi_{0}\rangle}{\sqrt{1-a}} \\
+&= \left(1-2\sin^{2}(\theta_a)\right)\frac{\vert \Psi_{1}\rangle}{\sqrt{a}} - 2\cos(\theta_a)\sin(\theta_a)\frac{\vert \Psi_{0}\rangle}{\sqrt{1-a}} \\
+&= \cos(2\theta_a)\frac{\vert \Psi_{1}\rangle}{\sqrt{a}} - \sin(2\theta_a)\frac{\vert \Psi_{0}\rangle}{\sqrt{1-a}} \\
+Q\frac{\vert \Psi_{0}\rangle}{\sqrt{1-a}} &= \sin(2\theta_a)\frac{\vert \Psi_{1}\rangle}{\sqrt{a}} + \cos(2\theta_a)\frac{\vert \Psi_{0}\rangle}{\sqrt{1-a}}
 \end{aligned}
 $$
 
-Thus, $$Q$$ is a rotation matrix in the basis $$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$ :
+Therefore, $$Q$$ can be represented as a rotation matrix in the basis $$\frac{1}{\sqrt{a}}\vert \Psi_{1}\rangle, \frac{1}{\sqrt{1-a}}\vert \Psi_{0}\rangle$$:
+$$$$Q=\begin{pmatrix}
+\cos 2\theta_a & \sin 2\theta_a \\
+-\sin 2\theta_a & \cos 2\theta_a
+\end{pmatrix}$$$$
 
-$$
-Q=\left(\begin{array}{cc}
-\cos 2 \theta_{a} & \sin 2 \theta_{a} \\
--\sin 2 \theta_{a} & \cos 2 \theta_{a}
-\end{array}\right)
-$$
+The matrix $$Q$$ has eigenvalues $$e^{2i\theta_a}$$ and $$e^{-2i\theta_a}$$, with corresponding eigenvectors $$\frac{1}{2}(1, i)$$ and $$\frac{1}{2}(1, -i)$$, which we can denote as $$\vert \Psi_{+}\rangle$$ and $$\vert \Psi_{-}\rangle$$, respectively.
 
-It has eigenvalues $$e^{2 i \theta_{a}}, e^{-2 i \theta_{a}}$$ with corresponding eigenvectors $$\frac{1}{2}(1 i), \frac{1}{2}(1-i)$$, noted $$\left\vert \Psi_{+}\right\rangle $$ and $$\left\vert \Psi_{-}\right\rangle$$.
+The state $$\vert \Psi\rangle$$ can be expressed in the $$Q$$-eigenvector basis as:
+$$\vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)$$
+Applying the operator $$Q^{j}$$ to this state results in:
+$$Q^{j}\vert \Psi\rangle=\frac{-i}{2}\left(e^{(2 j+1) i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-(2 j+1) i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)$$
+Expressed in the original basis of $$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$:
+$$Q^{j}\vert \Psi\rangle=\sin \left((2 j+1) \theta_{a}\right) \frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle+\cos \left((2 j+1) \theta_{a}\right) \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$
+Measuring the state $\vert \Psi\rangle$ after $m$ applications of the operator $Q$ produces a good state with a probability equal to $$\sin ^{2}\left((2 m+1) \theta_{a}\right)$$. This probability is maximized when $$m=\left\lfloor\frac{\pi}{4 \theta_{a}}\right\rfloor$$ and when the value of $$a$$ is known. Additionally, $$\sin ^{2}\left((2 m+1) \theta_{a}\right) \geq 1-a$$.
 
-We can now write $$\vert \Psi\rangle$$ in the $$Q$$ -eigenvector basis:
-$$ \vert \Psi\rangle=\frac{-i}{2}\left(e^{i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)$$ and it follows that:
-$$
-Q^{j}\vert \Psi\rangle=\frac{-i}{2}\left(e^{(2 j+1) i \theta_{a}}\left\vert \Psi_{+}\right\rangle-e^{-(2 j+1) i \theta_{a}}\left\vert \Psi_{-}\right\rangle\right)
-$$
-
-By writing it back in the original 
-$$\frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle, \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle$$ basis:
-
-
-$$
-Q^{j}\vert \Psi\rangle=\sin \left((2 j+1) \theta_{a}\right) \frac{1}{\sqrt{a}}\left\vert \Psi_{1}\right\rangle+\cos \left((2 j+1) \theta_{a}\right) \frac{1}{\sqrt{1-a}}\left\vert \Psi_{0}\right\rangle
-$$
-
-After $$m$$ applications of the operator $$Q$$, measuring the state $$\vert \Psi\rangle$$ produces a good state with probability equal to $$\sin ^{2}\left((2 m+1) \theta_{a}\right)$$.
-
-$$\sin ^{2}\left((2 x+1) \theta_{a}\right)$$ is maximized for $$x=\frac{\pi}{4 \theta}-\frac{1}{2} .$$
-
-Thus the probability is maximized for $$m=\left\lfloor\pi /\left(4 \theta_{a}\right)\right\rfloor$$ (when the value of $$a$$ is known).
-
-We can show that $$\sin ^{2}\left((2 m+1) \theta_{a}\right) \geq 1-a$$.
-
-
-Complexity of the algorithm
-- We use $$2 m+1$$ applications of $$\mathcal{A}$$ and $$\mathcal{A}^{\dagger}$$.
-- Since $$\theta_{a} \approx \sin \left(\theta_{a}\right)=\sqrt{a}$$, we get:
-$$
-\begin{aligned}
-2 m+1 &=2\left\lfloor\pi /\left(4 \theta_{a}\right)\right\rfloor+1 \\
-& \approx 2\lfloor\pi /(4 \sqrt{a})\rfloor+1 \\
-&=\mathcal{O}\left(\frac{1}{\sqrt{a}}\right)
-\end{aligned}
-$$
-- And the success probability is $$1-a \approx 1$$.
-
-From above conclusion, we can find that $$\theta_{a}$$ should be small enough to get the approximation $$\theta_{a} \approx \sin \left(\theta_{a}\right)=\sqrt{a}$$.
+The algorithm has a complexity of $$2 m + 1$$ applications of $$\mathcal{A}$$ and $$\mathcal{A}^{\dagger}$$, which is approximately equal to $$\mathcal{O}\left(\frac{1}{\sqrt{a}}\right)$$. The success probability of the algorithm is close to 1, with an approximation of $$1 - a \approx 1$$. To ensure the best results, $$\theta_{a}$$ should be small enough such that the approximation $$\theta_{a} \approx \sin \left(\theta_{a}\right)=\sqrt{a}$$ is valid.
 
 
 ## 3. Overall Circuit
