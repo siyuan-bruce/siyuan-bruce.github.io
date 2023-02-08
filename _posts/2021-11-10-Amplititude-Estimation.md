@@ -22,14 +22,16 @@ Amplitude amplification is a generalization of Grover's algorithm where the inpu
 Therefore, the classical approach requires $$\mathcal{O}(1/a)$$ iterations to find a good state, while amplitude amplification provides a quadratic speed-up in $$\mathcal{O}(\sqrt{1/a})$$.
 
 ## 2. Review of Grover Search
-The amplitude amplification operator $Q$ is defined in terms of the oracle function $S_{\chi}$, which maps the state $\vert x\rangle$ to $-\vert x\rangle$ if $\chi(x)=1$ and to $\vert x\rangle$ otherwise. The operator $\mathcal{A}$ transforms the state $\vert 0\rangle$ to the state $\vert \Psi\rangle=\vert \Psi_{1}\rangle+\vert \Psi_{0}\rangle$. The oracle function $S_{\chi}$ is defined as $S_{\chi}=\frac{2}{1-a}\vert \Psi_{0}\rangle\langle\Psi_{0}\vert -I$. The operator $S_{0}$ is defined as $S_{0}=I-2\vert 0\rangle\langle 0\vert$. The amplitude amplification operator is then defined as 
-\begin{equation}
-\begin{split}
+The amplitude amplification operator $$Q$$ is defined in terms of the oracle function $$S_{\chi}$$, which maps the state $$\vert x\rangle$$ to $$-\vert x\rangle$$ if $$\chi(x)=1$$ and to $$\vert x\rangle$$ otherwise. The operator $$\mathcal{A}$$ transforms the state $$\vert 0\rangle$$ to the state $$\vert \Psi\rangle=\vert \Psi_{1}\rangle+\vert \Psi_{0}\rangle$$. The oracle function $$S_{\chi}$$ is defined as $$S_{\chi}=\frac{2}{1-a}\vert \Psi_{0}\rangle\langle\Psi_{0}\vert -I$$. The operator $$S_{0}$$ is defined as $$S_{0}=I-2\vert 0\rangle\langle 0\vert$$. The amplitude amplification operator is then defined as 
+
+$$
+\begin{aligned}
     Q&= - \mathcal{A} S_0 \mathcal{A}^{\dagger}  S_{\chi} =  \left(\mathcal{A}(2\vert 0\rangle\langle 0\vert -I) \mathcal{A}^{\dagger}\right) S_{\chi} \\
 &=(2\vert \Psi\rangle\langle\Psi\vert -I)\left(\frac{2}{1-a}\left\vert \Psi_{0}\right\rangle\left\langle\Psi_{0}\right\vert -I\right) \\
 &=U_\Psi U_{\Psi_0}
-\end{split}
-\end{equation}
+\end{aligned}
+$$
+
 ![Image](/assets/images/posts/AE/Visualization.jpg "Image@512x512"){:width="512px"}
 
 Then we have:
