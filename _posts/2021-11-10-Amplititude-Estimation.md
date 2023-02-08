@@ -11,35 +11,15 @@ article_header:
 ---
 
 ## 1. Introduction
-Given a set $$X=0,1, \ldots N-1$$ and a boolean function $$\chi: X \longrightarrow 0,1$$, we want to find a good
-element, i.e. an $$x \in X$$ such that $$\chi(x)=1$$.
+Given a set $$X = {0, 1, \ldots, N-1}$$ and a boolean function $$\chi: X \longrightarrow {0, 1}$$, we aim to find a good element, i.e., an $$x \in X$$ such that $$\chi(x) = 1$$.
 
+A classical search algorithm has an average complexity of $$\sum_{i=1}^{N} i \times \frac{1}{N} = \frac{N + 1}{2}$$ if there is only one good element. The quantum approach starts with an equal superposition of states $$\ket{\Psi} = \frac{1}{\sqrt{N}} \sum_{x=0}^{N-1} \ket{x}$$. If we do not involve quantum algorithms, measuring $$\ket{\Psi}$$ gives the correct $$\ket{x}$$ with probability $$1/N$$, so the average number of measurement is still $$\sum_{i=1}^{N} i \times \frac{1}{N} = \frac{N + 1}{2}$$.
 
-If there is only one good element, a classical search algorithm has an average complexity of
+Grover's algorithm transforms $$\ket{\Psi}$$ in $$\mathcal{O}(\sqrt{N})$$ iterations such that measuring it gives the correct $$\ket{x}$$ with higher probability. 
 
-$$\sum_{i=1}^{N} i \times \frac{1}{N}=\frac{N+1}{2}$$
-Quantum approach: given an equal superposition of states 
-$$\ket{\Psi}=\frac{1}{\sqrt{N}} \sum_{x=0}^{N-1}\vert x\rangle$$ 
-,
-if we measure $$\ket{\Psi}$$, we
-get the correct $$\ket{x}$$ with probability $$1 / N$$ : so, the average number of iterations is $$N$$.
+Amplitude amplification is a generalization of Grover's algorithm where the input is an arbitrary superposition of elements of $$X: \ket{\Psi} = \mathcal{A} \ket{0} = \sum_{x \in X} \alpha_{x} \ket{x}$$ and more than one element may be good state. We can write $$\ket{\Psi} = \sum_{x: \chi(x) = 1} \alpha_{x} \ket{x} + \sum_{x: \chi(x) = 0} \alpha_{x} \ket{x} = \ket{\Psi_{1}} + \ket{\Psi_{0}}$$ with $$a = \left\langle \Psi_{1} \mid \Psi_{1} \right\rangle \ll 1$$ being the probability of measuring $$\ket{\Psi}$$ and obtaining a good state $$ \mid \Psi_{1} \rangle$$.
 
-
-Grover's algorithm: we can transform $$\vert \Psi\rangle$$ in $$\mathcal{O}(\sqrt{N})$$ iterations so that performing a measurement on
-it gives the correct $$\vert x\rangle$$ with high probability.
-
-
-Amplitude amplification is a generalization of Grover's algorithm where the input is given as an
-arbitrary superposition of elements of $$X:\vert \Psi\rangle=\mathcal{A}\vert 0\rangle=\sum_{x \in X} \alpha_{x}\vert x\rangle$$ and more than one element may
-be good elements.
-
-
-We can write: $$\vert \Psi\rangle=\sum_{x: \chi(x)=1} \alpha_{x}\vert x\rangle+\sum_{x: \chi(x)=0} \alpha_{x}\vert x\rangle=\left\vert \Psi_{1}\right\rangle+\left\vert \Psi_{0}\right\rangle$$ with $$a=\left\langle\Psi_{1} \mid \Psi_{1}\right\rangle \ll 1$$ is
-the probability that measuring $$\vert \Psi\rangle$$ produces a good state.
-
-
-The standard approach would thus need to iterate $$1 / a$$ times to find a good state. Amplitude
-amplification enables a quadratic speed-up in $$\mathcal{O}(1 / \sqrt{a})$$.
+Therefore, the classical approach requires $$\mathcal{O}(1/a)$$ iterations to find a good state, while amplitude amplification provides a quadratic speed-up in $$\mathcal{O}(\sqrt{1/a})$$.
 
 ## 2. Rview of Grover Search
 The amplitude amplification operator
