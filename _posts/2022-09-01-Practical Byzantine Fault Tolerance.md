@@ -10,39 +10,23 @@ article_header:
   background_image: false
 ---
 # Practical Byzantine Fault Tolerance (In Progress)
-Recently, I found a figure about PBFT state machine which describes how the network processes request [1]. 
+Practical Byzantine Fault Tolerance (PBFT) is a robust algorithm that can continue to function even if up to 1/3 of the machines in a network fail in any way.
+
+The image below illustrates how the PBFT state machine processes requests [1].
 
 ![Image](/assets/images/posts/PBFT/state_machine.png "PBFT State Machine")
 
-PBFT is a fault tolerated algorithm, which will continue to work if up to $$1/3$$ of machines fail in arbitrary ways. How to ensure that?
+In the worst-case scenario, where 1/3 of the machines (denoted as "f") are normal machines that have failed, PBFT still works effectively because there are still more normal machines (1 + f) than malicious machines (f). During the request processing, normal machines take the lead and PBFT can still function even if the network has f malicious machines.
 
-Let us imagine the worst case in which the $$1/3$$ of machines (we denote the number of machines as $$f$$) are all normal machines that fail now. However, we still have $$1 + f$$ normal machines, which is still more than f malicious machines. Therefore, when processing the request, normal machines will still take the lead, which means PBFT can work if the network has $$f$$ malicious machines.
+Normal machines only need to wait for 1 + 2f responses instead of getting all prevotes and precommits in the process.
 
-On the other hand, normal machines do not need to get all prevotes and precommits in the process; they just need to wait to get $$1 + 2f$$ responses to trigger the next move.
+To formally prove why the number 1/3 is chosen, let's assume we have a network of n machines, and the network can function well if f machines are malicious. In this case, there are n - f normal machines.
 
-We can formally prove why the number is $$1/3$$. Let us assume we have a network of $$n$$ machines, and the network can function well if $$f$$ machines are malicious. Therefore we have $$n - f$$ normal machines.
+To ensure the network can function well, we need to determine the minimum number of votes (denoted as X) needed in each round. This is because malicious nodes may not vote and delay the decision-making process.
 
-Then to make sure the network can function well, we need to know how many votes are needed in each round, denoted as $$X$$. 
-The reason is that we know the malicious nodes can not vote and delay the decision. So if we keep waiting for n nodes to vote, we may be unable to make any decision.
+Therefore, X should not be greater than or equal to the number of normal machines (n - f). Additionally, to ensure that more than half of the votes come from normal machines, we need to satisfy the condition X/2 > f.
 
-So $$X$$ should not be greater than or equal to the number of normal machines:
-
-$$
-X <= n - f 
-$$
-
-However, we have to be worried that some of the votes are given by malicious nodes. Therefore, we need to ensure more than half of the votes should be from normal machines, or half of the votes should be more than the number of malicious machines.
-
-$$
-X/2 > f
-$$
-
-Combining the above two inequalities, we can get:
-
-
-$$
-n>3f
-$$
+Combining these two conditions, we get n > 3f.
 
 **Reference:**
 

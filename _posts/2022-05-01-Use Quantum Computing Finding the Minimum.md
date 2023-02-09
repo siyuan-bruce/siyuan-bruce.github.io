@@ -11,7 +11,7 @@ article_header:
 ---
 
 ## 1. Overview
-Quantum Minimum Search algorithm helps to find the minimum. The general idea of this algorithm is to use an Oracle function to flip states whose value is lower than a threshold and then use Grover Operator to amplify their amplitude. After measurement, we can get a smaller value than the previous threshold. We repeat the process. 
+The Quantum Minimum Search algorithm is a technique used to find the minimum value in a set of data. It works by using an Oracle function to identify states whose value is below a threshold, and then using the Grover Operator to increase the amplitude of these states. The measurement of the resulting state will result in a smaller value than the previous threshold, and the process is repeated until the minimum value is found.
 
 ## 2. Algorithm Workflow
 QUANTUM MINIMUM SEARCHING ALGORITHM
@@ -28,7 +28,9 @@ Mark every item $$j$$ for which $$T[j]<T[y]$$.
 3. Return $$y$$.
 
 ### 2.1 How to determine the times of rotations?
-If there are $$t \geq 1$$ marked table entries, the quantum exponential searching algorithm will return one of them with equal probability after an expected number of $$\mathcal{O}(\sqrt{N / t})$$ iterations. If no entry is marked, then it will run forever. The algorithm given below finds the index of the minimum value with probability at least $$\frac{1}{2}$$. Its running time is $$\mathcal{O}(\sqrt{N})$$.
+The quantum exponential search algorithm will return one of the marked entries with equal probability after an expected number of $$\mathcal{O}(\sqrt{N / t})$$ iterations if there are $$t \geq 1$$ marked entries. If there are no marked entries, the algorithm will run indefinitely. The algorithm has a running time of $$\mathcal{O}(\sqrt{N})$$ and will find the index of the minimum value with a probability of at least $$\frac{1}{2}$$.
+
+
 
 ---
 #### Qiskit Implementation Here
