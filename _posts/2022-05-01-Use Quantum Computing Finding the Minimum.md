@@ -31,7 +31,6 @@ Mark every item $$j$$ for which $$T[j]<T[y]$$.
 The quantum exponential search algorithm will return one of the marked entries with equal probability after an expected number of $$\mathcal{O}(\sqrt{N / t})$$ iterations if there are $$t \geq 1$$ marked entries. If there are no marked entries, the algorithm will run indefinitely. The algorithm has a running time of $$\mathcal{O}(\sqrt{N})$$ and will find the index of the minimum value with a probability of at least $$\frac{1}{2}$$.
 
 
-
 ---
 #### Qiskit Implementation Here
 To be updated
