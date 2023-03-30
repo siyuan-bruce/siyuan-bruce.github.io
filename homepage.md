@@ -21,7 +21,7 @@ key: page-homepage
 ---
 
 <img src= "./images/profile.jpg" align=right width="150"/>
-Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of HKUST (Program: Information Systems). He is supervised by Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao. He focuses on state-of-art technologies and enhances their potential applications in business areas. 
+Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of HKUST (Program: Information Systems). He is supervised by Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao. He focuses on both technical and empirical studies on state-of-art technologies, including blockchain, quantum computing, etc.
 
 ---
 
@@ -59,14 +59,15 @@ Four patents are already filed.
   - Angle Fund Winner \| Corda Prototype Development
 
 ## **Teaching**
-- 2023.2 ~ now: TA for ISOM 2020: Coding for Business
-- 2022.10 ~ now: I am supervising 7 Msc students on their research projects.
+- 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
+- 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
-  - To be added.
-- 2021.02 ~ 03： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
+  - (Quantum Finance Research)[https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05]
+- 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
 
 ## **Services**
+- 2023.03-2023.04: Reviewing papers of Pacific Asia Conference on Information Systems (PACIS)
 - 2022.11-2022.12: Reviewing papers of Quantum Information Processing (QIP)
 - 2022.11: Mentoring HKUST Fintechstic Competition
 

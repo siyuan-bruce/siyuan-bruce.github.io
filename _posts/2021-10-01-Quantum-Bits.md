@@ -11,25 +11,22 @@ article_header:
 ---
 
 # Quantum Mechanics Is Different
-The two-state system, also known as a bit, is the most basic classical system used in computer science. It serves as the fundamental unit of information, representing anything that has only two possible states, such as a coin that can be heads or tails, a switch that can be on or off, or a tiny magnet that is constrained to point north or south.
+The two-state system, also known as a bit, is the most fundamental classical system used in computer science. It serves as the fundamental unit of information, representing anything that has only two possible states, such as a coin that can be heads or tails, a switch that can be on or off, or a tiny magnet that is constrained to point north or south.
 
-In the realm of quantum mechanics, the two-state system is referred to as a qubit, which is significantly more complex and interesting. Due to the incredibly small size of the objects studied in quantum mechanics, our human senses are not equipped to visualize them. Instead, we must rely on mathematical abstractions to understand the behavior of subatomic particles such as electrons.
+However, in the realm of quantum mechanics, the two-state system is referred to as a qubit, which is significantly more complex and interesting. Due to the incredibly small size of the objects studied in quantum mechanics, our human senses are not equipped to visualize them. Instead, we must rely on mathematical abstractions to understand the behavior of subatomic particles such as electrons.
 
 The qubit allows for a much greater range of possibilities than its classical counterpart, the bit. While a bit can only exist in one of two states, a qubit can exist in a superposition of both states at once. This phenomenon, known as quantum superposition, allows for vastly greater computational power and opens up new possibilities in the fields of computer science and information technology.
 
 ## 1. How quantum mechanics is different:
 1. Different Abstractions. Quantum abstractions are fundamentally different from classical ones.
-2. States and Measurements. In the classical world, the relationship between the state of a system and the result of a measurement on that
-system is very straightforward. The labels that describe a state (the position and momentum of a particle, for example) are the same labels that characterize measurements of that state. To put it another way, one can perform an experiment to determine the state of a system. In the quantum world, this is not true. States and measurements are two different things, and the relationship between them is subtle and nonintuitive.
+2. States and Measurements. In the classical world, the relationship between the state of a system and the result of a measurement on that system is very straightforward. The labels that describe a state (the position and momentum of a particle, for example) are the same labels that characterize measurements of that state. To put it another way, one can perform an experiment to determine the state of a system. In the quantum world, this is not true. States and measurements are two different things, and the relationship between them is subtle and nonintuitive.
 
 ## 2. Spins and Qubits
-The concept of spin is derived from particle physics. Particles have properties in addition to their location in space. For example, they may or may not have electric charge, or mass. Attached to the electron is an extra degree of freedom called its spin.
+The concept of spin, derived from particle physics, is another crucial aspect of quantum mechanics. Particles have properties in addition to their location in space. For example, they may or may not have electric charge or mass. Attached to the electron is an extra degree of freedom called its spin.
 
-Naively, the spin can be pictured as a little arrow that points in some direction, but that naive picture is too classical to accurately represent the real situation.
+While the spin can be pictured naively as a little arrow pointing in some direction, that classical picture is too simplistic to accurately represent the real situation. Instead, the quantum spin, isolated from the electron that carries it through space, is both the simplest and the most quantum of systems.
 
-The quantum spin, isolated from the electron that carries it through space, is both the simplest and the most quantum of systems.
-
-The isolated quantum spin is an example of the general class of simple systems we call qubits—**quantum bits—that play the same role in the quantum world as logical bits play in defining the state of your computer**.
+The isolated quantum spin is an example of the general class of simple systems we call qubits—quantum bits that play the same role in the quantum world as logical bits play in defining the state of your computer.
 
 
 ## 3. An Experiment

@@ -12,8 +12,7 @@ article_header:
 ---
 
 
-The Deutsch-Jozsa algorithm, first introduced in Reference, was the first example of a quantum algorithm that performs better than the best classical algorithm. It showed that there could be advantages to using a quantum computer as a computational tool for a specific problem. We will first talk about the Deutsch Algorithm step by step and then go into the Deutsch-Jozsa algorithm.
-
+The Deutsch-Jozsa algorithm, which was originally presented in the seminal work of Deutsch and Jozsa (1992), stands as the pioneering quantum algorithm that outperforms the most efficient classical algorithms. This groundbreaking algorithm highlights the prospect of leveraging quantum computing as a powerful computational tool for specific problem classes, where classical computing may fail to provide the optimal solution. In this exposition, we will methodically explicate the Deutsch Algorithm and subsequently delve into the intricacies of the Deutsch-Jozsa algorithm.
 
 ## 1. Deutsch Algorithm
 
@@ -22,6 +21,7 @@ The Deutsch-Jozsa algorithm, first introduced in Reference, was the first exampl
 ### 1.1 Problem Statement
 
 
+The Deutsch-Jozsa algorithm addresses the problem of determining whether a given function f(x), where x ∈ {0,1}, is constant or balanced. A balanced function implies that f(0)≠f(1) and has two possible cases: f(0)=0, f(1)=1, or f(0)=1, f(1)=0. On the other hand, a constant function means that f(0)=f(1) and also has two possibilities: f(0)=f(1)=0 or f(0)=f(1)=1.
 
 Given a function $$f(x), x\in\{0,1\}$$, how can we know whether f(x) is a balanced function or constant function?
 
@@ -53,7 +53,7 @@ We first dig into what is the balanced function and constant function are.
 
 ### 1.2 Solution Circuit
 
-We first present the solution circuit and try to find why it can help find the solution. In the following picture, we assume $$n=1$$ in the upper register.
+The Deutsch-Jozsa algorithm employs a solution circuit that utilizes a quantum computer's unique capabilities to solve this problem. The solution circuit involves a series of steps that manipulate the quantum states to obtain the desired solution. In the circuit diagram presented, where n=1 in the upper register, a Hadamard gate is used to achieve superposition of quantum states. The targeted function is then used to obtain a modified quantum state that is subjected to another Hadamard gate. The resulting quantum state is measured to obtain the desired output.
 
 
 ![Image](/assets/images/posts/Deutsch-Jozsa-Algorithm/Deutsch-Circuit.png "Image@512x512") 
@@ -73,7 +73,7 @@ The following figure shows how we deduce from the beginning to the end. (I will 
 
 ### 1.3 Example Circuit
 
-We use the balanced function as an example to see what happened.
+The balanced function is used as an example to illustrate how the Deutsch-Jozsa algorithm works. The results obtained from the circuit for the balanced function show that the first register's result is 1. In contrast, the constant function's result will be 0. Therefore, the Deutsch-Jozsa algorithm can determine whether a given function is constant or balanced in a single measurement, whereas classical computing requires two measurements.
 
 
 - Balanced Function One
@@ -120,7 +120,7 @@ By only one measurement, we can know whether a function is balanced or constant,
 
 ## 2. Deutsch-Jozsa Algorithm
 
-Deutsch-Jozsa Algorithm extends Deutsch algorithm into $$2^{n}$$ dimensions.
+The Deutsch-Jozsa algorithm is an extension of the Deutsch algorithm to n dimensions. The algorithm involves state preparation, superposition using the Hadamard gate, targeted function, and a second Hadamard gate. The resulting quantum state is then measured to obtain the solution. In the case of a constant function, the amplitude for the |0⟩ n state is either +1 or -1, depending on the constant value of f(x). All other amplitudes in the state are zero, resulting in observation yielding 0s for all qubits in the query register. If the function is balanced, the amplitude for the |0⟩n state is zero, and measurement must yield a result other than 0 on at least one qubit in the query register.
 
 
 The algorithm goes with the following procedures:
