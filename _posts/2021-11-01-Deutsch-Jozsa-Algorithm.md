@@ -120,7 +120,7 @@ By only one measurement, we can know whether a function is balanced or constant,
 
 ## 2. Deutsch-Jozsa Algorithm
 
-The Deutsch-Jozsa algorithm is an extension of the Deutsch algorithm to n dimensions. The algorithm involves state preparation, superposition using the Hadamard gate, targeted function, and a second Hadamard gate. The resulting quantum state is then measured to obtain the solution. In the case of a constant function, the amplitude for the |0⟩ n state is either +1 or -1, depending on the constant value of f(x). All other amplitudes in the state are zero, resulting in observation yielding 0s for all qubits in the query register. If the function is balanced, the amplitude for the |0⟩n state is zero, and measurement must yield a result other than 0 on at least one qubit in the query register.
+The Deutsch-Jozsa algorithm is an extension of the Deutsch algorithm to n dimensions. The algorithm involves state preparation, superposition using the Hadamard gate, targeted function, and a second Hadamard gate. The resulting quantum state is then measured to obtain the solution. In the case of a constant function, the amplitude for the $\vert 0\rangle$ n state is either +1 or -1, depending on the constant value of f(x). All other amplitudes in the state are zero, resulting in observation yielding 0s for all qubits in the query register. If the function is balanced, the amplitude for the $\vert 0\rangle$ n state is zero, and measurement must yield a result other than 0 on at least one qubit in the query register.
 
 
 The algorithm goes with the following procedures:
