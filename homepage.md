@@ -21,7 +21,7 @@ key: page-homepage
 ---
 
 <img src= "./images/profile.jpg" align=right width="150"/>
-Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of HKUST (Program: Information Systems). He is supervised by Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao. He focuses on both technical and empirical studies on state-of-art technologies, including blockchain, quantum computing, etc.
+Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, specializing in Information Systems under the guidance of Prof. Kar Yan Tam, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests encompass cutting-edge technologies, such as blockchain and quantum computing, with a focus on both technical and empirical investigations.
 
 ---
 
@@ -30,7 +30,8 @@ Si Yuan JIN (Bruce) is currently an MPhil-PhD student at the Business School of 
 - **Quantum Computing**: Quantum Finance (If you are interested in this topic, please check [Quantum-Finance](https://github.com/siyuan-bruce/Quantum-Finance))
 
 ## 📚 **Selected Publication**
-- **(HSBC Lab)** Jin, Si Yuan, and Yong Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
+- **(HKUST)** M. Dordal i Carreras, **S. Jin**, K. Kawaguchi, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023).
+- **(HSBC Lab)** **Jin, Si Yuan**, and Yong Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
 
 ## 💡 **Patent**
 Four patents are already filed.
@@ -61,7 +62,7 @@ Four patents are already filed.
 - 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
-  - (Quantum Finance Research)[https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05]
+  - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
 
