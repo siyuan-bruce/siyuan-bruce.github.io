@@ -94,9 +94,11 @@ Four patents are already filed.
 ### Language
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
+
 ### Licenses & Certifications
 - Verified Certificate for WEB 3.0 KNOWLEDGE CERTIFICATE IN FINANCIAL SERVICES
   - National University of Singapore
+
 ### Coursera:
 - Machine Learning
 - Deep Learning Series
