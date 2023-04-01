@@ -65,11 +65,15 @@ Four patents are already filed.
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
-
 ## 🛠 **Services**
 - 2023.03-2023.04: Reviewing papers of Pacific Asia Conference on Information Systems (PACIS)
 - 2022.11-2022.12: Reviewing papers of Quantum Information Processing (QIP)
 - 2022.11: Mentoring HKUST Fintechstic Competition
+
+## 🌍 **Volunteer**
+- 2018.09 ~ 2019.03 Director at South China University of Technology Innovation Club for Science and Technology
+  Sep 2018 - Mar 2019
+- 2018.03 ~ 2018.09 Member of South China University of Technology Innovation Club for Science and Technology
 
 ## 🏆 **Awards**
 - 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
@@ -84,12 +88,6 @@ Four patents are already filed.
 
 ## 💼 Industry Consulting
 - 2022.09 ~ now: work with HSBC Hong Kong in CBDC, Quantum Finance.
-
-## 🌍 **Volunteer**
-- Director at South China University of Technology Innovation Club for Science and Technology
-  Sep 2018 - Mar 2019
-- Member of South China University of Technology Innovation Club for Science and Technology
-  Mar 2018 - Sep 2018 
 
 ## **Skills**
 ### Language
@@ -107,13 +105,10 @@ Four patents are already filed.
   - Convolutional Neural Networks 
   - Neural Networks
   - Deep Learning
+  - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 - Game Theory
 - Blockchain: Foundations and Use Cases
-- Google Cloud Platform Fundamentals: Core Infrastructure
 - Google Cloud Platform Big Date and Machine Learning Fundamentals
-- Machine Learning Foundations: A Case Study Approach
-- Getting Started With Go
-- Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
   
 ## **Contact**
 - Email: siyuan.jin@connect.ust.hk
