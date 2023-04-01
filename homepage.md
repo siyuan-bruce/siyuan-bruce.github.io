@@ -117,6 +117,7 @@ Four patents are already filed.
 - Google Cloud Platform Big Date and Machine Learning Fundamentals
   
 ## 📩 **Contact**
+I am interested in working with you in any interesting topic. Please feel free to contact me if you have any questions or suggestions.
 - Email: siyuan.jin@connect.ust.hk
 - Wechat: siyuan-bruce
 - [Linkedin](https://www.linkedin.com/in/si-yuan-bruce-jin/)
