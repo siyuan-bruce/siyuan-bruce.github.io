@@ -76,6 +76,7 @@ Four patents are already filed.
 - 2018.03 ~ 2018.09 Member of South China University of Technology Innovation Club for Science and Technology
 
 ## 🏆 **Awards**
+- 2022.09 HKUST PhD Postgraduate Studentship
 - 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
 - 2021.06 University-level excellent graduation thesis (Top 1%)
 - 2019.10 Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
@@ -93,12 +94,10 @@ Four patents are already filed.
 ### Language
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
-
 ### Licenses & Certifications
 - Verified Certificate for WEB 3.0 KNOWLEDGE CERTIFICATE IN FINANCIAL SERVICES
   - National University of Singapore
-
-#### Coursera:
+### Coursera:
 - Machine Learning
 - Deep Learning Series
   - Sequence Models
