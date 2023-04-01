@@ -27,7 +27,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 
 ## 🎓 **Research Interests**
 - **Distributed Ledger Technology (DLT)**: Central Bank Digital Currency, Web 3.0
-- **Quantum Computing**: Quantum Finance, Quantum Inspired Algorithm (If you are interested in this topic, please check [Quantum-Finance](https://github.com/siyuan-bruce/Quantum-Finance))
+- **Quantum Computing**: Quantum Finance, Clasical Quantum-Inspired Algorithm (If you are interested in this topic, please check [Quantum-Finance](https://github.com/siyuan-bruce/Quantum-Finance))
 
 ## 📚 **Selected Publication**
 - **(HKUST)** **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Monte Carlo Framework for Financial Problems”, Working Paper, (2023).
