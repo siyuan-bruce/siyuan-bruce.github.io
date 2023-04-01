@@ -21,7 +21,7 @@ key: page-homepage
 ---
 
 <img src= "./images/profile.jpg" align=right width="150"/>
-Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, specializing in Information Systems under the guidance of Prof. Kar Yan Tam, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests encompass cutting-edge technologies, such as blockchain and quantum computing, with a focus on both technical and empirical investigations.
+Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, specializing in Information Systems under the guidance of Prof. Kar Yan Tam, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests encompass cutting-edge technologies, such as blockchain and quantum computing, with a focus on both technical and empirical investigations. [Official CV](https://isom.hkust.edu.hk/sites/isom/files/people/JinSiyuan.pdf)
 
 ---
 
@@ -92,7 +92,7 @@ Four patents are already filed.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
 
 ## 💼 Industry Consulting
-- 2022.09 ~ now: work with HSBC Hong Kong in CBDC, Quantum Finance.
+- 2022.09 ~ now: work with HSBC Hong Kong in CBDC & Quantum Finance.
 
 ## 🛠 **Skills**
 ### Language
@@ -118,5 +118,5 @@ Four patents are already filed.
 ## 📩 **Contact**
 - Email: siyuan.jin@connect.ust.hk
 - Wechat: siyuan-bruce
-- linkedin: https://www.linkedin.com/in/si-yuan-bruce-jin/
+- [Linkedin](https://www.linkedin.com/in/si-yuan-bruce-jin/)
 
