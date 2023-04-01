@@ -30,6 +30,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 - **Quantum Computing**: Quantum Finance (If you are interested in this topic, please check [Quantum-Finance](https://github.com/siyuan-bruce/Quantum-Finance))
 
 ## 📚 **Selected Publication**
+- **(HKUST)** **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Monte Carlo Framework for Financial Problems”, Working Paper, (2023).
 - **(HKUST)** M. Dordal i Carreras, **S. Jin**, K. Kawaguchi, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023).
 - **(HSBC Lab)** **Jin, Si Yuan**, and Yong Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
 
