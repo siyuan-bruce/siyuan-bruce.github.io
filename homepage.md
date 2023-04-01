@@ -89,7 +89,7 @@ Four patents are already filed.
 ## 💼 Industry Consulting
 - 2022.09 ~ now: work with HSBC Hong Kong in CBDC, Quantum Finance.
 
-## **Skills**
+## 🛠 **Skills**
 ### Language
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
@@ -110,7 +110,7 @@ Four patents are already filed.
 - Blockchain: Foundations and Use Cases
 - Google Cloud Platform Big Date and Machine Learning Fundamentals
   
-## **Contact**
+## 📩 **Contact**
 - Email: siyuan.jin@connect.ust.hk
 - Wechat: siyuan-bruce
 - linkedin: https://www.linkedin.com/in/si-yuan-bruce-jin/
