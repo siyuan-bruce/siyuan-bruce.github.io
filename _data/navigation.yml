@@ -1,23 +1,33 @@
 header:
   - titles: 
       # @start locale config
-      en      : &EN       cv
+      en      : &EN       Homepage
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  主页
-    url: /cv.html
+    url: /homepage.html
 
   - titles: 
       # @start locale config
-      en      : &EN       Notes
+      en      : &EN       Technical Notes
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  笔记
-    url: /archive.html
+      zh-Hans : &ZH_HANS  技术笔记
+    url: /technical.html
+
+  - titles: 
+      # @start locale config
+      en      : &EN       Empirical Notes
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  实证笔记
+    url: /empirical.html
     
   - titles: 
       # @start locale config
