@@ -11,23 +11,13 @@ header:
 
   - titles: 
       # @start locale config
-      en      : &EN       Technical Notes
+      en      : &EN       Notes
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  技术笔记
-    url: /technical.html
-
-  - titles: 
-      # @start locale config
-      en      : &EN       Empirical Notes
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  实证笔记
-    url: /empirical.html
+      zh-Hans : &ZH_HANS  笔记
+    url: /archive.html
     
   - titles: 
       # @start locale config
