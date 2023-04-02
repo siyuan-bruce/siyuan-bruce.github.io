@@ -64,12 +64,12 @@ $$\hat{\beta_1} - \beta_1 = \frac{cov(\epsilon, X)}{var(X)}$$
     - It also implies $$E\{Y_i(0)\vert X_i\} \neq E\{Y_i(0)\}$$ or $$E\{Y_i(1)\vert X_i\} \neq E\{Y_i(1)\}$$.
 
 
-## Multiple Regression
+### Multiple Regression
 - Multiple regression is a generalization of the simple regression model. Assume we have two regressors:
 $$Y_i = \beta_0 + \beta_1 X_{i} + \beta_2 W_i + \epsilon_i$$
 - $$\beta_1$$ reflects X's direct effect on Y, when W remains the same.
 
-### Statistical thoery of OLS
+#### Statistical thoery of OLS
 - Considering a linear regression model with $p$ regressors:
 $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsilon_i$$
 - The four least squares assumptions:
@@ -86,24 +86,50 @@ $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsi
 ### The causal diagram approach
 - If the causal relation goes like this: $$X \rightarrow Y$$ or $$W \rightarrow X \rightarrow Y$$ or $$X \rightarrow W \rightarrow Y$$, then we can use the causal diagram approach to estimate the causal effect of X on Y.
 - If we have the causal model X both causes X and W, and W causes Y, which is like:
-  - $$X \rightarrow W \rightarrow Y$$
-  - $$X \rightarrow Y$$
+  - $$X \rightarrow W \rightarrow Y$$.
+  - $$X \rightarrow Y$$.
 
 In this case, we can not control for W, because X affects Y both through W and directly. 
 
 - Another special case goes like:
-  - $$X \rightarrow W$$
-  - $$W \rightarrow Y$$
+  - $$X \rightarrow W$$.
+  - $$W \rightarrow Y$$.
 
 In such case, Aading W in the regression will reduce the estimation precision. W is redunant regressor.
 
 - If the causal relation goes like:
-  - $$X \rightarrow Y$$
-  - $$W \rightarrow X \rightarrow Y$$
+  - $$X \rightarrow Y$$.
+  - $$W \rightarrow X \rightarrow Y$$.
 
 In this case, we can control for W to get the causal effect of X on Y.
 
-- If we have a case like:
-  - $$W \rightarrow X$$
-  - $$W \rightarrow Y$$
-  - $$X \rightarrow Y$$
+- If we have a case like, we should not control for X in the regression, because we will create spurious correlation between X and Y.
+  - $$X \rightarrow W$$.
+  - $$X \rightarrow Y$$.
+  - $$Y \rightarrow W$$.
+
+
+- How to decitewhether a variable is a good control variable?
+  - The variable blocks all spurious paths between X and Y.
+  - The variable is not affected by X.
+
+
+### The potential outcome framework.
+- The conditional mean independence assumption:
+  - $$E(Y_i \vert X_i, W_i) = E(Y_i \vert W_i)$$, this implies $$Y_i$$ is uncorrerlated with $$X_i$$, given $$W_i$$, equivalently, $$ E(\epsilon_i \vert X_i, W_i) = E(\epsilon_i \vert  W_i)$$.
+
+- independence $$\rightarrow$$ constant conditional mean $$\rightarrow$$ no correlation.
+- no correlation $$not \rightarrow$$ constant conditional mean $$not \rightarrow$$ independence.
+
+
+## Bad Controls using potential outcome anaylsis
+
+Consider two observed dummies: $$W_i = 1$$ if white collar, $$X_i = 1$$ if college graduate.
+- Potential earnings $$\{Y_{1i}, Y_{0i}\}$$; potential white-collar status $$\{W_{1i}, W_{0i}\}$$.
+- Observed outcomes vs potential (linked by observed treatment): $$Y_i = X_iY_{1i} + (1-X_i)Y_{0i}$$, $$W_i = X_iW_{1i} + (1-X_i)W_{0i}$$.
+- To simplify analysis, assume that $X$ is randomly assigned and thus is independent of all potential outcomes $$\{Y_{1i}, Y_{0i}, W_{1i}, W_{0i}\}$$.
+- Suppose we hold constant $W_i=1$: only look at earning difference in the white-collar group due to college.
+$$E[Y_i|W_i=1, X_i=1] - E[Y_i|W_i=1, X_i=0] = E[Y_{1i}|W_{1i}=1, X_i=1] - E[Y_{0i}|W_{0i}=1, X_i=0]$$
+$$= E[Y_{1i}|W_{1i}=1] - E[Y_{0i}|W_{0i}=1] = E[Y_{1i}|W_{1i}=1] - E[Y_{0i}|W_{1i}=1] + E[Y_{0i}|W_{1i}=1] - E[Y_{0i}|W_{0i}=1]$$
+- Selection bias = $E[Y_{0i}|W_{1i}=1] - E[Y_{0i}|W_{0i}=1] < 0$: those whose lower potential job is white collar despite no college should have higher earnings anyway.
+- So comparing earnings difference among white-collar group tends to underestimate the effect of college on earnings. The potential outcomes analysis verifies both the causal diagram’s implications and our economic intuition.
