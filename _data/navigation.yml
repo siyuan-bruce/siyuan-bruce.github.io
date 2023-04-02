@@ -1,13 +1,13 @@
 header:
   - titles: 
       # @start locale config
-      en      : &EN       Homepage
+      en      : &EN       cv
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  主页
-    url: /homepage.html
+    url: /cv.html
 
   - titles: 
       # @start locale config
