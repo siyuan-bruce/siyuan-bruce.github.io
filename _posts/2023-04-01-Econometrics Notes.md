@@ -129,7 +129,7 @@ Consider two observed dummies: $$W_i = 1$$ if white collar, $$X_i = 1$$ if colle
 - Observed outcomes vs potential (linked by observed treatment): $$Y_i = X_iY_{1i} + (1-X_i)Y_{0i}$$, $$W_i = X_iW_{1i} + (1-X_i)W_{0i}$$.
 - To simplify analysis, assume that $X$ is randomly assigned and thus is independent of all potential outcomes $$\{Y_{1i}, Y_{0i}, W_{1i}, W_{0i}\}$$.
 - Suppose we hold constant $W_i=1$: only look at earning difference in the white-collar group due to college.
-$$E[Y_i|W_i=1, X_i=1] - E[Y_i|W_i=1, X_i=0] = E[Y_{1i}|W_{1i}=1, X_i=1] - E[Y_{0i}|W_{0i}=1, X_i=0]$$
-$$= E[Y_{1i}|W_{1i}=1] - E[Y_{0i}|W_{0i}=1] = E[Y_{1i}|W_{1i}=1] - E[Y_{0i}|W_{1i}=1] + E[Y_{0i}|W_{1i}=1] - E[Y_{0i}|W_{0i}=1]$$
-- Selection bias = $E[Y_{0i}|W_{1i}=1] - E[Y_{0i}|W_{0i}=1] < 0$: those whose lower potential job is white collar despite no college should have higher earnings anyway.
+$$E[Y_i\vert W_i=1, X_i=1] - E[Y_i\vert W_i=1, X_i=0] = E[Y_{1i}\vert W_{1i}=1, X_i=1] - E[Y_{0i}\vert W_{0i}=1, X_i=0]$$
+$$= E[Y_{1i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] = E[Y_{1i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{1i}=1] + E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1]$$
+- Selection bias = $E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] < 0$: those whose lower potential job is white collar despite no college should have higher earnings anyway.
 - So comparing earnings difference among white-collar group tends to underestimate the effect of college on earnings. The potential outcomes analysis verifies both the causal diagram’s implications and our economic intuition.
