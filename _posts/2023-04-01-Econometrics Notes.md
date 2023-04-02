@@ -55,13 +55,13 @@ $$ cov(Y, X) = cov(\beta_0 + \beta_1 X + \epsilon, X) = \beta_1 cov(X, X) + cov(
 $$\hat{\beta_1} - \beta_1 = \frac{cov(\epsilon, X)}{var(X)}$$
 - Ommited variable bias is defined as $$cov(\epsilon, X)/var(X)$$, which is non-zero if $X$ is correlated with $$\epsilon$$.
   - Example if X is a dummy variable, $$var(X) = p(1-p)$$. Then $$cov(\epsilon, X) = E(\epsilon X) - E(\epsilon)E(X) = E(\epsilon X) - E(\epsilon) p = E(\epsilon X) - 0 = E(\epsilon X)$$.
-  - We can use law of iterated expectation to get $$cov(\epsilon, X) = E{E(\epsilon X \vert X)} = E{XE(\epsilon \vert X)} = p \cdot E(\epsilon \vert X_i = 1)$$.
+  - We can use law of iterated expectation to get $$cov(\epsilon, X) = E\{E(\epsilon X \vert X)\} = E\{XE(\epsilon \vert X)\} = p \cdot E(\epsilon \vert X_i = 1)$$.
 
 - The ommited variable bias implies nonzero selection bias.
   - $$E{Y_i \vert X_i = 1} - E{Y_i \vert X_i = 0} = \beta_1 + E(\epsilon \vert X_i = 1) - E(\epsilon \vert X_i = 0)$$
     - $$\beta_1$$ is the causal effect. The second term is the selection bias variable bias.
     - $$\epsilon_i = Y_i(0) - E[Y_i(0)] $$.
-    - It also implies $$E{Y_i(0)\vert X_i} \neq E{Y_i(0)}$$ or $$E{Y_i(1)\vert X_i} \neq E{Y_i(1)}$$.
+    - It also implies $$E\{Y_i(0)\vert X_i\} \neq E\{Y_i(0)\}$$ or $$E\{Y_i(1)\vert X_i\} \neq E\{Y_i(1)\}$$.
 
 
 ## Multiple Regression
@@ -73,8 +73,8 @@ $$Y_i = \beta_0 + \beta_1 X_{i} + \beta_2 W_i + \epsilon_i$$
 - Considering a linear regression model with $p$ regressors:
 $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsilon_i$$
 - The four least squares assumptions:
-  - LSA1: The error term $\epsilon_i$ is normally distributed with mean zero and constant variance $\sigma^2$.
-  - LSA2: The error term $\epsilon_i$ is uncorrelated with the regressors $X_{ij}$.
+  - LSA1: The error term $$\epsilon_i$$ is normally distributed with mean zero and constant variance $$\sigma^2$$.
+  - LSA2: The error term $$\epsilon_i$$ is uncorrelated with the regressors $$X_{ij}$$.
   - LSA3: finite 4th moments.
   - LSA4: no perfect multicollinearity.
 - In such case, the OLS estimators are unbiased and consistent and are asymptotically normal.
@@ -85,40 +85,25 @@ $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsi
 
 ### The causal diagram approach
 - If the causal relation goes like this: $$X \rightarrow Y$$ or $$W \rightarrow X \rightarrow Y$$ or $$X \rightarrow W \rightarrow Y$$, then we can use the causal diagram approach to estimate the causal effect of X on Y.
-- If we have the causal model X both causes X and W, and W causes Y, we have the following:
-
-```mermaid
-graph LR;
-  X --> Y
-  X --> W
-  W --> Y
-```
+- If we have the causal model X both causes X and W, and W causes Y, which is like:
+  - $$X \rightarrow W \rightarrow Y$$
+  - $$X \rightarrow Y$$
 
 In this case, we can not control for W, because X affects Y both through W and directly. 
 
 - Another special case goes like:
-```mermaid
-graph LR
-X --> Y
-X --> W
-```
+  - $$X \rightarrow W$$
+  - $$W \rightarrow Y$$
 
 In such case, Aading W in the regression will reduce the estimation precision. W is redunant regressor.
 
 - If the causal relation goes like:
-```mermaid
-graph LR
-X --> Y
-W --> X
-W --> Y
-```
+  - $$X \rightarrow Y$$
+  - $$W \rightarrow X \rightarrow Y$$
 
 In this case, we can control for W to get the causal effect of X on Y.
 
-- If we have a case like
-```mermaid
-graph LR
-X --> Y
-W --> X
-W --> Y
-```
+- If we have a case like:
+  - $$W \rightarrow X$$
+  - $$W \rightarrow Y$$
+  - $$X \rightarrow Y$$
