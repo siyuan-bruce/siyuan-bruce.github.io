@@ -26,13 +26,13 @@ Causal effects can be identified by regression analysis.
 
 This model can be motivated by the potential outcome framework. The model is a simplified version of the following model:
 - $$Y_i = Y_i(0) + [Y_i(1) - Y_i(0)] * 1{X_i = 1}  = \beta_0 + \beta_1 X_i + \epsilon_i$$
-  - $$\beta_0 = E[Y_i(0)]$$
-  - $$\beta_1 = E[Y_i(1) - Y_i(0)]$$
-  - $$\epsilon_i = Y_i(0) - E[Y_i(0)]$$
-  - $$\epsilon$$ includes the unobserved factors other than $X_i$ that affect $Y_i$.
-- if we run a regression of $Y_i$ on $X_i$, the estimator is biased by \epsilon_i, such a bias is called "omitted variable bias". And unobserved factors other than $X_i$ are called "confounders".
+  - $$\beta_0 = E[Y_i(0)]$$.
+  - $$\beta_1 = E[Y_i(1) - Y_i(0)]$$.
+  - $$\epsilon_i = Y_i(0) - E[Y_i(0)]$$.
+  - $$\epsilon$$ includes the unobserved factors other than $$X_i$$ that affect $$Y_i$$.
+- if we run a regression of $$Y_i$$ on $$X_i$$, the estimator is biased by \epsilon_i, such a bias is called "omitted variable bias". And unobserved factors other than $$X_i$$ are called "confounders".
 
-- in OLS, let $${\beta_0, \beta_1}$$ be the true parameters of the model, and let $${\hat{\beta_0}$$, $$\hat{\beta_1}}$$ be the OLS estimator.
+- in OLS, let $$\{\beta_0, \beta_1\}$$ be the true parameters of the model, and let $${\hat{\beta_0}, \hat{\beta_1}}$$ be the OLS estimator.
 - The estimator can be defined as 
 $$\hat{\beta_1} = \frac{\sum_{i=1}^n (Y_i - \bar{Y})(X_i - \bar{X})}{\sum_{i=1}^n (X_i - \bar{X})^2}$$
 - if we have an iid sample, we then have the estimator as
@@ -53,15 +53,15 @@ $$\hat{\beta_1} = cov(Y, X) / var(X)$$.
 $$ cov(Y, X) = cov(\beta_0 + \beta_1 X + \epsilon, X) = \beta_1 cov(X, X) + cov(\epsilon, X)$$
 - Then we can calculate the bias of the estimator:
 $$\hat{\beta_1} - \beta_1 = \frac{cov(\epsilon, X)}{var(X)}$$
-- Ommited variable bias is defined as $$cov(\epsilon, X)/var(X)$$, which is non-zero if $X$ is correlated with $\epsilon$.
+- Ommited variable bias is defined as $$cov(\epsilon, X)/var(X)$$, which is non-zero if $X$ is correlated with $$\epsilon$$.
   - Example if X is a dummy variable, $$var(X) = p(1-p)$$. Then $$cov(\epsilon, X) = E(\epsilon X) - E(\epsilon)E(X) = E(\epsilon X) - E(\epsilon) p = E(\epsilon X) - 0 = E(\epsilon X)$$.
   - We can use law of iterated expectation to get $$cov(\epsilon, X) = E{E(\epsilon X \vert X)} = E{XE(\epsilon \vert X)} = p \cdot E(\epsilon \vert X_i = 1)$$.
 
 - The ommited variable bias implies nonzero selection bias.
   - $$E{Y_i \vert X_i = 1} - E{Y_i \vert X_i = 0} = \beta_1 + E(\epsilon \vert X_i = 1) - E(\epsilon \vert X_i = 0)$$
-    - $\beta_1$ is the causal effect. The second term is the selection bias variable bias.
+    - $$\beta_1$$ is the causal effect. The second term is the selection bias variable bias.
     - $$\epsilon_i = Y_i(0) - E[Y_i(0)] $$.
-    - It also implies $$E{Y_i(0)\vertX_i} \neq E{Y_i(0)}$$ or $$E{Y_i(1)\vertX_i} \neq E{Y_i(1)}$$.
+    - It also implies $$E{Y_i(0)\vert X_i} \neq E{Y_i(0)}$$ or $$E{Y_i(1)\vert X_i} \neq E{Y_i(1)}$$.
 
 
 ## Multiple Regression
@@ -86,11 +86,12 @@ $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsi
 ### The causal diagram approach
 - If the causal relation goes like this: $$X \rightarrow Y$$ or $$W \rightarrow X \rightarrow Y$$ or $$X \rightarrow W \rightarrow Y$$, then we can use the causal diagram approach to estimate the causal effect of X on Y.
 - If we have the causal model X both causes X and W, and W causes Y, we have the following:
+
 ```mermaid
-graph LR
-X --> Y
-X --> W
-W --> Y
+graph LR;
+  X --> Y
+  X --> W
+  W --> Y
 ```
 
 In this case, we can not control for W, because X affects Y both through W and directly. 
