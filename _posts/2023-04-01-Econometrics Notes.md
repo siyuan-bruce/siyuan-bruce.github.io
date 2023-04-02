@@ -192,4 +192,4 @@ If we want to transform linear regression into a causal inference problem, we ne
   - $$p^0 = i (i' i)^{-1} i' = i (1/n)^{-1} i' = 1/n$$.
   - $$M^0 = I - p^0 = I - 1/n$$.
 
-- $$R^2 = \frac{ESS}{TSS} = \frac{\sum_i^n{\hat{y_i} - \bar{y}}}{\sum_i^n{y_i - \bar{y}}} = 1 - \frac{e'e}{y'M^0y}.
+- $$R^2 = \frac{ESS}{TSS} = \frac{\sum_i^n{\hat{y_i} - \bar{y}}}{\sum_i^n{y_i - \bar{y}}} = 1 - \frac{e'e}{y'M^0y}. $$
