@@ -122,7 +122,7 @@ In this case, we can control for W to get the causal effect of X on Y.
 - no correlation $$not \rightarrow$$ constant conditional mean $$not \rightarrow$$ independence.
 
 
-## Bad Controls using potential outcome anaylsis
+### Bad Controls using potential outcome anaylsis
 
 Consider two observed dummies: $$W_i = 1$$ if white collar, $$X_i = 1$$ if college graduate.
 - Potential earnings $$\{Y_{1i}, Y_{0i}\}$$; potential white-collar status $$\{W_{1i}, W_{0i}\}$$.
@@ -131,5 +131,65 @@ Consider two observed dummies: $$W_i = 1$$ if white collar, $$X_i = 1$$ if colle
 - Suppose we hold constant $W_i=1$: only look at earning difference in the white-collar group due to college.
 $$E[Y_i\vert W_i=1, X_i=1] - E[Y_i\vert W_i=1, X_i=0] = E[Y_{1i}\vert W_{1i}=1, X_i=1] - E[Y_{0i}\vert W_{0i}=1, X_i=0]$$
 $$= E[Y_{1i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] = E[Y_{1i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{1i}=1] + E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1]$$
-- Selection bias = $E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] < 0$: those whose lower potential job is white collar despite no college should have higher earnings anyway.
+- Selection bias = $$E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] < 0$$: those whose lower potential job is white collar despite no college should have higher earnings anyway.
 - So comparing earnings difference among white-collar group tends to underestimate the effect of college on earnings. The potential outcomes analysis verifies both the causal diagram’s implications and our economic intuition.
+
+
+## Topic 2: Finite Sample Thoery of OLS
+If we want to transform linear regression into a causal inference problem, we need to make sure the following assumptions hold.
+
+### Assumption
+#### Assumption 1(model linaer in parameters)
+#### Assumption 2(full rank or no multicollinearity)
+- The matrix $$X'X$$ is full rank.
+- Each variable cotains unique information.
+  
+#### Assumption 3(stict exogeneity)
+- $$X_i$$ is not correlated with $$\epsilon_i$$.
+- Mean independence assumption: $$E(\epsilon \vert X) = 0$$.
+  - or $$E(\epsilon_i \vert X_1i, X_2i...) = 0$$.
+- A weaker assumption: $$E(\epsilon_i \vert X_i) = 0$$.
+  - the conditional esentially focues on different sections of the entire population.
+
+#### Assumption 4(spherical disturbance - on conditional variance/covariance)
+- homoskedasticity: $$E(\epsilon_i^2 \vert X_i) = \sigma^2$$ while no cross correlation between $$\epsilon_i$$ and $$\epsilon_j$$.
+
+
+#### Assumption 5: normality of disturbance
+- $$\epsilon_i \sim N(0, \sigma^2)$$.
+- useful for making statistical inference.
+
+
+### Algebra of OLS
+- Based on first order condtion, we can have OLS estimator $$\hat{\beta} = (X'X)^{-1}X'Y$$.
+- The fitted value $$\hat{Y} = X\hat{\beta}$$.
+- The residual $$ e = Y - \hat{Y}$$ or in vector form: $$e = Y - X\hat{\beta} = (I - X(X'X)^{-1}X')y = M_x y$$.
+  - the matrix M_x is called annihilator matrix, while P_X = X(X'X)^{-1}X' is called projection matrix.
+  - if we multiply X by M_x, we get 0.
+  - since e is defined as part of y that is not linearly related to X, e is orthogonal with X: $$X'e = X'M_Xy = 0$$.
+  - The projection leads to the predictor $$\hat{Y} = X\hat{\beta} = X(X'X)^{-1}X'Y = P_X Y$$.
+  - By this definition, $$\hat{y}$$ is orthogonal to $$e$$.
+  - Both $$M_X$$ and $$P_X$$ are symmetric and idempotent.
+    - symmetric: $$M_X = M_X'$$.
+    - idempotent: $$M_X^2 = M_X$$.
+- The normal equation $$\sum_i=1^{n}{x_i e_i} = 0 $$.
+  - matrix form: $$X'e = 0$$ ($$e = My$$).
+
+
+### Partitioned Regression
+- Let $$X = (X_1, X_2)$$, $$b = (b_1, b_2)$$.
+- We have $$ X'Xb = X'Y$$.
+- We can solve to get 
+  - $$b_1 = (X_1' M_2 X_1)^{-1}X_1'Y$$, 
+  - $$b_2 = (X_2' M_1 X_2)^{-1}X_2'Y$$.
+  - Interpretation: we partial out the effect of X_2 thus $$b_1$$ is the effect of X_1 on Y.
+
+- Orthogonal regressors: suppose X_1 and X_2 are orthogonal, then $$b_1 = (X_1'X_1)^{-1}X_1'Y$$, $$b_2 = (X_2'X_2)^{-1}X_2'Y$$.
+
+
+### R-squared
+- define a one-value vector $$ i = (1, 1, ..., 1)$$.
+  - $$p^0 = i (i' i)^{-1} i' = i (1/n)^{-1} i' = 1/n$$.
+  - $$M^0 = I - p^0 = I - 1/n$$.
+
+- $$R^2 = \frac{ESS}{TSS} = \frac{\sum_i^n{\hat{y_i} - \bar{y}}}{\sum_i^n{y_i - \bar{y}}} = 1 - \frac{e'e}{y'M^0y}.
