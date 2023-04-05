@@ -53,7 +53,7 @@ $$\hat{\beta_1} = cov(Y, X) / var(X)$$.
 $$ cov(Y, X) = cov(\beta_0 + \beta_1 X + \epsilon, X) = \beta_1 cov(X, X) + cov(\epsilon, X)$$
 - Then we can calculate the bias of the estimator:
 $$\hat{\beta_1} - \beta_1 = \frac{cov(\epsilon, X)}{var(X)}$$
-- Ommited variable bias is defined as $$cov(\epsilon, X)/var(X)$$, which is non-zero if $X$ is correlated with $$\epsilon$$.
+- Ommited variable bias is defined as $$cov(\epsilon, X)/var(X)$$, which is non-zero if $$X$$ is correlated with $$\epsilon$$.
   - Example if X is a dummy variable, $$var(X) = p(1-p)$$. Then $$cov(\epsilon, X) = E(\epsilon X) - E(\epsilon)E(X) = E(\epsilon X) - E(\epsilon) p = E(\epsilon X) - 0 = E(\epsilon X)$$.
   - We can use law of iterated expectation to get $$cov(\epsilon, X) = E\{E(\epsilon X \vert X)\} = E\{XE(\epsilon \vert X)\} = p \cdot E(\epsilon \vert X_i = 1)$$.
 
@@ -70,7 +70,7 @@ $$Y_i = \beta_0 + \beta_1 X_{i} + \beta_2 W_i + \epsilon_i$$
 - $$\beta_1$$ reflects X's direct effect on Y, when W remains the same.
 
 #### Statistical thoery of OLS
-- Considering a linear regression model with $p$ regressors:
+- Considering a linear regression model with $$p$$ regressors:
 $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsilon_i$$
 - The four least squares assumptions:
   - LSA1: The error term $$\epsilon_i$$ is normally distributed with mean zero and constant variance $$\sigma^2$$.
@@ -127,7 +127,7 @@ In this case, we can control for W to get the causal effect of X on Y.
 Consider two observed dummies: $$W_i = 1$$ if white collar, $$X_i = 1$$ if college graduate.
 - Potential earnings $$\{Y_{1i}, Y_{0i}\}$$; potential white-collar status $$\{W_{1i}, W_{0i}\}$$.
 - Observed outcomes vs potential (linked by observed treatment): $$Y_i = X_iY_{1i} + (1-X_i)Y_{0i}$$, $$W_i = X_iW_{1i} + (1-X_i)W_{0i}$$.
-- To simplify analysis, assume that $X$ is randomly assigned and thus is independent of all potential outcomes $$\{Y_{1i}, Y_{0i}, W_{1i}, W_{0i}\}$$.
+- To simplify analysis, assume that $$X$$ is randomly assigned and thus is independent of all potential outcomes $$\{Y_{1i}, Y_{0i}, W_{1i}, W_{0i}\}$$.
 - Suppose we hold constant $W_i=1$: only look at earning difference in the white-collar group due to college.
 $$E[Y_i\vert W_i=1, X_i=1] - E[Y_i\vert W_i=1, X_i=0] = E[Y_{1i}\vert W_{1i}=1, X_i=1] - E[Y_{0i}\vert W_{0i}=1, X_i=0]$$
 $$= E[Y_{1i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] = E[Y_{1i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{1i}=1] + E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1]$$
@@ -249,11 +249,11 @@ $$
 & =\left(1-R_{(K)}^2\right) \sum_{i=1}^n\left(x_{i K}-\bar{x}_K\right)^2,
 \end{aligned}
 $$
-where $R_{(K)}^2$ is the R-squared of regressing $x_{(K)}$ on $X_1$. Hence
+where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on $$X_1$$. Hence
 $$
 \operatorname{var}\left(\mathbf{b}_2 \mid X\right)=\sigma^2\left(X_2^{\prime} M_1 X_2\right)^{-1}=\frac{\sigma^2}{\sum_{i=1}^n\left(x_{i K}-\bar{x}_K\right)^2} \frac{1}{\left(1-R_{(K)}^2\right)}
 $$
-where $R_{(K)}^2$ is the R-squared of regressing $x_{(K)}$ on the rest of the variables. 
+where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of the variables. 
 
 #### Gaussian-Markov Theorem
 
@@ -273,14 +273,14 @@ where $R_{(K)}^2$ is the R-squared of regressing $x_{(K)}$ on the rest of the va
   - $$Y = \beta_0 + \beta_1 X + u$$
   - where $$u$$ includes all other causal factors that affect $$Y$$ but are not included in the model.
 - We want to find a regression model:
-  - $$ Y = \beta_0 + \beta_1 X + \beta_2 Z + e$$, $$E(e|X,Z) = 0$$
+  - $$ Y = \beta_0 + \beta_1 X + \beta_2 Z + e$$, $$E(e\vert X,Z) = 0$$
   - such that **$$\beta_1$$ is unbiased**.
 - We achive this by using a **control variable** $$Z$$ that conditional on $$Z$$, $$u$$ is independent of $$X$$.
-  - $$E(u|X,Z) = E(u|Z)$$ (Conditional Independence means Condtional mean Independence).
+  - $$E(u\vert X,Z) = E(u\vert Z)$$ (Conditional Independence means Condtional mean Independence).
 
-- We can assume the conditional mean is linear: $$E(u|X, Z) = E(u|Z) = \alpha_0 + \alpha_1 Z$$.
-  - Then we can represent u as $$u = \alpha_0 + \alpha_1 Z + e$$. E(e|X,Z) = 0.
-  - The causal model becomes $$Y = \beta_0 + \beta_1 X + \alpha_0 + \alpha_1 Z + e$$, where $$E(e|X,Z) = 0$$.
+- We can assume the conditional mean is linear: $$E(u\vert X, Z) = E(u\vert Z) = \alpha_0 + \alpha_1 Z$$.
+  - Then we can represent u as $$u = \alpha_0 + \alpha_1 Z + e$$. E(e\vert X,Z) = 0.
+  - The causal model becomes $$Y = \beta_0 + \beta_1 X + \alpha_0 + \alpha_1 Z + e$$, where $$E(e\vert X,Z) = 0$$.
 
 
 ##### Ommitted Variable Bias
@@ -313,7 +313,7 @@ $$
 0 & \cdots & \sigma^2
 \end{array}\right]
 $$
-Robust SE assumes: $\sigma_{i j}=\sigma_i^2$, if $i=j$, and $=0$ if $i \neq j$.
+Robust SE assumes: $\sigma_{i j}=\sigma_i^2$, if $i=j$, and $$=0$$ if $$i \neq j$$.
 $$
 \operatorname{var}(u)=\left[\begin{array}{ccc}
 \sigma_1^2 & \cdots & 0 \\
@@ -330,7 +330,7 @@ $$
 \sigma_{i j} & i, j \text { in the same school }
 \end{array}\right.
 $$
-Suppose there are $S$ schools. Let $\Sigma_s$ denote covariance of errors in school s that has $n_s$ students: $\Sigma_s=\left[\begin{array}{ccc}\sigma_1^2 & \cdots & \sigma_{1 n_s} \\ \vdots & \ddots & \vdots \\ \sigma_{n_s 1} & \cdots & \sigma_{n_s}^2\end{array}\right]$.
+Suppose there are $$S$$ schools. Let $$\Sigma_s$$ denote covariance of errors in school s that has $$n_s$$ students: $$\Sigma_s=\left[\begin{array}{ccc}\sigma_1^2 & \cdots & \sigma_{1 n_s} \\ \vdots & \ddots & \vdots \\ \sigma_{n_s 1} & \cdots & \sigma_{n_s}^2\end{array}\right]$$.
 Then
 $$
 \operatorname{var}(u) \equiv\left[\begin{array}{ccc}
