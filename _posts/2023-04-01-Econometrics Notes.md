@@ -208,20 +208,24 @@ If we want to transform linear regression into a causal inference problem, we ne
 
 **Proof:**
 
-Consider the partitioned regression model $$Y = X_1b_1 + X_2b_2 + \epsilon$$.
+- Consider the partitioned regression model $$Y = X_1b_1 + X_2b_2 + \epsilon$$.
 
-$$
+- $$
 X=\left[X_1, X_2\right], \beta=\left(\beta_1^{\prime}, \beta_2^{\prime}\right)^{\prime} \in R^{K_1+K_2}, \hat{\beta}=\left(\mathbf{b}_1^{\prime}, \mathbf{b}_2^{\prime}\right)^{\prime},
 $$
-and
+
+- and
+
 $$
 \mathbf{b}_2=\left(X_2^{\prime} M_1 X_2\right)^{-1} X_2^{\prime} M_1 \mathbf{y}
 $$
-where $M_1=I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}$. Denote
+where $$M_1=I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}$$. Denote
 $$
 X=\left(X_1, x_{(K)}\right)
 $$
-in other words $X_2=x_{(K)}$, which contains the Kth variable, then
+
+- in other words $$X_2=x_{(K)}$$, which contains the Kth variable, then
+
 $$
 \begin{aligned}
 \mathbf{b}_2 & =\left(X_2^{\prime} M_1 X_2\right)^{-1} X_2^{\prime} M_1 \mathbf{y} \\
@@ -231,7 +235,9 @@ $$
 & =\beta_K+\left(x_{(K)}^{\prime} M_1 x_{(K)}\right)^{-1} x_{(K)}^{\prime} M_1 \varepsilon
 \end{aligned}
 $$
-Thus
+
+- Thus
+
 $$
 \mathbf{E}\left(\mathbf{b}_2 \mid X\right)=\beta_2
 $$
@@ -240,6 +246,7 @@ $$
 \operatorname{var}\left(\mathbf{b}_2 \mid X\right)=\sigma^2\left(X_2^{\prime} M_1 X_2\right)^{-1}
 $$
 where
+
 $$
 \begin{aligned}
   X_2^{\prime} M_1 X_2 &= x_{(K)}^{\prime}\left[I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}\right] x_{(K)} \\
@@ -249,10 +256,13 @@ $$
 & =\left(1-R_{(K)}^2\right) \sum_{i=1}^n\left(x_{i K}-\bar{x}_K\right)^2,
 \end{aligned}
 $$
-where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on $$X_1$$. Hence
+
+where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on $$X_1$$. 
+- Hence
 $$
 \operatorname{var}\left(\mathbf{b}_2 \mid X\right)=\sigma^2\left(X_2^{\prime} M_1 X_2\right)^{-1}=\frac{\sigma^2}{\sum_{i=1}^n\left(x_{i K}-\bar{x}_K\right)^2} \frac{1}{\left(1-R_{(K)}^2\right)}
 $$
+
 where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of the variables. 
 
 #### Gaussian-Markov Theorem
@@ -279,7 +289,7 @@ where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of th
   - $$E(u\vert X,Z) = E(u\vert Z)$$ (Conditional Independence means Condtional mean Independence).
 
 - We can assume the conditional mean is linear: $$E(u\vert X, Z) = E(u\vert Z) = \alpha_0 + \alpha_1 Z$$.
-  - Then we can represent u as $$u = \alpha_0 + \alpha_1 Z + e$$. E(e\vert X,Z) = 0.
+  - Then we can represent u as $$u = \alpha_0 + \alpha_1 Z + e$$. $$E(e \vert X,Z) = 0$$.
   - The causal model becomes $$Y = \beta_0 + \beta_1 X + \alpha_0 + \alpha_1 Z + e$$, where $$E(e\vert X,Z) = 0$$.
 
 
@@ -313,7 +323,7 @@ $$
 0 & \cdots & \sigma^2
 \end{array}\right]
 $$
-Robust SE assumes: $\sigma_{i j}=\sigma_i^2$, if $i=j$, and $$=0$$ if $$i \neq j$$.
+- Robust SE assumes: $$\sigma_{i j}=\sigma_i^2$$, if $$i=j$$, and $$=0$$ if $$i \neq j$$.
 $$
 \operatorname{var}(u)=\left[\begin{array}{ccc}
 \sigma_1^2 & \cdots & 0 \\
@@ -321,8 +331,7 @@ $$
 0 & \cdots & \sigma_n^2
 \end{array}\right]
 $$
-Cluster Standard Errors (Technical Note)
-Cluster SE assumes:
+- Cluster SE assumes:
 $$
 \sigma_{i j}=\left\{\begin{array}{cc}
 \sigma_i^2, & i=j \\
@@ -330,7 +339,7 @@ $$
 \sigma_{i j} & i, j \text { in the same school }
 \end{array}\right.
 $$
-Suppose there are $$S$$ schools. Let $$\Sigma_s$$ denote covariance of errors in school s that has $$n_s$$ students: $$\Sigma_s=\left[\begin{array}{ccc}\sigma_1^2 & \cdots & \sigma_{1 n_s} \\ \vdots & \ddots & \vdots \\ \sigma_{n_s 1} & \cdots & \sigma_{n_s}^2\end{array}\right]$$.
+- Suppose there are $$S$$ schools. Let $$\Sigma_s$$ denote covariance of errors in school s that has $$n_s$$ students: $$\Sigma_s=\left[\begin{array}{ccc}\sigma_1^2 & \cdots & \sigma_{1 n_s} \\ \vdots & \ddots & \vdots \\ \sigma_{n_s 1} & \cdots & \sigma_{n_s}^2\end{array}\right]$$.
 Then
 $$
 \operatorname{var}(u) \equiv\left[\begin{array}{ccc}
@@ -370,7 +379,7 @@ $$
 - Control group: $$Y_{it}^{control}, t = before, after$$
 - Treatment group: $$Y_{it}^{treatment}, t = before, after$$
 
-![Image](/assets/images/posts/econometrics/DID.png "DID")
+![Image](/assets/images/econometrics/DID.png "DID")
 
 - Regression model of DID: $$Y_{it}^{treatment} - Y_{it}^{control} = \beta_0 + \beta_1 X_{it} + e_{it}$$.
   - $$\beta_1$$ is the effect of the treatment on the outcome conditional on the treatment.
@@ -382,5 +391,9 @@ $$
 - The effect of treatment should show up as a jump in the outcome at the cutoff point.
 - **sharp** regression: everyone above the cutoff is treated, everyone below is not treated.
 - **fuzzy** regression: crossing the threshold influences the probability of being treated.
+  - Assume crossing the threshold dummy Z does not affect on $$Y$$ and Z only through influencing the probability of treatment.
+  - Then Z is a valid instrument for treatment.
 
-![Image](/assets/images/posts/econometrics/RDD.png "RDD")
+![Image](/assets/images/econometrics/RDD.png "RDD")
+
+
