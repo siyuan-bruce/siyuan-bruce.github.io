@@ -30,8 +30,8 @@ This page presents some of my previous moment captures.
  <img src="assets/images/gallery/HSBC_Lab.jpg" alt="Image" title="HSBC_Lab" width=300>
  <img src="assets/images/gallery/three_NFT.png" alt="Image" title="NFT" width=600>
 
-#### Government Report, Guangzhou, China (Dr. Ziyuan Li, me)
-<img src="assets/images/gallery/Government%20Report.jpg" alt="Image" title="Report" width=600>
+<!-- #### Government Report, Guangzhou, China (Dr. Ziyuan Li, me)
+<img src="assets/images/gallery/Government%20Report.jpg" alt="Image" title="Report" width=600> -->
 
 <!-- #### Skiing, Guangzhou, China (Me, Zhang Yi, Yinzhi Xiong, Dr. Ziyuan Li)
  ![Image](assets/images/gallery/Skiing.jpg "Image@512x512") -->

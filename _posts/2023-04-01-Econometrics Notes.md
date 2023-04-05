@@ -193,3 +193,16 @@ If we want to transform linear regression into a causal inference problem, we ne
   - $$M^0 = I - p^0 = I - 1/n$$.
 
 - $$R^2 = \frac{ESS}{TSS} = \frac{\sum_i^n{\hat{y_i} - \bar{y}}}{\sum_i^n{y_i - \bar{y}}} = 1 - \frac{e'e}{y'M^0y}. $$
+
+
+### Stastiical Properties of OLS under Finite Sample
+- **Unbiasedness**: $$E(\hat{\beta} \vert X) = \beta$$.
+  - $$\hat{\beta} = (X'X)^{-1}X'Y = \beta + ((X'X)^{-1}X'\epsilon)$$.
+  - Under strict exogeneity, $$E(\epsilon \vert X) = 0$$, thus $$E(\hat{\beta} \vert X) = \beta$$.
+  - By law of interated expectations, $$ E(\hat{\beta}) = E[E(\hat{\beta} \vert X)] = E[\beta] = \beta$$. (unbiased)
+  - $$var(\hat{\beta \vert X}) = \sigma^2(X'X)^{-1}$$. Under homoskedasticity.
+- Variance (accuracy)
+  - In a simple regression model with intercept and a single regressor, $$var(\hat{\beta} \vert X) = \frac{\sigma^2}{\sum_i^n{(x_i - \bar{x})^2}}$$.
+  - For the regression model with two random regressors, $$var(\hat{\beta} \vert X) = \frac{\sigma^2}{\sum_i^n{(x_i - \bar{x})^2}}(1 - R_{3}^2)$$.
+    - R_3^2 is the R-squared of the regression of X_3 on 1 and X_2.
+    - In partitioned regression, we have $$b_2 = (X_2' M_1 X_2)^{-1}X_2'Y$$.
