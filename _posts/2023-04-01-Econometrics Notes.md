@@ -217,12 +217,13 @@ $$.
 - and $$
 \mathbf{b}_2=\left(X_2^{\prime} M_1 X_2\right)^{-1} X_2^{\prime} M_1 \mathbf{y}
 $$,
-  - where $$M_1=I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}$$. Denote
+  - where $$M_1=I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}$$. 
+  
+- Denote
 $$
 X=\left(X_1, x_{(K)}\right)
 $$
-
-- in other words $$X_2=x_{(K)}$$, which contains the Kth variable, then
+in other words $$X_2=x_{(K)}$$, which contains the Kth variable, then
 
 $$
 \begin{aligned}
@@ -263,7 +264,6 @@ $$
 where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of the variables. 
 
 #### Gaussian-Markov Theorem
-
 
 ## Topic 3: Empirical Methods First Look
 ### Selection Bias
