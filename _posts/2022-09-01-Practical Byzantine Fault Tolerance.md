@@ -9,7 +9,7 @@ article_header:
   background_color: '#123'
   background_image: false
 ---
-# Practical Byzantine Fault Tolerance (In Progress)
+# Practical Byzantine Fault Tolerance 
 Practical Byzantine Fault Tolerance (PBFT) is a robust algorithm that can continue to function even if up to 1/3 of the machines in a network fail in any way.
 
 The image below illustrates how the PBFT state machine processes requests [1].

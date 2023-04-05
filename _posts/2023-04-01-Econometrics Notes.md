@@ -81,6 +81,17 @@ $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsi
   - Consistent: $$\hat{\beta_j} \rightarrow \beta_j$$
   - Asymptotically normal: $$\hat{\beta_j} \sim N(\beta_j, \sigma^2 / n)$$
 
+- $$ Y = \beta_0 + \beta_1 X + u$$
+  - $$\beta_1 = cov(Y, X) / var(X)$$
+  - $$cov(u, X) = 0$$
+
+- $$ Y = E(Y \vert X) + u$$
+  - $$cov(u, X) = 0$$
+  - $$E(u \vert X) = 0$$
+  - $$E(u^2 \vert X) = var(u \vert X)$$
+  - $$E(u^3 \vert X) = 0$$
+  - $$E(u^4 \vert X) = 3 var(u \vert X)^2$$
+
 
 ### The causal diagram approach
 - If the causal relation goes like this: $$X \rightarrow Y$$ or $$W \rightarrow X \rightarrow Y$$ or $$X \rightarrow W \rightarrow Y$$, then we can use the causal diagram approach to estimate the causal effect of X on Y.
@@ -199,6 +210,8 @@ If we want to transform linear regression into a causal inference problem, we ne
   - $$M^0 = I - p^0 = I - 1/n$$.
 
 - $$R^2 = \frac{ESS}{TSS} = \frac{\sum_i^n{\hat{y_i} - \bar{y}}}{\sum_i^n{y_i - \bar{y}}} = 1 - \frac{e'e}{y'M^0y}$$.
+
+- $$R^2 = \frac{var(a + bx)}{Y} = 1 - \frac{var(u)}{var(Y)}
 
 
 ### Statistical Properties of OLS under Finite Sample
@@ -372,6 +385,13 @@ $$
     - **Relevant**: $$cov(X, Z) \neq 0$$
     - **Exogenous**: $$cov(Z, u) = 0$$, the tax does not influence the demand directly but only indrectly through price.
 
+### Randomized Experiments
+-  The causal model: $$Y = \beta_0 + \beta_1 D + u$$.
+- Suppose the treatment dummy is randomly assigned, then
+  - $$cov(D, u) = 0$$.
+  - $$E(u \vert D) = 0$$.
+  - $$u_i indepent of D_i$$.
+
 ### Panel Data
 - The causal model is $$Y_{it} = \beta_0 + \alpha_i + \beta_1 X_{it} + e_{it}$$.
   - where $$\alpha_i$$ is the time-invariant individual effect.
@@ -403,6 +423,24 @@ $$
 - iid means that the observations are independent and identically distributed.
 - However, conditional on other variables, they could be dependent.
 
+
+### Summary
+- Potential outcomes
+  - causal effect (causal model)
+  - RCT
+    - regression
+  - Observational data
+    - Condtional independence
+      - regression with controls (OLS)
+    - IV
+      - 2 stage least squares
+      - LATE: local average treatment effect
+      - GMM: generalized method of moments
+    - quasi-experimental
+      - DID: difference-in-difference
+        - synthetic control
+      - RDD: regression discontinuity design
+    - panel data
 
 ## Topic 4: Large Sample Theory of OLS
 ### Asymptotic properties of OLS
