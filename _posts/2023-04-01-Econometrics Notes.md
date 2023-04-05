@@ -343,3 +343,44 @@ $$
 0 & \cdots & \Sigma_S
 \end{array}\right] \text { is block diagonal. }
 $$
+
+### Instrumental Variables and Two-Stage Least Squares
+- The causal model is $$Y = \beta_0 + \beta_1 X + u$$.
+- However, $$cov(X, u) \neq 0$$, so we cannot use OLS to estimate the causal effect.
+- The **instrumental variable** method is to use a variable $$Z$$ that is correlated with $$X$$ but not with $$u$$.
+- Stage 1: Regress $$X$$ on $$Z$$: $$X = \gamma_0 + \gamma_1 Z + v$$.
+- Stage 2: Regress $$Y$$ on $$X$$: $$Y = \beta_0 + \beta_1 X + u$$.
+
+#### When we need to use instrumental variables?
+- When the treatment variable is endogenous, we need to use instrumental variables.
+- Example 1: if new scientific evidence shows more adverse effects of cigarettes, it would reduce the demand and then negatively affect the price.
+  - $$u$$ includes demand shock, which also affect price.
+- In short, shocks that affect both the treatment and the outcome are called **reverse causality** or **simultaneous causality**.
+  - In this case, a valid instrument is the sales tax.
+    - **Relevant**: $$cov(X, Z) \neq 0$$
+    - **Exogenous**: $$cov(Z, u) = 0$$, the tax does not influence the demand directly but only indrectly through price.
+
+### Panel Data
+- The causal model is $$Y_{it} = \beta_0 + \alpha_i + \beta_1 X_{it} + e_{it}$$.
+  - where $$\alpha_i$$ is the time-invariant individual effect.
+- Consider the time difference, we have $$Y_{it} - Y_{i, t-1} =\beta_1 X_{it} + e_{it} - \beta_1 X_{i, t-1} - e_{i, t-1}  $$.
+
+#### Difference-in-Difference (DID)
+- Y is measured in two periods, before and after the treatment.
+- Control group: $$Y_{it}^{control}, t = before, after$$
+- Treatment group: $$Y_{it}^{treatment}, t = before, after$$
+
+![Image](/assets/images/posts/econometrics/DID.png "DID")
+
+- Regression model of DID: $$Y_{it}^{treatment} - Y_{it}^{control} = \beta_0 + \beta_1 X_{it} + e_{it}$$.
+  - $$\beta_1$$ is the effect of the treatment on the outcome conditional on the treatment.
+
+
+#### Regression discountinuity design (RDD)
+- The causal model is $$Y_{it} = \beta_0 + \alpha_i + \beta_1 X_{it} + e_{it}$$.
+- If $$X_{it}$$ is a continuous variable, we can use the regression discontinuity design (RDD).
+- The effect of treatment should show up as a jump in the outcome at the cutoff point.
+- **sharp** regression: everyone above the cutoff is treated, everyone below is not treated.
+- **fuzzy** regression: crossing the threshold influences the probability of being treated.
+
+![Image](/assets/images/posts/econometrics/RDD.png "RDD")
