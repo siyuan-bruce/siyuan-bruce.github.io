@@ -192,17 +192,154 @@ If we want to transform linear regression into a causal inference problem, we ne
   - $$p^0 = i (i' i)^{-1} i' = i (1/n)^{-1} i' = 1/n$$.
   - $$M^0 = I - p^0 = I - 1/n$$.
 
-- $$R^2 = \frac{ESS}{TSS} = \frac{\sum_i^n{\hat{y_i} - \bar{y}}}{\sum_i^n{y_i - \bar{y}}} = 1 - \frac{e'e}{y'M^0y}. $$
+- $$R^2 = \frac{ESS}{TSS} = \frac{\sum_i^n{\hat{y_i} - \bar{y}}}{\sum_i^n{y_i - \bar{y}}} = 1 - \frac{e'e}{y'M^0y}$$.
 
 
-### Stastiical Properties of OLS under Finite Sample
+### Statistical Properties of OLS under Finite Sample
 - **Unbiasedness**: $$E(\hat{\beta} \vert X) = \beta$$.
   - $$\hat{\beta} = (X'X)^{-1}X'Y = \beta + ((X'X)^{-1}X'\epsilon)$$.
   - Under strict exogeneity, $$E(\epsilon \vert X) = 0$$, thus $$E(\hat{\beta} \vert X) = \beta$$.
   - By law of interated expectations, $$ E(\hat{\beta}) = E[E(\hat{\beta} \vert X)] = E[\beta] = \beta$$. (unbiased)
   - $$var(\hat{\beta \vert X}) = \sigma^2(X'X)^{-1}$$. Under homoskedasticity.
-- Variance (accuracy)
+- **Variance** (accuracy)
   - In a simple regression model with intercept and a single regressor, $$var(\hat{\beta} \vert X) = \frac{\sigma^2}{\sum_i^n{(x_i - \bar{x})^2}}$$.
   - For the regression model with two random regressors, $$var(\hat{\beta} \vert X) = \frac{\sigma^2}{\sum_i^n{(x_i - \bar{x})^2}}(1 - R_{3}^2)$$.
-    - R_3^2 is the R-squared of the regression of X_3 on 1 and X_2.
-    - In partitioned regression, we have $$b_2 = (X_2' M_1 X_2)^{-1}X_2'Y$$.
+    - $$R_3^2$$ is the R-squared of the regression of $$X_3$$ on 1 and $$X_2$$.
+
+**Proof:**
+
+Consider the partitioned regression model $$Y = X_1b_1 + X_2b_2 + \epsilon$$.
+
+$$
+X=\left[X_1, X_2\right], \beta=\left(\beta_1^{\prime}, \beta_2^{\prime}\right)^{\prime} \in R^{K_1+K_2}, \hat{\beta}=\left(\mathbf{b}_1^{\prime}, \mathbf{b}_2^{\prime}\right)^{\prime},
+$$
+and
+$$
+\mathbf{b}_2=\left(X_2^{\prime} M_1 X_2\right)^{-1} X_2^{\prime} M_1 \mathbf{y}
+$$
+where $M_1=I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}$. Denote
+$$
+X=\left(X_1, x_{(K)}\right)
+$$
+in other words $X_2=x_{(K)}$, which contains the Kth variable, then
+$$
+\begin{aligned}
+\mathbf{b}_2 & =\left(X_2^{\prime} M_1 X_2\right)^{-1} X_2^{\prime} M_1 \mathbf{y} \\
+& =\left(x_{(K)}^{\prime} M_1 x_{(K)}\right)^{-1} x_{(K)}^{\prime} M_1 \mathbf{y} \\
+& =\left(X_2^{\prime} M_1 X_2\right)^{-1} X_2^{\prime} M_1\left(X_1 \beta_1+X_2 \beta_2+\varepsilon\right) \\
+& =\beta_2+\left(X_2^{\prime} M_1 X_2\right)^{-1} X_2^{\prime} M_1 \varepsilon \\
+& =\beta_K+\left(x_{(K)}^{\prime} M_1 x_{(K)}\right)^{-1} x_{(K)}^{\prime} M_1 \varepsilon
+\end{aligned}
+$$
+Thus
+$$
+\mathbf{E}\left(\mathbf{b}_2 \mid X\right)=\beta_2
+$$
+and
+$$
+\operatorname{var}\left(\mathbf{b}_2 \mid X\right)=\sigma^2\left(X_2^{\prime} M_1 X_2\right)^{-1}
+$$
+where
+$$
+\begin{aligned}
+  X_2^{\prime} M_1 X_2 &= x_{(K)}^{\prime}\left[I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}\right] x_{(K)} \\
+  & =\left[x_{(K)}-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime} x_{(K)}\right]^{\prime}\left(x_{(K)}-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime} x_{(K)}\right) \\
+& =e'_{(K)}{e }_{(K)} \\
+& =\frac{e_{(K)}^{\prime} e_{(K)}}{\sum_{i=1}^n\left(x_{i K}-\bar{x}_K\right)^2} \sum_{i=1}^n\left(x_{i K}-\bar{x}_K\right)^2 \\
+& =\left(1-R_{(K)}^2\right) \sum_{i=1}^n\left(x_{i K}-\bar{x}_K\right)^2,
+\end{aligned}
+$$
+where $R_{(K)}^2$ is the R-squared of regressing $x_{(K)}$ on $X_1$. Hence
+$$
+\operatorname{var}\left(\mathbf{b}_2 \mid X\right)=\sigma^2\left(X_2^{\prime} M_1 X_2\right)^{-1}=\frac{\sigma^2}{\sum_{i=1}^n\left(x_{i K}-\bar{x}_K\right)^2} \frac{1}{\left(1-R_{(K)}^2\right)}
+$$
+where $R_{(K)}^2$ is the R-squared of regressing $x_{(K)}$ on the rest of the variables. 
+
+#### Gaussian-Markov Theorem
+
+
+## Topic 3: Empirical Methods First Look
+### Selection Bias
+- We have many tools to deal with selection bias:
+  - control variables
+  - use external instruments
+  - randomized controlled trials
+  - exploit information from quasi-experiments or natural experiments
+  - construct a proxy control group
+
+#### Control variables Methods
+- **Control variables** are variables that are correlated with the treatment variable but are not affected by the treatment variable.
+- For a causal model:
+  - $$Y = \beta_0 + \beta_1 X + u$$
+  - where $$u$$ includes all other causal factors that affect $$Y$$ but are not included in the model.
+- We want to find a regression model:
+  - $$ Y = \beta_0 + \beta_1 X + \beta_2 Z + e$$, $$E(e|X,Z) = 0$$
+  - such that **$$\beta_1$$ is unbiased**.
+- We achive this by using a **control variable** $$Z$$ that conditional on $$Z$$, $$u$$ is independent of $$X$$.
+  - $$E(u|X,Z) = E(u|Z)$$ (Conditional Independence means Condtional mean Independence).
+
+- We can assume the conditional mean is linear: $$E(u|X, Z) = E(u|Z) = \alpha_0 + \alpha_1 Z$$.
+  - Then we can represent u as $$u = \alpha_0 + \alpha_1 Z + e$$. E(e|X,Z) = 0.
+  - The causal model becomes $$Y = \beta_0 + \beta_1 X + \alpha_0 + \alpha_1 Z + e$$, where $$E(e|X,Z) = 0$$.
+
+
+##### Ommitted Variable Bias
+Omitted variable bias occurs when a variable that affects both the dependent variable and treatment effect is not included in the regression model. 
+
+##### Selection Bias
+Selection bias occurs when the sample is not representative of the population. We can control some variables, we hope to make treatment randomly assigned conditional on the control variables.
+
+
+#### What to control?
+- A good control variable makes conditional mean independence assumption more likely to hold. 
+- We can control more for a robustness check.
+- The coefficients of the control variables are not cessarily causal and we do not need to interpret them.
+
+#### Bad controls
+- Bad controls block the causal channel of interest and lead to biased estimation.
+
+#### Proxy Controls
+- Some controls are not available in the data. We can use proxy controls, such as the ability.
+
+#### Cluster Robust Standard Errors
+- We can use cluster robust standard errors to control for the correlation between observations within the same cluster.
+- The clustered standard errors will take into account the correlation between observations within the same cluster.
+- 
+Conventional SE assume: $$\sigma_{i j}=\sigma^2$$, if $$i=j$$, and $$=0$$ if $$i \neq j$$.
+$$
+\operatorname{var}(u)=\left[\begin{array}{ccc}
+\sigma^2 & \cdots & 0 \\
+\vdots & \ddots & \vdots \\
+0 & \cdots & \sigma^2
+\end{array}\right]
+$$
+Robust SE assumes: $\sigma_{i j}=\sigma_i^2$, if $i=j$, and $=0$ if $i \neq j$.
+$$
+\operatorname{var}(u)=\left[\begin{array}{ccc}
+\sigma_1^2 & \cdots & 0 \\
+\vdots & \ddots & \vdots \\
+0 & \cdots & \sigma_n^2
+\end{array}\right]
+$$
+Cluster Standard Errors (Technical Note)
+Cluster SE assumes:
+$$
+\sigma_{i j}=\left\{\begin{array}{cc}
+\sigma_i^2, & i=j \\
+0 & i, j \text { not in the same school } \\
+\sigma_{i j} & i, j \text { in the same school }
+\end{array}\right.
+$$
+Suppose there are $S$ schools. Let $\Sigma_s$ denote covariance of errors in school s that has $n_s$ students: $\Sigma_s=\left[\begin{array}{ccc}\sigma_1^2 & \cdots & \sigma_{1 n_s} \\ \vdots & \ddots & \vdots \\ \sigma_{n_s 1} & \cdots & \sigma_{n_s}^2\end{array}\right]$.
+Then
+$$
+\operatorname{var}(u) \equiv\left[\begin{array}{ccc}
+\sigma_1^2 & \cdots & \sigma_{1 n} \\
+\vdots & \ddots & \vdots \\
+\sigma_{n 1} & \cdots & \sigma_n^2
+\end{array}\right]=\left[\begin{array}{ccc}
+\Sigma_1 & \cdots & 0 \\
+\vdots & \ddots & \vdots \\
+0 & \cdots & \Sigma_S
+\end{array}\right] \text { is block diagonal. }
+$$
