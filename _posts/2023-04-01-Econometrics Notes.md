@@ -210,16 +210,14 @@ If we want to transform linear regression into a causal inference problem, we ne
 
 - Consider the partitioned regression model $$Y = X_1b_1 + X_2b_2 + \epsilon$$.
 
-- $$
+- In a partitioned regression: $$
 X=\left[X_1, X_2\right], \beta=\left(\beta_1^{\prime}, \beta_2^{\prime}\right)^{\prime} \in R^{K_1+K_2}, \hat{\beta}=\left(\mathbf{b}_1^{\prime}, \mathbf{b}_2^{\prime}\right)^{\prime},
-$$
+$$.
 
-- and
-
-$$
+- and $$
 \mathbf{b}_2=\left(X_2^{\prime} M_1 X_2\right)^{-1} X_2^{\prime} M_1 \mathbf{y}
-$$
-where $$M_1=I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}$$. Denote
+$$,
+  - where $$M_1=I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}$$. Denote
 $$
 X=\left(X_1, x_{(K)}\right)
 $$
@@ -237,7 +235,6 @@ $$
 $$
 
 - Thus
-
 $$
 \mathbf{E}\left(\mathbf{b}_2 \mid X\right)=\beta_2
 $$
@@ -245,8 +242,8 @@ and
 $$
 \operatorname{var}\left(\mathbf{b}_2 \mid X\right)=\sigma^2\left(X_2^{\prime} M_1 X_2\right)^{-1}
 $$
-where
 
+where
 $$
 \begin{aligned}
   X_2^{\prime} M_1 X_2 &= x_{(K)}^{\prime}\left[I-X_1\left(X_1^{\prime} X_1\right)^{-1} X_1^{\prime}\right] x_{(K)} \\
