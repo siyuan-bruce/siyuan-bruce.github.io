@@ -138,7 +138,7 @@ Consider two observed dummies: $$W_i = 1$$ if white collar, $$X_i = 1$$ if colle
 - Potential earnings $$\{Y_{1i}, Y_{0i}\}$$; potential white-collar status $$\{W_{1i}, W_{0i}\}$$.
 - Observed outcomes vs potential (linked by observed treatment): $$Y_i = X_iY_{1i} + (1-X_i)Y_{0i}$$, $$W_i = X_iW_{1i} + (1-X_i)W_{0i}$$.
 - To simplify analysis, assume that $$X$$ is randomly assigned and thus is independent of all potential outcomes $$\{Y_{1i}, Y_{0i}, W_{1i}, W_{0i}\}$$.
-- Suppose we hold constant $W_i=1$: only look at earning difference in the white-collar group due to college.
+  - Suppose we hold constant $W_i=1$: only look at earning difference in the white-collar group due to college.
 
 $$
 \begin{aligned}
@@ -148,8 +148,8 @@ $$
 \end{aligned}
 $$
 
-- Selection bias = $$E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] < 0$$: those whose lower potential job is white collar despite no college should have higher earnings anyway.
-- So comparing earnings difference among white-collar group tends to underestimate the effect of college on earnings. The potential outcomes analysis verifies both the causal diagram’s implications and our economic intuition.
+  - Selection bias = $$E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] < 0$$: those whose lower potential job is white collar despite no college should have higher earnings anyway.
+  - So comparing earnings difference among white-collar group tends to underestimate the effect of college on earnings. The potential outcomes analysis verifies both the causal diagram’s implications and our economic intuition.
 
 
 ## Topic 2: Finite Sample Thoery of OLS
@@ -411,7 +411,6 @@ $$
   - $$\beta_1$$ is the effect of the treatment on the outcome conditional on the treatment.
 
 
-
 #### Regression discountinuity design (RDD)
 - The causal model is $$Y_{it} = \beta_0 + \alpha_i + \beta_1 X_{it} + e_{it}$$.
 - If $$X_{it}$$ is a continuous variable, we can use the regression discontinuity design (RDD).
@@ -465,3 +464,57 @@ $$
 
 ##### Heteroskedasticity: GLS and White test
 - Heteroskedasticity: $$var(\epsilon_i \vert x_i) = \sigma_i^2$$. The variance differs across $$x_i$$.
+
+
+
+### Large Sample Theory of OLS on Ommited Variable Bias
+- Assume the model: $$Y = \beta_0 + \beta_1 X + \beta_2 Z + \epsilon, E(\epsilon \vert X, W) = 0$$.
+- Denote the OLS for the short regression $$Y = \beta_0 + \beta_1 X + \epsilon$$ as $$\hat{\beta}_1$$.
+- Then the ommited variable bias is $$\hat{beta_1} - {\beta}_1 = cov(X, Z)/var(X) = \beta_2 \beta_{Z \vert X}$$.
+  - $$\beta_{Z \vert X} is the population regression coefficient of regressing Z on X$$.
+
+- Assume we have a model: $$Y = \beta_0 + \beta_1 X + \beta_2 W_1 + \beta_3 W_2 + \epsilon, E(\epsilon \vert X, W_1, W_2) = 0$$. and $$W_2$$ is unobservable.
+- Then the OVB for regression without controls is $$\hat{\beta}_1 - \beta_1 = cov(X, \beta_2 W_2 + \beta_3 W_2) / var(X) = \beta_2 \beta_{W_1 | X} + \beta_3 |beta_{W_2 | X}$$.
+  - Considering controlling for $$W_1$$ but not $$W_2$$, the regression is $$Y = \beta_0 + \beta_1 X + \beta_2 W_1 + \epsilon, cov(u, X) = cov(u, W_1) = 0$$.
+  - Let $$W=\left[1, W_1\right]$$, then $$M_W c=0$$ and $$M_W W_1=0$$. the OLS
+$$
+\begin{aligned}
+\hat{b}_1 & =\left(X^{\prime} M_W X\right)^{-1}\left(X^{\prime} M_W y\right) \\
+& =\left(X^{\prime} M_W X\right)^{-1}\left(X^{\prime} M_W\left(c+X \beta+W_1 \gamma_1+W_2 \gamma_2+\varepsilon\right)\right) \\
+& =\beta+\left(X^{\prime} M_W X\right)^{-1}\left(X^{\prime} M_W\left(W_2 \gamma_2+\varepsilon\right)\right)
+\end{aligned}
+$$
+- Consider the population projection (regress both $\mathrm{X}$ and $\mathrm{W}_2$ on $\mathrm{W}$ ):
+$$
+\begin{aligned}
+X & =W \alpha_X+e_X, \operatorname{cov}\left(e_X, W\right)=0 \\
+\mathcal{W}_2 & =W \alpha_2+e_2, \operatorname{cov}\left(e_2, W\right)=0
+\end{aligned}
+$$
+- The limit
+$$
+\begin{aligned}
+& \frac{1}{n} X^{\prime} M_W X=\frac{1}{n} \hat{e}_X^{\prime} \hat{e}_X \stackrel{p}{\rightarrow} E\left(e_X^2\right) \\
+& \frac{1}{n} X^{\prime} M_W W_2 \stackrel{p}{\rightarrow} \operatorname{cov}\left(e_X, e_2\right)
+\end{aligned}
+$$
+2
+$$
+\frac{1}{n} X^{\prime} M_W \varepsilon \stackrel{p}{\rightarrow} 0
+$$
+- Remark: for a general linear regression $y=X \beta+\varepsilon$ with $\hat{e}$ being the OLS residuals,
+$$
+\begin{aligned}
+\frac{1}{n} \hat{e}^{\prime} \hat{e} & =\frac{1}{n} \varepsilon^{\prime} M_X \varepsilon=\frac{1}{n} \varepsilon^{\prime}\left(I-P_X\right) \varepsilon \\
+& =\frac{1}{n} \varepsilon^{\prime} \varepsilon-\frac{1}{n} \varepsilon^{\prime} P_X \varepsilon \\
+& =\frac{1}{n} \varepsilon^{\prime} \varepsilon-\frac{1}{n} \varepsilon^{\prime} X\left(X^{\prime} X\right)^{-1} X^{\prime} \varepsilon \\
+& =\frac{1}{n} \varepsilon^{\prime} \varepsilon-\frac{\varepsilon^{\prime} X}{n}\left(\frac{X^{\prime} X}{n}\right)^{-1} \frac{X^{\prime} \varepsilon}{n} \\
+& \stackrel{p}{\rightarrow} E\left(\varepsilon_i^2\right)
+\end{aligned}
+$$
+- So the OVB in the limit
+$$
+\hat{b}_1-\beta \stackrel{p}{\rightarrow} \gamma_2 \frac{\operatorname{cov}\left(e_X, e_2\right)}{\operatorname{var}\left(e_X\right)}
+$$
+  - the $$cov(e_X, e_2)$$ is the regression coefficient of $$W_2$$ on $$X$$ and $$W$$, so $$\beta_{W_2 \vert X, W_1} = \frac{\operatorname{cov}\left(e_X, e_2\right)}{\operatorname{var}\left(e_X\right)}$$.
+  - Remark: if $$E(W_2 \vert W_1, X) = E(W_2 \vert W_1)$$, then $$\beta_{W_2 \vert X, W_1} = 0$$. We hope that conditional on $$W_1$$, $$X$$ is uncorrelated with $$W_2$$.
