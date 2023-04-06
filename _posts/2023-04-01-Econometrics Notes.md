@@ -68,7 +68,7 @@ $$\hat{\beta_1} - \beta_1 = \frac{cov(\epsilon, X)}{var(X)}$$
 $$Y_i = \beta_0 + \beta_1 X_{i} + \beta_2 W_i + \epsilon_i$$
 - $$\beta_1$$ reflects X's direct effect on Y, when W remains the same.
 
-#### Statistical thoery of OLS
+#### Statistical theory of OLS
 - Considering a linear regression model with $$p$$ regressors:
 $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsilon_i$$
 - The four least squares assumptions:
@@ -81,16 +81,16 @@ $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsi
   - Consistent: $$\hat{\beta_j} \rightarrow \beta_j$$
   - Asymptotically normal: $$\hat{\beta_j} \sim N(\beta_j, \sigma^2 / n)$$
 
-- $$ Y = \beta_0 + \beta_1 X + u$$
-  - $$\beta_1 = cov(Y, X) / var(X)$$
-  - $$cov(u, X) = 0$$
+- $$ Y = \beta_0 + \beta_1 X + u$$.
+  - $$\beta_1 = cov(Y, X) / var(X)$$.
+  - $$cov(u, X) = 0$$.
 
-- $$ Y = E(Y \vert X) + u$$
-  - $$cov(u, X) = 0$$
-  - $$E(u \vert X) = 0$$
-  - $$E(u^2 \vert X) = var(u \vert X)$$
-  - $$E(u^3 \vert X) = 0$$
-  - $$E(u^4 \vert X) = 3 var(u \vert X)^2$$
+- $$ Y = E(Y \vert X) + u$$.
+  - $$cov(u, X) = 0$$.
+  - $$E(u \vert X) = 0$$.
+  - $$E(u^2 \vert X) = var(u \vert X)$$.
+  - $$E(u^3 \vert X) = 0$$.
+  - $$E(u^4 \vert X) = 3 var(u \vert X)^2$$.
 
 
 ### The causal diagram approach
@@ -399,13 +399,17 @@ $$
 
 #### Difference-in-Difference (DID)
 - Y is measured in two periods, before and after the treatment.
-- Control group: $$Y_{it}^{control}, t = before, after$$
-- Treatment group: $$Y_{it}^{treatment}, t = before, after$$
+  - Control group: $$Y_{it}^{control}, t = before, after$$
+  - Treatment group: $$Y_{it}^{treatment}, t = before, after$$
+- Conditional Parallel Trend: $$E(Y_{it}^{treatment} - Y_{it}^{control} \vert D = 1, X_{it}) = (Y_{it}^{treatment} - Y_{it}^{control} \vert D = 0, X_{it})$$.
+  - This means the difference between the treatment and control group should be the same before and after the treatment **conditional on X**.
+
 
 ![Image](/assets/images/econometrics/DID.png "DID")
 
 - Regression model of DID: $$Y_{it}^{treatment} - Y_{it}^{control} = \beta_0 + \beta_1 X_{it} + e_{it}$$.
   - $$\beta_1$$ is the effect of the treatment on the outcome conditional on the treatment.
+
 
 
 #### Regression discountinuity design (RDD)
