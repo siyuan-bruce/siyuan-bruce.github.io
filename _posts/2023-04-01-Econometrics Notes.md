@@ -129,7 +129,7 @@ In this case, we can control for W to get the causal effect of X on Y.
   - $$E(Y_i \vert X_i, W_i) = E(Y_i \vert W_i)$$, this implies $$Y_i$$ is uncorrerlated with $$X_i$$, given $$W_i$$, equivalently, $$ E(\epsilon_i \vert X_i, W_i) = E(\epsilon_i \vert  W_i)$$.
 
 - independence $$\rightarrow$$ constant conditional mean $$\rightarrow$$ no correlation.
-- no correlation $$not \rightarrow$$ constant conditional mean $$not \rightarrow$$ independence.
+- no correlation $$\not\Rightarrow$$ constant conditional mean $\not\Rightarrow$ independence.
 
 
 ### Bad Controls using potential outcome anaylsis
