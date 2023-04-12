@@ -474,7 +474,7 @@ $$
   - $$\beta_{Z \vert X} $$ is the population regression coefficient of regressing $$Z$$ on $$X$$.
 
 - Assume we have a model: $$Y = \beta_0 + \beta_1 X + \beta_2 W_1 + \beta_3 W_2 + \epsilon, E(\epsilon \vert X, W_1, W_2) = 0$$. and $$W_2$$ is unobservable.
-- Then the OVB for regression without controls is $$\hat{\beta}_1 - \beta_1 = cov(X, \beta_2 W_2 + \beta_3 W_2) / var(X) = \beta_2 \beta_{W_1 \vert X} + \beta_3 |beta_{W_2 \vert X}$$.
+- Then the OVB for regression without controls is $$\hat{\beta}_1 - \beta_1 = cov(X, \beta_2 W_2 + \beta_3 W_2) / var(X) = \beta_2 \beta_{W_1 \vert X} + \beta_3 \vert beta_{W_2 \vert X}$$.
   - Considering controlling for $$W_1$$ but not $$W_2$$, the regression is $$Y = \beta_0 + \beta_1 X + \beta_2 W_1 + \epsilon, cov(u, X) = cov(u, W_1) = 0$$.
   - Let $$W=\left[1, W_1\right]$$, then $$M_W c=0$$ and $$M_W W_1=0$$. the OLS
 $$

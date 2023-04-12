@@ -198,9 +198,9 @@ v_approx is accumulation of sampled rows of matrix A that is normalized and cons
 u_approx is construced by $$A^H \times v$$.
 
 
-1. Sample $r$ row indices $i_1, i_2, \ldots, i_r$ from the row distribution $p(i)$. For each row index, select the row $A_{i_s}$ and renormalize it as $R_{i_s}=\frac{\|A\|_F}{\sqrt{r}\left\|A_{i_s}\right\|} A_{i_s}$. This defines an $r \times n$ matrix $R$ consisting of the rescaled rows $R_{i_s}$.
-2. Select an index $s \in\{1,2, \ldots, r\}$ uniformly at random, then sample a column index $j$ from the column distribution $q_{i_s}(j)$. Repeat this a total of $c$ times to obtain column indices $j_1, j_2, \ldots, j_c$. For each column index, select the column $R_{\cdot, j_t}$ and renormalize it as $C_{\cdot, j_t}=$ $\frac{\|A\|_F}{\sqrt{c}\left\|R_{\cdot, j_t}\right\|} R_{\cdot, j_t}$. This defines a matrix $C$ consisting of the rescaled columns $C_{\cdot, j_t}$.
-3. Compute the singular value decomposition of $C$.
+1. Sample $$r$$ row indices $$i_1, i_2, \ldots, i_r$$ from the row distribution $$p(i)$$. For each row index, select the row $$A_{i_s}$$ and renormalize it as $$R_{i_s}=\frac{\|A\|_F}{\sqrt{r}\left\|A_{i_s}\right\|} A_{i_s}$$. This defines an $$r \times n$$ matrix $$R$$ consisting of the rescaled rows $$R_{i_s}$$.
+2. Select an index $$s \in\{1,2, \ldots, r\}$$ uniformly at random, then sample a column index $$j$$ from the column distribution $$q_{i_s}(j)$$. Repeat this a total of $$c$$ times to obtain column indices $$j_1, j_2, \ldots, j_c$$. For each column index, select the column $$R_{\cdot, j_t}$$ and renormalize it as $$C_{\cdot, j_t}=$$ $$\frac{\|A\|_F}{\sqrt{c}\left\|R_{\cdot, j_t}\right\|} R_{\cdot, j_t}$$. This defines a matrix $$C$$ consisting of the rescaled columns $$C_{\cdot, j_t}$$.
+3. Compute the singular value decomposition of $$C$$.
 
 
 
