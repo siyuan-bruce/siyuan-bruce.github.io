@@ -477,6 +477,7 @@ $$
 - Then the OVB for regression without controls is $$\hat{\beta}_1 - \beta_1 = cov(X, \beta_2 W_2 + \beta_3 W_2) / var(X) = \beta_2 \beta_{W_1 \vert X} + \beta_3 \vert beta_{W_2 \vert X}$$.
   - Considering controlling for $$W_1$$ but not $$W_2$$, the regression is $$Y = \beta_0 + \beta_1 X + \beta_2 W_1 + \epsilon, cov(u, X) = cov(u, W_1) = 0$$.
   - Let $$W=\left[1, W_1\right]$$, then $$M_W c=0$$ and $$M_W W_1=0$$. the OLS
+
 $$
 \begin{aligned}
 \hat{b}_1 & =\left(X^{\prime} M_W X\right)^{-1}\left(X^{\prime} M_W y\right) \\
@@ -484,7 +485,9 @@ $$
 & =\beta+\left(X^{\prime} M_W X\right)^{-1}\left(X^{\prime} M_W\left(W_2 \gamma_2+\varepsilon\right)\right)
 \end{aligned}
 $$
+
 - Consider the population projection (regress both $\mathrm{X}$ and $\mathrm{W}_2$ on $\mathrm{W}$ ):
+
 $$
 \begin{aligned}
 X & =W \alpha_X+e_X, \operatorname{cov}\left(e_X, W\right)=0 \\
@@ -498,11 +501,13 @@ $$
 & \frac{1}{n} X^{\prime} M_W W_2 \stackrel{p}{\rightarrow} \operatorname{cov}\left(e_X, e_2\right)
 \end{aligned}
 $$
-2
+
 $$
 \frac{1}{n} X^{\prime} M_W \varepsilon \stackrel{p}{\rightarrow} 0
 $$
-- Remark: for a general linear regression $y=X \beta+\varepsilon$ with $\hat{e}$ being the OLS residuals,
+
+- Remark: for a general linear regression $$y=X \beta+\varepsilon$$ with $$\hat{e}$$ being the OLS residuals,
+
 $$
 \begin{aligned}
 \frac{1}{n} \hat{e}^{\prime} \hat{e} & =\frac{1}{n} \varepsilon^{\prime} M_X \varepsilon=\frac{1}{n} \varepsilon^{\prime}\left(I-P_X\right) \varepsilon \\
@@ -512,9 +517,10 @@ $$
 & \stackrel{p}{\rightarrow} E\left(\varepsilon_i^2\right)
 \end{aligned}
 $$
+
 - So the OVB in the limit
 $$
-\hat{b}_1-\beta \stackrel{p}{\rightarrow} \gamma_2 \frac{\operatorname{cov}\left(e_X, e_2\right)}{\operatorname{var}\left(e_X\right)}
+\hat{b}_1-\beta \stackrel{p}{\rightarrow} \gamma_2 \frac{\operatorname{cov}\left(e_{X}, e_2\right)}{\operatorname{var}\left(e_X\right)}
 $$
-  - the $$cov(e_X, e_2)$$ is the regression coefficient of $$W_2$$ on $$X$$ and $$W$$, so $$\beta_{W_2 \vert X, W_1} = \frac{\operatorname{cov}\left(e_X, e_2\right)}{\operatorname{var}\left(e_X\right)}$$.
+  - the $$cov(e_X, e_2)$$ is the regression coefficient of $$W_2$$ on $$X$$ and $$W$$, so $$\beta_{W_2 \vert X, W_1} = \frac{\operatorname{cov}\left(e_{X}, e_2\right)}{\operatorname{var}\left(e_X\right)}$$.
   - Remark: if $$E(W_2 \vert W_1, X) = E(W_2 \vert W_1)$$, then $$\beta_{W_2 \vert X, W_1} = 0$$. We hope that conditional on $$W_1$$, $$X$$ is uncorrelated with $$W_2$$.
