@@ -12,9 +12,8 @@ article_header:
 
 This is a collection of my notes on Econometrics. I will update this post as I progress. The notes are based on the lectures by Prof. Peng Wang in Hong Kong University of Science and Technology. I will not copy the content of the lectures directly. Instead, I will try to summarize the key points and add my own thoughts.
 
-# Notes
-## Topic 1: Linear Regression and Causal Inference
-### Regression Analysis of Causal Model
+# Topic 1: Linear Regression and Causal Inference
+## Regression Analysis of Causal Model
 Causal effects can be identified by regression analysis.
 - Assume the observed data is given by {Y_i, X_i, Z_i} for i = 1, ..., n.
 - The most simple causal model is the linear regression model:
@@ -63,12 +62,12 @@ $$\hat{\beta_1} - \beta_1 = \frac{cov(\epsilon, X)}{var(X)}$$
     - It also implies $$E\{Y_i(0)\vert X_i\} \neq E\{Y_i(0)\}$$ or $$E\{Y_i(1)\vert X_i\} \neq E\{Y_i(1)\}$$.
 
 
-### Multiple Regression
+## Multiple Regression
 - Multiple regression is a generalization of the simple regression model. Assume we have two regressors:
 $$Y_i = \beta_0 + \beta_1 X_{i} + \beta_2 W_i + \epsilon_i$$
 - $$\beta_1$$ reflects X's direct effect on Y, when W remains the same.
 
-#### Statistical theory of OLS
+## Statistical theory of OLS
 - Considering a linear regression model with $$p$$ regressors:
 $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsilon_i$$
 - The four least squares assumptions:
@@ -93,7 +92,7 @@ $$Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + ... + \beta_p X_{ip} + \epsi
   - $$E(u^4 \vert X) = 3 var(u \vert X)^2$$.
 
 
-### The causal diagram approach
+## The causal diagram approach
 - If the causal relation goes like this: $$X \rightarrow Y$$ or $$W \rightarrow X \rightarrow Y$$ or $$X \rightarrow W \rightarrow Y$$, then we can use the causal diagram approach to estimate the causal effect of X on Y.
 - If we have the causal model X both causes X and W, and W causes Y, which is like:
   - $$X \rightarrow W \rightarrow Y$$.
@@ -124,7 +123,7 @@ In this case, we can control for W to get the causal effect of X on Y.
   - The variable is not affected by X.
 
 
-### The potential outcome framework.
+## The potential outcome framework
 - The conditional mean independence assumption:
   - $$E(Y_i \vert X_i, W_i) = E(Y_i \vert W_i)$$, this implies $$Y_i$$ is uncorrerlated with $$X_i$$, given $$W_i$$, equivalently, $$ E(\epsilon_i \vert X_i, W_i) = E(\epsilon_i \vert  W_i)$$.
 
@@ -151,33 +150,55 @@ $$
   - Selection bias = $$E[Y_{0i}\vert W_{1i}=1] - E[Y_{0i}\vert W_{0i}=1] < 0$$: those whose lower potential job is white collar despite no college should have higher earnings anyway.
   - So comparing earnings difference among white-collar group tends to underestimate the effect of college on earnings. The potential outcomes analysis verifies both the causal diagram’s implications and our economic intuition.
 
+### Counterfactual Estimation
+A treatment was assignmned to a random sample of individuals, and the outcome $$Y_i$$ is observed for each individual. The goal is to estimate the causal effect of the treatment on the outcome.
+- The treatment $$D_i$$ is a binary variable, $$D_i = 1$$ if the individual is treated, $$D_i = 0$$ if the individual is not treated.
+- The randomness is conditional on the observed covariates $$X_i$$.
 
-## Topic 2: Finite Sample Thoery of OLS
+1. Prove that the counterfactual $$E(Y_i(0) \vert D_i = 1)$$ can be estimated by $$E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$ and the treatment effect can be estimated by $$E(Y_i \vert D_i = 1) - E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$.  
+**Answer:** 
+$$ \begin{aligned}
+E\left[Y_i(0) \mid D_i=1\right] & =E\left\{E\left[Y_i(0) \mid X_i, D_i=1\right] \mid D_i=1\right\} \\
+& =E\left\{E\left[Y_i(0) \mid X_i, D_i=0\right] \mid D_i=1\right\}, \text { conditional independence } \\
+& =E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\}
+\end{aligned} $$
+So the counterfactual can be measured by the data. As a result,
+$$
+\begin{aligned}
+\tau_{\text {treat }} & =E\left[Y_i(1) \mid D_i=1\right]-E\left[Y_i(0) \mid D_i=1\right] \\
+& =E\left[Y_i(1) \mid D_i=1\right]-E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\},
+\end{aligned}
+$$
+which can also be measured by the data. 
+
+The basic idea here is you can change $$Y_i$$ conditional on $$D_i$$, but you cannot change $$D_i$$ conditional on $$Y_i$$. So the counterfactual can be measured by the data.
+
+# Topic 2: Finite Sample Thoery of OLS
 If we want to transform linear regression into a causal inference problem, we need to make sure the following assumptions hold.
 
-### Assumption
-#### Assumption 1(model linaer in parameters)
-#### Assumption 2(full rank or no multicollinearity)
+## Assumption
+## Assumption 1(model linaer in parameters)
+## Assumption 2(full rank or no multicollinearity)
 - The matrix $$X'X$$ is full rank.
 - Each variable cotains unique information.
   
-#### Assumption 3(stict exogeneity)
+## Assumption 3(stict exogeneity)
 - $$X_i$$ is not correlated with $$\epsilon_i$$.
 - Mean independence assumption: $$E(\epsilon \vert X) = 0$$.
   - or $$E(\epsilon_i \vert X_1i, X_2i...) = 0$$.
 - A weaker assumption: $$E(\epsilon_i \vert X_i) = 0$$.
   - the conditional esentially focues on different sections of the entire population.
 
-#### Assumption 4(spherical disturbance - on conditional variance/covariance)
+## Assumption 4(spherical disturbance - on conditional variance/covariance)
 - homoskedasticity: $$E(\epsilon_i^2 \vert X_i) = \sigma^2$$ while no cross correlation between $$\epsilon_i$$ and $$\epsilon_j$$.
 
 
-#### Assumption 5: normality of disturbance
+## Assumption 5: normality of disturbance
 - $$\epsilon_i \sim N(0, \sigma^2)$$.
 - useful for making statistical inference.
 
 
-### Algebra of OLS
+## Algebra of OLS
 - Based on first order condtion, we can have OLS estimator $$\hat{\beta} = (X'X)^{-1}X'Y$$.
 - The fitted value $$\hat{Y} = X\hat{\beta}$$.
 - The residual $$ e = Y - \hat{Y}$$ or in vector form: $$e = Y - X\hat{\beta} = (I - X(X'X)^{-1}X')y = M_x y$$.
@@ -193,7 +214,7 @@ If we want to transform linear regression into a causal inference problem, we ne
   - matrix form: $$X'e = 0$$ ($$e = My$$).
 
 
-### Partitioned Regression
+## Partitioned Regression
 - Let $$X = (X_1, X_2)$$, $$b = (b_1, b_2)$$.
 - We have $$ X'Xb = X'Y$$.
 - We can solve to get 
@@ -204,7 +225,7 @@ If we want to transform linear regression into a causal inference problem, we ne
 - Orthogonal regressors: suppose X_1 and X_2 are orthogonal, then $$b_1 = (X_1'X_1)^{-1}X_1'Y$$, $$b_2 = (X_2'X_2)^{-1}X_2'Y$$.
 
 
-### R-squared
+## R-squared
 - define a one-value vector $$ i = (1, 1, ..., 1)$$.
   - $$p^0 = i (i' i)^{-1} i' = i (1/n)^{-1} i' = 1/n$$.
   - $$M^0 = I - p^0 = I - 1/n$$.
@@ -214,7 +235,7 @@ If we want to transform linear regression into a causal inference problem, we ne
 - $$R^2 = \frac{var(a + bx)}{Y} = 1 - \frac{var(u)}{var(Y)}
 
 
-### Statistical Properties of OLS under Finite Sample
+## Statistical Properties of OLS under Finite Sample
 - **Unbiasedness**: $$E(\hat{\beta} \vert X) = \beta$$.
   - $$\hat{\beta} = (X'X)^{-1}X'Y = \beta + ((X'X)^{-1}X'\epsilon)$$.
   - Under strict exogeneity, $$E(\epsilon \vert X) = 0$$, thus $$E(\hat{\beta} \vert X) = \beta$$.
@@ -282,10 +303,10 @@ $$
 
 where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of the variables. 
 
-#### Gaussian-Markov Theorem
+## Gaussian-Markov Theorem
 
-## Topic 3: Empirical Methods First Look
-### Selection Bias
+# Topic 3: Empirical Methods First Look
+## Selection Bias
 - We have many tools to deal with selection bias:
   - control variables
   - use external instruments
@@ -293,7 +314,7 @@ where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of th
   - exploit information from quasi-experiments or natural experiments
   - construct a proxy control group
 
-#### Control variables Methods
+## Control variables Methods
 - **Control variables** are variables that are correlated with the treatment variable but are not affected by the treatment variable.
 - For a causal model:
   - $$Y = \beta_0 + \beta_1 X + u$$
@@ -309,25 +330,25 @@ where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of th
   - The causal model becomes $$Y = \beta_0 + \beta_1 X + \alpha_0 + \alpha_1 Z + e$$, where $$E(e\vert X,Z) = 0$$.
 
 
-##### Ommitted Variable Bias
+### Ommitted Variable Bias
 Omitted variable bias occurs when a variable that affects both the dependent variable and treatment effect is not included in the regression model. 
 
-##### Selection Bias
+### Selection Bias
 Selection bias occurs when the sample is not representative of the population. We can control some variables, we hope to make treatment randomly assigned conditional on the control variables.
 
 
-#### What to control?
+## What to control?
 - A good control variable makes conditional mean independence assumption more likely to hold. 
 - We can control more for a robustness check.
 - The coefficients of the control variables are not cessarily causal and we do not need to interpret them.
 
-#### Bad controls
+## Bad controls
 - Bad controls block the causal channel of interest and lead to biased estimation.
 
-#### Proxy Controls
+## Proxy Controls
 - Some controls are not available in the data. We can use proxy controls, such as the ability.
 
-#### Cluster Robust Standard Errors
+## Cluster Robust Standard Errors
 - We can use cluster robust standard errors to control for the correlation between observations within the same cluster.
 - The clustered standard errors will take into account the correlation between observations within the same cluster.
 - 
@@ -369,14 +390,14 @@ $$
 \end{array}\right] \text { is block diagonal. }
 $$
 
-### Instrumental Variables and Two-Stage Least Squares
+## Instrumental Variables and Two-Stage Least Squares
 - The causal model is $$Y = \beta_0 + \beta_1 X + u$$.
 - However, $$cov(X, u) \neq 0$$, so we cannot use OLS to estimate the causal effect.
 - The **instrumental variable** method is to use a variable $$Z$$ that is correlated with $$X$$ but not with $$u$$.
 - Stage 1: Regress $$X$$ on $$Z$$: $$X = \gamma_0 + \gamma_1 Z + v$$.
 - Stage 2: Regress $$Y$$ on $$X$$: $$Y = \beta_0 + \beta_1 X + u$$.
 
-#### When we need to use instrumental variables?
+## When we need to use instrumental variables?
 - When the treatment variable is endogenous, we need to use instrumental variables.
 - Example 1: if new scientific evidence shows more adverse effects of cigarettes, it would reduce the demand and then negatively affect the price.
   - $$u$$ includes demand shock, which also affect price.
@@ -385,19 +406,19 @@ $$
     - **Relevant**: $$cov(X, Z) \neq 0$$
     - **Exogenous**: $$cov(Z, u) = 0$$, the tax does not influence the demand directly but only indrectly through price.
 
-### Randomized Experiments
+## Randomized Experiments
 -  The causal model: $$Y = \beta_0 + \beta_1 D + u$$.
 - Suppose the treatment dummy is randomly assigned, then
   - $$cov(D, u) = 0$$.
   - $$E(u \vert D) = 0$$.
   - $$u_i indepent of D_i$$.
 
-### Panel Data
+## Panel Data
 - The causal model is $$Y_{it} = \beta_0 + \alpha_i + \beta_1 X_{it} + e_{it}$$.
   - where $$\alpha_i$$ is the time-invariant individual effect.
 - Consider the time difference, we have $$Y_{it} - Y_{i, t-1} =\beta_1 X_{it} + e_{it} - \beta_1 X_{i, t-1} - e_{i, t-1}  $$.
 
-#### Difference-in-Difference (DID)
+## Difference-in-Difference (DID)
 - Y is measured in two periods, before and after the treatment.
   - Control group: $$Y_{it}^{control}, t = before, after$$
   - Treatment group: $$Y_{it}^{treatment}, t = before, after$$
@@ -411,7 +432,7 @@ $$
   - $$\beta_1$$ is the effect of the treatment on the outcome conditional on the treatment.
 
 
-#### Regression discountinuity design (RDD)
+## Regression discountinuity design (RDD)
 - The causal model is $$Y_{it} = \beta_0 + \alpha_i + \beta_1 X_{it} + e_{it}$$.
 - If $$X_{it}$$ is a continuous variable, we can use the regression discontinuity design (RDD).
 - The effect of treatment should show up as a jump in the outcome at the cutoff point.
@@ -422,12 +443,12 @@ $$
 
 ![Image](/assets/images/econometrics/RDD.png "RDD")
 
-#### iid
+## iid
 - iid means that the observations are independent and identically distributed.
 - However, conditional on other variables, they could be dependent.
 
 
-### Summary
+## Summary
 - Potential outcomes
   - causal effect (causal model)
   - RCT
@@ -445,8 +466,8 @@ $$
       - RDD: regression discontinuity design
     - panel data
 
-## Topic 4: Large Sample Theory of OLS
-### Asymptotic properties of OLS
+# Topic 4: Large Sample Theory of OLS
+## Asymptotic properties of OLS
 - Consistency of OLS (under iid): $$\hat{\beta} = \left[\sum_{i=1}^n{x_i x'_i} \right]^{-1} \left[\sum_{i=1}^n{x_i y_i} \right] = \beta + \left[\sum_{i=1}^n{x_i x'_i} \right]^{-1} \left[\sum_{i=1}^n{x_i \epsilon_i} \right] $$.
   - $$S_{xx} = \sum_{i=1}^n{x_i x'_i} \rightarrow E[x_i x'_i] = \Sigma_{xx}$$
   - and $$S_{x\epsilon} = \sum_{i=1}^n{x_i \epsilon_i} \rightarrow E[x_i \epsilon_i] = 0$$
@@ -457,17 +478,17 @@ $$
   - $$\frac{1}{\sqrt{n}}\sum_{i=1}^n{x_i \epsilon_i} \sim N(0, S )$$
   - Thus, $$\sqrt{n} (\hat{\beta} - \beta) \sim N(0, \Sigma_{xx}^{-1} S \Sigma_{xx}^{-1})$$
 
-#### heteroskedasticity
+## heteroskedasticity
 - The iid assumption can be relatex to no serial correlation.
 - No serial correaltion or heteroskedasticity means that $$S = \sigma^2 \Sigma_{xx} = \sigma^2 E[x_i x'_i]$$.
 
 
-##### Heteroskedasticity: GLS and White test
+### Heteroskedasticity: GLS and White test
 - Heteroskedasticity: $$var(\epsilon_i \vert x_i) = \sigma_i^2$$. The variance differs across $$x_i$$.
 
 
 
-### Large Sample Theory of OLS on Ommited Variable Bias
+## Large Sample Theory of OLS on Ommited Variable Bias
 - Assume the model: $$Y = \beta_0 + \beta_1 X + \beta_2 Z + \epsilon, E(\epsilon \vert X, W) = 0$$.
 - Denote the OLS for the short regression $$Y = \beta_0 + \beta_1 X + \epsilon$$ as $$\hat{\beta}_1$$.
 - Then the ommited variable bias is $$\hat{beta_1} - {\beta}_1 = cov(X, Z)/var(X) = \beta_2 \beta_{Z \vert X}$$.
@@ -524,3 +545,7 @@ $$
 $$
   - the $$cov(e_X, e_2)$$ is the regression coefficient of $$W_2$$ on $$X$$ and $$W$$, so $$\beta_{W_2 \vert X, W_1} = \frac{\operatorname{cov}\left(e_{X}, e_2\right)}{\operatorname{var}\left(e_X\right)}$$.
   - Remark: if $$E(W_2 \vert W_1, X) = E(W_2 \vert W_1)$$, then $$\beta_{W_2 \vert X, W_1} = 0$$. We hope that conditional on $$W_1$$, $$X$$ is uncorrelated with $$W_2$$.
+
+
+
+

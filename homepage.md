@@ -40,6 +40,10 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 ## 💡 **Patent**
 Four patents are already filed.
 
+<!-- ## Project
+### Empowering Hong Kong Finance with A Quantum Algorithm Platform (10 millon HKD) -->
+<!-- Regtech theme-based research - CBDC subtheme -->
+
 ## 🎓 **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now). MPhil-PhD Student in Information Systems.
   - GPA: 4.00 in 2022 - 2023 Fall Semester
