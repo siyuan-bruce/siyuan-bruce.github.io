@@ -128,7 +128,7 @@ In this case, we can control for W to get the causal effect of X on Y.
   - $$E(Y_i \vert X_i, W_i) = E(Y_i \vert W_i)$$, this implies $$Y_i$$ is uncorrerlated with $$X_i$$, given $$W_i$$, equivalently, $$ E(\epsilon_i \vert X_i, W_i) = E(\epsilon_i \vert  W_i)$$.
 
 - independence $$\rightarrow$$ constant conditional mean $$\rightarrow$$ no correlation.
-- no correlation $$\not\Rightarrow$$ constant conditional mean $\not\Rightarrow$ independence.
+- no correlation $$\not\Rightarrow$$ constant conditional mean $$\not\Rightarrow$$ independence.
 
 
 ### Bad Controls using potential outcome anaylsis
@@ -137,7 +137,7 @@ Consider two observed dummies: $$W_i = 1$$ if white collar, $$X_i = 1$$ if colle
 - Potential earnings $$\{Y_{1i}, Y_{0i}\}$$; potential white-collar status $$\{W_{1i}, W_{0i}\}$$.
 - Observed outcomes vs potential (linked by observed treatment): $$Y_i = X_iY_{1i} + (1-X_i)Y_{0i}$$, $$W_i = X_iW_{1i} + (1-X_i)W_{0i}$$.
 - To simplify analysis, assume that $$X$$ is randomly assigned and thus is independent of all potential outcomes $$\{Y_{1i}, Y_{0i}, W_{1i}, W_{0i}\}$$.
-  - Suppose we hold constant $W_i=1$: only look at earning difference in the white-collar group due to college.
+  - Suppose we hold constant $$W_i=1$$: only look at earning difference in the white-collar group due to college.
 
 $$
 \begin{aligned}
@@ -157,11 +157,13 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
 
 1. Prove that the counterfactual $$E(Y_i(0) \vert D_i = 1)$$ can be estimated by $$E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$ and the treatment effect can be estimated by $$E(Y_i \vert D_i = 1) - E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$.  
 **Answer:** 
+
 $$ \begin{aligned}
 E\left[Y_i(0) \mid D_i=1\right] & =E\left\{E\left[Y_i(0) \mid X_i, D_i=1\right] \mid D_i=1\right\} \\
 & =E\left\{E\left[Y_i(0) \mid X_i, D_i=0\right] \mid D_i=1\right\}, \text { conditional independence } \\
 & =E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\}
 \end{aligned} $$
+
 So the counterfactual can be measured by the data. As a result,
 $$
 \begin{aligned}
@@ -169,6 +171,7 @@ $$
 & =E\left[Y_i(1) \mid D_i=1\right]-E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\},
 \end{aligned}
 $$
+
 which can also be measured by the data. 
 
 The basic idea here is you can change $$Y_i$$ conditional on $$D_i$$, but you cannot change $$D_i$$ conditional on $$Y_i$$. So the counterfactual can be measured by the data.
@@ -177,23 +180,23 @@ The basic idea here is you can change $$Y_i$$ conditional on $$D_i$$, but you ca
 If we want to transform linear regression into a causal inference problem, we need to make sure the following assumptions hold.
 
 ## Assumption
-## Assumption 1(model linaer in parameters)
-## Assumption 2(full rank or no multicollinearity)
+### Assumption 1(model linaer in parameters)
+### Assumption 2(full rank or no multicollinearity)
 - The matrix $$X'X$$ is full rank.
 - Each variable cotains unique information.
   
-## Assumption 3(stict exogeneity)
+### Assumption 3(stict exogeneity)
 - $$X_i$$ is not correlated with $$\epsilon_i$$.
 - Mean independence assumption: $$E(\epsilon \vert X) = 0$$.
   - or $$E(\epsilon_i \vert X_1i, X_2i...) = 0$$.
 - A weaker assumption: $$E(\epsilon_i \vert X_i) = 0$$.
   - the conditional esentially focues on different sections of the entire population.
 
-## Assumption 4(spherical disturbance - on conditional variance/covariance)
+### Assumption 4(spherical disturbance - on conditional variance/covariance)
 - homoskedasticity: $$E(\epsilon_i^2 \vert X_i) = \sigma^2$$ while no cross correlation between $$\epsilon_i$$ and $$\epsilon_j$$.
 
 
-## Assumption 5: normality of disturbance
+### Assumption 5: normality of disturbance
 - $$\epsilon_i \sim N(0, \sigma^2)$$.
 - useful for making statistical inference.
 
@@ -231,8 +234,7 @@ If we want to transform linear regression into a causal inference problem, we ne
   - $$M^0 = I - p^0 = I - 1/n$$.
 
 - $$R^2 = \frac{ESS}{TSS} = \frac{\sum_i^n{\hat{y_i} - \bar{y}}}{\sum_i^n{y_i - \bar{y}}} = 1 - \frac{e'e}{y'M^0y}$$.
-
-- $$R^2 = \frac{var(a + bx)}{Y} = 1 - \frac{var(u)}{var(Y)}
+- $$R^2 = \frac{var(a + bx)}{Y} = 1 - \frac{var(u)}{var(Y)}$$.
 
 
 ## Statistical Properties of OLS under Finite Sample
@@ -307,12 +309,18 @@ where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of th
 
 # Topic 3: Empirical Methods First Look
 ## Selection Bias
+Selection bias occurs when the sample is not representative of the population. We can control some variables, we hope to make treatment randomly assigned conditional on the control variables.
+
 - We have many tools to deal with selection bias:
   - control variables
   - use external instruments
   - randomized controlled trials
   - exploit information from quasi-experiments or natural experiments
   - construct a proxy control group
+
+### Ommitted Variable Bias
+Omitted variable bias occurs when a variable that affects both the dependent variable and treatment effect is not included in the regression model. 
+
 
 ## Control variables Methods
 - **Control variables** are variables that are correlated with the treatment variable but are not affected by the treatment variable.
@@ -329,23 +337,15 @@ where $$R_{(K)}^2$$ is the R-squared of regressing $$x_{(K)}$$ on the rest of th
   - Then we can represent u as $$u = \alpha_0 + \alpha_1 Z + e$$. $$E(e \vert X,Z) = 0$$.
   - The causal model becomes $$Y = \beta_0 + \beta_1 X + \alpha_0 + \alpha_1 Z + e$$, where $$E(e\vert X,Z) = 0$$.
 
-
-### Ommitted Variable Bias
-Omitted variable bias occurs when a variable that affects both the dependent variable and treatment effect is not included in the regression model. 
-
-### Selection Bias
-Selection bias occurs when the sample is not representative of the population. We can control some variables, we hope to make treatment randomly assigned conditional on the control variables.
-
-
-## What to control?
+### What to control?
 - A good control variable makes conditional mean independence assumption more likely to hold. 
 - We can control more for a robustness check.
 - The coefficients of the control variables are not cessarily causal and we do not need to interpret them.
 
-## Bad controls
+### Bad controls
 - Bad controls block the causal channel of interest and lead to biased estimation.
 
-## Proxy Controls
+### Proxy Controls
 - Some controls are not available in the data. We can use proxy controls, such as the ability.
 
 ## Cluster Robust Standard Errors
@@ -397,7 +397,7 @@ $$
 - Stage 1: Regress $$X$$ on $$Z$$: $$X = \gamma_0 + \gamma_1 Z + v$$.
 - Stage 2: Regress $$Y$$ on $$X$$: $$Y = \beta_0 + \beta_1 X + u$$.
 
-## When we need to use instrumental variables?
+### When we need to use instrumental variables?
 - When the treatment variable is endogenous, we need to use instrumental variables.
 - Example 1: if new scientific evidence shows more adverse effects of cigarettes, it would reduce the demand and then negatively affect the price.
   - $$u$$ includes demand shock, which also affect price.
@@ -406,7 +406,7 @@ $$
     - **Relevant**: $$cov(X, Z) \neq 0$$
     - **Exogenous**: $$cov(Z, u) = 0$$, the tax does not influence the demand directly but only indrectly through price.
 
-## Randomized Experiments
+### Randomized Experiments
 -  The causal model: $$Y = \beta_0 + \beta_1 D + u$$.
 - Suppose the treatment dummy is randomly assigned, then
   - $$cov(D, u) = 0$$.
@@ -418,7 +418,7 @@ $$
   - where $$\alpha_i$$ is the time-invariant individual effect.
 - Consider the time difference, we have $$Y_{it} - Y_{i, t-1} =\beta_1 X_{it} + e_{it} - \beta_1 X_{i, t-1} - e_{i, t-1}  $$.
 
-## Difference-in-Difference (DID)
+### Difference-in-Difference (DID)
 - Y is measured in two periods, before and after the treatment.
   - Control group: $$Y_{it}^{control}, t = before, after$$
   - Treatment group: $$Y_{it}^{treatment}, t = before, after$$
@@ -432,7 +432,7 @@ $$
   - $$\beta_1$$ is the effect of the treatment on the outcome conditional on the treatment.
 
 
-## Regression discountinuity design (RDD)
+### Regression discountinuity design (RDD)
 - The causal model is $$Y_{it} = \beta_0 + \alpha_i + \beta_1 X_{it} + e_{it}$$.
 - If $$X_{it}$$ is a continuous variable, we can use the regression discontinuity design (RDD).
 - The effect of treatment should show up as a jump in the outcome at the cutoff point.
@@ -443,7 +443,7 @@ $$
 
 ![Image](/assets/images/econometrics/RDD.png "RDD")
 
-## iid
+### iid
 - iid means that the observations are independent and identically distributed.
 - However, conditional on other variables, they could be dependent.
 
