@@ -158,23 +158,74 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
 1. Prove that the counterfactual $$E(Y_i(0) \vert D_i = 1)$$ can be estimated by $$E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$ and the treatment effect can be estimated by $$E(Y_i \vert D_i = 1) - E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$.  
 **Answer:** 
 
-$$ \begin{aligned}
-E\left[Y_i(0) \mid D_i=1\right] & =E\left\{E\left[Y_i(0) \mid X_i, D_i=1\right] \mid D_i=1\right\} \\
-& =E\left\{E\left[Y_i(0) \mid X_i, D_i=0\right] \mid D_i=1\right\}, \text { conditional independence } \\
-& =E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\}
-\end{aligned} $$
+  $$ \begin{aligned}
+  E\left[Y_i(0) \mid D_i=1\right] & =E\left\{E\left[Y_i(0) \mid X_i, D_i=1\right] \mid D_i=1\right\} \\
+  & =E\left\{E\left[Y_i(0) \mid X_i, D_i=0\right] \mid D_i=1\right\}, \text { conditional independence } \\
+  & =E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\}
+  \end{aligned} $$
 
-So the counterfactual can be measured by the data. As a result,
-$$
-\begin{aligned}
-\tau_{\text {treat }} & =E\left[Y_i(1) \mid D_i=1\right]-E\left[Y_i(0) \mid D_i=1\right] \\
-& =E\left[Y_i(1) \mid D_i=1\right]-E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\},
-\end{aligned}
-$$
+  So the counterfactual can be measured by the data. As a result,
+  $$
+  \begin{aligned}
+  \tau_{\text {treat }} & =E\left[Y_i(1) \mid D_i=1\right]-E\left[Y_i(0) \mid D_i=1\right] \\
+  & =E\left[Y_i(1) \mid D_i=1\right]-E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\},
+  \end{aligned}
+  $$
 
-which can also be measured by the data. 
+  which can also be measured by the data. 
 
-The basic idea here is you can change $$Y_i$$ conditional on $$D_i$$, but you cannot change $$D_i$$ conditional on $$Y_i$$. So the counterfactual can be measured by the data.
+  The basic idea here is you can change $$Y_i$$ conditional on $$D_i$$, and you can change $$D_i$$ conditional on $$X_i$$. So the counterfactual can be measured by the data.
+
+2. We then we can estimate $$E(Y_i(0) \vert X_i)$$.
+  
+  by conditional independence:
+  
+  $$
+  E\left(Y_i(0) \mid X_i\right)=E\left(Y_i(0) \mid D_i=0, X_i\right)=E\left(Y_i \mid D_i=0, X_i\right)=\alpha+\beta X_i
+  $$
+  
+  So we may represent $Y_i$ as
+  $$
+  Y_i=\alpha+\beta X_i+u_i, E\left(u_i \mid D_i=0, X_i\right)=0
+  $$
+
+  The basic idea here is to estimate parameters, we need make $$Y_i$$ rather than $$Y_i(0)$$ as the dependent variable.
+
+3. Provide a consistent estimator for the counterfactual $$E[Y_i(0) \vert D_i = 1].
+**Answer:** 
+  
+  $$
+  \begin{aligned}
+  E\left[Y_i(0) \mid D_i=1\right] & =E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\} \\
+  & =E\left[\alpha+\beta X_i \mid D_i=1\right] \\
+  & =\alpha+\beta E\left(X_i \mid D_i=1\right)
+  \end{aligned}
+  $$
+  
+  Then, a consistent estimator for the counterfactual is given by
+  $$
+  \hat{\alpha}+\hat{\beta} \bar{X}^{(1)} 
+  $$
+
+4. Provide a consistent estimator for the treatment effect $$E[Y_i(1) \vert D_i = 1] - E[Y_i(0) \vert D_i = 1]$$. 
+**Answer:** 
+  Based on we have, we can conclude it can be estimated by $$\hat{\tau}_{\text {treat }}=\bar{Y}^{(1)}-\left(\hat{\alpha}+\hat{\beta} \bar{X}^{(1)}\right)$$.
+
+5. Full Sample estimation:
+  $$
+  \begin{aligned}
+  E\left(Y_i \mid D_i, X_i\right) & =E\left(Y_i(0) \mid D_i, X_i\right)+E\left(Y_i(1)-Y_i(0) \mid D_i, X_i\right) D_i \\
+  & =E\left(Y_i(0) \mid X_i\right)+E\left(Y_i(1)-Y_i(0) \mid X_i\right) D_i, \text { by conditional independence } \\
+  & =\alpha+\beta X_i+\rho D_i
+  \end{aligned}
+  $$
+ 
+  As a result, we may form a regression model
+  $$
+  Y_i=\alpha+\beta X_i+\rho D_i+v_i, E\left(v_i \mid D_i, X_i\right)=0
+  $$
+  
+  The coefficients $(\alpha, \beta, \rho)$ can be unbiasedly and consistently estimated by OLS regression of $Y$ on $X$ and $D$ for the full sample.
 
 # Topic 2: Finite Sample Thoery of OLS
 If we want to transform linear regression into a causal inference problem, we need to make sure the following assumptions hold.
