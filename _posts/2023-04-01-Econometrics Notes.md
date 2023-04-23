@@ -155,7 +155,8 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
 - The treatment $$D_i$$ is a binary variable, $$D_i = 1$$ if the individual is treated, $$D_i = 0$$ if the individual is not treated.
 - The randomness is conditional on the observed covariates $$X_i$$.
 
-1. Prove that the counterfactual $$E(Y_i(0) \vert D_i = 1)$$ can be estimated by $$E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$ and the treatment effect can be estimated by $$E(Y_i \vert D_i = 1) - E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$.  
+**1**. Prove that the counterfactual $$E(Y_i(0) \vert D_i = 1)$$ can be estimated by $$E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$ and the treatment effect can be estimated by $$E(Y_i \vert D_i = 1) - E\{E(Y_i \vert D_i = 0, X_i) \vert D_i = 1\}$$.  
+
 **Answer:** 
 
   $$ \begin{aligned}
@@ -175,7 +176,7 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   which can also be measured by the data. 
 
   The basic idea here is you can change $$Y_i$$ conditional on $$D_i$$, and you can change $$D_i$$ conditional on $$X_i$$. So the counterfactual can be measured by the data.
-2. We then we can estimate $$E(Y_i(0) \vert X_i)$$.
+**2**. We then we can estimate $$E(Y_i(0) \vert X_i)$$.
   
   by conditional independence:
   
@@ -189,7 +190,8 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   $$.
 
   The basic idea here is to estimate parameters, we need make $$Y_i$$ rather than $$Y_i(0)$$ as the dependent variable.
-3. Provide a consistent estimator for the counterfactual $$E[Y_i(0) \vert D_i = 1].
+**3.** Provide a consistent estimator for the counterfactual $$E[Y_i(0) \vert D_i = 1].
+
 **Answer:** 
   
   $$
@@ -204,10 +206,13 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   $$
   \hat{\alpha}+\hat{\beta} \bar{X}^{(1)} 
   $$.
-4. Provide a consistent estimator for the treatment effect $$E[Y_i(1) \vert D_i = 1] - E[Y_i(0) \vert D_i = 1]$$. 
-**Answer:** 
+**4. ** Provide a consistent estimator for the treatment effect $$E[Y_i(1) \vert D_i = 1] - E[Y_i(0) \vert D_i = 1]$$. 
+
+**Answer:**
+  
   Based on we have, we can conclude it can be estimated by $$\hat{\tau}_{\text {treat }}=\bar{Y}^{(1)}-\left(\hat{\alpha}+\hat{\beta} \bar{X}^{(1)}\right)$$.
-5. Full Sample estimation:
+
+**5.** Full Sample estimation:
   $$
   \begin{aligned}
   E\left(Y_i \mid D_i, X_i\right) & =E\left(Y_i(0) \mid D_i, X_i\right)+E\left(Y_i(1)-Y_i(0) \mid D_i, X_i\right) D_i \\
