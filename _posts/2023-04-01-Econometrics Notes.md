@@ -185,14 +185,14 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   E\left(Y_i(0) \mid X_i\right)=E\left(Y_i(0) \mid D_i=0, X_i\right)=E\left(Y_i \mid D_i=0, X_i\right)=\alpha+\beta X_i
   $$.
   
-  So we may represent $Y_i$ as
+  So we may represent $$Y_i$$ as
   $$
   Y_i=\alpha+\beta X_i+u_i, E\left(u_i \mid D_i=0, X_i\right)=0
   $$.
 
   The basic idea here is to estimate parameters, we need make $$Y_i$$ rather than $$Y_i(0)$$ as the dependent variable.
 
-**3.** Provide a consistent estimator for the counterfactual $$E[Y_i(0) \vert D_i = 1].
+**3.** Provide a consistent estimator for the counterfactual $$E[Y_i(0) \vert D_i = 1]$$.
 
 **Answer:** 
   
@@ -229,7 +229,7 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   Y_i=\alpha+\beta X_i+\rho D_i+v_i, E\left(v_i \mid D_i, X_i\right)=0
   $$.
   
-  The coefficients $$(\alpha, \beta, \rho)$$ can be unbiasedly and consistently estimated by OLS regression of $$Y$$ on $$X$$ and $D$ for the full sample.
+  The coefficients $$(\alpha, \beta, \rho)$$ can be unbiasedly and consistently estimated by OLS regression of $$Y$$ on $$X$$ and $$D$$ for the full sample.
 
 # Topic 2: Finite Sample Thoery of OLS
 If we want to transform linear regression into a causal inference problem, we need to make sure the following assumptions hold.
