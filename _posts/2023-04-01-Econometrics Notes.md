@@ -507,7 +507,7 @@ $$
 \end{aligned}
 $$
 
-- Consider the population projection (regress both $\mathrm{X}$ and $\mathrm{W}_2$ on $\mathrm{W}$ ):
+- Consider the population projection (regress both $$\mathrm{X}$$ and $$\mathrm{W}_2$$ on $$\mathrm{W}$$ ):
 
 $$
 \begin{aligned}
@@ -515,7 +515,9 @@ X & =W \alpha_X+e_X, \operatorname{cov}\left(e_X, W\right)=0 \\
 \mathcal{W}_2 & =W \alpha_2+e_2, \operatorname{cov}\left(e_2, W\right)=0
 \end{aligned}
 $$
-- The limit
+
+- In the limit, we have:
+
 $$
 \begin{aligned}
 & \frac{1}{n} X^{\prime} M_W X=\frac{1}{n} \hat{e}_X^{\prime} \hat{e}_X \stackrel{p}{\rightarrow} E\left(e_X^2\right) \\
