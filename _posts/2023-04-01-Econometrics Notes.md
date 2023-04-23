@@ -175,7 +175,6 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   which can also be measured by the data. 
 
   The basic idea here is you can change $$Y_i$$ conditional on $$D_i$$, and you can change $$D_i$$ conditional on $$X_i$$. So the counterfactual can be measured by the data.
-
 2. We then we can estimate $$E(Y_i(0) \vert X_i)$$.
   
   by conditional independence:
@@ -190,7 +189,6 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   $$.
 
   The basic idea here is to estimate parameters, we need make $$Y_i$$ rather than $$Y_i(0)$$ as the dependent variable.
-
 3. Provide a consistent estimator for the counterfactual $$E[Y_i(0) \vert D_i = 1].
 **Answer:** 
   
@@ -206,11 +204,9 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   $$
   \hat{\alpha}+\hat{\beta} \bar{X}^{(1)} 
   $$.
-
 4. Provide a consistent estimator for the treatment effect $$E[Y_i(1) \vert D_i = 1] - E[Y_i(0) \vert D_i = 1]$$. 
 **Answer:** 
   Based on we have, we can conclude it can be estimated by $$\hat{\tau}_{\text {treat }}=\bar{Y}^{(1)}-\left(\hat{\alpha}+\hat{\beta} \bar{X}^{(1)}\right)$$.
-
 5. Full Sample estimation:
   $$
   \begin{aligned}
