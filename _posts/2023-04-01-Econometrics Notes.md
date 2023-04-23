@@ -162,7 +162,7 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   E\left[Y_i(0) \mid D_i=1\right] & =E\left\{E\left[Y_i(0) \mid X_i, D_i=1\right] \mid D_i=1\right\} \\
   & =E\left\{E\left[Y_i(0) \mid X_i, D_i=0\right] \mid D_i=1\right\}, \text { conditional independence } \\
   & =E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\}
-  \end{aligned} $$
+  \end{aligned} $$.
 
   So the counterfactual can be measured by the data. As a result,
   $$
@@ -170,7 +170,7 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   \tau_{\text {treat }} & =E\left[Y_i(1) \mid D_i=1\right]-E\left[Y_i(0) \mid D_i=1\right] \\
   & =E\left[Y_i(1) \mid D_i=1\right]-E\left\{E\left(Y_i \mid X_i, D_i=0\right) \mid D_i=1\right\},
   \end{aligned}
-  $$
+  $$.
 
   which can also be measured by the data. 
 
@@ -182,12 +182,12 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   
   $$
   E\left(Y_i(0) \mid X_i\right)=E\left(Y_i(0) \mid D_i=0, X_i\right)=E\left(Y_i \mid D_i=0, X_i\right)=\alpha+\beta X_i
-  $$
+  $$.
   
   So we may represent $Y_i$ as
   $$
   Y_i=\alpha+\beta X_i+u_i, E\left(u_i \mid D_i=0, X_i\right)=0
-  $$
+  $$.
 
   The basic idea here is to estimate parameters, we need make $$Y_i$$ rather than $$Y_i(0)$$ as the dependent variable.
 
@@ -200,12 +200,12 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   & =E\left[\alpha+\beta X_i \mid D_i=1\right] \\
   & =\alpha+\beta E\left(X_i \mid D_i=1\right)
   \end{aligned}
-  $$
+  $$.
   
   Then, a consistent estimator for the counterfactual is given by
   $$
   \hat{\alpha}+\hat{\beta} \bar{X}^{(1)} 
-  $$
+  $$.
 
 4. Provide a consistent estimator for the treatment effect $$E[Y_i(1) \vert D_i = 1] - E[Y_i(0) \vert D_i = 1]$$. 
 **Answer:** 
@@ -218,12 +218,12 @@ A treatment was assignmned to a random sample of individuals, and the outcome $$
   & =E\left(Y_i(0) \mid X_i\right)+E\left(Y_i(1)-Y_i(0) \mid X_i\right) D_i, \text { by conditional independence } \\
   & =\alpha+\beta X_i+\rho D_i
   \end{aligned}
-  $$
+  $$.
  
   As a result, we may form a regression model
   $$
   Y_i=\alpha+\beta X_i+\rho D_i+v_i, E\left(v_i \mid D_i, X_i\right)=0
-  $$
+  $$.
   
   The coefficients $(\alpha, \beta, \rho)$ can be unbiasedly and consistently estimated by OLS regression of $Y$ on $X$ and $D$ for the full sample.
 
