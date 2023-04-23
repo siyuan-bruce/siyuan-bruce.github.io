@@ -180,23 +180,23 @@ The basic idea here is you can change $$Y_i$$ conditional on $$D_i$$, but you ca
 If we want to transform linear regression into a causal inference problem, we need to make sure the following assumptions hold.
 
 ## Assumption
-### Assumption 1(model linaer in parameters)
-### Assumption 2(full rank or no multicollinearity)
+#### Assumption 1(model linaer in parameters)
+#### Assumption 2(full rank or no multicollinearity)
 - The matrix $$X'X$$ is full rank.
 - Each variable cotains unique information.
   
-### Assumption 3(stict exogeneity)
+#### Assumption 3(stict exogeneity)
 - $$X_i$$ is not correlated with $$\epsilon_i$$.
 - Mean independence assumption: $$E(\epsilon \vert X) = 0$$.
   - or $$E(\epsilon_i \vert X_1i, X_2i...) = 0$$.
 - A weaker assumption: $$E(\epsilon_i \vert X_i) = 0$$.
   - the conditional esentially focues on different sections of the entire population.
 
-### Assumption 4(spherical disturbance - on conditional variance/covariance)
+#### Assumption 4(spherical disturbance - on conditional variance/covariance)
 - homoskedasticity: $$E(\epsilon_i^2 \vert X_i) = \sigma^2$$ while no cross correlation between $$\epsilon_i$$ and $$\epsilon_j$$.
 
 
-### Assumption 5: normality of disturbance
+#### Assumption 5: normality of disturbance
 - $$\epsilon_i \sim N(0, \sigma^2)$$.
 - useful for making statistical inference.
 
@@ -325,7 +325,7 @@ Omitted variable bias occurs when a variable that affects both the dependent var
 ## Control variables Methods
 - **Control variables** are variables that are correlated with the treatment variable but are not affected by the treatment variable.
 - For a causal model:
-  - $$Y = \beta_0 + \beta_1 X + u$$
+  - $$Y = \beta_0 + \beta_1 X + u$$.
   - where $$u$$ includes all other causal factors that affect $$Y$$ but are not included in the model.
 - We want to find a regression model:
   - $$ Y = \beta_0 + \beta_1 X + \beta_2 Z + e$$, $$E(e\vert X,Z) = 0$$
@@ -469,13 +469,13 @@ $$
 # Topic 4: Large Sample Theory of OLS
 ## Asymptotic properties of OLS
 - Consistency of OLS (under iid): $$\hat{\beta} = \left[\sum_{i=1}^n{x_i x'_i} \right]^{-1} \left[\sum_{i=1}^n{x_i y_i} \right] = \beta + \left[\sum_{i=1}^n{x_i x'_i} \right]^{-1} \left[\sum_{i=1}^n{x_i \epsilon_i} \right] $$.
-  - $$S_{xx} = \sum_{i=1}^n{x_i x'_i} \rightarrow E[x_i x'_i] = \Sigma_{xx}$$
-  - and $$S_{x\epsilon} = \sum_{i=1}^n{x_i \epsilon_i} \rightarrow E[x_i \epsilon_i] = 0$$
+  - $$S_{xx} = \sum_{i=1}^n{x_i x'_i} \rightarrow E[x_i x'_i] = \Sigma_{xx}$$.
+  - $$S_{x\epsilon} = \sum_{i=1}^n{x_i \epsilon_i} \rightarrow E[x_i \epsilon_i] = 0$$.
   - Thus, $$\hat{\beta} \rightarrow \beta$$.
 - The validity of OLS is based on the assumption that $$E(x_i \epsilon_i) = 0$$ or lack of comtemporaneous correlation.
 - Asymptotic normality OLS $$\hat{\beta}$$ (under i.i.d.)
-  - $$\sqrt{n} (\hat{\beta} - \beta) = \left[\frac{1}{n} X' X\right]^{-1} \frac{1}{\sqrt{n}} X' \epsilon$$
-  - $$\frac{1}{\sqrt{n}}\sum_{i=1}^n{x_i \epsilon_i} \sim N(0, S )$$
+  - $$\sqrt{n} (\hat{\beta} - \beta) = \left[\frac{1}{n} X' X\right]^{-1} \frac{1}{\sqrt{n}} X' \epsilon$$.
+  - $$\frac{1}{\sqrt{n}}\sum_{i=1}^n{x_i \epsilon_i} \sim N(0, S )$$.
   - Thus, $$\sqrt{n} (\hat{\beta} - \beta) \sim N(0, \Sigma_{xx}^{-1} S \Sigma_{xx}^{-1})$$
 
 ## heteroskedasticity
