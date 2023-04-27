@@ -283,7 +283,7 @@ If we want to transform linear regression into a causal inference problem, we ne
 - Orthogonal regressors: suppose X_1 and X_2 are orthogonal, then $$b_1 = (X_1'X_1)^{-1}X_1'Y$$, $$b_2 = (X_2'X_2)^{-1}X_2'Y$$.
 
 
-## R-squared
+#### R-squared
 - define a one-value vector $$ i = (1, 1, ..., 1)$$.
   - $$p^0 = i (i' i)^{-1} i' = i (1/n)^{-1} i' = 1/n$$.
   - $$M^0 = I - p^0 = I - 1/n$$.
@@ -452,7 +452,7 @@ $$
 - Stage 1: Regress $$X$$ on $$Z$$: $$X = \gamma_0 + \gamma_1 Z + v$$.
 - Stage 2: Regress $$Y$$ on $$X$$: $$Y = \beta_0 + \beta_1 X + u$$.
 
-### When we need to use instrumental variables?
+#### When we need to use instrumental variables?
 - When the treatment variable is endogenous, we need to use instrumental variables.
 - Example 1: if new scientific evidence shows more adverse effects of cigarettes, it would reduce the demand and then negatively affect the price.
   - $$u$$ includes demand shock, which also affect price.
@@ -487,7 +487,7 @@ $$
   - $$\beta_1$$ is the effect of the treatment on the outcome conditional on the treatment.
 
 
-### Regression discountinuity design (RDD)
+### Regression discountinuity (RDD)
 - The causal model is $$Y_{it} = \beta_0 + \alpha_i + \beta_1 X_{it} + e_{it}$$.
 - If $$X_{it}$$ is a continuous variable, we can use the regression discontinuity design (RDD).
 - The effect of treatment should show up as a jump in the outcome at the cutoff point.
@@ -503,7 +503,7 @@ $$
 - However, conditional on other variables, they could be dependent.
 
 
-## Summary
+#### Summary
 - Potential outcomes
   - causal effect (causal model)
   - RCT
@@ -604,5 +604,11 @@ $$
   - Remark: if $$E(W_2 \vert W_1, X) = E(W_2 \vert W_1)$$, then $$\beta_{W_2 \vert X, W_1} = 0$$. We hope that conditional on $$W_1$$, $$X$$ is uncorrelated with $$W_2$$.
 
 
+
+# Topic 5: Instrumental Variables
+
+# Topic 6: Weighting Regression
+
+# Topic 7: GMM
 
 
