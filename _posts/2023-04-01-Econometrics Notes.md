@@ -606,9 +606,118 @@ $$
 
 
 # Topic 5: Instrumental Variables
+IV Estimator: the main idea is to extract exogenous variation in $$X$$ to estimate the causal effect of $$X$$ on $$Y$$.
 
-# Topic 6: Weighting Regression
+### Endogenous Treatment
+The causal model implies a linear regression model:
+
+$$ Y = \beta_0 + \beta_1 D + u$$
+
+- If we have RCT assignment of D, making it independent of $$Y$$. We may get $$\beta_1 = E(Y \vert D = 1) - E(Y \vert D = 0)$$.
+- Then $$u = Y(0) - E(Y(0)) + (Y(1) - Y(0) - \beta_1)D$$.
+- The conditional mean of the causal error is $$E(u \vert D) = E(Y(0) - E(Y(0)) + (Y(1) - Y(0) - \beta_1)D \vert D)$$.
+- With RCT, we may get $$E(Y(0) - E(Y(0)) \vert D) = 0$$, so $$E(u \vert D) = (Y(1) - Y(0) - \beta_1)D$$.
+
+
+### Two-stage Least Squares
+- The first stage is to regress $$X$$ on $$Z$$, and get the fitted value $$\hat{X}$$.
+- Then regress $$Y$$ on $$\hat{X}$$, and get the IV estimator $$\hat{\beta}_{IV}$$.
+
+For the first stage, there are a few assumptions:
+1. Linearity: $$ y_i = \delta x_i + \epsilon_i$$, where $$x_i$$ is an L-dimensional vectors of regressors, $\delta$ is an L-dimensional vector of coefficients, and $$\epsilon_i$$ is an error term.
+2. Ergodic stationarity. 
+3. Orthogonality condition: let $z_i$ be a K-dimensional vector of instrument. $$E(\epsilon_i z_i) = 0$$ or $$E(g_i) = 0$$, where $$g_i = z_i \epsilon_i$$.
+4. Rank condition: $$E(x_i z_i^{\prime})$$ is positive definite. $$K should be larger than L$$.
+5. Asymptotic normality. $$g_i$$ is a martingale difference sequence. $$E(\epsilon_i \vert epsilon_{i-1}, \epsilon_{i-2}, ... x_i, ...., x_1) = 0$$. Then $$S = Var(\sqrt{n},\hat{g})$$.
+
+
+## GMM 
+We introduce a few notations for GMM:
+$$
+\mathbf{g}_n(\tilde{\boldsymbol{\delta}}) \equiv \frac{1}{n} \sum_{i=1}^n \mathbf{g}\left(\mathbf{w}_i, \tilde{\boldsymbol{\delta}}\right)
+$$
+be the sample analog of the moment conditions.
+In our case,
+$$
+\mathbf{g}_n(\tilde{\boldsymbol{\delta}})=\frac{1}{n} \sum_{i=1}^n \mathbf{z}_i\left(y_i-\mathbf{x}_i^{\prime} \tilde{\boldsymbol{\delta}}\right) \equiv \mathbf{s}_{z y}-\mathbf{S}_{x z} \tilde{\boldsymbol{\delta}}
+$$
+where
+$$
+\mathbf{s}_{z y}=\frac{1}{n} \sum_{i=1}^n \mathbf{z}_i y_i \text { and } \mathbf{S}_{x z}=\frac{1}{n} \sum_{i=1}^n \mathbf{x}_i \mathbf{z}_i^{\prime}
+$$
+
+### Method of monents
+When $K=L, Thus, we can use the condition of $$g_n = 0$$ to get:
+$$
+\mathbf{s}_{z y}=\mathbf{S}_{x z} \tilde{\boldsymbol{\delta}}
+$$
+
+However, when $K>L$, we cannot solve the equation, instead, we minimizes the distance between $\mathbf{g}_n(\tilde{\boldsymbol{\delta}})$ and $\mathbf{0}$.
+
+Let $\widehat{\mathbf{W}}$ be a $K \times K$ matrix and suppose $\widehat{\mathbf{W}} \rightarrow_p \mathbf{W}>0$, i.e., $\mathbf{W}$ is symmetric positive definite.
+$$
+\hat{\boldsymbol{\delta}}(\widehat{\mathbf{W}}) \equiv \arg \min _{\tilde{\delta}} J(\tilde{\boldsymbol{\delta}}, \widehat{\mathbf{W}}) \equiv \arg \min _{\tilde{\delta}} n \mathbf{g}_n(\tilde{\boldsymbol{\delta}})^{\prime} \widehat{\mathbf{W}} \mathbf{g}_n(\tilde{\boldsymbol{\delta}})
+$$
+In our case,
+$$
+J(\tilde{\boldsymbol{\delta}}, \widehat{\mathbf{W}})=n\left(\mathbf{s}_{\mathbf{z y}}-\mathbf{S}_{\mathbf{x z}} \tilde{\boldsymbol{\delta}}\right)^{\prime} \widehat{\mathbf{W}}\left(\mathbf{s}_{\mathbf{z y}}-\mathbf{S}_{\mathbf{x z}} \tilde{\boldsymbol{\delta}}\right)
+$$
+The F.O.C. is
+$$
+\mathbf{S}_{\mathrm{xz}}^{\prime} \widehat{W} \mathbf{s}_{\mathrm{xy}}=\mathbf{S}_{\mathrm{xz}}{ }^{\prime} \widehat{\mathbf{W}} \mathbf{S}_{\mathrm{xz}} \tilde{\delta}
+$$
+The GMM estimator is
+$$
+\hat{\delta}(\widehat{\mathbf{W}})=\left(\mathbf{S}_{\mathbf{x z}}{ }^{\prime} \widehat{\mathbf{W}} \mathbf{S}_{\mathbf{x z}}\right)^{-1} \mathbf{S}_{\mathbf{x z}}{ }^{\prime} \widehat{\mathbf{W}} \mathbf{s}_{\mathbf{z y}}
+$$
 
 # Topic 7: GMM
+The basic regression model is
+$$
+y_{i}=\mathbf{x}_{i}^{\prime} \boldsymbol{\delta}+u_{i}
+$$
+
+To estimate the real causal effect, we need to introduce external intrumental variable $$z_i$$, which is independent of $$u_i$$, but may affect $$y_i$$ through $$x_i$$.
+
+$$
+E(z_i u_i) = 0
+$$
+
+- In the GMM model, we define $$g_i = z_i u_i$$, and the moment condition is $$E(g_i) = 0$$.
+- We also define $$ S = E(g_i g_i^{\prime})$$, and $$\hat{S} = \frac{1}{n} \sum_{i=1}^n g_i g_i^{\prime}$$.
+
+The we have the estimator:
+
+$$\hat{\delta} = arg min_{\delta} \hat{g}_n(\delta)^{\prime} \hat{S}^{-1} \hat{g}_n(\delta)$$
 
 
+## The relationship between GMM and OLS, IV, 2SLS
+- If $$x_i = z_i$$, then $$\hat{\delta}_{OLS} = \hat{\delta}_{GMM}(w)$$.
+
+$$ \hat{\delta}(w) = (S_{xz}^{\prime} w S_{xz})^{-1} S_{xz}^{\prime} w S_{zy} = (x^{\prime} x)^{-1} x^{\prime} y$$
+
+- IV: L = K and $z^{\prime} x$ is invertible. Then $$\hat{\delta}_{IV} = \hat{\delta}_{GMM}(w)$$. 
+
+$$ \hat{\delta}(w) = (S_{xz}^{\prime} w S_{xz})^{-1} S_{xz}^{\prime} w S_{zy} = (x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} x)^{-1} x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} y = (x^{\prime} z)^{-1} z^{\prime} y$$
+
+- When L < K, let $$\hat{W} = \hat{S}^{-1}$$. Then $$\hat{\delta}_{2SLS} = \hat{\delta}_{GMM}(\hat{W})$$.
+  - Efficient GMM: $$\hat{W} = S^{-1}$$; Assume $$E(\epsilon_i^2 | z_i) = \sigma^2$$, then $$\hat{W} = \hat{S}^{-1} = \frac{1}{n} \sum_{i=1}^n z_i z_i^{\prime}$$.
+  - $$S = E(g_i g_i^{\prime}) = E(z_i u_i u_i z_i^{\prime}) = E(z_i^2) E(u_i^2) = E(z_i^2) \sigma^2$$.
+  - The optimal weighting in Efficient GMM is $$\hat{W} = \frac{1}{\sigma^2} E(z_i^2)$$.
+  - $$\hat{\delta}_{2SLS} = ( x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} x)^{-1} x^{\prime} (z^{\prime} z)^{-1} z^{\prime} y = (x^{\prime} P_x x)^{-1} (x^\prime P_x y)$$
+  - when L = K, the weighting will be cancelled out. Here we can not cancel out the weighting matrix.
+
+In sum, $$ w = S^{-1}$$ is the optimal weighting matrix in GMM. W is irrelevant when K = L.
+
+### How to conduct Efficient GMM
+- Step 1: Estimate $$\hat{S} = \sum_{i=1}^{n}(\hat{g_i} \hat{g_i}^\prime)$$
+- Step 2: $$\hat{\delta{\hat{S}^{-1}} = Efficent GMM}$$
+
+### Test
+- $$ J(\hat{\delta(\hat{S}^{-1})}, \hat{S}^{-1}) = n \hat{g}_n(\hat{\delta})^{\prime} \hat{S}^{-1} \hat{g}_n(\hat{\delta}) \sim \chi^2(L-K)$$.
+- If K = L, then $$ J = 0 $$.
+-  $$ J(\delta_0, \hat{S}^{-1}) = \chi^2_K$$.
+   -  $$\delta_0$$ is the true value of $$\delta$$.
+
+
+# Topic 6: Weighting Regression

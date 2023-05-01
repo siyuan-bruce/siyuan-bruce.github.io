@@ -23,6 +23,8 @@ key: page-homepage
 <img src= "./images/profile.jpg" align=right width="150"/>
 Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, specializing in Information Systems under the guidance of Prof. Kar Yan Tam, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests encompass cutting-edge technologies, such as blockchain and quantum computing, with a focus on both technical and empirical investigations. [Official CV](https://isom.hkust.edu.hk/sites/isom/files/people/JinSiyuan.pdf)
 
+#### The total number of rejection I have received: **3**.
+
 ---
 
 ## 🎓 **Research Interests**
