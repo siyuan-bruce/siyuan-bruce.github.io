@@ -701,7 +701,7 @@ $$ \hat{\delta}(w) = (S_{xz}^{\prime} w S_{xz})^{-1} S_{xz}^{\prime} w S_{zy} = 
 $$ \hat{\delta}(w) = (S_{xz}^{\prime} w S_{xz})^{-1} S_{xz}^{\prime} w S_{zy} = (x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} x)^{-1} x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} y = (x^{\prime} z)^{-1} z^{\prime} y$$
 
 - When L < K, let $$\hat{W} = \hat{S}^{-1}$$. Then $$\hat{\delta}_{2SLS} = \hat{\delta}_{GMM}(\hat{W})$$.
-  - Efficient GMM: $$\hat{W} = S^{-1}$$; Assume $$E(\epsilon_i^2 | z_i) = \sigma^2$$, then $$\hat{W} = \hat{S}^{-1} = \frac{1}{n} \sum_{i=1}^n z_i z_i^{\prime}$$.
+  - Efficient GMM: $$\hat{W} = S^{-1}$$; Assume $$E(\epsilon_i^2 \vert z_i) = \sigma^2$$, then $$\hat{W} = \hat{S}^{-1} = \frac{1}{n} \sum_{i=1}^n z_i z_i^{\prime}$$.
   - $$S = E(g_i g_i^{\prime}) = E(z_i u_i u_i z_i^{\prime}) = E(z_i^2) E(u_i^2) = E(z_i^2) \sigma^2$$.
   - The optimal weighting in Efficient GMM is $$\hat{W} = \frac{1}{\sigma^2} E(z_i^2)$$.
   - $$\hat{\delta}_{2SLS} = ( x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} x)^{-1} x^{\prime} (z^{\prime} z)^{-1} z^{\prime} y = (x^{\prime} P_x x)^{-1} (x^\prime P_x y)$$

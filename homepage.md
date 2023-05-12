@@ -79,7 +79,7 @@ Four patents are already filed.
 ## 🛠 **Services**
 - 2023.03-2023.04: Reviewing papers of Pacific Asia Conference on Information Systems (PACIS)
 - 2022.11-2022.12: Reviewing papers of Quantum Information Processing (QIP)
-- 2022.11: Mentoring HKUST Fintechstic Competition
+- 2022.11: Mentoring HKUST Fintechstic Competition 2022 (Metaverse & NFT)
 
 ## 🌍 **Volunteer**
 - 2018.09 ~ 2019.03 Director at South China University of Technology Innovation Club for Science and Technology
