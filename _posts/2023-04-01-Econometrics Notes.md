@@ -627,7 +627,7 @@ For the first stage, there are a few assumptions:
 1. Linearity: $$ y_i = \delta x_i + \epsilon_i$$, where $$x_i$$ is an L-dimensional vectors of regressors, $\delta$ is an L-dimensional vector of coefficients, and $$\epsilon_i$$ is an error term.
 2. Ergodic stationarity. 
 3. Orthogonality condition: let $z_i$ be a K-dimensional vector of instrument. $$E(\epsilon_i z_i) = 0$$ or $$E(g_i) = 0$$, where $$g_i = z_i \epsilon_i$$.
-4. Rank condition: $$E(x_i z_i^{\prime})$$ is positive definite. $$K should be larger than L$$.
+4. Rank condition: $$E(x_i z_i^{\prime})$$ is positive definite. $$K$$ should be larger than $$L$$.
 5. Asymptotic normality. $$g_i$$ is a martingale difference sequence. $$E(\epsilon_i \vert epsilon_{i-1}, \epsilon_{i-2}, ... x_i, ...., x_1) = 0$$. Then $$S = Var(\sqrt{n},\hat{g})$$.
 
 
