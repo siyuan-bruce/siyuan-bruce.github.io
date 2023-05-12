@@ -107,6 +107,7 @@ Some papers are conducted by many institutions together, and we can only include
 - **[2022]** **"Publicly verifiable quantum money from random lattices."** (A. B. Khesin, J. Z. Lu, and P. W. Shor)[MIT, Harvard], [arXiv](https://arxiv.org/pdf/2207.13135).
 - **[2022]** **"Another Round of Breaking and Making Quantum Money: How to Not Build It from Lattices, and More."** (Montgomery, Hart, Jiahui Liu, and Mark Zhandry.)[UTA, Linux & Fujitsu, NTT], [arXiv](https://arxiv.org/abs/2211.11994).   
 - **[2023]** **"Quantum tokens for digital signatures."** (Ben-David, Shalev, and Sattath, Or) [Quantum 7](https://quantum-journal.org/papers/q-2023-01-19-901/pdf/).
+
 ---
 
 ### Quantum Inspired Algorithm (Norm-Sampling)
