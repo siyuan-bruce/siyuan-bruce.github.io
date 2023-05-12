@@ -1,5 +1,5 @@
 ---
-title: Literature Central Bank Digital Currency
+title: Literature on Quantum Finance
 tags: Econometrics
 mathjax: true
 author: Si Yuan JIN
@@ -10,7 +10,6 @@ article_header:
   background_image: false
 ---
 
-## Quantum Finance (Quantum Computing for Finance)
 Quantum Computing is emerging, and finance could be one of the first industry sectors to benefit from it. This is a new field where new ideas come out every day! That is why we create a collection to follow the up-to-now papers in this field! Welcome to join and update the collection!
 
 The paper format follows the style: Paper Title (Author) [Institution]

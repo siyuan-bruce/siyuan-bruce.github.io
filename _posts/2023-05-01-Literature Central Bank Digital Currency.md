@@ -1,5 +1,5 @@
 ---
-title: Literature Central Bank Digital Currency
+title: Literature on Central Bank Digital Currency
 tags: Econometrics
 mathjax: true
 author: Si Yuan JIN
@@ -10,7 +10,6 @@ article_header:
   background_image: false
 ---
 
-# Central Bank Digital Currency Literature
 This repository contains a list of academic papers, reports, and other resources on Central Bank Digital Currency (CBDC). The list is not exhaustive and is updated on a best-effort basis. Please feel free to contribute by submitting a pull request. You may check updates from: https://github.com/siyuan-bruce/CBDC-Literature
 
 
