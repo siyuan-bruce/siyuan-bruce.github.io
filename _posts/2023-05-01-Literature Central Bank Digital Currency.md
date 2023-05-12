@@ -47,6 +47,7 @@ This repository contains a list of academic papers, reports, and other resources
 - **[2020]** "Central bank digital currency: A literature review." (Carapella, Francesca, and Jean Flemming)
 
 ## Academic Papers
+
 ### Technology
 - **[2022]** "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." (Jin, Si Yuan, and Yong Xia) in IEEE Access, 10, 63698-63714.
 - **[2021]** "Cellular structure for a digital fiat currency." (Ali, Robleh) in Digital Currency Economics And Policy, 89-102.
@@ -68,6 +69,7 @@ This repository contains a list of academic papers, reports, and other resources
 
 
 ## Whitepapers
+
 ### Hong Kong, China
 - **[2021]** "A Technical Perspective on Central Bank Digital Currency" (Hong Kong Monetary Authority)
 - **[2020]** "Inthanon-lionrock leveraging distributed ledger technology to increase efficiency in cross-border payments," (Bank of Thailand (BoT) and Hong Kong Monetary Authority (HKMA))  
