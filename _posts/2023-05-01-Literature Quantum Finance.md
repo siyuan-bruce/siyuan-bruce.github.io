@@ -1,6 +1,6 @@
 ---
 title: Literature on Quantum Finance
-tags: Econometrics
+tags: Literature
 mathjax: true
 author: Si Yuan JIN
 article_header:
