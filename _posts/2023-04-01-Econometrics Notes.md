@@ -628,7 +628,7 @@ For the first stage, there are a few assumptions:
 2. Ergodic stationarity. 
 3. Orthogonality condition: let $z_i$ be a K-dimensional vector of instrument. $$E(\epsilon_i z_i) = 0$$ or $$E(g_i) = 0$$, where $$g_i = z_i \epsilon_i$$.
 4. Rank condition: $$E(x_i z_i^{\prime})$$ is positive definite. $$K$$ should be larger than $$L$$.
-5. Asymptotic normality. $$g_i$$ is a martingale difference sequence. $$E(\epsilon_i \vert epsilon_{i-1}, \epsilon_{i-2}, ... x_i, ...., x_1) = 0$$. Then $$S = Var(\sqrt{n},\hat{g})$$.
+5. Asymptotic normality. $$g_i$$ is a martingale difference sequence. $$E(\epsilon_i \vert \epsilon_{i-1}, \epsilon_{i-2}, ... x_i, ...., x_1) = 0$$. Then $$S = Var(\sqrt{n},\hat{g})$$.
 
 
 ## GMM 
@@ -652,20 +652,24 @@ $$
 \mathbf{s}_{z y}=\mathbf{S}_{x z} \tilde{\boldsymbol{\delta}}
 $$
 
-However, when $K>L$, we cannot solve the equation, instead, we minimizes the distance between $\mathbf{g}_n(\tilde{\boldsymbol{\delta}})$ and $\mathbf{0}$.
+However, when $$K>L$$, we cannot solve the equation, instead, we minimizes the distance between $$\mathbf{g}_n(\tilde{\boldsymbol{\delta}})$$ and $$\mathbf{0}$$.
 
-Let $\widehat{\mathbf{W}}$ be a $K \times K$ matrix and suppose $\widehat{\mathbf{W}} \rightarrow_p \mathbf{W}>0$, i.e., $\mathbf{W}$ is symmetric positive definite.
+Let $$\widehat{\mathbf{W}}$$ be a $$K \times K$$ matrix and suppose $$\widehat{\mathbf{W}} \rightarrow_p \mathbf{W}>0$$, i.e., $$\mathbf{W}$$ is symmetric positive definite.
 $$
 \hat{\boldsymbol{\delta}}(\widehat{\mathbf{W}}) \equiv \arg \min _{\tilde{\delta}} J(\tilde{\boldsymbol{\delta}}, \widehat{\mathbf{W}}) \equiv \arg \min _{\tilde{\delta}} n \mathbf{g}_n(\tilde{\boldsymbol{\delta}})^{\prime} \widehat{\mathbf{W}} \mathbf{g}_n(\tilde{\boldsymbol{\delta}})
 $$
+
 In our case,
 $$
 J(\tilde{\boldsymbol{\delta}}, \widehat{\mathbf{W}})=n\left(\mathbf{s}_{\mathbf{z y}}-\mathbf{S}_{\mathbf{x z}} \tilde{\boldsymbol{\delta}}\right)^{\prime} \widehat{\mathbf{W}}\left(\mathbf{s}_{\mathbf{z y}}-\mathbf{S}_{\mathbf{x z}} \tilde{\boldsymbol{\delta}}\right)
 $$
+
 The F.O.C. is
 $$
 \mathbf{S}_{\mathrm{xz}}^{\prime} \widehat{W} \mathbf{s}_{\mathrm{xy}}=\mathbf{S}_{\mathrm{xz}}{ }^{\prime} \widehat{\mathbf{W}} \mathbf{S}_{\mathrm{xz}} \tilde{\delta}
 $$
+
+
 The GMM estimator is
 $$
 \hat{\delta}(\widehat{\mathbf{W}})=\left(\mathbf{S}_{\mathbf{x z}}{ }^{\prime} \widehat{\mathbf{W}} \mathbf{S}_{\mathbf{x z}}\right)^{-1} \mathbf{S}_{\mathbf{x z}}{ }^{\prime} \widehat{\mathbf{W}} \mathbf{s}_{\mathbf{z y}}
@@ -696,18 +700,24 @@ $$\hat{\delta} = arg min_{\delta} \hat{g}_n(\delta)^{\prime} \hat{S}^{-1} \hat{g
 
 $$ \hat{\delta}(w) = (S_{xz}^{\prime} w S_{xz})^{-1} S_{xz}^{\prime} w S_{zy} = (x^{\prime} x)^{-1} x^{\prime} y$$
 
-- IV: L = K and $z^{\prime} x$ is invertible. Then $$\hat{\delta}_{IV} = \hat{\delta}_{GMM}(w)$$. 
+- IV: $$L = K$$ and $$z^{\prime} x$$ is invertible. Then $$\hat{\delta}_{IV} = \hat{\delta}_{GMM}(w)$$. 
 
 $$ \hat{\delta}(w) = (S_{xz}^{\prime} w S_{xz})^{-1} S_{xz}^{\prime} w S_{zy} = (x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} x)^{-1} x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} y = (x^{\prime} z)^{-1} z^{\prime} y$$
 
-- When L < K, let $$\hat{W} = \hat{S}^{-1}$$. Then $$\hat{\delta}_{2SLS} = \hat{\delta}_{GMM}(\hat{W})$$.
+- When $$L < K$$, let $$\hat{W} = \hat{S}^{-1}$$. Then $$\hat{\delta}_{2SLS} = \hat{\delta}_{GMM}(\hat{W})$$.
   - Efficient GMM: $$\hat{W} = S^{-1}$$; Assume $$E(\epsilon_i^2 \vert z_i) = \sigma^2$$, then $$\hat{W} = \hat{S}^{-1} = \frac{1}{n} \sum_{i=1}^n z_i z_i^{\prime}$$.
   - $$S = E(g_i g_i^{\prime}) = E(z_i u_i u_i z_i^{\prime}) = E(z_i^2) E(u_i^2) = E(z_i^2) \sigma^2$$.
   - The optimal weighting in Efficient GMM is $$\hat{W} = \frac{1}{\sigma^2} E(z_i^2)$$.
-  - $$\hat{\delta}_{2SLS} = ( x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} x)^{-1} x^{\prime} (z^{\prime} z)^{-1} z^{\prime} y = (x^{\prime} P_x x)^{-1} (x^\prime P_x y)$$
+  - $$\hat{\delta}_{2SLS} = ( x^{\prime} z (z^{\prime} z)^{-1} z^{\prime} x)^{-1} x^{\prime} (z^{\prime} z)^{-1} z^{\prime} y = (x^{\prime} P_x x)^{-1} (x^\prime P_x y)$$.
   - when L = K, the weighting will be cancelled out. Here we can not cancel out the weighting matrix.
 
-In sum, $$ w = S^{-1}$$ is the optimal weighting matrix in GMM. W is irrelevant when K = L.
+In sum, $$ w = S^{-1}$$ is the optimal weighting matrix in GMM. W is irrelevant when $$K = L$$.
+
+- Asympototic Variance
+  - $$S=\operatorname{Var}(\sqrt{n} \bar{g})$$
+  - In the estimator $$\sigma$$, the variance comes from $$\hat{S}$$, which is the sample variance of $$\hat{g}_n$$.
+  - Therefore, $$\operatorname{Avar}(\hat{\boldsymbol{\delta}(\widehat{\mathbf{W}}})) \equiv\left(\mathbf{S}_{\mathbf{x z}}^{\prime} \widehat{\mathbf{W}} \mathbf{S}_{\mathbf{x z}}\right)^{-1} \mathbf{S}_{\mathbf{x z}}^{\prime} \widehat{\mathbf{W}} \widehat{\mathbf{S}} \widehat{\mathbf{W}} \mathbf{S}_{\mathbf{x z}}\left(\mathbf{S}_{\mathbf{x z}}^{\prime} \widehat{\mathbf{W}} \mathbf{S}_{\mathbf{x z}}\right)^{-1}$$.
+    - $$var(Ax) = A var(x) A^{\prime}$$.
 
 ### How to conduct Efficient GMM
 - Step 1: Estimate $$\hat{S} = \sum_{i=1}^{n}(\hat{g_i} \hat{g_i}^\prime)$$
@@ -715,7 +725,7 @@ In sum, $$ w = S^{-1}$$ is the optimal weighting matrix in GMM. W is irrelevant 
 
 ### Test
 - $$ J(\hat{\delta(\hat{S}^{-1})}, \hat{S}^{-1}) = n \hat{g}_n(\hat{\delta})^{\prime} \hat{S}^{-1} \hat{g}_n(\hat{\delta}) \sim \chi^2(L-K)$$.
-- If K = L, then $$ J = 0 $$.
+- If $$K = L$$, then $$ J = 0 $$.
 -  $$ J(\delta_0, \hat{S}^{-1}) = \chi^2_K$$.
    -  $$\delta_0$$ is the true value of $$\delta$$.
 
