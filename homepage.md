@@ -33,7 +33,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
 
 ## 📚 **Selected Academic Work** （Date: 2023.04.01）
-- **(HKUST)** **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Monte Carlo Framework for Financial Problems”, Working Paper, (2023).
+- **(HKUST)** **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Working Paper, (2023).
 <!-- - **(HKUST)** **S. Jin**, Z Li, K Tam, “Sustainable Investing in the Wild West of Token Economy”, In Progress, (2023). -->
 - **(HKUST)** Y Huang, **S. Jin**, B Zeng, Q Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Working Paper, (2023). 
 - **(HSBC Lab)** M Zhang, B Zhu, Z Li, **S Jin**, Y Xia, "Relationships among return and liquidity of cryptocurrencies", working paper, (2023).
@@ -77,7 +77,8 @@ Four patents are already filed.
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
-  - Yao L wrote a paper: Y Liu, C Xu, **S JIN**, "Quantum Reinforcement Learning with Normalized Advantage Function for Continuous Control", working paper, (2023).
+  - After their research projects, Chang Xu, Shiguang Zhang and Jiahui Wu got PhD offers.
+  - Yao L wrote a paper: Y Liu, C Xu, **S JIN**, "Quantum Reinforcement Learning with Normalized Advantage Function for Continuous Control", Under Revision, (2023).
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
 ## 🛠 **Services**
