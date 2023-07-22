@@ -33,12 +33,12 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
 
 ## 📚 **Selected Academic Work** （Date: 2023.04.01）
-#### **(HKUST)** **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Working Paper, (2023).
+- **(HKUST)** **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Working Paper, (2023).
 <!-- - **(HKUST)** **S. Jin**, Z Li, K Tam, “Sustainable Investing in the Wild West of Token Economy”, In Progress, (2023). -->
-#### **(HKUST)** Y Huang, **S. Jin**, B Zeng, Q Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Working Paper, (2023). 
-#### **(HSBC Lab)** M Zhang, B Zhu, Z Li, **S Jin**, Y Xia, "Relationships among return and liquidity of cryptocurrencies", working paper, (2023).
+- **(HKUST)** Y Huang, **S. Jin**, B Zeng, Q Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Working Paper, (2023). 
+- **(HSBC Lab)** M Zhang, B Zhu, Z Li, **S Jin**, Y Xia, "Relationships among return and liquidity of cryptocurrencies", working paper, (2023).
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
-#### **(HSBC Lab)** **S, Jin**, and Y Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
+- **(HSBC Lab)** **S, Jin**, and Y Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
 
 ## 💡 **Patent**
 Four patents are already filed.
@@ -48,24 +48,24 @@ Four patents are already filed.
 <!-- Regtech theme-based research - CBDC subtheme -->
 
 ## 🎓 **Education**
-### **Hong Kong University of Science and Technology** (Aug 2022 - now). MPhil-PhD Student in Information Systems.
-- GPA: 4.00 in 2022 - 2023 Fall Semester
-- Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
-- Research Direction: Web 3.0, Central Bank Digital Currency, Quantum Finance
-### **South China University of Technology** (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
-- GPA: 3.83 / 4.00 
-- Rank: 1 / 33
-- Obtained 2021 University-level excellent graduation thesis
-- Obtained 2020 China National Scholarship (Top 0.1%)
-- Obtained 2019 First prize of South China University of Technology (Top 1%)
-- Obtained 2018 First prize of South China University of Technology (Top 1%)
+- **Hong Kong University of Science and Technology** (Aug 2022 - now). MPhil-PhD Student in Information Systems.
+  - GPA: 4.00 in 2022 - 2023 Fall Semester
+  - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
+  - Research Direction: Web 3.0, Central Bank Digital Currency, Quantum Finance
+- **South China University of Technology** (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
+  - GPA: 3.83 / 4.00 
+  - Rank: 1 / 33
+  - Obtained 2021 University-level excellent graduation thesis
+  - Obtained 2020 China National Scholarship (Top 0.1%)
+  - Obtained 2019 First prize of South China University of Technology (Top 1%)
+  - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
 ## 💼 **Employment**
-### **HSBC Lab** (May 2021 - Aug 2022). 
+- **HSBC Lab** (May 2021 - Aug 2022). 
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
-### **HSBC Lab** (Seq 2020 - May 2021)
+- **HSBC Lab** (Seq 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
 
