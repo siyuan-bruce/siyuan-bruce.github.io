@@ -42,6 +42,14 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 
 ##### The total number of rejection I have received: **3**.
 
+<div class="card">
+  <div class="card__content">
+    <div class="card__header">
+      <h4>Photograph</h4>
+    </div>
+    <p>...</p>
+  </div>
+</div>
 
 ## 💡 **Patent**
 Four patents are already filed.
