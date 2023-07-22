@@ -40,19 +40,6 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
 - **(HSBC Lab)** **S, Jin**, and Y Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
 
-##### The total number of rejection I have received: **3**.
-
-<div class="card" style="width: 80%; height: 300px;">
-  <div class="card__content">
-    <div class="card__header">
-      <h4>Photograph</h4>
-    </div>
-    <p> (HSBC Lab) **S, Jin**, and Y Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.</p>
-  </div>
-</div>
-
-
-
 ## 💡 **Patent**
 Four patents are already filed.
 
