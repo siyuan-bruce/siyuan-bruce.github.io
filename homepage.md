@@ -47,7 +47,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
     <div class="card__header">
       <h4>Photograph</h4>
     </div>
-    <p>...</p>
+    <p> **(HSBC Lab)** **S, Jin**, and Y Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.</p>
   </div>
 </div>
 
