@@ -33,12 +33,13 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
 
 ## 📚 **Selected Academic Work** （Date: 2023.04.01）
-- **(HKUST)** **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Working Paper, (2023).
-<!-- - **(HKUST)** **S. Jin**, Z Li, K Tam, “Sustainable Investing in the Wild West of Token Economy”, In Progress, (2023). -->
-- **(HKUST)** Y Huang, **S. Jin**, B Zeng, Q Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Working Paper, (2023). 
-- **(HSBC Lab)** M Zhang, B Zhu, Z Li, **S Jin**, Y Xia, "Relationships among return and liquidity of cryptocurrencies", working paper, (2023).
+- **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Working Paper, (2023).
+- Y Huang, **S. Jin**, B Zeng, Q Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Working Paper, (2023). 
+- **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, “Code Quality Metric Distribution”, (2023), arxiv.
+- M Zhang, B Zhu, Z Li, **S Jin**, Y Xia, "Relationships among return and liquidity of cryptocurrencies", working paper, (2023).
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
-- **(HSBC Lab)** **S, Jin**, and Y Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." IEEE Access 10 (2022): 63698-63714.
+- M Zhang, B Zhu, Z Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of\\cryptocurrencies”, (2023), Financial Innovation (Q1, 13/302).
+- **S, Jin**, and Y Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures.", (2022), IEEE Access (Q1, 22/302).
 
 ## 💡 **Patent**
 Four patents are already filed.
@@ -51,7 +52,7 @@ Four patents are already filed.
 - **Hong Kong University of Science and Technology** (Aug 2022 - now). MPhil-PhD Student in Information Systems.
   - GPA: 4.00 in 2022 - 2023 Fall Semester
   - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
-  - Research Direction: Web 3.0, Central Bank Digital Currency, Quantum Finance
+  - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
 - **South China University of Technology** (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
   - GPA: 3.83 / 4.00 
   - Rank: 1 / 33
@@ -59,6 +60,11 @@ Four patents are already filed.
   - Obtained 2020 China National Scholarship (Top 0.1%)
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
+
+## 💼 Industry Consulting
+- 2022.09 ~ now: work with HSBC Hong Kong in CBDC & Quantum Finance.
+- Research in Software Engineering.
+
 
 ## 💼 **Employment**
 - **HSBC Lab** (May 2021 - Aug 2022). 
@@ -80,9 +86,15 @@ Four patents are already filed.
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
 ## 🛠 **Services**
-- 2023.03-2023.04: Reviewing papers of Pacific Asia Conference on Information Systems (PACIS)
-- 2022.11-2022.12: Reviewing papers of Quantum Information Processing (QIP)
-- 2022.11: Mentoring HKUST Fintechstic Competition 2022 (Metaverse & NFT)
+- Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST
+- Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
+- May - Jun 2023: Ad hoc Reviewer for 2023 International Conference on Information Systems (ICIS)
+- Mar - Apr 2023: Ad hoc Reviewer for 2023 Pacific Asia Conference on Information Systems (PACIS)
+- Oct - Nov 2022: Ad hoc Reviewer for 2023 Quantum Information Processing (QIP)
+- Oct 2022 - Jun 2023: Mentor for Data Driven Modeling MSc Program Research Project, 7 M.Sc. Students in Total: Y. Liu received the Best Presentation Award
+- Initiative of Quantum Finance Literature: [https://github.com/siyuan-bruce/Quantum-Finance ↗](https://github.com/siyuan-bruce/Quantum-Finance)
+- Initiative of Central Bank Digital Currency Literature: [https://github.com/siyuan-bruce/CBDC-Literature ↗](https://github.com/siyuan-bruce/CBDC-Literature)
+- Contributor to design-and-analysis-of-algorithm: [https://github.com/datawhalechina/design-and-analysis-of-algorithm ↗](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
 
 ## 🌍 **Volunteer**
 - 2018.09 ~ 2019.03 Director at South China University of Technology Innovation Club for Science and Technology
@@ -98,11 +110,11 @@ Four patents are already filed.
 - 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
 
 ## 📣 **Invited Talks**
-- "A UTXO-based Sharding Method for Stablecoin," 2022 Fourth International Conference on Blockchain Computing and Applications (BCCA), 2022, San Antonio, TX, USA.
+- "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach", Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
+- "A UTXO-based Sharding Method for Stablecoin", **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
 
-## 💼 Industry Consulting
-- 2022.09 ~ now: work with HSBC Hong Kong in CBDC & Quantum Finance.
+
 
 ## 🛠 **Skills**
 ### Language
