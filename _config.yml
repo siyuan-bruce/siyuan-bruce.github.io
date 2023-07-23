@@ -204,7 +204,7 @@ exclude:
 
 defaults:
   - scope:
-      path: ""
+      path: "homepage.html"
       type: posts
     values:
       layout: article
