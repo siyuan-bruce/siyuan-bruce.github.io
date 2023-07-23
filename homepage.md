@@ -33,20 +33,16 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
 
 ## 📚 **Selected Academic Work** （Date: 2023.04.01）
+- **S. Jin**, Z Li, A. Huang, and K. Tam, “Token-Based Platforms and Green Dilemma”, Working Paper, (2023).
 - **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Working Paper, (2023).
 - Y Huang, **S. Jin**, B Zeng, Q Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Working Paper, (2023). 
 - **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, “Code Quality Metric Distribution”, (2023), arxiv.
-- M Zhang, B Zhu, Z Li, **S Jin**, Y Xia, "Relationships among return and liquidity of cryptocurrencies", working paper, (2023).
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
-- M Zhang, B Zhu, Z Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of\\cryptocurrencies”, (2023), Financial Innovation (Q1, 13/302).
+- M Zhang, B Zhu, Z Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation (Q1, 13/302).
 - **S, Jin**, and Y Xia. "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures.", (2022), IEEE Access (Q1, 22/302).
 
 ## 💡 **Patent**
 Four patents are already filed.
-
-<!-- ## Project
-### Empowering Hong Kong Finance with A Quantum Algorithm Platform (10 millon HKD) -->
-<!-- Regtech theme-based research - CBDC subtheme -->
 
 ## 🎓 **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now). MPhil-PhD Student in Information Systems.
@@ -67,15 +63,15 @@ Four patents are already filed.
 
 
 ## 💼 **Employment**
-- **HSBC Lab** (May 2021 - Aug 2022). 
+#### **HSBC Lab** (May 2021 - Aug 2022). 
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
-- **HSBC Lab** (Seq 2020 - May 2021)
+#### **HSBC Lab** (Seq 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
 
-## 📖 **Teaching**
+<!-- ## 📖 **Teaching**
 - 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
@@ -83,7 +79,7 @@ Four patents are already filed.
   - After their research projects, Chang Xu, Shiguang Zhang and Jiahui Wu got PhD offers.
   - Yaofu L and Chang X wrote a paper: Y Liu, C Xu, **S JIN**, "Quantum Reinforcement Learning with Normalized Advantage Function for Continuous Control", Under Revision, (2023).
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
-- 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
+- 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT) -->
 
 ## 🛠 **Services**
 - Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST
@@ -113,8 +109,6 @@ Four patents are already filed.
 - "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach", Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
 - "A UTXO-based Sharding Method for Stablecoin", **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
-
-
 
 ## 🛠 **Skills**
 ### Language
