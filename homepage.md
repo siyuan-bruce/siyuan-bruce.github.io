@@ -95,7 +95,6 @@ Four patents are already filed.
 
 ## 🌍 **Volunteer**
 - 2018.09 ~ 2019.03 Director at South China University of Technology Innovation Club for Science and Technology
-  Sep 2018 - Mar 2019
 - 2018.03 ~ 2018.09 Member of South China University of Technology Innovation Club for Science and Technology
 
 ## 🏆 **Awards**
@@ -106,7 +105,7 @@ Four patents are already filed.
 - 2019.10 Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
 - 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
 
-## 📣 **Invited Talks**
+## 📣 **Conferences**
 - "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach", Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
 - "A UTXO-based Sharding Method for Stablecoin", **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
