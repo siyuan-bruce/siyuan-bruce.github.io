@@ -1,5 +1,20 @@
 ---
-layout: home
-# articles:
-#   excerpt_type: html
+layout: base
+title: home
 ---
+
+
+<div itemscope itemtype="{{ _author_itemtype }}" class="layout--author">
+    <div class="main">
+      <div class="content">
+        <div class="author-avatar">
+          <img itemprop="image" alt="my photo" src="assets/images/logo/cartoon.jpg" />
+        </div>
+        <h1 itemprop="name" class="title-text">{{ site.author.name }}</h1>
+        {% include author-links.html author=site.author %}
+        <p><a itemprop="url" class="social-link blog" title="View My Homepage" href="/homepage.html" target="_self">Visit My Blog</a></p>
+      </div>
+    </div>
+  </div>
+  <script>{%- include scripts/common.js -%}</script>
+{% include analytics.html %}
