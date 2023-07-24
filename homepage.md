@@ -27,7 +27,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 
 ## 🎓 **Research Interests**
 - **Distributed Ledger Technology (DLT)**: Central Bank Digital Currency, Token Economy
-- **Quantum Computing**: Quantum Finance, Clasical Quantum-Inspired Algorithm
+- **Quantum Computing**: Quantum Finance, Classical Quantum-Inspired Algorithm
 - Two Literature Repository:
   - [Central Bank Digital Currency](https://github.com/siyuan-bruce/CBDC-Literature)
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
@@ -36,7 +36,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
   - MPhil-PhD Student in Information Systems.
   - GPA: 4.00 in 2022 - 2023 Fall Semester
-  - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
+  - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng, and Prof. Qiming Shao.
   - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
 - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Eng. in Financial Technology. 
@@ -68,13 +68,13 @@ Seven patents are already filed.
 
 ## 💼 Industry Consulting
 - **HSBC Hong Kong** (Sep 2022 - now)
-  - Resaerch Work in CBDC, Quantum Finance, AI, and Software Enginnering.
+  - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
 
 
 ## 💼 **Employment**
 - **HSBC Laboratory** (May 2021 - Aug 2022)
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
-  - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
+  - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
 
 - **HSBC Laboratory** (Sep 2020 - May 2021)
@@ -86,7 +86,7 @@ Seven patents are already filed.
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
-  - After their research projects, Chang Xu, Shiguang Zhang and Jiahui Wu got PhD offers.
+  - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Yaofu L and Chang X wrote a paper: Y Liu, C Xu, **S JIN**, "Quantum Reinforcement Learning with Normalized Advantage Function for Continuous Control", Under Revision, (2023).
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT) -->
@@ -95,10 +95,10 @@ Seven patents are already filed.
 ## 🛠 **Services**
 - Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST
 - Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
-- May - Jun 2023: Ad hoc Reviewer for 2023 International Conference on Information Systems (ICIS)
-- Mar - Apr 2023: Ad hoc Reviewer for 2023 Pacific Asia Conference on Information Systems (PACIS)
+- May - Jun 2023: Ad hoc Reviewer for the 2023 International Conference on Information Systems (ICIS)
+- Mar - Apr 2023: Ad hoc Reviewer for the 2023 Pacific Asia Conference on Information Systems (PACIS)
 - Oct - Nov 2022: Ad hoc Reviewer for 2023 Quantum Information Processing (QIP)
-- Oct 2022 - Jun 2023: Mentor for Data Driven Modeling MSc Program Research Project, 7 M.Sc. Students in Total: Y. Liu received the Best Presentation Award
+- Oct 2022 - Jun 2023: Mentor for Data-Driven Modeling MSc Program Research Project, 7 M.Sc. Students in Total: Y. Liu received the Best Presentation Award
 - Initiative of Quantum Finance Literature: [https://github.com/siyuan-bruce/Quantum-Finance ↗](https://github.com/siyuan-bruce/Quantum-Finance)
 - Initiative of Central Bank Digital Currency Literature: [https://github.com/siyuan-bruce/CBDC-Literature ↗](https://github.com/siyuan-bruce/CBDC-Literature)
 - Contributor to design-and-analysis-of-algorithm: [https://github.com/datawhalechina/design-and-analysis-of-algorithm ↗](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
@@ -110,15 +110,15 @@ Seven patents are already filed.
 ## 🏆 **Awards**
 - 2022.09 HKUST PhD Postgraduate Studentship
 - 2021.11 [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
-- 2021.06 Ooutstanding Graduates \| University-level excellent graduation thesis (Top 1%)
-- 2019.10 Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
+- 2021.06 Outstanding Graduates \| University-level excellent graduation thesis (Top 1%)
+- 2019.10 Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
 - 2019.10 Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
-- 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
+- 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
 
 ## 📣 **Conferences**
 - "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach", Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
 - [A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204), **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
-- "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Cummunity of Practice (HSBC), Online, Sep 2022.
+- "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Community of Practice (HSBC), Online, Sep 2022.
 
 ## 🛠 **Skills**
 ### Language
@@ -139,11 +139,11 @@ Seven patents are already filed.
   - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 - Game Theory
 - Blockchain: Foundations and Use Cases
-- Google Cloud Platform Big Date and Machine Learning Fundamentals
+- Google Cloud Platform Big Data and Machine Learning Fundamentals
   
 ## 📩 **Contact**
-I am open in working on any interesting topics related to blockchain, AI and quantum computing. Please feel free to contact me if you have any questions or suggestions.
+I am open to working on any interesting topics related to blockchain, AI, and quantum computing. Please feel free to contact me if you have any questions or suggestions.
 - Email: siyuan.jin@connect.ust.hk
-- Wechat: siyuan-bruce
+- WeChat: siyuan-bruce
 - [Linkedin](https://www.linkedin.com/in/si-yuan-bruce-jin/)
 
