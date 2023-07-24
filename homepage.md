@@ -64,8 +64,8 @@ Seven patents are already filed.
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
 ## 💼 Industry Consulting
-- 2022.09 ~ now: work with HSBC Hong Kong in CBDC & Quantum Finance.
-- Research in Software Engineering.
+##### **HSBC Hong Kong** (Sep 2022 - now)
+- Resaerch Work in CBDC, Quantum Finance, AI, Software Enginnering.
 
 
 ## 💼 **Employment**
@@ -74,7 +74,7 @@ Seven patents are already filed.
   - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
 
-##### **HSBC Laboratory** (Seq 2020 - May 2021)
+##### **HSBC Laboratory** (Sep 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
 
