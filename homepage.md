@@ -40,7 +40,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
   - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
 - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Eng. in Financial Technology. 
-  - GPA: 3.83 / 4.00 
+  <!-- - GPA: 3.83 / 4.00  -->
   - Rank: 1 / 33
   - Obtained 2021 University-level excellent graduation thesis
   - Obtained 2020 China National Scholarship (Top 0.1%)
