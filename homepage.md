@@ -34,16 +34,15 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 
 ## 📚 **Selected Academic Work** （Date: 2023.04.01）
 
-
 #### Blockchain, Token, and Central Bank Digital Currency
 - **S. Jin**, Z Li, A. Huang, and K. Tam, “Token-Based Platforms and Green Dilemma”, Working Paper, (2023).
 - M Zhang, B Zhu, Z Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation, Forthcoming, (Q1, 13/302).
 - [CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures](https://ieeexplore.ieee.org/document/9795279), **S, Jin**, and Y Xia, 2022, IEEE Access (Q1, 22/302).
 
 #### Computational Algorithms for Business
+- **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, “Code Quality Metric Distribution”, (2023), arxiv.
 - **S. Jin**, K Tam, B Zeng, Q Shao, Y Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Working Paper, (2023).
 - Y Huang, **S. Jin**, B Zeng, Q Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Working Paper, (2023). 
-- **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, “Code Quality Metric Distribution”, (2023), arxiv.
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
 
 
@@ -67,7 +66,7 @@ Seven patents are already filed.
 
 ## 💼 Industry Consulting
 - **HSBC Hong Kong** (Sep 2022 - now)
-  - Resaerch Work in CBDC, Quantum Finance, AI, Software Enginnering.
+  - Resaerch Work in CBDC, Quantum Finance, AI, and Software Enginnering.
 
 
 ## 💼 **Employment**
