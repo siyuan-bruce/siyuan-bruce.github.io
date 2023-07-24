@@ -32,6 +32,22 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
   - [Central Bank Digital Currency](https://github.com/siyuan-bruce/CBDC-Literature)
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
 
+## 🎓 **Education**
+- **Hong Kong University of Science and Technology** (Aug 2022 - now)
+  - MPhil-PhD Student in Information Systems.
+  - GPA: 4.00 in 2022 - 2023 Fall Semester
+  - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
+  - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
+- **South China University of Technology** (Sep 2017 – Jun 2021)
+  - B.Eng. in Financial Technology. 
+  - GPA: 3.83 / 4.00 
+  - Rank: 1 / 33
+  - Obtained 2021 University-level excellent graduation thesis
+  - Obtained 2020 China National Scholarship (Top 0.1%)
+  - Obtained 2019 First prize of South China University of Technology (Top 1%)
+  - Obtained 2018 First prize of South China University of Technology (Top 1%)
+
+
 ## 📚 **Selected Academic Work** （Date: 2023.04.01）
 
 #### Blockchain, Token, and Central Bank Digital Currency
@@ -49,20 +65,6 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 ## 💡 **Patent**
 Seven patents are already filed.
 
-## 🎓 **Education**
-- **Hong Kong University of Science and Technology** (Aug 2022 - now)
-  - MPhil-PhD Student in Information Systems.
-  - GPA: 4.00 in 2022 - 2023 Fall Semester
-  - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
-  - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
-- **South China University of Technology** (Sep 2017 – Jun 2021)
-  - B.Eng. in Financial Technology. 
-  - GPA: 3.83 / 4.00 
-  - Rank: 1 / 33
-  - Obtained 2021 University-level excellent graduation thesis
-  - Obtained 2020 China National Scholarship (Top 0.1%)
-  - Obtained 2019 First prize of South China University of Technology (Top 1%)
-  - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
 ## 💼 Industry Consulting
 - **HSBC Hong Kong** (Sep 2022 - now)
@@ -88,6 +90,7 @@ Seven patents are already filed.
   - Yaofu L and Chang X wrote a paper: Y Liu, C Xu, **S JIN**, "Quantum Reinforcement Learning with Normalized Advantage Function for Continuous Control", Under Revision, (2023).
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT) -->
+
 
 ## 🛠 **Services**
 - Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST
