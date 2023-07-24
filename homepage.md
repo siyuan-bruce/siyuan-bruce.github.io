@@ -21,7 +21,7 @@ key: page-homepage
 ---
 
 <img src= "./images/profile3.png" align=right width="180"/>
-Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, specializing in Information Systems under the guidance of Prof. Kar Yan Tam, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests encompass cutting-edge technologies, such as blockchain and quantum computing, with a focus on both technical and empirical investigations. [Official CV](https://siyuan-bruce.github.io/assets/Bruce_CV_June.pdf)
+Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, specializing in Information Systems under the guidance of Prof. Kar Yan Tam, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests include financial technologies, such as blockchain and quantum computing, with a focus on both technical and empirical investigations. [Official CV](https://siyuan-bruce.github.io/assets/Bruce_CV_June.pdf)
 
 ---
 
@@ -37,7 +37,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 
 #### Blockchain, Token, and Central Bank Digital Currency
 - **S. Jin**, Z Li, A. Huang, and K. Tam, “Token-Based Platforms and Green Dilemma”, Working Paper, (2023).
-- M Zhang, B Zhu, Z Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation (Q1, 13/302).
+- M Zhang, B Zhu, Z Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation, Forthcoming, (Q1, 13/302).
 - [CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures](https://ieeexplore.ieee.org/document/9795279), **S, Jin**, and Y Xia, 2022, IEEE Access (Q1, 22/302).
 
 #### Computational Algorithms for Business
@@ -48,7 +48,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 
 
 ## 💡 **Patent**
-Four patents are already filed.
+Seven patents are already filed.
 
 ## 🎓 **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now). MPhil-PhD Student in Information Systems.
@@ -69,12 +69,12 @@ Four patents are already filed.
 
 
 ## 💼 **Employment**
-#### **HSBC Laboratory** (May 2021 - Aug 2022)
+##### **HSBC Laboratory** (May 2021 - Aug 2022)
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
 
-#### **HSBC Laboratory** (Seq 2020 - May 2021)
+##### **HSBC Laboratory** (Seq 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
 
@@ -105,8 +105,8 @@ Four patents are already filed.
 
 ## 🏆 **Awards**
 - 2022.09 HKUST PhD Postgraduate Studentship
-- 2021.11 Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)
-- 2021.06 University-level excellent graduation thesis (Top 1%)
+- 2021.11 [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
+- 2021.06 Ooutstanding Graduates \| University-level excellent graduation thesis (Top 1%)
 - 2019.10 Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
 - 2019.10 Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
 - 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest in South China University of Technology
