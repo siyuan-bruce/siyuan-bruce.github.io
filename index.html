@@ -3,6 +3,11 @@ layout: base
 title: home
 ---
 
+{%- if site.author.type == 'organization' -%}
+  {%- assign _author_itemtype = 'http://schema.org/Organization' -%}
+{%- else -%}
+  {%- assign _author_itemtype = 'http://schema.org/Person' -%}
+{%- endif -%}
 
 <div itemscope itemtype="{{ _author_itemtype }}" class="layout--author">
     <div class="main">
@@ -12,7 +17,7 @@ title: home
         </div>
         <h1 itemprop="name" class="title-text">{{ site.author.name }}</h1>
         {% include author-links.html author=site.author %}
-        <p><a itemprop="url" class="social-link blog" title="View My Homepage" href="/homepage.html" target="_self">Visit My Blog</a></p>
+        <p><a itemprop="url" class="social-link blog" title="View My Homepage" href="/homepage.html" target="_self">View My Homepage</a></p>
       </div>
     </div>
   </div>
