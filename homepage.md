@@ -51,11 +51,13 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 Seven patents are already filed.
 
 ## 🎓 **Education**
-- **Hong Kong University of Science and Technology** (Aug 2022 - now). MPhil-PhD Student in Information Systems.
+- **Hong Kong University of Science and Technology** (Aug 2022 - now)
+  - MPhil-PhD Student in Information Systems.
   - GPA: 4.00 in 2022 - 2023 Fall Semester
   - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng and Prof. Qiming Shao.
   - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
-- **South China University of Technology** (Sep 2017 – Jun 2021). B.Eng. in Financial Technology. 
+- **South China University of Technology** (Sep 2017 – Jun 2021)
+  - B.Eng. in Financial Technology. 
   - GPA: 3.83 / 4.00 
   - Rank: 1 / 33
   - Obtained 2021 University-level excellent graduation thesis
@@ -64,17 +66,17 @@ Seven patents are already filed.
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
 ## 💼 Industry Consulting
-##### **HSBC Hong Kong** (Sep 2022 - now)
-- Resaerch Work in CBDC, Quantum Finance, AI, Software Enginnering.
+- **HSBC Hong Kong** (Sep 2022 - now)
+  - Resaerch Work in CBDC, Quantum Finance, AI, Software Enginnering.
 
 
 ## 💼 **Employment**
-##### **HSBC Laboratory** (May 2021 - Aug 2022)
+- **HSBC Laboratory** (May 2021 - Aug 2022)
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Perfomer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
 
-##### **HSBC Laboratory** (Sep 2020 - May 2021)
+- **HSBC Laboratory** (Sep 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
 
