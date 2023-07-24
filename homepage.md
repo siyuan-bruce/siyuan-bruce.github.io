@@ -103,17 +103,18 @@ Seven patents are already filed.
 - Initiative of Central Bank Digital Currency Literature: [https://github.com/siyuan-bruce/CBDC-Literature ↗](https://github.com/siyuan-bruce/CBDC-Literature)
 - Contributor to design-and-analysis-of-algorithm: [https://github.com/datawhalechina/design-and-analysis-of-algorithm ↗](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
 
+
 ## 🌍 **Volunteer**
-- 2018.09 ~ 2019.03 Director at South China University of Technology Innovation Club for Science and Technology
-- 2018.03 ~ 2018.09 Member of South China University of Technology Innovation Club for Science and Technology
+- Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
+- Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
 
 ## 🏆 **Awards**
-- 2022.09 HKUST PhD Postgraduate Studentship
-- 2021.11 [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
-- 2021.06 Outstanding Graduates \| University-level excellent graduation thesis (Top 1%)
-- 2019.10 Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
-- 2019.10 Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
-- 2018.12 Obtained the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
+- Sep 2022: HKUST PhD Postgraduate Studentship
+- Nov 2021: [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
+- Jun 2021: Outstanding Graduates \| University-level excellent graduation thesis (Top 1%)
+- Oct 2019: Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
+- Oct 2019: Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
+- Dec 2018: Obtained the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
 
 ## 📣 **Conferences**
 - "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach", Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
