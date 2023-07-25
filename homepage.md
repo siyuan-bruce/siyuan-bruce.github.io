@@ -56,9 +56,9 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 - [CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures](https://ieeexplore.ieee.org/document/9795279), **S, Jin**, and Y Xia, 2022, IEEE Access (Q1, 22/302).
 
 #### Computational Algorithms for Business
-- **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, “Code Quality Metric Distribution”, (2023), arxiv.
 - **S. Jin**, K. Tam, B. Zeng, Q. Shao, Y. Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Working Paper, (2023).
 - Y. Huang, **S. Jin**, B. Zeng, Q. Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Working Paper, (2023). 
+- **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, “Code Quality Metric Distribution”, (2023), [arxiv](https://arxiv.org/pdf/2307.12082.pdf).
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
 
 
