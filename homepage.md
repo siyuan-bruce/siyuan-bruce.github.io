@@ -49,6 +49,8 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 
 ## **Selected Academic Work** 
 
+While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
+
 #### Blockchain, Token, and Central Bank Digital Currency
 - **S. Jin**, Z. Li, A. Huang, and K. Tam, “Token-Based Platforms and Green Dilemma”, Under Review, (2023).
 - M. Zhang, B. Zhu, Z. Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation, Forthcoming, (Q1, 13/302).
@@ -60,20 +62,10 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 - [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, 2023, arxiv.
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
 
-## Industry Consulting
-- **HSBC Hong Kong** (Sep 2022 - now)
-  - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
-  - Seven patents are already filed.
-
-## **Employment**
-- **HSBC Laboratory** (May 2021 - Aug 2022)
-  - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
-  - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
-  - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
-
-- **HSBC Laboratory** (Sep 2020 - May 2021)
-  - Internship on CBDC work
-  - Angle Fund Winner \| Corda Prototype Development
+## **Conferences**
+- "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach", Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
+- [A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204), **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
+- "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Community of Practice (HSBC), Online, Sep 2022.
 
 <!-- ## 📖 **Teaching**
 - 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
@@ -96,6 +88,23 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 - Initiative of Central Bank Digital Currency Literature: [https://github.com/siyuan-bruce/CBDC-Literature ↗](https://github.com/siyuan-bruce/CBDC-Literature)
 - Contributor to design-and-analysis-of-algorithm: [https://github.com/datawhalechina/design-and-analysis-of-algorithm ↗](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
 
+
+## Industry Consulting
+- **HSBC Hong Kong** (Sep 2022 - now)
+  - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
+  - Seven patents are already filed.
+
+## **Employment**
+- **HSBC Laboratory** (May 2021 - Aug 2022)
+  - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
+  - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
+  - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
+
+- **HSBC Laboratory** (Sep 2020 - May 2021)
+  - Internship on CBDC work
+  - Angle Fund Winner \| Corda Prototype Development
+
+
 ## **Volunteer**
 - Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
 - Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
@@ -108,10 +117,6 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 - Oct 2019: Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
 - Dec 2018: Obtained the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
 
-## **Conferences**
-- "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach", Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
-- [A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204), **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
-- "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Community of Practice (HSBC), Online, Sep 2022.
 
 ## **Skills**
 ### Language
