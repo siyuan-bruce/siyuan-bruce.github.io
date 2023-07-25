@@ -40,7 +40,6 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
   - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
 - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Eng. in Financial Technology. 
-  <!-- - GPA: 3.83 / 4.00  -->
   - Rank: 1 / 33
   - Obtained 2021 University-level excellent graduation thesis
   - Obtained 2020 China National Scholarship (Top 0.1%)
@@ -48,7 +47,7 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
 
-## 📚 **Selected Academic Work** （Date: 2023.04.01）
+## 📚 **Selected Academic Work** 
 
 #### Blockchain, Token, and Central Bank Digital Currency
 - **S. Jin**, Z. Li, A. Huang, and K. Tam, “Token-Based Platforms and Green Dilemma”, Under Review, (2023).
@@ -61,15 +60,10 @@ Si Yuan JIN (Bruce) is an MPhil-PhD candidate at HKUST Business School, speciali
 - [Code Quality Metric Distribution](https://arxiv.org/pdf/2307.12082.pdf), **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, 2023, arxiv.
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
 
-
-## 💡 **Patent**
-Seven patents are already filed.
-
-
 ## 💼 Industry Consulting
 - **HSBC Hong Kong** (Sep 2022 - now)
   - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
-
+  - Seven patents are already filed.
 
 ## 💼 **Employment**
 - **HSBC Laboratory** (May 2021 - Aug 2022)
@@ -91,7 +85,6 @@ Seven patents are already filed.
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT) -->
 
-
 ## 🛠 **Services**
 - Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST
 - Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
@@ -102,7 +95,6 @@ Seven patents are already filed.
 - Initiative of Quantum Finance Literature: [https://github.com/siyuan-bruce/Quantum-Finance ↗](https://github.com/siyuan-bruce/Quantum-Finance)
 - Initiative of Central Bank Digital Currency Literature: [https://github.com/siyuan-bruce/CBDC-Literature ↗](https://github.com/siyuan-bruce/CBDC-Literature)
 - Contributor to design-and-analysis-of-algorithm: [https://github.com/datawhalechina/design-and-analysis-of-algorithm ↗](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
-
 
 ## 🌍 **Volunteer**
 - Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
