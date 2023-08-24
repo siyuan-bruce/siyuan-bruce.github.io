@@ -46,17 +46,19 @@ Si Yuan JIN (Bruce) is a first-year MPhil-PhD student at HKUST Business School, 
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
-
 ## **Selected Academic Work** 
 
 While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
 
 #### Blockchain, Token, and Central Bank Digital Currency
+##### Empirical
 - **S. Jin**, Z. Li, A. Huang, and K. Tam, “Token-Based Platforms and Green Dilemma”, Under Review, (2023).
+##### Technical
 - M. Zhang, B. Zhu, Z. Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation, Forthcoming, (Q1, 13/302).
 - [CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures](https://ieeexplore.ieee.org/document/9795279), **S, Jin**, and Y Xia, 2022, IEEE Access (Q1, 22/302).
 
 #### Computational Algorithms for Business
+##### Technical
 - **S. Jin**, K. Tam, B. Zeng, Q. Shao, Y. Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Under Review, (2023).
 - Y. Huang, **S. Jin**, B. Zeng, Q. Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Under Review, (2023). 
 - [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, 2023, arxiv.
@@ -78,7 +80,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT) -->
 
 ## **Services**
-- Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST
+- Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST (Rating: 4.3/5.0)
 - Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
 - May - Jun 2023: Ad hoc Reviewer for the 2023 International Conference on Information Systems (ICIS)
 - Mar - Apr 2023: Ad hoc Reviewer for the 2023 Pacific Asia Conference on Information Systems (PACIS)

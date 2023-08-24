@@ -22,7 +22,9 @@ This page presents some of my previous moment captures.
 
 #### HKUST Fintechstic NFT & Metaverse Competition
 I was invited to become a mentor for HKUST undergraduate students about their competition on NFT and Metaverse. I am very proud of their achievements. The first picture is the NFT designed by the organizer, and the second picture is a moment capture of my mentorship.
+
  <img src="assets/images/gallery/Fintechstic_NFT.jpg" alt="Image" title="HKUST_Fintechstic" width=600>
+
 
  <img src="assets/images/gallery/mentor.jpg" alt="Image" title="mentor" width=600>
 
