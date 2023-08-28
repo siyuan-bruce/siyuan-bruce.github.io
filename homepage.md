@@ -108,8 +108,8 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
 
 ## **Volunteer**
-- Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
 - Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
+- Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
 
 ## **Awards**
 - Sep 2022: HKUST PhD Postgraduate Studentship
