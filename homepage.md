@@ -65,7 +65,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 <!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
 
 ## **Conferences**
-- "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach", Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
+- [Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293), Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
 - [A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204), **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Community of Practice (HSBC), Online, Sep 2022.
 
