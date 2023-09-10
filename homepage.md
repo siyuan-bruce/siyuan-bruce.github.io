@@ -21,13 +21,14 @@ key: page-homepage
 ---
 
 <img src= "./images/profile3.png" align=right width="180"/>
-Si Yuan JIN (Bruce) is a first-year MPhil-PhD student at HKUST Business School, specializing in Information Systems supervised by Prof. Kar Yan Tam. He is also under guidance of Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc DORDAL CARRERAS, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests include financial technologies, such as blockchain and quantum computing, with a focus on both technical and empirical investigations. [Official CV](https://siyuan-bruce.github.io/assets/Bruce_CV_June.pdf)
+Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at HKUST Business School, specializing in Information Systems supervised by Prof. Kar Yan Tam. He is also under guidance of Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc DORDAL CARRERAS, Prof. Bei Zeng, and Prof. Qiming Shao. Before joining HKUST, he worked as a software engineer in HSBC Lab and published a few technical papers related to blockchain and token.
+His research interests now include blockchain and quantum computing, with a focus on both technical and empirical investigations. [Official CV](https://siyuan-bruce.github.io/assets/Bruce_CV_June.pdf)
 
 ---
 
 ## 🎓 **Research Interests**
-- **Distributed Ledger Technology (DLT)**: Central Bank Digital Currency, Token Economy
-- **Quantum Computing**: Quantum Finance, Classical Quantum-Inspired Algorithm
+- **Distributed Ledger Technology (DLT)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
+- **Quantum Computing**: Quantum-inspired Business, Quantum Finance, Classical Quantum-Inspired Algorithm
 - Two Literature Repository:
   - [Central Bank Digital Currency](https://github.com/siyuan-bruce/CBDC-Literature)
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
