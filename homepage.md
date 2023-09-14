@@ -53,7 +53,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
 #### Blockchain, Token, and Central Bank Digital Currency
 - Empirical
-  - **S. Jin**, Z. Li, A. Huang, and K. Tam, “Token-Based Platforms and Green Dilemma”, Under Review, (2023).
+  - [Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995), **S. Jin**, Z. Li, A. Huang, and K. Tam, Under Review, (2023).
 - Technical
   - M. Zhang, B. Zhu, Z. Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation, Forthcoming, (Q1, 13/302).
   - [CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures](https://ieeexplore.ieee.org/document/9795279), **S, Jin**, and Y Xia, 2022, IEEE Access (Q1, 22/302).
