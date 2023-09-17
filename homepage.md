@@ -37,7 +37,7 @@ His research interests now include blockchain and quantum computing, with a focu
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
   - MPhil-PhD Student in Information Systems.
   - GPA: 4.00 in 2022 - 2023 Fall Semester
-  - Supervisors: Prof. Kar Yan Tam, Prof. Bei Zeng, and Prof. Qiming Shao.
+  - Supervisor: Prof. Kar Yan Tam.
   - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
 - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Eng. in Financial Technology, Outstanding Graduates. 
