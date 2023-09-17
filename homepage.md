@@ -84,15 +84,15 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - [A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204), **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Community of Practice (HSBC), Online, Sep 2022.
 
-<!-- ## 📖 **Teaching**
+## 📖 **Teaching**
+- 2023.09 ~ 2023.11 Instructor for ISOM 2020 Lab: Coding for Business
 - 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
   - Qiskit Certificate Training. 
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
-  - Yaofu L and Chang X wrote a paper: Y Liu, C Xu, **S JIN**, "Quantum Reinforcement Learning with Normalized Advantage Function for Continuous Control", Under Revision, (2023).
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
-- 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT) -->
+- 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
 ## **Services**
 - Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST (Rating: 4.3/5.0)
