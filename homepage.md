@@ -52,18 +52,19 @@ His research interests now include blockchain and quantum computing, with a focu
 While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
 
 #### Blockchain, Token, and Central Bank Digital Currency
-- Empirical
   - [Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995), **S. Jin**, Z. Li, A. Huang, and K. Tam, Under Review, (2023).
-- Technical
-  - M. Zhang, B. Zhu, Z. Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation, Forthcoming, (Q1, 13/302).
-  - [CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures](https://ieeexplore.ieee.org/document/9795279), **S, Jin**, and Y Xia, 2022, IEEE Access (Q1, 22/302).
+    - ”While environmental impact has become an important corporate governance agenda in recent years, it is unclear whether this is valued by users of token-based platforms and how these platforms react to changing perceptions towards their environmental impacts. This paper examines how the change in community perceptions towards environmental impacts affects token-based platforms’ disclosures and growth. Using Elon Musk’s announcement that Tesla suspended vehicle purchases using Bitcoin due to its environmental impact as a shock that increases the community’s awareness of the negative impacts on the environment because of mining, we find that infrastructure platforms as compared with application platforms are more likely to disclose environmental impact information and their platform growth rates decrease more after the perception change. Furthermore, infrastructure platforms’ pre-change environmental disclosure led to a decline in growth rates, whereas their post-change disclosure demonstrates the opposite effect, consistent with green-costing and green-enhancing effects, respectively.“
+
+
+<!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
 
 #### Computational Algorithms for Business
-- Technical
+  - M. Zhang, B. Zhu, Z. Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation, Forthcoming, (Q1, 13/302).
   - **S. Jin**, K. Tam, B. Zeng, Q. Shao, Y. Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Under Review, (2023).
   - Y. Huang, **S. Jin**, B. Zeng, Q. Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Under Review, (2023). 
+  - [CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures](https://ieeexplore.ieee.org/document/9795279), **S, Jin**, and Y Xia, 2022, IEEE Access (Q1, 22/302).
   - [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, 2023, arxiv.
-<!-- - **(HKUST)** M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023). -->
+
 
 ## **Conferences**
 - [Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293), Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
