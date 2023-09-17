@@ -157,7 +157,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - Google Cloud Platform Big Data and Machine Learning Fundamentals
   
 ## 📩 **Contact**
-I am open to working on any interesting topics related to blockchain, AI, and quantum computing. Please feel free to contact me if you have any questions or suggestions.
+I am open to working on any interesting topics. Please feel free to contact me if you want to costart a project.
 - Email: siyuan.jin@connect.ust.hk
 - WeChat: siyuan-bruce
 - [Linkedin](https://www.linkedin.com/in/si-yuan-bruce-jin/)
