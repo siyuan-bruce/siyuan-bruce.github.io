@@ -95,6 +95,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
 ## **Services**
+- Sep - Nov 2023: Instructor for "Codind for Business" Lab course, ISOM 2020 Lab, HKUST.
 - Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST (Rating: 4.3/5.0)
 - Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
 - May - Jun 2023: Ad hoc Reviewer for the 2023 International Conference on Information Systems (ICIS)
