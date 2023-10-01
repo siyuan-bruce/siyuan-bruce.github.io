@@ -11,11 +11,11 @@ article_header:
   background_image: false
 ---
 
-Last month, I was busy in preparing a report for the Hong Kong Monetary Authority. Our team conducted a hypothetical e-HKD experiment on the HKUST campus. The pilot program concluded on September 22, with the report due by September 28. Hence, our team needed to be well-prepared to analyze the data from the pilot. I started to write the basic structure of the RMD on early September. At the end, I have written more than 20,000 lines of R code. I tried my best to define functions and use loops to reduce the length of the code. Even so, the RMD file is still more than 7,000 lines long in the end.
+Last month, I was busy in preparing a report for the Hong Kong Monetary Authority. Our team conducted a hypothetical e-HKD experiment on the HKUST campus. The pilot program concluded on September 22, with the report due by September 28. Hence, I started to write the basic structure of the RMD on early September. At the end, I have written more than 20,000 lines. I tried my best to define functions to reduce the length of the code. Even so, the RMD file is still more than 7,000 lines long in the end.
 
 Professor Kohei tasked me with writing the report using RMD. This was a first for me, as I had never written an RMD report from scratch before. My usual practice involves coding in Java or Python and writing reports in Latex. However, once I finished the report, I recognized the merits of RMD. It can even generate a Word document, a feature Latex lacks. This is particularly valuable today, as some top-tier journals continue to require submissions in Word format, which has presented challenges for me as a Latex user.
 
-Another aspect of this experience I found worthy of appreciation was Kohei's strict coding requirements. His "coding rules" have now become a part of my programming routine. Adhering to these rules has notably improved the quality of my code. Even though it requires additional effort to comply, I believe it's a beneficial practice for maintaining readability in future code.
+Another aspect of this experience I found worthy of appreciation was Kohei's strict coding requirements. His "coding rules" can actually provide elegant and clear code structures. Adhering to these rules has notably improved the quality of my code. Even though it requires additional effort to comply, it is a beneficial practice for maintaining code readability.
 
 Thanks to this experience and all research team members, I have gained a deeper understanding of a lot of things. 
 
