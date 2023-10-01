@@ -28,7 +28,7 @@ Here are a few takeaways from my experience using RMD:
      bookdown::html_document2: default
    ```
 2. Use BrBG colors to represent contrasting features.
-3. Use `table01` to number an R code area. The compiler will automatically number figures and tables. Note that the '01' in the name doesn't affect this functionality.
+3. Use `table01` to number an R code area. The compiler will automatically number figures and tables. Note that the '01' in the name doesn't affect the order of final report. It is just a name.
 4. Commonly used packages include `dplyr`, `modelsummary`, `scales`, `kableExtra`, `ggplot2`, and `foreach`.
 5. When compiling into a Word document, ensure to add `options(kableExtra.auto_format = FALSE)`.
 6. `stargazer` provides a good format for multinomial probit models. However, be aware that the resulting tables may not be compatible with Word documents.
@@ -37,7 +37,14 @@ Here are a few takeaways from my experience using RMD:
 9. Current AI tools, such as ChatGPT, can greatly enhance coding efficiency. Make sure to fully utilize them.
 10. When using `factor()` to assign value orders, remember to use `arrange` to sort the variable later. This process also applies when ordering labels in figures.
 11. Use `bind_rows` and `bind_cols` to merge dataframes.
-12. Use `case_when` to conditionally replace values."
+12. Use `case_when` to conditionally replace values.
+13. Use `mutate` to create new variables.
+14. Use `group_by` and `summarize` to calculate summary statistics.
+15. Use `modelsummary` to generate regression tables.
+16. Use `scale_fill_manual` to assign colors to bars in a bar chart.
+17. Use `geom_text` to add labels to a bar chart.
+18. Use `geom_col` to generate a horizontal bar chart.
+
 
 
 
