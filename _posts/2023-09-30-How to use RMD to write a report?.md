@@ -1,6 +1,6 @@
 ---
 title: How to use RMD to write a report?
-tags: Academic Skills
+tags: Skills
 mathjax: true
 mermaid: true
 author: Si Yuan JIN
