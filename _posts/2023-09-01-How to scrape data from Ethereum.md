@@ -10,5 +10,6 @@ article_header:
   background_image: false
 ---
 
+I found using basescan and etherscan to scrape data from Ethereum is very convenient. 
 
 
