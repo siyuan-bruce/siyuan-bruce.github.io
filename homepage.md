@@ -47,7 +47,7 @@ His research interests now include blockchain and computational algorithms for b
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
-## **Selected Academic Work** 
+## **Selected Journal Work** 
 
 While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
 
@@ -79,8 +79,8 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 
 ## **Conferences**
 - **S. Jin**, Z Li, B. Chen, B. Zhu, and Y. Xia, [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%.
-- Y. Liu, C. Xu, and **S. Jin**. "[Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293)". {IEEE Services} - International Conference on Quantum Software, Chicago, USA, **(QSW 2023)**. _Short Paper with Oral Presentation, Average Acceptance Rate: 21.50%_.
-- **S. Jin**, B. Xu, P. Intallura, and Y. Xia. "[A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204)". IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_.
+- Y. Liu, C. Xu, and **S. Jin**. "[Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293)". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(QSW 2023)**. _Short Paper with Oral Presentation, Average Acceptance Rate: 21.50%_.
+- **S. Jin**, B. Xu, P. Intallura, and Y. Xia. "[A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204)". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_.
 
 ## **Invited Talk**
 - "The Introduction of FinTech Research", South China University of Technology, Online, Sep 2023.
