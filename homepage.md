@@ -52,12 +52,12 @@ His research interests now include blockchain and computational algorithms for b
 While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
 
 #### Blockchain, Token, and Central Bank Digital Currency
-  - [Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995), **S. Jin**, Z. Li, A. Huang, and K. Tam, Under Review, (2023).
+  - **S. Jin**, Z Li, A. Huang, and K. Tam. "Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures". Available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995), In preparation for submission to _Information System Research_. [UTD 24]
 
       **Abstract**: While environmental impact has become an important corporate governance agenda in recent years, it is unclear whether this is valued by users of token-based platforms and how these platforms react to changing perceptions towards their environmental impacts. This paper examines how the change in community perceptions towards environmental impacts affects token-based platforms’ disclosures and growth. Using Elon Musk’s announcement that Tesla suspended vehicle purchases using Bitcoin due to its environmental impact as a shock that increases the community’s awareness of the negative impacts on the environment because of mining, we find that infrastructure platforms as compared with application platforms are more likely to disclose environmental impact information and their platform growth rates decrease more after the perception change. Furthermore, infrastructure platforms’ pre-change environmental disclosure led to a decline in growth rates, whereas their post-change disclosure demonstrates the opposite effect, consistent with green-costing and green-enhancing effects, respectively.
 
 
-  - [CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures](https://ieeexplore.ieee.org/document/9795279), **S, Jin**, and Y Xia, 2022, IEEE Access (Q1, 22/302).
+  - **S, Jin**, and Y Xia, “CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework”. Published at [_IEEE Access 10 (2022): 63698-63714._](https://ieeexplore.ieee.org/document/9795279). [Q1, 22/302]
 
        **Abstract**: We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.
 
@@ -67,27 +67,28 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
 Most technical work is finished before joinning HKUST, which serves as foundation of my understanding on blockchain, token, etc.
 
-  - **S. Jin**, K. Tam, B. Zeng, Q. Shao, Y. Huang, Y Xia, B Zhu, Z Li, “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”, Under Review, (2023).
+  - **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, and Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Submitted to _INFORMS Journal on Data Science_.
   
       **Abstract**: Quantum computing has the potential to revolutionize problem-solving by significantly improving computational complexity. However, the sophisticated nature of quantum knowledge and circuit design presents challenges for business practitioners. In this study, we introduce FinQMC, a quantum Monte Carlo framework designed to transform classical Monte Carlo algorithms into quantum ones. Our framework proposes the key principle of treating quantum states as the distributions of financial variables. To validate the efficiency and applicability of FinQMC, we conducted two experiments: option pricing and portfolio selection. The results obtained demonstrate the feasibility and accuracy of our approach. FinQMC simplifies the complex world of quantum computing and offers a more efficient solution to a wide range of business challenges compared to classical Monte Carlo methods. Practically, our study is the first to apply the quantum Monte Carlo method in the context of portfolio selection.
 
-  - [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), **S. Jin**, M. Zhang, Y. Guo, Y. He, Z Li, B. Chen, B. Zhu, and Y. Xia, 2023, arxiv.
+  - **S. Jin**, Z. Li, B. Chen, B. Zhu, and Y. Xia. "A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions". IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand,  **(QRS 2023)**. \\ _Short Paper with Oral Presentation, Acceptance Rate: 23.47\%_
 
       **Abstract**: Code quality is a construct in open-source software (OSS) with three dimensions: maintainability, reliability, and functionality. We identify 20 distinct metrics and categorize them into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship for evaluation. We propose a distribution-based method to evaluate both types, which demonstrates great explainability of OSS adoption. Our empirical analysis includes more than 36,460 OSS repositories and their raw metrics from [SonarQube](https://www.sonarsource.com) and [CK](https://github.com/mauricioaniche/ck). Our work contributes to the multi-dimensional construct of code quality and its metric measurements.
 
-  - M. Zhang, B. Zhu, Z. Li, **S. Jin**, and Y. Xia, “Relationships among return and liquidity of cryptocurrencies”, (2023), Financial Innovation, Forthcoming, (Q1, 13/302).
+  - M Zhang, B Zhu, Z Li, \textbf{S. Jin}, and Y. Xia. “Relationships among Return and Liquidity of Cryptocurrencies”. Forthcoming at _Financial Innovation._ [Q1, 13/302]
 
       **Abstract**: The cryptocurrency market is a complex and rapidly evolving financial landscape in which understanding the inter- and intra-asset dependencies among key financial variables, such as return and liquidity, is crucial. In this study, we analyze daily return and liquidity data for six major cryptocurrencies, namely Bitcoin, Ethereum, Ripple, Binance Coin, Litecoin, and Dogecoin, spanning the period from June 3, 2020, to November 30, 2022. Liquidity is estimated using three low-frequency proxies: the Amihud ratio, the Abdi and Ranaldo (AR) estimator, and the Corwin and Schultz (CS) estimator. To account for autoregressive and persistent effects, we apply the ARIMA-GARCH model and subsequently utilize the copula method to examine the interdependent relationships among the return and liquidity of the six cryptocurrencies. Our analysis reveals strong cross-asset lower-tail dependence in return and significant cross-asset upper-tail dependence in illiquidity measures, with more pronounced dependence observed in specific cryptocurrency pairs, primarily involving Bitcoin, Ethereum, and Litecoin. We also observe that returns tend to be higher when liquidity is lower in the cryptocurrency market. Our findings have significant implications for portfolio diversification, asset allocation, risk management, and trading strategy development for investors and traders, as well as regulatory policy-making for regulators. In conclusion, this study contributes to a deeper understanding of the cryptocurrency marketplace and can help inform investment decision-making and regulatory policies in this emerging financial domain.
 
   - Y. Huang, **S. Jin**, B. Zeng, Q. Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Under Review, (2023). 
 
 ## **Conferences**
-- [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), **S. Jin**, Z Li, B. Chen, B. Zhu, and Y. Xia, 2023, IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, 2023.
-- [Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293), Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023.
-- [A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204), **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022.
+- [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), **S. Jin**, Z Li, B. Chen, B. Zhu, and Y. Xia, 2023, IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, 2023. Short paper with oral presentaiton. Acceptance Rate: 21.47\%.
+- [Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293), Y. Liu, C. Xu, and **S. Jin**, IEEE Services - International Conference on Quantum Software, Chicago, USA, 2023. hort paper with oral presentaiton. Average Acceptance Rate: 21.50\%.
+- [A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204), **S. Jin**, B. Xu, P. Intallura, and Y. Xia, IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, 2022. hort paper with oral presentaiton. 
 
 ## **Invited Talk**
-- "The Introduction of FinTech", South China University of Technology, Online, Sep 2023.
+- "The Introduction of FinTech Research", South China University of Technology, Online, Sep 2023.
+- "The introduction of Fintech Research", South China University of Technology, Sep 2022.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Community of Practice (HSBC), Online, Sep 2022.
 
 ## 📖 **Teaching**
@@ -146,6 +147,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 ### Language
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
+- Cantonese (Beginner)
 
 ### Licenses & Certifications
 - Verified Certificate for WEB 3.0 KNOWLEDGE CERTIFICATE IN FINANCIAL SERVICES
