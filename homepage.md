@@ -21,7 +21,7 @@ key: page-homepage
 ---
 
 <img src= "./images/profile3.png" align=right width="180"/>
-Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at HKUST Business School, specializing in Information Systems supervised by Prof. Kar Yan Tam. He is also under guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc DORDAL CARRERAS, Prof. Bei Zeng, and Prof. Qiming Shao. Before joining HKUST, he worked as a software engineer in HSBC Lab and published a few technical papers related to blockchain and token.
+Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at Department of Information Systems at HKUST Business School. He is supervised by Prof. Kar Yan Tam and also under guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc DORDAL CARRERAS, Prof. Bei Zeng, and Prof. Qiming Shao. Before joining HKUST, he worked as a software engineer in HSBC Lab and published a few technical papers related to blockchain and token.
 His research interests now include blockchain and computational algorithms for business, with a focus on both technical and empirical investigations.
 
 ---
@@ -82,7 +82,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 
     Abstract: Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics. 
 
-2. Y. Liu, C. Xu, and **S. Jin**. "[Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293)". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(SERVICE 2023)**. _Short Paper with Oral Presentation, Average Acceptance Rate: 21.50%_.
+2. Y. Liu, C. Xu, and **S. Jin**. "[Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293)". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_.
 
 3. **S. Jin**, B. Xu, P. Intallura, and Y. Xia. "[A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204)". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_.
 
@@ -97,7 +97,6 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - 2023.09 ~ 2023.11 Instructor for ISOM 2020 Lab: Coding for Business
 - 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
-  - Qiskit Certificate Training. 
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
