@@ -26,14 +26,14 @@ His research interests now include blockchain and computational algorithms for b
 
 ---
 
-## 🎓 **Research Interests**
+### 🎓 **Research Interests**
 - **Distributed Ledger Technology (DLT)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
 - **Quantum Computing**: Quantum-inspired Business, Quantum Finance, Classical Quantum-Inspired Algorithm
 - Two Literature Repository:
   - [Central Bank Digital Currency](https://github.com/siyuan-bruce/CBDC-Literature)
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
 
-## 🎓 **Education**
+### 🎓 **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
   - MPhil-PhD Student in Information Systems.
   - GPA: 4.00 in 2022 - 2023 Fall Semester
@@ -47,11 +47,11 @@ His research interests now include blockchain and computational algorithms for b
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
-## **Selected Journal Work** 
+### **Selected Journal Work** 
 
 While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
 
-#### Blockchain, Token, and Central Bank Digital Currency
+###### Blockchain, Token, and Central Bank Digital Currency
   - **S. Jin**, Z Li, A. Huang, and K. Tam. "Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures". Available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995), In preparation for submission to _Information System Research_. [UTD 24]
 
       **Abstract**: While environmental impact has become an important corporate governance agenda in recent years, it is unclear whether this is valued by users of token-based platforms and how these platforms react to changing perceptions towards their environmental impacts. This paper examines how the change in community perceptions towards environmental impacts affects token-based platforms’ disclosures and growth. Using Elon Musk’s announcement that Tesla suspended vehicle purchases using Bitcoin due to its environmental impact as a shock that increases the community’s awareness of the negative impacts on the environment because of mining, we find that infrastructure platforms as compared with application platforms are more likely to disclose environmental impact information and their platform growth rates decrease more after the perception change. Furthermore, infrastructure platforms’ pre-change environmental disclosure led to a decline in growth rates, whereas their post-change disclosure demonstrates the opposite effect, consistent with green-costing and green-enhancing effects, respectively.
@@ -63,7 +63,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
   - M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023).
 
-#### Computational Algorithms for Business 
+###### Computational Algorithms for Business 
 
 Most technical work is finished before joinning HKUST, which serves as foundation of my understanding on blockchain, token, etc.
 
@@ -77,17 +77,17 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 
   - Y. Huang, **S. Jin**, B. Zeng, Q. Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Under Review, (2023). 
 
-## **Conferences**
+### **Conferences**
 - **S. Jin**, Z Li, B. Chen, B. Zhu, and Y. Xia, [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%.
 - Y. Liu, C. Xu, and **S. Jin**. "[Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293)". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(QSW 2023)**. _Short Paper with Oral Presentation, Average Acceptance Rate: 21.50%_.
 - **S. Jin**, B. Xu, P. Intallura, and Y. Xia. "[A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204)". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_.
 
-## **Invited Talk**
+### **Invited Talk**
 - "The Introduction of FinTech Research", South China University of Technology, Online, Sep 2023.
 - "The introduction of Fintech Research", South China University of Technology, Sep 2022.
 - "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", Europe Innovation Community of Practice (HSBC), Online, Sep 2022.
 
-## 📖 **Teaching**
+### 📖 **Teaching**
 - 2023.09 ~ 2023.11 Instructor for ISOM 2020 Lab: Coding for Business
 - 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
@@ -97,7 +97,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
-## **Services**
+### **Services**
 - Sep - Nov 2023: Instructor for "Codind for Business" Lab course, ISOM 2020 Lab, HKUST.
 - Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST (Rating: 4.3/5.0)
 - Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
@@ -110,12 +110,12 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - Contributor to design-and-analysis-of-algorithm: [https://github.com/datawhalechina/design-and-analysis-of-algorithm ↗](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
 
 
-## Industry Consulting
+### Industry Consulting
 - **HSBC Hong Kong** (Sep 2022 - now)
   - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
   - Seven patents are already filed.
 
-## **Employment**
+### **Employment**
 - **HSBC Laboratory** (May 2021 - Aug 2022)
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
@@ -126,11 +126,11 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
   - Angle Fund Winner \| Corda Prototype Development
 
 
-## **Volunteer**
+### **Volunteer**
 - Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
 - Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
 
-## **Awards**
+### **Awards**
 - Sep 2022: HKUST PhD Postgraduate Studentship
 - Nov 2021: [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
 - Jun 2021: Outstanding Graduates \| University-level excellent graduation thesis (Top 1%)
@@ -138,30 +138,13 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - Oct 2019: Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
 - Dec 2018: Obtained the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
 
-
-## **Skills**
-### Language
+### **Skills**
+#### Language
 - Chinese (Native)
 - English (Proficient, IELTS 7.5)
 - Cantonese (Beginner)
-
-### Licenses & Certifications
-- Verified Certificate for WEB 3.0 KNOWLEDGE CERTIFICATE IN FINANCIAL SERVICES
-  - National University of Singapore
-
-### Coursera:
-- Machine Learning
-- Deep Learning Series
-  - Sequence Models
-  - Convolutional Neural Networks 
-  - Neural Networks
-  - Deep Learning
-  - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
-- Game Theory
-- Blockchain: Foundations and Use Cases
-- Google Cloud Platform Big Data and Machine Learning Fundamentals
   
-## 📩 **Contact**
+### 📩 **Contact**
 I am open to working on any interesting topics. Please feel free to contact me if you want to costart a project.
 - Email: siyuan.jin@connect.ust.hk
 - WeChat: siyuan-bruce
