@@ -144,7 +144,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - Dec 2018: Obtained the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
 
 #### Language
-- Chinese (Native)
+- Mandarin (Native)
 - English (Proficient, IELTS 7.5)
 - Cantonese (Beginner)
   
