@@ -63,7 +63,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
   3. M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, E. L.-C. Lai, P. Wang, “Evaluating CBDC’s Impact on Payment Method Usage”, In Progress, (2023).
 
-##### Topic 1: Computational Algorithms for Business 
+##### Topic 2: Computational Algorithms for Business 
 
 Most technical work is finished before joinning HKUST, which serves as foundation of my understanding on blockchain, token, etc.
 
@@ -76,6 +76,10 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
       **Abstract**: The cryptocurrency market is a complex and rapidly evolving financial landscape in which understanding the inter- and intra-asset dependencies among key financial variables, such as return and liquidity, is crucial. In this study, we analyze daily return and liquidity data for six major cryptocurrencies, namely Bitcoin, Ethereum, Ripple, Binance Coin, Litecoin, and Dogecoin, spanning the period from June 3, 2020, to November 30, 2022. Liquidity is estimated using three low-frequency proxies: the Amihud ratio, the Abdi and Ranaldo (AR) estimator, and the Corwin and Schultz (CS) estimator. To account for autoregressive and persistent effects, we apply the ARIMA-GARCH model and subsequently utilize the copula method to examine the interdependent relationships among the return and liquidity of the six cryptocurrencies. Our analysis reveals strong cross-asset lower-tail dependence in return and significant cross-asset upper-tail dependence in illiquidity measures, with more pronounced dependence observed in specific cryptocurrency pairs, primarily involving Bitcoin, Ethereum, and Litecoin. We also observe that returns tend to be higher when liquidity is lower in the cryptocurrency market. Our findings have significant implications for portfolio diversification, asset allocation, risk management, and trading strategy development for investors and traders, as well as regulatory policy-making for regulators. In conclusion, this study contributes to a deeper understanding of the cryptocurrency marketplace and can help inform investment decision-making and regulatory policies in this emerging financial domain.
 
   3.  Y. Huang, **S. Jin**, B. Zeng, Q. Shao, “Adaptive Diversity-based Quantum Circuit Architecture Search”, Under Review, (2023). 
+
+### **Policy Publications**
+  1. Joint with HKUST SBM and HSBC Holdings plc (2023). “e-HKD Pilot Programme”. Link to the [summary](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf) cited by the [Hong Kong Monetary Authority](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
+  2. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Link to the report cited by the [Monetary Authority of Singapore](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf).
 
 ### **Conferences**
 1. **S. Jin**, Z Li, B. Chen, B. Zhu, and Y. Xia, [A Quantitative Analysis of Open Source Software Code Quality: Insights from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%.
