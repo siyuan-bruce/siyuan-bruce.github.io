@@ -18,6 +18,13 @@ permalink: /gallery.html
 ---
 This page presents some of my previous moment captures.
 
+### **2023**
+
+#### First Year Paper Presentation
+I presented my first year paper, titled "Token-based Platforms and Green Dillemma".
+
+  <img src = "assets/images/gallery/first_year_presentation.png", alt = "Image", title = "first_year_presentation", width = 600>
+
 ### **2022**
 
 #### HKUST Fintechstic NFT & Metaverse Competition
