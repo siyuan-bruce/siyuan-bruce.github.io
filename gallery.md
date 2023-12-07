@@ -20,6 +20,10 @@ This page presents some of my previous moment captures.
 
 ### **2023**
 
+#### e-HKD on-campus trial, Hong Kong
+I participated in the e-HKD on-campus trial, and this is a moment capture of the event.
+  <img src="assets/images/gallery/e-HKD_experience.png" alt="Image" title="e-HKD" width=600>
+
 #### First Year Paper Presentation
 I presented my first year paper, titled "Token-based Platforms and Green Dillemma".
   <img src="assets/images/gallery/first_year_presentation.png" alt="Image" title="first_year_presentation" width=600>
