@@ -26,14 +26,14 @@ His research interests now include blockchain and computational algorithms for b
 
 ---
 
-### 🎓 **Research Interests**
+## **Research Interests**
 - **Distributed Ledger Technology (DLT)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
 - **Quantum Computing**: Quantum-inspired Business, Quantum Finance, Classical Quantum-Inspired Algorithm
 - Two Literature Repository:
   - [Central Bank Digital Currency](https://github.com/siyuan-bruce/CBDC-Literature)
   - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
 
-### 🎓 **Education**
+## **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
   - MPhil-PhD Student in Information Systems.
   - GPA: 4.00 in 2022 - 2023 Fall Semester
@@ -47,11 +47,11 @@ His research interests now include blockchain and computational algorithms for b
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
 
-### **Selected Journal Work** 
+## **Selected Journal Work** 
 
 While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
 
-##### Topic 1: Blockchain, Token, and Central Bank Digital Currency
+#### Topic 1: Blockchain, Token, and Central Bank Digital Currency
   1. **S. Jin**, Z Li, A. Huang, and K. Tam. "Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures". Available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995), In preparation for submission to _Information System Research_. [UTD 24]
 
       **Abstract**: While environmental impact has become an important corporate governance agenda in recent years, it is unclear whether this is valued by users of token-based platforms and how these platforms react to changing perceptions towards their environmental impacts. This paper examines how the change in community perceptions towards environmental impacts affects token-based platforms’ disclosures and growth. Using Elon Musk’s announcement that Tesla suspended vehicle purchases using Bitcoin due to its environmental impact as a shock that increases the community’s awareness of the negative impacts on the environment because of mining, we find that infrastructure platforms as compared with application platforms are more likely to disclose environmental impact information and their platform growth rates decrease more after the perception change. Furthermore, infrastructure platforms’ pre-change environmental disclosure led to a decline in growth rates, whereas their post-change disclosure demonstrates the opposite effect, consistent with green-costing and green-enhancing effects, respectively.
@@ -70,7 +70,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
       **Abstract**: FinTech and RegTech integration is essential for developing regulated digital currency (RDC) systems that meet performance and regulatory requirements. This paper presents a solution to address scalability and regulatory challenges in RDC systems. We first use an Unspent Transaction Output (UTXO)-based sharding method to improve scalability and maintain low latency by minimizing cross-shard transactions. The result shows a linear transaction throughput increase with the number of shards, while consistently maintaining low latency. However, UTXO-based sharding also complicates know-your-customer (KYC) regulations because of the frequent onboarding of users on new shards. We show zero-knowledge proofs seamlessly integrate with UTXO sharding to simplify customer onboarding. This research extends the FinTech and RegTech literature, delivering practical implications for the implementation and management of RDC systems.
 
-##### Topic 2: Computational Algorithms for Business 
+#### Topic 2: Computational Algorithms for Business 
 
 Most technical work is finished before joinning HKUST, which serves as foundation of my understanding on blockchain, token, etc.
 
@@ -84,7 +84,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 
   3.  Y. Huang, **S. Jin**, B. Zeng, Q. Shao. “Adaptive Diversity-based Quantum Circuit Architecture Search”. Under review at _Physics Review Research_.
 
-### **Policy Publications**
+## **Policy Publications**
   1. Joint with HKUST SBM and HSBC Holdings plc (2023). “e-HKD Pilot Programme”. Link to the [summary](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf) cited by the [Hong Kong Monetary Authority](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
   
       **Abstract**: The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants.
@@ -93,7 +93,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 
       **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.
 
-### **Conferences**
+## **Conferences**
 1. **S. Jin**, Z Li, B. Chen, B. Zhu, and Y. Xia, [Software Code Quality Measurement: Implications from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%.
 
     **Abstract**: Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.
@@ -104,12 +104,12 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 
       **Abstract**: We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.
 
-### **Invited Talk**
+## **Invited Talk**
 1. "The Introduction of FinTech Research", _South China University of Technology_, Online, Sep 2023.
 2. "The introduction of Fintech Research", _South China University of Technology_, Sep 2022.
 3. "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", _Europe Innovation Community of Practice (HSBC)_, Online, Sep 2022.
 
-### 📖 **Teaching**
+## **Teaching**
 - 2023.09 ~ 2023.11 Instructor for ISOM 2020 Lab: Coding for Business
 - 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
@@ -118,7 +118,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
 - 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
-### **Services**
+## **Services**
 - Sep - Nov 2023: Instructor for "Codind for Business" Lab course, ISOM 2020 Lab, HKUST.
 - Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST (Rating: 4.3/5.0)
 - Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
@@ -128,12 +128,12 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
 
 
-### Industry Consulting
+## Industry Consulting
 - **HSBC Hong Kong** (Sep 2022 - now)
   - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
   - Seven patents are already filed.
 
-### **Employment**
+## **Employment**
 - **HSBC Laboratory** (May 2021 - Aug 2022)
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
@@ -143,11 +143,11 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
 
-### **Volunteer**
+## **Volunteer**
 - Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
 - Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
 
-### **Awards**
+## **Awards**
 - Sep 2022: HKUST PhD Postgraduate Studentship
 - Nov 2021: [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
 - Jun 2021: Outstanding Graduates \| University-level excellent graduation thesis (Top 1%)
@@ -155,12 +155,12 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 - Oct 2019: Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
 - Dec 2018: Obtained the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
 
-#### Language
+### Language
 - Mandarin (Native)
 - English (Proficient, IELTS 7.5)
 - Cantonese (Beginner)
   
-### 📩 **Contact**
+## **Contact**
 I am open to working on any interesting topics. Please feel free to contact me if you want to costart a project.
 - Email: siyuan.jin@connect.ust.hk
 - WeChat: siyuan-bruce
