@@ -83,12 +83,12 @@ key: page-homepage
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
-  - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
+  - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
 
 ## **Services**
-- Ad hoc Reviewer for the 2023 International Conference on Information Systems (ICIS), Ad hoc Reviewer for the 2023 Pacific Asia Conference on Information Systems (PACIS), Ad hoc Reviewer for 2023 Quantum Information Processing (QIP)
-- Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
-- Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
+- Ad hoc Reviewer for the 2023 _International Conference on Information Systems (ICIS)_, the 2023 _Pacific Asia Conference on Information Systems (PACIS)_, the 2023 _Quantum Information Processing (QIP)_.
+- Sep 2018 ~ Mar 2019: Director, _Innovation Club for Science and Technology (SCUT)_
+- Mar 2018 ~ Sep 2018: Member, _Innovation Club for Science and Technology (SCUT)_
 - Initializer [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
 - Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
 
@@ -97,9 +97,8 @@ key: page-homepage
 - Sep 2022: HKUST PhD Postgraduate Studentship
 - Nov 2021: [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
 - Jun 2021: Outstanding Graduates \| University-level excellent graduation thesis (Top 1%)
-- Oct 2019: Obtained the Third Prize of Guangdong Province "Foreign Research Institute National Talent Cup" National English Contest Provincial Competition (Top 5%)
-- Oct 2019: Obtained the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
-- Dec 2018: Obtained the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
+- Oct 2019: the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
+- Dec 2018: the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
 
 ### Language
 - Mandarin (Native)
