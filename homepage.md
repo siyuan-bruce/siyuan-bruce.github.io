@@ -84,21 +84,14 @@ His research interests now include blockchain and computational algorithms for b
 2. "The introduction of Fintech Research", _South China University of Technology_, Sep 2022.
 3. "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", _Europe Innovation Community of Practice (HSBC)_, Online, Sep 2022.
 
-## **Teaching**
-- 2023.09 ~ 2023.11 Instructor for ISOM 2020 Lab: Coding for Business
-- 2023.02 ~ 2023.03: TA for ISOM 2020: Coding for Business
+## **Supervising**
 - 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the BEST PRESENTATION AWARD of DDM 6980 Project Presentation.
-- 2021.02 ~ 05： Teaching Assistant for "The Foundation of Blockchain" (SCUT)
 
 ## **Services**
-- Sep - Nov 2023: Instructor for "Codind for Business" Lab course, ISOM 2020 Lab, HKUST.
-- Feb - Apr 2023: Teaching Assistant for "Coding for Business" course, ISOM 2020, HKUST (Rating: 4.3/5.0)
-- Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
 - Ad hoc Reviewer for the 2023 International Conference on Information Systems (ICIS), Ad hoc Reviewer for the 2023 Pacific Asia Conference on Information Systems (PACIS), Ad hoc Reviewer for 2023 Quantum Information Processing (QIP)
-- Oct 2022 - Jun 2023: Mentor for Data-Driven Modeling MSc Program Research Project, 7 M.Sc. Students in Total: Y. Liu received the Best Presentation Award
 - Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
 - Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
 - Initializer [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
