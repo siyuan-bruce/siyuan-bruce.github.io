@@ -27,9 +27,7 @@ Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at Department of Informat
 His research interests now include blockchain and computational algorithms for business, with a focus on both technical and empirical investigations.
 </p> -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   /* Base styles */
@@ -40,7 +38,7 @@ His research interests now include blockchain and computational algorithms for b
 
   .profile-image {
     width: 100%;
-    max-width: 1800px; /* Adjust this value to fit your needs */
+    max-width: 1000px; /* Adjust this value to fit your needs */
     margin: 10px 0;
   }
 
@@ -71,9 +69,7 @@ His research interests now include blockchain and computational algorithms for b
       order: 1; /* This will ensure the text is placed to the left */
     }
   }
-</style>
-</head>
-<body>
+</style> 
 
 <div class="container">
   <div class="profile-text">
@@ -86,10 +82,8 @@ His research interests now include blockchain and computational algorithms for b
     <img src="./images/profile3.png" alt="Profile Image" />
   </div>
 </div>
-
-</body>
-</html>
-
+ 
+<!-- 
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <td style="border: none;">
@@ -102,7 +96,7 @@ His research interests now include blockchain and computational algorithms for b
       <img src="./images/profile3.png" style="width: 1800px; float: right; margin-left: 10px;" />
     </td>
   </tr>
-</table>
+</table> -->
 
 ---
 
