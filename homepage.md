@@ -151,12 +151,12 @@ I am open to working on any interesting topics. Please feel free to contact me i
 
     .profile-image {
       margin-left: 10px;
-      margin-top: 5px;
       max-width: none; /* Reset max-width to allow the image to be as wide as its container */
       order: 2; /* This will ensure the image is placed to the right */
     }
 
     .profile-text {
+      margin-top: -20px;
       order: 1; /* This will ensure the text is placed to the left */
       flex: 70%;
     }
