@@ -139,7 +139,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
   - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
 
-- **HSBC Laboratory** (Sep 2020 - May 2021)
+- **HSBC IT Architecture** (Sep 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
 
