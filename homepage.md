@@ -36,7 +36,7 @@ His research interests now include blockchain and computational algorithms for b
       </p>
     </td>
     <td style="border: none;">
-      <img src="./images/profile3.png" style="width: 2000px; float: right; margin-left: 10px;" />
+      <img src="./images/profile3.png" style="width: 1800px; float: right; margin-left: 10px;" />
     </td>
   </tr>
 </table>
