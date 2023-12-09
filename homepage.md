@@ -20,18 +20,15 @@ titles:
 key: page-homepage
 ---
 
-<!-- <img src= "./images/profile3.png" align=right width="200"/>
-
-<p>
-Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at Department of Information Systems at HKUST Business School. He is supervised by Prof. Kar Yan Tam and also under guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. Before joining HKUST, he worked as a software engineer in HSBC Lab and published a few technical papers related to blockchain and token.
-His research interests now include blockchain and computational algorithms for business, with a focus on both technical and empirical investigations.
-</p> -->
-
 <div class="container">
   <div class="profile-text">
     <p>
-      Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at the Department of Information Systems at HKUST Business School. He is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. Before joining HKUST, he worked as a software engineer in HSBC Lab and published a few technical papers related to blockchain and token.
-      His research interests now include blockchain and computational algorithms for business, with a focus on both technical and empirical investigations.
+      Si Yuan JIN (Bruce) is a second-year MPhil-PhD student in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). He graduated from South China University of Technology (SCUT) with a B.Eng. in Financial Technology, with China National Scholarship and Outstanding Graduates.
+      
+      Bruce is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests include blockchain, digital platform, FinTech, and quantum IT manageament. His methodologies include econometrics, field experiment, survey, techcnial algorithm designs.
+
+      Before joining HKUST, he worked as a software engineer in HSBC IT Architecture and  HSBC Laboratory, and obtained 2021 Top Performer, 2021 Role Model, and 2021 Global CBDC Challenge Finalist of Monetary Authority of Singapore.
+      
     </p>
   </div>
   <div class="profile-image">
@@ -39,20 +36,6 @@ His research interests now include blockchain and computational algorithms for b
   </div>
 </div>
  
-<!-- 
-<table style="border-collapse: collapse; border: none;">
-  <tr>
-    <td style="border: none;">
-      <p>
-        Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at the Department of Information Systems at HKUST Business School. He is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. Before joining HKUST, he worked as a software engineer in HSBC Lab and published a few technical papers related to blockchain and token.
-        His research interests now include blockchain and computational algorithms for business, with a focus on both technical and empirical investigations.
-      </p>
-    </td>
-    <td style="border: none;">
-      <img src="./images/profile3.png" style="width: 1800px; float: right; margin-left: 10px;" />
-    </td>
-  </tr>
-</table> -->
 
 ---
 
