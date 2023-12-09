@@ -44,6 +44,7 @@ His research interests now include blockchain and computational algorithms for b
 
   .profile-text {
     margin: 10px;
+    text-align: left;
   }
 
   /* This media query applies styles for screens larger than 600px */
