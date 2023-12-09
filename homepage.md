@@ -27,6 +27,69 @@ Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at Department of Informat
 His research interests now include blockchain and computational algorithms for business, with a focus on both technical and empirical investigations.
 </p> -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* Base styles */
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 1800px; /* Adjust this value to fit your needs */
+    margin: 10px 0;
+  }
+
+  .profile-text {
+    margin: 10px;
+  }
+
+  /* This media query applies styles for screens larger than 600px */
+  @media screen and (min-width: 600px) {
+    .container {
+      display: flex;
+      align-items: flex-start; /* Align items to the start of the flex container */
+      justify-content: space-between; /* This will put space between the text and image, effectively pushing the image to the right */
+    }
+    
+    .profile-text,
+    .profile-image {
+      flex: 1; /* Both children will take up equal space within the container */
+    }
+
+    .profile-image {
+      margin-left: 10px;
+      max-width: none; /* Reset max-width to allow the image to be as wide as its container */
+      order: 2; /* This will ensure the image is placed to the right */
+    }
+
+    .profile-text {
+      order: 1; /* This will ensure the text is placed to the left */
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="profile-text">
+    <p>
+      Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at the Department of Information Systems at HKUST Business School. He is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. Before joining HKUST, he worked as a software engineer in HSBC Lab and published a few technical papers related to blockchain and token.
+      His research interests now include blockchain and computational algorithms for business, with a focus on both technical and empirical investigations.
+    </p>
+  </div>
+  <div class="profile-image">
+    <img src="./images/profile3.png" alt="Profile Image" />
+  </div>
+</div>
+
+</body>
+</html>
+
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <td style="border: none;">
