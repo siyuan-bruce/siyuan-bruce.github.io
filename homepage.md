@@ -21,7 +21,10 @@ key: page-homepage
 ---
 
 <div class="container">
-  <div class="profile-text">
+  <div class="profile-image">
+    <img src="./images/profile3.png" alt="Profile Image" />
+  </div>
+    <div class="profile-text">
     <p>
       Si Yuan JIN (Bruce) is a second-year MPhil-PhD student in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). He graduated from South China University of Technology (SCUT) with a B.Fin. in Financial Technology, with China National Scholarship and Outstanding Graduates.
   </p> 
@@ -32,13 +35,8 @@ key: page-homepage
       Before joining HKUST, he worked as a software engineer in HSBC IT Architecture and  HSBC Laboratory, and obtained 2021 Top Performer, 2021 Role Model, and 2021 Global CBDC Challenge Finalist of Monetary Authority of Singapore. 
     </p>
   </div>
-  <div class="profile-image">
-    <img src="./images/profile3.png" alt="Profile Image" />
-  </div>
 </div>
  
-
----
 
 ## **Research Interests**
 - **Distributed Ledger Technology (DLT)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
