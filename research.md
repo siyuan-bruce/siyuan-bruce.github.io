@@ -20,8 +20,6 @@ titles:
 key: page-research
 ---
 
-## **Selected Journal Work** 
-
 While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
 
 #### Topic 1: Blockchain, Token, and Central Bank Digital Currency

@@ -49,12 +49,12 @@ header:
       zh-Hans : &ZH_HANS  Resume
     url: /assets/Bruce_CV_Nov.pdf
 
-  - titles: 
-      # @start locale config
-      en      : &EN       Github
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  Github
-    url: https://github.com/siyuan-bruce/Quantum-Finance
+  # - titles: 
+  #     # @start locale config
+  #     en      : &EN       Github
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     zh-Hans : &ZH_HANS  Github
+  #   url: https://github.com/siyuan-bruce/Quantum-Finance
