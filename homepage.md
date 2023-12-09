@@ -78,12 +78,7 @@ His research interests now include blockchain and computational algorithms for b
 - **HSBC IT Architecture** (Sep 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
-
-## **Volunteer**
-- Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
-- Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
-
-
+   
 ## **Invited Talk**
 1. "The Introduction of FinTech Research", _South China University of Technology_, Online, Sep 2023.
 2. "The introduction of Fintech Research", _South China University of Technology_, Sep 2022.
@@ -104,8 +99,11 @@ His research interests now include blockchain and computational algorithms for b
 - Feb - May 2021: Teaching Assistant for "Blockchain Foundation" course, SCUT 
 - Ad hoc Reviewer for the 2023 International Conference on Information Systems (ICIS), Ad hoc Reviewer for the 2023 Pacific Asia Conference on Information Systems (PACIS), Ad hoc Reviewer for 2023 Quantum Information Processing (QIP)
 - Oct 2022 - Jun 2023: Mentor for Data-Driven Modeling MSc Program Research Project, 7 M.Sc. Students in Total: Y. Liu received the Best Presentation Award
+- Sep 2018 ~ Mar 2019: Director at South China University of Technology Innovation Club for Science and Technology
+- Mar 2018 ~ Sep 2018: Member of South China University of Technology Innovation Club for Science and Technology
 - Initializer [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
 - Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
+
 
 ## **Awards**
 - Sep 2022: HKUST PhD Postgraduate Studentship
