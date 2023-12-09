@@ -58,6 +58,7 @@ His research interests now include blockchain and computational algorithms for b
     .profile-text,
     .profile-image {
       flex: 1; /* Both children will take up equal space within the container */
+      width: 30%; /* Adjust this value to fit your needs */
     }
 
     .profile-image {
@@ -68,6 +69,7 @@ His research interests now include blockchain and computational algorithms for b
 
     .profile-text {
       order: 1; /* This will ensure the text is placed to the left */
+      width: 70%;
     }
   }
 </style> 
