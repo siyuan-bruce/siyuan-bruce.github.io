@@ -23,7 +23,7 @@ key: page-homepage
 <div class="container">
   <div class="profile-text">
     <p>
-      Si Yuan JIN (Bruce) is a second-year MPhil-PhD student in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). He graduated from South China University of Technology (SCUT) with a B.Eng. in Financial Technology, with China National Scholarship and Outstanding Graduates.
+      Si Yuan JIN (Bruce) is a second-year MPhil-PhD student in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). He graduated from South China University of Technology (SCUT) with a B.Fin. in Financial Technology, with China National Scholarship and Outstanding Graduates.
   </p> 
     <p>
       Bruce is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests include blockchain, digital platform, FinTech, and quantum IT manageament. His methodologies include econometrics, field experiment, survey, techcnial algorithm designs.
@@ -54,7 +54,7 @@ key: page-homepage
   - Supervisor: Prof. Kar Yan Tam.
   - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
 - **South China University of Technology** (Sep 2017 – Jun 2021)
-  - B.Eng. in Financial Technology, Outstanding Graduates. 
+  - B.Fin. in Financial Technology, Outstanding Graduates. 
   - Rank: 1 / 33.
   - Obtained 2021 University-level excellent graduation thesis
   - Obtained 2020 China National Scholarship (Top 0.1%)
