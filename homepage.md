@@ -27,53 +27,6 @@ Si Yuan JIN (Bruce) is a second-year MPhil-PhD student at Department of Informat
 His research interests now include blockchain and computational algorithms for business, with a focus on both technical and empirical investigations.
 </p> -->
 
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  /* Base styles */
-  .container {
-    width: 100%;
-    text-align: center;
-  }
-
-  .profile-image {
-    width: 100%;
-    max-width: 1000px; /* Adjust this value to fit your needs */
-    margin: 10px 0;
-  }
-
-  .profile-text {
-    margin: 10px;
-    text-align: left;
-  }
-
-  /* This media query applies styles for screens larger than 600px */
-  @media screen and (min-width: 600px) {
-    .container {
-      display: flex;
-      align-items: flex-start; /* Align items to the start of the flex container */
-      justify-content: space-between; /* This will put space between the text and image, effectively pushing the image to the right */
-    }
-    
-    .profile-text,
-    .profile-image {
-      flex: 1; /* Both children will take up equal space within the container */
-      width: 30%; /* Adjust this value to fit your needs */
-    }
-
-    .profile-image {
-      margin-left: 10px;
-      max-width: none; /* Reset max-width to allow the image to be as wide as its container */
-      order: 2; /* This will ensure the image is placed to the right */
-    }
-
-    .profile-text {
-      order: 1; /* This will ensure the text is placed to the left */
-      width: 70%;
-    }
-  }
-</style> 
-
 <div class="container">
   <div class="profile-text">
     <p>
@@ -177,3 +130,50 @@ I am open to working on any interesting topics. Please feel free to contact me i
 - WeChat: siyuan-bruce
 - [Linkedin](https://www.linkedin.com/in/si-yuan-bruce-jin/)
 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* Base styles */
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 1000px; /* Adjust this value to fit your needs */
+    margin: 10px 0;
+  }
+
+  .profile-text {
+    margin: 10px;
+    text-align: left;
+  }
+
+  /* This media query applies styles for screens larger than 600px */
+  @media screen and (min-width: 600px) {
+    .container {
+      display: flex;
+      align-items: flex-start; /* Align items to the start of the flex container */
+      justify-content: space-between; /* This will put space between the text and image, effectively pushing the image to the right */
+    }
+    
+    .profile-text,
+    .profile-image {
+      flex: 1; /* Both children will take up equal space within the container */
+      flex: 30%; /* Adjust this value to fit your needs */
+    }
+
+    .profile-image {
+      margin-left: 10px;
+      max-width: none; /* Reset max-width to allow the image to be as wide as its container */
+      order: 2; /* This will ensure the image is placed to the right */
+    }
+
+    .profile-text {
+      order: 1; /* This will ensure the text is placed to the left */
+      flex: 70%;
+    }
+  }
+</style> 
