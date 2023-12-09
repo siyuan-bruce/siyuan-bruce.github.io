@@ -11,6 +11,16 @@ header:
 
   - titles: 
       # @start locale config
+      en      : &EN       Research
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  研究
+    url: /research.html
+
+  - titles: 
+      # @start locale config
       en      : &EN       Notes
       en-GB   : *EN
       en-US   : *EN
