@@ -118,7 +118,7 @@ I am open to working on any interesting topics. Please feel free to contact me i
   /* Base styles */
   .container {
     width: 100%;
-    text-align: justify;
+    text-align: center;
   }
 
   .profile-image {

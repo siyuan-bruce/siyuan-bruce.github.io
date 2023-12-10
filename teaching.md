@@ -27,7 +27,7 @@ key: page-teaching
 
 _Coding for Business (ISOM 2020)_
 - **Teaching period**: Fall 2023
-- **Teaching responsibilities**: Instructor
+- **Teaching responsibilities**: Lab Instructor
 - **Class size**: 24
 
 This course intends to introduce students to basic programming concepts and skills for business data coding and business problem solving. Using Python as an illustrative programming language, this course provides students with a basic understanding of programming concepts and syntaxes, including data types, associated methods and functions, and control flow statements. Through the process of learning a programming language, students will also develop logical and critical thinking skills and be able to tackle simple business problems with coding. For SBM students only.
