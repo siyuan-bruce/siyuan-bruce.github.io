@@ -26,13 +26,13 @@ key: page-homepage
   </div>
     <div class="profile-text">
     <p>
-      Si Yuan JIN (Bruce) is a second-year MPhil-PhD student in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). He graduated from South China University of Technology (SCUT) with a B.Fin. in Financial Technology, with China National Scholarship and Outstanding Graduates.
+      Si Yuan (Bruce) JIN, is currently pursuing a joint MPhil-PhD program in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT), where he was distinguished with the China National Scholarship and named an Outstanding Graduate.
   </p> 
     <p>
-      Bruce is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. His research interests include blockchain, digital platform, FinTech, and quantum IT manageament. His methodologies include econometrics, field experiment, survey, techcnial algorithm designs.
+      Bruce is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. His research spans several areas including blockchain, digital platforms, financial technology (FinTech), and the management of quantum information technology. His approach to research is multifaceted, employing methods such as econometrics, field experiments, surveys, and technical algorithm design.
     </p> 
     <p>
-      Before joining HKUST, he worked as a software engineer in HSBC IT Architecture and  HSBC Laboratory, and obtained 2021 Top Performer, 2021 Role Model, and 2021 Global CBDC Challenge Finalist of Monetary Authority of Singapore. 
+      Prior to his academic tenure at HKUST, Bruce amassed practical experience as a software engineer at HSBC IT Architecture and HSBC Laboratory. His professional excellence was recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and his team was a finalist in the 2021 Global Central Bank Digital Currency (CBDC) Challenge hosted by the Monetary Authority of Singapore.
     </p>
   </div>
 </div>
