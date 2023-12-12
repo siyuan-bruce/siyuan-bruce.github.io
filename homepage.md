@@ -74,12 +74,12 @@ key: page-homepage
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
   
-## **Awards**
+<!-- ## **Awards**
 - Sep 2022: HKUST PhD Postgraduate Studentship
 - Nov 2021: [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
-- Jun 2021: Outstanding Graduates \| University-level excellent graduation thesis (Top 1%)
+- Jun 2021: Outstanding Graduates \| University-level excellent graduation thesis (Top 1%) -->
 
-### Language
+## Language
 - Mandarin (Native)
 - English (Proficient, IELTS 7.5)
 - Cantonese (Beginner)

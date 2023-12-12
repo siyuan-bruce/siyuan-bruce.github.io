@@ -62,9 +62,11 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
   
       **Abstract**: The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants.
 
-  2. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Link to the report cited by the [Monetary Authority of Singapore](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf).
+  2. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Link to the report cited by the [Monetary Authority of Singapore](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf). [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
 
       **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.
+
+      
 
 ## **Conferences**
 1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia, [Software Code Quality Measurement: Implications from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%.
@@ -79,7 +81,7 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 
 
 ## **Supervising**
-- 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
+- 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
