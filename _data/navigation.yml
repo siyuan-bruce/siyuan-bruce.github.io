@@ -28,16 +28,25 @@ header:
       en-AU   : *EN
       zh-Hans : &ZH_HANS  教学
     url: /teaching.html
+      - titles: 
+          # @start locale config
+          en      : &EN       Students
+          en-GB   : *EN
+          en-US   : *EN
+          en-CA   : *EN
+          en-AU   : *EN
+          zh-Hans : &ZH_HANS  学生
+        url: /students.html
 
   - titles: 
       # @start locale config
-      en      : &EN       Notes
+      en      : &EN       Blogs
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  笔记
-    url: /archive.html
+    url: /blogs.html
     
   - titles: 
       # @start locale config
