@@ -76,3 +76,19 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
 3. **S. Jin**, B. Xu, P. Intallura, Y. Xia. "[A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204)". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_.
 
       **Abstract**: We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.
+
+
+## **Supervising**
+- 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
+  - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
+  - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
+  - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
+
+
+
+## **Services**
+- Ad hoc Reviewer for the 2023 _International Conference on Information Systems (ICIS)_, the 2023 _Pacific Asia Conference on Information Systems (PACIS)_, the 2023 _Quantum Information Processing (QIP)_.
+- Sep 2018 ~ Mar 2019: Director, _Innovation Club for Science and Technology (SCUT)_
+- Mar 2018 ~ Sep 2018: Member, _Innovation Club for Science and Technology (SCUT)_
+- Initializer [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
+- Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)

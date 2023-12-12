@@ -29,7 +29,7 @@ key: page-homepage
       Si Yuan (Bruce) JIN, is currently pursuing a joint MPhil-PhD program in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT), where he was distinguished with the China National Scholarship and named an Outstanding Graduate.
   </p> 
     <p>
-      Bruce is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. His research spans several areas including blockchain, digital platforms, financial technology (FinTech), and the management of quantum information technology. His approach to research is multifaceted, employing methods such as econometrics, field experiments, surveys, and technical algorithm design.
+      Bruce is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. His research spans several areas including blockchain, digital platforms, financial technology (FinTech), and the management of quantum information technology. His methodologies to research is multifaceted, employing methods such as econometrics, field experiments, surveys, and technical algorithm design.
     </p> 
     <p>
       Prior to his academic tenure at HKUST, Bruce amassed practical experience as a software engineer at HSBC IT Architecture and HSBC Laboratory. His professional excellence was recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and his team was a finalist in the 2021 Global Central Bank Digital Currency (CBDC) Challenge hosted by the Monetary Authority of Singapore.
@@ -73,32 +73,11 @@ key: page-homepage
 - **HSBC IT Architecture** (Sep 2020 - May 2021)
   - Internship on CBDC work
   - Angle Fund Winner \| Corda Prototype Development
-   
-## **Invited Talk**
-1. "The Introduction of FinTech Research", _South China University of Technology_, Online, Sep 2023.
-2. "The introduction of Fintech Research", _South China University of Technology_, Sep 2022.
-3. "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", _Europe Innovation Community of Practice (HSBC)_, Online, Sep 2022.
-
-## **Supervising**
-- 2022.10 ~ 2023.05: Supervising 7 Msc students on their research projects.
-  - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
-  - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
-  - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
-
-## **Services**
-- Ad hoc Reviewer for the 2023 _International Conference on Information Systems (ICIS)_, the 2023 _Pacific Asia Conference on Information Systems (PACIS)_, the 2023 _Quantum Information Processing (QIP)_.
-- Sep 2018 ~ Mar 2019: Director, _Innovation Club for Science and Technology (SCUT)_
-- Mar 2018 ~ Sep 2018: Member, _Innovation Club for Science and Technology (SCUT)_
-- Initializer [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
-- Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
-
-
+  
 ## **Awards**
 - Sep 2022: HKUST PhD Postgraduate Studentship
 - Nov 2021: [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
 - Jun 2021: Outstanding Graduates \| University-level excellent graduation thesis (Top 1%)
-- Oct 2019: the Special Prize (first place) of South China University of Technology 2019 "Foreign Research Institute Guocai Cup" National English Contest (Top 0.5%)
-- Dec 2018: the rank 5 / 300+ of the 18th Mathematics Contest at South China University of Technology
 
 ### Language
 - Mandarin (Native)
@@ -110,7 +89,6 @@ I am open to working on any interesting topics. Please feel free to contact me i
 - Email: siyuan.jin@connect.ust.hk
 - WeChat: siyuan-bruce
 - [Linkedin](https://www.linkedin.com/in/si-yuan-bruce-jin/)
-
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">

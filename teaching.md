@@ -47,3 +47,9 @@ _Blockchain Foundation_
 - **Class size**: 40
 
 This course introduces the basic concepts of blockchain, offering students a clear and concrete understanding of its foundational principles. Participants will explore the essential structure of blockchain systems, learn how consensus mechanisms ensure data integrity, delve into the operation of smart contracts, and examine the key practices that contribute to robust blockchain security. Students need to run smart contracts on R3 Corda and Hyperledger Fabric and implement a blockchain project.
+
+
+## **Invited Talk**
+1. "The Introduction of FinTech Research", _South China University of Technology_, Online, Sep 2023.
+2. "The introduction of Fintech Research", _South China University of Technology_, Sep 2022.
+3. "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", _Europe Innovation Community of Practice (HSBC)_, Online, Sep 2022.
