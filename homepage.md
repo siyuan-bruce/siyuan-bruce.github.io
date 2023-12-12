@@ -82,11 +82,8 @@ key: page-homepage
 - Cantonese (Beginner)
   
 ## **Contact**
-I am open to working on any interesting topics. Please feel free to contact me if you want to costart a project.
-- Email: siyuan.jin@connect.ust.hk
-- WeChat: siyuan-bruce
-- [Linkedin](https://www.linkedin.com/in/si-yuan-bruce-jin/)
-
+I am open to working on any interesting topics related to blockchain and quantum IT management. Please feel free to contact me if you want to costart a project.
+- Email: siyuan.jin at connect.ust.hk
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
