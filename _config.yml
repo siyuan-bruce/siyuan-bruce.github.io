@@ -48,6 +48,7 @@ author:
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   github    : siyuan-bruce # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+  linkedin  : si-yuan-bruce-jin
   
 
 ## => GitHub Repository (if the site is hosted by GitHub)
