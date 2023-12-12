@@ -41,9 +41,6 @@ key: page-homepage
 ## **Research Interests**
 - **Distributed Ledger Technology (DLT)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
 - **Quantum Computing**: Quantuam IT management, Quantum Finance, Classical Quantum-Inspired Algorithm
-- Two Literature Repository:
-  - [Central Bank Digital Currency](https://github.com/siyuan-bruce/CBDC-Literature)
-  - [Quantum Finance](https://github.com/siyuan-bruce/Quantum-Finance)
 
 ## **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)

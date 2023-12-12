@@ -86,8 +86,6 @@ Most technical work is finished before joinning HKUST, which serves as foundatio
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
 
-
-
 ## **Services**
 - Ad hoc Reviewer for the 2023 _International Conference on Information Systems (ICIS)_, the 2023 _Pacific Asia Conference on Information Systems (PACIS)_, the 2023 _Quantum Information Processing (QIP)_.
 - Sep 2018 ~ Mar 2019: Director, _Innovation Club for Science and Technology (SCUT)_
