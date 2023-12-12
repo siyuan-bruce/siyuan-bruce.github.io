@@ -37,7 +37,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  笔记
-    url: /blogs.html
+    url: /archive.html
     
   - titles: 
       # @start locale config
