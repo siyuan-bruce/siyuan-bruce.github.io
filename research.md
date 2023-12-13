@@ -84,6 +84,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
+  - [Details](https://siyuan-bruce.github.io/students/ddm.html)
 
 ## **Services**
 - Ad hoc Reviewer for the 2023 _International Conference on Information Systems (ICIS)_, the 2023 _Pacific Asia Conference on Information Systems (PACIS)_, the 2023 _Quantum Information Processing (QIP)_.
