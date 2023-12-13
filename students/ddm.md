@@ -25,13 +25,13 @@ Students in the Msc in Data-Driven Modeling program at the Department of Physics
 
 ## 2023 Fall - 2024 Spring
 #### Project Title: The Boundary Condition of Quantum-Inspired Sampling Techniques: A Systematic Review
-- Jialiang Xu (Ongoing Msc in Data-Driven Modeling at the Department of Physics, Hong Kong University of Science and Technology)
-- Zhenxing Tan (Ongoing Msc in Data-Driven Modeling at the Department of Physics, Hong Kong University of Science and Technology)
+- Jialiang Xu (Ongoing Msc student in Data-Driven Modeling at the Department of Physics, Hong Kong University of Science and Technology)
+- Zhenxing Tan (Ongoing Msc student in Data-Driven Modeling at the Department of Physics, Hong Kong University of Science and Technology)
 
 
 ## 2022 Fall - 2023 Spring
 #### Project Title: Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach
-- Yaofu Liu (Msc in Data-Driven Modeling at the Department of Physics, Hong Kong University of Science and Technology), 
-- Chang Xu (Msc in Data-Driven Modeling at the Department of Physics, Hong Kong University of Science and Technology)
+- Yaofu Liu (Msc graduate in Data-Driven Modeling at the Department of Physics, Hong Kong University of Science and Technology), 
+- Chang Xu (Msc graduate in Data-Driven Modeling at the Department of Physics, Hong Kong University of Science and Technology)
 
 
