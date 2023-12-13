@@ -80,7 +80,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
 
 ## **Supervising**
-- 2022.10 ~ 2023.05: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
+- 2022.10 ~ now: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
