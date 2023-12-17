@@ -62,9 +62,9 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 ### Research Agenda 3: Design Science (Decision Making for Business/Banking)
 
 
-  1. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_.
+  1. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_. 
 
-  2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Under 2nd round review at _INFORMS Journal on Data Science_.
+  2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Reject & Resubmit to _INFORMS Journal on Data Science_.
 
       **Abstract**: Quantum computing has the potential to revolutionize problem-solving by significantly improving computational complexity. However, the sophisticated nature of quantum knowledge and circuit design presents challenges for business practitioners. In this study, we introduce FinQMC, a quantum Monte Carlo framework designed to transform classical Monte Carlo algorithms into quantum ones. Our framework proposes the key principle of treating quantum states as the distributions of financial variables. To validate the efficiency and applicability of FinQMC, we conducted two experiments: option pricing and portfolio selection. The results obtained demonstrate the feasibility and accuracy of our approach. FinQMC simplifies the complex world of quantum computing and offers a more efficient solution to a wide range of business challenges compared to classical Monte Carlo methods. Practically, our study is the first to apply the quantum Monte Carlo method in the context of portfolio selection.
 
@@ -78,13 +78,13 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
     
 ## **Conferences**
-1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). Software Code Quality Measurement: Implications from Metric Distributions. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%. [Paper](/paper/QRS_preprint.pdf)
+1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). Software Code Quality Measurement: Implications from Metric Distributions. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%. [[Paper]](/paper/QRS_preprint.pdf)
 
     **Abstract**: Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.
 
-2. Y. Liu, C. Xu, **S. Jin**. "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_. [Paper](https://ieeexplore.ieee.org/abstract/document/10234293), [Code](https://github.com/yliuls/quantum-reinforcement-learning)
+2. Y. Liu, C. Xu, **S. Jin**. "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10234293) [[Code]](https://github.com/yliuls/quantum-reinforcement-learning)
 
-3. **S. Jin**, B. Xu, P. Intallura, Y. Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_. [Paper](https://ieeexplore.ieee.org/document/9922204)
+3. **S. Jin**, B. Xu, P. Intallura, Y. Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204)
 
       **Abstract**: We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.
 
@@ -93,7 +93,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
-  - [Details](https://siyuan-bruce.github.io/students/ddm.html)
+  - [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
 
 ## **Services**
 - Ad hoc Reviewer for the 2023 _International Conference on Information Systems (ICIS)_, the 2023 _Pacific Asia Conference on Information Systems (PACIS)_, the 2023 _Quantum Information Processing (QIP)_.
