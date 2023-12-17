@@ -63,7 +63,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 ### Research Agenda 3: Decision Making for Business/Banking
 
 
-  1. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_. 
+  1. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_. [[Draft]](/paper/cryptocurrency_backed_loan_preprint.pdf)
 
   2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Reject & Resubmit to _INFORMS Journal on Data Science_.
 
