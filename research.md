@@ -26,12 +26,15 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
 Token-based platforms are esential for the development of the digital asset economy in the complex Web 3.0 market. My research aims to understand the role of token-based platforms and their impact on the digital asset economy.
 
+#### Academic Publications
+
   1. **S. Jin**, Z Li, A. Huang, K. Tam. "Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures". Available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995), In preparation for submission to _Information System Research_. [UTD 24]
 
       **Abstract**: While environmental impact has become an important corporate governance agenda in recent years, it is unclear whether this is valued by users of token-based platforms and how these platforms react to changing perceptions towards their environmental impacts. This paper examines how the change in community perceptions towards environmental impacts affects token-based platforms’ disclosures and growth. Using Elon Musk’s announcement that Tesla suspended vehicle purchases using Bitcoin due to its environmental impact as a shock that increases the community’s awareness of the negative impacts on the environment because of mining, we find that infrastructure platforms as compared with application platforms are more likely to disclose environmental impact information and their platform growth rates decrease more after the perception change. Furthermore, infrastructure platforms’ pre-change environmental disclosure led to a decline in growth rates, whereas their post-change disclosure demonstrates the opposite effect, consistent with green-costing and green-enhancing effects, respectively.
 
   2. **S. Jin**, Y. Cai, K. Tam. "Operational Transparency vs Algorithmic Transparency: An Event Study of Stablecoin Crises". Working paper.
 
+  
 ### Research Agenda 2: Regulated Digital Currencies
 
 The designs of regulated digital currencies, like Central Bank Digital Currency (CBDC), are complex and involve a trade-off between system features. My research aims to provide solutions to CBDC implementation and their adoptions of consumers and merchants.
@@ -39,11 +42,11 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 #### **Academic Publications**
   1. M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, H. Guo, W. Huang. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". In preparation for submission to _Proceedings of the National Academy of Sciences (PNAS)_.
 
-  2.  **S. Jin**, Y. Xia. “CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework”. Published at [_IEEE Access 10 (2022): 63698-63714._](https://ieeexplore.ieee.org/document/9795279). (No.1 of Engineering & Computer Science (general) on [Google Scholar's h5-index](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral).)
+  2.  **S. Jin**, Y. Xia (2022). “CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework”. Published at [_IEEE Access 10: 63698-63714_](https://ieeexplore.ieee.org/document/9795279). (No.1 of Engineering & Computer Science (general) on [Google Scholar's h5-index](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral).)
 
        **Abstract**: We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.
 
-  3. **S, Jin**, Y. Xia, B. Xu. “Scalability Meets Regulation: UTXO-Based Sharding and Zero-Knowledge Proofs for Regulated Digital Currencies”. Under 3nd round review at _Cluster Computing_. (No.3 of Computing Systems journals on [Google Scholar's h5-index](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computingsystems).)
+  3. **S, Jin**, Y. Xia, B. Xu (2023). “Scalability Meets Regulation: UTXO-Based Sharding and Zero-Knowledge Proofs for Regulated Digital Currencies”. Forthcoming at _Cluster Computing_. (No.3 of Computing Systems journals on [Google Scholar's h5-index](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computingsystems).)
 
       **Abstract**: FinTech and RegTech integration is essential for developing regulated digital currency (RDC) systems that meet performance and regulatory requirements. This paper presents a solution to address scalability and regulatory challenges in RDC systems. We first use an Unspent Transaction Output (UTXO)-based sharding method to improve scalability and maintain low latency by minimizing cross-shard transactions. The result shows a linear transaction throughput increase with the number of shards, while consistently maintaining low latency. However, UTXO-based sharding also complicates know-your-customer (KYC) regulations because of the frequent onboarding of users on new shards. We show zero-knowledge proofs seamlessly integrate with UTXO sharding to simplify customer onboarding. This research extends the FinTech and RegTech literature, delivering practical implications for the implementation and management of RDC systems.
 
@@ -56,7 +59,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
       **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.
 
-### Research Agenda 3: Decision Making for Business/Banking
+### Research Agenda 3: Design Science (Decision Making for Business/Banking)
 
 
   1. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_.
@@ -75,16 +78,15 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
     
 ## **Conferences**
-1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia, [Software Code Quality Measurement: Implications from Metric Distributions](https://arxiv.org/pdf/2307.12082.pdf), 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%.
+1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). Software Code Quality Measurement: Implications from Metric Distributions. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%. [Paper](/paper/QRS_preprint.pdf)
 
     **Abstract**: Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.
 
-2. Y. Liu, C. Xu, **S. Jin**. "[Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach](https://ieeexplore.ieee.org/abstract/document/10234293)". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_.
+2. Y. Liu, C. Xu, **S. Jin**. "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_. [Paper](https://ieeexplore.ieee.org/abstract/document/10234293), [Code](https://github.com/yliuls/quantum-reinforcement-learning)
 
-3. **S. Jin**, B. Xu, P. Intallura, Y. Xia. "[A UTXO-based Sharding Method for Stablecoin](https://ieeexplore.ieee.org/document/9922204)". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_.
+3. **S. Jin**, B. Xu, P. Intallura, Y. Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_. [Paper](https://ieeexplore.ieee.org/document/9922204)
 
       **Abstract**: We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.
-
 
 ## **Supervising**
 - 2022.10 ~ now: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
