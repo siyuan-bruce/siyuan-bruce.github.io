@@ -63,7 +63,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 ### Research Agenda 3: Decision Making for Business/Banking
 
 
-  1. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_. [[Draft]](/paper/cryptocurrency_backed_loan_preprint.pdf)
+  1. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_. [[Draft]](/paper/cryptocurrency_backed_loan_preprint.pdf) [[Code]](https://github.com/siyuan-bruce/SkewTGuassianMixedGarch)
 
   2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Reject & Resubmit to _INFORMS Journal on Data Science_.
 
@@ -79,7 +79,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
     
 ## **Conferences**
-1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%. [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[Code]](https://github.com/siyuan-bruce/SkewTGuassianMixedGarch)
+1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%. [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) 
 
     **Abstract**: Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.
 
