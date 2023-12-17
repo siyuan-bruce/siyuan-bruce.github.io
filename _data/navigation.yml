@@ -57,7 +57,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  Resume
-    url: /assets/Bruce_CV_Nov.pdf
+    url: /assets/Bruce_CV_Dec23.pdf
 
   # - titles: 
   #     # @start locale config
