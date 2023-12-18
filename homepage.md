@@ -20,15 +20,17 @@ titles:
 key: page-homepage
 ---
 
-<div style="text-align: center;">
-  <em>Less is more.</em>
-</div>
+
 
 <div class="container">
   <div class="profile-image">
     <img src="./images/profile3.png" alt="Profile Image" />
+    <div style="text-align: center;">
+   <!-- <em></em> -->
+</div>
   </div>
     <div class="profile-text">
+    <em>Where there is a will, there is a way.</em>
     <p>
       Si Yuan (Bruce) JIN, is currently pursuing a joint MPhil-PhD program in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT), where he was distinguished with the China National Scholarship and named an Outstanding Graduate.
   </p> 
