@@ -20,9 +20,11 @@ titles:
 key: page-homepage
 ---
 
----
-_Less is more._
----
+<hr>
+<div style="text-align: center;">
+  <em>Less is more.</em>
+</div>
+<hr>
 
 <div class="container">
   <div class="profile-image">
