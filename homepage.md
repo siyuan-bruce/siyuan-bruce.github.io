@@ -20,6 +20,10 @@ titles:
 key: page-homepage
 ---
 
+---
+_Less is more._
+---
+
 <div class="container">
   <div class="profile-image">
     <img src="./images/profile3.png" alt="Profile Image" />
