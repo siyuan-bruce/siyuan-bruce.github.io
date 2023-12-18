@@ -20,11 +20,9 @@ titles:
 key: page-homepage
 ---
 
-<hr>
 <div style="text-align: center;">
   <em>Less is more.</em>
 </div>
-<hr>
 
 <div class="container">
   <div class="profile-image">
@@ -51,7 +49,6 @@ key: page-homepage
   - GPA: 4.00 in 2022 - 2023 Fall Semester
   - Supervisor: Prof. Kar Yan Tam.
   - Advisors: Allen H. Huang, Kohei Kawaguchi, Marc Dordal Carreras, Qiming Shao, Bei Zeng.
-  - Research Direction: blockchain, token-based platforms, regulated digital currencies, and decision making for business/banking.
   - Methodologies: econometrics, field experiments, surveys, and technical algorithm design.
 - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Fin. in Financial Technology, Outstanding Graduates. 
