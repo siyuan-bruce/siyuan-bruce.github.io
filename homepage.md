@@ -29,14 +29,11 @@ key: page-homepage
       Si Yuan (Bruce) JIN, is currently pursuing a joint MPhil-PhD program in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT), where he was distinguished with the China National Scholarship and named an Outstanding Graduate.
   </p> 
     <p>
-      Bruce is supervised by Prof. Kar Yan Tam and also under the guidance of Dr. Yong Xia, Prof. Allen H. Huang, Prof. Kohei Kawaguchi, Prof. Marc Dordal Carreras, Prof. Bei Zeng, and Prof. Qiming Shao. His research spans several areas including blockchain, token-based platforms, regulated digital currencies, and decision making for business/banking. His methodologies to research is multifaceted, employing methods such as econometrics, field experiments, surveys, and technical algorithm design.
-    </p> 
-    <p>
-      Prior to his academic tenure at HKUST, Bruce amassed practical experience as a software engineer at HSBC IT Architecture and HSBC Laboratory. His professional excellence was recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and his team was a finalist in the 2021 Global Central Bank Digital Currency (CBDC) Challenge hosted by the Monetary Authority of Singapore.
+      Prior to HKUST, Bruce amassed practical experience as a software engineer at HSBC IT Architecture and HSBC Laboratory. His professional excellence was recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and 2021 Global Central Bank Digital Currency (CBDC) Challenge finalist hosted by the Monetary Authority of Singapore.
     </p>
   </div>
 </div>
- 
+
 
 ## **Research Interests**
 - **Distributed Ledger Technology (DLT)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
@@ -47,7 +44,9 @@ key: page-homepage
   - MPhil-PhD Student in Information Systems.
   - GPA: 4.00 in 2022 - 2023 Fall Semester
   - Supervisor: Prof. Kar Yan Tam.
-  - Research Direction: Blockchain, Central Bank Digital Currency, Quantum Finance
+  - Advisors: Allen H. Huang, Kohei Kawaguchi, Marc Dordal Carreras, Qiming Shao, Bei Zeng.
+  - Research Direction: blockchain, token-based platforms, regulated digital currencies, and decision making for business/banking.
+  - Methodologies: econometrics, field experiments, surveys, and technical algorithm design.
 - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Fin. in Financial Technology, Outstanding Graduates. 
   - Rank: 1 / 33.
@@ -64,11 +63,13 @@ key: page-homepage
 ## **Employment**
 - **HSBC Laboratory** (May 2021 - Aug 2022)
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
+  - Advisor: Yong Xia.
   - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
 
 - **HSBC IT Architecture** (Sep 2020 - May 2021)
   - Internship on CBDC work
+  - Advisor: Yong Xia.
   - Angle Fund Winner \| Corda Prototype Development
   
 <!-- ## **Awards**
