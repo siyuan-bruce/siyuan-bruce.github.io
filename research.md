@@ -28,7 +28,7 @@ Token-based platforms are esential for the development of the digital asset econ
 
 #### Academic Publications
 
-  1. **S. Jin**, Z Li, A. Huang, K. Tam. "Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures". In preparation for submission to _Information System Research_. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf)
+  1. **S. Jin**, Z Li, A. Huang, K. Tam. "Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures". In preparation for submission to _Information System Research_. [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf)
 
       **Abstract**: While environmental impact has become an important corporate governance agenda in recent years, it is unclear whether this is valued by users of token-based platforms and how these platforms react to changing perceptions towards their environmental impacts. This paper examines how the change in community perceptions towards environmental impacts affects token-based platforms’ disclosures and growth. Using Elon Musk’s announcement that Tesla suspended vehicle purchases using Bitcoin due to its environmental impact as a shock that increases the community’s awareness of the negative impacts on the environment because of mining, we find that infrastructure platforms as compared with application platforms are more likely to disclose environmental impact information and their platform growth rates decrease more after the perception change. Furthermore, infrastructure platforms’ pre-change environmental disclosure led to a decline in growth rates, whereas their post-change disclosure demonstrates the opposite effect, consistent with green-costing and green-enhancing effects, respectively.
 
@@ -78,13 +78,19 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
     
 ## **Conferences**
-1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. Short paper with oral presentaiton. Acceptance Rate: 21.47%. [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) 
+1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand, **(QRS 2023)**. 
+
+    _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) 
 
     **Abstract**: Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.
 
-2. Y. Liu, C. Xu, **S. Jin**. "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10234293) [[Code]](https://github.com/yliuls/quantum-reinforcement-learning)
+2. Y. Liu, C. Xu, **S. Jin**. "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA, **(SERVICE 2023)**. 
 
-3. **S. Jin**, B. Xu, P. Intallura, Y. Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
+    _Corresponding Author, Average Acceptance Rate: 21.50%_. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10234293) [[Code]](https://github.com/yliuls/quantum-reinforcement-learning)
+
+3. **S. Jin**, B. Xu, P. Intallura, Y. Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA, **(BCCA 2022)**.
+
+     _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
 
       **Abstract**: We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.
 
