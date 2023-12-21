@@ -60,8 +60,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
       **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.
 
-### Research Agenda 3: Decision Making for Business/Banking
-
+### Research Agenda 3: Design Sience / Decision Making
   1.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Reject & Resubmit to _INFORMS Journal on Data Science_.
 
       **Abstract**: Quantum computing has the potential to revolutionize problem-solving by significantly improving computational complexity. However, the sophisticated nature of quantum knowledge and circuit design presents challenges for business practitioners. In this study, we introduce FinQMC, a quantum Monte Carlo framework designed to transform classical Monte Carlo algorithms into quantum ones. Our framework proposes the key principle of treating quantum states as the distributions of financial variables. To validate the efficiency and applicability of FinQMC, we conducted two experiments: option pricing and portfolio selection. The results obtained demonstrate the feasibility and accuracy of our approach. FinQMC simplifies the complex world of quantum computing and offers a more efficient solution to a wide range of business challenges compared to classical Monte Carlo methods. Practically, our study is the first to apply the quantum Monte Carlo method in the context of portfolio selection.
