@@ -24,7 +24,7 @@ While I have not yet published in any of the top UTD 24 or FT 50 journals, I am 
 
 ### Research Agenda 1: Token-based Platforms
 
-Token-based platforms are esential for the development of the digital asset economy in the complex Web 3.0 market. My research aims to understand the role of token-based platforms and their impact on the digital asset economy.
+Token-based platforms are esential for the development of the digital asset economy in the complex Web 3.0 market. My research aims to provide better governance and regulation of token-based platforms.
 
 #### Academic Publications
 
