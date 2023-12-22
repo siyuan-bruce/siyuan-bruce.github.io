@@ -20,7 +20,7 @@ titles:
 key: page-research
 ---
 
-_The goal of behavioral-science research is truth. The goal of design-science research is utility._
+_The goal of behavioral-science research is truth. The goal of design-science research is utility (MIS Quarterly)._
 
 While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. 
 
