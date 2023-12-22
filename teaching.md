@@ -20,6 +20,8 @@ titles:
 key: page-teaching
 ---
 
+_Teaching is not a science and should not be treated as such. Teaching is an art - a perfoming art. Mr. Dawe._
+
 **Teaching interests**: Management Information Systems, Blockchain, Central Bank Digital Currency, Quantum Computing, Quantum Finance, Computational Algorithms for Business, Data Science, Python, R, LaTeX, Git, Linux, etc.
 
 
