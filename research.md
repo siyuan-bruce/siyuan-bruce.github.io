@@ -20,7 +20,9 @@ titles:
 key: page-research
 ---
 
-While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. My continuous aim is to publish high-quality research in FT 50-ranked journals.
+_The goal of behavioral-science research is truth. The goal of design-science research is utility._
+
+While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. 
 
 ### Research Agenda 1: Token-based Platforms
 
