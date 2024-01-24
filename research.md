@@ -22,7 +22,7 @@ key: page-research
 
 _The goal of behavioral-science research is truth. The goal of design-science research is utility. --- MIS Quarterly, 2004_
 
-While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. 
+While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. Here are works catergorized by my research agenda.
 
 ### Research Agenda 1: Token-based Platforms
 
@@ -30,7 +30,7 @@ Token-based platforms are esential for the development of the digital asset econ
 
 #### Academic Publications
 
-  1. **S. Jin**, Z Li, A. Huang, K. Tam. "Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures". In preparation for submission to _Information System Research_. [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf)
+  1. **S. Jin**, Z Li, A. Huang, K. Tam. "Token-Based Platforms and Green Dilemma: Examining the Role of Community Perceptions and Web Page Environmental Disclosures". In preparation for submission to _Information System Research_. [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
 
       **Abstract**: While environmental impact has become an important corporate governance agenda in recent years, it is unclear whether this is valued by users of token-based platforms and how these platforms react to changing perceptions towards their environmental impacts. This paper examines how the change in community perceptions towards environmental impacts affects token-based platforms’ disclosures and growth. Using Elon Musk’s announcement that Tesla suspended vehicle purchases using Bitcoin due to its environmental impact as a shock that increases the community’s awareness of the negative impacts on the environment because of mining, we find that infrastructure platforms as compared with application platforms are more likely to disclose environmental impact information and their platform growth rates decrease more after the perception change. Furthermore, infrastructure platforms’ pre-change environmental disclosure led to a decline in growth rates, whereas their post-change disclosure demonstrates the opposite effect, consistent with green-costing and green-enhancing effects, respectively.
 
