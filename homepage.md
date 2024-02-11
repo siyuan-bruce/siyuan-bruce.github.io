@@ -33,15 +33,14 @@ key: page-homepage
       Si Yuan (Bruce) JIN, is currently pursuing a joint MPhil-PhD program in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT), where he was distinguished with the China National Scholarship and named an Outstanding Graduate.
   </p> 
     <p>
-      Prior to HKUST, Bruce amassed practical experience as a software engineer at HSBC IT Architecture and HSBC Laboratory. His professional excellence was recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and 2021 Global Central Bank Digital Currency (CBDC) Challenge finalist hosted by the Monetary Authority of Singapore.
+      Prior to HKUST, Bruce had practical experience as a software engineer at HSBC IT Architecture and HSBC Laboratory. His professional excellence was recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and 2021 Global Central Bank Digital Currency (CBDC) Challenge finalist hosted by the Monetary Authority of Singapore.
     </p>
   </div>
 </div>
 
-
 ## **Research Interests**
-- **Distributed Ledger Technology (DLT)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
-- **Quantum Computing**: Quantuam IT management, Quantum Finance, Classical Quantum-Inspired Algorithm
+- **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
+- **Quantum IT Governance**: Quantuam IT management, Quantum Finance, Classical Quantum-Inspired Algorithm
 
 ## **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
