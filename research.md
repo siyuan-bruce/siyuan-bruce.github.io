@@ -22,7 +22,7 @@ key: page-research
 
 _The goal of behavioral-science research is truth. The goal of design-science research is utility. --- MIS Quarterly, 2004_
 
-While I have not yet published in any of the top UTD 24 or FT 50 journals, I am eager to showcase my dedication to research and my ability to produce high-quality scholarly contributions. Here are works catergorized by my research agenda.
+Although I have not yet published in any of the top UTD 24 or FT 50 journals, I would like to share my research progress and contributions to the community. Here are works catergorized by my research agenda.
 
 ### Research Agenda 1: Token-based Platforms
 
@@ -30,7 +30,7 @@ Token-based platforms are esential for the development of the digital asset econ
 
 #### Academic Publications
 
-  1. **S. Jin**, A. Huang, K. Tam, Z Li. "Token-Based Platforms and the `Green Dilemma': Awareness Spillover and Environmental Impacts Disclosures". In preparation for submission to _Information System Research_. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
+  1. **S. Jin**, A. Huang, K. Tam, Z Li. "Token-Based Platforms and the `Green Dilemma': Awareness Spillover and Environmental Impacts Disclosures". Submitted to _Information System Research_. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
 
       **Abstract**: While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, consistent with green-costing and green-enhancing, respectively.
 
@@ -48,7 +48,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
   2. Joint with K. Kawaguichi and M. Dordal i Carreras. “Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets”. Working paper.
 
-  3. **S, Jin**, Y. Xia, B. Xu (2023). “Scalability Meets Regulation: UTXO-Based Sharding and Zero-Knowledge Proofs for Regulated Digital Currencies”. Forthcoming at _Cluster Computing_ (No.3 of Computing Systems journals on [Google Scholar's h5-index](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computingsystems)) [[Paper]](/paper/Cluster_Computing_preprint.pdf) [Springer Nature](https://link.springer.com/article/10.1007/s10586-023-04247-9)
+  3. **S, Jin**, Y. Xia, B. Xu (2023). “Scalability Meets Regulation: UTXO-Based Sharding and Zero-Knowledge Proofs for Regulated Digital Currencies”. Forthcoming at _Cluster Computing_ (No.3 of Computing Systems journals on [Google Scholar's h5-index](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computingsystems)) [[Paper]](/paper/Cluster_Computing_preprint.pdf) [[Springer Nature]](https://link.springer.com/article/10.1007/s10586-023-04247-9)
 
       **Abstract**: FinTech and RegTech integration is essential for developing regulated digital currency (RDC) systems that meet performance and regulatory requirements. This paper presents a solution to address scalability and regulatory challenges in RDC systems. We first use an Unspent Transaction Output (UTXO)-based sharding method to improve scalability and maintain low latency by minimizing cross-shard transactions. The result shows a linear transaction throughput increase with the number of shards, while consistently maintaining low latency. However, UTXO-based sharding also complicates know-your-customer (KYC) regulations because of the frequent onboarding of users on new shards. We show zero-knowledge proofs seamlessly integrate with UTXO sharding to simplify customer onboarding. This research extends the FinTech and RegTech literature, delivering practical implications for the implementation and management of RDC systems.
 
