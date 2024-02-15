@@ -101,7 +101,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
        
   2. **S. Jin**, Y. Xia. (2024). "Method for implementing network consensus algorithm". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007483 A1.
    
-  3. **S. Jin**, Y. Xia. (2024). "Transaction Security for Multi-tier Transaction Networks". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007527 A1.
+  3. **S. Jin**, Y. Xia. (2024). "Transaction security for multi-tier transaction networks". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007527 A1.
     
   4. **S. Jin**, Y. Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
     
