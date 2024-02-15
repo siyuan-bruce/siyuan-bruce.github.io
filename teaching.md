@@ -39,9 +39,9 @@ Comments from students:
 
 
 _Coding for Business (ISOM 2020)_
-- **Teaching period**: Spring 2023
+- **Teaching period**: Spring 2023, Fall 2023, Spring 2024
 - **Teaching responsibilities**: Teaching Assistant
-- **Class size**: 80
+- **Class size**: 60
 
 
 #### South China University of Technology 
