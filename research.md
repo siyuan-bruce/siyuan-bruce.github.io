@@ -95,6 +95,18 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
       **Abstract**: We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.
 
+## **Patent**
+   
+  1. B. Zhu, Y. Xia, Z. Li, **S. Jin**. (2024). "Network Analysis using optical quantum computing". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007565 A1.
+       
+  2. **S. Jin**, Y. Xia. (2024). "Method for implementing network consensus algorithm". \\International Bureau, World Intellectual Property Organization. Publication No. WO2024/007483 A1.
+   
+  3. **S. Jin**, Y. Xia. (2024). "Transaction Security for Multi-tier Transaction Networks". \\International Bureau, World Intellectual Property Organization. Publication No. WO2024/007527 A1.
+    
+  4. **S. Jin**, Y. Xia. (2024). "Blockchain transaction sharding for improved transaction throughput."\\ International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
+    
+    
+
 ## **Supervising**
 - 2022.10 ~ now: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
