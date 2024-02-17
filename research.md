@@ -66,7 +66,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
       **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.
 
-### Research Agenda 3: Design Sience / Decision Making
+### Research Agenda 3: IT Management
   1.  **S. Jin**, Y. Xia, K. Tam. "How to Enhance Software Development Performance? Evidence from A Field Experiment". Working paper.
 
   2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Reject & Resubmit to _INFORMS Journal on Data Science_.
