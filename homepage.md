@@ -30,10 +30,10 @@ key: page-homepage
     <div class="profile-text">
     <em>Where there is a will, there is a way.</em>
     <p>
-      Si Yuan (Bruce) JIN, is currently pursuing a joint MPhil-PhD program in the Department of Information Systems at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT), where he was distinguished with the China National Scholarship and named an Outstanding Graduate.
+      Si Yuan (Bruce) JIN, is currently pursuing a joint MPhil-PhD program in the Department of Information Systems (IS) at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT), where he was distinguished with the China National Scholarship and named an Outstanding Graduate.
   </p> 
     <p>
-      Prior to HKUST, Bruce had practical experience as a software engineer at HSBC IT Architecture and HSBC Laboratory. His professional excellence was recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and 2021 Global Central Bank Digital Currency (CBDC) Challenge finalist hosted by the Monetary Authority of Singapore.
+      Prior to HKUST, Bruce worked as a software engineer at HSBC IT Architecture and HSBC Laboratory. His work has been recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and 2021 Global Central Bank Digital Currency (CBDC) Challenge finalist hosted by the Monetary Authority of Singapore.
     </p>
   </div>
 </div>

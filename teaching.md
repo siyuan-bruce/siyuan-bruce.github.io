@@ -24,11 +24,10 @@ _Teaching is not a science and should not be treated as such. Teaching is an art
 
 **Teaching interests**: Management Information Systems, Blockchain, Central Bank Digital Currency, Quantum Computing, Quantum Finance, Computational Algorithms for Business, Data Science, Python, R, LaTeX, Git, Linux, etc.
 
-
 #### The Hong Kong University of Science and Technology 
 
 _Coding for Business (ISOM 2020)_
-- **Teaching period**: Fall 2023
+- **Teaching period**: Fall 2023 (Lecture Instructor: Weiyin Hong)
 - **Teaching responsibilities**: Lab Instructor
 - **Class size**: 24
 
@@ -37,9 +36,8 @@ This course intends to introduce students to basic programming concepts and skil
 Comments from students:
 - Student 1: "The TA(s) during this lab section are really helpful. They’re always willing to help and answer my questions whenever I’ need assistance . They also proactively reach out to me whenever I look confused . I really appreciate the amount of support and assistance I received from this lab. Thank you!"
 
-
 _Coding for Business (ISOM 2020)_
-- **Teaching period**: Spring 2023, Fall 2023, Spring 2024
+- **Teaching period**: Spring 2023 (Instructor: Weiyin Hong), Fall 2023 (Instructor: Weiyin Hong), Spring 2024 (Instructor: Jianqing Chen)
 - **Teaching responsibilities**: Teaching Assistant
 - **Class size**: 60
 
@@ -52,7 +50,6 @@ _Blockchain Foundation_
 - **Class size**: 40
 
 This course introduces the basic concepts of blockchain, offering students a clear and concrete understanding of its foundational principles. Participants will explore the essential structure of blockchain systems, learn how consensus mechanisms ensure data integrity, delve into the operation of smart contracts, and examine the key practices that contribute to robust blockchain security. Students need to run smart contracts on R3 Corda and Hyperledger Fabric and implement a blockchain project.
-
 
 ## **Invited Talk**
 1. "The Introduction of FinTech Research", _South China University of Technology_, Online, Sep 2023.
