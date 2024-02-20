@@ -33,21 +33,22 @@ key: page-homepage
       Si Yuan (Bruce) JIN, is currently pursuing a joint MPhil-PhD program in the Department of Information Systems (IS) at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT), where he was distinguished with the China National Scholarship and named an Outstanding Graduate.
   </p> 
     <p>
-      Prior to HKUST, Bruce worked as a software engineer at HSBC IT Architecture and HSBC Laboratory. His work has been recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and 2021 Global Central Bank Digital Currency (CBDC) Challenge finalist hosted by the Monetary Authority of Singapore.
+      Prior to HKUST, Bruce worked as a software engineer at HSBC IT Architecture and [HSBC Laboratory](https://www.ventures.hsbc.com/en/about-us). His work has been recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and [2021 Global Central Bank Digital Currency (CBDC) Challenge finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge) hosted by the Monetary Authority of Singapore.
     </p>
   </div>
 </div>
 
 ## **Research Interests**
 - **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
+- **Software Management**: Software Development
 - **Quantum IT Governance**: Quantuam IT management, Quantum Finance, Classical Quantum-Inspired Algorithm
 
 ## **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
   - MPhil-PhD Student in Information Systems.
-  - GPA: 4.00 in 2022 - 2023 Fall Semester
-  - Supervisor: Prof. Kar Yan Tam.
-  - Advisors: Allen H. Huang, Kohei Kawaguchi, Marc Dordal Carreras, Qiming Shao, Bei Zeng.
+  - Supervisor: Prof. [Kar Yan Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam).
+  - Advisors: [Allen H. Huang](https://www.allenhuang.org/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/) and [M. Dordal i Carreras](https://marcdordal.github.io/), [Qiming Shao](https://sites.google.com/view/sqml/home), [Bei Zeng](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=bei-zeng-zengb).
+  - Topics: Token-based Platforms, Regulated Digital Currencies, Software Management, Quantum IT Management.
   - Methodologies: econometrics, field experiments, surveys, and technical algorithm design.
 - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Fin. in Financial Technology, Outstanding Graduates. 

@@ -30,7 +30,7 @@ Token-based platforms are esential for the development of the digital asset econ
 
 #### Academic Publications
 
-  1. **S. Jin**, A. Huang, K. Tam, Z Li. "Token-Based Platforms and the `Green Dilemma': Awareness Spillover and Environmental Impacts Disclosures". Submitted to _Information System Research_. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
+  1. **S. Jin**, [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Z Li. "Token-Based Platforms and the `Green Dilemma': Awareness Spillover and Environmental Impacts Disclosures". Submitted to _Information System Research_. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
 
       **Abstract**: While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, consistent with green-costing and green-enhancing, respectively.
 
@@ -44,9 +44,9 @@ Token-based platforms are esential for the development of the digital asset econ
 The designs of regulated digital currencies, like Central Bank Digital Currency (CBDC), are complex and involve a trade-off between system features. My research aims to provide solutions to CBDC implementation and their adoptions of consumers and merchants.
 
 #### **Academic Publications**
-  1. M. Dordal i Carreras, K. Kawaguchi, **S. Jin**, H. Guo, W. Huang. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". In preparation for submission to _Proceedings of the National Academy of Sciences (PNAS)_.
+  1. [M. Dordal i Carreras](https://marcdordal.github.io/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/), **S. Jin**, H. Guo. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". In preparation for submission to _Proceedings of the National Academy of Sciences (PNAS)_.
 
-  2. Joint with K. Kawaguichi and M. Dordal i Carreras. “Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets”. Working paper.
+  2. Joint with [K. Kawaguchi](https://www.kohei-kawaguchi.com/) and [M. Dordal i Carreras](https://marcdordal.github.io/). “Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets”. Working paper.
 
 #### **Policy Publications**
   1. Joint with HKUST School of Business and Management and HSBC Holdings plc (2023). “e-HKD Pilot Programme”. [[Summary]](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf) [[Hong Kong Monetary Authority Report]](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
@@ -96,6 +96,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   4. **S. Jin**, Y. Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
     
 ## **Supervising**
+- 2024.02 ~ now: Jieliang Yin (research assistant for CBDC project).
 - 2022.10 ~ now: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
   - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
