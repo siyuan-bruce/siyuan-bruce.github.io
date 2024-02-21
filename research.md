@@ -28,7 +28,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
 Token-based platforms are esential for the development of the digital asset economy in the complex Web 3.0 market. My research aims to provide better governance and regulation of token-based platforms.
 
-#### Academic Publications
+#### Academic Papers
 
   1. **S. Jin**, [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Z Li. "Token-Based Platforms and the `Green Dilemma': Awareness Spillover and Environmental Impacts Disclosures". Submitted to _Information System Research_. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
 
@@ -43,12 +43,12 @@ Token-based platforms are esential for the development of the digital asset econ
 
 The designs of regulated digital currencies, like Central Bank Digital Currency (CBDC), are complex and involve a trade-off between system features. My research aims to provide solutions to CBDC implementation and their adoptions of consumers and merchants.
 
-#### **Academic Publications**
+#### **Academic Papers**
   1. [M. Dordal i Carreras](https://marcdordal.github.io/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/), **S. Jin**, H. Guo. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". In preparation for submission to _Proceedings of the National Academy of Sciences (PNAS)_.
 
   2. Joint with [K. Kawaguchi](https://www.kohei-kawaguchi.com/) and [M. Dordal i Carreras](https://marcdordal.github.io/). “Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets”. Working paper.
 
-#### **Policy Publications**
+#### **Policy Papers**
   1. Joint with HKUST School of Business and Management and HSBC Holdings plc (2023). “e-HKD Pilot Programme”. [[Summary]](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf) [[Hong Kong Monetary Authority Report]](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
   
       **Abstract**: The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants.
