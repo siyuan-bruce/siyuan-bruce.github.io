@@ -107,5 +107,6 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 - Ad hoc Reviewer for the 2023 _International Conference on Information Systems (ICIS)_, the 2023 _Pacific Asia Conference on Information Systems (PACIS)_, the 2023 _Quantum Information Processing (QIP)_.
 - Sep 2018 ~ Mar 2019: Director, _Innovation Club for Science and Technology (SCUT)_
 - Mar 2018 ~ Sep 2018: Member, _Innovation Club for Science and Technology (SCUT)_
+- Crypto supply data free scraper [cryptoSupplyData](https://github.com/siyuan-bruce/cryptoSupplyData) 
 - Initializer [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
 - Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
