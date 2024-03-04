@@ -21,7 +21,7 @@ This page presents some of my previous moment captures.
 ### **2023**
 
 #### e-HKD on-campus trial, Hong Kong
-I participated in the e-HKD on-campus trial, and this is a moment capture of the event.
+I participated in the e-HKD on-campus trial, and this is a moment capture of the event [Video](https://www.linkedin.com/feed/update/urn:li:activity:7160862761130889216/).
   <img src="assets/images/gallery/e-HKD_experience.png" alt="Image" title="e-HKD" width=600>
 
 #### First Year Paper Presentation
