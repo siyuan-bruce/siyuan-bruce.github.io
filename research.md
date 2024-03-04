@@ -36,7 +36,7 @@ Token-based platforms are esential for the development of the digital asset econ
 
   2. **S. Jin**, Y. Cai, L. Qiu, K. Tam. "The Transparency Paradox of Institutional (Algorithmic) IT Operation: An Event Study of Stablecoin Crises". Working paper.
 
-  3. Joint with D. Lee, K. Kim. "Consumer Voting Via DAO". Working paper.
+  3. Joint with [D. Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), K. Kim. "Consumer Voting Via DAO". Working paper.
 
   
 ### Research Agenda 2: Regulated Digital Currencies
