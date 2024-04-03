@@ -33,4 +33,5 @@ The Master of Science in Data-Driven Modeling, a collaborative initiative betwee
 - **Outcome**: [QSW 2023](https://www.computer.org/csdl/proceedings-article/qsw/2023/047900a083/1Q5oKVVqzOU), [Code](https://github.com/yliuls/quantum-reinforcement-learning); Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
 - **Abstract**: In this study, we present a new approach to quantum reinforcement learning that can handle tasks with a range of continuous actions. Our method uses a quantum version of the classic normalized advantage function (QNAF), only needing the Q-value network created by a quantum neural network and avoiding any policy network. We implemented the method by TensorFlow framework. When tested against standard Gym benchmarks, QNAF outperforms classical NAF and prior quantum methods
 in terms of fewer adjustable parameters. Furthermore, it shows improved stability, reliably converging regardless of changes in initial random parameters.
+- [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
 

@@ -34,9 +34,9 @@ Token-based platforms are esential for the development of the digital asset econ
 
       **Abstract**: While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, consistent with green-costing and green-enhancing, respectively.
 
-  2. **S. Jin**, Y. Cai, L. Qiu, K. Tam. "The Transparency Paradox of Institutional (Algorithmic) IT Operation: An Event Study of Stablecoin Crises". Working paper.
+  2. **S. Jin**, Y. Cai, L. Qiu, K. Tam. "Transparency is Not Always Good: Evidence from Blockchain-enabled Fully Algorithmic IT Operation". Working paper.
 
-  3. Joint with [D. Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), K. Kim. "Consumer Voting Via DAO". Working paper.
+  3. Joint with [D. Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), K. Kim. "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO". Working paper.
 
   
 ### Research Agenda 2: Regulated Digital Currencies
@@ -56,6 +56,12 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   2. Y. Xia, **S. Jin**, B. Qu, Y. Liu, L Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Awarded as [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries) [[Monetary Authority of Singapore Report]](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf)
 
       **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.
+
+  <!-- 3. Joint with [A. Huang](https://www.allenhuang.org/), [M. Dordal i Carreras](https://marcdordal.github.io/) and HSBC Bank (Hong Kong) (2024). "Tokenized Deposit". Working paper. -->
+
+  <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper.
+
+  5. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), D. Lou, (2024). "Tokenized Form of Money". Working paper. -->
 
 ### Research Agenda 3: IT Management
   1.  **S. Jin**, Y. Xia, K. Tam. "How to Enhance Software Development Performance? Evidence from A Field Experiment". Working paper.
@@ -98,7 +104,6 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 ## **Supervising**
 - 2024.02 ~ now: Jieliang Yin (research assistant for CBDC project).
 - 2022.10 ~ now: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
-  - [Quantum Finance Research](https://siyuan-bruce.notion.site/3331ba8358b54e7dae1e63b486fd8797?v=ddd75742972048c094985c3c6598cc05)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
   - [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
