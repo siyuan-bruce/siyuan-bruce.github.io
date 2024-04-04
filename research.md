@@ -57,11 +57,10 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
       **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.
 
+
   <!-- 3. Joint with [A. Huang](https://www.allenhuang.org/), [M. Dordal i Carreras](https://marcdordal.github.io/) and HSBC Bank (Hong Kong) (2024). "Tokenized Deposit". Working paper. -->
 
-  <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper.
-
-  5. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), D. Lou, (2024). "Tokenized Form of Money". Working paper. -->
+  <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper. -->
 
 ### Research Agenda 3: IT Management
   1.  **S. Jin**, Y. Xia, K. Tam. "How to Enhance Software Development Performance? Evidence from A Field Experiment". Working paper.
