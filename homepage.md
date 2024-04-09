@@ -39,7 +39,12 @@ key: page-homepage
 </div>
 
 ## Advertisement
+### RA Recruitment
 The HKUST School of Business and Management is currently seeking research assistants for projects in FinTech and RegTech. We welcome applications from individuals with expertise in central bank digital currencies or large language models. Successful candidates will have the opportunity to be supervised by esteemed SBM Professors, such as Prof. Kar Yan Tam and Prof. Yi Yang, among others. Please send your CVs to sbmrarecruit@ust.hk, highlighting your relevant research experience.
+
+### IS Reading Group
+Inspired by many open talks in other subjects, we aim to organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly undergraduates and PhD students. We are also targeting to introduce more advanced topics in this area by inviting experts in information systems.
+[[Paper list link]](https://hkustconnect-my.sharepoint.com/:x:/g/personal/sjinaj_connect_ust_hk/Eco3xT5Q8EpEhAZwBiLHgwUBAVl4ysgHgb8ViZbq1uYIag?e=RHv3pR)
 
 ## **Research Interests**
 - **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
