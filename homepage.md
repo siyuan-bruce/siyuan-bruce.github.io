@@ -46,10 +46,10 @@ The HKUST School of Business and Management is currently seeking research assist
 Inspired by many open talks in other subjects, we aim to organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly undergraduates and PhD students. We are also targeting to introduce more advanced topics in this area by inviting experts in information systems.
 [[Paper list link]](https://hkustconnect-my.sharepoint.com/:x:/g/personal/sjinaj_connect_ust_hk/Eco3xT5Q8EpEhAZwBiLHgwUBAVl4ysgHgb8ViZbq1uYIag?e=RHv3pR) You can email me (siyuan.jin@connect.ust.hk) if you want to join us.
 
-## **Research Interests**
+<!-- ## **Research Interests**
 - **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
 - **Software Management**: Software Development
-- **Quantum IT Governance**: Quantuam IT management, Quantum Finance, Classical Quantum-Inspired Algorithm
+- **Quantum IT Governance**: Quantuam IT management, Quantum Finance, Classical Quantum-Inspired Algorithm -->
 
 ## **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
