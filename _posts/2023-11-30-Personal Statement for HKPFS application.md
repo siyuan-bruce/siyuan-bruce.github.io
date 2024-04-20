@@ -1,5 +1,5 @@
 ---
-title: Personal Statement for HKPFS application
+title: Personal Statement for HKPFS Application
 tags: Skills
 mathjax: true
 mermaid: true
@@ -13,7 +13,7 @@ article_header:
 
 In the serene quiet of a starlit sky, the brightest stars often capture our gaze with their subtle yet profound brilliance. This celestial metaphor aptly describes my academic philosophy: "Less is more." It is a belief that has shaped my journey through the complex and evolving landscape of research, especially within the realms of blockchain technology and digital currencies.
 
-My voyage into the world of research began somewhat unexpectedly during my undergraduate studies. Under the mentorship of Dr. Yong Xia, I embarked on a challenging yet rewarding journey that tested my resilience and fostered significant growth. This journey was marked by early hurdles, but the persistence paid off when I was honored with a prestigious China National Scholarship. More crucially, I mastered the art of distilling complex technical terminologies and theories into concise, insightful sentences—a skill that would define my academic output.
+My voyage into the world of research began somewhat u nexpectedly during my undergraduate studies. Under the mentorship of Dr. Yong Xia, I embarked on a challenging yet rewarding journey that tested my resilience and fostered significant growth. This journey was marked by early hurdles, but the persistence paid off when I was honored with a prestigious China National Scholarship. More crucially, I mastered the art of distilling complex technical terminologies and theories into concise, insightful sentences—a skill that would define my academic output.
 
 The realm of blockchain fascinated me early on, presenting a fertile ground for innovative research. During a formative internship at HSBC, I delved into the design of Central Bank Digital Currencies (CBDCs) across over 80 countries. This exploration uncovered a tapestry of unique national preferences and technical requirements for CBDC implementations. Inspired by these findings, I proposed a bespoke framework for CBDC design that meticulously balanced performance, privacy, and security considerations. Though initially criticized for its narrative structure at a top-tier conference, with relentless refinement, this framework later won the Global CBDC Challenge award by the Singapore Financial Monetary Authority and found its way into a reputable academic journal.
 
