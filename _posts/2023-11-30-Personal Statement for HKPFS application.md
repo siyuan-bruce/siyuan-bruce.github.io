@@ -1,6 +1,6 @@
 ---
 title: Personal Statement for HKPFS Application
-tags: Skills
+tags: Statement
 mathjax: true
 mermaid: true
 author: Si Yuan JIN
