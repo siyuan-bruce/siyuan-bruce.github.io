@@ -30,21 +30,20 @@ Token-based platforms are esential for the development of the digital asset econ
 
 #### Academic Papers
 
-  1. **S. Jin**, [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Z Li. "Token-Based Platforms and the `Green Dilemma': Awareness Spillover and Environmental Impacts Disclosures". Submitted to _Information System Research_. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
+  1. **S. Jin**, [A. Huang](https://www.allenhuang.org/), Z Li, [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures". Working paper. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
 
       **Abstract**: While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, consistent with green-costing and green-enhancing, respectively.
 
-  2. **S. Jin**, Y. Cai, L. Qiu, K. Tam. "Transparency is Not Always Good: Evidence from Blockchain-enabled Fully Algorithmic IT Operation". Working paper.
+  2. **S. Jin**, Y. Cai, L. Qiu, [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement". Working paper.
 
-  3. Joint with [D. Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), K. Kim. "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO". Working paper.
-
+  3. Joint with [D. Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [K. Kim](https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO". Working paper.
   
 ### Research Agenda 2: Regulated Digital Currencies
 
 The designs of regulated digital currencies, like Central Bank Digital Currency (CBDC), are complex and involve a trade-off between system features. My research aims to provide solutions to CBDC implementation and their adoptions of consumers and merchants.
 
 #### **Academic Papers**
-  1. [M. Dordal i Carreras](https://marcdordal.github.io/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/), **S. Jin**, H. Guo. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". In preparation for submission to _Proceedings of the National Academy of Sciences (PNAS)_.
+  1. [M. Dordal i Carreras](https://marcdordal.github.io/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/), **S. Jin**, H. Guo. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". Working paper. [[Paper]](/paper/rCBDC_Taste_and_Perception_Preprint.pdf)
 
   2. Joint with [K. Kawaguchi](https://www.kohei-kawaguchi.com/) and [M. Dordal i Carreras](https://marcdordal.github.io/). “Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets”. Working paper.
 
@@ -63,9 +62,11 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper. -->
 
 ### Research Agenda 3: IT Management
-  1.  **S. Jin**, Y. Xia, K. Tam. "How to Enhance Software Development Performance? Evidence from A Field Experiment". Working paper.
+  1.  **S. Jin**, B. Chen, Y. Xia, K. Tam. "Does Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment". Working paper.
 
-  2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Reject & Resubmit to _INFORMS Journal on Data Science_.
+      - 2024 HKUST Business PhD Student Conference
+
+  2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Working paper.
 
       **Abstract**: Quantum computing has the potential to revolutionize problem-solving by significantly improving computational complexity. However, the sophisticated nature of quantum knowledge and circuit design presents challenges for business practitioners. In this study, we introduce FinQMC, a quantum Monte Carlo framework designed to transform classical Monte Carlo algorithms into quantum ones. Our framework proposes the key principle of treating quantum states as the distributions of financial variables. To validate the efficiency and applicability of FinQMC, we conducted two experiments: option pricing and portfolio selection. The results obtained demonstrate the feasibility and accuracy of our approach. FinQMC simplifies the complex world of quantum computing and offers a more efficient solution to a wide range of business challenges compared to classical Monte Carlo methods. Practically, our study is the first to apply the quantum Monte Carlo method in the context of portfolio selection.
 
