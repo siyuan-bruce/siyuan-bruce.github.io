@@ -62,7 +62,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper. -->
 
 ### Research Agenda 3: IT Management
-  1.  **S. Jin**, B. Chen, Y. Xia, K. Tam. "Does Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment". Working paper.
+  1.  **S. Jin**, B. Chen, Y. Xia, K. Tam. "Do Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment". Working paper.
 
       - 2024 HKUST Business PhD Student Conference
 
