@@ -1,6 +1,6 @@
 ---
 title: Empirical IO Learning Notes
-tags: Econometrics, Industrial Organization
+tags: Econometrics IO
 mathjax: true
 mermaid: true
 author: Si Yuan JIN
@@ -11,9 +11,11 @@ article_header:
   background_image: false
 ---
 
-Why I write this note? I have a research project with Professor Kohei Kawaguchi about Central Bank Digital Currency (CBDC). We are interested in the competition between CBDC and commercial banks. I am responsible for the empirical part of the project. Therefore, I need to learn some empirical IO methods. This note is a summary of my learning process. I will update this note regularly.
+Reference: 
+1. Kohei K. (2023). ECON5630 Topics in Empirical Industrial Organization. 
+2. Aguirregabiria, V. (2021). Empirical industrial organization: models, methods, and applications. University of Toronto, Preliminary version.
 
-Reference: Aguirregabiria, V. (2021). Empirical industrial organization: models, methods, and applications. University of Toronto, Preliminary version.
+Why I write this note? I have a research project with Professor Kohei Kawaguchi about Central Bank Digital Currency (CBDC). We are interested in the competition between CBDC and commercial banks. I am responsible for the empirical part of the project. Therefore, I need to learn some empirical IO methods. This note is a summary of my learning process. I will update this note regularly.
 
 ## Keywords and definitions
 - What IO study is about? To understand the strategic interaction **between firms** in the market and its implications for **market power** and **market structure**.
