@@ -47,6 +47,8 @@ the main sources of sample variability in empirical studies in modern EIO?
 - local markets;
 
 ## Structure models
-The parameters of the model are
-structural in the sense that they describe consumer preferences, production technology,
-and institutional constraints.
+
+Structure models typically have compoents: 1) a model of consumer behavior or demand; 2) a specification of frims' costs; 3) a static equailibrium model of firms' competition in prices or quantities; 4) a dynamic equilibrium model of firms' competition in prices or quantities; 5) a model of firm entry or exit in a market. 
+
+The parameters of the model are structural in the sense that they describe consumer preferences, production technology, and institutional constraints.
+
