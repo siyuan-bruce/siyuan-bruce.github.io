@@ -56,6 +56,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
   - MPhil-PhD Student in Information Systems.
   - Supervisor: Prof. [Kar Yan Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam).
   - Advisors: [Allen H. Huang](https://www.allenhuang.org/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/) and [M. Dordal i Carreras](https://marcdordal.github.io/), [Dongwon Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [Qiming Shao](https://sites.google.com/view/sqml/home), [Bei Zeng](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=bei-zeng-zengb).
+  - MPhil Thesis: "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impact Disclosures"
   - Topics: Token-based Platforms, Regulated Digital Currencies, Software Management, Quantum IT Management.
   - Methodologies: econometrics, field experiments, surveys, and technical algorithm design.
   - Scholarships: Hong Kong PhD Fellowship Scheme (2024-2028).
