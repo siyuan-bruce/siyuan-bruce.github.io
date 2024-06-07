@@ -38,7 +38,7 @@ Token-based platforms are esential for the development of the digital asset econ
 
   2. **S. Jin**, Y. Cai, L. Qiu, [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement". Working paper.
 
-  3. Joint with [D. Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [K. Kim](https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO". Working paper.
+  3.  **S. Jin**, [D. Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [K. Kim](https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO". Working paper.
   
 ### Research Agenda 2: Regulated Digital Currencies
 
