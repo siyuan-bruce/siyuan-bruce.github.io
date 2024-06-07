@@ -55,11 +55,8 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
   - MPhil-PhD Student in Information Systems.
   - Supervisor: Prof. [Kar Yan Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam).
-  - Advisors: [Allen H. Huang](https://www.allenhuang.org/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/) and [M. Dordal i Carreras](https://marcdordal.github.io/), [Dongwon Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [Qiming Shao](https://sites.google.com/view/sqml/home), [Bei Zeng](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=bei-zeng-zengb).
-  - MPhil Thesis: "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impact Disclosures"
-  - Topics: Token-based Platforms, Regulated Digital Currencies, Software Management, Quantum IT Management.
-  - Methodologies: econometrics, field experiments, surveys, and technical algorithm design.
-  - Scholarships: Hong Kong PhD Fellowship Scheme (2024-2028).
+  - Advisors: [Allen H. Huang](https://www.allenhuang.org/), [Dongwon Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [Kohei Kawaguchi](https://www.kohei-kawaguchi.com/), [Keongtae Kim](https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/), [Marc Dordal i Carreras](https://marcdordal.github.io/), [Qiming Shao](https://sites.google.com/view/sqml/home), [Bei Zeng](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=bei-zeng-zengb).
+  - Obtained Hong Kong PhD Fellowship Scheme (2024-2028).
 - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Fin. in Financial Technology, Outstanding Graduates. 
   - Rank: 1 / 33.
@@ -72,17 +69,18 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 - **HSBC Hong Kong** (Sep 2022 - now)
   - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
   - Seven patents are already filed.
+  - HSBC Email: bruce.s.jin@hsbc.com.hk
 
 ## **Employment**
 - **HSBC Laboratory** (May 2021 - Aug 2022)
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
-  - Advisor: Yong Xia.
+  - Advisor: Yong Xia
   - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
   - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
 
 - **HSBC IT Architecture** (Sep 2020 - May 2021)
   - Internship on CBDC work
-  - Advisor: Yong Xia.
+  - Advisor: Yong Xia
   - Angle Fund Winner \| Corda Prototype Development
   
 <!-- ## **Awards**
@@ -92,12 +90,12 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 
 ## Language
 - Mandarin (Native)
-- English (Proficient, IELTS 7.5)
+- English (Proficient, IELTS 7.5 (9))
 - Cantonese (Beginner)
   
 ## **Contact**
-I am open to working on any interesting topics related to blockchain and quantum IT management. Please feel free to contact me if you want to costart a project.
-- Email: siyuan.jin at connect.ust.hk
+I am open to working on any interesting topics related to blockchain. Please feel free to contact me if you want to costart a project.
+- Email: siyuan.jin@connect.ust.hk
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
