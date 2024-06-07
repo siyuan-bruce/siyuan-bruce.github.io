@@ -64,23 +64,23 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper. -->
 
 ### Research Agenda 3: IT Management
-  1.  **S. Jin**, B. Chen, Y. Xia, K. Tam. "Do Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment". Working paper.
+  1.  **S. Jin**, Y. Xia, K. Tam. "Do Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment". Working paper.
 
       - 2024 HKUST Business PhD Student Conference
 
-  2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “FinQMC - A Quantum Leap in Monte Carlo Methods for Finance”. Working paper.
+  2.  **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “Can Analogical Principles Help Quantum Computing Adoption? Evidence from Quantum Monte Carlo Analysis”. Working paper.
 
       <!-- **Abstract**: Quantum computing has the potential to revolutionize problem-solving by significantly improving computational complexity. However, the sophisticated nature of quantum knowledge and circuit design presents challenges for business practitioners. In this study, we introduce FinQMC, a quantum Monte Carlo framework designed to transform classical Monte Carlo algorithms into quantum ones. Our framework proposes the key principle of treating quantum states as the distributions of financial variables. To validate the efficiency and applicability of FinQMC, we conducted two experiments: option pricing and portfolio selection. The results obtained demonstrate the feasibility and accuracy of our approach. FinQMC simplifies the complex world of quantum computing and offers a more efficient solution to a wide range of business challenges compared to classical Monte Carlo methods. Practically, our study is the first to apply the quantum Monte Carlo method in the context of portfolio selection. -->
 
-  3. M Zhang, B Zhu, Z Li, **S. Jin**, Y. Xia. “Relationships among Return and Liquidity of Cryptocurrencies”. Published at _Financial Innovation._ [[Springer]](https://jfin-swufe.springeropen.com/articles/10.1186/s40854-023-00532-z)
+  3. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_.  
+  
+  4.  Y. Zhang, **S. Jin**, B. Zeng. “Quantum Tokens via Cloud: A Practical and Quantum-Resistant Digital Token Protocol”. Working paper.
+
+  5. M Zhang, B Zhu, Z Li, **S. Jin**, Y. Xia. “Relationships among Return and Liquidity of Cryptocurrencies”. Published at _Financial Innovation._ [[Springer]](https://jfin-swufe.springeropen.com/articles/10.1186/s40854-023-00532-z)
 
       <!-- **Abstract**: The cryptocurrency market is a complex and rapidly evolving financial landscape in which understanding the inter- and intra-asset dependencies among key financial variables, such as return and liquidity, is crucial. In this study, we analyze daily return and liquidity data for six major cryptocurrencies, namely Bitcoin, Ethereum, Ripple, Binance Coin, Litecoin, and Dogecoin, spanning the period from June 3, 2020, to November 30, 2022. Liquidity is estimated using three low-frequency proxies: the Amihud ratio, the Abdi and Ranaldo (AR) estimator, and the Corwin and Schultz (CS) estimator. To account for autoregressive and persistent effects, we apply the ARIMA-GARCH model and subsequently utilize the copula method to examine the interdependent relationships among the return and liquidity of the six cryptocurrencies. Our analysis reveals strong cross-asset lower-tail dependence in return and significant cross-asset upper-tail dependence in illiquidity measures, with more pronounced dependence observed in specific cryptocurrency pairs, primarily involving Bitcoin, Ethereum, and Litecoin. We also observe that returns tend to be higher when liquidity is lower in the cryptocurrency market. Our findings have significant implications for portfolio diversification, asset allocation, risk management, and trading strategy development for investors and traders, as well as regulatory policy-making for regulators. In conclusion, this study contributes to a deeper understanding of the cryptocurrency marketplace and can help inform investment decision-making and regulatory policies in this emerging financial domain. -->
 
-  4. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Under review at _Decision Support Systems_.  
-
-  5.  Y. Huang, **S. Jin**, B. Zeng, Q. Shao. “Adaptive Diversity-based Quantum Circuit Architecture Search”. Under review at _Physics Review Research_.
-
-  6.  Y. Zhang, **S. Jin**, B. Zeng. “Quantum Tokens via Cloud: A Practical and Quantum-Resistant Digital Token Protocol”. Working paper.
+  6.  Y. Huang, **S. Jin**, B. Zeng, Q. Shao. “Adaptive Diversity-based Quantum Circuit Architecture Search”. Accepted at _Physics Review Research_. [[Paper]](https://journals.aps.org/prresearch/accepted/2107fJfaWa613d03f1ed3ca79d1e0b863c01b4788)
     
 ## **Conferences**
 1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
