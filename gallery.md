@@ -18,6 +18,12 @@ permalink: /gallery.html
 ---
 This page presents some of my previous moment captures.
 
+### **2024**
+
+#### PhD Conference Gathering, Hong Kong
+I participated in PhD Confernece gathering and discussed PhD life with Prof. Hui and peers.
+  <img src="assets/images/gallery/2024_PhD_conference_gathering.jpg" alt="Image" title="PhD_Conference" width=600>
+
 ### **2023**
 
 #### e-HKD on-campus trial, Hong Kong
