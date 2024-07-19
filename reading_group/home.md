@@ -33,7 +33,7 @@ If you have any suggestions, feel free to contact Bruce at [bruce.s.y.jin@gmail.
 - **Language:** English/Chinese, depending on presenter's preference
 - **Format:** 45-minute main presentation, followed by a 15-minute mini session
 
-## Upcoming Sessions
+## Sessions
 
 | Series | Date       | Type          | Presenter        | Paper Title                                                                                              | Mini Session                               |
 |--------|------------|---------------|------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------|
