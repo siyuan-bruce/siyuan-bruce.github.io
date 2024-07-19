@@ -20,8 +20,6 @@ titles:
 key: page-is_paper_sharing
 ---
 
-# Information Systems Paper Sharing Group
-
 Welcome to the **Information Systems Paper Sharing Group**! Inspired by open discussions across various subjects, we have organized a series dedicated to sharing and critiquing academic papers in the field of Information Systems.
 
 ## Purpose
@@ -56,3 +54,6 @@ If you have any suggestions, feel free to contact Bruce at [bruce.s.y.jin@gmail.
 | 17     | 7/23/2024 | Nature Science| Ma Mengyao       | Unveiling the Mind of the Machine                                                                         | Yanru Song: The Economic Effects of Mafia: Firm Level Evidence |
 
 Join us to enrich your understanding of Information Systems through insightful discussions and critiques!
+
+## Acknowledgement
+- The initial group is initiated by me and Zhe Wang from PolyU. Tonglin Zhang assisted in poster making. 
