@@ -30,6 +30,8 @@ If you have any suggestions, feel free to contact Bruce at [bruce.s.y.jin@gmail.
 ## Meeting Details
 - **Time:** Every Tuesday, 9:00 - 10:00 PM (HKT)
 - **Zoom Link:** [Join Meeting](https://hkust.zoom.us/j/92295593514?pwd=L1o2SjNVVGFhTk9jUEk1RDlUbHBEQT09)
+- **Language:** English/Chinese, depending on presenter's preference
+- **Format:** 45-minute main presentation, followed by a 15-minute mini session
 
 ## Upcoming Sessions
 
