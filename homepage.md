@@ -38,6 +38,10 @@ key: page-homepage
   </div>
 </div>
 
+
+## News
+- **2024-07**: I passed the PhD Qualifying Exam and became a PhD candidate.
+
 ## IS Paper Sharing Group (Having fun here)
 Inspired by many open talks in other subjects, we aim to organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly undergraduates and PhD students. We are also targeting to introduce more advanced topics in this area by inviting experts in information systems.
 [[Paper list link]](https://hkustconnect-my.sharepoint.com/:x:/g/personal/sjinaj_connect_ust_hk/Eco3xT5Q8EpEhAZwBiLHgwUBAVl4ysgHgb8ViZbq1uYIag?e=RHv3pR) You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)

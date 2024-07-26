@@ -15,7 +15,7 @@ Reference:
 1. Kohei K. (2023). ECON5630 Topics in Empirical Industrial Organization. 
 2. Aguirregabiria, V. (2021). Empirical industrial organization: models, methods, and applications. University of Toronto, Preliminary version.
 
-Why I write this note? I have a research project with Professor Kohei Kawaguchi about Central Bank Digital Currency (CBDC). We are interested in the competition between CBDC and commercial banks. I am responsible for the empirical part of the project. Therefore, I need to learn some empirical IO methods. This note is a summary of my learning process. I will update this note regularly.
+Why am I writing this note? I am currently working on a research project with Professor Kohei Kawaguchi focused on Central Bank Digital Currency (CBDC). My role in this project involves handling the empirical analysis. To do this effectively, I need to become proficient in empirical industrial organization (IO) methods. This note serves as a summary of my learning journey, and I will be updating it regularly.
 
 ## Keywords and definitions
 - What IO study is about? To understand the strategic interaction **between firms** in the market and its implications for **market power** and **market structure**.
@@ -51,4 +51,21 @@ the main sources of sample variability in empirical studies in modern EIO?
 Structure models typically have compoents: 1) a model of consumer behavior or demand; 2) a specification of frims' costs; 3) a static equailibrium model of firms' competition in prices or quantities; 4) a dynamic equilibrium model of firms' competition in prices or quantities; 5) a model of firm entry or exit in a market. 
 
 The parameters of the model are structural in the sense that they describe consumer preferences, production technology, and institutional constraints.
+
+
+## Coding practice for simulation
+There are some common components in a simulation model setting around equilibrium.
+1. exogenous
+2. endogenous
+3. shock
+4. constant
+5. parameter 
+
+Exogenous variables are the variables that are determined outside the model. Endogenous variables are the variables that are determined inside the model. Shocks are the random variables that are not controlled by the model. Constants are the variables that are fixed in the model. Parameters are the variables that are estimated in the model.
+
+When using variables in the models, we should get it from the equilibrium object. 
+
+For exogenous variables, they are categrized into demand side and supply side. 
+
+Exogenous and endogeous variables can be named in natural language, such as fund\_allocation. Constants can be named as capital letter, such as J, K. Parameters can be named as Greek letters, such as sigma. Shock can be named as Greek letters, such as mu.
 
