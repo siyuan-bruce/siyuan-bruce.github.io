@@ -20,7 +20,7 @@ titles:
 key: page-is_paper_sharing
 ---
 
-Welcome to the **Information Systems Paper Sharing Group**! Inspired by open discussions across various subjects, we have organized a series dedicated to sharing and critiquing academic papers in the field of Information Systems.
+Welcome to the **Information Systems Paper Sharing Group (PSG)**! Inspired by open discussions across various subjects, we have organized a series dedicated to sharing and critiquing academic papers in the field of Information Systems.
 
 ## Purpose
 Our initial target audience consists mainly of beginners, particularly pre-doc and PhD students. We also aim to invite senior scholars in the Information Systems domain. Each participant is encouraged to provide serious critiques of the presentations.
@@ -35,11 +35,11 @@ If you have any suggestions, feel free to contact Bruce at [bruce.s.y.jin@gmail.
 
 ## Sessions
 
-<img src="reading_group/poster/IS_PRGS_19.jpg" alt="Image" title="PRGS-19" width=600>
+<img src="poster/IS_PRGS_19.jpg" alt="Image" title="PRGS-19" width=600>
 
-<img src="reading_group/poster/IS_PRGS_18.jpg" alt="Image" title="PRGS-18" width=600>
+<img src="poster/IS_PRGS_18.jpg" alt="Image" title="PRGS-18" width=600>
 
-<img src="reading_group/poster/IS_PRGS_17.jpg" alt="Image" title="PRGS-17" width=600>
+<img src="poster/IS_PRGS_17.jpg" alt="Image" title="PRGS-17" width=600>
 
 
 
