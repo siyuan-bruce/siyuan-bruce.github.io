@@ -35,13 +35,27 @@ If you have any suggestions, feel free to contact Bruce at [bruce.s.y.jin@gmail.
 
 ## Sessions
 
-<img src="poster/IS_PRGS_19.jpg" alt="Image" title="PRGS-19" width=600>
+<img src="poster/IS_PRGS_19.jpg" alt="Image" title="PRGS-19" width=800>
 
-<img src="poster/IS_PRGS_18.jpg" alt="Image" title="PRGS-18" width=600>
+<img src="poster/IS_PRGS_18.jpg" alt="Image" title="PRGS-18" width=800>
 
-<img src="poster/IS_PRGS_17.jpg" alt="Image" title="PRGS-17" width=600>
+<img src="poster/IS_PRGS_16.jpg" alt="Image" title="PRGS-16" width=800>
 
+<img src="poster/IS_PRGS_15.jpg" alt="Image" title="PRGS-15" width=800>
 
+<img src="poster/IS_PRGS_14.jpg" alt="Image" title="PRGS-14" width=800>
+
+<img src="poster/IS_PRGS_13.jpg" alt="Image" title="PRGS-13" width=800>
+
+<img src="poster/IS_PRGS_12.jpg" alt="Image" title="PRGS-12" width=800>
+
+<img src="poster/IS_PRGS_11.jpg" alt="Image" title="PRGS-11" width=800>
+
+<img src="poster/IS_PRGS_10.jpg" alt="Image" title="PRGS-10" width=800>
+
+<img src="poster/IS_PRGS_9.jpg" alt="Image" title="PRGS-9" width=800>
+
+<img src="poster/IS_PRGS_8.jpg" alt="Image" title="PRGS-8" width=800>
 
 
 
