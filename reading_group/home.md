@@ -27,13 +27,16 @@ Our initial target audience consists mainly of beginners, particularly pre-doc a
 
 If you have any suggestions, feel free to contact Bruce at [bruce.s.y.jin@gmail.com](mailto:bruce.s.y.jin@gmail.com).
 
+## Acknowledgement
+- The initial group is initiated by me and Zhe Wang from PolyU. Tonglin Zhang assisted in poster making. 
+
 ## Meeting Details
 - **Time:** Every Tuesday, 9:00 - 10:00 PM (HKT)
 - **Zoom Link:** [Join Meeting](https://hkust.zoom.us/j/92295593514?pwd=L1o2SjNVVGFhTk9jUEk1RDlUbHBEQT09)
 - **Language:** English/Chinese, depending on presenter's preference
 - **Format:** 45-minute main presentation, followed by a 15-minute mini session
 
-## Sessions
+## Past Sessions
 
 <img src="poster/IS_PRGS_19.jpg" alt="Image" title="PRGS-19" width=800>
 
@@ -57,10 +60,5 @@ If you have any suggestions, feel free to contact Bruce at [bruce.s.y.jin@gmail.
 
 <img src="poster/IS_PRGS_8.jpg" alt="Image" title="PRGS-8" width=800>
 
-
-
-
 Join us to enrich your understanding of Information Systems through insightful discussions and critiques!
 
-## Acknowledgement
-- The initial group is initiated by me and Zhe Wang from PolyU. Tonglin Zhang assisted in poster making. 
