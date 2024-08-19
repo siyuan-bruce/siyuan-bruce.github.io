@@ -38,8 +38,8 @@ key: page-homepage
   </div>
 </div>
 
-
 ## News
+- **2024-07**: Two papers are conditonally accepted by the International Conference on Information Systems (ICIS) 2024.
 - **2024-07**: I passed the PhD Qualifying Exam and became a PhD candidate.
 
 ## IS Paper Sharing Group (Having fun here)
