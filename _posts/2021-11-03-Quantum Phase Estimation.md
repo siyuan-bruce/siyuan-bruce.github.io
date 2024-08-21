@@ -2,7 +2,7 @@
 title: Quantum Phase Estimation
 tags: QuantumComputing
 mathjax: true
-author: Si Yuan JIN
+author: Siyuan JIN
 article_header:
   type: overlay
   theme: dark

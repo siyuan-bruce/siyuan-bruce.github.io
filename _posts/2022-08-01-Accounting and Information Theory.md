@@ -2,7 +2,7 @@
 title: Accounting and Information Theory
 tags: Information
 mathjax: true
-author: Si Yuan JIN
+author: Siyuan JIN
 article_header:
   type: overlay
   theme: dark

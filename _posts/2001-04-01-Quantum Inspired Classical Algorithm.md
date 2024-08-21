@@ -2,7 +2,7 @@
 title: Quantum-inspired Classical Algorithm Source Code
 tags: Econometrics
 mathjax: true
-author: Si Yuan JIN
+author: Siyuan JIN
 article_header:
   type: overlay
   theme: dark

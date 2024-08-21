@@ -3,7 +3,7 @@ title: Blockchain Basis (In Progress)
 tags: Blockchain
 mathjax: true
 mermaid: true
-author: Si Yuan JIN
+author: Siyuan JIN
 article_header:
   type: overlay
   theme: dark

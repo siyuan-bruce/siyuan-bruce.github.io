@@ -3,7 +3,7 @@ title: How to use RMD to write a report?
 tags: Skills
 mathjax: true
 mermaid: true
-author: Si Yuan JIN
+author: Siyuan JIN
 article_header:
   type: overlay
   theme: dark

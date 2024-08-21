@@ -2,7 +2,7 @@
 title: Practical Byzantine Fault Tolerance (1/3 Malicous Node)
 tags: Blockchain Consensus
 mathjax: true
-author: Si Yuan JIN
+author: Siyuan JIN
 article_header:
   type: overlay
   theme: dark

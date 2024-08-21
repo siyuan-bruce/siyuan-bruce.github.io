@@ -2,7 +2,7 @@
 title: Literature on Central Bank Digital Currency
 tags: Literature
 mathjax: true
-author: Si Yuan JIN
+author: Siyuan JIN
 article_header:
   type: overlay
   theme: dark
@@ -48,7 +48,7 @@ This repository contains a list of academic papers, reports, and other resources
 ## Academic Papers
 
 ### Technology
-- **[2022]** "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." (Jin, Si Yuan, and Yong Xia) in IEEE Access, 10, 63698-63714.
+- **[2022]** "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures." (Jin, Siyuan, and Yong Xia) in IEEE Access, 10, 63698-63714.
 - **[2021]** "Cellular structure for a digital fiat currency." (Ali, Robleh) in Digital Currency Economics And Policy, 89-102.
 - **[2019]** "A blockchain-based framework for central bank digital currency." (Han, Xuan, Yong Yuan, and Fei-Yue Wang) in 2019 IEEE International conference on service operations and logistics, and informatics (SOLI), IEEE.
 - **[2018]** "Towards a design philosophy for interoperable blockchain systems." (Hardjono, Thomas, Alexander Lipton, and Alex Pentland) in arXiv preprint arXiv:1805.05934.
