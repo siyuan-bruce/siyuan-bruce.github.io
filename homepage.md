@@ -41,8 +41,8 @@ key: page-homepage
 ## News
 - **2024-08**: Two papers are accepted by the **2024 CIST**.
 - **2024-07**: Two papers are conditonally accepted by the **2024 ICIS**.
-- **2024-07**: I passed the PhD Qualifying Exam and became a PhD candidate.
-- **2024-06**: One paper is accepted by MIS Quarterly Virtual Paper Development Workshop.
+- **2024-07**: I passed the **PhD Qualification Exam** and became a PhD candidate.
+- **2024-06**: One paper is accepted by **MIS Quarterly Virtual Paper Development Workshop**.
 
 ## IS Paper Sharing Group (Having fun here)
 Inspired by many open talks in other subjects, we aim to organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly undergraduates and PhD students. We are also targeting to introduce more advanced topics in this area by inviting experts in information systems.
