@@ -136,11 +136,6 @@ permalink: /gallery.html
           <p>I participated in PhD Conference gathering and discussed PhD life with Prof. Hui and peers."</p>
           <img src="assets/images/gallery/2024_PhD_conference_gathering.jpg" alt="PhD Conference Gathering">
       </div>
-      <div class="event">
-          <h4> e-HKD on-campus trial, Hong Kong</h4>
-          <p>I was involved in the e-HKD on-campus trial, which was a significant event for digital currency research.</p>
-          <img src="assets/images/gallery/e-HKD_experience.png" alt="e-HKD on-campus trial" title="e-HKD on-campus trial">
-      </div>
 </div>
 
 
@@ -150,7 +145,7 @@ permalink: /gallery.html
       <div class="event">
           <h4>First Year Paper Presentation, Hong Kong</h4>
           <p>I presented my first year paper, titled "Token-based Platforms and Green Dillemma"</p>
-          <img src="assets/images/gallery/first_year_presentation.pngg" alt="First Year Paper Presentation" title="First Year Paper Presentation">
+          <img src="assets/images/gallery/first_year_presentation.png" alt="First Year Paper Presentation" title="First Year Paper Presentation">
       </div>
       <div class="event">
           <h4> e-HKD on-campus trial, Hong Kong</h4>
