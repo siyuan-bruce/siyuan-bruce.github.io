@@ -32,6 +32,36 @@ Token-based platforms are esential for the development of the digital asset econ
 
 #### Academic Papers
 
+<ol>
+  <li class="paper-item">
+    <div class="paper-title">
+      <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">A. Huang</a>, Z Li, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
+      "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures".
+      Working paper.
+    </div>
+    <div class="paper-links">
+      <a href="/paper/SSRN_token_Feb9.pdf">[Paper]</a>
+      <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a>
+    </div>
+
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>
+        While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
+        is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness 
+        of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because 
+        of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. 
+        We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are 
+        more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower 
+        rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental 
+        impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, 
+        consistent with green-costing and green-enhancing, respectively.
+      </p>
+    </details>
+  </li>
+</ol>
+
+
   1. **S. Jin**, [A. Huang](https://www.allenhuang.org/), Z Li, [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures". Working paper. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
   <details class="paper-details">
   <summary>Abstract</summary>
@@ -39,8 +69,6 @@ Token-based platforms are esential for the development of the digital asset econ
   </details>
 
   
-
-      
 
   2. **S. Jin**, Y. Cai, L. Qiu, [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement". Working paper.
 
@@ -121,8 +149,6 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
 
 
-
-Copy
 <style>
   .paper-item {
     margin-bottom: 20px;
@@ -143,6 +169,7 @@ Copy
 
   .paper-details {
     margin-left: 25px; /* Indent the details section */
+    margin-top: 0px;
   }
 
   .paper-details summary {
@@ -153,8 +180,6 @@ Copy
   .paper-details p {
     margin-top: 10px;
     margin-bottom: 0;
-    font-size: 14px;
-    line-height: 1.6;
   }
   
   .paper-links a {
