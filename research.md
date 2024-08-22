@@ -109,7 +109,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       Joint with <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a> and 
       <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>.
     </div>
-    <p>Working paper.</p>
+    <p class="conference-info">Conferences: International Conference on Central Bank Digital Currency and Payment Systems</p>
   </li>
 </ul>
 
@@ -139,7 +139,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Yong Xia, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p>Working paper.</p>
     <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference</p>
   </li>
 
@@ -152,7 +151,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
       Bei Zeng, Qiming Shao, Yuhan Huang, Yong Xia, Bing Zhu, Ziyuan Li.
     </div>
-    <p>Working paper.</p>
   </li>
 
   <li class="paper-item">
@@ -162,7 +160,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       Yichi Zhang, <strong>Siyuan Jin</strong>, Bei Zeng.
     </div>
-    <p>Working paper.</p>
   </li>
 
 </ul>
