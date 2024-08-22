@@ -31,23 +31,49 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 Token-based platforms are esential for the development of the digital asset economy in the complex Web 3.0 market. My research aims to provide better governance and regulation of token-based platforms.
 
 #### Academic Papers
-  - **S. Jin**, [A. Huang](https://www.allenhuang.org/), Z Li, [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures". Working paper. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
-  <details class="paper-details">
-  <summary>Abstract</summary>
-  <p> While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, consistent with green-costing and green-enhancing, respectively. </p>
-  <p style = "color:grey;font-weight:700;font-size:16px"> Conferences: MIS Quarterly Virtual Paper Development Workshop </p>
-  </details>
+  <ul>
+  <li>
+    <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">A. Huang</a>, Z. Li, 
+    <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>. 
+    "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures". 
+    <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
+    <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a>
+    
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
+      is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness 
+      of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because 
+      of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. 
+      We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are 
+      more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower 
+      rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental 
+      impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, 
+      consistent with green-costing and green-enhancing, respectively.</p>
+      <p style="color:grey;font-weight:700;font-size:16px">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
+    </details>
+  </li>
 
-  - **S. Jin**, Y. Cai, L. Qiu, [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement". Working paper.
+  <li>
+    <strong>S. Jin</strong>, Y. Cai, L. Qiu, 
+    <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>. 
+    "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement". Working paper.
+  </li>
 
-  - **S. Jin**, [D. Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [K. Kim](https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO". Working paper.
+  <li>
+    <strong>S. Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">D. Lee</a>, 
+    <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">K. Kim</a>, 
+    <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>. 
+    "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO". Working paper.
+  </li>
+</ul>
   
 ### Research Agenda 2: Regulated Digital Currencies
 
 The designs of regulated digital currencies, like Central Bank Digital Currency (CBDC), are complex and involve a trade-off between system features. My research aims to provide solutions to CBDC implementation and their adoptions of consumers and merchants.
 
 #### **Academic Papers**
-  - [M. Dordal i Carreras](https://marcdordal.github.io/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/), **S. Jin**, H. Guo. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". Working paper. [[Paper]](/paper/rCBDC_Taste_and_Perception_Preprint.pdf)
+  - [M. Dordal i Carreras](https://marcdordal.github.io/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/), **S. Jin**, H. Guo. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". [[Working paper]](/paper/rCBDC_Taste_and_Perception_Preprint.pdf)
 
   - Joint with [K. Kawaguchi](https://www.kohei-kawaguchi.com/) and [M. Dordal i Carreras](https://marcdordal.github.io/). “Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets”. Working paper.
 
