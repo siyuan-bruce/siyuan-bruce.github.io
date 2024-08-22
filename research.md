@@ -65,7 +65,7 @@ Token-based platforms are esential for the development of the digital asset econ
 
   <li class="paper-item">
     <div class="paper-title">
-      Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagemen".
+      Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
@@ -96,19 +96,19 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 <ul>
   <li class="paper-item">
     <div class="paper-title">
-      "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot".
+      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
     <div class="paper-authors">
       <a href="https://marcdordal.github.io/">M. Dordal i Carreras</a>, 
       <a href="https://www.kohei-kawaguchi.com/">K. Kawaguchi</a>, 
-      <strong>S. Jin</strong>, H. Guo.
+      <strong>Siyuan Jin</strong>, H. Guo.
     </div>
     <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
   </li>
 
   <li class="paper-item">
     <div class="paper-title">
-      "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets".
+      Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
     </div>
     <div class="paper-authors">
       Joint with <a href="https://www.kohei-kawaguchi.com/">K. Kawaguchi</a> and 
@@ -123,7 +123,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   
       <!-- **Abstract**: The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants. -->
 
-  - Y. Xia, **S. Jin**, B. Qu, Y. Liu, L Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Awarded as [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries) [[Monetary Authority of Singapore Report]](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf)
+  - Yong Xia, **Siyuan Jin**, B. Qu, Y. Liu, L Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Awarded as [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries) [[Monetary Authority of Singapore Report]](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf)
 
       <!-- **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options. -->
 
@@ -138,11 +138,11 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   <!-- Newly added papers -->
   <li class="paper-item">
     <div class="paper-title">
-      "Do Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment".
+      Do Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment.
     </div>
     <div class="paper-authors">
-      <strong>S. Jin</strong>, Y. Xia, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
+      <strong>Siyuan Jin</strong>, Yong Xia, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p>Working paper.</p>
     <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference</p>
@@ -150,12 +150,12 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
   <li class="paper-item">
     <div class="paper-title">
-      "Can Analogical Principles Help Quantum Computing Adoption? Evidence from Quantum Monte Carlo Analysis".
+      Can Analogical Principles Help Quantum Computing Adoption? Evidence from Quantum Monte Carlo Analysis.
     </div>
     <div class="paper-authors">
-      <strong>S. Jin</strong>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>, 
-      B. Zeng, Q. Shao, Y. Huang, Y. Xia, B. Zhu, Z. Li.
+      <strong>Siyuan Jin</strong>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
+      Bei Zeng, Qiming Shao, Yuhan Huang, Yong Xia, Bing Zhu, Ziyuan Li.
     </div>
     <p>Working paper.</p>
   </li>
@@ -165,7 +165,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
       "Quantum Tokens via Cloud: A Practical and Quantum-Resistant Digital Token Protocol".
     </div>
     <div class="paper-authors">
-      Y. Zhang, <strong>S. Jin</strong>, B. Zeng.
+      Yichi Zhang, <strong>Siyuan Jin</strong>, Bei Zeng.
     </div>
     <p>Working paper.</p>
   </li>
@@ -173,27 +173,19 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 </ul>
     
 ## **Conferences**
-  - **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
-  <details class="paper-details">
-  <summary>Abstract</summary>
-    <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
-  </details>
+  - **Siyuan Jin**, Z Li, B. Chen, B. Zhu, Yong Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
 
-  - **S. Jin**, B. Xu, P. Intallura, Y. Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
-  <details class="paper-details">
-    <summary>Abstract</summary>
-    <p>We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.</p>
-  </details>
+  - **Siyuan Jin**, B. Xu, P. Intallura, Yong Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
 
 ## **Patent**
    
-  - B. Zhu, Y. Xia, Z. Li, **S. Jin**. (2024). "Network Analysis using optical quantum computing". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007565 A1.
+  - B. Zhu, Yong Xia, Z. Li, **Siyuan Jin**. (2024). "Network Analysis using optical quantum computing". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007565 A1.
        
-  - **S. Jin**, Y. Xia. (2024). "Method for implementing network consensus algorithm". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007483 A1.
+  - **Siyuan Jin**, Yong Xia. (2024). "Method for implementing network consensus algorithm". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007483 A1.
    
-  - **S. Jin**, Y. Xia. (2024). "Transaction security for multi-tier transaction networks". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007527 A1.
+  - **Siyuan Jin**, Yong Xia. (2024). "Transaction security for multi-tier transaction networks". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007527 A1.
     
-  - **S. Jin**, Y. Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
+  - **Siyuan Jin**, Yong Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
     
 ## **Supervising**
 - 2024.02 ~ now: Jieliang Yin (research assistant for CBDC project).
