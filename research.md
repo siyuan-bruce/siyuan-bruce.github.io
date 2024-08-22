@@ -101,7 +101,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
     <div class="paper-authors">
       <a href="https://marcdordal.github.io/">M. Dordal i Carreras</a>, 
       <a href="https://www.kohei-kawaguchi.com/">K. Kawaguchi</a>, 
-      <strong>Siyuan Jin</strong>, H. Guo.
+      <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
     <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
   </li>
@@ -111,8 +111,8 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
       Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
     </div>
     <div class="paper-authors">
-      Joint with <a href="https://www.kohei-kawaguchi.com/">K. Kawaguchi</a> and 
-      <a href="https://marcdordal.github.io/">M. Dordal i Carreras</a>.
+      Joint with <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a> and 
+      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>.
     </div>
     <p>Working paper.</p>
   </li>
