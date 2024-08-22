@@ -32,6 +32,7 @@ Token-based platforms are esential for the development of the digital asset econ
 
 #### Academic Papers
   1. **S. Jin**, [A. Huang](https://www.allenhuang.org/), Z Li, [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures". Working paper. [[Paper]](/paper/SSRN_token_Feb9.pdf) [[Slides]](/paper/Slides_Green_Token_based_Platform.pdf) 
+  <p style = "color:grey;font-weight:700;font-size:16px"> Conferences: MIS Quarterly Virtual Paper Development Workshop </p>
   <details class="paper-details">
   <summary>Abstract</summary>
   <p> While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, consistent with green-costing and green-enhancing, respectively. </p>
@@ -80,16 +81,18 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
     
 ## **Conferences**
 1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
-<details class="paper-details">
+  <details class="paper-details">
   <summary>Abstract</summary>
-  <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
-</details>
+    <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
+  </details>
 
 2. Y. Liu, C. Xu, **S. Jin**. "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA. **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10234293) [[Code]](https://github.com/yliuls/quantum-reinforcement-learning)
 
 3. **S. Jin**, B. Xu, P. Intallura, Y. Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
-
-      **Abstract**: We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.
+  <details class="paper-details">
+    <summary>Abstract</summary>
+    <p>We propose a UTXO-based sharding method to achieve horizontal scalability in a token-based system, including stablecoin. The critical challenge of the current sharding method is that introducing extra cross-shard transactions significantly impacts transaction latency. Previous solutions use account-based sharding to improve transaction volume, increasing latency. We propose a new method that improves transaction throughput linearly while keeping latency low by reducing cross-shard transactions. We were able to verify our solution through experiments.</p>
+  </details>
 
 ## **Patent**
    
@@ -138,7 +141,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
   .paper-details {
     margin-left: 25px; /* Indent the details section */
-    margin-top: -10px;
+    margin-top: -15px;
   }
 
   .paper-details summary {
