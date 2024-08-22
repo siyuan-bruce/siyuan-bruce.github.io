@@ -142,6 +142,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   .paper-details summary {
     cursor: pointer;
     font-weight: bold;
+    user-select: none;
   }
 
   .paper-details p {
