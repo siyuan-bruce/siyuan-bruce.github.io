@@ -33,12 +33,12 @@ Token-based platforms are esential for the development of the digital asset econ
 #### Academic Papers
   <ul>
   <li>
-    <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">A. Huang</a>, Z. Li, 
-    <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>. 
+    <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
+    <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
     "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures". 
     <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
     <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a>
-    
+    <p style="color:grey;font-weight:700;font-size:16px;">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
@@ -50,7 +50,6 @@ Token-based platforms are esential for the development of the digital asset econ
       rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental 
       impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, 
       consistent with green-costing and green-enhancing, respectively.</p>
-      <p style="color:grey;font-weight:700;font-size:16px">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
     </details>
   </li>
 
@@ -166,8 +165,8 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   }
 
   .paper-details {
-    margin-left: 25px; /* Indent the details section */
-    margin-top: -15px;
+    margin-left: 10px; /* Indent the details section */
+    margin-top: -10px;
   }
 
   .paper-details summary {
