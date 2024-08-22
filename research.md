@@ -38,7 +38,7 @@ Token-based platforms are esential for the development of the digital asset econ
     "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures". 
     <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
     <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a>
-    <p style="color:grey;font-weight:700;font-size:16px;">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
+    <p style="color:grey;font-weight:700;font-size:16px;margin-top:-3px">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
