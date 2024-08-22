@@ -92,9 +92,31 @@ Token-based platforms are esential for the development of the digital asset econ
 The designs of regulated digital currencies, like Central Bank Digital Currency (CBDC), are complex and involve a trade-off between system features. My research aims to provide solutions to CBDC implementation and their adoptions of consumers and merchants.
 
 #### **Academic Papers**
-  - [M. Dordal i Carreras](https://marcdordal.github.io/), [K. Kawaguchi](https://www.kohei-kawaguchi.com/), **S. Jin**, H. Guo. "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot". [[Working paper]](/paper/rCBDC_Taste_and_Perception_Preprint.pdf)
 
-  - Joint with [K. Kawaguchi](https://www.kohei-kawaguchi.com/) and [M. Dordal i Carreras](https://marcdordal.github.io/). “Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets”. Working paper.
+<ul>
+  <li class="paper-item">
+    <div class="paper-title">
+      "Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot".
+    </div>
+    <div class="paper-authors">
+      <a href="https://marcdordal.github.io/">M. Dordal i Carreras</a>, 
+      <a href="https://www.kohei-kawaguchi.com/">K. Kawaguchi</a>, 
+      <strong>S. Jin</strong>, H. Guo.
+    </div>
+    <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">
+      "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets".
+    </div>
+    <div class="paper-authors">
+      Joint with <a href="https://www.kohei-kawaguchi.com/">K. Kawaguchi</a> and 
+      <a href="https://marcdordal.github.io/">M. Dordal i Carreras</a>.
+    </div>
+    <p>Working paper.</p>
+  </li>
+</ul>
 
 #### **Policy Papers**
   - Joint with HKUST School of Business and Management and HSBC Holdings plc (2023). “e-HKD Pilot Programme”. [[Summary]](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf) [[Hong Kong Monetary Authority Report]](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
@@ -111,18 +133,44 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
   <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper. -->
 
 ### Research Agenda 3: IT Management
-  - **S. Jin**, Y. Xia, K. Tam. "Do Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment". Working paper.
+<ul>
 
-      - 2024 HKUST Business PhD Student Conference
+  <!-- Newly added papers -->
+  <li class="paper-item">
+    <div class="paper-title">
+      "Do Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment".
+    </div>
+    <div class="paper-authors">
+      <strong>S. Jin</strong>, Y. Xia, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
+    </div>
+    <p>Working paper.</p>
+    <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference</p>
+  </li>
 
-  - **S. Jin**, K. Tam, B. Zeng, Q Shao, Y Huang, Y. Xia, B Zhu, Z Li. “Can Analogical Principles Help Quantum Computing Adoption? Evidence from Quantum Monte Carlo Analysis”. Working paper.
+  <li class="paper-item">
+    <div class="paper-title">
+      "Can Analogical Principles Help Quantum Computing Adoption? Evidence from Quantum Monte Carlo Analysis".
+    </div>
+    <div class="paper-authors">
+      <strong>S. Jin</strong>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>, 
+      B. Zeng, Q. Shao, Y. Huang, Y. Xia, B. Zhu, Z. Li.
+    </div>
+    <p>Working paper.</p>
+  </li>
 
-      <!-- **Abstract**: Quantum computing has the potential to revolutionize problem-solving by significantly improving computational complexity. However, the sophisticated nature of quantum knowledge and circuit design presents challenges for business practitioners. In this study, we introduce FinQMC, a quantum Monte Carlo framework designed to transform classical Monte Carlo algorithms into quantum ones. Our framework proposes the key principle of treating quantum states as the distributions of financial variables. To validate the efficiency and applicability of FinQMC, we conducted two experiments: option pricing and portfolio selection. The results obtained demonstrate the feasibility and accuracy of our approach. FinQMC simplifies the complex world of quantum computing and offers a more efficient solution to a wide range of business challenges compared to classical Monte Carlo methods. Practically, our study is the first to apply the quantum Monte Carlo method in the context of portfolio selection. -->
+  <li class="paper-item">
+    <div class="paper-title">
+      "Quantum Tokens via Cloud: A Practical and Quantum-Resistant Digital Token Protocol".
+    </div>
+    <div class="paper-authors">
+      Y. Zhang, <strong>S. Jin</strong>, B. Zeng.
+    </div>
+    <p>Working paper.</p>
+  </li>
 
-  <!-- 3. **S. Jin**, B Zhu, Z Li, Y. Xia. “Decision Making in Cryptocurrency-backed Loans: A Volatility and Liquidity Integrated Approach”. Working paper.   -->
-  
-  - Y. Zhang, **S. Jin**, B. Zeng. “Quantum Tokens via Cloud: A Practical and Quantum-Resistant Digital Token Protocol”. Working paper.
-
+</ul>
     
 ## **Conferences**
   - **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
