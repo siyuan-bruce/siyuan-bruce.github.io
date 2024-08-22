@@ -25,7 +25,6 @@ key: page-research
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
 
 _The goal of behavioral-science research is truth. The goal of design-science research is utility. --- MIS Quarterly, 2004_
 
@@ -188,7 +187,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
     font-size: 16px;
     margin-top: -3px;
   }
-  
+
   .paper-title a {
     text-decoration: none;
     color: #1a73e8; /* Google Blue */
