@@ -20,12 +20,6 @@ titles:
 key: page-teaching
 ---
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-</head>
-
 <p class="quote">Teaching is not a science and should not be treated as such. Teaching is an art - a performing art. — Mr. Dawe.</p>
 
 <p class="teaching-interests">Teaching interests: Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.</p>

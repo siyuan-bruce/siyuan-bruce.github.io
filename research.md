@@ -32,11 +32,8 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 
 Although I have not yet published in any of the top UTD 24 or FT 50 journals, I would like to share my research progress and contributions to the community. Here are works catergorized by my research agenda.
 
-### Research Agenda 1: Token-based Platforms
+### Research Agenda 1: Token Platforms
 
-Token-based platforms are esential for the development of the digital asset economy in the complex Web 3.0 market. My research aims to provide better governance and regulation of token-based platforms.
-
-#### Academic Papers
 <ul>
   <li class="paper-item">
     <div class="paper-title">
@@ -88,8 +85,6 @@ Token-based platforms are esential for the development of the digital asset econ
 </ul>
   
 ### Research Agenda 2: Regulated Digital Currencies
-
-The designs of regulated digital currencies, like Central Bank Digital Currency (CBDC), are complex and involve a trade-off between system features. My research aims to provide solutions to CBDC implementation and their adoptions of consumers and merchants.
 
 #### **Academic Papers**
 
