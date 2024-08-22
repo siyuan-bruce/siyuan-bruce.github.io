@@ -20,7 +20,6 @@ titles:
 key: page-teaching
 ---
 
-
 <p class="quote">Teaching is not a science and should not be treated as such. Teaching is an art - a performing art. — Mr. Dawe.</p>
 
 <p class="teaching-interests">Teaching interests: Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.</p>
