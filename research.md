@@ -40,7 +40,7 @@ Token-based platforms are esential for the development of the digital asset econ
 <ul>
   <li class="paper-item">
     <div class="paper-title">
-      "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures".
+      Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
@@ -65,25 +65,25 @@ Token-based platforms are esential for the development of the digital asset econ
 
   <li class="paper-item">
     <div class="paper-title">
-      "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement".
+      Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagemen".
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="conference-info">Conferences: ICIS 2024</p>
+    <p class="conference-info">Conferences: ICIS 2024 (Conditionally Accepted)</p>
   </li>
 
   <li class="paper-item">
     <div class="paper-title">
-      "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO".
+      When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
+    <p class="conference-info">Conferences: ICIS 2024 (Conditionally Accepted), CIST 2024 (Conditionally Accepted)</p>
   </li>
 </ul>
   
