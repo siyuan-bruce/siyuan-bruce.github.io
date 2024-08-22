@@ -32,13 +32,13 @@ Token-based platforms are esential for the development of the digital asset econ
 
 #### Academic Papers
   <ul>
-  <li>
+  <li class="paper-item">
     <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
     <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
-    "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures". 
+    <span class="paper-title">"Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures".</span>
     <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
     <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a>
-    <p style="color:grey;font-weight:700;font-size:16px;margin-top:-3px">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
+    <p class="conference-info">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
@@ -53,17 +53,17 @@ Token-based platforms are esential for the development of the digital asset econ
     </details>
   </li>
 
-  <li>
+  <li class="paper-item">
     <strong>S. Jin</strong>, Y. Cai, L. Qiu, 
     <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>. 
-    "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement". Working paper.
+    <span class="paper-title">"Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement".</span> Working paper.
   </li>
 
-  <li>
+  <li class="paper-item">
     <strong>S. Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">D. Lee</a>, 
     <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">K. Kim</a>, 
     <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>. 
-    "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO". Working paper.
+    <span class="paper-title">"When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO".</span> Working paper.
   </li>
 </ul>
   
@@ -111,8 +111,6 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
     <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
   </details>
 
-  - Y. Liu, C. Xu, **S. Jin**. "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA. **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10234293) [[Code]](https://github.com/yliuls/quantum-reinforcement-learning)
-
   - **S. Jin**, B. Xu, P. Intallura, Y. Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
   <details class="paper-details">
     <summary>Abstract</summary>
@@ -147,14 +145,21 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
 
 <style>
-  .paper-item {
-    margin-bottom: 20px;
-  }
+.paper-item {
+  margin-bottom: 20px;
+}
 
-  .paper-title {
-    margin-bottom: 5px;
-  }
+.paper-title {
+  font-size: 18px;
+  font-weight: bold;
+}
 
+.conference-info {
+  color: grey;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: -3px;
+}
   .paper-title a {
     text-decoration: none;
     color: #1a73e8; /* Google Blue */
