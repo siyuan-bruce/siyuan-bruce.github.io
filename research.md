@@ -80,8 +80,10 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
     
 ## **Conferences**
 1. **S. Jin**, Z Li, B. Chen, B. Zhu, Y. Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
-
-    **Abstract**: Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.
+<details class="paper-details">
+  <summary>Abstract</summary>
+  <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
+</details>
 
 2. Y. Liu, C. Xu, **S. Jin**. "Reinforcement Learning for Continuous Control: A Quantum Normalized Advantage Function Approach". IEEE Services - 4th International Conference on Quantum Software, Chicago, USA. **(SERVICE 2023)**. _Corresponding Author, Average Acceptance Rate: 21.50%_. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10234293) [[Code]](https://github.com/yliuls/quantum-reinforcement-learning)
 
@@ -136,7 +138,7 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
   .paper-details {
     margin-left: 25px; /* Indent the details section */
-    margin-top: 0px;
+    margin-top: -10px;
   }
 
   .paper-details summary {
