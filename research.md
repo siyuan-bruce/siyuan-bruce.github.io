@@ -20,6 +20,13 @@ titles:
 key: page-research
 ---
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
 _The goal of behavioral-science research is truth. The goal of design-science research is utility. --- MIS Quarterly, 2004_
 
 _知之为知之，不知为不知，是知也。_ --- Confucius
@@ -33,9 +40,13 @@ Token-based platforms are esential for the development of the digital asset econ
 #### Academic Papers
   <ul>
   <li class="paper-item">
-    <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
-    <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
-    <span class="paper-title">"Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures".</span>
+    <div class="paper-title">
+      "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures".
+    </div>
+    <div class="paper-authors">
+      <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
     <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
     <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a>
     <p class="conference-info">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
@@ -54,16 +65,26 @@ Token-based platforms are esential for the development of the digital asset econ
   </li>
 
   <li class="paper-item">
-    <strong>S. Jin</strong>, Y. Cai, L. Qiu, 
-    <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>. 
-    <span class="paper-title">"Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement".</span> Working paper.
+    <div class="paper-title">
+      "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement".
+    </div>
+    <div class="paper-authors">
+      <strong>S. Jin</strong>, Y. Cai, L. Qiu, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
+    </div>
+    Working paper.
   </li>
 
   <li class="paper-item">
-    <strong>S. Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">D. Lee</a>, 
-    <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">K. Kim</a>, 
-    <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>. 
-    <span class="paper-title">"When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO".</span> Working paper.
+    <div class="paper-title">
+      "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO".
+    </div>
+    <div class="paper-authors">
+      <strong>S. Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">D. Lee</a>, 
+      <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">K. Kim</a>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
+    </div>
+    Working paper.
   </li>
 </ul>
   
@@ -143,23 +164,31 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 - Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
 
 
-
 <style>
-.paper-item {
-  margin-bottom: 20px;
-}
 
-.paper-title {
-  font-size: 18px;
-  font-weight: bold;
-}
+  .paper-item {
+    margin-bottom: 20px;
+  }
 
-.conference-info {
-  color: grey;
-  font-weight: 700;
-  font-size: 16px;
-  margin-top: -3px;
-}
+  .paper-title {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .paper-authors {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .conference-info {
+    color: grey;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -3px;
+  }
+  
   .paper-title a {
     text-decoration: none;
     color: #1a73e8; /* Google Blue */
