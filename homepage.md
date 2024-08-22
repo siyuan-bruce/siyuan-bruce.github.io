@@ -106,6 +106,14 @@ I am open to working on any interesting topics related to blockchain. Please fee
     text-align: center;
   }
 
+  body {
+      font-family: 'Lora', serif;
+      line-height: 1.6;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+  }
+
   .profile-image {
     width: 100%;
     max-width: 1000px; /* Adjust this value to fit your needs */
