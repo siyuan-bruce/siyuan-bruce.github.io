@@ -43,7 +43,7 @@ Token-based platforms are esential for the development of the digital asset econ
       "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures".
     </div>
     <div class="paper-authors">
-      <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
+      <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
@@ -68,8 +68,8 @@ Token-based platforms are esential for the development of the digital asset econ
       "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement".
     </div>
     <div class="paper-authors">
-      <strong>S. Jin</strong>, Y. Cai, L. Qiu, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
+      <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="conference-info">Conferences: ICIS 2024</p>
   </li>
@@ -79,9 +79,9 @@ Token-based platforms are esential for the development of the digital asset econ
       "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO".
     </div>
     <div class="paper-authors">
-      <strong>S. Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">D. Lee</a>, 
-      <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">K. Kim</a>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
+      <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
+      <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
   </li>
@@ -218,11 +218,12 @@ body {
       cursor: pointer;
       font-weight: 600;
       color: #333;
+      user-select: none; /* Prevent text selection */
     }
 
   details p {
       margin-top: 10px;
-      font-size: 14px;
+      font-size: 16px;
       color: #444;
     }
 
