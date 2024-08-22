@@ -37,10 +37,10 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 Token-based platforms are esential for the development of the digital asset economy in the complex Web 3.0 market. My research aims to provide better governance and regulation of token-based platforms.
 
 #### Academic Papers
-  <ul>
+<ul>
   <li class="paper-item">
     <div class="paper-title">
-      Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
+      "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures".
     </div>
     <div class="paper-authors">
       <strong>S. Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
@@ -65,25 +65,25 @@ Token-based platforms are esential for the development of the digital asset econ
 
   <li class="paper-item">
     <div class="paper-title">
-      Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement.
+      "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement".
     </div>
     <div class="paper-authors">
       <strong>S. Jin</strong>, Y. Cai, L. Qiu, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
     </div>
-     <p class="conference-info">Conferences: ICIS 2024</p>
+    <p class="conference-info">Conferences: ICIS 2024</p>
   </li>
 
   <li class="paper-item">
     <div class="paper-title">
-      When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO.
+      "When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO".
     </div>
     <div class="paper-authors">
       <strong>S. Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">D. Lee</a>, 
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">K. Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">K. Tam</a>.
     </div>
-     <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
+    <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
   </li>
 </ul>
   
@@ -165,63 +165,65 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 
 <style>
 
-  .paper-item {
-    margin-bottom: 20px;
-  }
+body {
+      font-family: 'Lora', serif;
+      line-height: 1.6;
+    }
 
-  .paper-title {
-    font-size: 24px;
-    font-family: 'Merriweather', serif;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
+    ul {
+      list-style-type: none; /* Remove the default bullets */
+      padding-left: 0;
+    }
 
-  .paper-authors {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
+    .paper-item {
+      margin-bottom: 30px;
+      padding-left: 15px;
+      border-left: 4px solid #333; /* Subtle border instead of bullet */
+    }
 
-  .conference-info {
-    color: grey;
-    font-weight: 700;
-    font-size: 16px;
-    margin-top: -3px;
-  }
+    .paper-title {
+      font-size: 24px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #333;
+      line-height: 1.4;
+    }
 
-  .paper-title a {
-    text-decoration: none;
-    color: #1a73e8; /* Google Blue */
-  }
+    .paper-authors {
+      font-size: 16px;
+      font-weight: 400;
+      color: #555;
+      margin-bottom: 10px;
+    }
 
-  .paper-title a:hover {
-    text-decoration: underline;
-  }
+    .conference-info {
+      color: grey;
+      font-weight: 600;
+      font-size: 15px;
+      margin-top: 8px;
+    }
 
-  .paper-details {
-    margin-left: 10px; /* Indent the details section */
-    margin-top: -3px;
-  }
+    a {
+      color: #007acc; /* Subtle blue color for links */
+      text-decoration: none;
+    }
 
-  .paper-details summary {
-    cursor: pointer;
-    font-weight: bold;
-    user-select: none;
-  }
+    a:hover {
+      text-decoration: underline; /* Underline on hover for better UX */
+    }
 
-  .paper-details p {
-    margin-top: 5px;
-    margin-bottom: 0;
-    margin-left: 0px;
-    user-select: none;
-  }
-  
-  .paper-links a {
-    margin-right: 10px; /* Spacing between the links */
-    color: #1a73e8;
-    text-decoration: none;
-  }
+    /* Adjust the details/summary styling */
+    details summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: #333;
+    }
 
-  .paper-links a:hover {
-    text-decoration: underline;
-  }
+  details p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #444;
+    }
+
 </style>
