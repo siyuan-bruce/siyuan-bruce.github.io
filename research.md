@@ -118,3 +118,52 @@ The designs of regulated digital currencies, like Central Bank Digital Currency 
 - Initializer [cryptoSupplyData](https://github.com/siyuan-bruce/cryptoSupplyData), cryptocurrency supply data free scraper.
 - Initializer [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
 - Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
+
+
+
+
+Copy
+<style>
+  .paper-item {
+    margin-bottom: 20px;
+  }
+
+  .paper-title {
+    margin-bottom: 5px;
+  }
+
+  .paper-title a {
+    text-decoration: none;
+    color: #1a73e8; /* Google Blue */
+  }
+
+  .paper-title a:hover {
+    text-decoration: underline;
+  }
+
+  .paper-details {
+    margin-left: 25px; /* Indent the details section */
+  }
+
+  .paper-details summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .paper-details p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .paper-links a {
+    margin-right: 10px; /* Spacing between the links */
+    color: #1a73e8;
+    text-decoration: none;
+  }
+
+  .paper-links a:hover {
+    text-decoration: underline;
+  }
+</style>
