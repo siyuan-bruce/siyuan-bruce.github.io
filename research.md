@@ -200,6 +200,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 body {
       font-family: 'Lora', serif;
       line-height: 1.6;
+      padding: 10px;
     }
 
     ul {
