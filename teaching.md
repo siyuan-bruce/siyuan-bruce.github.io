@@ -66,9 +66,9 @@ key: page-teaching
 
 <style>
     body {
-        font-family: "Lora", sans-serif;
-        line-height: 1.6;
-        margin: 20px;
+      font-family: 'Lora', serif;
+      line-height: 1.6;
+      padding: 10px;
     }
 
     h1 {

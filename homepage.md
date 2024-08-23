@@ -111,7 +111,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
       line-height: 1.6;
       background-color: #f8f8f8;
       margin: 0;
-      padding: 20px;
+      padding: 10px;
   }
 
   .profile-image {

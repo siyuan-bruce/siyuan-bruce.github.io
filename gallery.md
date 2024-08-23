@@ -25,7 +25,7 @@ permalink: /gallery.html
             font-family: 'Lora', serif;
             line-height: 1.6;
             background-color: #f8f8f8;
-            padding: 20px;
+            padding: 10px;
         }
 
         h1 {
