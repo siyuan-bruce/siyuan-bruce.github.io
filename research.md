@@ -94,8 +94,8 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
     <div class="paper-authors">
-      <a href="https://marcdordal.github.io/">M. Dordal i Carreras</a>, 
-      <a href="https://www.kohei-kawaguchi.com/">K. Kawaguchi</a>, 
+      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
+      <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
       <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
     <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
@@ -118,7 +118,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   
       <!-- **Abstract**: The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants. -->
 
-  - Yong Xia, **Siyuan Jin**, B. Qu, Y. Liu, L Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Awarded as [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries) [[Monetary Authority of Singapore Report]](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf)
+  - Yong Xia, **Siyuan Jin**, Bing Qu, Yingli Liu, Linzhen Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Awarded as [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries) [[Monetary Authority of Singapore Report]](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf)
 
       <!-- **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options. -->
 
@@ -136,8 +136,8 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       Do Software Performance Measurement Systems Increase Code Productivity? Evidence from a Quasi-Experiment.
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Yong Xia, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+      <strong>Siyuan Jin</strong>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
     <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference</p>
   </li>
@@ -165,9 +165,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 </ul>
     
 ## **Conferences**
-  - **Siyuan Jin**, Z Li, B. Chen, B. Zhu, Yong Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
+  - **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
 
-  - **Siyuan Jin**, B. Xu, P. Intallura, Yong Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
+  - **Siyuan Jin**, Botong Xu, Philip Intallura, Yong Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
 
 ## **Patent**
    
