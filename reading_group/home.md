@@ -20,45 +20,129 @@ titles:
 key: page-is_paper_sharing
 ---
 
-Welcome to the **Information Systems Paper Sharing Group (PSG)**! Inspired by open discussions across various subjects, we have organized a series dedicated to sharing and critiquing academic papers in the field of Information Systems.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Systems Paper Sharing Group (PSG)</title>
+    <style>
+        body {
+            font-family: "Lora", sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
 
-## Purpose
-Our initial target audience consists mainly of beginners, particularly pre-doc and PhD students. We also aim to invite senior scholars in the Information Systems domain. Each participant is encouraged to provide serious critiques of the presentations.
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-If you have any suggestions, feel free to contact Bruce at [bruce.s.y.jin@gmail.com](mailto:bruce.s.y.jin@gmail.com).
+        h1, h2, h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
 
-## Acknowledgement
-- The initial group is initiated by me and Zhe Wang from PolyU. Tonglin Zhang assisted in poster making. 
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
 
-## Meeting Details
-- **Time:** Every Tuesday, 9:00 - 10:00 PM (HKT)
-- **Zoom Link:** [Join Meeting](https://hkust.zoom.us/j/92295593514?pwd=L1o2SjNVVGFhTk9jUEk1RDlUbHBEQT09)
-- **Language:** English/Chinese, depending on presenter's preference
-- **Format:** 45-minute main presentation, followed by a 15-minute mini session
+        h2, h3 {
+            font-size: 1.8em;
+            margin-top: 40px;
+        }
 
-## Past Sessions
+        p {
+            margin-bottom: 20px;
+        }
 
-<img src="poster/IS_PRGS_19.jpg" alt="Image" title="PRGS-19" width=800>
+        a {
+            color: #ff6347;
+            text-decoration: none;
+        }
 
-<img src="poster/IS_PRGS_18.jpg" alt="Image" title="PRGS-18" width=800>
+        a:hover {
+            text-decoration: underline;
+        }
 
-<img src="poster/IS_PRGS_16.jpg" alt="Image" title="PRGS-16" width=800>
+        .cta-button {
+            display: inline-block;
+            padding: 12px 25px;
+            color: white;
+            background-color: #ff6347;
+            border-radius: 4px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 1em;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
 
-<img src="poster/IS_PRGS_15.jpg" alt="Image" title="PRGS-15" width=800>
+        .cta-button:hover {
+            background-color: #ff4500;
+        }
 
-<img src="poster/IS_PRGS_14.jpg" alt="Image" title="PRGS-14" width=800>
+        .poster-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
 
-<img src="poster/IS_PRGS_13.jpg" alt="Image" title="PRGS-13" width=800>
+        .poster-grid img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-<img src="poster/IS_PRGS_12.jpg" alt="Image" title="PRGS-12" width=800>
+        .poster-grid img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
 
-<img src="poster/IS_PRGS_11.jpg" alt="Image" title="PRGS-11" width=800>
+    <div class="container">
+        <h1>Welcome to the Information Systems Paper Sharing Group (PSG)</h1>
+        <p>Inspired by the spirit of open academic discussion, the Information Systems Paper Sharing Group (PSG) aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems.</p>
 
-<img src="poster/IS_PRGS_10.jpg" alt="Image" title="PRGS-10" width=800>
+        <h2>Purpose</h2>
+        <p>This series is primarily designed for beginners, including pre-doctoral and PhD students, who are eager to deepen their understanding of Information Systems. We also welcome the participation of senior scholars to enrich discussions and offer their expertise. Each participant is encouraged to provide constructive critiques of the presentations, contributing to a vibrant and dynamic academic community.</p>
+        <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:bruce.s.y.jin@gmail.com">bruce.s.y.jin@gmail.com</a>.</p>
 
-<img src="poster/IS_PRGS_9.jpg" alt="Image" title="PRGS-9" width=800>
+        <h2>Acknowledgement</h2>
+        <p>The PSG was initiated by myself and Zhe Wang from PolyU, with Tonglin Zhang contributing to the design of our posters.</p>
 
-<img src="poster/IS_PRGS_8.jpg" alt="Image" title="PRGS-8" width=800>
+        <h2>Meeting Details</h2>
+        <p><strong>Time:</strong> Tuesdays, 9:00 - 10:00 PM (HKT)</p>
+        <p><strong>Zoom Link:</strong> <a href="https://hkust.zoom.us/j/92295593514?pwd=L1o2SjNVVGFhTk9jUEk1RDlUbHBEQT09">Join the Meeting</a></p>
+        <p><strong>Language:</strong> English/Chinese (depending on the preference of the presenter)</p>
+        <p><strong>Format:</strong> A 45-minute main presentation followed by a 15-minute discussion session</p>
 
-Join us to enrich your understanding of Information Systems through insightful discussions and critiques!
+        <h2>Past Sessions</h2>
+        <div class="poster-grid">
+            <img src="poster/IS_PRGS_19.jpg" alt="PRGS-19" title="PRGS-19" width="400">
+            <img src="poster/IS_PRGS_18.jpg" alt="PRGS-18" title="PRGS-18" width="400">
+            <img src="poster/IS_PRGS_16.jpg" alt="PRGS-16" title="PRGS-16" width="400">
+            <img src="poster/IS_PRGS_15.jpg" alt="PRGS-15" title="PRGS-15" width="400">
+            <img src="poster/IS_PRGS_14.jpg" alt="PRGS-14" title="PRGS-14" width="400">
+            <img src="poster/IS_PRGS_13.jpg" alt="PRGS-13" title="PRGS-13" width="400">
+            <img src="poster/IS_PRGS_12.jpg" alt="PRGS-12" title="PRGS-12" width="400">
+            <img src="poster/IS_PRGS_11.jpg" alt="PRGS-11" title="PRGS-11" width="400">
+            <img src="poster/IS_PRGS_10.jpg" alt="PRGS-10" title="PRGS-10" width="400">
+            <img src="poster/IS_PRGS_9.jpg" alt="PRGS-9" title="PRGS-9" width="400">
+            <img src="poster/IS_PRGS_8.jpg" alt="PRGS-8" title="PRGS-8" width="400">
+        </div>
 
+        <p>Join us to expand your knowledge of Information Systems through engaging discussions and thoughtful critiques!</p>
+    </div>
+
+</body>
