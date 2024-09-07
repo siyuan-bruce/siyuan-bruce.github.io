@@ -74,7 +74,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
     <small>(Aug 2022 - Present)</small>
     <ul class="timeline">
       <li class="timeline-item">
-        MPhil-PhD Student in Information Systems
+        PhD Candidate in Information Systems
       </li>
       <li class="timeline-item">
         Supervisor: <strong> Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
