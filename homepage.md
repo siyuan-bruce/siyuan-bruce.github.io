@@ -213,7 +213,8 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     .card h3 {
       font-size: 1.5em;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
+      margin-top: -5px;
     }
 
     .card small {
