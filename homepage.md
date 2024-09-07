@@ -70,7 +70,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 ## Education
 
 <div class="card">
-    <h3>Hong Kong University of Science and Technology</h3>
+    <h3>Hong Kong University of Science and Technology <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo"> </h3>
     <small>(Aug 2022 - Present)</small>
     <ul class="timeline">
       <li class="timeline-item">
@@ -88,7 +88,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
   <!-- South China University of Technology Card -->
 <div class="card">
     <h3>
-    South China University of Technology <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo">
+    South China University of Technology 
     </h3>
     <small>(Sep 2017 – Jun 2021)</small>
     <ul class="timeline">
@@ -105,10 +105,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
         Obtained 2020 China National Scholarship (Top 0.1%)
       </li>
       <li class="timeline-item">
-        Obtained 2019 First prize (Top 1%) of South China University of Technology
-      </li>
-      <li class="timeline-item">
-        Obtained 2018 First prize (Top 1%) of South China University of Technology
+        Obtained 2018, 2019 First prize (Top 1%) of South China University of Technology
       </li>
     </ul>
   </div>
