@@ -203,7 +203,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       position: relative;
       width: 100%;
-      max-width: 800px;
+      max-width: 1000px;
     }
 
     .card:hover {
@@ -229,7 +229,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     .card ul li {
       margin-bottom: 5px;
-      padding-left: 0px; /* Ensures text aligns properly */
+      padding-left: 30px; /* Ensures text aligns properly */
     }
 
     /* Subtle Timeline Dots */
@@ -252,7 +252,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
       display: flex;
       align-items: center; /* Aligns dots and text in the center */
       margin-bottom: 20px;
-      padding-left: 30px; /* Space for dots */
+      padding-left: 40px; /* Increased padding to prevent overlap */
       position: relative;
     }
 
