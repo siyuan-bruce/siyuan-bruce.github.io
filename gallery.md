@@ -127,12 +127,14 @@ permalink: /gallery.html
 
 <div class="timeline">
 
-  <h1>This page presents some of my previous moment captures.</h1>
+  <h1>Explore some of the unforgettable moments captured along my journey.</h1>
+
+  <h1>The story continues to unfold with each new adventure...</h1>
 
 <div class="year-section">
   <h3>2024</h3>
       <div class="event">
-          <h4>PhD Conference Gathering, Hong Kong</h4>
+          <h4>PhD Conference Gathering, Hong Kong - A remarkable convergence of minds and ideas.</h4>
           <p>I participated in PhD Conference gathering and discussed PhD life with Prof. Hui and peers."</p>
           <img src="assets/images/gallery/2024_PhD_conference_gathering.jpg" alt="PhD Conference Gathering">
       </div>
