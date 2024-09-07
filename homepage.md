@@ -69,24 +69,24 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 
 ## Education
 
-  <div class="card">
-    <div class="card-content">
-      <h3>Hong Kong University of Science and Technology</h3>
-      <small>(Aug 2022 - Present)</small>
-      <ul class="timeline">
-        <li class="timeline-item">
-          PhD Candidate in Information Systems
-        </li>
-        <li class="timeline-item">
-          Supervisor:&nbsp;<strong>Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
-        </li>
-        <li class="timeline-item">
-          Obtained Hong Kong PhD Fellowship Scheme (2024-2028)
-        </li>
-      </ul>
-    </div>
-    <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo">
+<div class="card">
+  <div class="card-content">
+    <h3>Hong Kong University of Science and Technology</h3>
+    <small>(Aug 2022 - Present)</small>
+    <ul class="timeline">
+      <li class="timeline-item">
+        PhD Candidate in Information Systems
+      </li>
+      <li class="timeline-item">
+        Supervisor:&nbsp;<strong>Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
+      </li>
+      <li class="timeline-item">
+        Obtained Hong Kong PhD Fellowship Scheme (2024-2028)
+      </li>
+    </ul>
   </div>
+  <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo">
+</div>
 
 <div class="card">
   <div class="card-content">
