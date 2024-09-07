@@ -77,7 +77,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
         PhD Candidate in Information Systems
       </li>
       <li class="timeline-item">
-        Supervisor: &nbsp; <strong> Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
+        Supervisor: &nbsp;<strong> Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
       </li>
       <li class="timeline-item">
         Obtained Hong Kong PhD Fellowship Scheme (2024-2028)
@@ -195,8 +195,8 @@ I am open to working on any interesting topics related to blockchain. Please fee
     .card {
       background-color: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      margin: 20px 0;
+      padding: 10px;
+      margin: 10px;
       border-radius: 8px;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       position: relative;
