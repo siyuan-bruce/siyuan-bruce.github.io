@@ -85,7 +85,9 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 
   <!-- South China University of Technology Card -->
 <div class="card">
-    <h3>South China University of Technology</h3>
+    <h3>
+    South China University of Technology <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo">
+    </h3>
     <small>(Sep 2017 – Jun 2021)</small>
     <ul class="timeline">
       <li class="timeline-item">
@@ -242,8 +244,8 @@ I am open to working on any interesting topics related to blockchain. Please fee
     .timeline::before {
       content: '';
       position: static;
-      left: 12px; /* Aligns the line */
-      top: 0;
+      left: 10px; /* Aligns the line */
+      top: 10px;
       bottom: 0;
       width: 2px; /* Thinner line */
       background-color: #d3d3d3; /* Lighter color */
@@ -255,6 +257,13 @@ I am open to working on any interesting topics related to blockchain. Please fee
       margin-bottom: 20px;
       padding-left: 40px; /* Increased padding to prevent overlap */
       position: relative;
+    }
+
+    .university-logo {
+      width: 30px; /* Adjust the size of the logo */
+      height: auto;
+      vertical-align: middle; /* Align logo vertically with text */
+      margin-left: 10px; /* Add space between the text and logo */
     }
 
     .timeline-item::before {
