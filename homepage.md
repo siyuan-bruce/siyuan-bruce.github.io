@@ -44,6 +44,10 @@ key: page-homepage
 - **2024-07**: I passed the **PhD Qualification Exam** and became a PhD candidate.
 - **2024-06**: One paper is accepted by **MIS Quarterly Virtual Paper Development Workshop**.
 
+<div class="card">
+  <h3>About Me</h3>
+  <p>When I'm not working on research, you can find me playing basketball, traveling, or coding fun side projects.</p>
+</div>
 
 ## IS Paper Sharing Group (Having fun here)
 Inspired by many open talks in other subjects, we aim to organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly undergraduates and PhD students. We are also targeting to introduce more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
@@ -66,6 +70,57 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
   - Obtained 2020 China National Scholarship (Top 0.1%)
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
   - Obtained 2018 First prize of South China University of Technology (Top 1%)
+
+<div class="card">
+    <h3>Hong Kong University of Science and Technology</h3>
+    <small>(Aug 2022 - Present)</small>
+    <ul class="timeline">
+      <li class="timeline-item">
+        <i class="fas fa-graduation-cap"></i>
+        MPhil-PhD Student in Information Systems
+      </li>
+      <li class="timeline-item">
+        <i class="fas fa-user-tie"></i>
+        Supervisor: <strong>Prof. <a href="#">Kar Yan Tam</a></strong>
+      </li>
+      <li class="timeline-item">
+        <i class="fas fa-award"></i>
+        Obtained Hong Kong PhD Fellowship Scheme (2024-2028)
+      </li>
+    </ul>
+  </div>
+
+  <!-- South China University of Technology Card -->
+  <div class="card">
+    <h3>South China University of Technology</h3>
+    <small>(Sep 2017 – Jun 2021)</small>
+    <ul class="timeline">
+      <li class="timeline-item">
+        <i class="fas fa-graduation-cap"></i>
+        B.Fin. in Financial Technology, Outstanding Graduates
+      </li>
+      <li class="timeline-item">
+        <i class="fas fa-trophy"></i>
+        Rank: 1 / 33
+      </li>
+      <li class="timeline-item">
+        <i class="fas fa-award"></i>
+        Obtained 2021 University-level excellent graduation thesis
+      </li>
+      <li class="timeline-item">
+        <i class="fas fa-medal"></i>
+        Obtained 2020 China National Scholarship (Top 0.1%)
+      </li>
+      <li class="timeline-item">
+        <i class="fas fa-medal"></i>
+        Obtained 2019 First prize (Top 1%) of South China University of Technology
+      </li>
+      <li class="timeline-item">
+        <i class="fas fa-medal"></i>
+        Obtained 2018 First prize (Top 1%) of South China University of Technology
+      </li>
+    </ul>
+  </div>
 
 ## Industry Consulting
 - **HSBC Hong Kong** (Sep 2022 - now)
@@ -150,6 +205,80 @@ I am open to working on any interesting topics related to blockchain. Please fee
       margin-top: -20px;
       order: 1; /* This will ensure the text is placed to the left */
       flex: 70%;
+    }
+
+    /* Card Styling */
+    .card {
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .card small {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .card ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .card ul li {
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+    }
+
+    .card ul li i {
+      color: #007bff;
+      margin-right: 10px;
+    }
+
+    /* Timeline Styling */
+    .timeline {
+      position: relative;
+      margin-left: 40px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: -10px;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background-color: #007bff;
+    }
+
+    .timeline-item {
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -25px;
+      top: 0;
+      width: 12px;
+      height: 12px;
+      background-color: #007bff;
+      border-radius: 50%;
     }
   }
 </style> 
