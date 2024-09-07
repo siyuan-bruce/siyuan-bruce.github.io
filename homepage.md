@@ -67,6 +67,8 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
   - Obtained 2018 First prize of South China University of Technology (Top 1%) -->
 
+## Education
+
 <div class="card">
     <h3>Hong Kong University of Science and Technology</h3>
     <small>(Aug 2022 - Present)</small>
