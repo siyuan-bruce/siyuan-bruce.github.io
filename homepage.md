@@ -240,7 +240,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     .timeline::before {
       content: '';
-      position: absolute;
+      position: static;
       left: 12px; /* Aligns the line */
       top: 0;
       bottom: 0;
