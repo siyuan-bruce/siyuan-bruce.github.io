@@ -57,19 +57,19 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 - **Software Management**: Software Development
 - **Quantum IT Governance**: Quantuam IT management, Quantum Finance, Classical Quantum-Inspired Algorithm -->
 
-## **Education**
+<!-- ## **Education**
 - **Hong Kong University of Science and Technology** (Aug 2022 - now)
   - MPhil-PhD Student in Information Systems.
-  - Supervisor: Prof. [Kar Yan Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam).
+  - Supervisor: Prof. [Kar Yan Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). -->
   <!-- - Advisors: [Allen H. Huang](https://www.allenhuang.org/), [Dongwon Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [Kohei Kawaguchi](https://www.kohei-kawaguchi.com/), [Keongtae Kim](https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/), [Marc Dordal i Carreras](https://marcdordal.github.io/), [Qiming Shao](https://sites.google.com/view/sqml/home), [Bei Zeng](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=bei-zeng-zengb). -->
-  - Obtained Hong Kong PhD Fellowship Scheme (2024-2028).
-- **South China University of Technology** (Sep 2017 – Jun 2021)
+  <!-- - Obtained Hong Kong PhD Fellowship Scheme (2024-2028). -->
+<!-- - **South China University of Technology** (Sep 2017 – Jun 2021)
   - B.Fin. in Financial Technology, Outstanding Graduates. 
   - Rank: 1 / 33.
   - Obtained 2021 University-level excellent graduation thesis
   - Obtained 2020 China National Scholarship (Top 0.1%)
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
-  - Obtained 2018 First prize of South China University of Technology (Top 1%)
+  - Obtained 2018 First prize of South China University of Technology (Top 1%) -->
 
 <div class="card">
     <h3>Hong Kong University of Science and Technology</h3>
@@ -81,7 +81,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
       </li>
       <li class="timeline-item">
         <i class="fas fa-user-tie"></i>
-        Supervisor: <strong>Prof. <a href="#">Kar Yan Tam</a></strong>
+        Supervisor: <strong>Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
       </li>
       <li class="timeline-item">
         <i class="fas fa-award"></i>
@@ -216,8 +216,8 @@ I am open to working on any interesting topics related to blockchain. Please fee
       border-radius: 8px;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       position: relative;
-      width: 100%; /* Make the card take full width */
-      max-width: 800px; /* Limit the card width */
+      width: 100%;
+      max-width: 800px;
     }
 
     .card:hover {
@@ -251,7 +251,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
       margin-right: 10px;
     }
 
-    /* Timeline Styling */
+    /* Subtle Timeline Dots */
     .timeline {
       position: relative;
       margin-left: 40px;
@@ -263,8 +263,8 @@ I am open to working on any interesting topics related to blockchain. Please fee
       left: -10px;
       top: 0;
       bottom: 0;
-      width: 4px;
-      background-color: #007bff;
+      width: 2px; /* Thinner line */
+      background-color: #d3d3d3; /* Lighter color */
     }
 
     .timeline-item {
@@ -275,12 +275,23 @@ I am open to working on any interesting topics related to blockchain. Please fee
     .timeline-item::before {
       content: '';
       position: absolute;
-      left: -25px;
+      left: -17px;
       top: 0;
-      width: 12px;
-      height: 12px;
-      background-color: #007bff;
+      width: 8px; /* Smaller dots */
+      height: 8px;
+      background-color: #b0c4de; /* Lighter blue */
       border-radius: 50%;
     }
+
+    /* Mobile Responsive */
+    @media (max-width: 600px) {
+      .card {
+        padding: 15px;
+        max-width: 100%;
+      }
+
+      .timeline {
+        margin-left: 20px;
+      }
   }
 </style> 
