@@ -69,30 +69,28 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 
 ## Education
 
-<div class="card">
-    <h3>Hong Kong University of Science and Technology 
-    <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo"> 
-    </h3>
-    <small>(Aug 2022 - Present)</small>
-    <ul class="timeline">
-      <li class="timeline-item">
-        PhD Candidate in Information Systems
-      </li>
-      <li class="timeline-item">
-        Supervisor:&nbsp;<strong> Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
-      </li>
-      <li class="timeline-item">
-        Obtained Hong Kong PhD Fellowship Scheme (2024-2028)
-      </li>
-    </ul>
+  <div class="card">
+    <div class="card-content">
+      <h3>Hong Kong University of Science and Technology</h3>
+      <small>(Aug 2022 - Present)</small>
+      <ul class="timeline">
+        <li class="timeline-item">
+          PhD Candidate in Information Systems
+        </li>
+        <li class="timeline-item">
+          Supervisor:&nbsp;<strong>Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
+        </li>
+        <li class="timeline-item">
+          Obtained Hong Kong PhD Fellowship Scheme (2024-2028)
+        </li>
+      </ul>
+    </div>
+    <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo">
   </div>
 
-  <!-- South China University of Technology Card -->
 <div class="card">
-    <h3>
-    South China University of Technology 
-    <img src="./assets/images/logo/South_China_University_of_Technology_logo.png" alt="SCUT Logo" class="university-logo"> 
-    </h3>
+  <div class="card-content">
+    <h3>South China University of Technology</h3>
     <small>(Sep 2017 – Jun 2021)</small>
     <ul class="timeline">
       <li class="timeline-item">
@@ -109,6 +107,8 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
       </li>
     </ul>
   </div>
+  <img src="./assets/images/logo/South_China_University_of_Technology_logo.png" alt="SCUT Logo" class="university-logo">
+</div>
 
 ## Industry Consulting
 - **HSBC Hong Kong** (Sep 2022 - now)
@@ -212,6 +212,11 @@ I am open to working on any interesting topics related to blockchain. Please fee
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     }
 
+    .card-content {
+      display: flex;
+      flex-direction: column;
+    }
+
     .card h3 {
       font-size: 1.5em;
       margin-bottom: 0px;
@@ -259,11 +264,11 @@ I am open to working on any interesting topics related to blockchain. Please fee
       position: relative;
     }
 
+    /* Logo Styling */
     .university-logo {
-      width: 30px; /* Adjust the size of the logo */
+      width: 80px; /* Adjust the size of the logo */
       height: auto;
-      vertical-align: middle; /* Align logo vertically with text */
-      margin-left: 10px; /* Add space between the text and logo */
+      justify-self: end; /* Align the logo to the right */
     }
 
     .timeline-item::before {
