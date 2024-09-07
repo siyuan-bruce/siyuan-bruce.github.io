@@ -93,10 +93,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
     <small>(Sep 2017 – Jun 2021)</small>
     <ul class="timeline">
       <li class="timeline-item">
-        B.Fin. in Financial Technology, Outstanding Graduates
-      </li>
-      <li class="timeline-item">
-        Rank: 1 / 33
+        B.Fin. in Financial Technology, Rank: 1 / 33, Outstanding Graduates
       </li>
       <li class="timeline-item">
         Obtained 2021 University-level excellent graduation thesis
