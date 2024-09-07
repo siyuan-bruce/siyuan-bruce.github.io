@@ -218,6 +218,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     .card small {
       font-size: 0.9em;
+      margin-top: -5px;
       color: #555;
     }
 
@@ -266,4 +267,5 @@ I am open to working on any interesting topics related to blockchain. Please fee
       border-radius: 50%;
     }
   }
+
 </style> 
