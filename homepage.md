@@ -79,7 +79,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
         PhD Candidate in Information Systems
       </li>
       <li class="timeline-item">
-        Supervisor: &nbsp;<strong> Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
+        Supervisor:&nbsp;<strong> Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
       </li>
       <li class="timeline-item">
         Obtained Hong Kong PhD Fellowship Scheme (2024-2028)
