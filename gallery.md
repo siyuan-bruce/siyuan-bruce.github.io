@@ -127,8 +127,6 @@ permalink: /gallery.html
 
 <div class="timeline">
 
-  <h1>Explore some of the unforgettable moments captured along my journey.</h1>
-
   <h1>The story continues to unfold with each new adventure...</h1>
 
 <div class="year-section">
