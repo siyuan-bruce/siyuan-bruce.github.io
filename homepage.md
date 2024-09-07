@@ -216,6 +216,8 @@ I am open to working on any interesting topics related to blockchain. Please fee
       border-radius: 8px;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       position: relative;
+      width: 100%; /* Make the card take full width */
+      max-width: 800px; /* Limit the card width */
     }
 
     .card:hover {
