@@ -234,7 +234,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
     /* Subtle Timeline Dots */
     .timeline {
       position: relative;
-      margin-left: 0;
+      margin-left: 20px;
     }
 
     .timeline::before {
@@ -248,7 +248,10 @@ I am open to working on any interesting topics related to blockchain. Please fee
     }
 
     .timeline-item {
+      display: flex;
+      align-items: center; /* Aligns dots and text in the center */
       margin-bottom: 20px;
+      padding-left: 30px; /* Space for dots */
       position: relative;
     }
 
@@ -259,7 +262,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
       top: 0;
       width: 8px; /* Smaller dots */
       height: 8px;
-      background-color: #b0c4de; /* Lighter blue */
+      background-color: #1A5DCB; /* Lighter blue */
       border-radius: 50%;
     }
   }
