@@ -70,7 +70,9 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 ## Education
 
 <div class="card">
-    <h3>Hong Kong University of Science and Technology <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo"> </h3>
+    <h3>Hong Kong University of Science and Technology 
+    <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo"> 
+    </h3>
     <small>(Aug 2022 - Present)</small>
     <ul class="timeline">
       <li class="timeline-item">
@@ -89,6 +91,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 <div class="card">
     <h3>
     South China University of Technology 
+    <img src="./assets/images/logo/South_China_University_of_Technology_logo.png" alt="SCUT Logo" class="university-logo"> 
     </h3>
     <small>(Sep 2017 – Jun 2021)</small>
     <ul class="timeline">
