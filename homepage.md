@@ -111,10 +111,10 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 </div>
 
 ## Industry Consulting
-- **HSBC Hong Kong** (Sep 2022 - now)
+<!-- - **HSBC Hong Kong** (Sep 2022 - now)
   - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
   - Seven patents are already filed.
-  - HSBC Email: bruce.s.jin@hsbc.com.hk
+  - HSBC Email: bruce.s.jin@hsbc.com.hk -->
 
 <div class="card">
   <div class="card-content">
