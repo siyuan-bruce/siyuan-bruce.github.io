@@ -72,7 +72,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 <div class="card">
   <div class="card-content">
     <h3>Hong Kong University of Science and Technology</h3>
-    <small>(Aug 2022 - Present)</small>
+    <small>Aug 2022 - Present, Clear Water Bay, Hong Kong</small>
     <ul class="timeline">
       <li class="timeline-item">
         PhD Candidate in Information Systems
@@ -91,7 +91,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 <div class="card">
   <div class="card-content">
     <h3>South China University of Technology</h3>
-    <small>(Sep 2017 – Jun 2021)</small>
+    <small>Sep 2017 – Jun 2021, Guangzhou, China</small>
     <ul class="timeline">
       <li class="timeline-item">
         B.Fin. in Financial Technology, Rank: 1 / 33, Outstanding Graduates
@@ -115,6 +115,22 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
   - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
   - Seven patents are already filed.
   - HSBC Email: bruce.s.jin@hsbc.com.hk
+
+<div class="card">
+  <div class="card-content">
+    <h3>HSBC Hong Kong</h3>
+    <small>Sep 2022 - now, Olympian City, Hong Kong</small>
+    <ul class="timeline">
+      <li class="timeline-item">
+        Research Work in CBDC, AI, and Software Engineering.
+      </li>
+      <li class="timeline-item">
+      HSBC Email: bruce.s.jin@hsbc.com.hk
+      </li>
+    </ul>
+  </div>
+  <!-- <img src="./assets/images/logo/South_China_University_of_Technology_logo.png" alt="SCUT Logo" class="university-logo"> -->
+</div>
 
 ## **Employment**
 - **HSBC Laboratory** (May 2021 - Aug 2022)
