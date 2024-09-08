@@ -85,7 +85,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
       </li>
     </ul>
   </div>
-  <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo">
+  <!-- <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo"> -->
 </div>
 
 <div class="card">
@@ -107,7 +107,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
       </li>
     </ul>
   </div>
-  <img src="./assets/images/logo/South_China_University_of_Technology_logo.png" alt="SCUT Logo" class="university-logo">
+  <!-- <img src="./assets/images/logo/South_China_University_of_Technology_logo.png" alt="SCUT Logo" class="university-logo"> -->
 </div>
 
 ## Industry Consulting
@@ -268,9 +268,9 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     /* Logo Styling */
     .university-logo {
-      width: 80px; /* Adjust the size of the logo */
-      height: auto;
+      height: 180px;
       justify-self: end; /* Align the logo to the right */
+      align-self: flex-start; /* Aligns logo at the top of the card */
     }
 
     .timeline-item::before {
