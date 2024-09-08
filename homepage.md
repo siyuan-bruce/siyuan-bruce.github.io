@@ -196,6 +196,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
     }
 
     .card {
+      display: flex;
       background-color: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 10px;
@@ -213,8 +214,9 @@ I am open to working on any interesting topics related to blockchain. Please fee
     }
 
     .card-content {
-      display: flex;
-      flex-direction: column;
+      <!-- display: flex;
+      flex-direction: column; -->
+      max-width: 70%;
     }
 
     .card h3 {
