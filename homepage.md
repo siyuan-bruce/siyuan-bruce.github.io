@@ -299,6 +299,16 @@ I am open to working on any interesting topics related to blockchain. Please fee
       background-color: #1A5DCB; /* Lighter blue */
       border-radius: 50%;
     }
+
+    @media (max-width: 480px) {
+            h3 {
+                font-size: 1.2em;
+            }
+
+            p,
+            ul li {
+                font-size: 0.9em;
+            }
   }
 
 </style> 
