@@ -300,7 +300,12 @@ I am open to working on any interesting topics related to blockchain. Please fee
       border-radius: 50%;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 600px) {
+
+            .card {
+              max-width: 600px; /* Limits the card width on smaller screens */
+            }
+            
             h3 {
                 font-size: 1.2em;
             }
@@ -309,6 +314,17 @@ I am open to working on any interesting topics related to blockchain. Please fee
             ul li {
                 font-size: 0.9em;
             }
+
+            .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 7px; /* Adjusts the dot */
+            top: 8px;
+            width: 8px; /* Smaller dots */
+            height: 8px;
+            background-color: #1A5DCB; /* Lighter blue */
+            border-radius: 50%;
+          }
   }
 
 </style> 
