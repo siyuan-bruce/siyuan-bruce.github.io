@@ -81,7 +81,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
         Supervisor:&nbsp;<strong>Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
       </li>
       <li class="timeline-item">
-        Obtained Hong Kong PhD Fellowship Scheme (2024-2028)
+        Hong Kong PhD Fellowship Scheme (2024-2028)
       </li>
     </ul>
   </div>
@@ -97,13 +97,13 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
         B.Fin. in Financial Technology, Rank: 1 / 33, Outstanding Graduates
       </li>
       <li class="timeline-item">
-        Obtained 2021 University-level excellent graduation thesis
+        2021 University-level excellent graduation thesis
       </li>
       <li class="timeline-item">
-        Obtained 2020 China National Scholarship (Top 0.1%)
+        2020 China National Scholarship (Top 0.1%)
       </li>
       <li class="timeline-item">
-        Obtained 2018, 2019 First prize (Top 1%) of South China University of Technology
+        2018, 2019 First prize (Top 1%) of South China University of Technology
       </li>
     </ul>
   </div>
