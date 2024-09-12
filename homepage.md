@@ -133,7 +133,7 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 </div>
 
 ## **Employment**
-- **HSBC Laboratory** (May 2021 - Aug 2022)
+<!-- - **HSBC Laboratory** (May 2021 - Aug 2022)
   - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
   - Advisor: Yong Xia
   - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
@@ -142,7 +142,50 @@ Inspired by many open talks in other subjects, we aim to organize an **informati
 - **HSBC IT Architecture** (Sep 2020 - May 2021)
   - Internship on CBDC work
   - Advisor: Yong Xia
-  - Angle Fund Winner \| Corda Prototype Development
+  - Angle Fund Winner \| Corda Prototype Development -->
+
+
+<div class="card">
+  <div class="card-content">
+    <h3>HSBC Laboratory</h3>
+    <small>May 2021 - Aug 2022, Guangzhou, China</small>
+    <ul class="timeline">
+      <li class="timeline-item">
+        Permanent Full Stack Engineer focused on Quantum Computing & CBDC Research.
+      </li>
+      <li class="timeline-item">
+        Advisor: Yong Xia
+      </li>
+      <li class="timeline-item">
+        Achievements: 2021 Top Performer, 2021 Role Model, 2021 Global CBDC Challenge Finalist.
+      </li>
+      <li class="timeline-item">
+        Interviewed numerous PhD candidates for quantum scientist roles.
+      </li>
+      <li class="timeline-item">
+        Key Areas: Central Bank Digital Currency (E-CNY, E-HKD), Stablecoin, ESG, Quantum Portfolio Optimization.
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h3>HSBC IT Architecture</h3>
+    <small>Sep 2020 - May 2021, Guangzhou, China</small>
+    <ul class="timeline">
+      <li class="timeline-item">
+        Internship focused on CBDC work.
+      </li>
+      <li class="timeline-item">
+        Advisor: Yong Xia
+      </li>
+      <li class="timeline-item">
+        Achievements: Angle Fund Winner, Corda Prototype Development.
+      </li>
+    </ul>
+  </div>
+</div>
   
 <!-- ## **Awards**
 - Sep 2022: HKUST PhD Postgraduate Studentship
