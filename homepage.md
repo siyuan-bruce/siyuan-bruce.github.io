@@ -30,7 +30,7 @@ key: page-homepage
     <div class="profile-text">
     <em>Where there is a will, there is a way.</em>
     <p>
-      Siyuan (Bruce) JIN (金思远), is currently pursuing a joint MPhil-PhD program in the Department of Information Systems (IS) at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). He received China National Scholarship in 2020 and Hong Kong PhD Fellowship (HKPFS) award 2024-2025. Bruce holds a Bachelor of Finance degree in Financial Technology from South China University of Technology (SCUT).
+      Siyuan (Bruce) JIN (金思远) is a PhD Candidate (passed QE in 2024) in the Department of Information Systems (IS) at the School of Business and Management, Hong Kong University of Science and Technology (HKUST). He received China National Scholarship in 2020 and Hong Kong PhD Fellowship (HKPFS) award 2024-2025. 
   </p> 
     <p>
       Prior to HKUST, Bruce worked as a software engineer at HSBC IT Architecture and <a href = "https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>. His work has been recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and <a href = "https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global Central Bank Digital Currency (CBDC) Challenge finalist</a> hosted by the Monetary Authority of Singapore.
@@ -45,7 +45,7 @@ key: page-homepage
 - **2024-06**: One paper is accepted by **MIS Quarterly Virtual Paper Development Workshop**.
 
 ## IS Paper Sharing Group (Having fun here)
-Inspired by many open talks in other subjects, we aim to organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly undergraduates and PhD students. We are also targeting to introduce more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
+Inspired by many open talks in other subjects, we organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly undergraduates and PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
 
 <!-- ## **Research Interests**
 - **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
