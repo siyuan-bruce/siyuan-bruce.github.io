@@ -30,7 +30,8 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 
 _知之为知之，不知为不知，是知也。_ --- Confucius
 
-Although I have not yet published in any of the top UTD 24 or FT 50 journals, I would like to share my research progress and contributions to the community. Here are works catergorized by my research agenda.
+<!-- 
+Although I have not yet published in any of the top UTD 24 or FT 50 journals, I would like to share my research progress and contributions to the community. Here are works catergorized by my research agenda. -->
 
 ### Research Agenda 1: Token Platforms
 
@@ -139,7 +140,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
-    <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference</p>
+    <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference, CIST 2024.</p>
   </li>
 
   <li class="paper-item">
