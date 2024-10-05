@@ -39,6 +39,7 @@ key: page-homepage
 </div>
 
 ## News
+- **2024-09**: Two conditionally accepted paper is accepted by the **2024 ICIS**.
 - **2024-08**: Two papers are accepted by the **2024 CIST**.
 - **2024-07**: Two papers are conditonally accepted by the **2024 ICIS**.
 - **2024-07**: I passed the **PhD Qualification Exam** and became a PhD candidate.
@@ -341,6 +342,11 @@ I am open to working on any interesting topics related to blockchain. Please fee
       height: 8px;
       background-color: #1A5DCB; /* Lighter blue */
       border-radius: 50%;
+    }
+
+    header.header {
+        background-color: #add8e6; /* Example background color, adjust as necessary */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     @media (max-width: 600px) {
