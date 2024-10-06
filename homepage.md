@@ -345,7 +345,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
     }
 
     header.header {
-        background-color: #3e95c3; /* Example background color, adjust as necessary */
+        /*background-color: #3e95c3;  Example background color, adjust as necessary */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
