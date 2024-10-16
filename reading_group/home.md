@@ -129,17 +129,26 @@ key: page-is_paper_sharing
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
-          <img src="poster/IS_PRGS_19.jpg" alt="PRGS-19" title="PRGS-19" width="800">
-          <img src="poster/IS_PRGS_18.jpg" alt="PRGS-18" title="PRGS-18" width="800">
-          <img src="poster/IS_PRGS_16.jpg" alt="PRGS-16" title="PRGS-16" width="800">
-          <img src="poster/IS_PRGS_15.jpg" alt="PRGS-15" title="PRGS-15" width="800">
-          <img src="poster/IS_PRGS_14.jpg" alt="PRGS-14" title="PRGS-14" width="800">
-          <img src="poster/IS_PRGS_13.jpg" alt="PRGS-13" title="PRGS-13" width="800">
-          <img src="poster/IS_PRGS_12.jpg" alt="PRGS-12" title="PRGS-12" width="800">
-          <img src="poster/IS_PRGS_11.jpg" alt="PRGS-11" title="PRGS-11" width="800">
-          <img src="poster/IS_PRGS_10.jpg" alt="PRGS-10" title="PRGS-10" width="800">
-          <img src="poster/IS_PRGS_9.jpg" alt="PRGS-9" title="PRGS-9" width="800">
-          <img src="poster/IS_PRGS_8.jpg" alt="PRGS-8" title="PRGS-8" width="800">
+        <img src="poster/IS_PRGS_29.jpg" alt="PRGS-29" title="PRGS-29" width="800">
+        <img src="poster/IS_PRGS_27.jpg" alt="PRGS-27" title="PRGS-27" width="800">
+        <img src="poster/IS_PRGS_26.jpg" alt="PRGS-26" title="PRGS-26" width="800">
+        <img src="poster/IS_PRGS_25.jpg" alt="PRGS-25" title="PRGS-25" width="800">
+        <img src="poster/IS_PRGS_24.jpg" alt="PRGS-24" title="PRGS-24" width="800">
+        <img src="poster/IS_PRGS_23.jpg" alt="PRGS-23" title="PRGS-23" width="800">
+        <img src="poster/IS_PRGS_22.jpg" alt="PRGS-22" title="PRGS-22" width="800">
+        <img src="poster/IS_PRGS_21.jpg" alt="PRGS-21" title="PRGS-21" width="800">
+        <img src="poster/IS_PRGS_20.jpg" alt="PRGS-20" title="PRGS-20" width="800">
+        <img src="poster/IS_PRGS_19.jpg" alt="PRGS-19" title="PRGS-19" width="800">
+        <img src="poster/IS_PRGS_18.jpg" alt="PRGS-18" title="PRGS-18" width="800">
+        <img src="poster/IS_PRGS_16.jpg" alt="PRGS-16" title="PRGS-16" width="800">
+        <img src="poster/IS_PRGS_15.jpg" alt="PRGS-15" title="PRGS-15" width="800">
+        <img src="poster/IS_PRGS_14.jpg" alt="PRGS-14" title="PRGS-14" width="800">
+        <img src="poster/IS_PRGS_13.jpg" alt="PRGS-13" title="PRGS-13" width="800">
+        <img src="poster/IS_PRGS_12.jpg" alt="PRGS-12" title="PRGS-12" width="800">
+        <img src="poster/IS_PRGS_11.jpg" alt="PRGS-11" title="PRGS-11" width="800">
+        <img src="poster/IS_PRGS_10.jpg" alt="PRGS-10" title="PRGS-10" width="800">
+        <img src="poster/IS_PRGS_9.jpg" alt="PRGS-9" title="PRGS-9" width="800">
+        <img src="poster/IS_PRGS_8.jpg" alt="PRGS-8" title="PRGS-8" width="800">
       </div>
 
       <p>Join us to expand your knowledge of Information Systems through engaging discussions and thoughtful critiques!</p>
