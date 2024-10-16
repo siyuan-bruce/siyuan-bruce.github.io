@@ -129,26 +129,26 @@ key: page-is_paper_sharing
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
-        <img src="poster/IS_PRGS_29.jpg" alt="PRGS-29" title="PRGS-29" width="800">
-        <img src="poster/IS_PRGS_27.jpg" alt="PRGS-27" title="PRGS-27" width="800">
-        <img src="poster/IS_PRGS_26.jpg" alt="PRGS-26" title="PRGS-26" width="800">
-        <img src="poster/IS_PRGS_25.jpg" alt="PRGS-25" title="PRGS-25" width="800">
-        <img src="poster/IS_PRGS_24.jpg" alt="PRGS-24" title="PRGS-24" width="800">
-        <img src="poster/IS_PRGS_23.jpg" alt="PRGS-23" title="PRGS-23" width="800">
-        <img src="poster/IS_PRGS_22.jpg" alt="PRGS-22" title="PRGS-22" width="800">
-        <img src="poster/IS_PRGS_21.jpg" alt="PRGS-21" title="PRGS-21" width="800">
-        <img src="poster/IS_PRGS_20.jpg" alt="PRGS-20" title="PRGS-20" width="800">
-        <img src="poster/IS_PRGS_19.jpg" alt="PRGS-19" title="PRGS-19" width="800">
-        <img src="poster/IS_PRGS_18.jpg" alt="PRGS-18" title="PRGS-18" width="800">
-        <img src="poster/IS_PRGS_16.jpg" alt="PRGS-16" title="PRGS-16" width="800">
-        <img src="poster/IS_PRGS_15.jpg" alt="PRGS-15" title="PRGS-15" width="800">
-        <img src="poster/IS_PRGS_14.jpg" alt="PRGS-14" title="PRGS-14" width="800">
-        <img src="poster/IS_PRGS_13.jpg" alt="PRGS-13" title="PRGS-13" width="800">
-        <img src="poster/IS_PRGS_12.jpg" alt="PRGS-12" title="PRGS-12" width="800">
-        <img src="poster/IS_PRGS_11.jpg" alt="PRGS-11" title="PRGS-11" width="800">
-        <img src="poster/IS_PRGS_10.jpg" alt="PRGS-10" title="PRGS-10" width="800">
-        <img src="poster/IS_PRGS_9.jpg" alt="PRGS-9" title="PRGS-9" width="800">
-        <img src="poster/IS_PRGS_8.jpg" alt="PRGS-8" title="PRGS-8" width="800">
+        <img src="poster/IS_PSG_29.jpg" alt="PSG-29" title="PSG-29" width="800">
+        <img src="poster/IS_PSG_27.jpg" alt="PSG-27" title="PSG-27" width="800">
+        <img src="poster/IS_PSG_26.jpg" alt="PSG-26" title="PSG-26" width="800">
+        <img src="poster/IS_PSG_25.jpg" alt="PSG-25" title="PSG-25" width="800">
+        <img src="poster/IS_PSG_24.jpg" alt="PSG-24" title="PSG-24" width="800">
+        <img src="poster/IS_PSG_23.jpg" alt="PSG-23" title="PSG-23" width="800">
+        <img src="poster/IS_PSG_22.jpg" alt="PSG-22" title="PSG-22" width="800">
+        <img src="poster/IS_PSG_21.jpg" alt="PSG-21" title="PSG-21" width="800">
+        <img src="poster/IS_PSG_20.jpg" alt="PSG-20" title="PSG-20" width="800">
+        <img src="poster/IS_PSG_19.jpg" alt="PSG-19" title="PSG-19" width="800">
+        <img src="poster/IS_PSG_18.jpg" alt="PSG-18" title="PSG-18" width="800">
+        <img src="poster/IS_PSG_16.jpg" alt="PSG-16" title="PSG-16" width="800">
+        <img src="poster/IS_PSG_15.jpg" alt="PSG-15" title="PSG-15" width="800">
+        <img src="poster/IS_PSG_14.jpg" alt="PSG-14" title="PSG-14" width="800">
+        <img src="poster/IS_PSG_13.jpg" alt="PSG-13" title="PSG-13" width="800">
+        <img src="poster/IS_PSG_12.jpg" alt="PSG-12" title="PSG-12" width="800">
+        <img src="poster/IS_PSG_11.jpg" alt="PSG-11" title="PSG-11" width="800">
+        <img src="poster/IS_PSG_10.jpg" alt="PSG-10" title="PSG-10" width="800">
+        <img src="poster/IS_PSG_9.jpg" alt="PSG-9" title="PSG-9" width="800">
+        <img src="poster/IS_PSG_8.jpg" alt="PSG-8" title="PSG-8" width="800">
       </div>
 
       <p>Join us to expand your knowledge of Information Systems through engaging discussions and thoughtful critiques!</p>
