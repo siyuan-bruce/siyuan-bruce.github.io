@@ -129,8 +129,20 @@ permalink: /gallery.html
 
   <h1>The story continues to unfold with each new adventure...</h1>
 
+
+
 <div class="year-section">
   <h3>2024</h3>
+  <div class="event">
+          <h4>HKUST PhD Students Outdoor Activities, Seattle.</h4>
+          <p>We are walking through National Olympic Park.</p>
+          <img src="assets/images/gallery/2024_Olympic_national_park.jpg" alt="2024 Olympic National Park">
+      </div>
+        <div class="event">
+          <h4>CIST Presentation, Seattle - My first IS presentation.</h4>
+          <p>I am presenting the paper titled as "When KPOP meets Blockchain: The Impact of DAO Voting on Consumer Engagement"</p>
+          <img src="assets/images/gallery/2024_CIST_pre.jpg" alt="2024 CIST">
+      </div>
       <div class="event">
           <h4>PhD Conference Gathering, Hong Kong - A remarkable convergence of minds and ideas.</h4>
           <p>I participated in PhD Conference gathering and discussed PhD life with Prof. Hui and peers."</p>
