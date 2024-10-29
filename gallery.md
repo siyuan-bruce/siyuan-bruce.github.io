@@ -124,12 +124,9 @@ permalink: /gallery.html
     </style>
 </head>
 
-
 <div class="timeline">
 
   <h1>The story continues to unfold with each new adventure...</h1>
-
-
 
 <div class="year-section">
   <h3>2024</h3>
@@ -149,8 +146,6 @@ permalink: /gallery.html
           <img src="assets/images/gallery/2024_PhD_conference_gathering.jpg" alt="PhD Conference Gathering">
       </div>
 </div>
-
-
 
 <div class="year-section">
   <h3>2023</h3>
