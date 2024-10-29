@@ -145,7 +145,7 @@ permalink: /gallery.html
       </div>
       <div class="event">
           <h4>PhD Conference Gathering, Hong Kong - A remarkable convergence of minds and ideas.</h4>
-          <p>I participated in PhD Conference gathering and discussed PhD life with Prof. Hui and peers."</p>
+          <p>I participated in PhD Conference gathering and discussed PhD life with my academic elder brother Prof. Hui and peers."</p>
           <img src="assets/images/gallery/2024_PhD_conference_gathering.jpg" alt="PhD Conference Gathering">
       </div>
 </div>

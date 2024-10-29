@@ -30,7 +30,7 @@ key: page-homepage
     <div class="profile-text">
     <em>Where there is a will, there is a way.</em>
     <p>
-      Siyuan (Bruce) JIN (金思远) is a PhD Candidate (passed QE in 2024) in HKUST Information Systems (IS) Department, supervised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He received China National Scholarship in 2020 and Hong Kong PhD Fellowship (HKPFS) award in 2024. 
+      Siyuan (Bruce) JIN (金思远) is a PhD Candidate in HKUST Information Systems (IS) Department, supervised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He received China National Scholarship in 2020 and Hong Kong PhD Fellowship (HKPFS) award in 2024. 
   </p> 
     <p>
       Prior to HKUST, Bruce worked as a software engineer at HSBC IT Architecture and <a href = "https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>. His work has been recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and <a href = "https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global Central Bank Digital Currency (CBDC) Challenge finalist</a> hosted by the Monetary Authority of Singapore.
