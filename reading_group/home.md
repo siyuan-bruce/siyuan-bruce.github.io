@@ -114,12 +114,15 @@ key: page-is_paper_sharing
       <h1>Welcome to the Information Systems Paper Sharing Group (PSG)</h1>
       <p>Inspired by the spirit of open academic discussion, the Information Systems Paper Sharing Group (PSG) aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems.</p>
 
+    <h2>Mission</h2>
+    <p> One more critique makes the paper better.  </p>
+
       <h2>Purpose</h2>
-      <p>This series is primarily designed for beginners, including pre-doctoral and PhD students, who are eager to deepen their understanding of Information Systems. We also welcome the participation of senior scholars to enrich discussions and offer their expertise. Each participant is encouraged to provide constructive critiques of the presentations, contributing to a vibrant and dynamic academic community.</p>
+      <p>This series is primarily designed for PhD students, who are eager to deepen their understanding of Information Systems. We also welcome the participation of senior scholars to enrich discussions and offer their expertise. </p>
       <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:bruce.s.y.jin@gmail.com">bruce.s.y.jin@gmail.com</a>.</p>
 
-      <h2>Acknowledgement</h2>
-      <p>The PSG was initiated by myself and Zhe Wang from PolyU, with Tonglin Zhang contributing to the design of our posters.</p>
+      <!-- <h2>Acknowledgement</h2>
+      <p>The PSG was initiated by myself and Zhe Wang from PolyU, with Tonglin Zhang contributing to the design of our posters.</p> -->
 
       <h2>Meeting Details</h2>
       <p><strong>Time:</strong> Tuesdays, 9:00 - 10:00 PM (HKT)</p>
