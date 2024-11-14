@@ -125,13 +125,17 @@ key: page-is_paper_sharing
       <p>The PSG was initiated by myself and Zhe Wang from PolyU, with Tonglin Zhang contributing to the design of our posters.</p> -->
 
       <h2>Meeting Details</h2>
-      <p><strong>Time:</strong> Tuesdays, 9:00 - 10:00 PM (HKT)</p>
+      <p><strong>Time:</strong> Wednesday, 9:00 - 10:00 AM (HKT)</p>
       <p><strong>Zoom Link:</strong> <a href="https://hkust.zoom.us/j/92295593514?pwd=L1o2SjNVVGFhTk9jUEk1RDlUbHBEQT09">Join the Meeting</a></p>
-      <p><strong>Language:</strong> English/Chinese (depending on the preference of the presenter)</p>
+      <p><strong>Language:</strong> English</p>
       <p><strong>Format:</strong> A 45-minute main presentation followed by a 15-minute discussion session</p>
+
+      <img src="poster/call_for_pres.png" alt="Call-For-Pres" title="Call-For-Pres" width="800">
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
+        <img src="poster/IS_PSG_31.jpg" alt="PSG-31" title="PSG-31" width="800">
+        <img src="poster/IS_PSG_30.jpg" alt="PSG-30" title="PSG-30" width="800">
         <img src="poster/IS_PSG_29.jpg" alt="PSG-29" title="PSG-29" width="800">
         <img src="poster/IS_PSG_27.jpg" alt="PSG-27" title="PSG-27" width="800">
         <img src="poster/IS_PSG_26.jpg" alt="PSG-26" title="PSG-26" width="800">
