@@ -45,8 +45,8 @@ key: page-homepage
 - **2024-07**: I passed the **PhD Qualification Exam** and became a PhD candidate.
 - **2024-06**: One paper is accepted by **MIS Quarterly Virtual Paper Development Workshop**.
 
-## IS Paper Sharing Group (Having fun here)
-Inspired by many open talks in other subjects, we organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly undergraduates and PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
+## IS Paper Sharing Group
+Inspired by many open talks in other subjects, we organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
 
 <!-- ## **Research Interests**
 - **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
