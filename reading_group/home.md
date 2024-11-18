@@ -134,6 +134,8 @@ key: page-is_paper_sharing
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
+        <img src="poster/IS_PSG_33.jpg" alt="PSG-33" title="PSG-33" width="800">
+        <img src="poster/IS_PSG_32.jpg" alt="PSG-32" title="PSG-32" width="800">
         <img src="poster/IS_PSG_31.jpg" alt="PSG-31" title="PSG-31" width="800">
         <img src="poster/IS_PSG_30.jpg" alt="PSG-30" title="PSG-30" width="800">
         <img src="poster/IS_PSG_29.jpg" alt="PSG-29" title="PSG-29" width="800">
