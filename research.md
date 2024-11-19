@@ -46,7 +46,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </div>
     <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
     <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a>
-    <p class="conference-info">Conferences: MIS Quarterly Virtual Paper Development Workshop</p>
+    <p class="conference-info">Conferences: MIS Quarterly Virtual Paper Development Workshop, Greater Bay Area Finance Workshop</p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
