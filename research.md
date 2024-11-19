@@ -69,7 +69,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="conference-info">Conferences: ICIS 2024 (Accepted)</p>
+    <p class="conference-info">Conferences: ICIS 2024</p>
   </li>
 
   <li class="paper-item">
@@ -81,7 +81,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="conference-info">Conferences: ICIS 2024 (Accepted), CIST 2024</p>
+    <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
   </li>
 </ul>
   
