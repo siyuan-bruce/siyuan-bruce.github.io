@@ -238,14 +238,14 @@ I am open to working on any interesting topics related to blockchain. Please fee
     }
 
     .profile-text {
-      flex: 2 1 60%; /* Make sure text takes up more space but allows image to be larger */
+      flex: 2 1 70%; /* Ensure text takes up more space */
       text-align: left;
       margin: 10px;
     }
 
     .profile-image {
       flex: 1 1 auto; /* Allow the image to take up space based on its content */
-      max-width: 300px; /* Adjust to desired size */
+      max-width: 200px; /* Adjust to a more reasonable size */
       margin-left: 10px;
       order: 2;
     }
