@@ -212,16 +212,16 @@ I am open to working on any interesting topics related to blockchain. Please fee
   }
 
   body {
-      font-family: 'Lora', serif;
-      line-height: 1.6;
-      background-color: #f8f8f8;
-      margin: 0;
-      padding: 10px;
+    font-family: 'Lora', serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 10px;
   }
 
   .profile-image {
     width: 100%;
-    max-width: 1000px; /* Adjust this value to fit your needs */
+    max-width: 1000px;
     margin: 10px 0;
   }
 
@@ -230,29 +230,27 @@ I am open to working on any interesting topics related to blockchain. Please fee
     text-align: left;
   }
 
-  /* This media query applies styles for screens larger than 600px */
   @media screen and (min-width: 600px) {
     .container {
       display: flex;
-      align-items: flex-start; /* Align items to the start of the flex container */
-      justify-content: space-between; /* This will put space between the text and image, effectively pushing the image to the right */
+      align-items: flex-start;
+      justify-content: space-between;
     }
-    
+
     .profile-text,
     .profile-image {
-      flex: 1; /* Both children will take up equal space within the container */
-      flex: 30%; /* Adjust this value to fit your needs */
+      flex: 1;
     }
 
     .profile-image {
       margin-left: 10px;
-      max-width: none; /* Reset max-width to allow the image to be as wide as its container */
-      order: 2; /* This will ensure the image is placed to the right */
+      max-width: none;
+      order: 2;
     }
 
     .profile-text {
       margin-top: -20px;
-      order: 1; /* This will ensure the text is placed to the left */
+      order: 1;
       flex: 70%;
     }
 
@@ -275,8 +273,6 @@ I am open to working on any interesting topics related to blockchain. Please fee
     }
 
     .card-content {
-      <!-- display: flex;
-      flex-direction: column; -->
       max-width: 70%;
     }
 
@@ -300,7 +296,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     .card ul li {
       margin-bottom: 0px;
-      padding-left: 30px; /* Ensures text aligns properly */
+      padding-left: 30px;
     }
 
     /* Subtle Timeline Dots */
@@ -312,69 +308,70 @@ I am open to working on any interesting topics related to blockchain. Please fee
     .timeline::before {
       content: '';
       position: static;
-      left: 10px; /* Aligns the line */
+      left: 10px;
       top: 10px;
       bottom: 0;
-      width: 2px; /* Thinner line */
-      background-color: #d3d3d3; /* Lighter color */
+      width: 2px;
+      background-color: #d3d3d3;
     }
 
     .timeline-item {
       display: flex;
-      align-items: center; /* Aligns dots and text in the center */
+      align-items: center;
       margin-bottom: 20px;
-      padding-left: 40px; /* Increased padding to prevent overlap */
+      padding-left: 40px;
       position: relative;
     }
 
     /* Logo Styling */
     .university-logo {
       height: 180px;
-      justify-self: end; /* Align the logo to the right */
-      align-self: flex-start; /* Aligns logo at the top of the card */
+      justify-self: end;
+      align-self: flex-start;
     }
 
     .timeline-item::before {
       content: '';
       position: absolute;
-      left: 7px; /* Adjusts the dot */
+      left: 7px;
       top: 8px;
-      width: 8px; /* Smaller dots */
+      width: 8px;
       height: 8px;
-      background-color: #1A5DCB; /* Lighter blue */
+      background-color: #1A5DCB;
       border-radius: 50%;
     }
 
     header.header {
-        /*background-color: #3e95c3;  Example background color, adjust as necessary */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-
-    @media (max-width: 600px) {
-
-            .card {
-              max-width: 600px; /* Limits the card width on smaller screens */
-            }
-            
-            h3 {
-                font-size: 1.2em;
-            }
-
-            p,
-            ul li {
-                font-size: 0.9em;
-            }
-
-            .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: 7px; /* Adjusts the dot */
-            top: 8px;
-            width: 8px; /* Smaller dots */
-            height: 8px;
-            background-color: #1A5DCB; /* Lighter blue */
-            border-radius: 50%;
-          }
   }
 
-</style> 
+  /* Mobile-specific adjustments */
+  @media (max-width: 600px) {
+    .card {
+      max-width: 100%; /* Remove the 600px limit */
+      padding: 16px; /* Add more padding for space */
+      margin: 10px 0; /* Adjust margin to center the card */
+    }
+
+    h3 {
+      font-size: 1.2em;
+    }
+
+    p,
+    ul li {
+      font-size: 0.9em;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 8px;
+      width: 8px;
+      height: 8px;
+      background-color: #1A5DCB;
+      border-radius: 50%;
+    }
+  }
+</style>
