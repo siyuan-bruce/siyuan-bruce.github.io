@@ -221,7 +221,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
   .profile-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     margin: 10px 0;
   }
 
@@ -245,7 +245,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     .profile-image {
       flex: 1 1 auto; /* Allow the image to take up space based on its content */
-      max-width: 200px; /* Adjust to a more reasonable size */
+      max-width: 300px;
       margin-left: 10px;
       order: 2;
     }
@@ -253,7 +253,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     .profile-image {
       margin-left: 10px;
-      max-width: none;
+      max-width: 300px;
       order: 2;
     }
 
