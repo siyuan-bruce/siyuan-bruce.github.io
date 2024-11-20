@@ -221,7 +221,7 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
   .profile-image {
     width: 100%;
-    max-width: 1000px;
+    max-width: 500px;
     margin: 10px 0;
   }
 
