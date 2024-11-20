@@ -239,8 +239,12 @@ I am open to working on any interesting topics related to blockchain. Please fee
 
     .profile-text,
     .profile-image {
-      flex: 1;
+      flex: 1 1 auto; /* Allow the image to take up space based on its content */
+      max-width: 300px; /* Adjust to desired size */
+      margin-left: 10px;
+      order: 2;
     }
+
 
     .profile-image {
       margin-left: 10px;
