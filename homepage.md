@@ -39,6 +39,7 @@ key: page-homepage
 </div>
 
 ## News
+- **2024-11**: The KPop paper is nominated for the **2024 ICIS Best Paper Award**.
 - **2024-11**: One paper is presented by the **2024 Greater Bay Area Finance Workshop**.
 - **2024-09**: Two conditionally accepted paper is accepted by the **2024 ICIS**.
 - **2024-08**: Two papers are accepted by the **2024 CIST**.
