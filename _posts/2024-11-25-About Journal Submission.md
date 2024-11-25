@@ -29,7 +29,7 @@ He explained that after a certain point, the marginal benefits of revising — t
 While this advice makes sense in theory, as a junior scholar, it feels tricky to apply. How do we know when we’ve hit that point? Unlike senior researchers, we lack the instincts to judge whether our paper is “good enough” or still needs work.
 
 ## What’s the Takeaway?
-For me, CW’s advice is more practical. When you present your work and all you get are clarification questions — and no one seems curious about your core research question — that’s a clear signal to revisit the foundation of your paper. On the other hand, MZ’s “marginal benefits” rule feels like something I’ll understand better with experience.
+For me, CW’s advice is more practical. When you present your work and all you get are clarification questions — that’s a clear signal to submit your paper. On the other hand, MZ’s “marginal benefits” rule feels like something I’ll understand better with experience.
 
 Ultimately, deciding when to submit is less about perfection and more about trusting your instincts — and, sometimes, your audience. And if you’re stuck? Submit it anyway. There’s no better teacher than a reviewer’s feedback (as painful as it might be).
 
