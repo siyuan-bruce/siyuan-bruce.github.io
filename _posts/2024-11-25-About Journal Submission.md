@@ -14,7 +14,7 @@ article_header:
 # When Is a Paper Ready for Submission?
 As PhD students, we often agonize over the same question: When is a paper “good enough” to submit? It’s a puzzle with no clear answer, but thankfully, my department often invites seasoned editors from top journals to share their wisdom. Over time, I’ve collected two memorable pieces of advice that have stuck with me.
 
-## Story #1: The Boring Research Question
+## Story #1: Feedback from the Audience
 One day, a senior editor from MIS Quarterly (let’s call him CW) shared a humbling story. He had spent months touring his latest paper, presenting it at over ten top universities across China. Initially, the audiences asked a mix of questions, including some about his methodology and research question. With each presentation, he revised and refined his paper based on the feedback he received.
 
 But after several presentations, something strange happened. The questions stopped being about his research question or methodology. Instead, they were all about minor clarifications. That’s when it hit him: if no one is questioning the research question or method itself anymore, it’s probably good enough to move forward. With that realization, he submitted the paper.
