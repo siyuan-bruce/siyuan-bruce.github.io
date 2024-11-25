@@ -1,5 +1,5 @@
 ---
-title: About IS Conference
+title: About Journal Submission
 tags: IS
 mathjax: true
 mermaid: true
