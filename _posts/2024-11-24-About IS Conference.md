@@ -10,6 +10,7 @@ article_header:
   background_color: '#123'
   background_image: false
 ---
+
 So, I recently stumbled upon the THIS is Research podcast—my new guilty pleasure as a junior scholar trying to figure out this whole academia thing. One episode in particular caught my attention: ["THE THREE MOST USELESS SLIDES IN CONFERENCE PRESENTATIONS" (4 September 2024)](http://www.janrecker.com/this-is-research-podcast/the-three-most-useless-slides-in-conference-presentations-4-september-2024/
 ). Intrigued by the title and desperate to not embarrass myself at my next conference, I hit play.
 
