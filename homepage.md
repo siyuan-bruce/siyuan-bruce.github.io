@@ -194,6 +194,7 @@ Inspired by open talks in other subjects, we organize an **information systems**
       </li>
       <li class="timeline-item">
         Skills: Corda Prototype Development.
+      </li>
     </ul>
   </div>
 </div>
