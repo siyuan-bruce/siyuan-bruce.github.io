@@ -190,7 +190,11 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   - [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
 
 ## **Services**
-- Ad hoc Reviewer for the _International Conference on Information Systems (2023 ICIS, 2024 ICIS)_, the 2023 _Pacific Asia Conference on Information Systems (PACIS)_, the 2023 _Quantum Information Processing (QIP)_.
+- Ad hoc Reviewer
+  - _Workshop on Information Technologies and Systems (WITS 2024 X 2)_
+  - _International Conference on Information Systems (2023 ICIS X 2, 2024 ICIS X 2)_
+  - the _Pacific Asia Conference on Information Systems (PACIS X 2)_, 
+  - the _Quantum Information Processing (QIP X 1)_.
 - Sep 2018 ~ Mar 2019: Director, _Innovation Club for Science and Technology (SCUT)_
 - Mar 2018 ~ Sep 2018: Member, _Innovation Club for Science and Technology (SCUT)_
 - Initializer [cryptoSupplyData](https://github.com/siyuan-bruce/cryptoSupplyData), cryptocurrency supply data free scraper.

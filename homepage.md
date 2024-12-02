@@ -39,17 +39,19 @@ key: page-homepage
 </div>
 
 ## News
-- **2024-11**: The KPop paper is nominated for the **2024 ICIS Best Paper Award**.
+<!-- - **2024-12**: I was norminated for the HKUST Young Scientist Award (FinTech). -->
+- **2024-11**: The K-Pop paper is nominated for the **2024 ICIS Best Paper Award**.
 - **2024-11**: One paper is presented by the **2024 Greater Bay Area Finance Workshop**.
 - **2024-09**: Two conditionally accepted paper is accepted by the **2024 ICIS**.
 - **2024-08**: Two papers are accepted by the **2024 CIST**.
 - **2024-07**: Two papers are conditonally accepted by the **2024 ICIS**.
 - **2024-07**: I passed the **PhD Qualification Exam** and became a PhD candidate.
 - **2024-06**: One paper is accepted by **MIS Quarterly Virtual Paper Development Workshop**.
+- **2022-12**: I was invited to be a mentor for **2022 HKUST Fintechstic Competition**.
 
 
 ## IS Paper Sharing Group
-Inspired by many open talks in other subjects, we organize an **information systems** paper readings series. Our initial targeted audience is mainly the beginners in this field, particularly PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
+Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly the beginners in this field, particularly PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
 
 <!-- ## **Research Interests**
 - **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
@@ -107,7 +109,7 @@ Inspired by many open talks in other subjects, we organize an **information syst
         2020 China National Scholarship (Top 0.1%)
       </li>
       <li class="timeline-item">
-        2018, 2019 First prize (Top 1%) of South China University of Technology
+        2018, 2019 University-level First Prize (Top 1%)
       </li>
     </ul>
   </div>
@@ -126,7 +128,7 @@ Inspired by many open talks in other subjects, we organize an **information syst
     <small>Sep 2022 - now, Olympian City, Hong Kong</small>
     <ul class="timeline">
       <li class="timeline-item">
-        Research Work in CBDC, AI, and Software Engineering.
+        Research in CBDC, AI, and Software Engineering.
       </li>
       <li class="timeline-item">
       HSBC Email: bruce.s.jin@hsbc.com.hk
@@ -155,7 +157,7 @@ Inspired by many open talks in other subjects, we organize an **information syst
     <small>May 2021 - Aug 2022, Guangzhou, China</small>
     <ul class="timeline">
       <li class="timeline-item">
-        Permanent Full Stack Engineer focused on Quantum Computing & CBDC Research.
+        Permanent Full Stack Engineer
       </li>
       <li class="timeline-item">
         Advisor: Yong Xia
@@ -164,7 +166,7 @@ Inspired by many open talks in other subjects, we organize an **information syst
         Achievements: 2021 Top Performer, 2021 Role Model, 2021 Global CBDC Challenge Finalist.
       </li>
       <li class="timeline-item">
-        Interviewed numerous PhD candidates for quantum scientist roles.
+        Interviewed PhD candidates for quantum scientist roles.
       </li>
       <li class="timeline-item">
         Key Areas: Central Bank Digital Currency (E-CNY, E-HKD), Stablecoin, ESG, Quantum Portfolio Optimization.
@@ -179,14 +181,19 @@ Inspired by many open talks in other subjects, we organize an **information syst
     <small>Sep 2020 - May 2021, Guangzhou, China</small>
     <ul class="timeline">
       <li class="timeline-item">
-        Internship focused on CBDC work.
+        Internship.
       </li>
       <li class="timeline-item">
         Advisor: Yong Xia
       </li>
       <li class="timeline-item">
-        Achievements: Angle Fund Winner, Corda Prototype Development.
+        Achievements: Angle Fund Winner.
       </li>
+        <li class="timeline-item">
+        Key Areas: Central Bank Digital Currency (E-CNY).
+      </li>
+      <li class="timeline-item">
+        Skills: Corda Prototype Development.
     </ul>
   </div>
 </div>
@@ -202,7 +209,7 @@ Inspired by many open talks in other subjects, we organize an **information syst
 - Cantonese (Beginner)
   
 ## **Contact**
-I am open to working on any interesting topics related to blockchain. Please feel free to contact me if you want to costart a project.
+I am open to co-start any interesting topics related to blockchain and IT governance. Please feel free to contact me.
 - Email: siyuan.jin@connect.ust.hk
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
