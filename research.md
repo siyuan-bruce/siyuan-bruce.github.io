@@ -82,7 +82,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
-    <p class="conference-info">Award: ICIS 2024 Best Paper Nominee</p>
+    <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     
   </li>
 </ul>

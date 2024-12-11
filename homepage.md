@@ -39,14 +39,14 @@ key: page-homepage
 </div>
 
 ## News
-<!-- - **2024-12**: I was norminated for the HKUST Young Scientist Award (FinTech). -->
-- **2024-11**: The K-Pop paper is nominated for the **2024 ICIS Best Paper Award**.
-- **2024-11**: One paper is presented by the **2024 Greater Bay Area Finance Workshop**.
-- **2024-09**: Two conditionally accepted paper is accepted by the **2024 ICIS**.
-- **2024-08**: Two papers are accepted by the **2024 CIST**.
-- **2024-07**: Two papers are conditonally accepted by the **2024 ICIS**.
+- **2024-12**: I was nominated for the HKUST **Young Scientist Program Award (FinTech)**.
+- **2024-11**: The K-Pop paper was nominated for the **2024 ICIS Best Short Paper Award**.
+- **2024-11**: One paper was presented by the **2024 Greater Bay Area Finance Workshop**.
+- **2024-09**: Two conditionally accepted paper was accepted by the **2024 ICIS**.
+- **2024-08**: Two papers were accepted by the **2024 CIST**.
+- **2024-07**: Two papers were conditonally accepted by the **2024 ICIS**.
 - **2024-07**: I passed the **PhD Qualification Exam** and became a PhD candidate.
-- **2024-06**: One paper is accepted by **MIS Quarterly Virtual Paper Development Workshop**.
+- **2024-06**: One paper was accepted by **MIS Quarterly Virtual Paper Development Workshop**.
 - **2022-12**: I was invited to be a mentor for **2022 HKUST Fintechstic Competition**.
 
 
