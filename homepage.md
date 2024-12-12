@@ -48,7 +48,7 @@ key: page-homepage
 - **2024-07**: I passed the **PhD Qualification Exam** and became a PhD candidate.
 - **2024-06**: One paper was accepted by **MIS Quarterly Virtual Paper Development Workshop**.
 - **2024-05**: One paper was selected by **HKUST PhD Student Conference**.
-- **2023-10**: Joint work “e-HKD Pilot Programme” was published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
+- **2023-10**: Joint policy paper “e-HKD Pilot Programme” was published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
 - **2022-12**: I was invited to be a mentor for **2022 HKUST Fintechstic Competition**.
 
 
@@ -159,16 +159,13 @@ Inspired by open talks in other subjects, we organize an **information systems**
     <small>May 2021 - Aug 2022, Guangzhou, China</small>
     <ul class="timeline">
       <li class="timeline-item">
-        Permanent Full Stack Engineer
+        Full Stack Engineer
       </li>
       <li class="timeline-item">
         Advisor: Yong Xia
       </li>
       <li class="timeline-item">
         Achievements: 2021 Top Performer, 2021 Role Model, 2021 Global CBDC Challenge Finalist.
-      </li>
-      <li class="timeline-item">
-        Interviewed PhD candidates for quantum scientist roles.
       </li>
       <li class="timeline-item">
         Key Areas: Central Bank Digital Currency (E-CNY, E-HKD), Stablecoin, ESG, Quantum Portfolio Optimization.
