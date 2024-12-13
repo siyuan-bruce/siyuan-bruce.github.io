@@ -29,7 +29,17 @@ header:
       zh-Hans : &ZH_HANS  教学
     url: /teaching.html
 
-    - titles: 
+  - titles: 
+      # @start locale config
+      en      : &EN       Blogs
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  笔记
+    url: /archive.html
+
+  - titles: 
       # @start locale config
       en      : &EN       ISPSG
       en-GB   : *EN
@@ -37,17 +47,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  ISPSG
-    url: /reading_group/home.html
-
-  # - titles: 
-  #     # @start locale config
-  #     en      : &EN       Blogs
-  #     en-GB   : *EN
-  #     en-US   : *EN
-  #     en-CA   : *EN
-  #     en-AU   : *EN
-  #     zh-Hans : &ZH_HANS  笔记
-  #   url: /archive.html
+  url: /reading_group/home.html
     
   - titles: 
       # @start locale config
