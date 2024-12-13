@@ -39,7 +39,6 @@ header:
       zh-Hans : &ZH_HANS  ISPSG
     url: /reading_group/home.html
 
-    
   - titles: 
       # @start locale config
       en      : &EN       Blogs
