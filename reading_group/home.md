@@ -112,17 +112,14 @@ key: page-is_paper_sharing
 
   <div class="container">
       <h1>Welcome to the Information Systems Paper Sharing Group (PSG)</h1>
-      <p>Inspired by the spirit of open academic discussion, the Information Systems Paper Sharing Group (PSG) aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems.</p>
+      <p>Inspired by the spirit of open academic discussion, the IS Paper Sharing Group (PSG) aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of IS.</p>
 
     <h2>Mission</h2>
     <p> One more critique makes the paper better.  </p>
 
       <h2>Purpose</h2>
-      <p>This series is primarily designed for PhD students, who are eager to deepen their understanding of Information Systems. We also welcome the participation of senior scholars to enrich discussions and offer their expertise. </p>
+      <p>This series is primarily designed for PhD students, who are eager to deepen their understanding of IS. We also welcome the participation of senior scholars to enrich discussions and offer their expertise. </p>
       <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:bruce.s.y.jin@gmail.com">bruce.s.y.jin@gmail.com</a>.</p>
-
-      <!-- <h2>Acknowledgement</h2>
-      <p>The PSG was initiated by myself and Zhe Wang from PolyU, with Tonglin Zhang contributing to the design of our posters.</p> -->
 
       <h2>Meeting Details</h2>
       <p><strong>Time:</strong> Wednesday, 9:00 - 10:00 AM (HKT)</p>
@@ -163,6 +160,11 @@ key: page-is_paper_sharing
       </div>
 
       <p>Join us to expand your knowledge of Information Systems through engaging discussions and thoughtful critiques!</p>
+
+      <h2>Acknowledgement</h2>
+      <p>The PSG was initiated by myself and Zhe Wang from PolyU. Now we have six coorganizers: Jingyuan Deng, Yihan Deng, Weibo Li, Xuwen Han, Zhe Wang, and myself.
+      Tonglin Zhang contributed to our poster making for 6 months.
+      </p>
   </div>
 
 </body>
