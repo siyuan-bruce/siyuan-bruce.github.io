@@ -47,7 +47,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  ISPSG
-  url: /reading_group/home.html
+    url: /reading_group/home.html
     
   - titles: 
       # @start locale config
