@@ -49,7 +49,7 @@ key: page-homepage
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="conference-info">3:00 PM - 4:30 PM TST, 17 Dec, Meeting Room 3, 7th Floor</p>
+    <p class="conference-info">3:00 PM - 4:30 PM TST, 17 Dec, Meeting Room 3, 7th Floor, Bangkok Marriott Marquis Queen's Park</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     
   </li>
@@ -63,7 +63,7 @@ key: page-homepage
       <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="conference-info">8:30 AM - 10:30 AM TST, 17 Dec, Meeting Room 4, 7th Floor</p>
+    <p class="conference-info">8:30 AM - 10:30 AM TST, 17 Dec, Meeting Room 4, 7th Floor, Bangkok Marriott Marquis Queen's Park</p>
   </li>
 
 </ul>
@@ -129,23 +129,8 @@ Inspired by open talks in other subjects, we organize an **information systems**
   <div class="card-content">
     <h3>South China University of Technology</h3>
     <small>Sep 2017 – Jun 2021, Guangzhou, China</small>
-    <ul class="timeline">
-      <li class="timeline-item">
-        B.Fin. in Financial Technology, Rank: 1 / 33, Outstanding Graduates
-      </li>
-      <li class="timeline-item">
-        2021 University-level excellent graduation thesis
-      </li>
-      <li class="timeline-item">
-        2020 China National Scholarship (Top 0.1%)
-      </li>
-      <li class="timeline-item">
-        2018, 2019 University-level First Prize (Top 1%)
-      </li>
-    </ul>
   </div>
-  <!-- <img src="./assets/images/logo/South_China_University_of_Technology_logo.png" alt="SCUT Logo" class="university-logo"> -->
-</div>
+  </div>
 
 ## Industry Consulting
 <!-- - **HSBC Hong Kong** (Sep 2022 - now)
@@ -268,11 +253,11 @@ I am open to co-start any interesting topics related to blockchain and IT govern
     text-align: left;
   }
 
-  ul {
+      ul {
       list-style-type: none; /* Remove the default bullets */
       padding-left: 0;
     }
-
+    
   .paper-item {
       margin-bottom: 30px;
       padding-left: 15px;
