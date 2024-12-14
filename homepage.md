@@ -268,6 +268,35 @@ I am open to co-start any interesting topics related to blockchain and IT govern
     text-align: left;
   }
 
+  .paper-item {
+      margin-bottom: 30px;
+      padding-left: 15px;
+      border-left: 4px solid #333; /* Subtle border instead of bullet */
+    }
+
+    .paper-title {
+      font-size: 24px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #333;
+      line-height: 1.4;
+    }
+
+    .paper-authors {
+      font-size: 16px;
+      font-weight: 400;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .conference-info {
+      color: grey;
+      font-weight: 600;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+
   @media screen and (min-width: 600px) {
     .container {
       display: flex;
