@@ -144,9 +144,6 @@ Inspired by open talks in other subjects, we organize an **information systems**
     <small>Sep 2022 - now, Olympian City, Hong Kong</small>
     <ul class="timeline">
       <li class="timeline-item">
-        Research in CBDC, AI, and Software Engineering.
-      </li>
-      <li class="timeline-item">
       HSBC Email: bruce.s.jin@hsbc.com.hk
       </li>
     </ul>
@@ -155,18 +152,6 @@ Inspired by open talks in other subjects, we organize an **information systems**
 </div>
 
 ## **Employment**
-<!-- - **HSBC Laboratory** (May 2021 - Aug 2022)
-  - Permanent Full Stack Engineer on Quantum Computing & CBDC Research
-  - Advisor: Yong Xia
-  - 2021 Top Performer \| 2021 Role Model \| 2021 Global CBDC Challenge Finalist \| Interviewed many PhDs for quantum scientists
-  - Central Bank Digital Currency (E-CNY \| E-HKD) \| Stablecoin \| ESG \| Quantum Portfolio Optimization
-
-- **HSBC IT Architecture** (Sep 2020 - May 2021)
-  - Internship on CBDC work
-  - Advisor: Yong Xia
-  - Angle Fund Winner \| Corda Prototype Development -->
-
-
 <div class="card">
   <div class="card-content">
     <h3>HSBC Laboratory</h3>
@@ -180,9 +165,6 @@ Inspired by open talks in other subjects, we organize an **information systems**
       </li>
       <li class="timeline-item">
         Achievements: 2021 Top Performer, 2021 Role Model, 2021 Global CBDC Challenge Finalist.
-      </li>
-      <li class="timeline-item">
-        Key Areas: Central Bank Digital Currency (E-CNY, E-HKD), Stablecoin, ESG, Quantum Portfolio Optimization.
       </li>
     </ul>
   </div>
@@ -202,26 +184,10 @@ Inspired by open talks in other subjects, we organize an **information systems**
       <li class="timeline-item">
         Achievements: Angle Fund Winner.
       </li>
-        <li class="timeline-item">
-        Key Areas: Central Bank Digital Currency (E-CNY).
-      </li>
-      <li class="timeline-item">
-        Skills: Corda Prototype Development.
-      </li>
     </ul>
   </div>
 </div>
-  
-<!-- ## **Awards**
-- Sep 2022: HKUST PhD Postgraduate Studentship
-- Nov 2021: [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries)
-- Jun 2021: Outstanding Graduates \| University-level excellent graduation thesis (Top 1%) -->
 
-## Language
-- Mandarin (Native)
-- English (Proficient, IELTS 7.5 (9))
-- Cantonese (Beginner)
-  
 ## **Contact**
 I am open to co-start any interesting topics related to blockchain and IT governance. Please feel free to contact me.
 - Email: siyuan.jin@connect.ust.hk
