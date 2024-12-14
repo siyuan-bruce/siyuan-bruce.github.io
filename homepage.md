@@ -54,7 +54,6 @@ key: page-homepage
     
   </li>
 
-
   <li class="paper-item">
     <div class="paper-title">
       Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement.
@@ -65,7 +64,6 @@ key: page-homepage
     </div>
     <p class="conference-info">8:30 AM - 10:30 AM TST, 17 Dec, Meeting Room 4, 7th Floor, Bangkok Marriott Marquis Queen's Park</p>
   </li>
-
 </ul>
 
 ## News
@@ -80,7 +78,6 @@ key: page-homepage
 - **2024-05**: One paper was selected by **HKUST PhD Student Conference**.
 - **2023-10**: Joint policy paper “e-HKD Pilot Programme” was published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
 - **2022-12**: I was invited to be a mentor for **2022 HKUST Fintechstic Competition**.
-
 
 ## IS Paper Sharing Group
 Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly the beginners in this field, particularly PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
@@ -109,12 +106,9 @@ Inspired by open talks in other subjects, we organize an **information systems**
 
 <div class="card">
   <div class="card-content">
-    <h3>Hong Kong University of Science and Technology</h3>
+    <h3>PhD Candidate in Information Systems, Hong Kong University of Science and Technology</h3>
     <small>Aug 2022 - Present, Clear Water Bay, Hong Kong</small>
     <ul class="timeline">
-      <li class="timeline-item">
-        PhD Candidate in Information Systems
-      </li>
       <li class="timeline-item">
         Supervisor:&nbsp;<strong>Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
       </li>
@@ -128,7 +122,7 @@ Inspired by open talks in other subjects, we organize an **information systems**
 
 <div class="card">
   <div class="card-content">
-    <h3>South China University of Technology</h3>
+    <h3>Bachelor of FinTech, South China University of Technology</h3>
     <small>Sep 2017 – Jun 2021, Guangzhou, China</small>
         <ul class="timeline">
       <li class="timeline-item">
@@ -139,14 +133,9 @@ Inspired by open talks in other subjects, we organize an **information systems**
 </div>
 
 ## Industry Experience
-<!-- - **HSBC Hong Kong** (Sep 2022 - now)
-  - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
-  - Seven patents are already filed.
-  - HSBC Email: bruce.s.jin@hsbc.com.hk -->
-
 <div class="card">
   <div class="card-content">
-    <h3>HSBC Hong Kong</h3>
+    <h3>Research Consultant, HSBC Hong Kong</h3>
     <small>Sep 2022 - now, Olympian City, Hong Kong</small>
     <ul class="timeline">
       <li class="timeline-item">
@@ -158,12 +147,9 @@ Inspired by open talks in other subjects, we organize an **information systems**
 
 <div class="card">
   <div class="card-content">
-    <h3>HSBC Laboratory</h3>
+    <h3>Full Stack Engineer, HSBC Laboratory</h3>
     <small>May 2021 - Aug 2022, Guangzhou, China</small>
     <ul class="timeline">
-      <li class="timeline-item">
-        Full Stack Engineer
-      </li>
       <li class="timeline-item">
         Advisor: Yong Xia
       </li>
@@ -176,7 +162,7 @@ Inspired by open talks in other subjects, we organize an **information systems**
 
 <div class="card">
   <div class="card-content">
-    <h3>HSBC IT Architecture</h3>
+    <h3>Trainee, HSBC IT Architecture</h3>
     <small>Sep 2020 - May 2021, Guangzhou, China</small>
   </div>
 </div>
