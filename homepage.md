@@ -138,7 +138,7 @@ Inspired by open talks in other subjects, we organize an **information systems**
   </div>
 </div>
 
-## Industry Consulting
+## Industry Experience
 <!-- - **HSBC Hong Kong** (Sep 2022 - now)
   - Research Work in CBDC, Quantum Finance, AI, and Software Engineering.
   - Seven patents are already filed.
@@ -154,10 +154,8 @@ Inspired by open talks in other subjects, we organize an **information systems**
       </li>
     </ul>
   </div>
-  <!-- <img src="./assets/images/logo/South_China_University_of_Technology_logo.png" alt="SCUT Logo" class="university-logo"> -->
 </div>
 
-## **Employment**
 <div class="card">
   <div class="card-content">
     <h3>HSBC Laboratory</h3>
