@@ -178,17 +178,6 @@ Inspired by open talks in other subjects, we organize an **information systems**
   <div class="card-content">
     <h3>HSBC IT Architecture</h3>
     <small>Sep 2020 - May 2021, Guangzhou, China</small>
-    <ul class="timeline">
-      <li class="timeline-item">
-        Internship.
-      </li>
-      <li class="timeline-item">
-        Advisor: Yong Xia
-      </li>
-      <li class="timeline-item">
-        Achievements: Angle Fund Winner.
-      </li>
-    </ul>
   </div>
 </div>
 
