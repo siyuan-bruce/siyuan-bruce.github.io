@@ -268,6 +268,11 @@ I am open to co-start any interesting topics related to blockchain and IT govern
     text-align: left;
   }
 
+  ul {
+      list-style-type: none; /* Remove the default bullets */
+      padding-left: 0;
+    }
+
   .paper-item {
       margin-bottom: 30px;
       padding-left: 15px;
