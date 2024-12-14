@@ -69,6 +69,7 @@ key: page-homepage
 </ul>
 
 ## News
+- **2024-12**: I was selected for the **MISQ Reviewer Workshop**.
 - **2024-12**: I was nominated for the HKUST **Young Scientists Program Award (FinTech)**.
 - **2024-11**: The K-Pop paper was nominated for the **2024 ICIS Best Short Paper Award**.
 - **2024-11**: One paper was presented by the **2024 Greater Bay Area Finance Workshop**.
@@ -129,8 +130,13 @@ Inspired by open talks in other subjects, we organize an **information systems**
   <div class="card-content">
     <h3>South China University of Technology</h3>
     <small>Sep 2017 – Jun 2021, Guangzhou, China</small>
+        <ul class="timeline">
+      <li class="timeline-item">
+        China National Scholarship (Top 0.1%)
+      </li>
+    </ul>
   </div>
-  </div>
+</div>
 
 ## Industry Consulting
 <!-- - **HSBC Hong Kong** (Sep 2022 - now)
