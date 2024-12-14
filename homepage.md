@@ -38,6 +38,36 @@ key: page-homepage
   </div>
 </div>
 
+## Upcoming Talks
+<ul>
+  <li class="paper-item">
+    <div class="paper-title">
+      When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
+      <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
+    <p class="conference-info">3:00 PM - 4:30 PM TST, 17 Dec, Meeting Room 3, 7th Floor</p>
+    <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
+    
+  </li>
+
+
+  <li class="paper-item">
+    <div class="paper-title">
+      Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
+    <p class="conference-info">8:30 AM - 10:30 AM TST, 17 Dec, Meeting Room 4, 7th Floor</p>
+  </li>
+
+</ul>
+
 ## News
 - **2024-12**: I was nominated for the HKUST **Young Scientists Program Award (FinTech)**.
 - **2024-11**: The K-Pop paper was nominated for the **2024 ICIS Best Short Paper Award**.
