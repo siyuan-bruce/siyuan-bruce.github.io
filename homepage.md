@@ -38,7 +38,7 @@ key: page-homepage
   </div>
 </div>
 
-## Upcoming Talks
+<!-- ## Upcoming Talks
 <ul>
   <li class="paper-item">
     <div class="paper-title">
@@ -64,7 +64,7 @@ key: page-homepage
     </div>
     <p class="conference-info">8:30 AM - 10:30 AM TST, 17 Dec, Meeting Room 4, 7th Floor, Bangkok Marriott Marquis Queen's Park</p>
   </li>
-</ul>
+</ul> -->
 
 ## News
 - **2024-12**: I was selected for the **MISQ Reviewer Workshop**.
