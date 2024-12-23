@@ -161,7 +161,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       "Quantum Tokens via Cloud: A Practical and Quantum-Resistant Digital Token Protocol".
     </div>
     <div class="paper-authors">
-      Yichi Zhang, <strong>Siyuan Jin</strong>, Bei Zeng.
+      Yichi Zhang, <strong>Siyuan Jin</strong>.
     </div>
   </li>
 

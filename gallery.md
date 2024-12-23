@@ -130,7 +130,11 @@ permalink: /gallery.html
 
 <div class="year-section">
   <h3>2024</h3>
-  <div class="event">
+        <div class="event">
+            <h4>HKUST PhD Friends Gathering, Bangkok.</h4>
+            <p>We are gathering to celebrate ICIS participation.</p>
+            <img src="assets/images/gallery/bangkok.jpeg" alt="2024 Bangkok">
+        <div class="event">
           <h4>HKUST PhD Students Outdoor Activities, Seattle.</h4>
           <p>We are walking through National Olympic Park.</p>
           <img src="assets/images/gallery/2024_Olympic_national_park.jpg" alt="2024 Olympic National Park">
