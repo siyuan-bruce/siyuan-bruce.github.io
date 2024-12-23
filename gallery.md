@@ -133,7 +133,7 @@ permalink: /gallery.html
         <div class="event">
             <h4>HKUST PhD Friends Gathering, Bangkok.</h4>
             <p>We are gathering to celebrate ICIS participation.</p>
-            <img src="assets/images/gallery/bangkok.jpeg" alt="2024 Bangkok">
+            <img src="assets/images/gallery/Bangkok.jpeg" alt="2024 Bangkok">
         </div>
         <div class="event">
             <h4>ICIS Conference, Bangkok - My first IS conference.</h4>
