@@ -134,6 +134,12 @@ permalink: /gallery.html
             <h4>HKUST PhD Friends Gathering, Bangkok.</h4>
             <p>We are gathering to celebrate ICIS participation.</p>
             <img src="assets/images/gallery/bangkok.jpeg" alt="2024 Bangkok">
+        </div>
+        <div class="event">
+            <h4>ICIS Conference, Bangkok - My first IS conference.</h4>
+            <p>I presented two works at ICIS.</p>
+            <img src="assets/images/gallery/first_ICIS.jpg" alt="2024 ICIS">
+        </div>
         <div class="event">
           <h4>HKUST PhD Students Outdoor Activities, Seattle.</h4>
           <p>We are walking through National Olympic Park.</p>
