@@ -147,12 +147,12 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Can Analogical Principles Help Quantum Computing Adoption? Evidence from Quantum Monte Carlo Analysis.
+      Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
-      Bei Zeng, Qiming Shao, Yuhan Huang, Yong Xia, Bing Zhu, Ziyuan Li.
+      Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
   </li>
 
