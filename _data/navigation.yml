@@ -59,15 +59,15 @@ header:
       zh-Hans : &ZH_HANS  Gallery
     url: /gallery.html
 
-  - titles: 
-      # @start locale config
-      en      : &EN       Resume
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  Resume
-    url: /assets/Bruce_CV_Dec.pdf
+  # - titles: 
+  #     # @start locale config
+  #     en      : &EN       Resume
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     zh-Hans : &ZH_HANS  Resume
+  #   url: /assets/Bruce_CV_Dec.pdf
 
   # - titles: 
   #     # @start locale config
