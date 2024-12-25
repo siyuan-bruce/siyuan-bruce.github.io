@@ -29,11 +29,11 @@ key: page-homepage
   </div>
     <div class="profile-text">
     <em>Where there is a will, there is a way.</em>
+  <p>
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD Candidate in HKUST Information Systems (IS) Department, supervised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He received the <em>China National Scholarship</em> in 2020 and the <em>Hong Kong PhD Fellowship (HKPFS)</em> award in 2024. His papers have been accepted by top Information Systems (IS)conferences, including the <em>International Conference on Information Systems (ICIS)</em> and the <em>Conference on Information Systems and Technology (CIST)</em>.
+  </p>
     <p>
-      Siyuan (Bruce) JIN (金思远) is a PhD Candidate in HKUST Information Systems (IS) Department, supervised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He received China National Scholarship in 2020 and Hong Kong PhD Fellowship (HKPFS) award in 2024. His papers have been accepted by top IS conferences including International Conference on Information Systems (ICIS), Conference on Information Systems and Technology (CIST).
-  </p> 
-    <p>
-      Prior to HKUST, Bruce worked as a software engineer at HSBC IT Architecture and <a href = "https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>. His work has been recognized through several accolades including the 2021 Top Performer award, the 2021 Role Model honor, and <a href = "https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global Central Bank Digital Currency (CBDC) Challenge finalist</a> hosted by the Monetary Authority of Singapore.
+      Prior to HKUST, Bruce worked as a software engineer at HSBC IT Architecture and <a href = "https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>. His work has been recognized through several accolades including the <em>2021 Top Performer award</em>, the <em>2021 Role Model honor</em>, and <a href = "https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global Central Bank Digital Currency (CBDC) Challenge finalist</a> hosted by the Monetary Authority of Singapore.
     </p>
   </div>
 </div>
