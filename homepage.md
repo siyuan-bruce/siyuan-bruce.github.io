@@ -219,7 +219,7 @@ I am open to co-start interesting topics related to blockchain and IT governance
     }
 
     .paper-authors {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 400;
       color: #555;
       margin-bottom: 10px;
