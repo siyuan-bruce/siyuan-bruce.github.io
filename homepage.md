@@ -67,17 +67,17 @@ key: page-homepage
 </ul> -->
 
 ## News
-- **2024-12**: I was selected for the **MISQ Reviewer Workshop**.
-- **2024-12**: I was nominated for the HKUST **Young Scientists Program Award (FinTech)**.
-- **2024-11**: The K-Pop paper was nominated for the **2024 ICIS Best Short Paper Award**.
-- **2024-11**: One paper was presented by the **2024 Greater Bay Area Finance Workshop**.
-- **2024-08**: Two papers were accepted by the **2024 CIST**.
-- **2024-07**: Two papers were conditonally accepted by the **2024 ICIS**.
-- **2024-07**: I passed the **PhD Qualification Exam** and became a PhD candidate.
-- **2024-06**: One paper was accepted by **MIS Quarterly Virtual Paper Development Workshop**.
-- **2024-05**: One paper was selected by **HKUST PhD Student Conference**.
+- **2024-12**: I was selected for the **_MISQ Reviewer Workshop_**.
+- **2024-12**: I was nominated for the HKUST **_Young Scientists Program Award (FinTech)_**.
+- **2024-11**: The K-Pop paper was nominated for the **_2024 ICIS Best Short Paper Award_**.
+- **2024-11**: One paper was presented by the **_2024 Greater Bay Area Finance Workshop_**.
+- **2024-08**: Two papers were accepted by the **_2024 CIST_**.
+- **2024-07**: Two papers were conditonally accepted by the **_2024 ICIS_**.
+- **2024-07**: I passed the **_PhD Qualification Exam_** and became a PhD candidate.
+- **2024-06**: One paper was accepted by **_MIS Quarterly Virtual Paper Development Workshop_**.
+- **2024-05**: One paper was selected by **_HKUST PhD Student Conference_**.
 - **2023-10**: Joint policy paper “e-HKD Pilot Programme” was published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
-- **2022-12**: I was invited to be a mentor for **2022 HKUST Fintechstic Competition**.
+- **2022-12**: I was invited to be a mentor for **_2022 HKUST Fintechstic Competition_**.
 
 ## IS Paper Sharing Group
 Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly the beginners in this field, particularly PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
