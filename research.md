@@ -61,7 +61,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
-  
 
   <li class="paper-item">
     <div class="paper-title">
@@ -94,6 +93,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       switches user preferences for operational transparency. Higher levels of transparency,
       characterized by frequent and detailed information disclosures, may be perceived as
       catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
+    </details>
   </li>
 </ul>
   
