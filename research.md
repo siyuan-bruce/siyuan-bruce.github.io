@@ -102,6 +102,18 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
     <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
+      <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>This study investigates the public’s perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which
+      could be implemented in Hong Kong. Participants’ opinions on rCBDCs were assessed
+      through surveys conducted before and after their engagement with the e-HKD pilot.
+      Initially, participants displayed a broadly positive attitude towards rCBDC, although no
+      single factor emerged as a decisive influence on their adoption decision. However, the
+      pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness
+      to adopt rCBDC. This study underscores the importance of understanding consumer
+      perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.
+      Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
+    </details>
   </li>
 
   <li class="paper-item">
