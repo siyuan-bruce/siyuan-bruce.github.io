@@ -61,6 +61,22 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
+  
+
+  <li class="paper-item">
+    <div class="paper-title">
+      When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
+      <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
+    <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
+    <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
+    
+  </li>
+
   <li class="paper-item">
     <div class="paper-title">
       Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement.
@@ -78,20 +94,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       switches user preferences for operational transparency. Higher levels of transparency,
       characterized by frequent and detailed information disclosures, may be perceived as
       catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
-  </li>
-
-  <li class="paper-item">
-    <div class="paper-title">
-      When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO.
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
-      <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
-    </div>
-    <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
-    <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
-    
   </li>
 </ul>
   
