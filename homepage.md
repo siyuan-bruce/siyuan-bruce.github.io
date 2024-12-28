@@ -168,7 +168,6 @@ Inspired by open talks in other subjects, we organize an **information systems**
 </div>
 
 ## **Contact**
-I am open to co-start interesting topics related to blockchain and IT governance. Please feel free to contact me.
 - Email: siyuan.jin@connect.ust.hk
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
