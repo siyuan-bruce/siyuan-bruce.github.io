@@ -101,7 +101,7 @@ Inspired by open talks in other subjects, we organize an **information systems**
   - Obtained 2020 China National Scholarship (Top 0.1%)
   - Obtained 2019 First prize of South China University of Technology (Top 1%)
   - Obtained 2018 First prize of South China University of Technology (Top 1%) -->
-
+<!-- 
 ## Education
 
 <div class="card">
@@ -117,7 +117,6 @@ Inspired by open talks in other subjects, we organize an **information systems**
       </li>
     </ul>
   </div>
-  <!-- <img src="./assets/images/logo/logo.png" alt="HKUST Logo" class="university-logo"> -->
 </div>
 
 <div class="card">
@@ -165,7 +164,7 @@ Inspired by open talks in other subjects, we organize an **information systems**
     <h3>Trainee, HSBC IT Architecture</h3>
     <small>Sep 2020 - May 2021, Guangzhou, China</small>
   </div>
-</div>
+</div> -->
 
 ## **Contact**
 - Email: siyuan.jin@connect.ust.hk
