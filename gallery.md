@@ -136,7 +136,7 @@ permalink: /gallery.html
             <img src="assets/images/gallery/Bangkok.jpeg" alt="2024 Bangkok">
         </div>
         <div class="event">
-            <h4>ICIS Conference, Bangkok - My first IS conference.</h4>
+            <h4>ICIS Conference, Bangkok - My first ICIS conference.</h4>
             <p>I presented two works at ICIS.</p>
             <img src="assets/images/gallery/first_ICIS.jpg" alt="2024 ICIS">
         </div>
@@ -146,7 +146,7 @@ permalink: /gallery.html
           <img src="assets/images/gallery/2024_Olympic_national_park.jpg" alt="2024 Olympic National Park">
       </div>
         <div class="event">
-          <h4>CIST Presentation, Seattle - My first IS presentation.</h4>
+          <h4>CIST Presentation, Seattle - My first IS and CIST presentation.</h4>
           <p>I am presenting the paper titled as "When KPOP meets Blockchain: The Impact of DAO Voting on Consumer Engagement"</p>
           <img src="assets/images/gallery/2024_CIST_pre.jpg" alt="2024 CIST">
       </div>

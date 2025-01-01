@@ -189,7 +189,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
 </ul>
     
-## **Conference Proceedings**
+## **Other Conference Proceedings**
   - **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
 
   - **Siyuan Jin**, Botong Xu, Philip Intallura, Yong Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
