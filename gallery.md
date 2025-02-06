@@ -128,6 +128,18 @@ permalink: /gallery.html
 
   <h1>The story continues to unfold with each new adventure...</h1>
 
+
+
+<div class="year-section">
+  <h3>2025</h3>
+        <div class="event">
+            <h4>MISQ Reviewer Virtual Workshop, Online.</h4>
+            <p>We discussed how to review IS papers.</p>
+            <img src="assets/images/gallery/2025_MISQ_reveiwer_workshop.jpg" alt="2025 MISQ">
+        </div>
+</div>
+
+
 <div class="year-section">
   <h3>2024</h3>
         <div class="event">
