@@ -69,13 +69,13 @@ key: page-homepage
 ## News
 - **2025-02**: One paper was accepted by **_AIOps’25_**!
 - **2024-12**: I was selected for the **_MISQ Reviewer Workshop_**!
-- **2024-12**: Yichi Zhang's paper was accepted by **_Quantum Information Processing_**! 
+- **2024-12**: Coauthor Yichi Zhang's paper was accepted by **_Quantum Information Processing_**! 
 - **2024-12**: I was nominated for the HKUST **_Young Scientists Program Award (FinTech)_**!
 - **2024-11**: The K-Pop paper was nominated for the **_2024 ICIS Best Short Paper Award_**!
 - **2024-11**: One paper was presented by the **_2024 Greater Bay Area Finance Workshop_**!
 - **2024-08**: Two papers were accepted by the **_2024 CIST_**!
-- **2024-07**: Two papers were conditonally accepted by the **_2024 ICIS_**!
-- **2024-07**: Yuhan Huang's paper was accepted by **_Physical Review Research_**! 
+- **2024-07**: Two papers were conditonally accepted by the **_2024 ICIS Blockchain Track_**!
+- **2024-07**: Coauthor PhD Student Yuhan Huang's paper was accepted by **_Physical Review Research_**! 
 - **2024-07**: I passed the **_PhD Qualification Exam_** and became a PhD candidate.
 - **2024-06**: One paper was accepted by **_MIS Quarterly Virtual Paper Development Workshop_**!
 - **2024-05**: One paper was selected by **_HKUST PhD Student Conference_**!
