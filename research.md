@@ -41,7 +41,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, 
+      <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
@@ -205,8 +205,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   - **Siyuan Jin**, Yong Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
     
 ## **Supervising**
-- 2024.02 ~ now: Jieliang Yin (research assistant for CBDC project).
-- 2022.10 ~ now: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
+- 2022.10 ~ 2023.10: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
   - [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
