@@ -45,8 +45,8 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="conference-info">Conferences: 2024 MIS Quarterly Virtual Paper Development Workshop, 2024 Greater Bay Area Finance Workshop</p>
-    <a href="/paper/SSRN_token_Feb9.pdf">[Working paper]</a> 
-    <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a>
+    <a href="/paper/SSRN_token_Feb9.pdf"> [Working paper]</a> 
+    <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
@@ -60,7 +60,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       consistent with green-costing and green-enhancing, respectively.</p>
     </details>
   </li>
-
 
   <li class="paper-item">
     <div class="paper-title">
@@ -87,12 +86,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="conference-info">Conferences: ICIS 2024</p>
     <details class="paper-details">
       <summary>Abstract</summary>
-      <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively
-      distinguish between algorithmic and institutional IT operations, as well as their
-      respective types of operational transparency. We also find that the presence of attackers
-      switches user preferences for operational transparency. Higher levels of transparency,
-      characterized by frequent and detailed information disclosures, may be perceived as
-      catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
+      <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively distinguish between algorithmic and institutional IT operations, as well as their respective types of operational transparency. We also find that the presence of attackers switches user preferences for operational transparency. Higher levels of transparency, characterized by frequent and detailed information disclosures, may be perceived as catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
     </details>
   </li>
 </ul>
@@ -114,15 +108,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
       <details class="paper-details">
       <summary>Abstract</summary>
-      <p>This study investigates the public’s perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which
-      could be implemented in Hong Kong. Participants’ opinions on rCBDCs were assessed
-      through surveys conducted before and after their engagement with the e-HKD pilot.
-      Initially, participants displayed a broadly positive attitude towards rCBDC, although no
-      single factor emerged as a decisive influence on their adoption decision. However, the
-      pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness
-      to adopt rCBDC. This study underscores the importance of understanding consumer
-      perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.
-      Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
+      <p>This study investigates the public’s perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants’ opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
     </details>
   </li>
 
@@ -265,9 +251,13 @@ body {
       margin-top: 8px;
     }
 
+
     a {
       color: #007acc; /* Subtle blue color for links */
+      font-weight: 600;
       text-decoration: none;
+      font-size: 15px;
+      margin-top: 8px;
     }
 
     a:hover {
