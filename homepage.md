@@ -67,7 +67,7 @@ key: page-homepage
 </ul> -->
 
 ## News
-- **2025-03**: Invited to be a mentor for **_2025 HKUST Web3 Ideation Competition_**!
+- **2025-03**: Invited to be a mentor for **_2025 HKUST Web3 Ideathon Competition_**!
 - **2025-02**: One paper was accepted by **_AIOps’25_**!
 - **2024-12**: Selected for the **_MISQ Reviewer Workshop_**!
 - **2024-12**: Coauthor Yichi Zhang's paper was accepted by **_Quantum Information Processing_**! 
