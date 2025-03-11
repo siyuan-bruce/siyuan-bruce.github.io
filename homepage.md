@@ -30,10 +30,10 @@ key: page-homepage
     <div class="profile-text">
     <em>Where there is a will, there is a way.</em>
   <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD Candidate in HKUST Information Systems (IS) Department, supervised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He received the <em>China National Scholarship</em> in 2020 and the <em>Hong Kong PhD Fellowship (HKPFS)</em> award in 2024. His papers have been accepted by top IS conferences, including the <em>International Conference on Information Systems (ICIS)</em> and the <em>Conference on Information Systems and Technology (CIST)</em>.
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD Candidate in HKUST Information Systems (IS), supervised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He received the <em>China National Scholarship</em> in 2020, the <em>Hong Kong PhD Fellowship (HKPFS)</em> award in 2024 and the <em>Young Scientists Program Award</em> in 2025. His papers have been accepted by top IS conferences, including the <em>International Conference on Information Systems (ICIS)</em> and the <em>Conference on Information Systems and Technology (CIST)</em>. He has contributed to several policy papers with Hong Kong Monetary Authority (HKMA).
   </p>
     <p>
-      Prior to HKUST, Bruce worked as a software engineer at HSBC IT Architecture and <a href = "https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>. His work has been recognized through several accolades including the <em>2021 Top Performer award</em>, the <em>2021 Role Model honor</em>, and <a href = "https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global Central Bank Digital Currency (CBDC) Challenge finalist</a> hosted by the Monetary Authority of Singapore.
+      Prior to HKUST, Bruce worked as a full-stack engineer at HSBC IT Architecture and <a href = "https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a> for two years. His work has been recognized through several accolades including the <em>2021 Top Performer award</em>, the <em>2021 Role Model honor</em>, and <a href = "https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global Central Bank Digital Currency (CBDC) Challenge finalist</a> hosted by the Monetary Authority of Singapore.
     </p>
   </div>
 </div>
@@ -67,22 +67,22 @@ key: page-homepage
 </ul> -->
 
 ## News
-- **2025-03**: I was invited to be a mentor for **_2025 HKUST Web3 Ideation Competition_**!
+- **2025-03**: Invited to be a mentor for **_2025 HKUST Web3 Ideation Competition_**!
 - **2025-02**: One paper was accepted by **_AIOps’25_**!
-- **2024-12**: I was selected for the **_MISQ Reviewer Workshop_**!
+- **2024-12**: Selected for the **_MISQ Reviewer Workshop_**!
 - **2024-12**: Coauthor Yichi Zhang's paper was accepted by **_Quantum Information Processing_**! 
-- **2024-12**: I was nominated for the HKUST **_Young Scientists Program Award (FinTech)_**!
+- **2024-12**: Nominated for the HKUST **_Young Scientists Program Award (FinTech)_**!
 - **2024-11**: The K-Pop paper was nominated for the **_2024 ICIS Best Short Paper Award_**!
 - **2024-11**: One paper was presented by the **_2024 Greater Bay Area Finance Workshop_**!
 - **2024-08**: Two papers were accepted by the **_2024 CIST_**!
 - **2024-07**: Two papers were conditonally accepted by the **_2024 ICIS Blockchain Track_**!
 - **2024-07**: Coauthor PhD Student Yuhan Huang's paper was accepted by **_Physical Review Research_**! 
-- **2024-07**: I passed the **_PhD Qualification Exam_** and became a PhD candidate.
+- **2024-07**: Passed the **_PhD Qualification Exam_** and became a PhD candidate.
 - **2024-06**: One paper was accepted by **_MIS Quarterly Virtual Paper Development Workshop_**!
 - **2024-05**: One paper was selected by **_HKUST PhD Student Conference_**!
 - **2023-10**: Joint policy paper “e-HKD Pilot Programme” was published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf)!
 - **2023-09**: One paper was accepted by **QRS 2023**!
-- **2022-12**: I was invited to be a mentor for **_2022 HKUST Fintechstic Competition_**.
+- **2022-12**: Invited to be a mentor for **_2022 HKUST Fintechstic Competition_**.
 
 ## IS Paper Sharing Group
 Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly the beginners in this field, particularly PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
