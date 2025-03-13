@@ -191,10 +191,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   - **Siyuan Jin**, Yong Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
     
 ## **Supervising**
-- 2022.10 ~ 2023.10: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang)
+- 2022.10 ~ 2023.10: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang) [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
-  - [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
 
 ## **Services**
 - Ad hoc Reviewer
@@ -204,9 +203,8 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   - the _Quantum Information Processing (QIP X 1)_.
 - Sep 2018 ~ Mar 2019: Director, _Innovation Club for Science and Technology (SCUT)_
 - Mar 2018 ~ Sep 2018: Member, _Innovation Club for Science and Technology (SCUT)_
-- Initializer [cryptoSupplyData](https://github.com/siyuan-bruce/cryptoSupplyData), cryptocurrency supply data free scraper.
-- Initializer [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
-- Contributor [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
+- [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
+- [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
 
 
 <style>
