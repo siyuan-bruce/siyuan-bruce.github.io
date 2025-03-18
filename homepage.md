@@ -28,8 +28,7 @@ key: page-homepage
 </div>
   </div>
     <div class="profile-text">
-    <em>Where there is a will, there is a way.</em> 
-    
+    <em>Where there is a will, there is a way.</em><br>
     <em>此心光明，亦复何言 - 王阳明 </em>
   <p>
     <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD Candidate in HKUST Information Systems (IS), supervised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He received the <em>China National Scholarship</em> in 2020, the <em>Hong Kong PhD Fellowship (HKPFS)</em> award in 2024 and the <em>Young Scientists Program Award</em> in 2025. His papers have been accepted by top IS conferences, including the <em>International Conference on Information Systems (ICIS)</em> and the <em>Conference on Information Systems and Technology (CIST)</em>. He has contributed to several policy papers with Hong Kong Monetary Authority (HKMA).
@@ -70,7 +69,7 @@ key: page-homepage
 
 ## News
 - **2025-03**: Invited to be a mentor for **_2025 HKUST Web3 Ideathon Competition_**!
-- **2025-02**: One paper was accepted by **_AIOps’25_**!
+- **2025-02**: One paper was accepted by **_AIOps'25_**!
 - **2024-12**: Selected for the **_MISQ Reviewer Workshop_**!
 - **2024-12**: Coauthor Yichi Zhang's paper was accepted by **_Quantum Information Processing_**! 
 - **2024-12**: Nominated for the HKUST **_Young Scientists Program Award (FinTech)_**!
@@ -82,7 +81,7 @@ key: page-homepage
 - **2024-07**: Passed the **_PhD Qualification Exam_** and became a PhD candidate.
 - **2024-06**: One paper was accepted by **_MIS Quarterly Virtual Paper Development Workshop_**!
 - **2024-05**: One paper was selected by **_HKUST PhD Student Conference_**!
-- **2023-10**: Joint policy paper “e-HKD Pilot Programme” was published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf)!
+- **2023-10**: Joint policy paper "e-HKD Pilot Programme" was published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf)!
 - **2023-09**: One paper was accepted by **QRS 2023**!
 - **2022-12**: Invited to be a mentor for **_2022 HKUST Fintechstic Competition_**.
 
