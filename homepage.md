@@ -175,7 +175,7 @@ Inspired by open talks in other subjects, we organize an **information systems**
 - Email: siyuan.jin@connect.ust.hk
 
 ## **Visitors**
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=r7AzHOCvRlal1xYrtPrhKbcA0nnj4jrEj9bMJxTlmEE&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=r7AzHOCvRlal1xYrtPrhKbcA0nnj4jrEj9bMJxTlmEE&cl=ffffff&w=300"></script>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
