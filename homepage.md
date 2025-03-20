@@ -22,7 +22,7 @@ key: page-homepage
 
 <div class="container">
   <div class="profile-image">
-    <img src="./images/profile3.png" alt="Profile Image" />
+    <img src="./images/profile3.png" alt="Profile Image" loading="lazy" />
     <div style="text-align: center;">
    <!-- <em></em> -->
 </div>
