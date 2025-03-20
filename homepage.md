@@ -201,38 +201,6 @@ key: page-homepage
       border-radius: 50%;
     }
 
-    .news-container {
-      margin-top: 15px;
-    }
-
-    .news-item {
-      display: flex;
-      margin-bottom: 12px;
-      align-items: baseline;
-    }
-
-    .news-date {
-      min-width: 80px;
-      font-weight: bold;
-      color: #333;
-      margin-right: 15px;
-    }
-
-    .news-content {
-      flex: 1;
-    }
-
-    @media (max-width: 600px) {
-      .news-item {
-        flex-direction: column;
-        margin-bottom: 15px;
-      }
-      
-      .news-date {
-        margin-bottom: 3px;
-      }
-    }
-
     header.header {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
@@ -315,90 +283,23 @@ key: page-homepage
   </li>
 </ul> -->
 
-## Recent Highlights
-
-<div class="news-container">
-  <div class="news-item">
-    <span class="news-date">Mar 2025</span>
-    <span class="news-content">Selected as mentor for the <strong>HKUST Web3 Ideathon Competition</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Feb 2025</span>
-    <span class="news-content">Research paper accepted for publication in <strong>AIOps'25</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Dec 2024</span>
-    <span class="news-content">Invited to participate in the <strong>MISQ Reviewer Workshop</strong></span>
-  </div>
-  
-  <!-- <div class="news-item">
-    <span class="news-date">Dec 2024</span>
-    <span class="news-content">Coauthor Yichi Zhang's paper accepted by <strong>Quantum Information Processing</strong></span>
-  </div> -->
-  
-  <div class="news-item">
-    <span class="news-date">Dec 2024</span>
-    <span class="news-content">Recipient of the HKUST <strong>Young Scientists Program Award (FinTech)</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Nov 2024</span>
-    <span class="news-content">Research on K-Pop nominated for the <strong>2024 ICIS Best Short Paper Award</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Nov 2024</span>
-    <span class="news-content">Research presented at the <strong>2024 Greater Bay Area Finance Workshop</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Aug 2024</span>
-    <span class="news-content">Two research papers accepted for publication in <strong>2024 CIST</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Jul 2024</span>
-    <span class="news-content">Two research papers conditionally accepted by the <strong>2024 ICIS Blockchain Track</strong></span>
-  </div>
-  
-  <!-- <div class="news-item">
-    <span class="news-date">Jul 2024</span>
-    <span class="news-content">Coauthor PhD Student Yuhan Huang's paper accepted by <strong>Physical Review Research</strong></span>
-  </div> -->
-  
-  <div class="news-item">
-    <span class="news-date">Jul 2024</span>
-    <span class="news-content">Successfully completed the <strong>PhD Qualification Exam</strong> and advanced to candidacy</span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Jun 2024</span>
-    <span class="news-content">Research paper accepted for the <strong>MIS Quarterly Virtual Paper Development Workshop</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">May 2024</span>
-    <span class="news-content">Research selected for presentation at the <strong>HKUST PhD Student Conference</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Oct 2023</span>
-    <span class="news-content">Contributed to joint policy paper "e-HKD Pilot Programme" published by <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf"><strong>HKMA</strong></a></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Sep 2023</span>
-    <span class="news-content">Research paper accepted for publication in <strong>QRS 2023</strong></span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Dec 2022</span>
-    <span class="news-content">Selected as mentor for the <strong>2022 HKUST Fintechstic Competition</strong></span>
-  </div>
-</div>
-
+## News
+- **2025-03**: Selected as a mentor for the **_2025 HKUST Web3 Ideathon Competition_**.
+- **2025-02**: Research paper accepted for publication in **_AIOps'25_**.
+- **2024-12**: Invited to participate in the **_MISQ Reviewer Workshop_**.
+<!-- - **2024-12**: Coauthor Yichi Zhang's paper was accepted by **_Quantum Information Processing_**!  -->
+- **2024-12**: Recipient of the HKUST **_Young Scientists Program Award (FinTech)_**.
+- **2024-11**: Research on K-Pop nominated for the **_2024 ICIS Best Short Paper Award_**.
+- **2024-11**: Research presented at the **_2024 Greater Bay Area Finance Workshop_**.
+- **2024-08**: Two research papers accepted for publication in **_2024 CIST_**.
+- **2024-07**: Two research papers conditionally accepted by the **_2024 ICIS Blockchain Track_**.
+<!-- - **2024-07**: Coauthor PhD Student Yuhan Huang's paper was accepted by **_Physical Review Research_**!  -->
+- **2024-07**: Successfully completed the **_PhD Qualification Exam_** and advanced to candidacy.
+- **2024-06**: Research paper accepted for the **_MIS Quarterly Virtual Paper Development Workshop_**.
+- **2024-05**: Research selected for presentation at the **_HKUST PhD Student Conference_**.
+- **2023-10**: Contributed to joint policy paper "e-HKD Pilot Programme" published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
+- **2023-09**: Research paper accepted for publication in **_QRS 2023_**.
+- **2022-12**: Selected as a mentor for the **_2022 HKUST Fintechstic Competition_**.
 
 ## IS Paper Sharing Group
 Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly the beginners in this field, particularly PhD students. We are also targeting more advanced topics in this area by inviting experts in information systems. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
