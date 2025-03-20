@@ -51,7 +51,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <summary>Abstract</summary>
       <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
       is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness 
-      of their environmental impacts. We consider Elon Musk’s 2021 announcement that Tesla would suspend accepting Bitcoin as payment because 
+      of their environmental impacts. We consider Elon Musk's 2021 announcement that Tesla would suspend accepting Bitcoin as payment because 
       of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. 
       We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are 
       more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower 
@@ -63,7 +63,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO.
+      Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
@@ -72,7 +72,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </div>
     <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
-    
+    <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5168841"> [Working paper]</a>
   </li>
 
   <li class="paper-item">
@@ -108,7 +108,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
       <details class="paper-details">
       <summary>Abstract</summary>
-      <p>This study investigates the public’s perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants’ opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
+      <p>This study investigates the public's perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants' opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
     </details>
   </li>
 
@@ -125,11 +125,11 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 </ul>
 
 #### **Policy Papers**
-  - Joint with HKUST School of Business and Management and HSBC Holdings plc (2023). “e-HKD Pilot Programme”. [[Summary]](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf) [[Hong Kong Monetary Authority Report]](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
+  - Joint with HKUST School of Business and Management and HSBC Holdings plc (2023). "e-HKD Pilot Programme". [[Summary]](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf) [[Hong Kong Monetary Authority Report]](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
   
       <!-- **Abstract**: The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants. -->
 
-  - Yong Xia, **Siyuan Jin**, Bing Qu, Yingli Liu, Linzhen Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  “Global CBDC Challenge Report”. Awarded as [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries) [[Monetary Authority of Singapore Report]](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf)
+  - Yong Xia, **Siyuan Jin**, Bing Qu, Yingli Liu, Linzhen Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  "Global CBDC Challenge Report". Awarded as [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries) [[Monetary Authority of Singapore Report]](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf)
 
       <!-- **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options. -->
 
@@ -176,7 +176,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 </ul>
     
 ## **Other Conference Proceedings**
-  - **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia (2023). “Software Code Quality Measurement: Implications from Metric Distributions”. 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
+  - **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia (2023). "Software Code Quality Measurement: Implications from Metric Distributions". 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
 
   - **Siyuan Jin**, Botong Xu, Philip Intallura, Yong Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
 
