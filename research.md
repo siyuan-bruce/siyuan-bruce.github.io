@@ -290,14 +290,14 @@ body {
       color: #444;
     }
 
-    .status-info {
-      color: #003366; /* Dark blue color */
-      font-weight: bold;
-      font-size: 16px;
-      margin-top: 10px;
-      background-color: #e6f2ff; /* Light blue background */
-      padding: 5px;
-      border-radius: 5px;
-    }
+  .status-info {
+    color: #003366; /* Dark blue color */
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 5px;
+    border-radius: 5px;
+  }
 
 </style>
