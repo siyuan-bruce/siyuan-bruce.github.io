@@ -44,6 +44,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
+    <p class="status-info">Under 1st round revision from JMIS (FT50)</p>
     <p class="conference-info">Conferences: 2024 MIS Quarterly Virtual Paper Development Workshop, 2024 Greater Bay Area Finance Workshop</p>
     <a href="/paper/SSRN_token_Feb9.pdf"> [Working paper]</a> 
     <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
@@ -253,6 +254,15 @@ body {
       margin-top: 8px;
     }
 
+    .special-info {
+      color: #ff6347; /* Example color */
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 10px;
+      background-color: #f0f0f0; /* Example background */
+      padding: 5px;
+      border-radius: 5px;
+    }
 
     a {
       color: #007acc; /* Subtle blue color for links */
@@ -278,6 +288,16 @@ body {
       margin-top: 10px;
       font-size: 16px;
       color: #444;
+    }
+
+    .status-info {
+      color: #ff6347; /* Example color */
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 10px;
+      background-color: #f0f0f0; /* Example background */
+      padding: 5px;
+      border-radius: 5px;
     }
 
 </style>
