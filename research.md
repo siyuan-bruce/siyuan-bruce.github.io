@@ -181,15 +181,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </div>
   </li>
 
-  <li class="paper-item">
-    <div class="paper-title">
-      The Effect of Virtual Peer on User Engagement in Online Learning Platforms: A Field Experiment.
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Xincheng Ma
-    </div>
-  </li>
-
   <!-- <li class="paper-item">
     <div class="paper-title">
       "Quantum Tokens via Cloud: A Practical and Quantum-Resistant Digital Token Protocol".
