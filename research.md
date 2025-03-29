@@ -183,7 +183,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      The Direct Effect of Virtual Peer on User Engagement in Online Learning Platforms: A Field Experiment.
+      The Effect of Virtual Peer on User Engagement in Online Learning Platforms: A Field Experiment.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Xincheng Ma
