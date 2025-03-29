@@ -62,6 +62,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
+
   <li class="paper-item">
     <div class="paper-title">
       Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community.
@@ -71,6 +72,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
+    <p class="status-info">Under 1st round review</p>
     <p class="conference-info">Conferences: ICIS 2024, CIST 2024</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
@@ -78,6 +80,15 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <summary>Abstract</summary>
       <p>Traditional centralized models allow consumers to provide input, but are often limited by selection biases. Instead, blockchain-based decentralized models extend all consumer voice but face sustainability challenges including unsustained contributions and voting power concentration. Utilizing data from a blockchain-based K-pop platform, this study investigates whether fans continue contributing to the platform after initially participating in voting rounds. Findings indicate that voting power becomes less concentrated over time, likely because voters who have smaller voting power value the equity of decentralized voting and increase both tangible and intangible contributions. Conversely, voters who have larger voting power experience expectation disconfirmation; they begin with high expectations about influencing outcomes but if their preferences are disappointed, they decrease tangible contributions while maintaining intangible contributions. We use value cocreation and expectation disconfirmation theory to explain the phenomenon. This study contributes to blockchain and user innovation research and offers practical insights for platform designers aiming to create equitable, sustainable consumer-driven ecosystems.</p>
     </details>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">
+      Breaking the Barrier or Breaking the Market? Evidence from Non-Fungible Token Platforms.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Ying Hao, Hongfei Li, Keongtae Kim
+    </div>
   </li>
 
   <li class="paper-item">
