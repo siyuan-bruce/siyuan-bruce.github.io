@@ -289,10 +289,12 @@ key: page-homepage
 - **2024-12**: Invited to participate in the **_MISQ Reviewer Workshop_**.
 <!-- - **2024-12**: Coauthor Yichi Zhang's paper was accepted by **_Quantum Information Processing_**!  -->
 - **2024-12**: Recipient of the HKUST **_Young Scientists Program Award (FinTech)_**.
-- **2024-11**: Research on K-Pop nominated for the **_2024 ICIS Best Short Paper Award_**.
+- **2024-11**: Research on blockchain-based K-Pop community nominated for the **_2024 ICIS Best Short Paper Award_**.
 - **2024-11**: Research presented at the **_2024 Greater Bay Area Finance Workshop_**.
-- **2024-08**: Two research papers accepted for publication in **_2024 CIST_**.
-- **2024-07**: Two research papers conditionally accepted by the **_2024 ICIS Blockchain Track_**.
+- **2024-08**: Research on blockchain-based K-Pop community accepted for publication in **_2024 CIST_**.
+- **2024-08**: Research on code reviewer accepted for publication in **_2024 CIST_**.
+- **2024-07**: Research on blockchain-based K-Pop community accepted by the **_2024 ICIS Fintech Track_**.
+- **2024-07**: Research on stablecoin transparency accepted by the **_2024 ICIS_**.
 <!-- - **2024-07**: Coauthor PhD Student Yuhan Huang's paper was accepted by **_Physical Review Research_**!  -->
 - **2024-07**: Successfully completed the **_PhD Qualification Exam_** and advanced to candidacy.
 - **2024-06**: Research paper accepted for the **_MIS Quarterly Virtual Paper Development Workshop_**.
