@@ -97,14 +97,20 @@ key: page-is_paper_sharing
         }
 
         .poster-grid img {
-            max-width: 100%;
+            max-width: 45%;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
         }
 
         .poster-grid img:hover {
             transform: scale(1.05);
-            transition: transform 0.3s ease;
+        }
+        
+        @media (min-width: 1200px) {
+            .poster-grid img {
+                max-width: 30%;
+            }
         }
     </style>
 </head>
