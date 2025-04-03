@@ -89,28 +89,23 @@ key: page-is_paper_sharing
         }
 
         .poster-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
             gap: 20px;
-            margin-top: 20px;
+            justify-items: center;
         }
 
         .poster-grid img {
-            max-width: 45%;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
 
         .poster-grid img:hover {
-            transform: scale(1.05);
-        }
-        
-        @media (min-width: 1200px) {
-            .poster-grid img {
-                max-width: 30%;
-            }
+            transform: scale(1.05); /* Slight zoom effect on hover */
         }
     </style>
 </head>
