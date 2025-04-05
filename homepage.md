@@ -284,6 +284,7 @@ key: page-homepage
 </ul> -->
 
 ## News
+- **2025-04**: Invited to present research at the **_2025 HKUST PhD Student Conference_**.
 - **2025-03**: Selected as a mentor for the **_2025 HKUST Web3 Ideathon Competition_**.
 - **2025-02**: Research paper accepted for publication in **_AIOps'25_**.
 - **2024-12**: Invited to participate in the **_MISQ Reviewer Workshop_**.
