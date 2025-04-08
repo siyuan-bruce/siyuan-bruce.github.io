@@ -259,6 +259,18 @@ key: page-homepage
 <ul>
   <li class="paper-item">
     <div class="paper-title">
+      Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
+      <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
+    <p class="conference-info">May 13, 2025, 3rd Annual PhD Conference, Central Business School Venue</p>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">
       Crisis, Transparency, and User Engagement
     </div>
     <div class="paper-authors">
