@@ -255,33 +255,33 @@ key: page-homepage
   </div>
 </div>
 
-<!-- ## Upcoming Talks
+## Upcoming Talks
 <ul>
   <li class="paper-item">
     <div class="paper-title">
-      When K-Pop Meets Blockchain: An Empirical Exploration of Voting Behavior via DAO.
+      Crisis, Transparency, and User Engagement
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
-      <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+      <strong>Siyuan Jin</strong>, 
+      Yuying Cai, Luying Qiu,
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
     </div>
-    <p class="conference-info">3:00 PM - 4:30 PM TST, 17 Dec, Meeting Room 3, 7th Floor, Bangkok Marriott Marquis Queen's Park</p>
-    <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
-    
+    <p class="conference-info">June 22-24, 2025, SCECR 2025, Paphos, Cyprus</p>
   </li>
 
+  
   <li class="paper-item">
     <div class="paper-title">
-      Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement.
+      Agentic IT in Information Systems Development: Insights from a Large-Scale Quasi-Experiment on Code Quality Reviewers
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+      <strong>Siyuan Jin</strong>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
+      Yong Xia.
     </div>
-    <p class="conference-info">8:30 AM - 10:30 AM TST, 17 Dec, Meeting Room 4, 7th Floor, Bangkok Marriott Marquis Queen's Park</p>
+    <p class="conference-info">June 22-24, 2025, SCECR 2025, Paphos, Cyprus</p>
   </li>
-</ul> -->
+</ul>
 
 ## News
 - **2025-04**: Invited to present research at the **_2025 HKUST PhD Student Conference_**.
