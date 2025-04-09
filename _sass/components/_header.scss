@@ -86,19 +86,24 @@
 
 .navigation {
   @include overflow(auto, "x");
+  
   & > ul {
     height: map-get($layout, header-height);
     padding-bottom: 0;
     margin: 0;
+    
     @include media-breakpoint-down(md) {
       padding-bottom: 4px;
       margin: -4px 0 0 0;
     }
+    
     @include menu(3, 2, nowrap);
     @include align-items(center);
+    
     @include media-breakpoint-down(md) {
       height: auto;
     }
+    
     .search-button {
       @include media-breakpoint-down(md) {
         display: none;
@@ -108,18 +113,49 @@
 }
 
 .navigation__item {
+  position: relative;
+  padding: 5px 10px;
+
+  // Add smooth hover animation for underline
+  a {
+    text-decoration: none;
+    color: $main-color-1;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: darken($main-color-1, 10%);
+    }
+  }
+  
   &::after {
-    display: block;
-    margin-bottom: -4px;
     content: "";
-    @include split-line(bottom, 4px, transparent);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+    background-color: lighten($main-color-1, 10%);
   }
 }
+
 .navigation__item--active {
   a {
     @include link-colors($main-color-1, $main-color-1);
+    font-weight: bold;
   }
+
   &::after {
-    @include split-line(bottom, 4px, $main-color-1);
+    width: 100%;
+    background-color: $main-color-1;
   }
 }

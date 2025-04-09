@@ -280,7 +280,7 @@ body {
       color: #007acc; /* Subtle blue color for links */
       font-weight: 600;
       text-decoration: none;
-      font-size: 15px;
+      /* font-size: 15px; */
       margin-top: 8px;
     }
 
