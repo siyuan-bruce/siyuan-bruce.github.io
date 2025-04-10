@@ -93,13 +93,13 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement.
+      Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="conference-info">Conferences: ICIS 2024</p>
+    <p class="conference-info">Conferences: ICIS 2024, SCECR 2025</p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively distinguish between algorithmic and institutional IT operations, as well as their respective types of operational transparency. We also find that the presence of attackers switches user preferences for operational transparency. Higher levels of transparency, characterized by frequent and detailed information disclosures, may be perceived as catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
@@ -167,7 +167,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
-    <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference, CIST 2024.</p>
+    <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference, CIST 2024, SCECR 2025.</p>
   </li>
 
   <li class="paper-item">
