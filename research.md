@@ -121,7 +121,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
       <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
-    <p class="status-info">Under 1st round revision</p>
+    <p class="status-info">Under 2nd round review at ACM Distributed Ledger Technologies: Research and Practice</p>
     <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
       <details class="paper-details">
       <summary>Abstract</summary>
