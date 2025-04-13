@@ -31,12 +31,12 @@ header:
 
   - titles: 
       # @start locale config
-      en      : &EN       IS Paper Sharing Group
+      en      : &EN       IS Reading Group
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  IS 论文分享小组
+      zh-Hans : &ZH_HANS  IS 论文小组
     url: /reading_group/home.html
     
   - titles: 
