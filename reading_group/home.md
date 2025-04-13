@@ -2,7 +2,7 @@
 layout: article
 titles:
   # @start locale config
-  en      : &EN       IS Paper Sharing Group
+  en      : &EN       IS Reading Group
   en-GB   : *EN
   en-US   : *EN
   en-CA   : *EN
@@ -17,13 +17,13 @@ titles:
   fr-FR   : *FR
   fr-LU   : *FR
   # @end locale config
-key: page-is_paper_sharing
+key: page-is_reading_group
 ---
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information Systems Paper Sharing Group (PSG)</title>
+    <title>Information Systems Reading Group</title>
     <style>
         body {
             font-family: 'Lora', serif;
@@ -112,19 +112,15 @@ key: page-is_paper_sharing
 <body>
 
   <div class="container">
-      <h1>Welcome to the Information Systems Paper Sharing Group (PSG)</h1>
-      <p>Inspired by the spirit of open academic discussion, the Information Systems Paper Sharing Group (PSG) aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems.</p>
+      <h1>Welcome to the Information Systems Reading Group</h1>
+      <p>Inspired by the spirit of open academic discussion, the Information Systems Reading Group aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems.</p>
 
     <h2>Mission</h2>
     <p> One more critique makes the paper better.  </p>
 
       <h2>Purpose</h2>
       <p>This series is primarily designed for PhD students, who are eager to deepen their understanding of Information Systems. We also welcome the participation of senior scholars to enrich discussions and offer their expertise. </p>
-      <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:bruce.s.y.jin@gmail.com">bruce.s.y.jin@gmail.com</a>.</p>
-
-      <!-- <h2>Acknowledgement</h2>
-      <p>The PSG was initiated by myself and Zhe Wang from PolyU, with Tonglin Zhang contributing to the design of our posters.</p> -->
-      <img src="poster/call_for_pres.png" alt="Call-For-Pres" title="Call-For-Pres" width="800">
+      <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>.</p>
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
