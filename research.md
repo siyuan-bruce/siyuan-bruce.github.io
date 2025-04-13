@@ -168,6 +168,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
     <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference, CIST 2024, SCECR 2025.</p>
+    <p class="status-info">Under 1st round review</p>
   </li>
 
   <li class="paper-item">
@@ -179,6 +180,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
       Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
+    <p class="status-info">Under 1st round review</p>
   </li>
 
   <!-- <li class="paper-item">
