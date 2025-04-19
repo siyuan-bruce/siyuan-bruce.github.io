@@ -107,6 +107,43 @@ key: page-is_reading_group
         .poster-grid img:hover {
             transform: scale(1.05); /* Slight zoom effect on hover */
         }
+
+        /* Professor grid styles */
+        .professor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .professor-card {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .professor-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #f0f0f0;
+        }
+
+        .professor-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .professor-institution {
+            color: #666;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
@@ -122,10 +159,36 @@ key: page-is_reading_group
       <p>This series is primarily designed for PhD students, who are eager to deepen their understanding of Information Systems. We also welcome the participation of senior scholars to enrich discussions and offer their expertise. </p>
       <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>.</p>
 
+      <!-- <h2>Acknowledgments</h2>
+      <p>We are grateful for the support from the following professors:</p>
+      
+      <div class="professor-grid">
+        <div class="professor-card">
+          <img src="poster/professors/kar_yan_tam.jpg" alt="Prof. Kar Yan Tam" class="professor-photo">
+          <div class="professor-name">Prof. Kar Yan Tam</div>
+          <div class="professor-institution">Hong Kong University of Science and Technology</div>
+        </div>
+        
+        <div class="professor-card">
+          <img src="poster/professors/keongtae_kim.jpg" alt="Prof. Keongtae Kim" class="professor-photo">
+          <div class="professor-name">Prof. Keongtae Kim</div>
+          <div class="professor-institution">Chinese University of Hong Kong</div>
+        </div>
+        
+        <div class="professor-card">
+          <img src="poster/professors/dongwon_lee.jpg" alt="Prof. Dongwon Lee" class="professor-photo">
+          <div class="professor-name">Prof. Dongwon Lee</div>
+          <div class="professor-institution">Hong Kong University of Science and Technology</div>
+        </div>
+      </div> -->
+
       <h2>Past Sessions</h2>
       <div class="poster-grid">
+        <img src="poster/IS_PSG_42_43.jpg" alt="PSG-42-43" title="PSG-42-43" width="800">
+        <img src="poster/participant_distribution_42.jpg" alt="PSG-42_distribution" title="PSG-42-Distribution" width="800">
         <img src="poster/IS_PSG_41.jpg" alt="PSG-41" title="PSG-41" width="800">
         <img src="poster/IS_PSG_40.jpg" alt="PSG-40" title="PSG-40" width="800">
+        <img src="poster/participant_distribution_40.jpg" alt="PSG-40_distribution" title="PSG-40-Distribution" width="800">
         <img src="poster/IS_PSG_40_41.jpg" alt="PSG-40-41" title="PSG-40-41" width="800">
         <img src="poster/IS_PSG_39.jpg" alt="PSG-39" title="PSG-39" width="800">
         <img src="poster/IS_PSG_38.jpg" alt="PSG-38" title="PSG-38" width="800">
