@@ -237,7 +237,7 @@ key: page-is_reading_group
         </div>
         
         <div class="professor-card">
-          <img src="poster/professors/xinyu.png" alt="Prof. Xinyu Fu" class="professor-photo">
+          <img src="poster/professors/xinyu.jpg" alt="Prof. Xinyu Fu" class="professor-photo">
           <div class="professor-name">Prof. Xinyu Fu</div>
           <div class="professor-institution">Georgia State University</div>
         </div>
