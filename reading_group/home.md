@@ -217,7 +217,6 @@ key: page-is_reading_group
 
       <p><strong>Mission: One more critique makes the paper better.</strong></p>
 
-      <h2>Purpose</h2>
       <p>We aim to bring together scholars who are interested in the study of Information Systems. </p>
       <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>.</p>
 
@@ -244,37 +243,20 @@ key: page-is_reading_group
         </div>
       </div>
 
-      <h2>Hosts</h2>
-      <div class="host-section">
-        <div class="host-grid">
-
-          <div class="host-card">
-            <div class="host-name">Xuewen Han</div>
-            <div class="host-institution">Tsinghua University</div>
+     <h2>Participant Statistics</h2>
+      <div class="stats-section">
+        <div class="stats-grid">
+          <div class="stats-card">
+            <div class="stats-title">Session 42 Participant Distribution</div>
+            <img src="poster/participant_distribution_42.jpg" alt="PSG-42_distribution" title="PSG-42-Distribution">
           </div>
-
-          <div class="host-card">
-            <div class="host-name">Jingyuan Deng</div>
-            <div class="host-institution">National University of Singapore</div>
+          <div class="stats-card">
+            <div class="stats-title">Session 40 Participant Distribution</div>
+            <img src="poster/participant_distribution_40.jpg" alt="PSG-40_distribution" title="PSG-40-Distribution">
           </div>
-
-          <div class="host-card">
-            <div class="host-name">Yihan Deng</div>
-            <div class="host-institution">City University of Hong Kong</div>
-          </div>
-
-          <div class="host-card">
-            <div class="host-name">Weibo Li</div>
-            <div class="host-institution">Arizona State University</div>
-          </div>
-                  
-          <div class="host-card">
-            <div class="host-name">Siyuan (Bruce) Jin</div>
-            <div class="host-institution">Hong Kong University of Science and Technology</div>
-          </div>
-
         </div>
       </div>
+
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
@@ -315,19 +297,7 @@ key: page-is_reading_group
       </div>
 
       
-      <h2>Participant Statistics</h2>
-      <div class="stats-section">
-        <div class="stats-grid">
-          <div class="stats-card">
-            <div class="stats-title">Session 42 Participant Distribution</div>
-            <img src="poster/participant_distribution_42.jpg" alt="PSG-42_distribution" title="PSG-42-Distribution">
-          </div>
-          <div class="stats-card">
-            <div class="stats-title">Session 40 Participant Distribution</div>
-            <img src="poster/participant_distribution_40.jpg" alt="PSG-40_distribution" title="PSG-40-Distribution">
-          </div>
-        </div>
-      </div>
+
       <p>Join us to expand your knowledge of Information Systems through engaging discussions and thoughtful critiques!</p>
   </div>
 
