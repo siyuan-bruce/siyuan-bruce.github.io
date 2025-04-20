@@ -221,7 +221,7 @@ key: page-is_reading_group
       <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>.</p>
 
       <h2>Acknowledgments</h2>
-      <p>Our activity provides no financial incentive. Thus, we are grateful for the support from the following professors:</p>
+      <p>Our activity provides no financial incentive. Thus, we are grateful for any Professor who is willing to join us:</p>
       
       <div class="professor-grid">
         <div class="professor-card">
