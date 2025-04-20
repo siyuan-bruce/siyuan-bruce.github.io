@@ -89,6 +89,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ying Hao, Hongfei Li, Keongtae Kim
     </div>
+    <p class="status-info">In preparation for submission.</p>
   </li>
 
   <li class="paper-item">
