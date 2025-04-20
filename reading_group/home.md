@@ -145,6 +145,38 @@ key: page-is_reading_group
             font-size: 0.9em;
         }
 
+        /* Host styles */
+        .host-section {
+            margin: 40px 0;
+        }
+
+        .host-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 hosts per row */
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .host-card {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .host-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .host-institution {
+            color: #666;
+            font-size: 0.9em;
+        }
+
         /* Participant statistics styles */
         .stats-section {
             margin: 40px 0;
@@ -212,7 +244,37 @@ key: page-is_reading_group
         </div>
       </div>
 
+      <h2>Hosts</h2>
+      <div class="host-section">
+        <div class="host-grid">
 
+          <div class="host-card">
+            <div class="host-name">Xuewen Han</div>
+            <div class="host-institution">Tsinghua University</div>
+          </div>
+
+          <div class="host-card">
+            <div class="host-name">Jingyuan Deng</div>
+            <div class="host-institution">National University of Singapore</div>
+          </div>
+
+          <div class="host-card">
+            <div class="host-name">Yihan Deng</div>
+            <div class="host-institution">City University of Hong Kong</div>
+          </div>
+
+          <div class="host-card">
+            <div class="host-name">Weibo Li</div>
+            <div class="host-institution">Arizona State University</div>
+          </div>
+                  
+          <div class="host-card">
+            <div class="host-name">Siyuan (Bruce) Jin</div>
+            <div class="host-institution">Hong Kong University of Science and Technology</div>
+          </div>
+
+        </div>
+      </div>
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
