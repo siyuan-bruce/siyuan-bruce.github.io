@@ -111,7 +111,7 @@ key: page-is_reading_group
         /* Professor grid styles */
         .professor-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns */
             gap: 30px;
             margin: 40px 0;
         }
@@ -152,35 +152,35 @@ key: page-is_reading_group
       <h1>Welcome to the Information Systems Reading Group</h1>
       <p>Inspired by the spirit of open academic discussion, the Information Systems Reading Group aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems.</p>
 
-    <h2>Mission</h2>
-    <p> One more critique makes the paper better.  </p>
+      <p><strong>Mission: One more critique makes the paper better.</strong></p>
 
       <h2>Purpose</h2>
-      <p>This series is primarily designed for PhD students, who are eager to deepen their understanding of Information Systems. We also welcome the participation of senior scholars to enrich discussions and offer their expertise. </p>
+      <p>We aim to bring together scholars who are interested in the study of Information Systems. </p>
       <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>.</p>
 
-      <!-- <h2>Acknowledgments</h2>
-      <p>We are grateful for the support from the following professors:</p>
+      <h2>Acknowledgments</h2>
+      <p>Our activity provides no financial incentive. Thus, we are grateful for the support from the following professors:</p>
       
+        
+    <div class="professor-card">
+          <img src="poster/professors/xinli24.jpg" alt="Prof. Xin Li" class="professor-photo">
+          <div class="professor-name">Prof. Xin Li</div>
+          <div class="professor-institution">City University of Hong Kong</div>
+        </div>
+
       <div class="professor-grid">
         <div class="professor-card">
-          <img src="poster/professors/kar_yan_tam.jpg" alt="Prof. Kar Yan Tam" class="professor-photo">
-          <div class="professor-name">Prof. Kar Yan Tam</div>
-          <div class="professor-institution">Hong Kong University of Science and Technology</div>
+          <img src="poster/professors/hongchang.jpg" alt="Prof. Hongchang Wang" class="professor-photo">
+          <div class="professor-name">Prof. Hongchang Wang</div>
+          <div class="professor-institution">UTD</div>
         </div>
-        
+      
         <div class="professor-card">
-          <img src="poster/professors/keongtae_kim.jpg" alt="Prof. Keongtae Kim" class="professor-photo">
-          <div class="professor-name">Prof. Keongtae Kim</div>
-          <div class="professor-institution">Chinese University of Hong Kong</div>
+          <img src="poster/professors/xinyu.jpg" alt="Prof. Xinyu Fu" class="professor-photo">
+          <div class="professor-name">Prof. Xinyu Fu</div>
+          <div class="professor-institution">Georgia State University</div>
         </div>
-        
-        <div class="professor-card">
-          <img src="poster/professors/dongwon_lee.jpg" alt="Prof. Dongwon Lee" class="professor-photo">
-          <div class="professor-name">Prof. Dongwon Lee</div>
-          <div class="professor-institution">Hong Kong University of Science and Technology</div>
-        </div>
-      </div> -->
+    </div>
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
