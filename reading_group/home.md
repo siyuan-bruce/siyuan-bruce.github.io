@@ -144,6 +144,37 @@ key: page-is_reading_group
             color: #666;
             font-size: 0.9em;
         }
+
+        /* Participant statistics styles */
+        .stats-section {
+            margin: 40px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .stats-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .stats-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .stats-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 15px 0 10px;
+            color: #333;
+        }
     </style>
 </head>
 <body>
@@ -161,34 +192,45 @@ key: page-is_reading_group
       <h2>Acknowledgments</h2>
       <p>Our activity provides no financial incentive. Thus, we are grateful for the support from the following professors:</p>
       
-        
-    <div class="professor-card">
+      <div class="professor-grid">
+        <div class="professor-card">
           <img src="poster/professors/xinli24.jpg" alt="Prof. Xin Li" class="professor-photo">
           <div class="professor-name">Prof. Xin Li</div>
           <div class="professor-institution">City University of Hong Kong</div>
         </div>
-
-      <div class="professor-grid">
+        
         <div class="professor-card">
           <img src="poster/professors/hongchang.jpg" alt="Prof. Hongchang Wang" class="professor-photo">
           <div class="professor-name">Prof. Hongchang Wang</div>
           <div class="professor-institution">UTD</div>
         </div>
-      
+        
         <div class="professor-card">
           <img src="poster/professors/xinyu.jpg" alt="Prof. Xinyu Fu" class="professor-photo">
           <div class="professor-name">Prof. Xinyu Fu</div>
           <div class="professor-institution">Georgia State University</div>
         </div>
-    </div>
+      </div>
+
+      <h2>Participant Statistics</h2>
+      <div class="stats-section">
+        <div class="stats-grid">
+          <div class="stats-card">
+            <div class="stats-title">Session 42 Participant Distribution</div>
+            <img src="poster/participant_distribution_42.jpg" alt="PSG-42_distribution" title="PSG-42-Distribution">
+          </div>
+          <div class="stats-card">
+            <div class="stats-title">Session 40 Participant Distribution</div>
+            <img src="poster/participant_distribution_40.jpg" alt="PSG-40_distribution" title="PSG-40-Distribution">
+          </div>
+        </div>
+      </div>
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
         <img src="poster/IS_PSG_42_43.jpg" alt="PSG-42-43" title="PSG-42-43" width="800">
-        <img src="poster/participant_distribution_42.jpg" alt="PSG-42_distribution" title="PSG-42-Distribution" width="800">
         <img src="poster/IS_PSG_41.jpg" alt="PSG-41" title="PSG-41" width="800">
         <img src="poster/IS_PSG_40.jpg" alt="PSG-40" title="PSG-40" width="800">
-        <img src="poster/participant_distribution_40.jpg" alt="PSG-40_distribution" title="PSG-40-Distribution" width="800">
         <img src="poster/IS_PSG_40_41.jpg" alt="PSG-40-41" title="PSG-40-41" width="800">
         <img src="poster/IS_PSG_39.jpg" alt="PSG-39" title="PSG-39" width="800">
         <img src="poster/IS_PSG_38.jpg" alt="PSG-38" title="PSG-38" width="800">
