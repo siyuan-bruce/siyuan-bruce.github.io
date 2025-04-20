@@ -207,6 +207,48 @@ key: page-is_reading_group
             margin: 15px 0 10px;
             color: #333;
         }
+
+        /* Organizers list styles */
+        .organizers-section {
+            margin: 40px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .organizers-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .organizers-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .organizers-list li {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .organizers-list li::before {
+            content: "•";
+            color: #1A5DCB;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .year {
+            font-weight: bold;
+            color: #1A5DCB;
+        }
     </style>
 </head>
 <body>
@@ -257,7 +299,6 @@ key: page-is_reading_group
         </div>
       </div>
 
-
       <h2>Past Sessions</h2>
       <div class="poster-grid">
         <img src="poster/IS_PSG_42_43.jpg" alt="PSG-42-43" title="PSG-42-43" width="800">
@@ -299,6 +340,14 @@ key: page-is_reading_group
       
 
       <p>Join us to expand your knowledge of Information Systems through engaging discussions and thoughtful critiques!</p>
+
+      <div class="organizers-section">
+          <h2 class="organizers-title">Organizers</h2>
+          <ul class="organizers-list">
+              <li><span class="year">2025</span> - Xuewen Han (THU), Jingyuan Deng (NUS), Yihan Deng (CityU), Weibo Li (ASU), Siyuan (Bruce) Jin (HKUST)</li>
+              <li><span class="year">2024</span> - Siyuan (Bruce) Jin (HKUST), Zhe Wang (PolyU)</li>
+          </ul>
+      </div>
   </div>
 
 </body>
