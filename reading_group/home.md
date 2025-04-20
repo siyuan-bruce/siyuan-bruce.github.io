@@ -206,25 +206,13 @@ key: page-is_reading_group
         </div>
         
         <div class="professor-card">
-          <img src="poster/professors/xinyu.jpg" alt="Prof. Xinyu Fu" class="professor-photo">
+          <img src="poster/professors/xinyu.png" alt="Prof. Xinyu Fu" class="professor-photo">
           <div class="professor-name">Prof. Xinyu Fu</div>
           <div class="professor-institution">Georgia State University</div>
         </div>
       </div>
 
-      <h2>Participant Statistics</h2>
-      <div class="stats-section">
-        <div class="stats-grid">
-          <div class="stats-card">
-            <div class="stats-title">Session 42 Participant Distribution</div>
-            <img src="poster/participant_distribution_42.jpg" alt="PSG-42_distribution" title="PSG-42-Distribution">
-          </div>
-          <div class="stats-card">
-            <div class="stats-title">Session 40 Participant Distribution</div>
-            <img src="poster/participant_distribution_40.jpg" alt="PSG-40_distribution" title="PSG-40-Distribution">
-          </div>
-        </div>
-      </div>
+
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
@@ -264,6 +252,20 @@ key: page-is_reading_group
         <img src="poster/IS_PSG_8.jpg" alt="PSG-8" title="PSG-8" width="800">
       </div>
 
+      
+      <h2>Participant Statistics</h2>
+      <div class="stats-section">
+        <div class="stats-grid">
+          <div class="stats-card">
+            <div class="stats-title">Session 42 Participant Distribution</div>
+            <img src="poster/participant_distribution_42.jpg" alt="PSG-42_distribution" title="PSG-42-Distribution">
+          </div>
+          <div class="stats-card">
+            <div class="stats-title">Session 40 Participant Distribution</div>
+            <img src="poster/participant_distribution_40.jpg" alt="PSG-40_distribution" title="PSG-40-Distribution">
+          </div>
+        </div>
+      </div>
       <p>Join us to expand your knowledge of Information Systems through engaging discussions and thoughtful critiques!</p>
   </div>
 
