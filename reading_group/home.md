@@ -211,7 +211,7 @@ key: page-is_reading_group
         /* Organizers list styles */
         .organizers-section {
             margin: 40px 0;
-            padding: 20px;
+            padding: 30px;
             background: #fff;
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -220,9 +220,11 @@ key: page-is_reading_group
         .organizers-title {
             font-size: 1.5em;
             font-weight: bold;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             color: #333;
             text-align: center;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 15px;
         }
 
         .organizers-list {
@@ -232,22 +234,58 @@ key: page-is_reading_group
         }
 
         .organizers-list li {
-            margin-bottom: 15px;
-            padding-left: 20px;
-            position: relative;
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            transition: transform 0.2s ease;
         }
 
-        .organizers-list li::before {
-            content: "•";
-            color: #1A5DCB;
-            font-weight: bold;
-            position: absolute;
-            left: 0;
+        .organizers-list li:hover {
+            transform: translateX(5px);
+            background: #f0f7ff;
         }
 
         .year {
             font-weight: bold;
             color: #1A5DCB;
+            font-size: 1.1em;
+            margin-right: 10px;
+            display: inline-block;
+            min-width: 60px;
+        }
+
+        .organizer-name {
+            font-weight: 500;
+            color: #333;
+        }
+
+        .institution {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        .organizers-list li {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .organizer-item {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 15px;
+            margin-bottom: 5px;
+        }
+
+        .organizer-item:after {
+            content: ",";
+            margin-right: 5px;
+        }
+
+        .organizer-item:last-child:after {
+            content: "";
         }
     </style>
 </head>
@@ -344,8 +382,19 @@ key: page-is_reading_group
       <div class="organizers-section">
           <h2 class="organizers-title">Organizers</h2>
           <ul class="organizers-list">
-              <li><span class="year">2025</span> - Xuewen Han (THU), Jingyuan Deng (NUS), Yihan Deng (CityU), Weibo Li (ASU), Siyuan (Bruce) Jin (HKUST)</li>
-              <li><span class="year">2024</span> - Siyuan (Bruce) Jin (HKUST), Zhe Wang (PolyU)</li>
+              <li>
+                  <span class="year">2025</span>
+                  <span class="organizer-item"><span class="organizer-name">Xuewen Han</span> <span class="institution">(THU)</span></span>
+                  <span class="organizer-item"><span class="organizer-name">Jingyuan Deng</span> <span class="institution">(NUS)</span></span>
+                  <span class="organizer-item"><span class="organizer-name">Yihan Deng</span> <span class="institution">(CityU)</span></span>
+                  <span class="organizer-item"><span class="organizer-name">Weibo Li</span> <span class="institution">(ASU)</span></span>
+                  <span class="organizer-item"><span class="organizer-name">Siyuan (Bruce) Jin</span> <span class="institution">(HKUST)</span></span>
+              </li>
+              <li>
+                  <span class="year">2024</span>
+                  <span class="organizer-item"><span class="organizer-name">Siyuan (Bruce) Jin</span> <span class="institution">(HKUST)</span></span>
+                  <span class="organizer-item"><span class="organizer-name">Zhe Wang</span> <span class="institution">(PolyU)</span></span>
+              </li>
           </ul>
       </div>
   </div>
