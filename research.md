@@ -184,14 +184,15 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="status-info">Under 1st round review</p>
   </li>
 
-  <!-- <li class="paper-item">
+  <li class="paper-item">
     <div class="paper-title">
-      "Quantum Tokens via Cloud: A Practical and Quantum-Resistant Digital Token Protocol".
+      Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
     <div class="paper-authors">
-      Yichi Zhang, <strong>Siyuan Jin</strong>.
+      <strong>Siyuan Jin</strong>, Xincheng Ma.
     </div>
-  </li> -->
+    <p class="status-info">Ready for conference submission.</p>
+  </li>
 
 </ul>
     
