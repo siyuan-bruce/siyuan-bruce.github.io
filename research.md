@@ -225,9 +225,36 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 </ul>
     
 ## **Other Conference Proceedings**
-  - **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia (2023). "Software Code Quality Measurement: Implications from Metric Distributions". 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand. **(QRS 2023)**. _Short paper with oral presentaiton. Acceptance Rate: 21.47%._ [[Paper]](/paper/QRS_preprint.pdf) [[Slides]](/paper/Slides_Code_Quality_Distribution.pdf) [[IEEE]](https://ieeexplore.ieee.org/document/10366662)
+  <li class="paper-item">
+    <div class="paper-title">
+      Software Code Quality Measurement: Implications from Metric Distributions
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia
+    </div>
+    <p class="conference-info">23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand (QRS 2023)</p>
+    <p class="status-info">Short paper with oral presentation. Acceptance Rate: 21.47%.</p>
+    <a href="/paper/QRS_preprint.pdf">[Paper]</a>
+    <a href="/paper/Slides_Code_Quality_Distribution.pdf">[Slides]</a>
+    <a href="https://ieeexplore.ieee.org/document/10366662">[IEEE]</a>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
+    </details>
+  </li>
 
-  - **Siyuan Jin**, Botong Xu, Philip Intallura, Yong Xia. "A UTXO-based Sharding Method for Stablecoin". 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA. **(BCCA 2022)**. _Short Paper with Oral Presentation_. [[Paper]](https://ieeexplore.ieee.org/document/9922204) [[Code]](https://github.com/CBDC-IoT/DigitalShell)
+  <li class="paper-item">
+    <div class="paper-title">
+      A UTXO-based Sharding Method for Stablecoin
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
+    </div>
+    <p class="conference-info">4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022)</p>
+    <p class="status-info">Short Paper with Oral Presentation</p>
+    <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a>
+    <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
+  </li>
 
 ## **Patent**
    
