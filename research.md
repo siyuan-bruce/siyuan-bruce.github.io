@@ -225,6 +225,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 </ul>
     
 ## **Other Conference Proceedings**
+<ul>
   <li class="paper-item">
     <div class="paper-title">
       Software Code Quality Measurement: Implications from Metric Distributions
@@ -255,6 +256,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a>
     <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
   </li>
+</ul>
 
 ## **Patent**
    
