@@ -143,13 +143,39 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 </ul>
 
 #### **Policy Papers**
-  - Joint with HKUST School of Business and Management and HSBC Holdings plc (2023). "e-HKD Pilot Programme". [[Summary]](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf) [[Hong Kong Monetary Authority Report]](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
-  
-      <!-- **Abstract**: The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants. -->
+<ul>
+  <li class="paper-item">
+    <div class="paper-title">
+      e-HKD Pilot Programme
+    </div>
+    <div class="paper-authors">
+      Joint with HKUST School of Business and Management and HSBC Holdings plc.
+    </div>
+    <p class="status-info">Published in 2023</p>
+    <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a>
+    <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[Hong Kong Monetary Authority Report]</a>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants.</p>
+    </details>
+  </li>
 
-  - Yong Xia, **Siyuan Jin**, Bing Qu, Yingli Liu, Linzhen Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc (2021).  "Global CBDC Challenge Report". Awarded as [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5% in over 300+ submissions from 50+ countries) [[Monetary Authority of Singapore Report]](https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf)
-
-      <!-- **Abstract**: HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options. -->
+  <li class="paper-item">
+    <div class="paper-title">
+      Global CBDC Challenge Report
+    </div>
+    <div class="paper-authors">
+      Yong Xia, <strong>Siyuan Jin</strong>, Bing Qu, Yingli Liu, Linzhen Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc.
+    </div>
+    <p class="status-info">Published in 2021</p>
+    <p class="conference-info">Awarded as <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY">Global CBDC Challenge Finalist</a> (Top 5% in over 300+ submissions from 50+ countries)</p>
+    <a href="https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf">[Monetary Authority of Singapore Report]</a>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.</p>
+    </details>
+  </li>
+</ul>
 
 
   <!-- 3. Joint with [A. Huang](https://www.allenhuang.org/), [M. Dordal i Carreras](https://marcdordal.github.io/) and HSBC Bank (Hong Kong) (2024). "Tokenized Deposit". Working paper. -->
@@ -172,6 +198,17 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="status-info">Under 1st round review</p>
   </li>
 
+
+  <li class="paper-item">
+    <div class="paper-title">
+      Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, Kar Yan Tam.
+    </div>
+    <p class="status-info">Ready for conference submission.</p>
+  </li>
+
   <li class="paper-item">
     <div class="paper-title">
       Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
@@ -183,16 +220,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </div>
     <p class="conference-info">Media Presence: HKUST Leadership Brief.</p>
     <p class="status-info">Under 1st round review</p>
-  </li>
-
-  <li class="paper-item">
-    <div class="paper-title">
-      Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Xincheng Ma.
-    </div>
-    <p class="status-info">Ready for conference submission.</p>
   </li>
 
 </ul>
