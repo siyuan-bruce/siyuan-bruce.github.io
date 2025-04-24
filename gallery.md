@@ -168,6 +168,11 @@ permalink: /gallery.html
           <img src="assets/images/gallery/2024_CIST_pre.jpg" alt="2024 CIST">
       </div>
       <div class="event">
+          <h4>HKUST ISR Workshop, Hong Kong</h4>
+          <p>I participated in the HKUST Information Systems Research workshop as a audience.</p>
+          <img src="assets/images/gallery/2024_HKUST_ISR_workshop.jpg" alt="2024 HKUST ISR Workshop">
+      </div>
+      <div class="event">
           <h4>PhD Conference Gathering, Hong Kong - A remarkable convergence of minds and ideas.</h4>
           <p>I participated in PhD Conference gathering and discussed PhD life with my academic elder brother Prof. Hui and peers."</p>
           <img src="assets/images/gallery/2024_PhD_conference_gathering.jpg" alt="PhD Conference Gathering">
