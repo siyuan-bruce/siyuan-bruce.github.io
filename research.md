@@ -44,7 +44,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Under 1st round revision from JMIS (FT50)</p>
+    <p class="status-info">Under Preparation for 2nd round review from JMIS (FT50)</p>
     <p class="conference-info">Conferences: 2024 MIS Quarterly Virtual Paper Development Workshop, 2024 Greater Bay Area Finance Workshop</p>
     <a href="/paper/SSRN_token_Feb9.pdf"> [Working paper]</a> 
     <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
@@ -204,7 +204,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, Kar Yan Tam.
     </div>
-    <p class="status-info">Ready for conference submission.</p>
+    <p class="status-info">Under 1st round conference review.</p>
   </li>
 
   <li class="paper-item">
@@ -217,7 +217,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
     <p class="conference-info">Media Presence: HKUST Leadership Brief.</p>
-    <p class="status-info">Under 1st round review</p>
+    <p class="status-info">Under Prepration for 2nd Round Review for TMIS.</p>
   </li>
 
 </ul>
