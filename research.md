@@ -221,8 +221,24 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
 </ul>
     
-## **Other Conference Proceedings**
+## **Other Publications**
 <ul>
+
+  <li class="paper-item">
+    <div class="paper-title">
+      CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Yong Xia
+    </div>
+    <p class="conference-info">IEEE Access, Volume 10, 2022</p>
+    <a href="https://ieeexplore.ieee.org/document/9714380">[Paper]</a>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.</p>
+    </details>
+  </li>
+
   <li class="paper-item">
     <div class="paper-title">
       Software Code Quality Measurement: Implications from Metric Distributions
@@ -251,7 +267,23 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a>
     <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
   </li>
+
+
+  <li class="paper-item">
+    <div class="paper-title">
+      Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia
+    </div>
+    <p class="conference-info">6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25</p>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>Traditional banks face significant challenges in digital transformation, primarily due to legacy system constraints and fragmented ownership. Recent incidents show that such fragmentation often results in superficial incident resolutions, leaving root causes unaddressed and causing recurring failures. We introduce a novel approach to post-incident analysis, integrating knowledge-based GenAI agents with the "Five Whys" technique to examine problem descriptions and change request data. This method uncovered that approximately 70% of the incidents previously attributed to management or vendor failures were due to underlying internal code issues. We present a case study to show the impact of our method. By scanning over 5,000 projects, we identified over 400 files with a similar root cause. Overall, we leverage the knowledge-based agents to automate and elevate root cause analysis, transforming it into a more proactive process. These agents can be applied across other phases of the software development lifecycle, further improving development processes.</p>
+    </details>
+  </li>
 </ul>
+
 
 ## **Patent**
    
