@@ -82,7 +82,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
-  <li class="paper-item">
+  <!-- <li class="paper-item">
     <div class="paper-title">
       Breaking the Barrier or Breaking the Market? Evidence from Non-Fungible Token Platforms.
     </div>
@@ -90,7 +90,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Ying Hao, Hongfei Li, Keongtae Kim
     </div>
     <p class="status-info">In preparation for submission.</p>
-  </li>
+  </li> -->
 
   <li class="paper-item">
     <div class="paper-title">
