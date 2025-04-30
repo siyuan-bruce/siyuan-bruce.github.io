@@ -151,8 +151,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       Joint with HKUST School of Business and Management and HSBC Holdings plc.
     </div>
-    <p class="status-info"><a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[Hong Kong Monetary Authority Report]</a> (2023)</p>
-    <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a>
+    <p class="status-info">Published in Hong Kong Monetary Authority Report (2023) | <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[Full Report]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants.</p>
@@ -166,7 +165,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       Yong Xia, <strong>Siyuan Jin</strong>, Bing Qu, Yingli Liu, Linzhen Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc.
     </div>
-    <p class="status-info"><a href="https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf">[Monetary Authority of Singapore Report]</a> (2021)</p>
+    <p class="status-info">Published in Monetary Authority of Singapore Report (2021) | <a href="https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf">[Full Report]</a></p>
     <p class="conference-info">Awarded as <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY">Global CBDC Challenge Finalist</a> (Top 5% in over 300+ submissions from 50+ countries)</p>
     <details class="paper-details">
       <summary>Abstract</summary>
@@ -232,10 +231,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia
     </div>
     <p class="conference-info">23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand (QRS 2023)</p>
-    <p class="status-info">Short paper with oral presentation. Acceptance Rate: 21.47%.</p>
     <a href="/paper/QRS_preprint.pdf">[Paper]</a>
     <a href="/paper/Slides_Code_Quality_Distribution.pdf">[Slides]</a>
-    <a href="https://ieeexplore.ieee.org/document/10366662">[IEEE]</a>
+    <a href="https://ieeexplore.ieee.org/document/10366662">[IEEE]</a>, Acceptance Rate: 21.47%.
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
@@ -250,7 +248,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
     </div>
     <p class="conference-info">4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022)</p>
-    <p class="status-info">Short Paper with Oral Presentation</p>
     <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a>
     <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
   </li>
