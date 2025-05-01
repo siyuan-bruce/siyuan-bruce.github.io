@@ -196,7 +196,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   </li>
 
 
-  <li class="paper-item">
+  <!-- <li class="paper-item">
     <div class="paper-title">
       Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
@@ -204,7 +204,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, Kar Yan Tam.
     </div>
     <p class="status-info">Under 1st round conference review.</p>
-  </li>
+  </li> -->
 
   <li class="paper-item">
     <div class="paper-title">
@@ -219,7 +219,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="status-info">Under Prepration for 2nd Round Review for TMIS.</p>
   </li>
 
-  <li class="paper-item">
+  <!-- <li class="paper-item">
     <div class="paper-title">
       Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
     </div>
@@ -232,7 +232,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <summary>Abstract</summary>
       <p>Generative AI tools like GitHub Copilot are transforming productivity in knowledge-intensive industries, but their impact varies with seniority and team dynamics. While senior developers, with their expertise and influence, are poised to achieve greater gains in code contributions, existing literature suggests that more experienced workers may be less likely to trust AI. To address this ambiguity, we analyzed data from 743 developers at a global financial firm. Our findings reveal that Copilot increases daily commits by 1.6% overall and boosts contributions by 16.5% on active usage days. Notably, senior developers' adoption generates spillover effects, significantly enhancing junior colleagues' performance, particularly in smaller teams. These results highlight the critical role of senior developers in unlocking both individual and team-level benefits of AI, emphasizing the need for firms to actively promote their adoption to realize AI's full potential.</p>
     </details>
-  </li>
+  </li> -->
 
 </ul>
     
