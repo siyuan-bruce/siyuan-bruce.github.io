@@ -72,7 +72,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Reject and Resubmit at MIS Quarterly</p>
+    <p class="status-info">Reject and Suggested to Resubmit at MIS Quarterly</p>
     <p class="conference-info">Conferences: ICIS 2024, CIST 2024, 2025 HKUST PhD Student Conference</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
