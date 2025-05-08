@@ -46,8 +46,10 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </div>
     <p class="status-info">Under Preparation for 2nd round review from JMIS (FT50)</p>
     <p class="conference-info">Conferences: 2024 MIS Quarterly Virtual Paper Development Workshop, 2024 Greater Bay Area Finance Workshop</p>
-    <a href="/paper/SSRN_token_Feb9.pdf"> [Working paper]</a> 
-    <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
+    <p class="conference-info">
+      Reference: <a href="/paper/SSRN_token_Feb9.pdf"> [Working paper]</a> 
+      <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
+    </p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
@@ -75,7 +77,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="status-info">Reject and Suggested to Resubmit at MIS Quarterly</p>
     <p class="conference-info">Conferences: ICIS 2024, CIST 2024, 2025 HKUST PhD Student Conference</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
-    <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
+    <p class="conference-info">
+      Reference: <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
+    </p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Traditional centralized models allow consumers to provide input, but are often limited by selection biases. Instead, blockchain-based decentralized models extend all consumer voice but face sustainability challenges including unsustained contributions and voting power concentration. Utilizing data from a blockchain-based K-pop platform, this study investigates whether fans continue contributing to the platform after initially participating in voting rounds. Findings indicate that voting power becomes less concentrated over time, likely because voters who have smaller voting power value the equity of decentralized voting and increase both tangible and intangible contributions. Conversely, voters who have larger voting power experience expectation disconfirmation; they begin with high expectations about influencing outcomes but if their preferences are disappointed, they decrease tangible contributions while maintaining intangible contributions. We use value cocreation and expectation disconfirmation theory to explain the phenomenon. This study contributes to blockchain and user innovation research and offers practical insights for platform designers aiming to create equitable, sustainable consumer-driven ecosystems.</p>
@@ -123,8 +127,10 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
     <p class="status-info">Under 2nd round review at ACM Distributed Ledger Technologies: Research and Practice</p>
-    <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
-      <details class="paper-details">
+    <p class="conference-info">
+      Reference: <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
+    </p>
+    <details class="paper-details">
       <summary>Abstract</summary>
       <p>This study investigates the public's perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants' opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
     </details>
@@ -246,7 +252,10 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yong Xia
     </div>
-    <p class="conference-info">IEEE Access, Volume 10, 2022 <a href="https://ieeexplore.ieee.org/document/9795279">[Paper]</a></p>
+    <p class="conference-info">IEEE Access, Volume 10, 2022</p>
+    <p class="conference-info">
+      Reference: <a href="https://ieeexplore.ieee.org/document/9795279">[Paper]</a>
+    </p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.</p>
@@ -261,9 +270,11 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia
     </div>
     <p class="conference-info">23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand (QRS 2023)</p>
-    <a href="/paper/QRS_preprint.pdf">[Paper]</a>
-    <a href="/paper/Slides_Code_Quality_Distribution.pdf">[Slides]</a>
-    <a href="https://ieeexplore.ieee.org/document/10366662">[IEEE]</a>, Acceptance Rate: 21.47%.
+    <p class="conference-info">
+      Reference: <a href="/paper/QRS_preprint.pdf">[Paper]</a>
+      <a href="/paper/Slides_Code_Quality_Distribution.pdf">[Slides]</a>
+      <a href="https://ieeexplore.ieee.org/document/10366662">[IEEE]</a>, Acceptance Rate: 21.47%.
+    </p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
@@ -278,8 +289,10 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
     </div>
     <p class="conference-info">4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022)</p>
-    <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a>
-    <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
+    <p class="conference-info"> 
+      Reference: <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a>
+      <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
+    </p>
   </li>
 
 
@@ -291,7 +304,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia
     </div>
     <p class="conference-info">6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25</p>
-    <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
+    <p class="conference-info">
+      Reference: <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
+    </p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Traditional banks face significant challenges in digital transformation, primarily due to legacy system constraints and fragmented ownership. Recent incidents show that such fragmentation often results in superficial incident resolutions, leaving root causes unaddressed and causing recurring failures. We introduce a novel approach to post-incident analysis, integrating knowledge-based GenAI agents with the "Five Whys" technique to examine problem descriptions and change request data. This method uncovered that approximately 70% of the incidents previously attributed to management or vendor failures were due to underlying internal code issues. We present a case study to show the impact of our method. By scanning over 5,000 projects, we identified over 400 files with a similar root cause. Overall, we leverage the knowledge-based agents to automate and elevate root cause analysis, transforming it into a more proactive process. These agents can be applied across other phases of the software development lifecycle, further improving development processes.</p>
