@@ -252,7 +252,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yong Xia
     </div>
-    <p class="conference-info">IEEE Access, Volume 10, 2022</p>
+    <p class="status-info">IEEE Access, Volume 10, 2022</p>
     <p class="conference-info">
       Reference: <a href="https://ieeexplore.ieee.org/document/9795279">[Paper]</a>
     </p>
@@ -269,7 +269,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia
     </div>
-    <p class="conference-info">23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand (QRS 2023)</p>
+    <p class="conference-info">Conference: 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand (QRS 2023)</p>
     <p class="conference-info">
       Reference: <a href="/paper/QRS_preprint.pdf">[Paper]</a>
       <a href="/paper/Slides_Code_Quality_Distribution.pdf">[Slides]</a>
@@ -288,7 +288,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
     </div>
-    <p class="conference-info">4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022)</p>
+    <p class="conference-info">Conference: 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022)</p>
     <p class="conference-info"> 
       Reference: <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a>
       <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
@@ -303,7 +303,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia
     </div>
-    <p class="conference-info">6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25</p>
+    <p class="conference-info">Conference: 6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25</p>
     <p class="conference-info">
       Reference: <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
     </p>
