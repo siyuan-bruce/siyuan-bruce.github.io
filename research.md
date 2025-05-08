@@ -215,7 +215,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
       Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
-    <p class="conference-info">Media Presence: HKUST Leadership Brief.</p>
+    <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
     <p class="status-info">Under Prepration for 2nd Round Review for TMIS.</p>
   </li>
 
