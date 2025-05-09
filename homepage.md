@@ -247,7 +247,11 @@ key: page-homepage
     <div class="profile-text">
     <em>此心光明，亦复何言 - 王阳明 </em>
   <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD Candidate in HKUST Information Systems (IS). He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He received the <em>China National Scholarship</em> in 2020, the <em>Hong Kong PhD Fellowship (HKPFS)</em> award in 2024 and the <em>Young Scientists Program Award</em> in 2025. His papers have been accepted by top IS conferences, including the <em>International Conference on Information Systems (ICIS)</em>, the <em>Conference on Information Systems and Technology (CIST)</em>, and <em>Statistical Challenges in Electronic Commerce Research (SCECR)</em>. He also has contributed to several policy papers to Hong Kong Monetary Authority (HKMA).
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD Candidate in HKUST Information Systems (IS). He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
+    </p>
+    <p>
+    He received the <em>China National Scholarship</em> in 2020, the <em>Hong Kong PhD Fellowship (HKPFS)</em> award in 2024 and the <em>Young Scientists Program Award</em> in 2025. His papers have been accepted by top IS conferences, including the <em>International Conference on Information Systems (ICIS)</em>, the <em>Conference on Information Systems and Technology (CIST)</em>, and <em>Statistical Challenges in Electronic Commerce Research (SCECR)</em>. He also has contributed to several policy papers to Hong Kong Monetary Authority (HKMA).
+    </p>
   </p>
   <p>
     Prior to HKUST, he spent two years as a full-stack engineer at HSBC IT Architecture and <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, developing <strong>Blockchain</strong> and CBDC projects. His work earned the <em>2021 Top Performer award</em>, <em>2021 Role Model honor</em>, and finalist status in the <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global CBDC Challenge</a> by the Monetary Authority of Singapore.
