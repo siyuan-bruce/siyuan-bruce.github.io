@@ -243,10 +243,10 @@ key: page-homepage
     <div style="text-align: center;">
    <!-- <em></em> -->
 </div>
-  <!-- </div>
+  </div>
     <div class="profile-text">
-    <em>此心光明，亦复何言 - 王阳明 </em>
-  <p> -->
+    <!-- <em>此心光明，亦复何言 - 王阳明 </em> -->
+  <p>
     <strong>Siyuan (Bruce) JIN (金思远)</strong> is a 3rd year PhD Candidate in HKUST Information Systems (IS). He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
   </p>
   <p>
