@@ -242,7 +242,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
 </ul>
     
-## **Other Publications**
+## **Other Publications (Pre-Doctoral)**
 <ul>
 
   <li class="paper-item">
