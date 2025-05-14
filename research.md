@@ -44,7 +44,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Under Preparation for 2nd round review from JMIS (FT50)</p>
+    <p class="status-info">Under Preparation for 2nd round review from <em>Journal of Management Information Systems</em> (FT50)</p>
     <p class="conference-info">Conferences: 2024 MIS Quarterly Virtual Paper Development Workshop, 2024 Greater Bay Area Finance Workshop</p>
     <p class="conference-info">
       Reference: <a href="/paper/SSRN_token_Feb9.pdf"> [Working paper]</a> 
@@ -74,7 +74,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Reject and Suggested to Resubmit at MIS Quarterly</p>
+    <p class="status-info">Under Preparation for Resubmission to <em>MIS Quarterly</em> (UTD24, FT50).</p>
     <p class="conference-info">Conferences: ICIS 2024, CIST 2024, 2025 HKUST PhD Student Conference</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <p class="conference-info">
@@ -222,7 +222,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
-    <p class="status-info">Under Preparation for 2nd Round Review for ACM TMIS.</p>
+    <p class="status-info">Under Preparation for 2nd Round Review for <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
   <!-- <li class="paper-item">
