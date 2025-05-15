@@ -163,23 +163,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <p>The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants.</p>
     </details>
   </li>
-
-  <li class="paper-item">
-    <div class="paper-title">
-      Global CBDC Challenge Report
-    </div>
-    <div class="paper-authors">
-      Yong Xia, <strong>Siyuan Jin</strong>, Bing Qu, Yingli Liu, Linzhen Yang. Joint with HSBC Bank (Singapore) Limited and HSBC Holdings plc.
-    </div>
-    <p class="status-info">Published in Monetary Authority of Singapore Report (2021) | <a href="https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/cbdc/global-cbdc-challenge-report-2021.pdf">[Full Report]</a></p>
-    <p class="conference-info">Awarded as <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY">Global CBDC Challenge Finalist</a> (Top 5% in over 300+ submissions from 50+ countries)</p>
-    <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>HSBC's solution analyses 12 problem statements in this Global CBDC Challenge and uses 15 dimensions (e.g. business secrecy, latency, scalability, accessibility, etc.) to measure a retail CBDC system. Their analysis and research found that consensus algorithms and related operating models are key components of CBDC design for central banks. With this in mind, HSBC built an evaluation platform to provide central banks with consensus algorithm recommendations and operating model options.</p>
-    </details>
-  </li>
 </ul>
-
 
   <!-- 3. Joint with [A. Huang](https://www.allenhuang.org/), [M. Dordal i Carreras](https://marcdordal.github.io/) and HSBC Bank (Hong Kong) (2024). "Tokenized Deposit". Working paper. -->
 
@@ -252,10 +236,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yong Xia
     </div>
-    <p class="conference-info">Publication: IEEE Access, Volume 10, 2022</p>
-    <p class="conference-info">
-      Reference: <a href="https://ieeexplore.ieee.org/document/9795279">[Paper]</a>
-    </p>
+    <p class="conference-info">Publication: IEEE Access, Volume 10, 2022 <a href="https://ieeexplore.ieee.org/document/9795279">[Paper]</a></p>
+    <p class="conference-info">Government Media Coverage: <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Monetary Authority of Singapore (MAS) Global CBDC Challenge</a></p>
+    <p class="conference-info">Award: Global CBDC Challenge Finalist (Top 5% in over 300+ submissions from 50+ countries)</p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.</p>
