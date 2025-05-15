@@ -271,11 +271,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
     </div>
-    <p class="conference-info">Publication: 4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022)</p>
-    <p class="conference-info"> 
-      Reference: <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a>
-      <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
-    </p>
+    <p class="conference-info">4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022) <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a></p>
   </li>
 
 
@@ -286,9 +282,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia
     </div>
-    <p class="conference-info">Publication: 6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25</p>
-    <p class="conference-info">
-      Reference: <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
+    <p class="conference-info">6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25 <a href="https://arxiv.org/abs/2411.13017">[Paper]</a></p>
     </p>
     <details class="paper-details">
       <summary>Abstract</summary>
