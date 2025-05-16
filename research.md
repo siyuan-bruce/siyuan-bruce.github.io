@@ -283,7 +283,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia
     </div>
     <p class="conference-info">6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25 <a href="https://arxiv.org/abs/2411.13017">[Paper]</a></p>
-    </p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Traditional banks face significant challenges in digital transformation, primarily due to legacy system constraints and fragmented ownership. Recent incidents show that such fragmentation often results in superficial incident resolutions, leaving root causes unaddressed and causing recurring failures. We introduce a novel approach to post-incident analysis, integrating knowledge-based GenAI agents with the "Five Whys" technique to examine problem descriptions and change request data. This method uncovered that approximately 70% of the incidents previously attributed to management or vendor failures were due to underlying internal code issues. We present a case study to show the impact of our method. By scanning over 5,000 projects, we identified over 400 files with a similar root cause. Overall, we leverage the knowledge-based agents to automate and elevate root cause analysis, transforming it into a more proactive process. These agents can be applied across other phases of the software development lifecycle, further improving development processes.</p>
@@ -339,7 +338,7 @@ body {
     }
 
     .paper-title {
-      font-size: 24px;
+      font-size: 22px;
       font-family: 'Playfair Display', serif;
       font-weight: 700;
       margin-bottom: 12px;
