@@ -127,6 +127,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
     <p class="status-info">Under 2nd round review at ACM Distributed Ledger Technologies: Research and Practice</p>
+    <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
     <p class="conference-info">
       Reference: <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
     </p>
@@ -148,7 +149,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   </li>
 </ul>
 
-#### **Policy Papers**
+<!-- #### **Policy Papers**
 <ul>
   <li class="paper-item">
     <div class="paper-title">
@@ -163,7 +164,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <p>The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants.</p>
     </details>
   </li>
-</ul>
+</ul> -->
 
   <!-- 3. Joint with [A. Huang](https://www.allenhuang.org/), [M. Dordal i Carreras](https://marcdordal.github.io/) and HSBC Bank (Hong Kong) (2024). "Tokenized Deposit". Working paper. -->
 
