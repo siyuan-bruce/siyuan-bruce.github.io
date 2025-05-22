@@ -186,7 +186,7 @@ key: page-is_reading_group
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-top: 20px;
         }
@@ -196,10 +196,13 @@ key: page-is_reading_group
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto;
         }
 
         .stats-card img {
             width: 100%;
+            height: auto;
             border-radius: 8px;
         }
 
