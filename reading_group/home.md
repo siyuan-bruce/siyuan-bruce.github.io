@@ -339,6 +339,8 @@ key: page-is_reading_group
 
       <h2>Past Sessions</h2>
       <div class="poster-grid">
+        <img src="poster/IS_PSG_45_46.jpg" alt="PSG-45-46" title="PSG-45-46" width="800">
+        <img src="poster/IS_PSG_42_44.jpg" alt="PSG-42-44" title="PSG-42-44" width="800">
         <img src="poster/IS_PSG_42_43.jpg" alt="PSG-42-43" title="PSG-42-43" width="800">
         <img src="poster/IS_PSG_41.jpg" alt="PSG-41" title="PSG-41" width="800">
         <img src="poster/IS_PSG_40.jpg" alt="PSG-40" title="PSG-40" width="800">
