@@ -111,7 +111,7 @@ key: page-is_reading_group
         /* Professor grid styles */
         .professor-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
             gap: 30px;
             margin: 40px 0;
         }
@@ -122,6 +122,8 @@ key: page-is_reading_group
             background: #fff;
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px; /* Maximum width for each card */
+            margin: 0 auto; /* Center cards */
         }
 
         .professor-photo {
