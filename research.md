@@ -310,8 +310,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
 ## **Academic Services**
 
-<details>
-<summary><strong>Conference Reviewing</strong></summary>
+### Conference Reviewing
 
 - **WITS 2024** (2 papers)
 - **ICIS 2023-2025** (7 papers)
@@ -320,7 +319,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   - 2023: 2 papers
 - **PACIS 2024** (2 papers)
 - **QIP 2024** (1 paper)
-</details>
 
 
 <style>
