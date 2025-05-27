@@ -308,16 +308,19 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
 
-## **Services**
-- Ad hoc Reviewer
-  - _Workshop on Information Technologies and Systems (WITS 2024 X 2)_
-  - _International Conference on Information Systems (2023 ICIS X 2, 2024 ICIS X 2, 2025 ICIS X 3)_
-  - the _Pacific Asia Conference on Information Systems (PACIS X 2)_
-  - the _Quantum Information Processing (QIP X 1)_
-- Sep 2018 ~ Mar 2019: Director, _Innovation Club for Science and Technology (SCUT)_
-- Mar 2018 ~ Sep 2018: Member, _Innovation Club for Science and Technology (SCUT)_
-- [Quantum Finance Literature](https://github.com/siyuan-bruce/Quantum-Finance), [Central Bank Digital Currency Literature](https://github.com/siyuan-bruce/CBDC-Literature)
-- [design-and-analysis-of-algorithm](https://github.com/datawhalechina/design-and-analysis-of-algorithm)
+## **Academic Services**
+
+<details>
+<summary><strong>Conference Reviewing</strong></summary>
+
+- **WITS 2024** (2 papers)
+- **ICIS 2023-2025** (7 papers)
+  - 2025: 3 papers
+  - 2024: 2 papers
+  - 2023: 2 papers
+- **PACIS 2024** (2 papers)
+- **QIP 2024** (1 paper)
+</details>
 
 
 <style>
