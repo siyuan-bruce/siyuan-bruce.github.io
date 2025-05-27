@@ -308,18 +308,12 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
 
-## **Academic Services**
-
-### Conference Reviewing
-
-- **WITS 2024** (2 papers)
-- **ICIS 2023-2025** (7 papers)
-  - 2025: 3 papers
-  - 2024: 2 papers
-  - 2023: 2 papers
-- **PACIS 2024** (2 papers)
-- **QIP 2024** (1 paper)
-
+## **Services**
+- Ad hoc Reviewer
+  - _Workshop on Information Technologies and Systems (**WITS** 2024 X 2)_
+  - _International Conference on Information Systems (**ICIS** 2023 X 2, 2024 X 2, 2025 X 3)_
+  - the _Pacific Asia Conference on Information Systems (**PACIS** 2024 X 2)_
+  - the _Quantum Information Processing (**QIP** 2023 X 1)_
 
 <style>
 
