@@ -342,11 +342,20 @@ body {
     .paper-item::before {
       content: attr(data-number);
       position: absolute;
-      left: -20px;
+      left: -25px;
       top: 0;
       color: #333;
       font-weight: bold;
-      font-size: 14px;
+      font-size: 16px;
+      width: 24px;
+      height: 24px;
+      background-color: #f5f5f5;
+      border: 2px solid #333;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
     }
 
     .paper-title {
