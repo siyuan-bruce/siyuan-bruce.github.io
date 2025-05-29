@@ -38,7 +38,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 <ul>
   <li class="paper-item">
     <div class="paper-title">
-      Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
+      <span class="paper-number">1.</span> Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
@@ -67,7 +67,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community.
+      <span class="paper-number">2.</span> Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
@@ -88,7 +88,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Breaking the Barrier or Breaking the Market? Evidence from Non-Fungible Token Platforms.
+      <span class="paper-number">3.</span> Breaking the Barrier or Breaking the Market? Evidence from Non-Fungible Token Platforms.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ying Hao, Hongfei Li, Keongtae Kim, Kar Yan Tam.
@@ -98,7 +98,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
+      <span class="paper-number">4.</span> Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
@@ -120,7 +120,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 <ul>
   <li class="paper-item">
     <div class="paper-title">
-      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
+      <span class="paper-number">5.</span> Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
     <div class="paper-authors">
       <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
@@ -140,7 +140,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
+      <span class="paper-number">6.</span> Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
     </div>
     <div class="paper-authors">
       Joint with <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a> and 
@@ -177,7 +177,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   <!-- Newly added papers -->
   <li class="paper-item">
     <div class="paper-title">
-      IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
+      <span class="paper-number">7.</span> IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
@@ -200,7 +200,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
+      <span class="paper-number">8.</span> Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
@@ -233,7 +233,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures
+      <span class="paper-number">9.</span> CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yong Xia
@@ -249,7 +249,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Software Code Quality Measurement: Implications from Metric Distributions
+      <span class="paper-number">10.</span> Software Code Quality Measurement: Implications from Metric Distributions
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia
@@ -268,7 +268,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      A UTXO-based Sharding Method for Stablecoin
+      <span class="paper-number">11.</span> A UTXO-based Sharding Method for Stablecoin
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
@@ -279,7 +279,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <li class="paper-item">
     <div class="paper-title">
-      Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems
+      <span class="paper-number">12.</span> Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia
@@ -405,6 +405,12 @@ body {
     background-color: #e6f2ff; /* Light blue background */
     padding: 5px;
     border-radius: 5px;
+  }
+
+  .paper-number {
+    color: #666;
+    margin-right: 8px;
+    font-weight: bold;
   }
 
 </style>
