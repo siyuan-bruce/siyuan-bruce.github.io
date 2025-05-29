@@ -349,7 +349,7 @@ body {
       font-size: 18px;
       width: 32px;
       height: 32px;
-      background-color: #f5f5f5;
+      background-color:rgb(255, 255, 255);
       border: 2px solid #333;
       border-radius: 50%;
       display: flex;
