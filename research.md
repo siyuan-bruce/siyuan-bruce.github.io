@@ -36,9 +36,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 ### Research Agenda 1: Token Platforms
 
 <ul>
-  <li class="paper-item">
+  <li class="paper-item" data-number="1">
     <div class="paper-title">
-      <span class="paper-number">1.</span> Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
+      Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
@@ -65,9 +65,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   </li>
 
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="2">
     <div class="paper-title">
-      <span class="paper-number">2.</span> Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community.
+      Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
@@ -86,9 +86,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="3">
     <div class="paper-title">
-      <span class="paper-number">3.</span> Breaking the Barrier or Breaking the Market? Evidence from Non-Fungible Token Platforms.
+      Breaking the Barrier or Breaking the Market? Evidence from Non-Fungible Token Platforms.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ying Hao, Hongfei Li, Keongtae Kim, Kar Yan Tam.
@@ -96,9 +96,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="status-info">In preparation for submission.</p>
   </li>
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="4">
     <div class="paper-title">
-      <span class="paper-number">4.</span> Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
+      Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
@@ -118,9 +118,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 #### **Academic Papers**
 
 <ul>
-  <li class="paper-item">
+  <li class="paper-item" data-number="5">
     <div class="paper-title">
-      <span class="paper-number">5.</span> Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
+      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
     <div class="paper-authors">
       <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
@@ -138,9 +138,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="6">
     <div class="paper-title">
-      <span class="paper-number">6.</span> Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
+      Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
     </div>
     <div class="paper-authors">
       Joint with <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a> and 
@@ -175,9 +175,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 <ul>
 
   <!-- Newly added papers -->
-  <li class="paper-item">
+  <li class="paper-item" data-number="7">
     <div class="paper-title">
-      <span class="paper-number">7.</span> IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
+      IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
@@ -198,9 +198,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="status-info">Under 1st round conference review.</p>
   </li> -->
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="8">
     <div class="paper-title">
-      <span class="paper-number">8.</span> Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
+      Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
@@ -231,9 +231,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 ## **Other Publications (Pre-Doctoral)**
 <ul>
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="9">
     <div class="paper-title">
-      <span class="paper-number">9.</span> CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures
+      CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Yong Xia
@@ -247,9 +247,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="10">
     <div class="paper-title">
-      <span class="paper-number">10.</span> Software Code Quality Measurement: Implications from Metric Distributions
+      Software Code Quality Measurement: Implications from Metric Distributions
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia
@@ -266,9 +266,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="11">
     <div class="paper-title">
-      <span class="paper-number">11.</span> A UTXO-based Sharding Method for Stablecoin
+      A UTXO-based Sharding Method for Stablecoin
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
@@ -277,9 +277,9 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   </li>
 
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="12">
     <div class="paper-title">
-      <span class="paper-number">12.</span> Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems
+      Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia
@@ -335,7 +335,18 @@ body {
     .paper-item {
       margin-bottom: 30px;
       padding-left: 15px;
-      border-left: 4px solid #333; /* Subtle border instead of bullet */
+      border-left: 4px solid #333;
+      position: relative;
+    }
+
+    .paper-item::before {
+      content: attr(data-number);
+      position: absolute;
+      left: -20px;
+      top: 0;
+      color: #333;
+      font-weight: bold;
+      font-size: 14px;
     }
 
     .paper-title {
