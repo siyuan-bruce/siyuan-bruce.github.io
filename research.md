@@ -342,19 +342,21 @@ body {
     .paper-item::before {
       content: attr(data-number);
       position: absolute;
-      left: -35px;
-      top: 0;
-      color: #333;
+      left: -40px; /* Adjusted for better spacing */
+      top: 50%; /* Center aligns with the element */
+      transform: translateY(-50%); /* Ensures vertical centering */
+      color: #fff; /* White text for contrast */
       font-weight: bold;
-      font-size: 18px;
-      width: 32px;
-      height: 32px;
-      background-color: #f5f5f5;
-      border: 2px solid #333;
-      border-radius: 50%;
+      font-size: 16px; /* Slightly smaller for balance */
+      width: 36px; /* Larger for a modern feel */
+      height: 36px;
+      background: linear-gradient(135deg, #007BFF, #0056b3); /* Gradient for a sleek look */
+      border: none; /* Removed border for minimalism */
+      border-radius: 50%; /* Keeps the circle shape */
       display: flex;
       align-items: center;
       justify-content: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
       line-height: 1;
     }
 
