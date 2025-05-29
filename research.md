@@ -342,13 +342,13 @@ body {
     .paper-item::before {
       content: attr(data-number);
       position: absolute;
-      left: -25px;
+      left: -35px;
       top: 0;
       color: #333;
       font-weight: bold;
-      font-size: 16px;
-      width: 24px;
-      height: 24px;
+      font-size: 18px;
+      width: 32px;
+      height: 32px;
       background-color: #f5f5f5;
       border: 2px solid #333;
       border-radius: 50%;
