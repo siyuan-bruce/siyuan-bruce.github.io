@@ -274,13 +274,14 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Yong Xia, Botong Xu
     </div>
     <p class="conference-info">Publication: Cluster Computing, Volume 27, Issue 4, Pages 3983-3996 (2024) <a href="https://dl.acm.org/doi/10.1007/s10586-023-04247-9">[Paper]</a></p>
+    <p class="conference-info">4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022) <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a></p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>FinTech and RegTech integration is essential for developing regulated digital currency (RDC) systems that are scalable and compliant. This paper proposes an unspent transaction output (UTXO)-based sharding method to address scalability challenges in RDCs. Results show UTXO-based sharding delivers linear throughput increase and consistently low latency by minimizing cross-shard transactions as the shard count grows. However, frequent user onboarding across shards under UTXO-based sharding models complicates know-your-customer (KYC) processes, highlighting regulatory inefficiencies. We demonstrate that zero-knowledge proofs seamlessly integrate with UTXO-based sharding to streamline customer onboarding and overcome regulatory burdens. Overall, this research pioneers FinTech-RegTech integration with practical implications for deploying high-performance, compliant RDC systems by synergistically combining UTXO-based sharding for scalability and zero-knowledge proofs for efficient regulation.</p>
     </details>
   </li>
 
-  <li class="paper-item" data-number="12">
+  <!-- <li class="paper-item" data-number="12">
     <div class="paper-title">
       A UTXO-based Sharding Method for Stablecoin
     </div>
@@ -288,10 +289,10 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
     </div>
     <p class="conference-info">4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022) <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a></p>
-  </li>
+  </li> -->
 
 
-  <li class="paper-item" data-number="13">
+  <li class="paper-item" data-number="12">
     <div class="paper-title">
       Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems
     </div>
