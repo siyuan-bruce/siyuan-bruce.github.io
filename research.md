@@ -188,7 +188,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   </li>
 
 
-  <!-- <li class="paper-item">
+  <li class="paper-item">
     <div class="paper-title">
       Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
@@ -196,7 +196,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, Kar Yan Tam.
     </div>
     <p class="status-info">Under 1st round conference review.</p>
-  </li> -->
+  </li>
 
   <li class="paper-item" data-number="8">
     <div class="paper-title">
