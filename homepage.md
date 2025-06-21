@@ -259,21 +259,7 @@ key: page-homepage
 </div>
 
 ## Upcoming Talks
-<ul>
-  <li class="paper-item">
-    <div class="paper-title">
-      Crisis, Transparency, and User Engagement
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, 
-      Yuying Cai, Luying Qiu,
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
-    </div>
-    <p class="conference-info">June 24, 2025, 09:00 - 10:15, SCECR 2025, Paphos, Cyprus</p>
-    <p class="conference-info">Session: TRACK 2 - The User Engagement in Digital Platforms (Chair: Michail Batikas)</p>
-  </li>
-
-  
+<ul>  
   <li class="paper-item">
     <div class="paper-title">
       Agentic IT in Information Systems Development: Insights from a Large-Scale Quasi-Experiment on Code Quality
@@ -285,6 +271,19 @@ key: page-homepage
     </div>
     <p class="conference-info">June 23, 2025, 14:45 - 15:45, SCECR 2025, Paphos, Cyprus</p>
     <p class="conference-info">Session: Short Papers B (Chair: Ioannis Kanellopoulos)</p>
+  </li>
+
+  <li class="paper-item">
+    <div class="paper-title">
+      Crisis, Transparency, and User Engagement
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, 
+      Yuying Cai, Luying Qiu,
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
+    </div>
+    <p class="conference-info">June 24, 2025, 09:00 - 10:15, SCECR 2025, Paphos, Cyprus</p>
+    <p class="conference-info">Session: TRACK 2 - The User Engagement in Digital Platforms (Chair: Michail Batikas)</p>
   </li>
 </ul>
 
