@@ -257,7 +257,7 @@ key: page-homepage
   </p>
   </div>
 </div>
-
+<!-- 
 ## Upcoming Talks
 <ul>  
   <li class="paper-item">
@@ -285,7 +285,7 @@ key: page-homepage
     <p class="conference-info">June 24, 2025, 09:00 - 10:15, SCECR 2025, Paphos, Cyprus</p>
     <p class="conference-info">Session: TRACK 2 - The User Engagement in Digital Platforms (Chair: Michail Batikas)</p>
   </li>
-</ul>
+</ul> -->
 
 ## News
 - **2025-04**: Research paper on code reviewer accepted by **_SCECR 2025_**.
