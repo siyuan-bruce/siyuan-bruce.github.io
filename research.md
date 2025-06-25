@@ -128,7 +128,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
       <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
-    <p class="status-info">Under 2nd round review at ACM Distributed Ledger Technologies: Research and Practice</p>
+    <p class="status-info">Conditionally accepted at ACM Distributed Ledger Technologies: Research and Practice</p>
     <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
     <p class="conference-info">
       Reference: <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
@@ -189,7 +189,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   </li>
 
 
-  <li class="paper-item">
+  <!-- <li class="paper-item">
     <div class="paper-title">
       Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
@@ -198,7 +198,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">Under 1st round conference review.</p>
-  </li>
+  </li> -->
 
   <li class="paper-item" data-number="8">
     <div class="paper-title">
