@@ -41,6 +41,8 @@ key: page-homepage
     max-width: 300px;
     margin: 10px 0;
   }
+  
+  
 
   .profile-text {
     margin: 10px;

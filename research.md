@@ -210,7 +210,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
       Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
-    <p class="status-info">Under Preparation for 2nd Round Review for <em>ACM Transactions on Management Information Systems</em>.</p>
+    <p class="status-info">Invited to resubmit for 2nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
   <!-- <li class="paper-item">
