@@ -290,6 +290,7 @@ key: page-homepage
 </ul> -->
 
 ## News
+- **2025-06**: Research paper on blockchain-based K-Pop community is selected to be presented at **_HKUST IS Summer Workshop 2025_**.
 - **2025-04**: Research paper on code reviewer accepted by **_SCECR 2025_**.
 - **2025-04**: Research paper on stablecoin transparency accepted by **_SCECR 2025_**.
 - **2025-04**: Invited to present research at the **_2025 HKUST PhD Student Conference_**.
