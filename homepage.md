@@ -237,7 +237,7 @@ key: page-homepage
     }
 
     .news-date {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: bold;
       color: #555;
       width: 100px; /* Fixed width for aligned dates */
@@ -248,7 +248,7 @@ key: page-homepage
     }
 
     .news-content {
-      font-size: 14px;
+      font-size: 16px;
       flex-grow: 1;
       color: #333;
     }
