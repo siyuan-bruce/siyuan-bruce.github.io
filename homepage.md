@@ -221,11 +221,11 @@ key: page-homepage
     .news-section {
       font-family: 'Times New Roman', Times, serif;
       margin: 20px;
-      line-height: 1.6;
+      line-height: 1.25;
     }
 
     .news-section h2 {
-      font-size: 24px;
+      font-size: 20px;
       font-weight: bold;
       margin-bottom: 20px;
     }
@@ -251,12 +251,12 @@ key: page-homepage
     }
 
     .news-content strong {
-      color: #0073e6; /* Highlight important text */
+      color:rgb(0, 0, 0); /* Highlight important text */
     }
 
     .news-content a {
       text-decoration: none;
-      color: #0073e6;
+      color:rgb(0, 0, 0);
     }
 
     .news-content a:hover {
