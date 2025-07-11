@@ -237,17 +237,18 @@ key: page-homepage
     }
 
     .news-date {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: bold;
       color: #555;
       width: 100px; /* Fixed width for aligned dates */
       flex-shrink: 0;
       text-align: right; /* Right-align the dates */
       padding-right: 15px; /* Add some space between date and content */
+      white-space: nowrap;
     }
 
     .news-content {
-      font-size: 16px;
+      font-size: 14px;
       flex-grow: 1;
       color: #333;
     }
