@@ -225,7 +225,7 @@ key: page-homepage
     }
 
     .news-section h2 {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: bold;
       margin-bottom: 20px;
     }
@@ -242,7 +242,7 @@ key: page-homepage
       width: 100px; /* Fixed width for aligned dates */
       flex-shrink: 0;
       text-align: right; /* Right-align the dates */
-      padding-right: 15px; /* Add some space between date and content */
+      padding-right: 20px; /* Add some space between date and content */
     }
 
     .news-content {
@@ -345,8 +345,9 @@ key: page-homepage
   </li>
 </ul> -->
 
+## News
+
 <div class="news-section">
-  <h2>News</h2>
   <div class="news-item">
     <div class="news-date">Jun, 2025</div>
     <div class="news-content">
