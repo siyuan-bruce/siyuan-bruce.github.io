@@ -220,7 +220,7 @@ key: page-homepage
     /* News Section Styling */
     .news-section {
       font-family: Courier New;
-      margin: 20px;
+      margin: 10px;
       line-height: 1.25;
     }
 
