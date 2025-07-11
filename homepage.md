@@ -47,7 +47,7 @@ key: page-homepage
     max-width: 300px; /* Constrain size */
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow */
-    border: 2px solid #f0f0f0; /* Light border */
+    #border: 2px solid #f0f0f0; /* Light border */
     padding: 5px; /* Space between image and border */
     background-color: white; /* Background color to enhance border */
   }
