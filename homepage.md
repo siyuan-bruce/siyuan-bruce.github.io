@@ -216,6 +216,50 @@ key: page-homepage
     header.header {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+
+    /* News Section Styling */
+    .news-section {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+
+    .news-section h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .news-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 15px;
+    }
+
+    .news-date {
+      font-weight: bold;
+      color: #555;
+      width: 100px; /* Fixed width for aligned dates */
+      flex-shrink: 0;
+    }
+
+    .news-content {
+      flex-grow: 1;
+      color: #333;
+    }
+
+    .news-content strong {
+      color: #0073e6; /* Highlight important text */
+    }
+
+    .news-content a {
+      text-decoration: none;
+      color: #0073e6;
+    }
+
+    .news-content a:hover {
+      text-decoration: underline;
+    }
   }
 
   /* Mobile-specific adjustments */
@@ -299,30 +343,136 @@ key: page-homepage
   </li>
 </ul> -->
 
-## News
-- **2025-06**: Research paper on blockchain-based K-Pop community is selected to be presented at **_HKUST IS Summer Workshop 2025_**.
-- **2025-04**: Research paper on code reviewer accepted by **_SCECR 2025_**.
-- **2025-04**: Research paper on stablecoin transparency accepted by **_SCECR 2025_**.
-- **2025-04**: Invited to present research at the **_2025 HKUST PhD Student Conference_**.
-- **2025-03**: Selected as a mentor for the **_2025 HKUST Web3 Ideathon Competition_**.
-- **2025-03**: Our **_IS Reading Group_** reached 100+ members!
-- **2025-02**: Research paper accepted for publication in **_AIOps'25_**.
-- **2024-12**: Invited to participate in the **_MISQ Reviewer Workshop_**.
-<!-- - **2024-12**: Coauthor Yichi Zhang's paper was accepted by **_Quantum Information Processing_**!  -->
-- **2024-12**: Recipient of the HKUST **_Young Scientists Program Award (FinTech)_**.
-- **2024-11**: Research on blockchain-based K-Pop community nominated for the **_2024 ICIS Best Short Paper Award_**.
-- **2024-11**: Research presented at the **_2024 Greater Bay Area Finance Workshop_**.
-- **2024-08**: Research on blockchain-based K-Pop community accepted for publication in **_2024 CIST_**.
-- **2024-08**: Research on code reviewer accepted for publication in **_2024 CIST_**.
-- **2024-07**: Research on blockchain-based K-Pop community accepted by the **_2024 ICIS Fintech Track_**.
-- **2024-07**: Research on stablecoin transparency accepted by the **_2024 ICIS_**.
-<!-- - **2024-07**: Coauthor PhD Student Yuhan Huang's paper was accepted by **_Physical Review Research_**!  -->
-- **2024-07**: Successfully completed the **_PhD Qualification Exam_** and advanced to candidacy.
-- **2024-06**: Research paper accepted for the **_MIS Quarterly Virtual Paper Development Workshop_**.
-- **2024-05**: Research selected for presentation at the **_HKUST PhD Student Conference_**.
-- **2023-10**: Contributed to joint policy paper "e-HKD Pilot Programme" published by [**HKMA**](https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf).
-- **2023-09**: Research paper accepted for publication in **_QRS 2023_**.
-- **2022-12**: Selected as a mentor for the **_2022 HKUST Fintechstic Competition_**.
+<div class="news-section">
+  <h2>News</h2>
+  <div class="news-item">
+    <div class="news-date">Jun 2025</div>
+    <div class="news-content">
+      Research paper on blockchain-based K-Pop community is selected to be presented at
+      <strong>HKUST IS Summer Workshop 2025</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Apr 2025</div>
+    <div class="news-content">
+      Research paper on code reviewer accepted by <strong>SCECR 2025</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Apr 2025</div>
+    <div class="news-content">
+      Research paper on stablecoin transparency accepted by <strong>SCECR 2025</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Apr 2025</div>
+    <div class="news-content">
+      Invited to present research at the <strong>2025 HKUST PhD Student Conference</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Mar 2025</div>
+    <div class="news-content">
+      Selected as a mentor for the <strong>2025 HKUST Web3 Ideathon Competition</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Mar 2025</div>
+    <div class="news-content">
+      Our <strong>IS Reading Group</strong> reached 100+ members!
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Feb 2025</div>
+    <div class="news-content">
+      Research paper accepted for publication in <strong>AIOps'25</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Dec 2024</div>
+    <div class="news-content">
+      Invited to participate in the <strong>MISQ Reviewer Workshop</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Dec 2024</div>
+    <div class="news-content">
+      Recipient of the HKUST <strong>Young Scientists Program Award (FinTech)</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Nov 2024</div>
+    <div class="news-content">
+      Research on blockchain-based K-Pop community nominated for the <strong>2024 ICIS Best Short Paper Award</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Nov 2024</div>
+    <div class="news-content">
+      Research presented at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Aug 2024</div>
+    <div class="news-content">
+      Research on blockchain-based K-Pop community accepted for publication in <strong>2024 CIST</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Aug 2024</div>
+    <div class="news-content">
+      Research on code reviewer accepted for publication in <strong>2024 CIST</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Jul 2024</div>
+    <div class="news-content">
+      Research on blockchain-based K-Pop community accepted by the <strong>2024 ICIS Fintech Track</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Jul 2024</div>
+    <div class="news-content">
+      Research on stablecoin transparency accepted by the <strong>2024 ICIS</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Jul 2024</div>
+    <div class="news-content">
+      Successfully completed the <strong>PhD Qualification Exam</strong> and advanced to candidacy.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Jun 2024</div>
+    <div class="news-content">
+      Research paper accepted for the <strong>MIS Quarterly Virtual Paper Development Workshop</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">May 2024</div>
+    <div class="news-content">
+      Research selected for presentation at the <strong>HKUST PhD Student Conference</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Oct 2023</div>
+    <div class="news-content">
+      Contributed to joint policy paper "e-HKD Pilot Programme" published by <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf"><strong>HKMA</strong></a>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Sep 2023</div>
+    <div class="news-content">
+      Research paper accepted for publication in <strong>QRS 2023</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Dec 2022</div>
+    <div class="news-content">
+      Selected as a mentor for the <strong>2022 HKUST Fintechstic Competition</strong>.
+    </div>
+  </div>
+</div>
 
 ## IS Paper Sharing Group
 Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly PhD students. We also welcome faculty members and industry practitioners to share more advanced topics in this area. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
