@@ -219,7 +219,7 @@ key: page-homepage
 
     /* News Section Styling */
     .news-section {
-      font-family: 'Times New Roman', Times, serif;
+      font-family: Merriweather, Arial; font-weight: 700;;
       margin: 20px;
       line-height: 1.25;
     }
