@@ -47,8 +47,8 @@ key: page-homepage
     max-width: 300px; /* Constrain size */
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow */
-    #border: 2px solid #f0f0f0; /* Light border */
-    padding: 5px; /* Space between image and border */
+    border: 2px solid #f0f0f0; /* Light border */
+    padding: 2px; /* Space between image and border */
     background-color: white; /* Background color to enhance border */
   }
   
@@ -241,6 +241,8 @@ key: page-homepage
       color: #555;
       width: 100px; /* Fixed width for aligned dates */
       flex-shrink: 0;
+      text-align: right; /* Right-align the dates */
+      padding-right: 15px; /* Add some space between date and content */
     }
 
     .news-content {
@@ -346,128 +348,128 @@ key: page-homepage
 <div class="news-section">
   <h2>News</h2>
   <div class="news-item">
-    <div class="news-date">Jun 2025</div>
+    <div class="news-date">Jun, 2025</div>
     <div class="news-content">
-      Research paper on blockchain-based K-Pop community is selected to be presented at
+      A paper on blockchain-based K-Pop community is selected by
       <strong>HKUST IS Summer Workshop 2025</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Apr 2025</div>
+    <div class="news-date">Apr, 2025</div>
     <div class="news-content">
-      Research paper on code reviewer accepted by <strong>SCECR 2025</strong>.
+      A paper on code reviewer accepted by <strong>SCECR 2025</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Apr 2025</div>
+    <div class="news-date">Apr, 2025</div>
     <div class="news-content">
-      Research paper on stablecoin transparency accepted by <strong>SCECR 2025</strong>.
+      A paper on stablecoin transparency accepted by <strong>SCECR 2025</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Apr 2025</div>
+    <div class="news-date">Apr, 2025</div>
     <div class="news-content">
-      Invited to present research at the <strong>2025 HKUST PhD Student Conference</strong>.
+      Had a presentation at the <strong>2025 HKUST PhD Student Conference</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Mar 2025</div>
+    <div class="news-date">Mar, 2025</div>
     <div class="news-content">
       Selected as a mentor for the <strong>2025 HKUST Web3 Ideathon Competition</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Mar 2025</div>
+    <div class="news-date">Mar, 2025</div>
     <div class="news-content">
       Our <strong>IS Reading Group</strong> reached 100+ members!
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Feb 2025</div>
+    <div class="news-date">Feb, 2025</div>
     <div class="news-content">
-      Research paper accepted for publication in <strong>AIOps'25</strong>.
+      A paper on root cause analysis accepted by <strong>AIOps'25</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Dec 2024</div>
+    <div class="news-date">Dec, 2024</div>
     <div class="news-content">
-      Invited to participate in the <strong>MISQ Reviewer Workshop</strong>.
+      Selected to participate in the <strong>MISQ Reviewer Workshop</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Dec 2024</div>
+    <div class="news-date">Dec, 2024</div>
     <div class="news-content">
-      Recipient of the HKUST <strong>Young Scientists Program Award (FinTech)</strong>.
+      Received the HKUST <strong>Young Scientists Program Award (FinTech)</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Nov 2024</div>
+    <div class="news-date">Nov, 2024</div>
     <div class="news-content">
       Research on blockchain-based K-Pop community nominated for the <strong>2024 ICIS Best Short Paper Award</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Nov 2024</div>
+    <div class="news-date">Nov, 2024</div>
     <div class="news-content">
       Research presented at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Aug 2024</div>
+    <div class="news-date">Aug, 2024</div>
     <div class="news-content">
-      Research on blockchain-based K-Pop community accepted for publication in <strong>2024 CIST</strong>.
+      A paper on blockchain-based K-Pop community accepted for publication in <strong>2024 CIST</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Aug 2024</div>
+    <div class="news-date">Aug, 2024</div>
     <div class="news-content">
-      Research on code reviewer accepted for publication in <strong>2024 CIST</strong>.
+      A paper on code reviewer accepted for publication in <strong>2024 CIST</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Jul 2024</div>
+    <div class="news-date">Jul, 2024</div>
     <div class="news-content">
-      Research on blockchain-based K-Pop community accepted by the <strong>2024 ICIS Fintech Track</strong>.
+      A paper on blockchain-based K-Pop community accepted by the <strong>2024 ICIS Fintech Track</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Jul 2024</div>
+    <div class="news-date">Jul, 2024</div>
     <div class="news-content">
-      Research on stablecoin transparency accepted by the <strong>2024 ICIS</strong>.
+      A paper on stablecoin transparency accepted by the <strong>2024 ICIS</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Jul 2024</div>
+    <div class="news-date">Jul, 2024</div>
     <div class="news-content">
       Successfully completed the <strong>PhD Qualification Exam</strong> and advanced to candidacy.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Jun 2024</div>
+    <div class="news-date">Jun, 2024</div>
     <div class="news-content">
-      Research paper accepted for the <strong>MIS Quarterly Virtual Paper Development Workshop</strong>.
+      A paper accepted for the <strong>MIS Quarterly Virtual Paper Development Workshop</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">May 2024</div>
+    <div class="news-date">May, 2024</div>
     <div class="news-content">
-      Research selected for presentation at the <strong>HKUST PhD Student Conference</strong>.
+      Had a presentation at the <strong>HKUST PhD Student Conference</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Oct 2023</div>
+    <div class="news-date">Oct, 2023</div>
     <div class="news-content">
-      Contributed to joint policy paper "e-HKD Pilot Programme" published by <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf"><strong>HKMA</strong></a>.
+      joint policy paper "e-HKD Pilot Programme" published by <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf"><strong>HKMA</strong></a>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Sep 2023</div>
+    <div class="news-date">Sep, 2023</div>
     <div class="news-content">
-      Research paper accepted for publication in <strong>QRS 2023</strong>.
+      A study related to software metrics distribution accepted by <strong>QRS 2023</strong>.
     </div>
   </div>
   <div class="news-item">
-    <div class="news-date">Dec 2022</div>
+    <div class="news-date">Dec, 2022</div>
     <div class="news-content">
       Selected as a mentor for the <strong>2022 HKUST Fintechstic Competition</strong>.
     </div>
