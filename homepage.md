@@ -409,13 +409,13 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Nov, 2024</div>
     <div class="news-content">
-      Research on blockchain-based K-Pop community nominated for the <strong>2024 ICIS Best Short Paper Award</strong>.
+      A paper on blockchain-based K-Pop community nominated for the <strong>2024 ICIS Best Short Paper Award</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Nov, 2024</div>
     <div class="news-content">
-      Research presented at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
+      A paper on blockchain infrastructure governance presented at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
     </div>
   </div>
   <div class="news-item">
