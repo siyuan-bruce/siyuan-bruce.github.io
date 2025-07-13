@@ -359,6 +359,15 @@ key: page-homepage
     </div>
   </div>
   <div class="news-item">
+    <div class="news-date">Jun, 2025</div>
+    <div class="news-content">
+      <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">Paper</a> on rCBDC adoption conditionally accepted at 
+      <strong>
+        <a href="https://dl.acm.org/journal/dlt">ACM Distributed Ledger Technologies: Research and Practice</a>
+      </strong>.
+    </div>
+  </div>
+  <div class="news-item">
     <div class="news-date">Apr, 2025</div>
     <div class="news-content">
       A paper on code reviewer accepted by <strong>SCECR 2025</strong>.
