@@ -354,7 +354,7 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Jun, 2025</div>
     <div class="news-content">
-      A paper on blockchain-based K-Pop community is selected by
+      Paper on blockchain-based K-Pop community is selected by
       <strong>HKUST IS Summer Workshop 2025</strong>.
     </div>
   </div>
@@ -370,13 +370,13 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Apr, 2025</div>
     <div class="news-content">
-      A paper on code reviewer accepted by <strong>SCECR 2025</strong>.
+      Paper on code reviewer accepted by <strong>SCECR 2025</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Apr, 2025</div>
     <div class="news-content">
-      A paper on stablecoin transparency accepted by <strong>SCECR 2025</strong>.
+      Paper on stablecoin transparency accepted by <strong>SCECR 2025</strong>.
     </div>
   </div>
   <div class="news-item">
@@ -400,7 +400,7 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Feb, 2025</div>
     <div class="news-content">
-      A paper on root cause analysis accepted by <strong>AIOps'25</strong>.
+      Paper on root cause analysis accepted by <strong>AIOps'25</strong>.
     </div>
   </div>
   <div class="news-item">
@@ -418,37 +418,37 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Nov, 2024</div>
     <div class="news-content">
-      A paper on blockchain-based K-Pop community nominated for the <strong>2024 ICIS Best Short Paper Award</strong>.
+      Paper on blockchain-based K-Pop community nominated for the <strong>2024 ICIS Best Short Paper Award</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Nov, 2024</div>
     <div class="news-content">
-      A paper on blockchain infrastructure governance presented at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
+      Paper on blockchain infrastructure governance presented at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Aug, 2024</div>
     <div class="news-content">
-      A paper on blockchain-based K-Pop community accepted for publication in <strong>2024 CIST</strong>.
+      Paper on blockchain-based K-Pop community accepted for publication in <strong>2024 CIST</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Aug, 2024</div>
     <div class="news-content">
-      A paper on code reviewer accepted for publication in <strong>2024 CIST</strong>.
+      Paper on code reviewer accepted for publication in <strong>2024 CIST</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Jul, 2024</div>
     <div class="news-content">
-      A paper on blockchain-based K-Pop community accepted by the <strong>2024 ICIS Fintech Track</strong>.
+      Paper on blockchain-based K-Pop community accepted by the <strong>2024 ICIS Fintech Track</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Jul, 2024</div>
     <div class="news-content">
-      A paper on stablecoin transparency accepted by the <strong>2024 ICIS</strong>.
+      Paper on stablecoin transparency accepted by the <strong>2024 ICIS</strong>.
     </div>
   </div>
   <div class="news-item">
@@ -460,7 +460,7 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Jun, 2024</div>
     <div class="news-content">
-      A paper accepted for the <strong>MIS Quarterly Virtual Paper Development Workshop</strong>.
+      Paper accepted for the <strong>MIS Quarterly Virtual Paper Development Workshop</strong>.
     </div>
   </div>
   <div class="news-item">
@@ -478,7 +478,7 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Sep, 2023</div>
     <div class="news-content">
-      A study related to software metrics distribution accepted by <strong>QRS 2023</strong>.
+      Paper related to software metrics distribution accepted by <strong>QRS 2023</strong>.
     </div>
   </div>
   <div class="news-item">
