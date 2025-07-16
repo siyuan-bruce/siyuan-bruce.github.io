@@ -336,6 +336,11 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   - the _Pacific Asia Conference on Information Systems (**PACIS** 2024 X 2)_
   - the _Quantum Information Processing (**QIP** 2023 X 1)_
 
+## **Professional Membership**
+- Association for Information Systems (AIS)
+- Association for Computing Machinery (ACM)
+- Institute for Operations Research and Management Sciences (INFORMS)
+
 <style>
 
 body {
