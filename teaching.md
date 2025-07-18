@@ -45,10 +45,10 @@ Teaching interests: Management Information Systems, Blockchain, Digital Currency
 <div class="course-container">
 <div class="course-title">Coding for Business (ISOM 2020)</div>
 <div class="course-details">
-    <p><strong>Teaching period:</strong> 
-        1. Spring 2023 (Instructor: Weiyin Hong); 
-        2. Fall 2023 (Instructor: Weiyin Hong); 
-        3. Spring 2024 (Instructor: Jianqing Chen)
+    <p><strong>Teaching period:</strong><br>
+    Spring 2023 (Instructor: Dr. Weiyin Hong)<br>
+    Fall 2023 (Instructor: Dr. Weiyin Hong)<br>
+    Spring 2024 (Instructor: Dr. Jianqing Chen)
     </p>
     <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
     <p><strong>Class size:</strong> 60</p>
