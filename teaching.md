@@ -20,9 +20,9 @@ titles:
 key: page-teaching
 ---
 
-<p class="quote">Teaching is not a science and should not be treated as such. Teaching is an art - a performing art. — Mr. Dawe.</p>
+Teaching is not a science and should not be treated as such. Teaching is an art - a performing art. — Mr. Dawe.
 
-<p class="teaching-interests">Teaching interests: Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.</p>
+Teaching interests: Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.
 
 <h2>The Hong Kong University of Science and Technology</h2>
 
@@ -45,7 +45,11 @@ key: page-teaching
 <div class="course-container">
 <div class="course-title">Coding for Business (ISOM 2020)</div>
 <div class="course-details">
-    <p><strong>Teaching period:</strong> Three terms: Spring 2023 (Instructor: Weiyin Hong), Fall 2023 (Instructor: Weiyin Hong), and Spring 2024 (Instructor: Jianqing Chen)</p>
+    <p><strong>Teaching period:</strong> 
+        1. Spring 2023 (Instructor: Weiyin Hong); 
+        2. Fall 2023 (Instructor: Weiyin Hong); 
+        3. Spring 2024 (Instructor: Jianqing Chen)
+    </p>
     <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
     <p><strong>Class size:</strong> 60</p>
 </div>
