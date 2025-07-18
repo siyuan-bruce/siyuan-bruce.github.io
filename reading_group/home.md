@@ -297,7 +297,7 @@ key: page-is_reading_group
 <body>
 
   <div class="container">
-      <h1>Welcome to the Information Systems Reading Group</h1>
+      <h1>Welcome to IS Reading Group</h1>
       <p>Inspired by the spirit of open academic discussion, the Information Systems Reading Group aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems.</p>
 
       <p><strong>Mission: One more critique makes the paper better.</strong></p>
