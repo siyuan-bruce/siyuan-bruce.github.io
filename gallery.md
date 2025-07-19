@@ -133,6 +133,11 @@ permalink: /gallery.html
 <div class="year-section">
   <h3>2025</h3>
         <div class="event">
+            <h4>Paphos, Cyprus - SCECR 2025</h4>
+            <p>Letian, Yixin, and I are visiting Limasool in Crypus and met an old gentleman, Andrew. We were on the road to the conference venue, Paphos.</p>
+            <img src="assets/images/gallery/2025_SCECR.png" alt="2025 SCECR">
+        </div>
+        <div class="event">
             <h4>MISQ Reviewer Virtual Workshop, Online.</h4>
             <p>We discussed how to review IS papers.</p>
             <img src="assets/images/gallery/2025_MISQ_reveiwer_workshop.jpg" alt="2025 MISQ">
