@@ -302,8 +302,8 @@ key: page-is_reading_group
 
       <p><strong>Mission: One more critique makes the paper better.</strong></p>
 
-      <p>We aim to bring together scholars who are interested in the study of Information Systems. </p>
-      <p>For suggestions or inquiries, please contact Bruce at <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>.</p>
+      <p>The IS Reading Group aims to bring together scholars who are interested in the study of Information Systems. </p>
+      <p>Our existing organizers include Jingyuan Deng, Yihan Deng, Weibo Li, Xuewen Han, and me. For suggestions or inquiries, please contact us or me at <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>.</p>
 
       <h2>Acknowledgments</h2>
       <p>Our activity provides no financial incentive. Thus, we are grateful for any Professor who is willing to join us:</p>
