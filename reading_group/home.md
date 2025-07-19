@@ -298,11 +298,10 @@ key: page-is_reading_group
 
   <div class="container">
       <h1>Welcome to IS Reading Group</h1>
-      <p>Inspired by the spirit of open academic discussion, the Information Systems Reading Group aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems.</p>
+      <p>Inspired by the spirit of open academic discussion, the Information Systems Reading Group aims to foster an environment where scholars can exchange ideas and critically engage with academic papers in the field of Information Systems. We highly recommend interaction with the authors of the papers.</p>
 
       <p><strong>Mission: One more critique makes the paper better.</strong></p>
 
-      <p>The IS Reading Group aims to bring together scholars who are interested in the study of Information Systems. </p>
       <p>Our existing organizers include Jingyuan Deng, Yihan Deng, Weibo Li, Xuewen Han, and me. For suggestions or inquiries, please contact us or me at <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>.</p>
 
       <h2>Acknowledgments</h2>
