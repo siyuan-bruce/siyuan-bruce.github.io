@@ -143,7 +143,7 @@ permalink: /gallery.html
             <img src="assets/images/gallery/2025_MISQ_reveiwer_workshop.jpg" alt="2025 MISQ">
         </div>
         <div class="event">
-            <h4>Web3Ideathon, Hong KOng</h4>
+            <h4>Web3Ideathon, Hong Kong</h4>
             <p>I served as a mentor and shared my work.</p>
             <img src="assets/images/gallery/2025_Web3Ideathon.jpg" alt="2025 Web3">
         </div>
