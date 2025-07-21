@@ -171,8 +171,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
 ### Research Agenda 3: Regulated Digital Currencies
 
-#### **Academic Papers**
-
 <ul>
   <li class="paper-item" data-number="7">
     <div class="paper-title">
