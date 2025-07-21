@@ -110,7 +110,66 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
   </li>
 </ul>
   
-### Research Agenda 2: Regulated Digital Currencies
+### Research Agenda 2: IT Management
+<ul>
+
+  <!-- Newly added papers -->
+  <li class="paper-item" data-number="7">
+    <div class="paper-title">
+      IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
+    </div>
+    <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference, CIST 2024, SCECR 2025.</p>
+    <p class="status-info">Invited to resubmit for 2nd round review at <em>Information Systems Research </em>(UTD24, FT50).</p>
+  </li>
+
+
+  <!-- <li class="paper-item">
+    <div class="paper-title">
+      Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
+    <p class="status-info">Under 1st round conference review.</p>
+  </li> -->
+
+  <li class="paper-item" data-number="8">
+    <div class="paper-title">
+      Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
+      Qiming Shao, Yuhan Huang, Yong Xia.
+    </div>
+    <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
+    <p class="status-info">Invited to resubmit for 2nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
+  </li>
+
+  <!-- <li class="paper-item">
+    <div class="paper-title">
+      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
+    </div>
+    <div class="paper-authors">
+      Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
+    </div>
+    <p class="status-info">Under preparation for conference submission.</p>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>Generative AI tools like GitHub Copilot are transforming productivity in knowledge-intensive industries, but their impact varies with seniority and team dynamics. While senior developers, with their expertise and influence, are poised to achieve greater gains in code contributions, existing literature suggests that more experienced workers may be less likely to trust AI. To address this ambiguity, we analyzed data from 743 developers at a global financial firm. Our findings reveal that Copilot increases daily commits by 1.6% overall and boosts contributions by 16.5% on active usage days. Notably, senior developers' adoption generates spillover effects, significantly enhancing junior colleagues' performance, particularly in smaller teams. These results highlight the critical role of senior developers in unlocking both individual and team-level benefits of AI, emphasizing the need for firms to actively promote their adoption to realize AI's full potential.</p>
+    </details>
+  </li> -->
+
+</ul>
+
+
+### Research Agenda 3: Regulated Digital Currencies
 
 #### **Academic Papers**
 
@@ -168,63 +227,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 
   <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper. -->
 
-### Research Agenda 3: IT Management
-<ul>
-
-  <!-- Newly added papers -->
-  <li class="paper-item" data-number="7">
-    <div class="paper-title">
-      IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
-    </div>
-    <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference, CIST 2024, SCECR 2025.</p>
-    <p class="status-info">Invited to resubmit for 2nd round review at <em>Information Systems Research </em>(UTD24, FT50).</p>
-  </li>
-
-
-  <!-- <li class="paper-item">
-    <div class="paper-title">
-      Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
-    </div>
-    <p class="status-info">Under 1st round conference review.</p>
-  </li> -->
-
-  <li class="paper-item" data-number="8">
-    <div class="paper-title">
-      Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
-      Qiming Shao, Yuhan Huang, Yong Xia.
-    </div>
-    <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
-    <p class="status-info">Invited to resubmit for 2nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
-  </li>
-
-  <!-- <li class="paper-item">
-    <div class="paper-title">
-      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
-    </div>
-    <div class="paper-authors">
-      Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
-    </div>
-    <p class="status-info">Under preparation for conference submission.</p>
-    <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>Generative AI tools like GitHub Copilot are transforming productivity in knowledge-intensive industries, but their impact varies with seniority and team dynamics. While senior developers, with their expertise and influence, are poised to achieve greater gains in code contributions, existing literature suggests that more experienced workers may be less likely to trust AI. To address this ambiguity, we analyzed data from 743 developers at a global financial firm. Our findings reveal that Copilot increases daily commits by 1.6% overall and boosts contributions by 16.5% on active usage days. Notably, senior developers' adoption generates spillover effects, significantly enhancing junior colleagues' performance, particularly in smaller teams. These results highlight the critical role of senior developers in unlocking both individual and team-level benefits of AI, emphasizing the need for firms to actively promote their adoption to realize AI's full potential.</p>
-    </details>
-  </li> -->
-
-</ul>
     
 ### **Other Publications (Pre-Doctoral)**
 <ul>
