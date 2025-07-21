@@ -114,7 +114,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 <ul>
 
   <!-- Newly added papers -->
-  <li class="paper-item" data-number="7">
+  <li class="paper-item" data-number="5">
     <div class="paper-title">
       IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
     </div>
@@ -138,7 +138,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="status-info">Under 1st round conference review.</p>
   </li> -->
 
-  <li class="paper-item" data-number="8">
+  <li class="paper-item" data-number="6">
     <div class="paper-title">
       Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
     </div>
@@ -174,7 +174,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 #### **Academic Papers**
 
 <ul>
-  <li class="paper-item" data-number="5">
+  <li class="paper-item" data-number="7">
     <div class="paper-title">
       Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
@@ -194,7 +194,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
-  <li class="paper-item" data-number="6">
+  <li class="paper-item" data-number="8">
     <div class="paper-title">
       Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
     </div>
