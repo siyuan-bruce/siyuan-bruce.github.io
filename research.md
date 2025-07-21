@@ -52,11 +52,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </p>
     <details class="paper-details">
       <summary>Abstract</summary>
-      <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure 
-      is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness 
-      of their environmental impacts. We consider Elon Musk's 2021 announcement that Tesla would suspend accepting Bitcoin as payment because 
-      of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. 
-      We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are 
+      <p>While the environmental impact has become an important IT governance agenda in recent years, it is unclear whether its disclosure is valued by token holders of platforms based on blockchain IT infrastructure and how these platforms react to changing public awareness of their environmental impacts. We consider Elon Musk's 2021 announcement that Tesla would suspend accepting Bitcoin as payment because of Bitcoin mining's environmental impact as a shock that dramatically increases awareness of Bitcoin mining's environmental impacts. We find that, subsequent to the shock, infrastructure platforms which have larger environmental impacts than application platforms, are 
       more likely to disclose environmental impact information than application platforms and that their token market values grow at a slower 
       rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental 
       impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, 

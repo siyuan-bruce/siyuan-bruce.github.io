@@ -134,7 +134,7 @@ permalink: /gallery.html
   <h3>2025</h3>
         <div class="event">
             <h4>Paphos, Cyprus - SCECR 2025</h4>
-            <p>Letian, Yixin, and I are visiting Limasool in Crypus and met an old british gentleman, Andrew. We were on the road to the conference venue, Paphos.</p>
+            <p>Letian, Yixin, and I were visiting Limasool in Crypus and met an old british gentleman, Andrew. We were on the road to the conference venue, Paphos.</p>
             <img src="assets/images/gallery/2025_SCECR.png" alt="2025 SCECR">
         </div>
         <div class="event">
