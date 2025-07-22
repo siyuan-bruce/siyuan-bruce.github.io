@@ -30,9 +30,6 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 
 _知之为知之，不知为不知，是知也。_ --- Confucius
 
-<!-- 
-Although I have not yet published in any of the top UTD 24 or FT 50 journals, I would like to share my research progress and contributions to the community. Here are works catergorized by my research agenda. -->
-
 ### Research Agenda 1: Token Platforms
 
 <ul>
@@ -126,18 +123,6 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     <p class="status-info">Invited to resubmit for 2nd round review at <em>Information Systems Research </em>(UTD24, FT50).</p>
   </li>
 
-
-  <!-- <li class="paper-item">
-    <div class="paper-title">
-      Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
-    </div>
-    <p class="status-info">Under 1st round conference review.</p>
-  </li> -->
-
   <li class="paper-item" data-number="6">
     <div class="paper-title">
       Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
@@ -149,6 +134,17 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
     <p class="status-info">Invited to resubmit for 2nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
+  </li>
+
+  <li class="paper-item" data-number="7">
+    <div class="paper-title">
+      Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
+    <p class="status-info">Conference version under review.</p>
   </li>
 
   <!-- <li class="paper-item">
@@ -172,7 +168,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
 ### Research Agenda 3: Regulated Digital Currencies
 
 <ul>
-  <li class="paper-item" data-number="7">
+  <li class="paper-item" data-number="8">
     <div class="paper-title">
       Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
@@ -192,7 +188,7 @@ Although I have not yet published in any of the top UTD 24 or FT 50 journals, I 
     </details>
   </li>
 
-  <li class="paper-item" data-number="8">
+  <li class="paper-item" data-number="9">
     <div class="paper-title">
       Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
     </div>
