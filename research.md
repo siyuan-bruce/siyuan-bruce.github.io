@@ -322,11 +322,16 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
 
 ## **Services**
-- Ad hoc Reviewer
+- Ad hoc Conference Reviewer
   - _Workshop on Information Technologies and Systems (**WITS** 2024 X 2)_
   - _International Conference on Information Systems (**ICIS** 2023 X 2, 2024 X 2, 2025 X 3)_
   - the _Pacific Asia Conference on Information Systems (**PACIS** 2024 X 2)_
   - the _Quantum Information Processing (**QIP** 2023 X 1)_
+
+- Ad hoc Journal Reviewer
+  - **Business Track:** Management Science (MS ×1), Journal of Management Information Systems (JMIS ×1), Communications of the Association for Information Systems (CAIS ×1), Review of Accounting Studies (RAST ×1), The Accounting Review (TAR ×1), Information Technology for Development (ICT4D ×1), Journal of Electronic Commerce Research (JECR ×1)
+  - **Computing Science Track:** ACM Computing Surveys (CSUR ×1)
+
 
 ## **Professional Membership**
 - Association for Information Systems (AIS)
