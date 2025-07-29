@@ -354,6 +354,12 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Jun, 2025</div>
     <div class="news-content">
+      Paper on Copilot's effect accepted by <strong>ICIS 2025</strong>.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Jun, 2025</div>
+    <div class="news-content">
       Paper on blockchain-based K-Pop community is selected by
       <strong>HKUST IS Summer Workshop 2025</strong>.
     </div>
@@ -361,9 +367,9 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Jun, 2025</div>
     <div class="news-content">
-      <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">Paper</a> on rCBDC adoption conditionally accepted at 
+      Our paper on consumer perception of rCBDC adoption was accepted at 
       <strong>
-        <a href="https://dl.acm.org/journal/dlt">ACM Distributed Ledger Technologies: Research and Practice</a>
+        <a href="https://dl.acm.org/doi/10.1145/3756329">ACM Distributed Ledger Technologies: Research and Practice</a>
       </strong>.
     </div>
   </div>
