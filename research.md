@@ -146,7 +146,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </div>
   </li>
 
-  <li class="paper-item">
+  <li class="paper-item" data-number="8">
     <div class="paper-title">
       Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
     </div>
@@ -167,7 +167,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 ### Research Agenda 3: Regulated Digital Currencies
 
 <ul>
-  <li class="paper-item" data-number="8">
+  <li class="paper-item" data-number="9">
     <div class="paper-title">
       Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
@@ -186,7 +186,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <li class="paper-item" data-number="9">
+  <li class="paper-item" data-number="10">
     <div class="paper-title">
       Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
     </div>
