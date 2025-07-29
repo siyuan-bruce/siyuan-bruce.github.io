@@ -177,7 +177,9 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
       <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
-    <p class="status-info">Conditionally accepted at ACM Distributed Ledger Technologies: Research and Practice</p>
+    <p class="status-info">
+      Published in <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
+    </p>
     <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
     <p class="conference-info">
       Reference: <a href="/paper/rCBDC_Taste_and_Perception_Preprint.pdf">[Working paper]</a>
