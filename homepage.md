@@ -352,7 +352,7 @@ key: page-homepage
 
 <div class="news-section">
   <div class="news-item">
-    <div class="news-date">Jun, 2025</div>
+    <div class="news-date">Jul, 2025</div>
     <div class="news-content">
       Paper on Copilot's effect accepted by <strong>ICIS 2025</strong>.
     </div>
@@ -369,7 +369,7 @@ key: page-homepage
     <div class="news-content">
       Our paper on consumer perception of rCBDC adoption was accepted at 
       <strong>
-        <a href="https://dl.acm.org/doi/10.1145/3756329">ACM Distributed Ledger Technologies: Research and Practice</a>
+        <a href="https://dl.acm.org/doi/10.1145/3756329" style="text-decoration: underline;">ACM Distributed Ledger Technologies: Research and Practice</a>
       </strong>.
     </div>
   </div>
