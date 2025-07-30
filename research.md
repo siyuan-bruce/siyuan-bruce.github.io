@@ -33,7 +33,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 ### Research Agenda 1: Token Platforms
 
 <ul>
-  <li class="paper-item" data-number="1">
+  <li class="paper-item" data-number="A1">
     <div class="paper-title">
       Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
     </div>
@@ -58,7 +58,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
   </li>
 
 
-  <li class="paper-item" data-number="2">
+  <li class="paper-item" data-number="A2">
     <div class="paper-title">
       Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community.
     </div>
@@ -79,7 +79,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <li class="paper-item" data-number="3">
+  <li class="paper-item" data-number="A3">
     <div class="paper-title">
       Breaking the Barrier or Breaking the Market? Evidence from Non-Fungible Token Platforms.
     </div>
@@ -90,7 +90,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <p class="status-info">In preparation for submission.</p>
   </li>
 
-  <li class="paper-item" data-number="4">
+  <li class="paper-item" data-number="A4">
     <div class="paper-title">
       Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
     </div>
@@ -111,7 +111,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 <ul>
 
   <!-- Newly added papers -->
-  <li class="paper-item" data-number="5">
+  <li class="paper-item" data-number="B1">
     <div class="paper-title">
       IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
     </div>
@@ -123,7 +123,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <p class="status-info">Invited to resubmit for 2nd round review at <em>Information Systems Research </em>(UTD24, FT50).</p>
   </li>
 
-  <li class="paper-item" data-number="6">
+  <li class="paper-item" data-number="B2">
     <div class="paper-title">
       Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
     </div>
@@ -136,7 +136,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <p class="status-info">Invited to resubmit for 2nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
-  <li class="paper-item" data-number="7">
+  <li class="paper-item" data-number="B3">
     <div class="paper-title">
       Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
@@ -146,7 +146,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </div>
   </li>
 
-  <li class="paper-item" data-number="8">
+  <li class="paper-item" data-number="B4">
     <div class="paper-title">
       Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
     </div>
@@ -167,7 +167,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 ### Research Agenda 3: Regulated Digital Currencies
 
 <ul>
-  <li class="paper-item" data-number="9">
+  <li class="paper-item" data-number="C1">
     <div class="paper-title">
       Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
@@ -186,7 +186,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <li class="paper-item" data-number="10">
+  <li class="paper-item" data-number="C2">
     <div class="paper-title">
       Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
     </div>
@@ -223,7 +223,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 ### **Other Publications (Pre-Doctoral)**
 <ul>
 
-  <li class="paper-item" data-number="9">
+  <li class="paper-item" data-number="U1">
     <div class="paper-title">
       CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures
     </div>
@@ -239,7 +239,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <li class="paper-item" data-number="10">
+  <li class="paper-item" data-number="U2">
     <div class="paper-title">
       Software Code Quality Measurement: Implications from Metric Distributions
     </div>
@@ -258,7 +258,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <li class="paper-item" data-number="11">
+  <li class="paper-item" data-number="U3">
     <div class="paper-title">
       Scalability meets regulation: UTXO-based sharding and zero-knowledge proofs for regulated digital currencies
     </div>
@@ -284,7 +284,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
   </li> -->
 
 
-  <li class="paper-item" data-number="12">
+  <li class="paper-item" data-number="U4">
     <div class="paper-title">
       Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems
     </div>
