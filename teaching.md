@@ -69,13 +69,6 @@ Teaching interests: Management Information Systems, Blockchain, Digital Currency
 
 <div class="course-container">
 
-
-## **Invited Talk**
-1. "The Introduction of FinTech Research", _South China University of Technology_, Online, Sep 2023.
-2. "The introduction of Fintech Research", _South China University of Technology_, Sep 2022.
-3. "A Central Bank Digital Currency Evaluation and Verification Framework with a Focus on Consensus Algorithms and Operating Architectures", _Europe Innovation Community of Practice (HSBC)_, Online, Sep 2022.
-
-
 <style>
     body {
       font-family: 'Lora', serif;
