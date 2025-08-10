@@ -327,7 +327,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
   - _Quantum Information Processing (**QIP** 2023 X 1)_
 
 - Ad hoc Journal Reviewer
-  - **Business Track:** Management Science (MS), Journal of Management Information Systems (JMIS), Communications of the Association for Information Systems (CAIS), Review of Accounting Studies (RAST), The Accounting Review (TAR), Information Technology for Development (ICT4D), Journal of Electronic Commerce Research (JECR)
+  - **Business Track:** Management Science (MS), Journal of Management Information Systems (JMIS), Communications of the Association for Information Systems (CAIS), Information Technology for Development (ICT4D), Journal of Electronic Commerce Research (JECR)
   - **Computing Science Track:** ACM Computing Surveys (CSUR)
 
 
