@@ -44,7 +44,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <p class="status-info">Invited to resubmit for 2nd round review at <em>Journal of Management Information Systems</em> (FT50)</p>
     <p class="conference-info">Conferences: 2024 MIS Quarterly Virtual Paper Development Workshop, 2024 Greater Bay Area Finance Workshop</p>
     <p class="conference-info">
-      Reference: <a href="/paper/SSRN_token_Feb9.pdf"> [Working paper]</a> 
+      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper]</a> 
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
     </p>
     <details class="paper-details">
