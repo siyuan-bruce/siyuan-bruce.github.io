@@ -41,10 +41,10 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Invited to resubmit for 2nd round review at <em>Journal of Management Information Systems</em> (FT50)</p>
+    <p class="status-info">Under 2nd round review at <em>Journal of Management Information Systems</em> (FT50)</p>
     <p class="conference-info">Conferences: 2024 MIS Quarterly Virtual Paper Development Workshop, 2024 Greater Bay Area Finance Workshop</p>
     <p class="conference-info">
-      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper]</a> 
+      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: August 2025)</a> 
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
     </p>
     <details class="paper-details">
@@ -133,7 +133,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
-    <p class="status-info">Invited to resubmit for 2nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
+    <p class="status-info">Under 2nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
   <li class="paper-item" data-number="B3">
