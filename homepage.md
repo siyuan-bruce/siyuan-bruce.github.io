@@ -308,7 +308,7 @@ key: page-homepage
     <div class="profile-text">
     <!-- <em>此心光明，亦复何言 - 王阳明 </em> -->
   <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a third-year PhD candidate in HKUST Information Systems (IS) department. He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in HKUST Information Systems (IS) department. He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
   </p>
   <p>
     He received the <span style="color:#1A5DCB;">China National Scholarship</span> in 2020, <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> award in 2024, and <span style="color:#1A5DCB;">Young Scientists Program Award</span> in 2025. His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">International Conference on Information Systems (ICIS)</span>, <span style="color:#8B5C2A;">Conference on Information Systems and Technology (CIST)</span>, and <span style="color:#8B5C2A;">Statistical Challenges in Electronic Commerce Research (SCECR)</span>. He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and has helped secure funding applications <strong>>20 million HKD</strong>. He has organized <strong>>40</strong> IS online PhD student <a href="https://siyuan-bruce.github.io/reading_group/home.html">seminars</a>.
