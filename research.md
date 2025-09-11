@@ -42,7 +42,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">Under 2nd round review at <em>Journal of Management Information Systems</em> (FT50)</p>
-    <p class="conference-info">Conferences: 2024 MIS Quarterly Virtual Paper Development Workshop, 2024 Greater Bay Area Finance Workshop</p>
+    <p class="conference-info">Conferences: [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop]</p>
     <p class="conference-info">
       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: August 2025)</a> 
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
@@ -68,7 +68,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">Rejected and invited to resubmit to <em>MIS Quarterly</em> (UTD24, FT50).</p>
-    <p class="conference-info">Conferences: ICIS 2024, CIST 2024, 2025 HKUST PhD Student Conference, 2025 HKUST IS Summer Workshop</p>
+    <p class="conference-info">Conferences: [ICIS 2024], [CIST 2024], [2025 HKUST PhD Student Conference], [2025 HKUST IS Summer Workshop]</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <p class="conference-info">
       Reference: <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
@@ -99,7 +99,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">In preparation for submission.</p>
-    <p class="conference-info">Conferences: ICIS 2024, SCECR 2025</p>
+    <p class="conference-info">Conferences: [ICIS 2024], [SCECR 2025], [CIST 2025]</p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively distinguish between algorithmic and institutional IT operations, as well as their respective types of operational transparency. We also find that the presence of attackers switches user preferences for operational transparency. Higher levels of transparency, characterized by frequent and detailed information disclosures, may be perceived as catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
@@ -119,7 +119,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <strong>Siyuan Jin</strong>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
-    <p class="conference-info">Conferences: 2024 HKUST Business PhD Student Conference, CIST 2024, SCECR 2025.</p>
+    <p class="conference-info">Conferences: [2024 HKUST Business PhD Student Conference], [CIST 2024], [SCECR 2025]</p>
     <p class="status-info">Invited to resubmit for 2nd round review at <em>Information Systems Research </em>(UTD24, FT50).</p>
   </li>
 
@@ -154,7 +154,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
     </div>
-    <p class="conference-info">Conferences: ICIS 2025.</p>
+    <p class="conference-info">Conferences: [ICIS 2025]</p>
     <!-- <details class="paper-details">
       <summary>Abstract</summary>
       <p>Generative AI tools like GitHub Copilot are transforming productivity in knowledge-intensive industries, but their impact varies with seniority and team dynamics. While senior developers, with their expertise and influence, are poised to achieve greater gains in code contributions, existing literature suggests that more experienced workers may be less likely to trust AI. To address this ambiguity, we analyzed data from 743 developers at a global financial firm. Our findings reveal that Copilot increases daily commits by 1.6% overall and boosts contributions by 16.5% on active usage days. Notably, senior developers' adoption generates spillover effects, significantly enhancing junior colleagues' performance, particularly in smaller teams. These results highlight the critical role of senior developers in unlocking both individual and team-level benefits of AI, emphasizing the need for firms to actively promote their adoption to realize AI's full potential.</p>
@@ -194,7 +194,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       Joint with <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a> and 
       <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>.
     </div>
-    <p class="conference-info">Conferences: International Conference on Central Bank Digital Currency and Payment Systems</p>
+    <p class="conference-info">Conferences: [International Conference on Central Bank Digital Currency and Payment Systems]</p>
   </li>
 </ul>
 
