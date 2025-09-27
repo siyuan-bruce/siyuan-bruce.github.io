@@ -88,6 +88,9 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">In preparation for submission.</p>
+    <p class="conference-info">
+      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5535298">[Working paper]</a>
+    </p>
   </li>
 
   <li class="paper-item" data-number="A4">
@@ -321,7 +324,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 
 ## **Services**
 - Ad hoc Conference Reviewer
-  - _Workshop on Information Technologies and Systems (**WITS** 2024 X 2)_
+  - _Workshop on Information Technologies and Systems (**WITS** 2024 X 2, 2025 X 3)_
   - _International Conference on Information Systems (**ICIS** 2023 X 2, 2024 X 2, 2025 X 3)_
   - _Pacific Asia Conference on Information Systems (**PACIS** 2024 X 2)_
   - _Quantum Information Processing (**QIP** 2023 X 1)_
