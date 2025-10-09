@@ -201,14 +201,6 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 
 <ul>
 
-  <li class="paper-item" data-number="U5">
-    <div class="paper-title">
-    Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
-    </div>
-    <div class="paper-authors">
-      with Allen H. Huang, Kai-lung Hui, He Chao.
-    </div>
-  </li>
 
   <li class="paper-item" data-number="U1">
     <div class="paper-title">
@@ -226,7 +218,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <li class="paper-item" data-number="U3">
+  <li class="paper-item" data-number="U2">
     <div class="paper-title">
       Scalability meets regulation: UTXO-based sharding and zero-knowledge proofs for regulated digital currencies
     </div>
@@ -240,6 +232,17 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <p>FinTech and RegTech integration is essential for developing regulated digital currency (RDC) systems that are scalable and compliant. This paper proposes an unspent transaction output (UTXO)-based sharding method to address scalability challenges in RDCs. Results show UTXO-based sharding delivers linear throughput increase and consistently low latency by minimizing cross-shard transactions as the shard count grows. However, frequent user onboarding across shards under UTXO-based sharding models complicates know-your-customer (KYC) processes, highlighting regulatory inefficiencies. We demonstrate that zero-knowledge proofs seamlessly integrate with UTXO-based sharding to streamline customer onboarding and overcome regulatory burdens. Overall, this research pioneers FinTech-RegTech integration with practical implications for deploying high-performance, compliant RDC systems by synergistically combining UTXO-based sharding for scalability and zero-knowledge proofs for efficient regulation.</p>
     </details>
   </li>
+
+  <li class="paper-item" data-number="U3">
+    <div class="paper-title">
+    Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
+    </div>
+    <div class="paper-authors">
+      with Allen H. Huang, Kai-lung Hui, He Chao.
+    </div>
+  </li>
+
+</ul>
 
 ### **Conferences & Workshops**
 
