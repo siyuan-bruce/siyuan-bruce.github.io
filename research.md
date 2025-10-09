@@ -131,7 +131,8 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  
+</ul>
+
 ### Research Agenda 2: Enterprise IT
 
 <ul>
