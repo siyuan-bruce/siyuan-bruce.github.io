@@ -112,7 +112,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 
 
 <ul>
-  <li class="paper-item" data-number="C1">
+  <li class="paper-item" data-number="A5">
     <div class="paper-title">
       Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
@@ -173,7 +173,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </div>
   </li>
 
-  <li class="paper-item" data-number="B5">
+  <li class="paper-item" data-number="B4">
     <div class="paper-title">
       Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
     </div>
@@ -185,7 +185,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
   </li>
 
 
-  <li class="paper-item" data-number="B4">
+  <li class="paper-item" data-number="B5">
     <div class="paper-title">
       Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
