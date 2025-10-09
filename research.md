@@ -133,6 +133,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 
   
 ### Research Agenda 2: Enterprise IT
+
 <ul>
 
   <!-- Newly added papers -->
@@ -197,6 +198,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 </ul>
     
 ### **Other Publications (Pre-Doctoral)**
+
 <ul>
 
   <li class="paper-item" data-number="U5">
@@ -240,6 +242,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
   </li>
 
 ## Conferences & Workshops
+
 - **Siyuan Jin**, Mingxi Ye, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise." International Conference on Information Systems (ICIS 2025).
 - **Siyuan Jin**, Zhendong Bei, Bichao Chen, Yong Xia. "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems." 6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25. <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
 - **Siyuan Jin**, Dongwon Lee, Keongtae Kim, Kar Yan Tam. "Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community." International Conference on Information Systems (ICIS 2024). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Paper]</a> (Best Short Paper Nominee)
