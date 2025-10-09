@@ -246,30 +246,36 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 
 ### **Conferences & Workshops**
 
-- **Siyuan Jin**, Mingxi Ye, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise." International Conference on Information Systems (ICIS 2025).
-- **Siyuan Jin**, Zhendong Bei, Bichao Chen, Yong Xia. "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems." 6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25. <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
-- **Siyuan Jin**, Dongwon Lee, Keongtae Kim, Kar Yan Tam. "Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community." International Conference on Information Systems (ICIS 2024). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Paper]</a> (Best Short Paper Nominee)
-- **Siyuan Jin**, Yuying Cai, Luying Qiu, Kar Yan Tam. "Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms." International Conference on Information Systems (ICIS 2024).
-- **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia. "Software Code Quality Measurement: Implications from Metric Distributions." 23rd IEEE International Conference on Software Quality, Reliability, and Security (QRS 2023), Chiang Mai, Thailand. <a href="https://ieeexplore.ieee.org/document/10366662">[Paper]</a>
-- **Siyuan Jin**, Yong Xia, Philip Intallura, Botong Xu. "A UTXO-based Sharding Method for Stablecoin." 4th IEEE International Conference on Blockchain Computing and Applications (BCCA 2022), San Antonio, USA. <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
-- Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." International Conference on Central Bank Digital Currency and Payment Systems.
-</ul>
+1. **Siyuan Jin**, Mingxi Ye, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise." International Conference on Information Systems (ICIS 2025).
 
-## **Patent**
+2. **Siyuan Jin**, Zhendong Bei, Bichao Chen, Yong Xia. "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems." 6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25. <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
+
+3. **Siyuan Jin**, Dongwon Lee, Keongtae Kim, Kar Yan Tam. "Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community." International Conference on Information Systems (ICIS 2024). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Paper]</a> (Best Short Paper Nominee)
+
+4. **Siyuan Jin**, Yuying Cai, Luying Qiu, Kar Yan Tam. "Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms." International Conference on Information Systems (ICIS 2024).
+
+5. **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia. "Software Code Quality Measurement: Implications from Metric Distributions." 23rd IEEE International Conference on Software Quality, Reliability, and Security (QRS 2023), Chiang Mai, Thailand. <a href="https://ieeexplore.ieee.org/document/10366662">[Paper]</a>
+
+6. **Siyuan Jin**, Yong Xia, Philip Intallura, Botong Xu. "A UTXO-based Sharding Method for Stablecoin." 4th IEEE International Conference on Blockchain Computing and Applications (BCCA 2022), San Antonio, USA. <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
+
+7. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." International Conference on Central Bank Digital Currency and Payment Systems.
+
+
+### **Patent**
    
-  - B. Zhu, Yong Xia, Z. Li, **Siyuan Jin**. (2024). "Network Analysis using optical quantum computing". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007565 A1.
+  1. B. Zhu, Yong Xia, Z. Li, **Siyuan Jin**. (2024). "Network Analysis using optical quantum computing". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007565 A1.
        
-  - **Siyuan Jin**, Yong Xia. (2024). "Method for implementing network consensus algorithm". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007483 A1.
+  2. **Siyuan Jin**, Yong Xia. (2024). "Method for implementing network consensus algorithm". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007483 A1.
    
-  - **Siyuan Jin**, Yong Xia. (2024). "Transaction security for multi-tier transaction networks". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007527 A1.
+  3. **Siyuan Jin**, Yong Xia. (2024). "Transaction security for multi-tier transaction networks". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007527 A1.
     
-  - **Siyuan Jin**, Yong Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
+  4. **Siyuan Jin**, Yong Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
 
-  - Bin Zhu, Ziyuan Li, Yong Xia, Ming Zhang, **Siyuan Jin**, Kar Yan Tam, Yuhan Huang, Qiming Shao. (2024). "Systems and Methods for Quantum Monte Carlo Processing". US Patent App. 18/404,169.
+  5. Bin Zhu, Ziyuan Li, Yong Xia, Ming Zhang, **Siyuan Jin**, Kar Yan Tam, Yuhan Huang, Qiming Shao. (2024). "Systems and Methods for Quantum Monte Carlo Processing". US Patent App. 18/404,169.
 
-  - Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, **Siyuan Jin**. (2024). "Adaptive Diversity-Based Quantum Circuit Architecture Search". US Patent App. 18/519,617.
+  6. Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, **Siyuan Jin**. (2024). "Adaptive Diversity-Based Quantum Circuit Architecture Search". US Patent App. 18/519,617.
     
-## **Supervising**
+### **Supervising**
 - 2022.10 ~ 2023.10: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang) [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
   - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
   - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
