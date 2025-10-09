@@ -135,7 +135,6 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 ### Research Agenda 2: Enterprise IT
 
 <ul>
-
   <!-- Newly added papers -->
   <li class="paper-item" data-number="B1">
     <div class="paper-title">
@@ -241,7 +240,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-## Conferences & Workshops
+### **Conferences & Workshops**
 
 - **Siyuan Jin**, Mingxi Ye, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise." International Conference on Information Systems (ICIS 2025).
 - **Siyuan Jin**, Zhendong Bei, Bichao Chen, Yong Xia. "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems." 6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25. <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
