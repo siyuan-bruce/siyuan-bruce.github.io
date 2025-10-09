@@ -349,8 +349,13 @@ key: page-homepage
 </ul> -->
 
 ## News
-
 <div class="news-section">
+  <div class="news-item">
+    <div class="news-date">Oct, 2025</div>
+    <div class="news-content">
+      Paper on Stablecoin's transparency accepted by <strong>CIST 2025</strong>.
+    </div>
+  </div>
   <div class="news-item">
     <div class="news-date">Jul, 2025</div>
     <div class="news-content">

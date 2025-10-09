@@ -109,6 +109,28 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 </ul>
+
+
+<ul>
+  <li class="paper-item" data-number="C1">
+    <div class="paper-title">
+      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
+    </div>
+    <div class="paper-authors">
+      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
+      <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
+      <strong>Siyuan Jin</strong>, Haicheng Guo.
+    </div>
+    <p class="status-info">
+      Published in <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
+    </p>
+    <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>This study investigates the public's perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants' opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
+    </details>
+  </li>
+
   
 ### Research Agenda 2: Enterprise IT
 <ul>
@@ -139,7 +161,30 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <p class="status-info">Under 2nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
+
   <li class="paper-item" data-number="B3">
+    <div class="paper-title">
+      Generative AI, Team Dispersion, and Productivity
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Mingxi Ye, Wei Thoo Yue,  
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
+  </li>
+
+  <li class="paper-item" data-number="B5">
+    <div class="paper-title">
+      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
+    </div>
+    <div class="paper-authors">
+      Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
+    </div>
+    <p class="conference-info">Conferences: [ICIS 2025]</p>
+  </li>
+
+
+  <li class="paper-item" data-number="B4">
     <div class="paper-title">
       Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
@@ -149,82 +194,19 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </div>
   </li>
 
-  <li class="paper-item" data-number="B4">
-    <div class="paper-title">
-      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
-    </div>
-    <div class="paper-authors">
-      Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
-    </div>
-    <p class="conference-info">Conferences: [ICIS 2025]</p>
-    <!-- <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>Generative AI tools like GitHub Copilot are transforming productivity in knowledge-intensive industries, but their impact varies with seniority and team dynamics. While senior developers, with their expertise and influence, are poised to achieve greater gains in code contributions, existing literature suggests that more experienced workers may be less likely to trust AI. To address this ambiguity, we analyzed data from 743 developers at a global financial firm. Our findings reveal that Copilot increases daily commits by 1.6% overall and boosts contributions by 16.5% on active usage days. Notably, senior developers' adoption generates spillover effects, significantly enhancing junior colleagues' performance, particularly in smaller teams. These results highlight the critical role of senior developers in unlocking both individual and team-level benefits of AI, emphasizing the need for firms to actively promote their adoption to realize AI's full potential.</p>
-    </details> -->
-  </li>
-
 </ul>
-
-
-### Research Agenda 3: Regulated Digital Currencies
-
-<ul>
-  <li class="paper-item" data-number="C1">
-    <div class="paper-title">
-      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
-    </div>
-    <div class="paper-authors">
-      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
-      <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
-      <strong>Siyuan Jin</strong>, Haicheng Guo.
-    </div>
-    <p class="status-info">
-      Published in <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
-    </p>
-    <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
-    <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>This study investigates the public's perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants' opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
-    </details>
-  </li>
-
-  <li class="paper-item" data-number="C2">
-    <div class="paper-title">
-      Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.
-    </div>
-    <div class="paper-authors">
-      Joint with <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a> and 
-      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>.
-    </div>
-    <p class="conference-info">Conferences: [International Conference on Central Bank Digital Currency and Payment Systems]</p>
-  </li>
-</ul>
-
-<!-- #### **Policy Papers**
-<ul>
-  <li class="paper-item">
-    <div class="paper-title">
-      e-HKD Pilot Programme
-    </div>
-    <div class="paper-authors">
-      Joint with HKUST School of Business and Management and HSBC Holdings plc.
-    </div>
-    <p class="status-info">Published in Hong Kong Monetary Authority Report (2023) | <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[Full Report]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
-    <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>The e-HKD Pilot Programme is a key component of the HKMA's three-rail approach in paving the way for a possible implementation of a retail central bank digital currency (CBDC). The pilot programme enables HKMA's collaboration with the industry to examine innovative use cases and maximise Hong Kong's readiness for a potential e-HKD. The Hongkong and Shanghai Banking Corporation Limited (HSBC) was one of the institutions selected to participate. Collaborating with the Hong Kong University of Science and Technology (HKUST), HSBC sought to explore possible e-HKD every-day payment use cases, focusing on programmability as a value-add feature of digital currency as well as payment rail efficiency. HSBC and HKUST constructed a one-week pilot on the HKUST campus, which included 148 students and 5 merchants.</p>
-    </details>
-  </li>
-</ul> -->
-
-  <!-- 3. Joint with [A. Huang](https://www.allenhuang.org/), [M. Dordal i Carreras](https://marcdordal.github.io/) and HSBC Bank (Hong Kong) (2024). "Tokenized Deposit". Working paper. -->
-
-  <!-- 4. Joint with [A. Huang](https://www.allenhuang.org/), [K. Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam), Y. Liang, (2024). "Unified Ledger". Working paper. -->
-
     
 ### **Other Publications (Pre-Doctoral)**
 <ul>
+
+  <li class="paper-item" data-number="U5">
+    <div class="paper-title">
+    Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
+    </div>
+    <div class="paper-authors">
+      with Allen H. Huang, Kai-lung Hui, He Chao.
+    </div>
+  </li>
 
   <li class="paper-item" data-number="U1">
     <div class="paper-title">
@@ -239,25 +221,6 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.</p>
-    </details>
-  </li>
-
-  <li class="paper-item" data-number="U2">
-    <div class="paper-title">
-      Software Code Quality Measurement: Implications from Metric Distributions
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia
-    </div>
-    <p class="conference-info">Publication: 23rd IEEE International Conference on Software Quality, Reliability, and Security, Chiang Mai, Thailand (QRS 2023)</p>
-    <p class="conference-info">
-      Reference: <a href="/paper/QRS_preprint.pdf">[Paper]</a>
-      <a href="/paper/Slides_Code_Quality_Distribution.pdf">[Slides]</a>
-      <a href="https://ieeexplore.ieee.org/document/10366662">[IEEE]</a>, Acceptance Rate: 21.47%.
-    </p>
-    <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>Software code quality is a construct with three dimensions: maintainability, reliability, and functionality. Although many firms have incorporated code quality metrics in their operations, evaluating these metrics still lacks consistent standards. We categorized distinct metrics into two types: 1) monotonic metrics that consistently influence code quality; and 2) non-monotonic metrics that lack a consistent relationship with code quality. To consistently evaluate them, we proposed a distribution-based method to get metric scores. Our empirical analysis includes 36,460 high-quality open-source software (OSS) repositories and their raw metrics from SonarQube and CK. The evaluated scores demonstrate great explainability on software adoption. Our work contributes to the multi-dimensional construct of code quality and its metric measurements, which provides practical implications for consistent measurements on both monotonic and non-monotonic metrics.</p>
     </details>
   </li>
 
@@ -276,32 +239,15 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <!-- <li class="paper-item" data-number="12">
-    <div class="paper-title">
-      A UTXO-based Sharding Method for Stablecoin
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Botong Xu, Philip Intallura, Yong Xia
-    </div>
-    <p class="conference-info">4th IEEE International Conference on Blockchain Computing and Applications, San Antonio, USA (BCCA 2022) <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a></p>
-  </li> -->
-
-
-  <li class="paper-item" data-number="U4">
-    <div class="paper-title">
-      Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia
-    </div>
-    <p class="conference-info">6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25 <a href="https://arxiv.org/abs/2411.13017">[Paper]</a></p>
-    <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>Traditional banks face significant challenges in digital transformation, primarily due to legacy system constraints and fragmented ownership. Recent incidents show that such fragmentation often results in superficial incident resolutions, leaving root causes unaddressed and causing recurring failures. We introduce a novel approach to post-incident analysis, integrating knowledge-based GenAI agents with the "Five Whys" technique to examine problem descriptions and change request data. This method uncovered that approximately 70% of the incidents previously attributed to management or vendor failures were due to underlying internal code issues. We present a case study to show the impact of our method. By scanning over 5,000 projects, we identified over 400 files with a similar root cause. Overall, we leverage the knowledge-based agents to automate and elevate root cause analysis, transforming it into a more proactive process. These agents can be applied across other phases of the software development lifecycle, further improving development processes.</p>
-    </details>
-  </li>
+## Conferences & Workshops
+- **Siyuan Jin**, Mingxi Ye, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise." International Conference on Information Systems (ICIS 2025).
+- **Siyuan Jin**, Zhendong Bei, Bichao Chen, Yong Xia. "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems." 6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25. <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
+- **Siyuan Jin**, Dongwon Lee, Keongtae Kim, Kar Yan Tam. "Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community." International Conference on Information Systems (ICIS 2024). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Paper]</a> (Best Short Paper Nominee)
+- **Siyuan Jin**, Yuying Cai, Luying Qiu, Kar Yan Tam. "Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms." International Conference on Information Systems (ICIS 2024).
+- **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia. "Software Code Quality Measurement: Implications from Metric Distributions." 23rd IEEE International Conference on Software Quality, Reliability, and Security (QRS 2023), Chiang Mai, Thailand. <a href="https://ieeexplore.ieee.org/document/10366662">[Paper]</a>
+- **Siyuan Jin**, Yong Xia, Philip Intallura, Botong Xu. "A UTXO-based Sharding Method for Stablecoin." 4th IEEE International Conference on Blockchain Computing and Applications (BCCA 2022), San Antonio, USA. <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
+- Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." International Conference on Central Bank Digital Currency and Payment Systems.
 </ul>
-
 
 ## **Patent**
    
