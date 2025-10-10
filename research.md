@@ -246,7 +246,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 
 ### **Conferences & Workshops**
 
-1. **Siyuan Jin**, Mingxi Ye, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise." International Conference on Information Systems (ICIS 2025).
+1. Mingxi Ye, **Siyuan Jin**, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise." International Conference on Information Systems (ICIS 2025).
 
 2. **Siyuan Jin**, Zhendong Bei, Bichao Chen, Yong Xia. "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems." 6th International Workshop on Cloud Intelligence / AIOps (AIOps '25), Co-located with ICSE '25. <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
 
