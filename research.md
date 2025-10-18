@@ -111,26 +111,6 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 </ul>
 
 
-<ul>
-  <li class="paper-item" data-number="A5">
-    <div class="paper-title">
-      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
-    </div>
-    <div class="paper-authors">
-      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
-      <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
-      <strong>Siyuan Jin</strong>, Haicheng Guo.
-    </div>
-    <p class="status-info">
-      Published in <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
-    </p>
-    <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
-    <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>This study investigates the public's perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants' opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
-    </details>
-  </li>
-
 </ul>
 
 ### Research Agenda 2: Enterprise IT
@@ -197,12 +177,42 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
 
 </ul>
     
-### **Other Publications (Pre-Doctoral)**
+### **Other Publications**
 
 <ul>
 
-
   <li class="paper-item" data-number="U1">
+    <div class="paper-title">
+    Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Kai-lung Hui, Allen H. Huang, He Chao, Chun Wang.
+    </div>
+  </li>
+
+ 
+  <li class="paper-item" data-number="U2">
+    <div class="paper-title">
+      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
+    </div>
+    <div class="paper-authors">
+      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
+      <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
+      <strong>Siyuan Jin</strong>, Haicheng Guo.
+    </div>
+    <p class="status-info">
+      Published in <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
+    </p>
+    <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>This study investigates the public's perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants' opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
+    </details>
+  </li>
+
+
+
+  <li class="paper-item" data-number="U3">
     <div class="paper-title">
       CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures
     </div>
@@ -218,7 +228,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <li class="paper-item" data-number="U2">
+  <li class="paper-item" data-number="U4">
     <div class="paper-title">
       Scalability meets regulation: UTXO-based sharding and zero-knowledge proofs for regulated digital currencies
     </div>
@@ -233,14 +243,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-  <li class="paper-item" data-number="U3">
-    <div class="paper-title">
-    Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
-    </div>
-    <div class="paper-authors">
-      with Allen H. Huang, Kai-lung Hui, He Chao.
-    </div>
-  </li>
+
 
 </ul>
 
