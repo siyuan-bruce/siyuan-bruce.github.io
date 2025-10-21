@@ -108,9 +108,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively distinguish between algorithmic and institutional IT operations, as well as their respective types of operational transparency. We also find that the presence of attackers switches user preferences for operational transparency. Higher levels of transparency, characterized by frequent and detailed information disclosures, may be perceived as catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
     </details>
   </li>
-</ul>
-
-
+  
   <li class="paper-item" data-number="A5">
     <div class="paper-title">
       Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
@@ -130,8 +128,9 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     </details>
   </li>
 
-
 </ul>
+
+
 
 ### Research Agenda 2: Enterprise IT
 
