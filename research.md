@@ -207,9 +207,8 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Kai-lung Hui, Allen H. Huang, He Chao, Chun Wang.
     </div>
+    <p class="conference-info">Conference: the 4th conference from the Global Congress of Special Interest Tourism & Hospitality (the 4th GLOSITH)</p>
   </li>
-
- 
 
 
   <li class="paper-item" data-number="U2">
