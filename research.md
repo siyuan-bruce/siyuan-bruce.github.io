@@ -54,6 +54,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
       rate, consistent with the increased awareness spills over to other token-based platforms. Furthermore, whereas pre-shock environmental 
       impact disclosure by infrastructure platforms reduces token market value growth rates, post-shock disclosure has the opposite effect, 
       consistent with green-costing and green-enhancing, respectively.</p>
+      <p><strong>Keywords:</strong> blockchain platform, decentralized platform, environmental sustainability, IT infrastructure, investor awareness, nonpecuniary preference</p>
     </details>
   </li>
 
@@ -76,6 +77,7 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Traditional centralized models allow consumers to provide input, but are often limited by selection biases. Instead, blockchain-based decentralized models extend all consumer voice but face sustainability challenges including unsustained contributions and voting power concentration. Utilizing data from a blockchain-based K-pop platform, this study investigates whether fans continue contributing to the platform after initially participating in voting rounds. Findings indicate that voting power becomes less concentrated over time, likely because voters who have smaller voting power value the equity of decentralized voting and increase both tangible and intangible contributions. Conversely, voters who have larger voting power experience expectation disconfirmation; they begin with high expectations about influencing outcomes but if their preferences are disappointed, they decrease tangible contributions while maintaining intangible contributions. We use value cocreation and expectation disconfirmation theory to explain the phenomenon. This study contributes to blockchain and user innovation research and offers practical insights for platform designers aiming to create equitable, sustainable consumer-driven ecosystems.</p>
+      <p><strong>Keywords:</strong> blockchain, continuance contribution, expectation disconfirmation model, K-pop, user innovation, voting, value cocreation</p>
     </details>
   </li>
 
