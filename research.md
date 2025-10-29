@@ -91,6 +91,15 @@ _知之为知之，不知为不知，是知也。_ --- Confucius
     <p class="conference-info">
       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5535298">[Working paper]</a>
     </p>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>
+        Digital asset marketplaces, such as NFT marketplaces, merge primary and secondary markets, enabling resales. While resale royalties in such resale-centric settings are well studied, the impact of expanding primary supply is less understood. Cross-side network theory predicts that more supply should raise demand; however, a substitution effect may emerge. When primary supply competes with secondary listings, greater primary supply can reduce secondary resale opportunities and thereby dampen demand. We study this mechanism using Foundation's removal of invitation-only onboarding on May 19, 2022, with SuperRare as a comparison market. Using a difference-in-differences design, we find that Foundation experiences a 1.9% average weekly decline in bids, 8.8% among active traders, consistent with the substitution effect. Traders with greater resale experience bid less, suggesting heightened uncertainty about resale profits. When prior resales are successful, traders are more willing to bid on riskier NFTs from new minters or those with potential copyright concerns. On the supply side, minters reduce listings by 7.5%, with larger declines among those who had invitation privileges. Our results inform supply controls of resale-focused marketplaces.
+      </p>
+      <p>
+        <strong>Keywords:</strong> Cross-Side Network Effect, Digital Asset Marketplace, NFT Marketplace, Resale, Supply Shock
+      </p>
+    </details>
   </li>
 
   <li class="paper-item" data-number="A4">
