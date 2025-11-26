@@ -192,7 +192,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 </ul>
 
 ### Research Agenda 3: Generative AI
-
+<ul>
   <li class="paper-item" data-number="C1">
     <div class="paper-title">
       Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
@@ -213,7 +213,8 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
   </li> -->
-    
+</ul>
+
 ### **Other Publications**
 
 <ul>
