@@ -178,27 +178,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   </li>
 
 
-  <!-- <li class="paper-item" data-number="B3">
-    <div class="paper-title">
-      Generative AI, Team Dispersion, and Productivity
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Mingxi Ye, Wei Thoo Yue,  
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
-    </div>
-  </li> -->
-
-  <li class="paper-item" data-number="B3">
-    <div class="paper-title">
-      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
-    </div>
-    <div class="paper-authors">
-      Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
-    </div>
-    <p class="conference-info">Conferences: [ICIS 2025]</p>
-  </li>
-
 
   <!-- <li class="paper-item" data-number="B5">
     <div class="paper-title">
@@ -211,6 +190,29 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   </li> -->
 
 </ul>
+
+### Research Agenda 3: Generative AI
+
+  <li class="paper-item" data-number="C1">
+    <div class="paper-title">
+      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
+    </div>
+    <div class="paper-authors">
+      Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
+    </div>
+    <p class="conference-info">Conferences: [ICIS 2025]</p>
+  </li>
+
+   <!-- <li class="paper-item" data-number="B3">
+    <div class="paper-title">
+      Generative AI, Team Dispersion, and Productivity
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Mingxi Ye, Wei Thoo Yue,  
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+    </div>
+  </li> -->
     
 ### **Other Publications**
 
