@@ -178,7 +178,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   </li>
 
 
-  <li class="paper-item" data-number="B3">
+  <!-- <li class="paper-item" data-number="B3">
     <div class="paper-title">
       Generative AI, Team Dispersion, and Productivity
     </div>
@@ -186,9 +186,9 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, Mingxi Ye, Wei Thoo Yue,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-  </li>
+  </li> -->
 
-  <li class="paper-item" data-number="B4">
+  <li class="paper-item" data-number="B3">
     <div class="paper-title">
       Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
     </div>
@@ -200,7 +200,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   </li>
 
 
-  <li class="paper-item" data-number="B5">
+  <!-- <li class="paper-item" data-number="B5">
     <div class="paper-title">
       Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
@@ -208,7 +208,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-  </li>
+  </li> -->
 
 </ul>
     
