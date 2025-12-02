@@ -201,6 +201,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
     </div>
+    <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
     <p class="conference-info">Conferences: [ICIS 2025]</p>
   </li>
 
