@@ -351,6 +351,12 @@ key: page-homepage
 ## News
 <div class="news-section">
   <div class="news-item">
+    <div class="news-date">Dec, 2025</div>
+    <div class="news-content">
+      Paper on Seniority, and AI-Enhanced Code Contributions nominated as <strong>ICIS 2025 Best Paper</strong>.
+    </div>
+  </div>
+  <div class="news-item">
     <div class="news-date">Oct, 2025</div>
     <div class="news-content">
       Paper on Stablecoin's transparency accepted by <strong>CIST 2025</strong>.
