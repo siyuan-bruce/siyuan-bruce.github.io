@@ -146,8 +146,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 </ul>
 
-
-
 ### Research Agenda 2: Enterprise IT
 
 <ul>
@@ -296,8 +294,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 14. **Siyuan Jin**, Yong Xia, Philip Intallura, Botong Xu. "A UTXO-based Sharding Method for Stablecoin." *IEEE International Conference on Blockchain Computing and Applications (BCCA 2022)*, San Antonio, USA. <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
 
 15. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
-
-
 
 ### Letters
 1. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Journal (信報)</a>, December 5, 2025.

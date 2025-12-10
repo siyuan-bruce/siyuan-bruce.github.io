@@ -509,6 +509,10 @@ key: page-homepage
 ## IS Paper Sharing Group
 Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly PhD students. We also welcome faculty members and industry practitioners to share more advanced topics in this area. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
 
+
+## Research Assistant Recruitment
+We are hiring a part-time Research Assistant (remote) with a Computer Science (or related) background to support blockchain/AI research projects, focusing on data scraping (building and maintaining web scrapers, automating data collection and cleaning) and data analytics (processing large datasets, exploratory analysis, basic econometrics). Strong Python (or R) skills, experience with web scraping tools, and solid data statistics are required; familiarity with blockchain/Ethereum data is a plus but not mandatory. The position is part-time with flexible hours and can be remote, and it offers approximately **double the average RA pay** at our institution. Interested candidates should email siyuan.jin@connect.ust.hk with a CV, a brief description of relevant experience, and (optionally) a code sample or GitHub link.
+
 <!-- ## **Research Interests**
 - **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
 - **Software Management**: Software Development
