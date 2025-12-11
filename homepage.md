@@ -353,6 +353,12 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Dec, 2025</div>
     <div class="news-content">
+      Awarded the 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300K RMB).
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Dec, 2025</div>
+    <div class="news-content">
       Paper on Seniority, and AI-Enhanced Code Contributions nominated as <strong>ICIS 2025 Best Paper</strong>.
     </div>
   </div>
