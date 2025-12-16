@@ -313,6 +313,40 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   5. Bin Zhu, Ziyuan Li, Yong Xia, Ming Zhang, **Siyuan Jin**, Kar Yan Tam, Yuhan Huang, Qiming Shao. (2024). "Systems and Methods for Quantum Monte Carlo Processing". US Patent App. 18/404,169.
 
   6. Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, **Siyuan Jin**. (2024). "Adaptive Diversity-Based Quantum Circuit Architecture Search". US Patent App. 18/519,617.
+
+
+
+
+## **Award / Honor**
+
+- **Best Reviewer Award**  
+  _International Conference on Information Systems (ICIS)_, Dec 2025
+
+- **Grant**  
+  _2025 NSFC Young Student Basic Research Program (PhD Student) (300K RMB)_, Dec 2025
+
+- **Best Short Paper Nominee**  
+  _International Conference on Information Systems (ICIS)_, Dec 2025
+
+- **Award**  
+  _HKUST Young Scientist PhD Program Award_, Mar 2025
+
+- **Best Short Paper Nominee**  
+  _International Conference on Information Systems (ICIS)_, Dec 2024
+
+- **Award**  
+  _Hong Kong PhD Fellowship_, Sep 2024 - July 2028
+
+- **Award**  
+  _PhD Postgraduate Studentship_, Nov 2022 - Sep 2024
+
+- **Award**  
+  _Monetary Authority of Singapore_ [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5%), Nov 2021
+
+- **Award**  
+  _China National Scholarship (Top 0.1%-0.2%)_, 2020
+
+
     
 ### **Supervising**
 - 2022.10 ~ 2023.10: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang) [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
@@ -325,6 +359,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   - _International Conference on Information Systems (**ICIS** 2023 X 2, 2024 X 2, 2025 X 3)_
   - _Pacific Asia Conference on Information Systems (**PACIS** 2024 X 2)_
   - _Quantum Information Processing (**QIP** 2023 X 1)_
+
 
 - Ad hoc Journal Reviewer
   - **Business Track:** Management Science (MS), Journal of Management Information Systems (JMIS), Communications of the Association for Information Systems (CAIS), Information Technology for Development (ICT4D), Journal of Electronic Commerce Research (JECR)

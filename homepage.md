@@ -353,6 +353,12 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Dec, 2025</div>
     <div class="news-content">
+      Awarded Best Reviewer Award by ICIS 2025.
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Dec, 2025</div>
+    <div class="news-content">
       Awarded the 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300K RMB).
     </div>
   </div>
