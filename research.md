@@ -318,34 +318,14 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 
 ## **Award / Honor**
-
-- **Best Reviewer Award**  
-  _International Conference on Information Systems (ICIS)_, Dec 2025
-
-- **Grant**  
-  _2025 NSFC Young Student Basic Research Program (PhD Student) (300K RMB)_, Dec 2025
-
-- **Best Short Paper Nominee**  
-  _International Conference on Information Systems (ICIS)_, Dec 2025
-
-- **Award**  
-  _HKUST Young Scientist PhD Program Award_, Mar 2025
-
-- **Best Short Paper Nominee**  
-  _International Conference on Information Systems (ICIS)_, Dec 2024
-
-- **Award**  
-  _Hong Kong PhD Fellowship_, Sep 2024 - July 2028
-
-- **Award**  
-  _PhD Postgraduate Studentship_, Nov 2022 - Sep 2024
-
-- **Award**  
-  _Monetary Authority of Singapore_ [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5%), Nov 2021
-
-- **Award**  
-  _China National Scholarship (Top 0.1%-0.2%)_, 2020
-
+- **Best Reviewer Award** _International Conference on Information Systems (ICIS)_, Dec 2025
+- **Grant** _2025 NSFC Young Student Basic Research Program (PhD Student) (300K RMB)_, Dec 2025
+- **Best Short Paper Nominee** _International Conference on Information Systems (ICIS)_, Dec 2025
+- **Award** _HKUST Young Scientist PhD Program Award_, Mar 2025
+- **Award** _Hong Kong PhD Fellowship_, Sep 2024 - July 2028
+- **Award** _PhD Postgraduate Studentship_, Nov 2022 - Sep 2024
+- **Award** _Monetary Authority of Singapore_ [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5%), Nov 2021
+- **Award** _China National Scholarship (Top 0.1%-0.2%)_, 2020
 
     
 ### **Supervising**
