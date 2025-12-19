@@ -353,44 +353,43 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Dec, 2025</div>
     <div class="news-content">
-      Awarded Best Reviewer Award by ICIS 2025.
+      Received the Best Reviewer Award at <strong>2025 ICIS</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Dec, 2025</div>
     <div class="news-content">
-      Awarded the 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300K RMB).
+      Received the 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300K RMB).
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Dec, 2025</div>
     <div class="news-content">
-      Paper on Seniority, and AI-Enhanced Code Contributions nominated as <strong>ICIS 2025 Best Paper</strong>.
+      Paper on seniority and AI-augmented code contributions nominated for the <strong>ICIS 2025 Best Paper Award</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Oct, 2025</div>
     <div class="news-content">
-      Paper on Stablecoin's transparency accepted by <strong>CIST 2025</strong>.
+      Paper on stablecoin transparency accepted at <strong>CIST 2025</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Jul, 2025</div>
     <div class="news-content">
-      Paper on Copilot's effect accepted by <strong>ICIS 2025</strong>.
+      Paper on Copilot's impact accepted at <strong>ICIS 2025</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Jun, 2025</div>
     <div class="news-content">
-      Paper on blockchain-based K-Pop community is selected by
-      <strong>HKUST IS Summer Workshop 2025</strong>.
+      Paper on blockchain-based K-Pop community selected for the <strong>HKUST IS Summer Workshop 2025</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Jun, 2025</div>
     <div class="news-content">
-      Our paper on consumer perception of rCBDC adoption was accepted at 
+      Paper on consumer perception of rCBDC adoption accepted at 
       <strong>
         <a href="https://dl.acm.org/doi/10.1145/3756329" style="text-decoration: underline;">ACM Distributed Ledger Technologies: Research and Practice</a>
       </strong>.
@@ -399,19 +398,19 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Apr, 2025</div>
     <div class="news-content">
-      Paper on code reviewer accepted by <strong>SCECR 2025</strong>.
+      Paper on code review accepted at <strong>SCECR 2025</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Apr, 2025</div>
     <div class="news-content">
-      Paper on stablecoin transparency accepted by <strong>SCECR 2025</strong>.
+      Paper on stablecoin transparency accepted at <strong>SCECR 2025</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Apr, 2025</div>
     <div class="news-content">
-      Had a presentation at the <strong>2025 HKUST PhD Student Conference</strong>.
+      Presented at the <strong>2025 HKUST PhD Student Conference</strong>.
     </div>
   </div>
   <div class="news-item">
@@ -423,13 +422,13 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Mar, 2025</div>
     <div class="news-content">
-      Our <strong>IS Reading Group</strong> reached 100+ members!
+      <strong>IS Reading Group</strong> reached over 100 members.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Feb, 2025</div>
     <div class="news-content">
-      Paper on root cause analysis accepted by <strong>AIOps'25</strong>.
+      Paper on root cause analysis accepted at <strong>AIOps 2025</strong>.
     </div>
   </div>
   <div class="news-item">
@@ -441,19 +440,19 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Dec, 2024</div>
     <div class="news-content">
-      Received the HKUST <strong>Young Scientists Program Award (FinTech)</strong>.
+      Received the <strong>HKUST Young Scientists Program Award (FinTech)</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Nov, 2024</div>
     <div class="news-content">
-      Paper on blockchain-based K-Pop community nominated for the <strong>2024 ICIS Best Short Paper Award</strong>.
+      Paper on blockchain-based K-Pop community nominated for the <strong>ICIS 2024 Best Short Paper Award</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Nov, 2024</div>
     <div class="news-content">
-      Paper on blockchain infrastructure governance presented at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
+      Presented research on blockchain infrastructure governance at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
     </div>
   </div>
   <div class="news-item">
@@ -465,25 +464,25 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">Aug, 2024</div>
     <div class="news-content">
-      Paper on code reviewer accepted for publication in <strong>2024 CIST</strong>.
+      Paper on code review accepted for publication in <strong>2024 CIST</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Jul, 2024</div>
     <div class="news-content">
-      Paper on blockchain-based K-Pop community accepted by the <strong>2024 ICIS Fintech Track</strong>.
+      Paper on blockchain-based K-Pop community accepted at the <strong>2024 ICIS Fintech Track</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Jul, 2024</div>
     <div class="news-content">
-      Paper on stablecoin transparency accepted by the <strong>2024 ICIS</strong>.
+      Paper on stablecoin transparency accepted at <strong>2024 ICIS</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Jul, 2024</div>
     <div class="news-content">
-      Successfully completed the <strong>PhD Qualification Exam</strong> and advanced to candidacy.
+      Successfully passed the <strong>PhD Qualification Exam</strong> and advanced to candidacy.
     </div>
   </div>
   <div class="news-item">
@@ -495,19 +494,19 @@ key: page-homepage
   <div class="news-item">
     <div class="news-date">May, 2024</div>
     <div class="news-content">
-      Had a presentation at the <strong>HKUST PhD Student Conference</strong>.
+      Presented at the <strong>HKUST PhD Student Conference</strong>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Oct, 2023</div>
     <div class="news-content">
-      joint policy paper "e-HKD Pilot Programme" published by <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf"><strong>HKMA</strong></a>.
+      Joint policy paper "e-HKD Pilot Programme" published by the <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf"><strong>HKMA</strong></a>.
     </div>
   </div>
   <div class="news-item">
     <div class="news-date">Sep, 2023</div>
     <div class="news-content">
-      Paper related to software metrics distribution accepted by <strong>QRS 2023</strong>.
+      Paper on software metrics distributions accepted at <strong>QRS 2023</strong>.
     </div>
   </div>
   <div class="news-item">
@@ -517,6 +516,7 @@ key: page-homepage
     </div>
   </div>
 </div>
+
 
 ## IS Paper Sharing Group
 Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly PhD students. We also welcome faculty members and industry practitioners to share more advanced topics in this area. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
