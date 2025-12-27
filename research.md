@@ -135,7 +135,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, Haicheng Guo.
     </div>
     <p class="status-info">
-      Published in <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
+    <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
     </p>
     <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
     <details class="paper-details">
