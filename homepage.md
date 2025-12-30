@@ -233,7 +233,7 @@ key: page-homepage
     .news-item {
       display: flex;
       align-items: flex-start;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
 
     .news-date {
