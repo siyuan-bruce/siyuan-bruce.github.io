@@ -302,51 +302,22 @@ key: page-homepage
   <div class="profile-image">
     <img src="./images/profile3.png" alt="Profile Image" loading="lazy" />
     <div style="text-align: center;">
-   <!-- <em></em> -->
 </div>
   </div>
     <div class="profile-text">
-    <!-- <em>此心光明，亦复何言 - 王阳明 </em> -->
-  <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in HKUST Information Systems (IS) department. He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
+     <p>
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in HKUST Business School, majoring in Information Systems. He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
   </p>
   <p>
-    He received the <span style="color:#1A5DCB;">China National Scholarship</span> in 2020, <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> award in 2024, and <span style="color:#1A5DCB;">Young Scientists Program Award</span> in 2025. His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">International Conference on Information Systems (ICIS)</span>, <span style="color:#8B5C2A;">Conference on Information Systems and Technology (CIST)</span>, and <span style="color:#8B5C2A;">Statistical Challenges in Electronic Commerce Research (SCECR)</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and obtained 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300K RMB). He has organized <strong>>40</strong> IS online PhD student <a href="https://siyuan-bruce.github.io/reading_group/home.html">seminars</a>.
+    His research interets centered on 1) blockchain infrastructure and application governance and 2) AI use in enterprise IT management. He applies machine/deep learning, econometric, and experimental methods to tackle questions in these fields. 
+    He received the <span style="color:#1A5DCB;">China National Scholarship</span> in 2020, <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> award in 2024, and <span style="color:#1A5DCB;">Young Scientists Program Award</span> in 2025. His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">International Conference on Information Systems (ICIS)</span>, <span style="color:#8B5C2A;">Conference on Information Systems and Technology (CIST)</span>, and <span style="color:#8B5C2A;">Statistical Challenges in Electronic Commerce Research (SCECR)</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. 
+    He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and obtained 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300K RMB). He has organized over <strong>40</strong> IS online PhD student <a href="https://siyuan-bruce.github.io/reading_group/home.html">seminars</a>.
   </p>
   <p>
-    Prior to HKUST, he spent two years as a full-stack engineer at HSBC IT Architecture and <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, developing <strong>Blockchain</strong> and CBDC projects. His work earned the <span style="color:#1A5DCB;">2021 Top Performer award</span>, <span style="color:#1A5DCB;">2021 Role Model honor</span>, and finalist status in the <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global CBDC Challenge</a> by the Monetary Authority of Singapore.
+    Prior to HKUST, he spent two years as a trainee and a full-stack engineer at HSBC IT Architecture and <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, respectively, developing Blockchain projects. His work earned the <span style="color:#1A5DCB;">2021 Top Performer award</span>, <span style="color:#1A5DCB;">2021 Role Model honor</span>, and finalist status in the <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global CBDC Challenge</a> by the Monetary Authority of Singapore.
   </p>
   </div>
 </div>
-<!-- 
-## Upcoming Talks
-<ul>  
-  <li class="paper-item">
-    <div class="paper-title">
-      Agentic IT in Information Systems Development: Insights from a Large-Scale Quasi-Experiment on Code Quality
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
-      Yong Xia.
-    </div>
-    <p class="conference-info">June 23, 2025, 14:45 - 15:45, SCECR 2025, Paphos, Cyprus</p>
-    <p class="conference-info">Session: Short Papers B (Chair: Ioannis Kanellopoulos)</p>
-  </li>
-
-  <li class="paper-item">
-    <div class="paper-title">
-      Crisis, Transparency, and User Engagement
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, 
-      Yuying Cai, Luying Qiu,
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
-    </div>
-    <p class="conference-info">June 24, 2025, 09:00 - 10:15, SCECR 2025, Paphos, Cyprus</p>
-    <p class="conference-info">Session: TRACK 2 - The User Engagement in Digital Platforms (Chair: Michail Batikas)</p>
-  </li>
-</ul> -->
 
 ## News
 <div class="news-section">
@@ -517,10 +488,8 @@ key: page-homepage
   </div>
 </div>
 
-
 ## IS Paper Sharing Group
 Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly PhD students. We also welcome faculty members and industry practitioners to share more advanced topics in this area. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
-
 
 ## Research Assistant Recruitment
 We are hiring a part-time Research Assistant (remote) with a Computer Science (or related) background to support blockchain/AI research projects, focusing on data scraping (building and maintaining web scrapers, automating data collection and cleaning) and data analytics (processing large datasets, exploratory analysis, basic econometrics). Strong Python (or R) skills, experience with web scraping tools, and solid data statistics are required; familiarity with blockchain/Ethereum data is a plus but not mandatory. The position is part-time with flexible hours and can be remote, and it offers approximately **double the average RA pay** at our institution. Interested candidates should email siyuan.jin@connect.ust.hk with a CV, a brief description of relevant experience, and (optionally) a code sample or GitHub link.
