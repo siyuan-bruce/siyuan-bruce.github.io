@@ -94,7 +94,7 @@ Teaching interests: Management Information Systems, Blockchain, Digital Currency
 
     .quote {
         font-style: italic;
-        font-size: 18px;
+        font-size: 16px;
         color: #555;
         margin-bottom: 20px;
         padding: 15px;
@@ -170,7 +170,7 @@ Teaching interests: Management Information Systems, Blockchain, Digital Currency
     }
 
     .student-feedback h2 {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 15px;
         color: #2c3e50;
         border-bottom: none;

@@ -51,7 +51,7 @@ permalink: /gallery.html
         }
 
         p {
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 15px;
             color: #555;
         }
@@ -108,7 +108,7 @@ permalink: /gallery.html
         }
 
         .timeline .event-description {
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 15px;
             color: #555;
         }

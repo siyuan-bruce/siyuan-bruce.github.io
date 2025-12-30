@@ -372,7 +372,7 @@ body {
       top: 0;
       color: #333;
       font-weight: bold;
-      font-size: 18px;
+      font-size: 16px;
       width: 32px;
       height: 32px;
       background-color:rgb(255, 255, 255);

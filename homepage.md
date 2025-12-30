@@ -80,7 +80,7 @@ key: page-homepage
     }
 
     .paper-authors {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 400;
       color: #555;
       margin-bottom: 10px;
