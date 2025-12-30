@@ -40,8 +40,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 <ul>
   <li class="paper-item" data-number="A1">
     <div class="paper-title">
-      Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Evidence from Environmental Impacts Disclosures.
-    </div>
+      From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns?</div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
