@@ -65,7 +65,7 @@ key: page-homepage
     }
     
   .paper-item {
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       padding-left: 15px;
       border-left: 4px solid #333; /* Subtle border instead of bullet */
     }
