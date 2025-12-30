@@ -29,11 +29,11 @@ key: page-homepage
   }
 
   body {
-    font-family: 'Lora', serif;
-    line-height: 1.6;
+    font-family: 'Roboto Serif', serif;
+    line-height: 1.5;
     background-color: #f8f8f8;
     margin: 0;
-    padding: 10px;
+    padding: 8px;
   }
 
   .profile-image {
@@ -72,7 +72,7 @@ key: page-homepage
 
     .paper-title {
       font-size: 24px;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto Serif', serif;
       font-weight: 700;
       margin-bottom: 12px;
       color: #333;
@@ -219,7 +219,7 @@ key: page-homepage
 
     /* News Section Styling */
     .news-section {
-      font-family: 'Times New Roman', Times, serif;
+      font-family: 'Roboto Serif', serif;
       margin: 10px;
       line-height: 1.25;
     }
