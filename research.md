@@ -46,10 +46,10 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Invited to resubmit for 3nd round review at <em>Journal of Management Information Systems</em> (FT50)</p>
+    <p class="status-info">Under 3nd round review at <em>Journal of Management Information Systems</em> (FT50)</p>
     <p class="conference-info">Conferences: [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop]</p>
     <p class="conference-info">
-      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: August 2025)</a> 
+      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: December 2025)</a> 
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
     </p>
     <details class="paper-details">
