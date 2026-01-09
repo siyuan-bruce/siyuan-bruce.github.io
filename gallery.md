@@ -132,6 +132,22 @@ permalink: /gallery.html
 
 <div class="year-section">
   <h3>2025</h3>
+
+  <div class="event">
+    <h4>ICIS 2025, Nashville, USA</h4>
+    <p>I am attending ICIS 2025 and presenting my paper.</p>
+    <img src="assets/images/gallery/2025ICIS.jpg" alt="2025 ICIS">
+  </div>
+
+
+  <div class="event">
+    <h4>CIST 2025, Atlanta, USA</h4>
+    <p>Professor Kai-Lung Hui and Professor Yanzhen Chen received award.</p>
+    <img src="assets/images/gallery/2025CISTGroupPhotoUST.jpg" alt="2025 CIST">
+    <p>Winry, Yunxin, and I self-drive to the Great Smoky Mountains National Park in Tennessee.</p>
+    <img src="assets/images/gallery/2025CISTGroupNationalPark.jpg" alt="2025 CIST">
+  </div>
+
         <div class="event">
             <h4>Paphos, Cyprus - SCECR 2025</h4>
             <p>Letian, Yixin, and I were visiting Limasool in Crypus and met an old british gentleman, Andrew. We were on the road to the conference venue, Paphos.</p>
