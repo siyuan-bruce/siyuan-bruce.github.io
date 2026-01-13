@@ -159,7 +159,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   <li class="paper-item" data-number="B2">
     <div class="paper-title">
-      Extensional Knowledge Representation for Quantum Monte Carlo Analysis: A Design Science Approach.
+      From Hype to Strategy: Using Extensional Representation Encoding to Evaluate Quantum Computing's Business Value.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
@@ -167,7 +167,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
-    <p class="status-info">Invited to resubmit for 3nd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
+    <p class="status-info">Under 3rd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
 
