@@ -243,7 +243,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 15. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
 
 
-### **Other Publications**
+### **Other Works**
 
 <ul>
 
@@ -255,6 +255,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, Kai-lung Hui, Allen H. Huang, He Chao, Chun Wang.
     </div>
     <p class="conference-info">Conference: the 4th conference from the Global Congress of Special Interest Tourism & Hospitality (the 4th GLOSITH)</p>
+    <p class="status-info">Under 1st round review at <em>International Journal of Tourism Research (IJTR)</em>.</p>
   </li>
 
 
