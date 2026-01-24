@@ -306,12 +306,19 @@ key: page-homepage
   </div>
     <div class="profile-text">
      <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in HKUST Business School, majoring in Information Systems (IS). He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in HKUST Business School, majoring in Information Systems (IS). He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He is also fortunate to be an incoming visiting scholar at the Wharton School, University of Pennsylvania, from March 2026, advised by Prof. Lynn Wu.
   </p>
+
   <p>
-    His research interests center on 1) blockchain infrastructure and application governance and 2) AI use in enterprise IT management. He applies econometric and experimental methods to tackle questions in these fields. 
-    He received the <span style="color:#1A5DCB;">China National Scholarship</span> in 2020, <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> award in 2024, and <span style="color:#1A5DCB;">Young Scientists Program Award</span> in 2025. His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">International Conference on Information Systems (ICIS)</span>, <span style="color:#8B5C2A;">Conference on Information Systems and Technology (CIST)</span>, and <span style="color:#8B5C2A;">Statistical Challenges in Electronic Commerce Research (SCECR)</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. 
-    He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and received a 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300,000) RMB). He has organized over <strong>40</strong> IS online PhD student <a href="https://siyuan-bruce.github.io/reading_group/home.html">seminars</a>.
+    His current research interests center on 1) blockchain infrastructure and application governance and 2) AI use in enterprise IT management. His methods include data analytics, econometrics, and experimental methods. 
+    His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">International Conference on Information Systems (ICIS)</span>, <span style="color:#8B5C2A;">Conference on Information Systems and Technology (CIST)</span>, and <span style="color:#8B5C2A;">Statistical Challenges in Electronic Commerce Research (SCECR)</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. 
+</p>
+
+<p>
+    He received the <span style="color:#1A5DCB;">China National Scholarship</span> in 2020, <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> award in 2024, and <span style="color:#1A5DCB;">Young Scientists Program Award</span> in 2025. 
+    He has received a 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300,000) RMB). He has organized over <strong>40</strong> IS online PhD student <a href="https://siyuan-bruce.github.io/reading_group/home.html">seminars</a>.
+    
+    He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and HKET (經濟日報), and has industrial collaboration with HSBC, NetEase, Shanbei, and other companies.
   </p>
   <p>
     Before HKUST, he spent two years as a trainee and a full-stack engineer at HSBC IT Architecture and <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, respectively, developing Blockchain projects. His work earned the <span style="color:#1A5DCB;">2021 Top Performer award</span>, <span style="color:#1A5DCB;">2021 Role Model honor</span>, and finalist status in the <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global CBDC Challenge</a> by the Monetary Authority of Singapore.
