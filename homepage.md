@@ -306,7 +306,10 @@ key: page-homepage
   </div>
     <div class="profile-text">
      <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in HKUST Business School, majoring in Information Systems (IS). He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He is also fortunate to be an incoming visiting scholar at the Wharton School, University of Pennsylvania, from March 2026, advised by Prof. Lynn Wu.
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in HKUST Business School, majoring in Information Systems (IS). He is fortunate to be advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
+    
+<!-- He is also fortunate to be an incoming visiting scholar at the Wharton School, University of Pennsylvania, from March 2026, advised by Prof. Lynn Wu. -->
+
   </p>
 
   <p>
@@ -317,7 +320,7 @@ key: page-homepage
 <p>
     He received the <span style="color:#1A5DCB;">China National Scholarship</span> in 2020, <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> award in 2024, and <span style="color:#1A5DCB;">Young Scientists Program Award</span> in 2025. 
     He has received a 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300,000) RMB). He has organized over <strong>40</strong> IS online PhD student <a href="https://siyuan-bruce.github.io/reading_group/home.html">seminars</a>.
-    
+
     He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and HKET (經濟日報), and has industrial collaboration with HSBC, NetEase, Shanbei, and other companies.
   </p>
   <p>
