@@ -51,7 +51,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">Under 3nd round review at <em>Journal of Management Information Systems</em> (FT50)</p>
-    <p class="conference-info">Presentations: HKUST IS Department Seminar,[2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], ISPSG Workshop</p>
+    <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop]</p>
     <p class="conference-info">
       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: December 2025)</a> 
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
@@ -73,7 +73,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Rejected and invited to resubmit to <em>MIS Quarterly</em> (UTD24, FT50).</p>
+    <p class="status-info">Under Revision.</p>
     <p class="conference-info">Presentations: [ICIS 2024], [CIST 2024], [2025 HKUST PhD Student Conference], [2025 HKUST IS Summer Workshop], Indiana University*, McGill University*</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <p class="conference-info">
