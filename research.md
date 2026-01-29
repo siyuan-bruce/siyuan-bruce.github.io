@@ -346,7 +346,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 
 - Ad hoc Journal Reviewer
-  - **Business Track:** Management Science (MS), Journal of Management Information Systems (JMIS), Communications of the Association for Information Systems (CAIS), Information Technology for Development (ICT4D), Journal of Electronic Commerce Research (JECR)
+  - **Business Track:** Management Science (MS); Journal of Management Information Systems (JMIS); Communications of the Association for Information Systems (CAIS); Review of Accounting Studies (RAST); The Accounting Review (TAR); Information Technology for Development (ICT4D); Journal of Electronic Commerce Research (JECR); Blockchain Research and Applications (BRA)
   - **Computing Science Track:** ACM Computing Surveys (CSUR)
 
 
