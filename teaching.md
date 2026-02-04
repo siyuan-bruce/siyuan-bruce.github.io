@@ -24,9 +24,21 @@ Teaching is not a science and should not be treated as such. Teaching is an art 
 
 Teaching interests: Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.
 
+
 <h2>The Hong Kong University of Science and Technology</h2>
 
 <div class="course-container">
+
+  <div class="course-title">AI in Business (DBAP 5530)</div>
+  <div class="course-details">
+      <p><strong>Teaching period:</strong> Apr 2026</p>
+      <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
+      <p><strong>Class size:</strong> 6</p>
+  <p class="course-description">
+    This course explores the transformative role of artificial intelligence (AI) in the business landscape. Designed for DBA students, it covers key AI concepts, technologies, and applications relevant to various industries. Students will learn how to leverage AI tools for decision-making, improve operational efficiency, enhance customer experiences, and drive innovation. The curriculum includes topics such as machine learning, natural language processing, data analytics, and ethical considerations in AI deployment. By the end of the course, students will gain an understanding of AI and identify related business issues that could become a potential topic of their thesis research.
+  </p>
+  </div>
+
   <div class="course-title">Coding for Business (ISOM 2020)</div>
   <div class="course-details">
       <p><strong>Teaching period:</strong> Fall 2023 (Lecture Instructor: Weiyin Hong)</p>
@@ -48,7 +60,8 @@ Teaching interests: Management Information Systems, Blockchain, Digital Currency
     <p><strong>Teaching period:</strong><br>
     Spring 2023 (Instructor: Dr. Weiyin Hong)<br>
     Fall 2023 (Instructor: Dr. Weiyin Hong)<br>
-    Spring 2024 (Instructor: Dr. Jianqing Chen)
+    Spring 2024 (Instructor: Dr. Jianqing Chen) <br>
+    Fall 2025 (Instructor: Dr. Hong Xu/Bufan Sun)
     </p>
     <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
     <p><strong>Class size:</strong> 60</p>

@@ -304,28 +304,7 @@ key: page-is_reading_group
 
       <p>Our existing organizers include Jingyuan Deng, Yihan Deng, Weibo Li, Xuewen Han, and me. Weibo Li now is leading the group. Reach out to him at <a href="mailto:weiboli@asu.edu">weiboli@asu.edu</a></p>
 
-      <h2>Acknowledgments</h2>
-      <p>Our activity provides no financial incentive. Thus, we are grateful for any Professor who is willing to join us:</p>
       
-      <div class="professor-grid">
-        <div class="professor-card">
-          <img src="poster/professors/xinli24.jpg" alt="Prof. Xin Li" class="professor-photo">
-          <div class="professor-name">Prof. Xin Li</div>
-          <div class="professor-institution">City University of Hong Kong</div>
-        </div>
-        
-        <div class="professor-card">
-          <img src="poster/professors/hongchang.jpg" alt="Prof. Hongchang Wang" class="professor-photo">
-          <div class="professor-name">Prof. Hongchang Wang</div>
-          <div class="professor-institution">UTD</div>
-        </div>
-        
-        <div class="professor-card">
-          <img src="poster/professors/xinyu.jpg" alt="Prof. Xinyu Fu" class="professor-photo">
-          <div class="professor-name">Prof. Xinyu Fu</div>
-          <div class="professor-institution">Georgia State University</div>
-        </div>
-      </div>
 
      <h2>Participant Statistics</h2>
       <div class="stats-section">
@@ -381,9 +360,28 @@ key: page-is_reading_group
         <img src="poster/IS_PSG_8.jpg" alt="PSG-8" title="PSG-8" width="800">
       </div>
 
+      <h2>Acknowledgments</h2>
+      <p>Our activity provides no financial incentive. Thus, we are grateful for any Professor who is willing to join us:</p>
       
-
-      <p>Join us to expand your knowledge of Information Systems through engaging discussions and thoughtful critiques!</p>
+      <div class="professor-grid">
+        <div class="professor-card">
+          <img src="poster/professors/xinli24.jpg" alt="Prof. Xin Li" class="professor-photo">
+          <div class="professor-name">Prof. Xin Li</div>
+          <div class="professor-institution">City University of Hong Kong</div>
+        </div>
+        
+        <div class="professor-card">
+          <img src="poster/professors/hongchang.jpg" alt="Prof. Hongchang Wang" class="professor-photo">
+          <div class="professor-name">Prof. Hongchang Wang</div>
+          <div class="professor-institution">UTD</div>
+        </div>
+        
+        <div class="professor-card">
+          <img src="poster/professors/xinyu.jpg" alt="Prof. Xinyu Fu" class="professor-photo">
+          <div class="professor-name">Prof. Xinyu Fu</div>
+          <div class="professor-institution">Georgia State University</div>
+        </div>
+      </div>
 
       <div class="organizers-section">
           <h2 class="organizers-title">Organizers</h2>
