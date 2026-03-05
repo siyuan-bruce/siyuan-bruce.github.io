@@ -306,7 +306,9 @@ key: page-homepage
   </div>
     <div class="profile-text">
      <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He is currently a visiting scholar at the Wharton School, University of Pennsylvania, working with Prof. Lynn Wu.
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
+    
+    <!-- He is currently a visiting scholar at the Wharton School, University of Pennsylvania, working with Prof. Lynn Wu. -->
   </p>
   <p>
     His current research interests center on 1) blockchain infrastructure and application governance and 2) AI use in enterprise IT management. His methods include data analytics, econometrics, and experimental methods. 
