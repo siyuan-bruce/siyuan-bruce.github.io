@@ -127,7 +127,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   
   <li class="paper-item" data-number="A5">
     <div class="paper-title">
-      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
+      <span style="background-color: #ffeb3b; font-weight: bold;">[Policy Paper]</span> Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
     </div>
     <div class="paper-authors">
       <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
