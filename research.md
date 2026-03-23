@@ -125,7 +125,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     </details>
   </li>
 
-  <li class="paper-item" data-number="A4.5">
+  <li class="paper-item" data-number="A5">
     <div class="paper-title">
      DeFi Treasury Management and Market Performance
     </div>
@@ -133,25 +133,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Joint work with Janja Brendel, Allen H. Huang, Evgeny Lyandres.
     </div>
     <p class="status-info">Data Analysis Completed. </p>
-  </li>
-  
-  <li class="paper-item" data-number="A5">
-    <div class="paper-title">
-      <span style="background-color: #ffeb3b; font-weight: bold;">[Policy Paper]</span> Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
-    </div>
-    <div class="paper-authors">
-      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
-      <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
-      <strong>Siyuan Jin</strong>, Haicheng Guo.
-    </div>
-    <p class="status-info">
-    <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
-    </p>
-    <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
-    <details class="paper-details">
-      <summary>Abstract</summary>
-      <p>This study investigates the public's perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants' opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
-    </details>
   </li>
 
 </ul>
@@ -268,13 +249,33 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 15. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
 
 
-### **Other Works**
+### **Policy Papers**
 
 <ul>
 
-  <li class="paper-item" data-number="U1">
+
+<li class="paper-item" data-number="P1">
     <div class="paper-title">
-    Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
+      Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot.
+    </div>
+    <div class="paper-authors">
+      <a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, 
+      <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, 
+      <strong>Siyuan Jin</strong>, Haicheng Guo.
+    </div>
+    <p class="status-info">
+    <em>ACM Distributed Ledger Technologies: Research and Practice</em> (<a href="https://dl.acm.org/doi/10.1145/3756329">https://dl.acm.org/doi/10.1145/3756329</a>)
+    </p>
+    <p class="conference-info">Government Media Coverage: <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf">[e-HKD Pilot Programme]</a> <a href="https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/hypothetical-e-hkd-phase-1-pilot-factsheet-en.pdf">[Summary]</a></p>
+    <details class="paper-details">
+      <summary>Abstract</summary>
+      <p>This study investigates the public's perception of retail central bank digital currency (rCBDC) and identifies the factors influencing its adoption. Conducted in collaboration with a prominent bank in Hong Kong, this research involved a hands-on experience with a prototype payment system making using of an e-HKD, being an rCBDC which could be implemented in Hong Kong. Participants' opinions on rCBDCs were assessed through surveys conducted before and after their engagement with the e-HKD pilot. Initially, participants displayed a broadly positive attitude towards rCBDC, although no single factor emerged as a decisive influence on their adoption decision. However, the pilot experience statistically significantly altered perceptions, particularly regarding security, ease of payment, and promotional functions, thereby impacting their willingness to adopt rCBDC. This study underscores the importance of understanding consumer perceptions and suggests that these perceptions are subject to change through exposure to regulatory information campaigns, prototype experiences, and initial models.Consequently, the study recommends a cautious approach to interpreting the reliability of existing survey findings in this domain.</p>
+    </details>
+  </li>
+
+  <li class="paper-item" data-number="P2">
+    <div class="paper-title">
+   Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Kai-lung Hui, Allen H. Huang, He Chao, Chun Wang.
@@ -284,7 +285,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   </li>
 
 
-  <li class="paper-item" data-number="U2">
+  <li class="paper-item" data-number="P3">
     <div class="paper-title">
       CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures
     </div>
@@ -299,7 +300,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <p>We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.</p>
     </details>
   </li>
-
+<!-- 
   <li class="paper-item" data-number="U3">
     <div class="paper-title">
       Scalability meets regulation: UTXO-based sharding and zero-knowledge proofs for regulated digital currencies
@@ -313,7 +314,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <summary>Abstract</summary>
       <p>FinTech and RegTech integration is essential for developing regulated digital currency (RDC) systems that are scalable and compliant. This paper proposes an unspent transaction output (UTXO)-based sharding method to address scalability challenges in RDCs. Results show UTXO-based sharding delivers linear throughput increase and consistently low latency by minimizing cross-shard transactions as the shard count grows. However, frequent user onboarding across shards under UTXO-based sharding models complicates know-your-customer (KYC) processes, highlighting regulatory inefficiencies. We demonstrate that zero-knowledge proofs seamlessly integrate with UTXO-based sharding to streamline customer onboarding and overcome regulatory burdens. Overall, this research pioneers FinTech-RegTech integration with practical implications for deploying high-performance, compliant RDC systems by synergistically combining UTXO-based sharding for scalability and zero-knowledge proofs for efficient regulation.</p>
     </details>
-  </li>
+  </li> -->
 
 
 </ul>
