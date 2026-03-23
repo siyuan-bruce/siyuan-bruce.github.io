@@ -306,13 +306,11 @@ key: page-homepage
   </div>
     <div class="profile-text">
      <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a fourth-year PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. 
-    
-    <!-- He is currently a visiting scholar at the Wharton School, University of Pennsylvania, working with Prof. Lynn Wu. -->
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He is currently a visiting scholar at the Wharton School, University of Pennsylvania, working with Prof. Lynn Wu until December 2026.
   </p>
   <p>
     His current research interests center on 1) blockchain infrastructure and application governance and 2) AI use in enterprise IT management. His methods include data analytics, econometrics, and experimental methods. 
-    His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">International Conference on Information Systems (ICIS)</span>, <span style="color:#8B5C2A;">Conference on Information Systems and Technology (CIST)</span>, and <span style="color:#8B5C2A;">Statistical Challenges in Electronic Commerce Research (SCECR)</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and HKET (經濟日報), and has industrial collaboration with HSBC, NetEase, Shanbei, and other companies.
+    His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">ICIS</span>, <span style="color:#8B5C2A;">CIST</span>, and <span style="color:#8B5C2A;">SCECR</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and HKET (經濟日報), and has industrial collaboration with HSBC, NetEase, Shanbei, and other companies.
 </p>
 
 <p>

@@ -50,7 +50,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Under 3nd round review at <em>Journal of Management Information Systems</em> (FT50)</p>
+    <p class="status-info">Invited for 4th round review at <em>Journal of Management Information Systems</em> (FT50)</p>
     <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop]</p>
     <p class="conference-info">
       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: December 2025)</a> 
@@ -73,7 +73,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Under Revision.</p>
+    <p class="status-info">Under Review at <em>Information Systems Research</em> (UTD24, FT50).</p>
     <p class="conference-info">Presentations: [ICIS 2024], [CIST 2024], [2025 HKUST PhD Student Conference], [2025 HKUST IS Summer Workshop], Indiana University*, McGill University*</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <p class="conference-info">
@@ -123,6 +123,16 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <summary>Abstract</summary>
       <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively distinguish between algorithmic and institutional IT operations, as well as their respective types of operational transparency. We also find that the presence of attackers switches user preferences for operational transparency. Higher levels of transparency, characterized by frequent and detailed information disclosures, may be perceived as catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
     </details>
+  </li>
+
+  <li class="paper-item" data-number="A4.5">
+    <div class="paper-title">
+     DeFi Treasury Management and Market Performance
+    </div>
+    <div class="paper-authors">
+      Joint work with Janja Brendel, Allen H. Huang, Evgeny Lyandres.
+    </div>
+    <p class="status-info">Data Analysis Completed. </p>
   </li>
   
   <li class="paper-item" data-number="A5">
@@ -175,6 +185,15 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Under 3rd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
+  <li class="paper-item" data-number="B3">
+    <div class="paper-title">
+      Pull-based Information Supply and User Engagement: Evidence from Widget for Gaming
+    </div>
+    <div class="paper-authors">
+      Joint work with Haiting Lin, Jinan Lin, Zike Cao, Liangfei Qiu, and Jinglong Zhang.
+    </div>
+    <p class="status-info">Data Analysis Completed. Under preparation for initial draft.</p>
+  </li>
 
 
   <!-- <li class="paper-item" data-number="B5">
@@ -196,22 +215,23 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
     </div>
     <div class="paper-authors">
-      Joint with Mingxi Ye, Ziyuan Li, Wei Thoo Yue, 
+      Joint with Haochen Jiang, Wei Thoo Yue, Mingxi Ye, Ziyuan Li, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
     </div>
     <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
     <p class="conference-info">Presentations: [ICIS 2025]</p>
+    <p class="status-info">Status: Under preparation to submit to <em>Management Science</em>.</p>
   </li>
 
-   <!-- <li class="paper-item" data-number="B3">
+   <li class="paper-item" data-number="B3">
     <div class="paper-title">
       Generative AI, Team Dispersion, and Productivity
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Mingxi Ye, Wei Thoo Yue,  
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+      <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-  </li> -->
+  </li>
+
 </ul>
 
 
