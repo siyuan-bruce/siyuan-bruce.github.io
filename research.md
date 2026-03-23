@@ -201,7 +201,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     </div>
     <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
     <p class="conference-info">Presentations: [ICIS 2025]</p>
-    <p class="status-info">Status: Under preparation to submit to <em>Management Science</em>.</p>
+    <p class="status-info">Under preparation to submit to <em>Management Science</em>.</p>
   </li>
 
    <li class="paper-item" data-number="B3">
