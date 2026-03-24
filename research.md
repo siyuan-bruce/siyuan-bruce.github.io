@@ -204,7 +204,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Under preparation to submit to <em>Management Science</em>.</p>
   </li>
 
-   <li class="paper-item" data-number="B3">
+   <li class="paper-item" data-number="C2">
     <div class="paper-title">
       Generative AI, Team Dispersion, and Productivity
     </div>
