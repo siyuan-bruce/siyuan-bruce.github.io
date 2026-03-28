@@ -43,56 +43,104 @@ key: page-homepage
   }
 
   .profile-image img {
-    width: 100%; /* Adjust width as needed */
-    max-width: 300px; /* Constrain size */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow */
-    border: 2px solid #f0f0f0; /* Light border */
-    padding: 2px; /* Space between image and border */
-    background-color: white; /* Background color to enhance border */
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    border: 2px solid #f0f0f0;
+    padding: 2px;
+    background-color: white;
   }
-  
-  
 
   .profile-text {
     margin: 10px;
     text-align: left;
   }
 
-      ul {
-      list-style-type: none; /* Remove the default bullets */
-      padding-left: 0;
-    }
-    
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
   .paper-item {
-      margin-bottom: 25px;
-      padding-left: 15px;
-      border-left: 4px solid #333; /* Subtle border instead of bullet */
-    }
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 4px solid #333;
+  }
 
-    .paper-title {
-      font-size: 24px;
-      font-family: 'Roboto Serif', serif;
-      font-weight: 700;
-      margin-bottom: 12px;
-      color: #333;
-      line-height: 1.4;
-    }
+  .paper-title {
+    font-size: 24px;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #333;
+    line-height: 1.4;
+  }
 
-    .paper-authors {
-      font-size: 16px;
-      font-weight: 400;
-      color: #555;
-      margin-bottom: 10px;
-    }
+  .paper-authors {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 10px;
+  }
 
-    .conference-info {
-      color: grey;
-      font-weight: 600;
-      font-size: 15px;
-      margin-top: 8px;
-    }
+  .conference-info {
+    color: grey;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 8px;
+  }
 
+  /* News Section */
+  .news-section {
+    font-family: 'Roboto Serif', serif;
+    margin: 10px;
+    line-height: 1.25;
+  }
+
+  .news-section h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .news-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .news-date {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    width: 100px;
+    flex-shrink: 0;
+    text-align: right;
+    padding-right: 15px;
+    white-space: nowrap;
+  }
+
+  .news-content {
+    font-size: 16px;
+    flex-grow: 1;
+    color: #333;
+  }
+
+  .news-content strong {
+    color: #000;
+  }
+
+  .news-content a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .news-content a:hover {
+    text-decoration: underline;
+  }
+
+  /* Desktop layout */
   @media screen and (min-width: 600px) {
     .container {
       display: flex;
@@ -100,23 +148,10 @@ key: page-homepage
       justify-content: space-between;
     }
 
-    .profile-text {
-      flex: 2 1 70%; /* Ensure text takes up more space */
-      text-align: left;
-      margin: 10px;
-    }
-
     .profile-image {
-      flex: 1 1 auto; /* Allow the image to take up space based on its content */
+      flex: 1 1 auto;
       max-width: 300px;
       margin-left: 10px;
-      order: 2;
-    }
-
-
-    .profile-image {
-      margin-left: 10px;
-      max-width: 300px;
       order: 2;
     }
 
@@ -150,7 +185,7 @@ key: page-homepage
 
     .card h3 {
       font-size: 1.5em;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       margin-top: -5px;
     }
 
@@ -167,11 +202,11 @@ key: page-homepage
     }
 
     .card ul li {
-      margin-bottom: 0px;
+      margin-bottom: 0;
       padding-left: 30px;
     }
 
-    /* Subtle Timeline Dots */
+    /* Timeline */
     .timeline {
       position: relative;
       margin-left: 20px;
@@ -179,7 +214,7 @@ key: page-homepage
 
     .timeline::before {
       content: '';
-      position: static;
+      position: absolute;
       left: 10px;
       top: 10px;
       bottom: 0;
@@ -195,7 +230,6 @@ key: page-homepage
       position: relative;
     }
 
-    /* Logo Styling */
     .university-logo {
       height: 180px;
       justify-self: end;
@@ -216,63 +250,14 @@ key: page-homepage
     header.header {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-
-    /* News Section Styling */
-    .news-section {
-      font-family: 'Roboto Serif', serif;
-      margin: 10px;
-      line-height: 1.25;
-    }
-
-    .news-section h2 {
-      font-size: 16px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-
-    .news-item {
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 10px;
-    }
-
-    .news-date {
-      font-size: 16px;
-      font-weight: bold;
-      color: #555;
-      width: 100px; /* Fixed width for aligned dates */
-      flex-shrink: 0;
-      text-align: right; /* Right-align the dates */
-      padding-right: 15px; /* Add some space between date and content */
-      white-space: nowrap;
-    }
-
-    .news-content {
-      font-size: 16px;
-      flex-grow: 1;
-      color: #333;
-    }
-
-    .news-content strong {
-      color:rgb(0, 0, 0); /* Highlight important text */
-    }
-
-    .news-content a {
-      text-decoration: none;
-      color:rgb(0, 0, 0);
-    }
-
-    .news-content a:hover {
-      text-decoration: underline;
-    }
   }
 
-  /* Mobile-specific adjustments */
+  /* Mobile adjustments */
   @media (max-width: 600px) {
     .card {
-      max-width: 100%; /* Remove the 600px limit */
-      padding: 16px; /* Add more padding for space */
-      margin: 10px 0; /* Adjust margin to center the card */
+      max-width: 100%;
+      padding: 16px;
+      margin: 10px 0;
     }
 
     h3 {
@@ -301,8 +286,6 @@ key: page-homepage
 <div class="container">
   <div class="profile-image">
     <img src="./images/profile3.png" alt="Profile Image" loading="lazy" />
-    <div style="text-align: center;">
-</div>
   </div>
     <div class="profile-text">
      <p>
