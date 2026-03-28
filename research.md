@@ -23,7 +23,107 @@ key: page-research
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto Serif', serif;
+      line-height: 1.6;
+      padding: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .paper-item {
+      margin-bottom: 28px;
+      padding-left: 15px;
+      border-left: 3px solid #1e3a6e;
+      position: relative;
+    }
+
+    .paper-item::before {
+      content: attr(data-number);
+      position: absolute;
+      left: -36px;
+      top: 2px;
+      color: #888;
+      font-size: 12px;
+      font-weight: 600;
+      width: 28px;
+      text-align: right;
+    }
+
+    .paper-title {
+      font-size: 18px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: #111;
+      line-height: 1.4;
+    }
+
+    .paper-authors {
+      font-size: 15px;
+      font-weight: 400;
+      color: #444;
+      margin-bottom: 6px;
+    }
+
+    .conference-info {
+      color: #555;
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .status-info {
+      color: #1e3a6e;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 14px;
+      margin-top: 6px;
+    }
+
+    .special-info {
+      color: #1e3a6e;
+      font-weight: 600;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    a {
+      color: #1e3a6e;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    details summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: #333;
+      font-size: 14px;
+      user-select: none;
+    }
+
+    details p {
+      margin-top: 8px;
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .paper-number {
+      color: #888;
+      margin-right: 8px;
+      font-weight: 600;
+    }
+  </style>
 </head>
 
 _The goal of behavioral-science research is truth. The goal of design-science research is utility. --- MIS Quarterly, 2004_
@@ -379,118 +479,3 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 - Association for Computing Machinery (ACM)
 - Institute for Operations Research and Management Sciences (INFORMS)
 
-<style>
-
-body {
-      font-family: 'Lora', serif;
-      line-height: 1.6;
-      padding: 10px;
-    }
-
-    ul {
-      list-style-type: none; /* Remove the default bullets */
-      padding-left: 0;
-    }
-
-    .paper-item {
-      margin-bottom: 30px;
-      padding-left: 15px;
-      border-left: 4px solid #333;
-      position: relative;
-    }
-
-    .paper-item::before {
-      content: attr(data-number);
-      position: absolute;
-      left: -40px;
-      top: 0;
-      color: #333;
-      font-weight: bold;
-      font-size: 16px;
-      width: 32px;
-      height: 32px;
-      background-color:rgb(255, 255, 255);
-      border: 2px solid #333;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      line-height: 1;
-    }
-
-    .paper-title {
-      font-size: 22px;
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      margin-bottom: 12px;
-      color: #333;
-      line-height: 1.4;
-    }
-
-    .paper-authors {
-      font-size: 16px;
-      font-weight: 400;
-      color: #555;
-      margin-bottom: 10px;
-    }
-
-    .conference-info {
-      color: grey;
-      font-weight: 600;
-      font-size: 15px;
-      margin-top: 8px;
-    }
-
-    .special-info {
-      color: #ff6347; /* Example color */
-      font-weight: bold;
-      font-size: 16px;
-      margin-top: 10px;
-      background-color: #f0f0f0; /* Example background */
-      padding: 5px;
-      border-radius: 5px;
-    }
-
-    a {
-      color: #007acc; /* Subtle blue color for links */
-      font-weight: 600;
-      text-decoration: none;
-      /* font-size: 15px; */
-      margin-top: 8px;
-    }
-
-    a:hover {
-      text-decoration: underline; /* Underline on hover for better UX */
-    }
-
-    /* Adjust the details/summary styling */
-    details summary {
-      cursor: pointer;
-      font-weight: 600;
-      color: #333;
-      user-select: none; /* Prevent text selection */
-    }
-
-  details p {
-      margin-top: 10px;
-      font-size: 16px;
-      color: #444;
-    }
-
-  .status-info {
-    color: #003366; /* Dark blue color */
-    font-weight: bold;
-    font-size: 16px;
-    margin-top: 10px;
-    background-color: #e6f2ff; /* Light blue background */
-    padding: 5px;
-    border-radius: 5px;
-  }
-
-  .paper-number {
-    color: #666;
-    margin-right: 8px;
-    font-weight: bold;
-  }
-
-</style>
