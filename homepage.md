@@ -30,26 +30,24 @@ key: page-homepage
 
   body {
     font-family: 'Roboto Serif', serif;
-    line-height: 1.5;
-    background-color: #f8f8f8;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #222;
     margin: 0;
     padding: 8px;
   }
 
   .profile-image {
     width: 100%;
-    max-width: 300px;
+    max-width: 260px;
     margin: 10px 0;
   }
 
   .profile-image img {
     width: 100%;
-    max-width: 300px;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
-    border: 2px solid #f0f0f0;
-    padding: 2px;
-    background-color: white;
+    max-width: 260px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
   }
 
   .profile-text {
@@ -65,75 +63,77 @@ key: page-homepage
   .paper-item {
     margin-bottom: 25px;
     padding-left: 15px;
-    border-left: 4px solid #333;
+    border-left: 3px solid #1e3a6e;
   }
 
   .paper-title {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Roboto Serif', serif;
     font-weight: 700;
-    margin-bottom: 12px;
-    color: #333;
+    margin-bottom: 10px;
+    color: #111;
     line-height: 1.4;
   }
 
   .paper-authors {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: #555;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .conference-info {
-    color: grey;
+    color: #555;
     font-weight: 600;
-    font-size: 15px;
-    margin-top: 8px;
+    font-size: 14px;
+    margin-top: 6px;
   }
 
   /* News Section */
   .news-section {
     font-family: 'Roboto Serif', serif;
     margin: 10px;
-    line-height: 1.25;
-  }
-
-  .news-section h2 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    line-height: 1.5;
   }
 
   .news-item {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .news-item:last-child {
+    border-bottom: none;
   }
 
   .news-date {
-    font-size: 16px;
-    font-weight: bold;
-    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    color: #666;
     width: 100px;
     flex-shrink: 0;
     text-align: right;
-    padding-right: 15px;
+    padding-right: 16px;
     white-space: nowrap;
   }
 
   .news-content {
-    font-size: 16px;
+    font-size: 15px;
     flex-grow: 1;
     color: #333;
   }
 
   .news-content strong {
-    color: #000;
+    color: #111;
+    font-weight: 600;
   }
 
   .news-content a {
     text-decoration: none;
-    color: #000;
+    color: #1e3a6e;
   }
 
   .news-content a:hover {
@@ -150,13 +150,13 @@ key: page-homepage
 
     .profile-image {
       flex: 1 1 auto;
-      max-width: 300px;
-      margin-left: 10px;
+      max-width: 260px;
+      margin-left: 24px;
       order: 2;
     }
 
     .profile-text {
-      margin-top: -10px;
+      margin-top: 0;
       order: 1;
       flex: 70%;
     }
@@ -164,19 +164,13 @@ key: page-homepage
     .card {
       display: flex;
       background-color: #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 10px;
-      margin: 10px;
-      border-radius: 8px;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid #e0e0e0;
+      padding: 16px;
+      margin: 8px 0;
+      border-radius: 2px;
       position: relative;
       width: 100%;
       max-width: 1000px;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     }
 
     .card-content {
@@ -184,16 +178,17 @@ key: page-homepage
     }
 
     .card h3 {
-      font-size: 1.5em;
-      margin-bottom: 0;
-      margin-top: -5px;
+      font-size: 1.35em;
+      margin-bottom: 2px;
+      margin-top: 0;
+      color: #111;
     }
 
     .card small {
-      font-size: 0.9em;
-      margin-top: -5px;
-      margin-bottom: -5px;
-      color: #555;
+      font-size: 0.875em;
+      color: #666;
+      display: block;
+      margin-bottom: 8px;
     }
 
     .card ul {
@@ -203,7 +198,7 @@ key: page-homepage
 
     .card ul li {
       margin-bottom: 0;
-      padding-left: 30px;
+      padding-left: 20px;
     }
 
     /* Timeline */
@@ -218,20 +213,20 @@ key: page-homepage
       left: 10px;
       top: 10px;
       bottom: 0;
-      width: 2px;
-      background-color: #d3d3d3;
+      width: 1px;
+      background-color: #ccc;
     }
 
     .timeline-item {
       display: flex;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
       padding-left: 40px;
       position: relative;
     }
 
     .university-logo {
-      height: 180px;
+      height: 160px;
       justify-self: end;
       align-self: flex-start;
     }
@@ -241,14 +236,14 @@ key: page-homepage
       position: absolute;
       left: 7px;
       top: 8px;
-      width: 8px;
-      height: 8px;
-      background-color: #1A5DCB;
+      width: 7px;
+      height: 7px;
+      background-color: #1e3a6e;
       border-radius: 50%;
     }
 
     header.header {
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
     }
   }
 
@@ -256,17 +251,17 @@ key: page-homepage
   @media (max-width: 600px) {
     .card {
       max-width: 100%;
-      padding: 16px;
-      margin: 10px 0;
+      padding: 14px;
+      margin: 8px 0;
     }
 
     h3 {
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
 
     p,
     ul li {
-      font-size: 0.9em;
+      font-size: 0.95em;
     }
 
     .timeline-item::before {
@@ -274,9 +269,9 @@ key: page-homepage
       position: absolute;
       left: 7px;
       top: 8px;
-      width: 8px;
-      height: 8px;
-      background-color: #1A5DCB;
+      width: 7px;
+      height: 7px;
+      background-color: #1e3a6e;
       border-radius: 50%;
     }
   }
