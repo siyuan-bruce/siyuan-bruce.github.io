@@ -20,6 +20,111 @@ titles:
 key: page-teaching
 ---
 
+<head>
+<style>
+  body {
+    font-family: 'Roboto Serif', serif;
+    line-height: 1.6;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    color: #111;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+  }
+
+  .course-container {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    margin: 16px 0;
+    padding: 20px;
+  }
+
+  .course-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #111;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .course-details {
+    margin-bottom: 16px;
+    padding: 12px 15px;
+    border-left: 3px solid #1e3a6e;
+    background-color: #fafafa;
+  }
+
+  .course-details p {
+    margin: 6px 0;
+    color: #333;
+  }
+
+  .course-details strong {
+    color: #111;
+    font-weight: 600;
+  }
+
+  .course-description {
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .student-feedback {
+    margin-top: 16px;
+    padding: 16px;
+    border-left: 3px solid #1e3a6e;
+    background-color: #fafafa;
+  }
+
+  .student-feedback h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+
+  .student-feedback p {
+    margin-bottom: 8px;
+    font-style: italic;
+    color: #444;
+    font-size: 15px;
+  }
+
+  .student-feedback strong {
+    color: #111;
+    font-style: normal;
+  }
+
+  @media (max-width: 768px) {
+    .course-container {
+      margin: 12px 0;
+      padding: 14px;
+    }
+
+    .course-title {
+      font-size: 16px;
+    }
+
+    .course-details {
+      padding: 10px;
+    }
+  }
+</style>
+</head>
+
 Teaching is not a science and should not be treated as such. Teaching is an art - a performing art. — Mr. Dawe.
 
 Teaching interests: Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.
@@ -80,163 +185,3 @@ Teaching interests: Management Information Systems, Blockchain, Digital Currency
 <p class="course-description">This course introduces the basic concepts of blockchain, offering students a clear and concrete understanding of its foundational principles. Participants will explore the essential structure of blockchain systems, learn how consensus mechanisms ensure data integrity, delve into the operation of smart contracts, and examine the key practices that contribute to robust blockchain security. Students need to run smart contracts on R3 Corda and Hyperledger Fabric and implement a blockchain project.</p>
 </div>
 
-<div class="course-container">
-
-<style>
-    body {
-      font-family: 'Lora', serif;
-      line-height: 1.6;
-      padding: 10px;
-    }
-
-    h1 {
-        font-size: 32px;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        color: #2c3e50;
-        border-bottom: 2px solid #3498db;
-        padding-bottom: 5px;
-    }
-
-    .quote {
-        font-style: italic;
-        font-size: 16px;
-        color: #555;
-        margin-bottom: 20px;
-        padding: 15px;
-        background-color: #f8f9fa;
-        border-left: 4px solid #3498db;
-        border-radius: 5px;
-    }
-
-    .teaching-interests {
-        font-weight: bold;
-        margin-bottom: 20px;
-        color: #2c3e50;
-        padding: 10px;
-        background-color: #ecf0f1;
-        border-radius: 5px;
-    }
-
-    .course-container {
-        background: #ffffff;
-        border: 1px solid #e1e8ed;
-        border-radius: 8px;
-        margin: 20px 0;
-        padding: 20px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .course-container:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-    }
-
-    .course-title {
-        font-size: 22px;
-        font-weight: bold;
-        margin-bottom: 15px;
-        color: #2c3e50;
-        padding: 10px 0;
-        border-bottom: 2px solid #3498db;
-    }
-
-    .course-details {
-        margin-bottom: 20px;
-        background-color: #f8f9fa;
-        padding: 15px;
-        border-radius: 5px;
-        border-left: 4px solid #3498db;
-    }
-
-    .course-details p {
-        margin: 8px 0;
-        color: #34495e;
-    }
-
-    .course-details strong {
-        color: #2c3e50;
-        font-weight: 600;
-    }
-
-    .course-description {
-        line-height: 1.7;
-        color: #2c3e50;
-        margin-bottom: 15px;
-        padding: 10px 0;
-    }
-
-    .student-feedback {
-        margin-top: 20px;
-        padding: 20px;
-        background-color: #f1f8ff;
-        border-left: 4px solid #3498db;
-        border-radius: 5px;
-    }
-
-    .student-feedback h2 {
-        font-size: 16px;
-        margin-bottom: 15px;
-        color: #2c3e50;
-        border-bottom: none;
-        padding-bottom: 0;
-    }
-
-    .student-feedback p {
-        margin-bottom: 10px;
-        font-style: italic;
-        color: #34495e;
-    }
-
-    .student-feedback strong {
-        color: #2c3e50;
-    }
-
-    .invited-talks {
-        margin-top: 30px;
-    }
-
-    .invited-talks h2 {
-        color: #2c3e50;
-        border-bottom: 2px solid #e74c3c;
-    }
-
-    .invited-talks ol {
-        padding-left: 20px;
-    }
-
-    .invited-talks li {
-        margin-bottom: 10px;
-        color: #34495e;
-        line-height: 1.6;
-    }
-
-    .invited-talks em {
-        color: #7f8c8d;
-        font-style: italic;
-    }
-
-    /* Responsive design */
-    @media (max-width: 768px) {
-        .course-container {
-            margin: 15px 0;
-            padding: 15px;
-        }
-        
-        .course-title {
-            font-size: 20px;
-        }
-        
-        .course-details {
-            padding: 10px;
-        }
-    }
-</style>

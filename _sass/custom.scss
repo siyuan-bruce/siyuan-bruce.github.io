@@ -1,3 +1,53 @@
 /* start custom scss snippet */
 
+/* ── Global typography ───────────────────────────────────── */
+body,
+.wrapper,
+.main,
+article,
+.article__content {
+  font-family: 'Roboto Serif', Georgia, 'Times New Roman', serif;
+}
+
+/* ── Header: slimmer shadow, no heavy block ──────────────── */
+.header {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* ── Navigation: slightly spaced, medium weight ─────────── */
+.navigation .navigation__item a {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* ── Article content ─────────────────────────────────────── */
+.article__content {
+  line-height: 1.75;
+}
+
+.article__content h2,
+.article__content h3 {
+  font-family: 'Roboto Serif', Georgia, serif;
+  font-weight: 700;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 0.25em;
+  margin-top: 2em;
+}
+
+/* Academic navy for all in-content links */
+.article__content a {
+  color: #1e3a6e;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* ── Footer ──────────────────────────────────────────────── */
+.footer {
+  border-top: 1px solid #e0e0e0;
+}
+
 /* end custom scss snippet */
