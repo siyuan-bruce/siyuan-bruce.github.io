@@ -421,10 +421,11 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 
 ### Letters
-1. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
-2. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
-3. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
-4. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
+1. "深化體驗添「黏性」 旅客增長常態化" <a href="https://paper.hket.com/article/4086667">Hong Kong Economic Times (經濟日報)</a>, February 20, 2026.
+2. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
+3. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
+4. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
+5. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
 
 
 ### **Patent**
