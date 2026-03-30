@@ -128,8 +128,6 @@ key: page-research
 
 _The goal of behavioral-science research is truth. The goal of design-science research is utility. --- MIS Quarterly, 2004_
 
-_知之为知之，不知为不知，是知也。_ --- Confucius
-
 <p style="font-size: 14px; color: #666; font-style: italic; margin-top: 15px; margin-bottom: 15px;">
 FT50 = list of 50 journals used by the Financial Times to compile the FT Research rank, included in the Global MBA, EMBA, and Online MBA rankings.<br>
 UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Management to provide the top 100 business school rankings.
