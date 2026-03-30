@@ -55,6 +55,62 @@ key: page-homepage
     text-align: left;
   }
 
+  .profile-sidebar {
+    margin-top: 14px;
+    font-family: 'Roboto Serif', serif;
+    font-size: 13px;
+    color: #444;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .profile-sidebar .affil-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+    font-size: 13px;
+  }
+
+  .profile-sidebar .affil-row:last-of-type {
+    border-bottom: none;
+    margin-bottom: 8px;
+  }
+
+  .profile-sidebar .affil-icon {
+    flex-shrink: 0;
+    width: 16px;
+    text-align: center;
+    color: #1e3a6e;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  .profile-sidebar .link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  .profile-sidebar .link-row a {
+    color: #1e3a6e;
+    text-decoration: none;
+    font-size: 12.5px;
+    padding: 3px 9px;
+    border: 1px solid #c5d0e0;
+    border-radius: 3px;
+    background: #fff;
+    transition: background 0.15s;
+  }
+
+  .profile-sidebar .link-row a:hover {
+    background: #f0f4fb;
+    text-decoration: none;
+  }
+
   ul {
     list-style-type: none;
     padding-left: 0;
@@ -281,6 +337,20 @@ key: page-homepage
 <div class="container">
   <div class="profile-image">
     <img src="./images/profile3.png" alt="Profile Image" loading="lazy" />
+    <div class="profile-sidebar">
+      <div class="affil-row">
+        <span class="affil-icon">&#127979;</span>
+        <span><strong>HKUST</strong> &middot; PhD Candidate</span>
+      </div>
+      <div class="affil-row">
+        <span class="affil-icon">&#127963;</span>
+        <span><strong>Wharton</strong> &middot; Visiting Scholar</span>
+      </div>
+      <div class="link-row">
+        <a href="mailto:siyuan.jin@connect.ust.hk">&#9993; Email</a>
+        <a href="https://github.com/siyuan-bruce" target="_blank">&#128279; GitHub</a>
+      </div>
+    </div>
   </div>
     <div class="profile-text">
      <p>
