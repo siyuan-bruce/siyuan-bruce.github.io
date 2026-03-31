@@ -302,14 +302,14 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Under preparation to submit to <em>Management Science</em>.</p>
   </li>
 
-   <li class="paper-item" data-number="C2">
+   <!-- <li class="paper-item" data-number="C2">
     <div class="paper-title">
       Generative AI, Team Dispersion, and Productivity
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-  </li>
+  </li> -->
 
 </ul>
 
