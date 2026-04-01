@@ -264,7 +264,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Under 3rd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
-  <li class="paper-item" data-number="B3">
+  <!-- <li class="paper-item" data-number="B3">
     <div class="paper-title">
       Pull-based Information Supply and User Engagement: Evidence from Widget for Gaming
     </div>
@@ -272,7 +272,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Joint work with Haiting Lin, Jinan Lin, Zike Cao, Liangfei Qiu, and Jinglong Zhang.
     </div>
     <p class="status-info">Data Analysis Completed. Under preparation for initial draft.</p>
-  </li>
+  </li> -->
 
 
   <!-- <li class="paper-item" data-number="B5">
