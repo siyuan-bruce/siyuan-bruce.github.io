@@ -206,7 +206,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       </p>
     </details>
   </li>
-
+<!-- 
   <li class="paper-item" data-number="A4">
     <div class="paper-title">
       Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
@@ -221,7 +221,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <summary>Abstract</summary>
       <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively distinguish between algorithmic and institutional IT operations, as well as their respective types of operational transparency. We also find that the presence of attackers switches user preferences for operational transparency. Higher levels of transparency, characterized by frequent and detailed information disclosures, may be perceived as catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
     </details>
-  </li>
+  </li> -->
 
   <li class="paper-item" data-number="A5">
     <div class="paper-title">
