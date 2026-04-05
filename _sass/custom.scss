@@ -9,10 +9,21 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
-/* ── Navigation: slightly spaced, medium weight ─────────── */
+/* ── Navigation: keep labels on one line; slightly smaller than body ─ */
+.navigation > ul {
+  flex-wrap: nowrap;
+}
+
+.navigation .navigation__item {
+  flex-shrink: 0;
+  padding: 4px 8px;
+}
+
 .navigation .navigation__item a {
+  font-size: 0.875rem;
   font-weight: 500;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 /* ── Article content ─────────────────────────────────────── */

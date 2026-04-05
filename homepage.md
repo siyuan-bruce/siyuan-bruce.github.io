@@ -454,7 +454,7 @@ key: page-homepage
 </p>
 
 <p>
-    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), and <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025). He was also awarded the <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB). Through the <a href="/service.html">IS Paper Sharing Group</a>, he has organized 40+ online IS PhD student seminars. 
+    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), and <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025). He was also awarded the <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB). Through the <a href="/service.html">IS Reading Group</a>, he has organized 40+ online IS PhD student seminars. 
     
   </p>
   <p>

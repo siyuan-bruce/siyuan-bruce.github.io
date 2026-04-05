@@ -22,25 +22,17 @@ key: page-service
 
 <head>
 <style>
-  /* Scoped for theme: content lives in .article__content */
+  /* Same column as Teaching: use full .main / .article__content width (no inner max-width) */
   .article__content .service-page,
   .service-page {
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.75;
     color: #1a1a1a;
-    max-width: 52rem;
-    margin: 0 auto;
-    padding: 0.5rem 1.25rem 3rem;
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 2.5rem;
     -webkit-font-smoothing: antialiased;
-  }
-
-  @media screen and (min-width: 900px) {
-    .article__content .service-page,
-    .service-page {
-      font-size: 1.1875rem;
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
   }
 
   .article__content .service-page h2,
@@ -72,7 +64,7 @@ key: page-service
   .article__content .service-page p,
   .service-page p {
     margin: 0 0 1.1rem;
-    max-width: 50rem;
+    max-width: none;
   }
 
   .article__content .service-page a,
@@ -140,18 +132,9 @@ key: page-service
   }
 
   @media (max-width: 600px) {
-    .article__content .service-page,
-    .service-page {
-      font-size: 1.0625rem;
-      padding-left: 0.75rem;
-      padding-right: 0.75rem;
-    }
-
     .article__content .service-highlight,
     .service-highlight {
       padding: 1.2rem 1.1rem 1.25rem;
-      margin-left: -0.15rem;
-      margin-right: -0.15rem;
     }
 
     .article__content .service-page ul li,
@@ -183,9 +166,9 @@ key: page-service
 
 <div class="service-highlight" markdown="1">
 
-## IS Paper Sharing Group
+## IS Reading Group
 
-Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly PhD students. We also welcome faculty members and industry practitioners to share more advanced topics in this area. Email [siyuan.jin@connect.ust.hk](mailto:siyuan.jin@connect.ust.hk) if you would like to join. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
+Inspired by open talks in other subjects, we run an **information systems** paper sharing series. The main audience is PhD students; faculty and practitioners are welcome for more advanced topics. Email [siyuan.jin@connect.ust.hk](mailto:siyuan.jin@connect.ust.hk) to get involved. **Schedules, archives, and full information:** [IS Reading Group site](https://siyuan-bruce.github.io/reading_group/home.html).
 
 </div>
 
