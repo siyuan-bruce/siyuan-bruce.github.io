@@ -172,12 +172,4 @@ Inspired by open talks in other subjects, we run an **information systems** pape
 
 </div>
 
-<div class="service-highlight" markdown="1">
-
-## Research Assistant Recruitment
-
-We are hiring a part-time Research Assistant (remote) with a Computer Science (or related) background to support blockchain/AI research projects, focusing on data scraping (building and maintaining web scrapers, automating data collection and cleaning) and data analytics (processing large datasets, exploratory analysis, basic econometrics). Strong Python (or R) skills, experience with web scraping tools, and solid data statistics are required; familiarity with blockchain/Ethereum data is a plus but not mandatory. The position is part-time with flexible hours and can be remote, and it offers approximately **double the average RA pay** at our institution. Interested candidates should email [siyuan.jin@connect.ust.hk](mailto:siyuan.jin@connect.ust.hk) with a CV, a brief description of relevant experience, and (optionally) a code sample or GitHub link.
-
-</div>
-
 </div>
