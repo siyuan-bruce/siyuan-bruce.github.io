@@ -639,7 +639,6 @@ key: page-homepage
   <div class="contact-affil">PhD candidate in Information Systems, HKUST Business School · Visiting scholar, Wharton School, University of Pennsylvania (through December 2026)</div>
   <ul>
     <li><strong>Email:</strong> <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a> — research collaboration, reading group, RA applications, and general inquiries</li>
-    <li><strong>Service:</strong> <a href="/service.html">Service page</a> — supervising, reviewing, reading group, and RA openings</li>
     <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">linkedin.com/in/si-yuan-bruce-jin</a></li>
   </ul>
 </div>
