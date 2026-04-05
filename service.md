@@ -22,102 +22,141 @@ key: page-service
 
 <head>
 <style>
+  /* Scoped for theme: content lives in .article__content */
+  .article__content .service-page,
   .service-page {
-    font-family: 'Roboto Serif', serif;
-    font-size: 15px;
-    line-height: 1.65;
-    color: #333;
-    max-width: 42rem;
-    padding: 4px 2px 28px;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #1a1a1a;
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 0.5rem 1.25rem 3rem;
+    -webkit-font-smoothing: antialiased;
   }
 
+  @media screen and (min-width: 900px) {
+    .article__content .service-page,
+    .service-page {
+      font-size: 1.1875rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .article__content .service-page h2,
   .service-page h2 {
-    font-size: 1.28em;
+    font-size: clamp(1.35rem, 2.5vw, 1.65rem);
     font-weight: 700;
-    color: #111;
-    margin: 2rem 0 0.85rem;
-    padding-bottom: 0.45rem;
-    border-bottom: 2px solid #1e3a6e;
-    letter-spacing: -0.01em;
+    color: #0f0f0f;
+    margin: 2.5rem 0 1rem;
+    padding-bottom: 0.55rem;
+    border-bottom: 3px solid #1e3a6e;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
   }
 
+  .article__content .service-page h2:first-child,
   .service-page h2:first-child {
     margin-top: 0;
   }
 
+  .article__content .service-page h3,
   .service-page h3 {
-    font-size: 1.05em;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #1e3a6e;
-    margin: 1.15rem 0 0.5rem;
+    margin: 1.5rem 0 0.65rem;
+    line-height: 1.35;
   }
 
+  .article__content .service-page p,
   .service-page p {
-    margin: 0 0 0.85rem;
+    margin: 0 0 1.1rem;
+    max-width: 50rem;
   }
 
+  .article__content .service-page a,
   .service-page a {
     color: #1e3a6e;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
   }
 
+  .article__content .service-page a:hover,
   .service-page a:hover {
     text-decoration: underline;
   }
 
+  .article__content .service-page ul,
   .service-page ul {
     list-style: none;
-    margin: 0.35rem 0 1rem;
+    margin: 0.5rem 0 1.5rem;
     padding: 0;
   }
 
+  .article__content .service-page ul li,
   .service-page ul li {
-    position: relative;
-    margin: 0 0 0.65rem;
-    padding: 0.35rem 0 0.35rem 1rem;
-    border-left: 3px solid #d8e0f0;
-    background: linear-gradient(90deg, #f7f9fc 0%, transparent 100%);
+    margin: 0 0 1rem;
+    padding: 0.85rem 1.1rem 0.85rem 1.35rem;
+    border-left: 4px solid #1e3a6e;
+    background: linear-gradient(90deg, #f0f4fb 0%, rgba(247, 249, 252, 0.35) 55%, transparent 100%);
+    border-radius: 0 4px 4px 0;
+    font-size: 1em;
+    line-height: 1.72;
   }
 
+  .article__content .service-page ul li:last-child,
   .service-page ul li:last-child {
     margin-bottom: 0;
   }
 
+  .article__content .service-highlight,
   .service-highlight {
-    margin: 1.1rem 0 1rem;
-    padding: 1rem 1.15rem 1.05rem;
-    border: 1px solid #e0e0e0;
-    border-radius: 2px;
-    background: #fafbfd;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    margin: 1.75rem 0 1.5rem;
+    padding: 1.5rem 1.75rem 1.6rem;
+    border: 1px solid #d4dce8;
+    border-radius: 4px;
+    background: #f7f9fd;
+    box-shadow: 0 2px 8px rgba(30, 58, 110, 0.06);
   }
 
+  .article__content .service-highlight h2,
   .service-highlight h2 {
     margin-top: 0;
-    margin-bottom: 0.65rem;
-    padding-bottom: 0.5rem;
-    border-bottom-width: 1px;
-    border-bottom-color: #c5d0e0;
-    font-size: 1.12em;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.65rem;
+    border-bottom-width: 2px;
+    border-bottom-color: #b8c5db;
+    font-size: clamp(1.25rem, 2.2vw, 1.45rem);
   }
 
+  .article__content .service-highlight p,
   .service-highlight p {
     margin-bottom: 0;
-    font-size: 14.5px;
-    line-height: 1.62;
-    color: #3a3a3a;
+    font-size: 1em;
+    line-height: 1.78;
+    color: #242424;
+    max-width: none;
   }
 
   @media (max-width: 600px) {
+    .article__content .service-page,
     .service-page {
-      font-size: 14.5px;
-      padding-left: 0;
-      padding-right: 0;
+      font-size: 1.0625rem;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
     }
 
+    .article__content .service-highlight,
     .service-highlight {
-      padding: 0.85rem 0.95rem;
+      padding: 1.2rem 1.1rem 1.25rem;
+      margin-left: -0.15rem;
+      margin-right: -0.15rem;
+    }
+
+    .article__content .service-page ul li,
+    .service-page ul li {
+      padding: 0.7rem 0.85rem 0.7rem 1rem;
     }
   }
 </style>

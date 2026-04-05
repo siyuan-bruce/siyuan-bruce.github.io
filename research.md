@@ -23,10 +23,8 @@ key: page-research
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Roboto Serif', serif;
       line-height: 1.6;
       padding: 10px;
     }
@@ -57,7 +55,6 @@ key: page-research
 
     .paper-title {
       font-size: 18px;
-      font-family: 'Playfair Display', serif;
       font-weight: 700;
       margin-bottom: 6px;
       color: #111;

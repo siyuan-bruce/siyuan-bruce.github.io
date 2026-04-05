@@ -26,7 +26,6 @@ key: page-is_reading_group
     <title>Information Systems Reading Group</title>
     <style>
         body {
-            font-family: 'Lora', serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;

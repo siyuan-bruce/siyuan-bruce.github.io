@@ -29,7 +29,6 @@ key: page-homepage
   }
 
   body {
-    font-family: 'Roboto Serif', serif;
     line-height: 1.6;
     background-color: #ffffff;
     color: #222;
@@ -57,7 +56,6 @@ key: page-homepage
 
   .profile-sidebar {
     margin-top: 14px;
-    font-family: 'Roboto Serif', serif;
     font-size: 13px;
     color: #444;
     line-height: 1.6;
@@ -152,7 +150,6 @@ key: page-homepage
   }
 
   .contact-footer {
-    font-family: 'Roboto Serif', serif;
     margin: 10px;
     padding: 16px 18px;
     border: 1px solid #e0e0e0;
@@ -214,7 +211,6 @@ key: page-homepage
 
   .paper-title {
     font-size: 22px;
-    font-family: 'Roboto Serif', serif;
     font-weight: 700;
     margin-bottom: 10px;
     color: #111;
@@ -237,7 +233,6 @@ key: page-homepage
 
   /* News Section */
   .news-section {
-    font-family: 'Roboto Serif', serif;
     margin: 10px;
     line-height: 1.5;
   }

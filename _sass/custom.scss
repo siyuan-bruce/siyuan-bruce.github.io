@@ -1,13 +1,7 @@
 /* start custom scss snippet */
 
-/* ── Global typography ───────────────────────────────────── */
-body,
-.wrapper,
-.main,
-article,
-.article__content {
-  font-family: 'Roboto Serif', Georgia, 'Times New Roman', serif;
-}
+/* Global text: $base font-family in common/_variables.scss (Roboto Serif).
+   Webfont loaded in _includes/head/custom.html */
 
 /* ── Header: slimmer shadow, no heavy block ──────────────── */
 .header {
@@ -28,7 +22,6 @@ article,
 
 .article__content h2,
 .article__content h3 {
-  font-family: 'Roboto Serif', Georgia, serif;
   font-weight: 700;
   border-bottom: 1px solid #ebebeb;
   padding-bottom: 0.25em;

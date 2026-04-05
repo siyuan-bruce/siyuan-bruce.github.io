@@ -22,7 +22,6 @@ permalink: /gallery.html
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
         body {
-            font-family: 'Lora', serif;
             line-height: 1.6;
             background-color: #f8f8f8;
             padding: 10px;

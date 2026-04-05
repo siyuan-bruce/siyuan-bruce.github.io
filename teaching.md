@@ -23,7 +23,6 @@ key: page-teaching
 <head>
 <style>
   body {
-    font-family: 'Roboto Serif', serif;
     line-height: 1.6;
     padding: 10px;
   }
