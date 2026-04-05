@@ -147,15 +147,6 @@ key: page-service
 
 <div class="service-page" markdown="1">
 
-## Supervising
-
-### MSc research projects (co-supervised)
-
-2022.10 ~ 2023.10: seven MSc students on year-level research projects (with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang, and Yichi Zhang). [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
-
-- After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu received PhD offers.
-- Y. Liu received the _Best Presentation Award_ at the DDM 6980 project presentation.
-
 ## Conference and journal reviewing
 
 - **Ad hoc conference reviewer:** Workshop on Information Technologies and Systems (**WITS** 2024 × 2, 2025 × 3); International Conference on Information Systems (**ICIS** 2023 × 2, 2024 × 2, 2025 × 3); Pacific Asia Conference on Information Systems (**PACIS** 2024 × 2); Quantum Information Processing (**QIP** 2023 × 1).
