@@ -266,7 +266,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   <!-- <li class="paper-item" data-number="B3">
     <div class="paper-title">
-      Pull-based Information Supply and User Engagement: Evidence from Widget for Gaming
+      Widge and User Engagement: Evidence from Widget for Gaming
     </div>
     <div class="paper-authors">
       Joint work with Haiting Lin, Jinan Lin, Zike Cao, Liangfei Qiu, and Jinglong Zhang.
@@ -418,14 +418,14 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 15. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
 
-
-
 ### Letters
-1. "深化體驗添「黏性」 旅客增長常態化" <a href="https://paper.hket.com/article/4086667">Hong Kong Economic Times (經濟日報)</a>, February 20, 2026.
-2. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
-3. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
-4. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
-5. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
+1. "醫療旅遊商機巨 港拓優勢須加鞭" <a href="https://paper.hket.com/article/4109817">Hong Kong Economic Times (經濟日報)</a>, April 5, 2026.
+https://paper.hket.com/article/4109817
+2. "深化體驗添「黏性」 旅客增長常態化" <a href="https://paper.hket.com/article/4086667">Hong Kong Economic Times (經濟日報)</a>, February 20, 2026.
+3. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
+4. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
+5. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
+6. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
 
 
 ### **Patent**
@@ -453,25 +453,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 - **Award** _PhD Postgraduate Studentship_, Nov 2022 - Sep 2024
 - **Award** _Monetary Authority of Singapore_ [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5%), Nov 2021
 - **Award** _China National Scholarship (Top 0.1%-0.2%)_, 2020
-
-    
-### **Supervising**
-- 2022.10 ~ 2023.10: 7 Msc students on their year-level research projects (Co-supervised with Prof. Bei Zeng, Prof. Qiming Shao, Yuhan Huang and Yichi Zhang) [[Details]](https://siyuan-bruce.github.io/students/ddm.html)
-  - After their research projects, Chang Xu, Shiguang Zhang, and Jiahui Wu got Ph.D. offers.
-  - Y. Liu received the _Best Presentation Award_ of DDM 6980 Project Presentation.
-
-## **Services**
-- Ad hoc Conference Reviewer
-  - _Workshop on Information Technologies and Systems (**WITS** 2024 X 2, 2025 X 3)_
-  - _International Conference on Information Systems (**ICIS** 2023 X 2, 2024 X 2, 2025 X 3)_
-  - _Pacific Asia Conference on Information Systems (**PACIS** 2024 X 2)_
-  - _Quantum Information Processing (**QIP** 2023 X 1)_
-
-
-- Ad hoc Journal Reviewer
-  - **Business Track:** Management Science (MS); Journal of Management Information Systems (JMIS); Communications of the Association for Information Systems (CAIS); Review of Accounting Studies (RAST); The Accounting Review (TAR); Information Technology for Development (ICT4D); Journal of Electronic Commerce Research (JECR); Blockchain Research and Applications (BRA)
-  - **Computing Science Track:** ACM Computing Surveys (CSUR)
-
 
 ## **Professional Membership**
 - Association for Information Systems (AIS)

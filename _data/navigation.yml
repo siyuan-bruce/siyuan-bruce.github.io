@@ -21,6 +21,16 @@ header:
 
   - titles: 
       # @start locale config
+      en      : &EN       Service
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  服务
+    url: /service.html
+
+  - titles: 
+      # @start locale config
       en      : &EN       Teaching
       en-GB   : *EN
       en-US   : *EN
@@ -38,16 +48,6 @@ header:
       en-AU   : *EN
       zh-Hans : &ZH_HANS  IS 论文小组
     url: /reading_group/home.html
-    
-  - titles: 
-      # @start locale config
-      en      : &EN       Blogs
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  笔记
-    url: /archive.html
 
   - titles: 
       # @start locale config

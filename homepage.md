@@ -111,6 +111,96 @@ key: page-homepage
     text-decoration: none;
   }
 
+  .profile-sidebar .sidebar-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+    line-height: 1.35;
+  }
+
+  .profile-sidebar .sidebar-name .chinese-name {
+    font-weight: 600;
+    color: #444;
+  }
+
+  .profile-sidebar .contact-email {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #f0f0f0;
+    font-size: 12.5px;
+    line-height: 1.5;
+  }
+
+  .profile-sidebar .contact-email a {
+    color: #1e3a6e;
+    text-decoration: none;
+    word-break: break-all;
+  }
+
+  .profile-sidebar .contact-email a:hover {
+    text-decoration: underline;
+  }
+
+  .profile-sidebar .contact-email .label {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #888;
+    margin-bottom: 4px;
+  }
+
+  .contact-footer {
+    font-family: 'Roboto Serif', serif;
+    margin: 10px;
+    padding: 16px 18px;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    background: #fafbfd;
+    line-height: 1.55;
+    color: #333;
+    text-align: left;
+  }
+
+  .contact-footer .contact-lead {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 6px;
+  }
+
+  .contact-footer .contact-affil {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 14px;
+  }
+
+  .contact-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-footer ul li {
+    margin-bottom: 10px;
+    padding-left: 0;
+    font-size: 14px;
+  }
+
+  .contact-footer ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .contact-footer a {
+    color: #1e3a6e;
+    text-decoration: none;
+  }
+
+  .contact-footer a:hover {
+    text-decoration: underline;
+  }
+
   ul {
     list-style-type: none;
     padding-left: 0;
@@ -338,17 +428,24 @@ key: page-homepage
   <div class="profile-image">
     <img src="./images/profile3.png" alt="Profile Image" loading="lazy" />
     <div class="profile-sidebar">
+      <div class="sidebar-name">Siyuan (Bruce) Jin <span class="chinese-name">(金思远)</span></div>
       <div class="affil-row">
         <span class="affil-icon">&#127979;</span>
-        <span><strong>HKUST</strong> &middot; PhD Candidate</span>
+        <span><strong>HKUST</strong> &middot; PhD Candidate, Information Systems</span>
       </div>
       <div class="affil-row">
         <span class="affil-icon">&#127963;</span>
-        <span><strong>Wharton</strong> &middot; Visiting Scholar</span>
+        <span><strong>Wharton</strong> &middot; Visiting Scholar (through Dec 2026)</span>
+      </div>
+      <div class="contact-email">
+        <span class="label">Email</span>
+        <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>
       </div>
       <div class="link-row">
-        <a href="mailto:siyuan.jin@connect.ust.hk">&#9993; Email</a>
-        <a href="https://github.com/siyuan-bruce" target="_blank">&#128279; GitHub</a>
+        <a href="https://github.com/siyuan-bruce" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://siyuan-bruce.github.io/research.html">Research</a>
+        <a href="/service.html">Service</a>
       </div>
     </div>
   </div>
@@ -357,12 +454,12 @@ key: page-homepage
     <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He is currently a visiting scholar at the Wharton School, University of Pennsylvania, working with Prof. Lynn Wu until December 2026.
   </p>
   <p>
-    His current research interests center on 1) blockchain infrastructure and application governance and 2) AI use in enterprise IT management. His methods include data analytics, econometrics, and experimental methods. 
+    His research interests center on 1) blockchain infrastructure and application governance and 2) AI use in enterprise IT management. His methods include data analytics, econometrics, and experimental methods. 
     His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">ICIS</span>, <span style="color:#8B5C2A;">CIST</span>, and <span style="color:#8B5C2A;">SCECR</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and HKET (經濟日報), and has industrial collaboration with HSBC, NetEase, Shanbei, and other companies.
 </p>
 
 <p>
-    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), and <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025). He was also awarded the <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB). He has organized 40+ online IS PhD student <a href="https://siyuan-bruce.github.io/reading_group/home.html" style="color:#1A5DCB;">seminars</a>. 
+    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), and <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025). He was also awarded the <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB). Through the <a href="/service.html">IS Paper Sharing Group</a>, he has organized 40+ online IS PhD student seminars. 
     
   </p>
   <p>
@@ -540,98 +637,17 @@ key: page-homepage
   </div>
 </div>
 
-## IS Paper Sharing Group
-Inspired by open talks in other subjects, we organize an **information systems** paper sharing series. Our initial targeted audience is mainly PhD students. We also welcome faculty members and industry practitioners to share more advanced topics in this area. You can email me (siyuan.jin@connect.ust.hk) if you want to join us. [[Details]](https://siyuan-bruce.github.io/reading_group/home.html)
+## Contact
 
-## Research Assistant Recruitment
-We are hiring a part-time Research Assistant (remote) with a Computer Science (or related) background to support blockchain/AI research projects, focusing on data scraping (building and maintaining web scrapers, automating data collection and cleaning) and data analytics (processing large datasets, exploratory analysis, basic econometrics). Strong Python (or R) skills, experience with web scraping tools, and solid data statistics are required; familiarity with blockchain/Ethereum data is a plus but not mandatory. The position is part-time with flexible hours and can be remote, and it offers approximately **double the average RA pay** at our institution. Interested candidates should email siyuan.jin@connect.ust.hk with a CV, a brief description of relevant experience, and (optionally) a code sample or GitHub link.
-
-<!-- ## **Research Interests**
-- **IT Infrastructure (Blockchain)**: Token-based Platforms, Central Bank Digital Currency, Token Economy
-- **Software Management**: Software Development
-- **Quantum IT Governance**: Quantuam IT management, Quantum Finance, Classical Quantum-Inspired Algorithm -->
-
-<!-- ## **Education**
-- **Hong Kong University of Science and Technology** (Aug 2022 - now)
-  - MPhil-PhD Student in Information Systems.
-  - Supervisor: Prof. [Kar Yan Tam](https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam). -->
-  <!-- - Advisors: [Allen H. Huang](https://www.allenhuang.org/), [Dongwon Lee](https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon), [Kohei Kawaguchi](https://www.kohei-kawaguchi.com/), [Keongtae Kim](https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/), [Marc Dordal i Carreras](https://marcdordal.github.io/), [Qiming Shao](https://sites.google.com/view/sqml/home), [Bei Zeng](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=bei-zeng-zengb). -->
-  <!-- - Obtained Hong Kong PhD Fellowship Scheme (2024-2028). -->
-
-<!-- - **South China University of Technology** (Sep 2017 – Jun 2021)
-  - B.Fin. in Financial Technology, Outstanding Graduates. 
-  - Rank: 1 / 33.
-  - Obtained 2021 University-level excellent graduation thesis
-  - Obtained 2020 China National Scholarship (Top 0.1%)
-  - Obtained 2019 First prize of South China University of Technology (Top 1%)
-  - Obtained 2018 First prize of South China University of Technology (Top 1%) -->
-<!-- 
-## Education
-
-<div class="card">
-  <div class="card-content">
-    <h3>PhD Candidate in Information Systems, Hong Kong University of Science and Technology</h3>
-    <small>Aug 2022 - Present, Clear Water Bay, Hong Kong</small>
-    <ul class="timeline">
-      <li class="timeline-item">
-        Supervisor:&nbsp;<strong>Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></strong>
-      </li>
-      <li class="timeline-item">
-        Hong Kong PhD Fellowship Scheme (2024-2028)
-      </li>
-    </ul>
-  </div>
+<div class="contact-footer">
+  <div class="contact-lead">Siyuan (Bruce) Jin (金思远)</div>
+  <div class="contact-affil">PhD candidate in Information Systems, HKUST Business School · Visiting scholar, Wharton School, University of Pennsylvania (through December 2026)</div>
+  <ul>
+    <li><strong>Email:</strong> <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a> — research collaboration, reading group, RA applications, and general inquiries</li>
+    <li><strong>Service:</strong> <a href="/service.html">Service page</a> — supervising, reviewing, reading group, and RA openings</li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">linkedin.com/in/si-yuan-bruce-jin</a></li>
+  </ul>
 </div>
-
-<div class="card">
-  <div class="card-content">
-    <h3>Bachelor of FinTech, South China University of Technology</h3>
-    <small>Sep 2017 – Jun 2021, Guangzhou, China</small>
-        <ul class="timeline">
-      <li class="timeline-item">
-        China National Scholarship (Top 0.1%)
-      </li>
-    </ul>
-  </div>
-</div>
-
-## Industry Experience
-<div class="card">
-  <div class="card-content">
-    <h3>Research Consultant, HSBC Hong Kong</h3>
-    <small>Sep 2022 - now, Olympian City, Hong Kong</small>
-    <ul class="timeline">
-      <li class="timeline-item">
-      HSBC Email: bruce.s.jin@hsbc.com.hk
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-content">
-    <h3>Full Stack Engineer, HSBC Laboratory</h3>
-    <small>May 2021 - Aug 2022, Guangzhou, China</small>
-    <ul class="timeline">
-      <li class="timeline-item">
-        Advisor: Yong Xia
-      </li>
-      <li class="timeline-item">
-        Achievements: 2021 Top Performer, 2021 Role Model, 2021 Global CBDC Challenge Finalist.
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-content">
-    <h3>Trainee, HSBC IT Architecture</h3>
-    <small>Sep 2020 - May 2021, Guangzhou, China</small>
-  </div>
-</div> -->
-
-## **Contact**
-- Email: siyuan.jin@connect.ust.hk
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=r7AzHOCvRlal1xYrtPrhKbcA0nnj4jrEj9bMJxTlmEE&cl=ffffff&w=300"></script>
 
