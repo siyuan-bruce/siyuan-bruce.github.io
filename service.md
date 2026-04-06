@@ -102,6 +102,27 @@ key: page-service
     margin-bottom: 0;
   }
 
+  /* Reviewing subsections: one venue per row, slightly compact */
+  .article__content .service-page h3 + ul li,
+  .service-page h3 + ul li {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 0.5rem;
+    padding: 0.5rem 0.75rem 0.5rem 1rem;
+    line-height: 1.5;
+  }
+
+  .article__content .service-page h3 + ul li:last-child,
+  .service-page h3 + ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .article__content .service-page h3 + ul,
+  .service-page h3 + ul {
+    margin-bottom: 1.25rem;
+  }
+
   .article__content .service-highlight,
   .service-highlight {
     margin: 1.75rem 0 1.5rem;
@@ -149,11 +170,27 @@ key: page-service
 
 ## Conference and journal reviewing
 
-- **Ad hoc conference reviewer:** Workshop on Information Technologies and Systems (**WITS** 2024 × 2, 2025 × 3); International Conference on Information Systems (**ICIS** 2023 × 2, 2024 × 2, 2025 × 3); Pacific Asia Conference on Information Systems (**PACIS** 2024 × 2); Quantum Information Processing (**QIP** 2023 × 1).
+### Ad hoc conference reviewer
 
-- **Ad hoc journal reviewer — business / IS:** Management Science (MS); Journal of Management Information Systems (JMIS); Communications of the Association for Information Systems (CAIS); Review of Accounting Studies (RAST); The Accounting Review (TAR); Information Technology for Development (ICT4D); Journal of Electronic Commerce Research (JECR); Blockchain Research and Applications (BRA).
+- **WITS** (Workshop on Information Technologies and Systems) — 2024 × 2, 2025 × 3
+- **ICIS** (International Conference on Information Systems) — 2023 × 2, 2024 × 2, 2025 × 3
+- **PACIS** (Pacific Asia Conference on Information Systems) — 2024 × 2, 2026 × 1
+- **QIP** (Quantum Information Processing) — 2023 × 1
 
-- **Ad hoc journal reviewer — computing:** ACM Computing Surveys (CSUR).
+### Ad hoc journal reviewer — business / IS
+
+- **Management Science** (MS)
+- **Journal of Management Information Systems** (JMIS)
+- **Communications of the Association for Information Systems** (CAIS)
+- **Review of Accounting Studies** (RAST)
+- **The Accounting Review** (TAR)
+- **Information Technology for Development** (ICT4D)
+- **Journal of Electronic Commerce Research** (JECR)
+- **Blockchain Research and Applications** (BRA)
+
+### Ad hoc journal reviewer — computing
+
+- **ACM Computing Surveys** (CSUR)
 
 <div class="service-highlight" markdown="1">
 
