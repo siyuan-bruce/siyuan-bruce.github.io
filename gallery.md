@@ -27,7 +27,8 @@ permalink: /gallery.html
             padding: 10px;
         }
 
-        h1 {
+        /* Scoped so it does not change the site page title (Gallery) */
+        .timeline > h1 {
             font-size: 32px;
             font-weight: bold;
             margin-bottom: 30px;

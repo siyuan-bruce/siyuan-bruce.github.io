@@ -42,17 +42,21 @@ key: page-is_reading_group
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        h1, h2, h3 {
+        /* Scoped to .container so the Jekyll page title (article__header h1) is unchanged */
+        .container h1,
+        .container h2,
+        .container h3 {
             color: #333;
             margin-bottom: 20px;
         }
 
-        h1 {
+        .container h1 {
             font-size: 2.5em;
             text-align: center;
         }
 
-        h2, h3 {
+        .container h2,
+        .container h3 {
             font-size: 1.8em;
             margin-top: 40px;
         }
