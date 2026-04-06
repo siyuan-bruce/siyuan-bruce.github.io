@@ -24,7 +24,7 @@ permalink: /gallery.html
         body {
             line-height: 1.6;
             background-color: #f8f8f8;
-            padding: 10px;
+            padding: 0;
         }
 
         /* Scoped so it does not change the site page title (Gallery) */

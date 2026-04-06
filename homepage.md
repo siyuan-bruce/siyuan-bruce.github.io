@@ -33,7 +33,7 @@ key: page-homepage
     background-color: #ffffff;
     color: #222;
     margin: 0;
-    padding: 8px;
+    padding: 0;
   }
 
   .profile-image {

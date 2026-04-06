@@ -24,7 +24,7 @@ key: page-teaching
 <style>
   body {
     line-height: 1.6;
-    padding: 10px;
+    padding: 0;
   }
 
   .epigraph {

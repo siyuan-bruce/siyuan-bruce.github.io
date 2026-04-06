@@ -3,6 +3,17 @@
 /* Global text: $base font-family in common/_variables.scss (Roboto Serif).
    Webfont loaded in _includes/head/custom.html */
 
+/* No strip above the site header: page-local <style> body{padding} must not inset the nav */
+body {
+  padding-top: 0 !important;
+  margin-top: 0;
+}
+
+.page__header {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 /* ── Header: sticky on scroll, slimmer shadow ────────────── */
 .header {
   position: sticky;

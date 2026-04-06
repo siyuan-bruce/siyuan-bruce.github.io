@@ -26,7 +26,7 @@ key: page-research
   <style>
     body {
       line-height: 1.6;
-      padding: 10px;
+      padding: 0;
     }
 
     ul {
