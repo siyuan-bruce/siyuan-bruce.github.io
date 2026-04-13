@@ -73,8 +73,22 @@ key: page-teaching
     border-bottom: 1px solid #e4e8ef;
   }
 
-  .institution-heading:first-of-type {
-    margin-top: 0;
+  .role-heading {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #152a52;
+    margin: 2rem 0 0.7rem;
+    padding: 0 0 0.4rem 2px;
+    border-bottom: 2px solid #1e3a6e;
+    letter-spacing: -0.02em;
+  }
+
+  .role-heading:first-of-type {
+    margin-top: 0.35rem;
+  }
+
+  .role-heading + .institution-heading {
+    margin-top: 0.75rem;
   }
 
   .course-container {
@@ -233,17 +247,21 @@ key: page-teaching
 
 <p class="teaching-interests"><strong>Teaching interests:</strong> Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.</p>
 
-<div class="institution-heading">The Hong Kong University of Science and Technology</div>
+<div class="role-heading">Lecturer</div>
+
+<div class="institution-heading">South China University of Technology</div>
 
 <div class="course-container">
-  <div class="course-title">AI in Business (DBAP 5530)</div>
+  <div class="course-title">Blockchain: Technology and Economics</div>
   <div class="course-details">
-    <p><strong>Teaching period:</strong> Apr 2026</p>
-    <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
-    <p><strong>Class size:</strong> 6</p>
+    <p><strong>Teaching period:</strong> Spring 2026</p>
+    <p><strong>Teaching responsibilities:</strong> Instructor</p>
+    <p><strong>Format:</strong> Four-week intensive block (~32 notional hours)</p>
+    <p><strong>Class size:</strong> 28</p>
   </div>
-  <p class="course-description">This course explores the transformative role of artificial intelligence (AI) in the business landscape. Designed for DBA students, it covers key AI concepts, technologies, and applications relevant to various industries. Students will learn how to leverage AI tools for decision-making, improve operational efficiency, enhance customer experiences, and drive innovation. The curriculum includes topics such as machine learning, natural language processing, data analytics, and ethical considerations in AI deployment. By the end of the course, students will gain an understanding of AI and identify related business issues that could become a potential topic of their thesis research.</p>
+  <p class="course-description">This graduate block introduces blockchain from technical and socioeconomic angles, with emphasis on current academic research. Students learn to read and evaluate peer-reviewed work, present an FT50 journal article, and complete an individual research proposal (2,000–3,000 words). Lectures cover cryptographic and economic foundations (consensus, smart contracts, tokenomics, DAOs, on-chain analytics, DeFi, sustainability, and governance), while self-study draws on curated video modules and readings. In-class research modules use instructor working papers on blockchain infrastructure and sustainability and on decentralized voting in blockchain-based communities; assessment is weighted equally between the presentation and the proposal.</p>
 </div>
+
 
 <div class="course-container">
   <div class="course-title">Coding for Business (ISOM 2020)</div>
@@ -261,6 +279,21 @@ key: page-teaching
     </div>
   </details>
 </div>
+
+<div class="role-heading">Teaching assistant</div>
+
+<div class="institution-heading">The Hong Kong University of Science and Technology</div>
+
+<div class="course-container">
+  <div class="course-title">AI in Business (DBAP 5530)</div>
+  <div class="course-details">
+    <p><strong>Teaching period:</strong> Apr 2026</p>
+    <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
+    <p><strong>Class size:</strong> 6</p>
+  </div>
+  <p class="course-description">This course explores the transformative role of artificial intelligence (AI) in the business landscape. Designed for DBA students, it covers key AI concepts, technologies, and applications relevant to various industries. Students will learn how to leverage AI tools for decision-making, improve operational efficiency, enhance customer experiences, and drive innovation. The curriculum includes topics such as machine learning, natural language processing, data analytics, and ethical considerations in AI deployment. By the end of the course, students will gain an understanding of AI and identify related business issues that could become a potential topic of their thesis research.</p>
+</div>
+
 
 <div class="course-container">
   <div class="course-title">Coding for Business (ISOM 2020)</div>
