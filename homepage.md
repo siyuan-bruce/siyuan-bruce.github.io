@@ -268,6 +268,7 @@ key: page-homepage
   .award-tile.cat-research    { --cat-color: #1e3a6e; }
   .award-tile.cat-grant       { --cat-color: #8B5C2A; }
   .award-tile.cat-fellowship  { --cat-color: #2d6a3e; }
+  .award-tile.cat-service     { --cat-color: #5a3e8b; }
   .award-tile.cat-industry    { --cat-color: #6e2a3e; }
 
   .award-cat {
@@ -733,8 +734,8 @@ key: page-homepage
     <div class="award-title">NSFC Young Student Basic Research Program <span style="font-weight:500;color:#555;">(300K RMB)</span></div>
     <div class="award-org">National Natural Science Foundation of China</div>
   </div>
-  <div class="award-tile cat-research">
-    <span class="award-cat">Research</span>
+  <div class="award-tile cat-service">
+    <span class="award-cat">Service</span>
     <div class="award-year">2025</div>
     <div class="award-title">Best Reviewer Award</div>
     <div class="award-org">ICIS — International Conference on Information Systems</div>
@@ -801,9 +802,9 @@ key: page-homepage
     <span class="news-year-label">2025</span>
     <span class="news-year-count">13 updates</span>
   </div>
-  <div class="news-item cat-award">
+  <div class="news-item cat-service">
     <div class="news-date">Dec 2025</div>
-    <span class="news-cat">Award</span>
+    <span class="news-cat">Service</span>
     <div class="news-content">
       Received the Best Reviewer Award at <strong>ICIS 2025</strong>.
     </div>
