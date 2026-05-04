@@ -341,12 +341,40 @@ key: page-homepage
     line-height: 1.5;
   }
 
-  .news-item {
+  .news-year {
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 0;
-    padding: 7px 0;
-    border-bottom: 1px solid #f0f0f0;
+    align-items: baseline;
+    gap: 10px;
+    margin: 18px 0 4px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d8dde6;
+  }
+
+  .news-year:first-child {
+    margin-top: 2px;
+  }
+
+  .news-year-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  .news-year-count {
+    font-size: 11.5px;
+    color: #999;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .news-item {
+    display: grid;
+    grid-template-columns: 80px 82px 1fr;
+    column-gap: 14px;
+    align-items: baseline;
+    padding: 8px 0;
+    border-bottom: 1px solid #f3f3f3;
   }
 
   .news-item:last-child {
@@ -354,20 +382,61 @@ key: page-homepage
   }
 
   .news-date {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    font-style: italic;
     color: #666;
-    width: 100px;
-    flex-shrink: 0;
     text-align: right;
-    padding-right: 16px;
+    font-variant-numeric: tabular-nums;
     white-space: nowrap;
   }
 
+  .news-cat {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1.45;
+    justify-self: start;
+  }
+
+  .news-item.cat-paper .news-cat {
+    color: #1e3a6e;
+    border-color: #c5d0e0;
+    background: #f0f4fb;
+  }
+
+  .news-item.cat-award .news-cat {
+    color: #8B5C2A;
+    border-color: #d8c4ae;
+    background: #faf3eb;
+  }
+
+  .news-item.cat-talk .news-cat {
+    color: #2d6a3e;
+    border-color: #b9d4c2;
+    background: #eef6f1;
+  }
+
+  .news-item.cat-service .news-cat {
+    color: #6e2a3e;
+    border-color: #d8b6c2;
+    background: #fbf0f4;
+  }
+
+  .news-item.cat-milestone .news-cat {
+    color: #4a4a4a;
+    border-color: #d0d0d0;
+    background: #f3f3f3;
+  }
+
   .news-content {
-    font-size: 15px;
-    flex-grow: 1;
+    font-size: 14.5px;
     color: #333;
   }
 
@@ -383,6 +452,86 @@ key: page-homepage
 
   .news-content a:hover {
     text-decoration: underline;
+  }
+
+  .news-older {
+    margin-top: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #fafbfd;
+  }
+
+  .news-older > summary {
+    padding: 10px 14px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #1e3a6e;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    transition: background 0.15s;
+  }
+
+  .news-older > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .news-older > summary::before {
+    content: '▸';
+    display: inline-block;
+    margin-right: 8px;
+    color: #888;
+    transition: transform 0.18s ease;
+  }
+
+  .news-older[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  .news-older > summary:hover {
+    background: #f0f4fb;
+  }
+
+  .news-older[open] > summary {
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .news-older-inner {
+    padding: 4px 14px 10px;
+  }
+
+  @media (max-width: 600px) {
+    .news-item {
+      grid-template-columns: 64px 1fr;
+      grid-template-rows: auto auto;
+      column-gap: 10px;
+      row-gap: 4px;
+      padding: 9px 0;
+    }
+
+    .news-date {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      font-size: 12px;
+      align-self: center;
+    }
+
+    .news-cat {
+      grid-column: 2;
+      grid-row: 1;
+      font-size: 9.5px;
+      padding: 1px 7px;
+    }
+
+    .news-content {
+      grid-column: 2;
+      grid-row: 2;
+      font-size: 14px;
+    }
+
+    .news-year-label {
+      font-size: 16px;
+    }
   }
 
   /* Desktop layout */
@@ -565,7 +714,7 @@ key: page-homepage
     Before HKUST, he worked for two years at HSBC as a trainee and full-stack engineer, focusing on blockchain projects in IT Architecture and the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>. He received the <span style="color:#1A5DCB;">2021 Top Performer</span> and <span style="color:#1A5DCB;">Role Model</span> awards, and was a finalist in the <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global CBDC Challenge</a> organized by the Monetary Authority of Singapore.
   </p>
   <p>
-    He serves as an ad hoc reviewer for leading journals and conferences, and received the <span style="color:#1A5DCB;">Best Reviewer Award at ICIS 2025</span>. In teaching, he was a guest lecturer on blockchain at South China University of Technology and has served as a teaching assistant for multiple courses at HKUST, including DBA-level courses such as <em>AI in Business</em>.
+    He serves as an ad hoc reviewer for leading journals and conferences, and received the <span style="color:#1A5DCB;">Best Reviewer Award at ICIS 2025</span>. In teaching, he was a guest lecturer on blockchain at South China University of Technology and has served as a teaching assistant for multiple courses at HKUST, including undergraduate-level, and DBA-level courses</em>.
   </p>
   </div>
 </div>
@@ -648,171 +797,220 @@ key: page-homepage
 
 ## News
 <div class="news-section">
-  <div class="news-item">
-    <div class="news-date">Dec, 2025</div>
+  <div class="news-year">
+    <span class="news-year-label">2025</span>
+    <span class="news-year-count">13 updates</span>
+  </div>
+  <div class="news-item cat-award">
+    <div class="news-date">Dec 2025</div>
+    <span class="news-cat">Award</span>
     <div class="news-content">
-      Received the Best Reviewer Award at <strong>2025 ICIS</strong>.
+      Received the Best Reviewer Award at <strong>ICIS 2025</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Dec, 2025</div>
+  <div class="news-item cat-award">
+    <div class="news-date">Dec 2025</div>
+    <span class="news-cat">Grant</span>
     <div class="news-content">
-      Received the 2025 NSFC Young Student Basic Research Program (PhD Student) Grant (2026-2027, 300K RMB).
+      Awarded the <strong>NSFC Young Student Basic Research Program</strong> grant (PhD Student, 2026–2027, 300K RMB).
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Dec, 2025</div>
+  <div class="news-item cat-award">
+    <div class="news-date">Dec 2025</div>
+    <span class="news-cat">Honor</span>
     <div class="news-content">
       Paper on seniority and AI-augmented code contributions nominated for the <strong>ICIS 2025 Best Paper Award</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Oct, 2025</div>
+  <div class="news-item cat-paper">
+    <div class="news-date">Oct 2025</div>
+    <span class="news-cat">Paper</span>
     <div class="news-content">
       Paper on stablecoin transparency accepted at <strong>CIST 2025</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Jul, 2025</div>
+  <div class="news-item cat-paper">
+    <div class="news-date">Jul 2025</div>
+    <span class="news-cat">Paper</span>
     <div class="news-content">
       Paper on Copilot's impact accepted at <strong>ICIS 2025</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Jun, 2025</div>
+  <div class="news-item cat-talk">
+    <div class="news-date">Jun 2025</div>
+    <span class="news-cat">Talk</span>
     <div class="news-content">
       Paper on blockchain-based K-Pop community selected for the <strong>HKUST IS Summer Workshop 2025</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Jun, 2025</div>
+  <div class="news-item cat-paper">
+    <div class="news-date">Jun 2025</div>
+    <span class="news-cat">Paper</span>
     <div class="news-content">
-      Paper on consumer perception of rCBDC adoption accepted at 
-      <strong>
-        <a href="https://dl.acm.org/doi/10.1145/3756329" style="text-decoration: underline;">ACM Distributed Ledger Technologies: Research and Practice</a>
-      </strong>.
+      Paper on consumer perception of rCBDC adoption accepted at
+      <strong><a href="https://dl.acm.org/doi/10.1145/3756329">ACM Distributed Ledger Technologies: Research and Practice</a></strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Apr, 2025</div>
+  <div class="news-item cat-paper">
+    <div class="news-date">Apr 2025</div>
+    <span class="news-cat">Paper</span>
     <div class="news-content">
       Paper on code review accepted at <strong>SCECR 2025</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Apr, 2025</div>
+  <div class="news-item cat-paper">
+    <div class="news-date">Apr 2025</div>
+    <span class="news-cat">Paper</span>
     <div class="news-content">
       Paper on stablecoin transparency accepted at <strong>SCECR 2025</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Apr, 2025</div>
+  <div class="news-item cat-talk">
+    <div class="news-date">Apr 2025</div>
+    <span class="news-cat">Talk</span>
     <div class="news-content">
       Presented at the <strong>2025 HKUST PhD Student Conference</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Mar, 2025</div>
+  <div class="news-item cat-service">
+    <div class="news-date">Mar 2025</div>
+    <span class="news-cat">Service</span>
     <div class="news-content">
       Selected as a mentor for the <strong>2025 HKUST Web3 Ideathon Competition</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Mar, 2025</div>
+  <div class="news-item cat-service">
+    <div class="news-date">Mar 2025</div>
+    <span class="news-cat">Service</span>
     <div class="news-content">
       <strong>IS Reading Group</strong> reached over 100 members.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Feb, 2025</div>
+  <div class="news-item cat-paper">
+    <div class="news-date">Feb 2025</div>
+    <span class="news-cat">Paper</span>
     <div class="news-content">
       Paper on root cause analysis accepted at <strong>AIOps 2025</strong>.
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-date">Dec, 2024</div>
-    <div class="news-content">
-      Selected to participate in the <strong>MISQ Reviewer Workshop</strong>.
+
+  <details class="news-older">
+    <summary>Show earlier news (14 updates from 2024 and before)</summary>
+    <div class="news-older-inner">
+      <div class="news-year">
+        <span class="news-year-label">2024</span>
+        <span class="news-year-count">11 updates</span>
+      </div>
+      <div class="news-item cat-service">
+        <div class="news-date">Dec 2024</div>
+        <span class="news-cat">Service</span>
+        <div class="news-content">
+          Selected to participate in the <strong>MISQ Reviewer Workshop</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-award">
+        <div class="news-date">Dec 2024</div>
+        <span class="news-cat">Award</span>
+        <div class="news-content">
+          Received the <strong>HKUST Young Scientists Program Award (FinTech)</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-award">
+        <div class="news-date">Nov 2024</div>
+        <span class="news-cat">Honor</span>
+        <div class="news-content">
+          Paper on blockchain-based K-Pop community nominated for the <strong>ICIS 2024 Best Short Paper Award</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-talk">
+        <div class="news-date">Nov 2024</div>
+        <span class="news-cat">Talk</span>
+        <div class="news-content">
+          Presented research on blockchain infrastructure governance at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Aug 2024</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on blockchain-based K-Pop community accepted at <strong>CIST 2024</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Aug 2024</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on code review accepted at <strong>CIST 2024</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Jul 2024</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on blockchain-based K-Pop community accepted at the <strong>ICIS 2024 Fintech Track</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Jul 2024</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on stablecoin transparency accepted at <strong>ICIS 2024</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-milestone">
+        <div class="news-date">Jul 2024</div>
+        <span class="news-cat">Milestone</span>
+        <div class="news-content">
+          Successfully passed the <strong>PhD Qualification Exam</strong> and advanced to candidacy.
+        </div>
+      </div>
+      <div class="news-item cat-service">
+        <div class="news-date">Jun 2024</div>
+        <span class="news-cat">Service</span>
+        <div class="news-content">
+          Paper accepted for the <strong>MIS Quarterly Virtual Paper Development Workshop</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-talk">
+        <div class="news-date">May 2024</div>
+        <span class="news-cat">Talk</span>
+        <div class="news-content">
+          Presented at the <strong>HKUST PhD Student Conference</strong>.
+        </div>
+      </div>
+
+      <div class="news-year">
+        <span class="news-year-label">2023</span>
+        <span class="news-year-count">2 updates</span>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Oct 2023</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Joint policy paper "e-HKD Pilot Programme" published by the <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf"><strong>HKMA</strong></a>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Sep 2023</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on software metrics distributions accepted at <strong>QRS 2023</strong>.
+        </div>
+      </div>
+
+      <div class="news-year">
+        <span class="news-year-label">2022</span>
+        <span class="news-year-count">1 update</span>
+      </div>
+      <div class="news-item cat-service">
+        <div class="news-date">Dec 2022</div>
+        <span class="news-cat">Service</span>
+        <div class="news-content">
+          Selected as a mentor for the <strong>2022 HKUST Fintechstic Competition</strong>.
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Dec, 2024</div>
-    <div class="news-content">
-      Received the <strong>HKUST Young Scientists Program Award (FinTech)</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Nov, 2024</div>
-    <div class="news-content">
-      Paper on blockchain-based K-Pop community nominated for the <strong>ICIS 2024 Best Short Paper Award</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Nov, 2024</div>
-    <div class="news-content">
-      Presented research on blockchain infrastructure governance at the <strong>2024 Greater Bay Area Finance Workshop</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Aug, 2024</div>
-    <div class="news-content">
-      Paper on blockchain-based K-Pop community accepted for publication in <strong>2024 CIST</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Aug, 2024</div>
-    <div class="news-content">
-      Paper on code review accepted for publication in <strong>2024 CIST</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Jul, 2024</div>
-    <div class="news-content">
-      Paper on blockchain-based K-Pop community accepted at the <strong>2024 ICIS Fintech Track</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Jul, 2024</div>
-    <div class="news-content">
-      Paper on stablecoin transparency accepted at <strong>2024 ICIS</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Jul, 2024</div>
-    <div class="news-content">
-      Successfully passed the <strong>PhD Qualification Exam</strong> and advanced to candidacy.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Jun, 2024</div>
-    <div class="news-content">
-      Paper accepted for the <strong>MIS Quarterly Virtual Paper Development Workshop</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">May, 2024</div>
-    <div class="news-content">
-      Presented at the <strong>HKUST PhD Student Conference</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Oct, 2023</div>
-    <div class="news-content">
-      Joint policy paper "e-HKD Pilot Programme" published by the <a href="https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf"><strong>HKMA</strong></a>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Sep, 2023</div>
-    <div class="news-content">
-      Paper on software metrics distributions accepted at <strong>QRS 2023</strong>.
-    </div>
-  </div>
-  <div class="news-item">
-    <div class="news-date">Dec, 2022</div>
-    <div class="news-content">
-      Selected as a mentor for the <strong>2022 HKUST Fintechstic Competition</strong>.
-    </div>
-  </div>
+  </details>
 </div>
 
 ## Contact

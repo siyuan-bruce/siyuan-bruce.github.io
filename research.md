@@ -290,7 +290,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
     </div>
     <div class="paper-authors">
-      Joint with Haochen Jiang, Wei Thoo Yue, Mingxi Ye, Ziyuan Li, 
+      Joint with  Wei Thoo Yue, Mingxi Ye, Ziyuan Li, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
     </div>
     <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
@@ -307,14 +307,14 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     </div>
   </li>
 
-  <li class="paper-item" data-number="C3">
+  <!-- <li class="paper-item" data-number="C3">
     <div class="paper-title">
       Human Capital Competition, and the Signaling Value of AI Adoption
     </div>
     <div class="paper-authors">
       Haochen Jiang, <strong>Siyuan Jin</strong>, Wei Thoo Yue.
     </div>
-  </li>
+  </li> -->
 </ul>
 
 

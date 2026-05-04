@@ -187,9 +187,8 @@ key: page-service
 - **Information Technology for Development** (ICT4D)
 - **Journal of Electronic Commerce Research** (JECR)
 - **Blockchain Research and Applications** (BRA)
-
-### Ad hoc journal reviewer — computing
-
+- **Journal of Digital Management** (JDM)
+- **Nature Humanities and Social Sciences Communications** (HSSC)
 - **ACM Computing Surveys** (CSUR)
 
 <div class="service-highlight" markdown="1">
