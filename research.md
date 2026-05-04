@@ -266,7 +266,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Ambient Information Systems and Opportunity Cost Reduction: Evidence from Mobile Widget Adoption
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Haiting Lin, Jinan Lin, Zike Cao, Liangfei Qiu, and Jinglong Zhang.
+      <strong>Siyuan Jin</strong>, Haiting Lin, Jinan Lin, Zike Cao, and Jinglong Zhang, Liangfei Qiu
     </div>
     <p class="status-info">Data Analysis Completed. Under preparation for initial draft.</p>
   </li>
