@@ -146,7 +146,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">Invited for 4th round review at <em>Journal of Management Information Systems</em> (FT50)</p>
-    <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop]</p>
+    <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop], South China University of Technology</p>
     <p class="conference-info">
       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: December 2025)</a> 
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
@@ -169,7 +169,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">Under Review at <em>Information Systems Research</em> (UTD24, FT50).</p>
-    <p class="conference-info">Presentations: [ICIS 2024], [CIST 2024], [2025 HKUST PhD Student Conference], [2025 HKUST IS Summer Workshop], Indiana University*, McGill University*</p>
+    <p class="conference-info">Presentations: [ICIS 2024], [CIST 2024], [2025 HKUST PhD Student Conference], [2025 HKUST IS Summer Workshop], Indiana University*, McGill University*, South China University of Technology</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <p class="conference-info">
       Reference: <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
@@ -203,7 +203,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       </p>
     </details>
   </li>
-<!-- 
+
   <li class="paper-item" data-number="A4">
     <div class="paper-title">
       Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
@@ -218,7 +218,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <summary>Abstract</summary>
       <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively distinguish between algorithmic and institutional IT operations, as well as their respective types of operational transparency. We also find that the presence of attackers switches user preferences for operational transparency. Higher levels of transparency, characterized by frequent and detailed information disclosures, may be perceived as catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
     </details>
-  </li> -->
+  </li>
 
   <li class="paper-item" data-number="A5">
     <div class="paper-title">
@@ -261,16 +261,15 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Under 3rd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
   </li>
 
-  <!-- <li class="paper-item" data-number="B3">
+  <li class="paper-item" data-number="B3">
     <div class="paper-title">
-      Widge and User Engagement: Evidence from Widget for Gaming
+      Ambient Information Systems and Opportunity Cost Reduction: Evidence from Mobile Widget Adoption
     </div>
     <div class="paper-authors">
-      Joint work with Haiting Lin, Jinan Lin, Zike Cao, Liangfei Qiu, and Jinglong Zhang.
+      <strong>Siyuan Jin</strong>, Haiting Lin, Jinan Lin, Zike Cao, Liangfei Qiu, and Jinglong Zhang.
     </div>
     <p class="status-info">Data Analysis Completed. Under preparation for initial draft.</p>
-  </li> -->
-
+  </li>
 
   <!-- <li class="paper-item" data-number="B5">
     <div class="paper-title">
@@ -299,15 +298,23 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Under preparation to submit to <em>Management Science</em>.</p>
   </li>
 
-   <!-- <li class="paper-item" data-number="C2">
+   <li class="paper-item" data-number="C2">
     <div class="paper-title">
-      Generative AI, Team Dispersion, and Productivity
+      AI Adoption and Time-Zone Frictions in Global Software Teams
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+      <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
     </div>
-  </li> -->
+  </li>
 
+  <li class="paper-item" data-number="C3">
+    <div class="paper-title">
+      Human Capital Competition, and the Signaling Value of AI Adoption
+    </div>
+    <div class="paper-authors">
+      Haochen Jiang, <strong>Siyuan Jin</strong>, Wei Thoo Yue.
+    </div>
+  </li>
 </ul>
 
 
@@ -438,17 +445,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   6. Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, **Siyuan Jin**. (2024). "Adaptive Diversity-Based Quantum Circuit Architecture Search". US Patent App. 18/519,617.
 
-
-## **Award / Honor**
-- **Best Reviewer Award** _International Conference on Information Systems (ICIS)_, Dec 2025
-- **Grant** _2025 NSFC Young Student Basic Research Program (PhD Student) (300K RMB)_, Dec 2025
-- **Best Short Paper Nominee** _International Conference on Information Systems (ICIS)_, Dec 2025
-- **Award** _HKUST Young Scientist PhD Program Award_, Mar 2025
-- **Best Short Paper Nominee** _International Conference on Information Systems (ICIS)_, Dec 2024
-- **Award** _Hong Kong PhD Fellowship_, Sep 2024 - July 2028
-- **Award** _PhD Postgraduate Studentship_, Nov 2022 - Sep 2024
-- **Award** _Monetary Authority of Singapore_ [Global CBDC Challenge Finalist](https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge?fbclid=IwAR0B9v-5FBSXcnr61edLVwEch-jJ5EV8-pSJwYe00erQdS8rGreTtZIYABY) (Top 5%), Nov 2021
-- **Award** _China National Scholarship (Top 0.1%-0.2%)_, 2020
 
 ## **Professional Membership**
 - Association for Information Systems (AIS)
