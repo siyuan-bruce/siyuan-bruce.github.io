@@ -149,55 +149,6 @@ key: page-homepage
     margin-bottom: 4px;
   }
 
-  .contact-footer {
-    margin: 10px;
-    padding: 16px 18px;
-    border: 1px solid #e0e0e0;
-    border-radius: 2px;
-    background: #fafbfd;
-    line-height: 1.55;
-    color: #333;
-    text-align: left;
-  }
-
-  .contact-footer .contact-lead {
-    font-size: 1.05em;
-    font-weight: 700;
-    color: #111;
-    margin-bottom: 6px;
-  }
-
-  .contact-footer .contact-affil {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 14px;
-  }
-
-  .contact-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .contact-footer ul li {
-    margin-bottom: 10px;
-    padding-left: 0;
-    font-size: 14px;
-  }
-
-  .contact-footer ul li:last-child {
-    margin-bottom: 0;
-  }
-
-  .contact-footer a {
-    color: #1e3a6e;
-    text-decoration: none;
-  }
-
-  .contact-footer a:hover {
-    text-decoration: underline;
-  }
-
   ul {
     list-style-type: none;
     padding-left: 0;
@@ -720,84 +671,19 @@ key: page-homepage
   </div>
 </div>
 
-## Awards & Honors
-<div class="awards-grid">
-  <div class="award-tile cat-research">
-    <span class="award-cat">Research</span>
-    <div class="award-year">2026</div>
-    <div class="award-title">Doctoral Consortium</div>
-    <div class="award-org">PACIS — Pacific Asia Conference on Information Systems</div>
-  </div>
-  <div class="award-tile cat-grant">
-    <span class="award-cat">Grant</span>
-    <div class="award-year">2025</div>
-    <div class="award-title">NSFC Young Student Basic Research Program <span style="font-weight:500;color:#555;">(300K RMB)</span></div>
-    <div class="award-org">National Natural Science Foundation of China</div>
-  </div>
-  <div class="award-tile cat-service">
-    <span class="award-cat">Service</span>
-    <div class="award-year">2025</div>
-    <div class="award-title">Best Reviewer Award</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
-  </div>
-  <div class="award-tile cat-research">
-    <span class="award-cat">Research</span>
-    <div class="award-year">2025</div>
-    <div class="award-title">Best Short Paper Nominee</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
-  </div>
-  <div class="award-tile cat-fellowship">
-    <span class="award-cat">Fellowship</span>
-    <div class="award-year">2025</div>
-    <div class="award-title">Young Scientist PhD Program (FinTech)</div>
-    <div class="award-org">HKUST</div>
-  </div>
-  <div class="award-tile cat-fellowship">
-    <span class="award-cat">Fellowship</span>
-    <div class="award-year">2024 – 2028</div>
-    <div class="award-title">Hong Kong PhD Fellowship</div>
-    <div class="award-org">Research Grants Council, Hong Kong</div>
-  </div>
-  <div class="award-tile cat-research">
-    <span class="award-cat">Research</span>
-    <div class="award-year">2024</div>
-    <div class="award-title">Best Short Paper Nominee</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
-  </div>
-  <div class="award-tile cat-fellowship">
-    <span class="award-cat">Fellowship</span>
-    <div class="award-year">2022 – 2024</div>
-    <div class="award-title">PhD Postgraduate Studentship</div>
-    <div class="award-org">HKUST</div>
-  </div>
-  <div class="award-tile cat-industry">
-    <span class="award-cat">Industry</span>
-    <div class="award-year">2021</div>
-    <div class="award-title"><a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge" target="_blank" rel="noopener noreferrer" style="color:#111;">Global CBDC Challenge Finalist</a> <span style="font-weight:500;color:#555;">(Top 5%)</span></div>
-    <div class="award-org">Monetary Authority of Singapore</div>
-  </div>
-  <div class="award-tile cat-industry">
-    <span class="award-cat">Industry</span>
-    <div class="award-year">2021</div>
-    <div class="award-title">Top Performer Award</div>
-    <div class="award-org">HSBC</div>
-  </div>
-  <div class="award-tile cat-industry">
-    <span class="award-cat">Industry</span>
-    <div class="award-year">2021</div>
-    <div class="award-title">Role Model Award</div>
-    <div class="award-org">HSBC</div>
-  </div>
-  <div class="award-tile cat-fellowship">
-    <span class="award-cat">Fellowship</span>
-    <div class="award-year">2020</div>
-    <div class="award-title">China National Scholarship <span style="font-weight:500;color:#555;">(Top 0.1–0.2%)</span></div>
-    <div class="award-org">Ministry of Education, China</div>
-  </div>
-</div>
-
 ## News
 <div class="news-section">
+  <div class="news-year">
+    <span class="news-year-label">2026</span>
+    <span class="news-year-count">1 update</span>
+  </div>
+  <div class="news-item cat-award">
+    <div class="news-date">May 2026</div>
+    <span class="news-cat">Honor</span>
+    <div class="news-content">
+      Selected for the <strong>PACIS 2026 Doctoral Consortium</strong>.
+    </div>
+  </div>
   <div class="news-year">
     <span class="news-year-label">2025</span>
     <span class="news-year-count">13 updates</span>
@@ -1014,15 +900,80 @@ key: page-homepage
   </details>
 </div>
 
-## Contact
-
-<div class="contact-footer">
-  <div class="contact-lead">Siyuan (Bruce) Jin (金思远)</div>
-  <div class="contact-affil">PhD candidate in Information Systems, HKUST Business School · Visiting scholar, Wharton School, University of Pennsylvania (through December 2026)</div>
-  <ul>
-    <li><strong>Email:</strong> <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a> — research collaboration, reading group, RA applications, and general inquiries</li>
-    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">linkedin.com/in/si-yuan-bruce-jin</a></li>
-  </ul>
+## Awards & Honors
+<div class="awards-grid">
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2026</div>
+    <div class="award-title">Doctoral Consortium</div>
+    <div class="award-org">PACIS — Pacific Asia Conference on Information Systems</div>
+  </div>
+  <div class="award-tile cat-grant">
+    <span class="award-cat">Grant</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">NSFC Young Student Basic Research Program <span style="font-weight:500;color:#555;">(300K RMB)</span></div>
+    <div class="award-org">National Natural Science Foundation of China</div>
+  </div>
+  <div class="award-tile cat-service">
+    <span class="award-cat">Service</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">Best Reviewer Award</div>
+    <div class="award-org">ICIS — International Conference on Information Systems</div>
+  </div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">Best Short Paper Nominee</div>
+    <div class="award-org">ICIS — International Conference on Information Systems</div>
+  </div>
+  <div class="award-tile cat-fellowship">
+    <span class="award-cat">Fellowship</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">Young Scientist PhD Program (FinTech)</div>
+    <div class="award-org">HKUST</div>
+  </div>
+  <div class="award-tile cat-fellowship">
+    <span class="award-cat">Fellowship</span>
+    <div class="award-year">2024 – 2028</div>
+    <div class="award-title">Hong Kong PhD Fellowship</div>
+    <div class="award-org">Research Grants Council, Hong Kong</div>
+  </div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2024</div>
+    <div class="award-title">Best Short Paper Nominee</div>
+    <div class="award-org">ICIS — International Conference on Information Systems</div>
+  </div>
+  <div class="award-tile cat-fellowship">
+    <span class="award-cat">Fellowship</span>
+    <div class="award-year">2022 – 2024</div>
+    <div class="award-title">PhD Postgraduate Studentship</div>
+    <div class="award-org">HKUST</div>
+  </div>
+  <div class="award-tile cat-industry">
+    <span class="award-cat">Industry</span>
+    <div class="award-year">2021</div>
+    <div class="award-title"><a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge" target="_blank" rel="noopener noreferrer" style="color:#111;">Global CBDC Challenge Finalist</a> <span style="font-weight:500;color:#555;">(Top 5%)</span></div>
+    <div class="award-org">Monetary Authority of Singapore</div>
+  </div>
+  <div class="award-tile cat-industry">
+    <span class="award-cat">Industry</span>
+    <div class="award-year">2021</div>
+    <div class="award-title">Top Performer Award</div>
+    <div class="award-org">HSBC</div>
+  </div>
+  <div class="award-tile cat-industry">
+    <span class="award-cat">Industry</span>
+    <div class="award-year">2021</div>
+    <div class="award-title">Role Model Award</div>
+    <div class="award-org">HSBC</div>
+  </div>
+  <div class="award-tile cat-fellowship">
+    <span class="award-cat">Fellowship</span>
+    <div class="award-year">2020</div>
+    <div class="award-title">China National Scholarship <span style="font-weight:500;color:#555;">(Top 0.1–0.2%)</span></div>
+    <div class="award-org">Ministry of Education, China</div>
+  </div>
 </div>
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=r7AzHOCvRlal1xYrtPrhKbcA0nnj4jrEj9bMJxTlmEE&cl=ffffff&w=300"></script>

@@ -244,7 +244,6 @@ key: page-teaching
   <div class="course-details">
     <p><strong>Institution:</strong> South China University of Technology</p>
     <p><strong>Teaching period:</strong> Spring 2026</p>
-    <p><strong>Teaching responsibilities:</strong> Instructor</p>
     <p><strong>Learning hours:</strong> ~32 hours</p>
     <p><strong>Class size:</strong> 28</p>
   </div>
@@ -256,7 +255,6 @@ key: page-teaching
   <div class="course-details">
     <p><strong>Institution:</strong> The Hong Kong University of Science and Technology</p>
     <p><strong>Teaching period:</strong> Fall 2023 (Lecture Instructor: Weiyin Hong)</p>
-    <p><strong>Teaching responsibilities:</strong> Lab Instructor</p>
     <p><strong>Class size:</strong> 24</p>
   </div>
   <p class="course-description">This course intends to introduce students to basic programming concepts and skills for business data coding and business problem solving. Using Python as an illustrative programming language, this course provides students with a basic understanding of programming concepts and syntaxes, including data types, associated methods and functions, and control flow statements. Through the process of learning a programming language, students will also develop logical and critical thinking skills and be able to tackle simple business problems with coding. For SBM students only.</p>
@@ -276,7 +274,6 @@ key: page-teaching
   <div class="course-details">
     <p><strong>Institution:</strong> The Hong Kong University of Science and Technology</p>
     <p><strong>Teaching period:</strong> Apr 2026</p>
-    <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
     <p><strong>Class size:</strong> 6</p>
   </div>
   <p class="course-description">This course explores the transformative role of artificial intelligence (AI) in the business landscape. Designed for DBA students, it covers key AI concepts, technologies, and applications relevant to various industries. Students will learn how to leverage AI tools for decision-making, improve operational efficiency, enhance customer experiences, and drive innovation. The curriculum includes topics such as machine learning, natural language processing, data analytics, and ethical considerations in AI deployment. By the end of the course, students will gain an understanding of AI and identify related business issues that could become a potential topic of their thesis research.</p>
@@ -291,7 +288,6 @@ key: page-teaching
     Fall 2023 (Instructor: Dr. Weiyin Hong)<br>
     Spring 2024 (Instructor: Dr. Jianqing Chen)<br>
     Fall 2025 (Instructor: Dr. Hong Xu / Bufan Sun)</p>
-    <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
     <p><strong>Class size:</strong> 60</p>
   </div>
 </div>
@@ -301,7 +297,6 @@ key: page-teaching
   <div class="course-details">
     <p><strong>Institution:</strong> South China University of Technology</p>
     <p><strong>Teaching period:</strong> Spring 2021</p>
-    <p><strong>Teaching responsibilities:</strong> Teaching Assistant</p>
     <p><strong>Class size:</strong> 40</p>
   </div>
   <p class="course-description">This course introduces the basic concepts of blockchain, offering students a clear and concrete understanding of its foundational principles. Participants will explore the essential structure of blockchain systems, learn how consensus mechanisms ensure data integrity, delve into the operation of smart contracts, and examine the key practices that contribute to robust blockchain security. Students need to run smart contracts on R3 Corda and Hyperledger Fabric and implement a blockchain project.</p>
