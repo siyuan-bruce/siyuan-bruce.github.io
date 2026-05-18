@@ -168,7 +168,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Under Review at <em>Information Systems Research</em> (UTD24, FT50).</p>
+    <p class="status-info">Invited to 2nd round review at <em>Information Systems Research</em> (UTD24, FT50).</p>
     <p class="conference-info">Presentations: [ICIS 2024], [CIST 2024], [2025 HKUST PhD Student Conference], [2025 HKUST IS Summer Workshop], Indiana University*, McGill University*, South China University of Technology</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <p class="conference-info">
