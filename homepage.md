@@ -675,13 +675,20 @@ key: page-homepage
 <div class="news-section">
   <div class="news-year">
     <span class="news-year-label">2026</span>
-    <span class="news-year-count">1 update</span>
+    <span class="news-year-count">2 updates</span>
   </div>
   <div class="news-item cat-award">
     <div class="news-date">May 2026</div>
     <span class="news-cat">Honor</span>
     <div class="news-content">
       Selected for the <strong>PACIS 2026 Doctoral Consortium</strong>.
+    </div>
+  </div>
+  <div class="news-item cat-talk">
+    <div class="news-date">Mar 2026</div>
+    <span class="news-cat">Lecture</span>
+    <div class="news-content">
+      Invited as a guest lecturer on blockchain at <strong>South China University of Technology</strong>.
     </div>
   </div>
   <div class="news-year">
