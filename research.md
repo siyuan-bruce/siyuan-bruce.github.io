@@ -423,13 +423,14 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 15. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
 
 ### Letters
-1. "文體+展會添魅力 港吸遊客穩步增" <a href="https://paper.hket.com/article/4125574/">Hong Kong Economic Times (經濟日報)</a>, May 8, 2026.
-2. "醫療旅遊商機巨 港拓優勢須加鞭" <a href="https://paper.hket.com/article/4109817">Hong Kong Economic Times (經濟日報)</a>, April 5, 2026.
-3. "深化體驗添「黏性」 旅客增長常態化" <a href="https://paper.hket.com/article/4086667">Hong Kong Economic Times (經濟日報)</a>, February 20, 2026.
-4. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
-5. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
-6. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
-7. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
+1. "「友善香港」廣傳 提升體驗吸客" <a href="https://paper.hket.com/article/4132723/">Hong Kong Economic Times (經濟日報)</a>, May 21, 2026.
+2. "文體+展會添魅力 港吸遊客穩步增" <a href="https://paper.hket.com/article/4125574/">Hong Kong Economic Times (經濟日報)</a>, May 8, 2026.
+3. "醫療旅遊商機巨 港拓優勢須加鞭" <a href="https://paper.hket.com/article/4109817">Hong Kong Economic Times (經濟日報)</a>, April 5, 2026.
+4. "深化體驗添「黏性」 旅客增長常態化" <a href="https://paper.hket.com/article/4086667">Hong Kong Economic Times (經濟日報)</a>, February 20, 2026.
+5. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
+6. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
+7. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
+8. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
 
 
 ### **Patent**

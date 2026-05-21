@@ -39,7 +39,7 @@ key: page-homepage
   .profile-image {
     width: 100%;
     max-width: 260px;
-    margin: 10px 0;
+    margin: 10px auto;
   }
 
   .profile-image img {
@@ -497,7 +497,7 @@ key: page-homepage
     .profile-image {
       flex: 1 1 auto;
       max-width: 260px;
-      margin-left: 24px;
+      margin: 0 0 0 24px;
       order: 2;
     }
 
