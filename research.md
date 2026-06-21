@@ -145,7 +145,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Under 4th round review at <em>Journal of Management Information Systems</em> (FT50)</p>
+    <p class="status-info">Accepted with minor revisions at <em>Journal of Management Information Systems</em> (FT50)</p>
     <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop], South China University of Technology</p>
     <p class="conference-info">
       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: December 2025)</a> 
