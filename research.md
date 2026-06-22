@@ -148,7 +148,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Accepted with minor revisions at <em>Journal of Management Information Systems</em> (FT50)</p>
     <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop], South China University of Technology</p>
     <p class="conference-info">
-      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4569995"> [Working paper] (Version: December 2025)</a> 
+      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218"> [Working paper] (Version: April 2026)</a> 
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
     </p>
     <details class="paper-details">

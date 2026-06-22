@@ -173,7 +173,7 @@ key: page-service
 ### Ad hoc conference reviewer
 
 - **WITS** (Workshop on Information Technologies and Systems) — 2024 × 2, 2025 × 3
-- **ICIS** (International Conference on Information Systems) — 2023 × 2, 2024 × 2, 2025 × 3
+- **ICIS** (International Conference on Information Systems) — 2023 × 2, 2024 × 2, 2025 × 3, 2026 × 1
 - **PACIS** (Pacific Asia Conference on Information Systems) — 2024 × 2, 2026 × 1
 - **QIP** (Quantum Information Processing) — 2023 × 1
 
@@ -182,6 +182,7 @@ key: page-service
 - **Management Science** (MS)
 - **Journal of Management Information Systems** (JMIS)
 - **Communications of the Association for Information Systems** (CAIS)
+- **Decision Sciences** (DS)
 - **Review of Accounting Studies** (RAST)
 - **The Accounting Review** (TAR)
 - **Information Technology for Development** (ICT4D)
