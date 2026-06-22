@@ -142,7 +142,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-title">
       From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns?</div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Zitong Li, <a href="https://www.allenhuang.org/">Allen H. Huang</a>,  
+      <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li,   
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">Accepted with minor revisions at <em>Journal of Management Information Systems</em> (FT50)</p>
