@@ -268,6 +268,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Haiting Lin, Jinan Lin, Zike Cao, and Jinglong Zhang, Liangfei Qiu
     </div>
+    <p class="conference-info">Presentations: [2026 CNAIS Paper Development Workshop (UNNC)]</p>
     <p class="status-info">Data Analysis Completed. Under preparation for initial draft.</p>
   </li>
 
@@ -305,6 +306,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
     </div>
+    <p class="conference-info">Presentations: [INFORMS Annual Meeting 2026], [2026 HKUST IS Summer Workshop]</p>
   </li>
 
   <!-- <li class="paper-item" data-number="C3">

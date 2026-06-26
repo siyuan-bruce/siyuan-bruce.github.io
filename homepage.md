@@ -675,7 +675,35 @@ key: page-homepage
 <div class="news-section">
   <div class="news-year">
     <span class="news-year-label">2026</span>
-    <span class="news-year-count">2 updates</span>
+    <span class="news-year-count">6 updates</span>
+  </div>
+  <div class="news-item cat-paper">
+    <div class="news-date">Jun 2026</div>
+    <span class="news-cat">Paper</span>
+    <div class="news-content">
+      Paper on blockchain platforms and environmental sustainability accepted with minor revisions at <strong>Journal of Management Information Systems</strong> (JMIS, FT50).
+    </div>
+  </div>
+  <div class="news-item cat-talk">
+    <div class="news-date">Jun 2026</div>
+    <span class="news-cat">Talk</span>
+    <div class="news-content">
+      Paper on AI adoption and time-zone frictions in global software teams selected for the <strong>HKUST IS Summer Workshop 2026</strong>.
+    </div>
+  </div>
+  <div class="news-item cat-talk">
+    <div class="news-date">May 2026</div>
+    <span class="news-cat">Talk</span>
+    <div class="news-content">
+      Paper on ambient information systems and mobile widget adoption accepted to the <strong>CNAIS Paper Development Workshop</strong> at University of Nottingham Ningbo China (UNNC).
+    </div>
+  </div>
+  <div class="news-item cat-talk">
+    <div class="news-date">May 2026</div>
+    <span class="news-cat">Talk</span>
+    <div class="news-content">
+      Paper on AI adoption and time-zone frictions in global software teams accepted for presentation at the <strong>INFORMS Annual Meeting 2026</strong>.
+    </div>
   </div>
   <div class="news-item cat-award">
     <div class="news-date">May 2026</div>
