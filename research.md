@@ -143,14 +143,11 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns?</div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li,   
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218"> [Working paper] (Version: April 2026)</a> 
+      <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
     </div>
     <p class="status-info">Accepted with minor revisions at <em>Journal of Management Information Systems</em> (FT50)</p>
     <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop], South China University of Technology</p>
-    <p class="conference-info">
-      Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218"> [Working paper] (Version: April 2026)</a> 
-      <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
-    </p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>Environmental sustainability is a critical concern in IT infrastructure governance, yet its implications for blockchain infrastructure platforms (BIPs), such as Bitcoin, remain insufficiently understood. We first provide evidence that Tesla’s 2021 suspension of Bitcoin payments due to its negative environmental impact increases investor awareness of Bitcoin and other BIPs’ environmental impacts. Consistent with nonpecuniary preference theory in behavioral finance, we find that following the suspension, BIPs, especially energy-intensive proof-of-work-based platforms, experience losses in token valuations. We further show that investors value environmental disclosures more positively after the suspension, and BIPs substantially increase environmental disclosures. Our findings highlight investor awareness as a potential policy lever for mitigating blockchain infrastructures’ environmental impacts.</p>
