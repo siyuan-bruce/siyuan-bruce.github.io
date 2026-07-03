@@ -677,6 +677,7 @@ key: page-homepage
     <span class="news-year-label">2026</span>
     <span class="news-year-count">8 updates</span>
   </div>
+
   <div class="news-item cat-talk">
     <div class="news-date">Jul 2026</div>
     <span class="news-cat">Talk</span>
@@ -684,6 +685,7 @@ key: page-homepage
       Paper on IT code reviewer and code contributions accepted to the <strong>MISQ Virtual Paper Development Workshop</strong>.
     </div>
   </div>
+
   <div class="news-item cat-talk">
     <div class="news-date">Jul 2026</div>
     <span class="news-cat">Talk</span>
@@ -691,6 +693,7 @@ key: page-homepage
       Paper on ambient information and mobile widget adoption accepted to the <strong>MISQ Virtual Paper Development Workshop</strong>.
     </div>
   </div>
+
   <div class="news-item cat-paper">
     <div class="news-date">Jun 2026</div>
     <span class="news-cat">Paper</span>
@@ -698,6 +701,7 @@ key: page-homepage
       Paper on blockchain platforms and environmental sustainability accepted with minor revisions at <strong>Journal of Management Information Systems</strong> (JMIS, FT50).
     </div>
   </div>
+
   <div class="news-item cat-talk">
     <div class="news-date">Jun 2026</div>
     <span class="news-cat">Talk</span>
@@ -705,6 +709,7 @@ key: page-homepage
       Paper on AI adoption and time-zone frictions in global software teams selected for the <strong>HKUST IS Summer Workshop 2026</strong>.
     </div>
   </div>
+
   <div class="news-item cat-talk">
     <div class="news-date">May 2026</div>
     <span class="news-cat">Talk</span>
@@ -712,6 +717,7 @@ key: page-homepage
       Paper on ambient information systems and mobile widget adoption accepted to the <strong>CNAIS Paper Development Workshop</strong> at University of Nottingham Ningbo China (UNNC).
     </div>
   </div>
+
   <div class="news-item cat-talk">
     <div class="news-date">May 2026</div>
     <span class="news-cat">Talk</span>
@@ -719,6 +725,7 @@ key: page-homepage
       Paper on AI adoption and time-zone frictions in global software teams accepted for presentation at the <strong>INFORMS Annual Meeting 2026</strong>.
     </div>
   </div>
+
   <div class="news-item cat-award">
     <div class="news-date">May 2026</div>
     <span class="news-cat">Honor</span>
@@ -726,6 +733,7 @@ key: page-homepage
       Selected for the <strong>PACIS 2026 Doctoral Consortium</strong>.
     </div>
   </div>
+
   <div class="news-item cat-talk">
     <div class="news-date">Mar 2026</div>
     <span class="news-cat">Lecture</span>
@@ -733,6 +741,7 @@ key: page-homepage
       Invited as a guest lecturer on blockchain at <strong>South China University of Technology</strong>.
     </div>
   </div>
+  
   <div class="news-year">
     <span class="news-year-label">2025</span>
     <span class="news-year-count">13 updates</span>
