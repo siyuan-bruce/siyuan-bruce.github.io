@@ -675,7 +675,21 @@ key: page-homepage
 <div class="news-section">
   <div class="news-year">
     <span class="news-year-label">2026</span>
-    <span class="news-year-count">6 updates</span>
+    <span class="news-year-count">8 updates</span>
+  </div>
+  <div class="news-item cat-talk">
+    <div class="news-date">Jul 2026</div>
+    <span class="news-cat">Talk</span>
+    <div class="news-content">
+      Paper on IT code reviewer and code contributions accepted to the <strong>MISQ Virtual Paper Development Workshop</strong>.
+    </div>
+  </div>
+  <div class="news-item cat-talk">
+    <div class="news-date">Jul 2026</div>
+    <span class="news-cat">Talk</span>
+    <div class="news-content">
+      Paper on ambient information and mobile widget adoption accepted to the <strong>MISQ Virtual Paper Development Workshop</strong>.
+    </div>
   </div>
   <div class="news-item cat-paper">
     <div class="news-date">Jun 2026</div>
