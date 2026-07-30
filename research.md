@@ -146,7 +146,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218"> [Working paper] (Version: April 2026)</a> 
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
     </div>
-    <p class="status-info">Accepted with minor revisions at <em>Journal of Management Information Systems</em> (FT50)</p>
+    <p class="status-info">Accepted at <em>Journal of Management Information Systems</em> (JMIS, FT50).</p>
     <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop], South China University of Technology</p>
     <details class="paper-details">
       <summary>Abstract</summary>
@@ -249,7 +249,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Qiming Shao, Yuhan Huang, Yong Xia.
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
-    <p class="status-info">Under 3rd round review at <em>ACM Transactions on Management Information Systems</em>.</p>
+    <p class="status-info">Accepted at <em>ACM Transactions on Management Information Systems</em> (TMIS).</p>
   </li>
 
   <li class="paper-item" data-number="B3">
@@ -446,4 +446,3 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 - Association for Information Systems (AIS)
 - Association for Computing Machinery (ACM)
 - Institute for Operations Research and Management Sciences (INFORMS)
-
