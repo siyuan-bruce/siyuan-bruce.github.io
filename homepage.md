@@ -655,7 +655,7 @@ key: page-homepage
   </p>
   <p>
     His research interests center on 1) blockchain infrastructure and application governance and 2) AI use in enterprise IT management. His methods include data analytics, econometrics, and experimental methods. 
-    His papers have been accepted by top IS conferences, including <span style="color:#8B5C2A;">ICIS</span>, <span style="color:#8B5C2A;">CIST</span>, and <span style="color:#8B5C2A;">SCECR</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and HKET (經濟日報), and has industrial collaboration with HSBC, NetEase, Shanbei, and other companies.
+    His papers have been accepted by leading IS journals, including <span style="color:#8B5C2A;">Journal of Management Information Systems (JMIS, FT50)</span> and <span style="color:#8B5C2A;">ACM Transactions on Management Information Systems (TMIS)</span>, as well as top IS conferences, including <span style="color:#8B5C2A;">ICIS</span>, <span style="color:#8B5C2A;">CIST</span>, and <span style="color:#8B5C2A;">SCECR</span>. His papers are nominated as <span style="color:#1A5DCB;">best paper of ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. He has contributed to policy papers for the Hong Kong Monetary Authority (HKMA) and HKET (經濟日報), and has industrial collaboration with HSBC, NetEase, Shanbei, and other companies.
 </p>
 
 <p>
