@@ -174,6 +174,7 @@ key: page-service
 
 - **WITS** (Workshop on Information Technologies and Systems) — 2024 × 2, 2025 × 3
 - **ICIS** (International Conference on Information Systems) — 2023 × 2, 2024 × 2, 2025 × 3, 2026 × 1
+- **CIST** (Conference on Information Systems and Technology) — 2026 × 1
 - **PACIS** (Pacific Asia Conference on Information Systems) — 2024 × 2, 2026 × 1
 - **QIP** (Quantum Information Processing) — 2023 × 1
 
