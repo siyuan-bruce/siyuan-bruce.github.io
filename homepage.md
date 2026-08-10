@@ -289,6 +289,11 @@ key: page-homepage
   }
 
   /* News Section */
+  .news-heading,
+  .news-section {
+    display: none;
+  }
+
   .news-section {
     margin: 10px;
     line-height: 1.5;
@@ -672,7 +677,7 @@ key: page-homepage
   </div>
 </div>
 
-## News
+<h2 class="news-heading">News</h2>
 <div class="news-section">
   <div class="news-year">
     <span class="news-year-label">2026</span>
