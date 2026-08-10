@@ -675,30 +675,22 @@ key: page-homepage
 <div class="news-section">
   <div class="news-year">
     <span class="news-year-label">2026</span>
-    <span class="news-year-count">8 updates</span>
+    <span class="news-year-count">6 highlights</span>
   </div>
 
   <div class="news-item cat-talk">
     <div class="news-date">Jul 2026</div>
     <span class="news-cat">Talk</span>
     <div class="news-content">
-      Paper on IT code reviewer and code contributions accepted to the <strong>MISQ Virtual Paper Development Workshop</strong>.
-    </div>
-  </div>
-
-  <div class="news-item cat-talk">
-    <div class="news-date">Jul 2026</div>
-    <span class="news-cat">Talk</span>
-    <div class="news-content">
-      Paper on ambient information and mobile widget adoption accepted to the <strong>MISQ Virtual Paper Development Workshop</strong>.
+      Two papers accepted to the <strong>MISQ Virtual Paper Development Workshop</strong>.
     </div>
   </div>
 
   <div class="news-item cat-paper">
-    <div class="news-date">Jun 2026</div>
+    <div class="news-date">2026</div>
     <span class="news-cat">Paper</span>
     <div class="news-content">
-      Paper on blockchain platforms and environmental sustainability accepted with minor revisions at <strong>Journal of Management Information Systems</strong> (JMIS, FT50).
+      Papers accepted at <span style="color:#1A5DCB;"><strong><em>Journal of Management Information Systems</em></strong> (JMIS, FT50)</span> and <span style="color:#1A5DCB;"><strong><em>ACM Transactions on Management Information Systems</em></strong> (TMIS)</span>.
     </div>
   </div>
 
@@ -714,15 +706,7 @@ key: page-homepage
     <div class="news-date">May 2026</div>
     <span class="news-cat">Talk</span>
     <div class="news-content">
-      Paper on ambient information systems and mobile widget adoption accepted to the <strong>CNAIS Paper Development Workshop</strong> at University of Nottingham Ningbo China (UNNC).
-    </div>
-  </div>
-
-  <div class="news-item cat-talk">
-    <div class="news-date">May 2026</div>
-    <span class="news-cat">Talk</span>
-    <div class="news-content">
-      Paper on AI adoption and time-zone frictions in global software teams accepted for presentation at the <strong>INFORMS Annual Meeting 2026</strong>.
+      Papers accepted to the <strong>INFORMS Annual Meeting 2026</strong> and <strong>CNAIS Paper Development Workshop</strong>.
     </div>
   </div>
 
@@ -741,107 +725,106 @@ key: page-homepage
       Invited as a guest lecturer on blockchain at <strong>South China University of Technology</strong>.
     </div>
   </div>
-  
-  <div class="news-year">
-    <span class="news-year-label">2025</span>
-    <span class="news-year-count">13 updates</span>
-  </div>
-  <div class="news-item cat-service">
-    <div class="news-date">Dec 2025</div>
-    <span class="news-cat">Service</span>
-    <div class="news-content">
-      Received the Best Reviewer Award at <strong>ICIS 2025</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-award">
-    <div class="news-date">Dec 2025</div>
-    <span class="news-cat">Grant</span>
-    <div class="news-content">
-      Awarded the <strong>NSFC Young Student Basic Research Program</strong> grant (PhD Student, 2026–2027, 300K RMB).
-    </div>
-  </div>
-  <div class="news-item cat-award">
-    <div class="news-date">Dec 2025</div>
-    <span class="news-cat">Honor</span>
-    <div class="news-content">
-      Paper on seniority and AI-augmented code contributions nominated for the <strong>ICIS 2025 Best Paper Award</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-paper">
-    <div class="news-date">Oct 2025</div>
-    <span class="news-cat">Paper</span>
-    <div class="news-content">
-      Paper on stablecoin transparency accepted at <strong>CIST 2025</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-paper">
-    <div class="news-date">Jul 2025</div>
-    <span class="news-cat">Paper</span>
-    <div class="news-content">
-      Paper on Copilot's impact accepted at <strong>ICIS 2025</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-talk">
-    <div class="news-date">Jun 2025</div>
-    <span class="news-cat">Talk</span>
-    <div class="news-content">
-      Paper on blockchain-based K-Pop community selected for the <strong>HKUST IS Summer Workshop 2025</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-paper">
-    <div class="news-date">Jun 2025</div>
-    <span class="news-cat">Paper</span>
-    <div class="news-content">
-      Paper on consumer perception of rCBDC adoption accepted at
-      <strong><a href="https://dl.acm.org/doi/10.1145/3756329">ACM Distributed Ledger Technologies: Research and Practice</a></strong>.
-    </div>
-  </div>
-  <div class="news-item cat-paper">
-    <div class="news-date">Apr 2025</div>
-    <span class="news-cat">Paper</span>
-    <div class="news-content">
-      Paper on code review accepted at <strong>SCECR 2025</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-paper">
-    <div class="news-date">Apr 2025</div>
-    <span class="news-cat">Paper</span>
-    <div class="news-content">
-      Paper on stablecoin transparency accepted at <strong>SCECR 2025</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-talk">
-    <div class="news-date">Apr 2025</div>
-    <span class="news-cat">Talk</span>
-    <div class="news-content">
-      Presented at the <strong>2025 HKUST PhD Student Conference</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-service">
-    <div class="news-date">Mar 2025</div>
-    <span class="news-cat">Service</span>
-    <div class="news-content">
-      Selected as a mentor for the <strong>2025 HKUST Web3 Ideathon Competition</strong>.
-    </div>
-  </div>
-  <div class="news-item cat-service">
-    <div class="news-date">Mar 2025</div>
-    <span class="news-cat">Service</span>
-    <div class="news-content">
-      <strong>IS Reading Group</strong> reached over 100 members.
-    </div>
-  </div>
-  <div class="news-item cat-paper">
-    <div class="news-date">Feb 2025</div>
-    <span class="news-cat">Paper</span>
-    <div class="news-content">
-      Paper on root cause analysis accepted at <strong>AIOps 2025</strong>.
-    </div>
-  </div>
-
   <details class="news-older">
-    <summary>Show earlier news (14 updates from 2024 and before)</summary>
+    <summary>Show earlier news (27 updates from 2025 and before)</summary>
     <div class="news-older-inner">
+      <div class="news-year">
+        <span class="news-year-label">2025</span>
+        <span class="news-year-count">13 updates</span>
+      </div>
+      <div class="news-item cat-service">
+        <div class="news-date">Dec 2025</div>
+        <span class="news-cat">Service</span>
+        <div class="news-content">
+          Received the Best Reviewer Award at <strong>ICIS 2025</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-award">
+        <div class="news-date">Dec 2025</div>
+        <span class="news-cat">Grant</span>
+        <div class="news-content">
+          Awarded the <strong>NSFC Young Student Basic Research Program</strong> grant (PhD Student, 2026–2027, 300K RMB).
+        </div>
+      </div>
+      <div class="news-item cat-award">
+        <div class="news-date">Dec 2025</div>
+        <span class="news-cat">Honor</span>
+        <div class="news-content">
+          Paper on seniority and AI-augmented code contributions nominated for the <strong>ICIS 2025 Best Paper Award</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Oct 2025</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on stablecoin transparency accepted at <strong>CIST 2025</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Jul 2025</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on Copilot's impact accepted at <strong>ICIS 2025</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-talk">
+        <div class="news-date">Jun 2025</div>
+        <span class="news-cat">Talk</span>
+        <div class="news-content">
+          Paper on blockchain-based K-Pop community selected for the <strong>HKUST IS Summer Workshop 2025</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Jun 2025</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on consumer perception of rCBDC adoption accepted at
+          <strong><a href="https://dl.acm.org/doi/10.1145/3756329">ACM Distributed Ledger Technologies: Research and Practice</a></strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Apr 2025</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on code review accepted at <strong>SCECR 2025</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Apr 2025</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on stablecoin transparency accepted at <strong>SCECR 2025</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-talk">
+        <div class="news-date">Apr 2025</div>
+        <span class="news-cat">Talk</span>
+        <div class="news-content">
+          Presented at the <strong>2025 HKUST PhD Student Conference</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-service">
+        <div class="news-date">Mar 2025</div>
+        <span class="news-cat">Service</span>
+        <div class="news-content">
+          Selected as a mentor for the <strong>2025 HKUST Web3 Ideathon Competition</strong>.
+        </div>
+      </div>
+      <div class="news-item cat-service">
+        <div class="news-date">Mar 2025</div>
+        <span class="news-cat">Service</span>
+        <div class="news-content">
+          <strong>IS Reading Group</strong> reached over 100 members.
+        </div>
+      </div>
+      <div class="news-item cat-paper">
+        <div class="news-date">Feb 2025</div>
+        <span class="news-cat">Paper</span>
+        <div class="news-content">
+          Paper on root cause analysis accepted at <strong>AIOps 2025</strong>.
+        </div>
+      </div>
+
       <div class="news-year">
         <span class="news-year-label">2024</span>
         <span class="news-year-count">11 updates</span>
