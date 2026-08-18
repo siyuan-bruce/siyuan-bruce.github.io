@@ -158,14 +158,14 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   <li class="paper-item" data-number="A2">
     <div class="paper-title">
-      Decentralized Voting in Product Development and Consumer Engagement: Evidence from a Blockchain-based K-Pop Community.
+      When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. Reference: <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
     </div>
-    <p class="status-info">Under Major Revision for 2nd round review at <em>Information Systems Research</em> (UTD24, FT50).</p>
+    <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50).</p>
     <p class="conference-info">Presentations: [ICIS 2024], [CIST 2024], [2025 HKUST PhD Student Conference], [2025 HKUST IS Summer Workshop], Indiana University*, McGill University*, South China University of Technology</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <details class="paper-details">
@@ -177,13 +177,13 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   <li class="paper-item" data-number="A3">
     <div class="paper-title">
-      Breaking the Barrier or Breaking the Market? Evidence from Non-Fungible Token Platforms.
+      When Supply Lowers Demand: Evidence from Invitation-Only Policy Reform in Digital Asset Marketplaces.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ying Hao, <a href="https://www.bschool.cuhk.edu.hk/staff/li-hongfei/">Hongfei Li</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5535298">[Working paper]</a>
     </div>
-    <p class="status-info">Under Major Revision for 2nd round review at <em>Information Systems Research</em> (UTD24, FT50).</p>
+    <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50).</p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <p>
@@ -213,12 +213,12 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   <li class="paper-item" data-number="A4">
     <div class="paper-title">
-     DeFi Treasury Management and Market Performance
+     Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi.
     </div>
     <div class="paper-authors">
-      Joint work with Janja Brendel, Allen H. Huang, Evgeny Lyandres.
+      <strong>Siyuan Jin</strong>, Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Evgeny Lyandres.
     </div>
-    <p class="status-info">Data Analysis Completed. </p>
+    <p class="status-info">Working paper.</p>
   </li>
 
 </ul>
@@ -229,14 +229,14 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   <!-- Newly added papers -->
   <li class="paper-item" data-number="B1">
     <div class="paper-title">
-      IT Code Reviewer and Code Contributions: Evidence from a Large-Scale Field Quasi-Experiment.
+      AI Reviewer and Standard Diffusion.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
+      Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
-    <p class="conference-info">Presentations: [2024 HKUST Business PhD Student Conference], [CIST 2024], [SCECR 2025], 2026 MISQ PDW</p>
-    <p class="status-info">Under Revision.</p>
+    <p class="conference-info">Presentations: [2024 HKUST Business PhD Student Conference], [CIST 2024], [SCECR 2025], [2026 MISQ Virtual PDW]</p>
+    <p class="status-info">Under Review at <em>Management Science</em>.</p>
   </li>
 
   <li class="paper-item" data-number="B2">
@@ -246,7 +246,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
-      Qiming Shao, Yuhan Huang, Yong Xia.
+      Yuhan Huang, Qiming Shao, Yong Xia.
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
     <p class="status-info">Accepted at <em>ACM Transactions on Management Information Systems</em> (TMIS).</p>
@@ -254,13 +254,13 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   <li class="paper-item" data-number="B3">
     <div class="paper-title">
-      Ambient Information Systems and Opportunity Cost Reduction: Evidence from Mobile Widget Adoption
+      Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption.
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Haiting Lin, Jinan Lin, Zike Cao, and Jinglong Zhang, Liangfei Qiu
+      <strong>Siyuan Jin</strong>, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu.
     </div>
-    <p class="conference-info">Presentations: [2026 CNAIS Paper Development Workshop (UNNC)], 2026 MISQ PDW</p>
-    <p class="status-info">Data Analysis Completed. Under preparation for initial draft.</p>
+    <p class="conference-info">Presentations: [2026 MISQ Virtual PDW], [2026 CNAIS ISR Paper Development Workshop (UNNC)]</p>
+    <p class="status-info">Working paper.</p>
   </li>
 
   <!-- <li class="paper-item" data-number="B5">
@@ -287,17 +287,18 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     </div>
     <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
     <p class="conference-info">Presentations: [ICIS 2025]</p>
-    <p class="status-info">Under preparation to submit to <em>Management Science</em>.</p>
+    <p class="status-info">Under preparation.</p>
   </li>
 
    <li class="paper-item" data-number="C2">
     <div class="paper-title">
-      AI Adoption and Time-Zone Frictions in Global Software Teams
+      Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
     </div>
-    <p class="conference-info">Presentations: [INFORMS Annual Meeting 2026], [2026 HKUST IS Summer Workshop]</p>
+    <p class="conference-info">Presentations: [ISPOC Job Market Paper Presentation 2026], [Wharton AI Conference 2026], [INFORMS Annual Meeting 2026], [PACIS 2026 Doctoral Consortium], [2026 HKUST IS Summer Workshop]</p>
+    <p class="status-info"><strong>Job Market Paper</strong></p>
   </li>
 
   <!-- <li class="paper-item" data-number="C3">
@@ -341,10 +342,11 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
    Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Kai-lung Hui, Allen H. Huang, He Chao, Chun Wang.
+      <strong>Siyuan Jin</strong>, Kai-lung Hui, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Chao He, Chun Wang.
     </div>
-    <p class="conference-info">Conference: the 4th conference from the Global Congress of Special Interest Tourism & Hospitality (the 4th GLOSITH)</p>
-    <p class="status-info">Under 1st round review at <em>International Journal of Tourism Research (IJTR)</em>.</p>
+    <p class="conference-info">Conference: the 4th Global Congress of Special Interest Tourism &amp; Hospitality (GLOSITH 2025) &mdash; Best Paper Award</p>
+    <p class="conference-info">Media: Op-eds in the <em>Hong Kong Economic Times</em> (see Letters below)</p>
+    <p class="status-info">In preparation for submission.</p>
   </li>
 
 
@@ -362,6 +364,36 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <summary>Abstract</summary>
       <p>We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.</p>
     </details>
+  </li>
+
+  <li class="paper-item" data-number="P4">
+    <div class="paper-title">
+      Post-Quantum Cryptography (PQC) Migration.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>.
+    </div>
+    <p class="status-info">Hong Kong Monetary Authority (HKMA) White Paper, 2026.</p>
+  </li>
+
+  <li class="paper-item" data-number="P5">
+    <div class="paper-title">
+      Tokenized Deposit.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, HSBC Hong Kong.
+    </div>
+    <p class="status-info">Hong Kong Monetary Authority (HKMA) White Paper, 2025.</p>
+  </li>
+
+  <li class="paper-item" data-number="P6">
+    <div class="paper-title">
+      Tokenized Form of Money.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Dong Lou.
+    </div>
+    <p class="status-info">Hong Kong Monetary Authority (HKMA) White Paper, 2024.</p>
   </li>
 <!-- 
   <li class="paper-item" data-number="U3">

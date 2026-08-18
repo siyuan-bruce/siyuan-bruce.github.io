@@ -172,10 +172,11 @@ key: page-service
 
 ### Ad hoc conference reviewer
 
-- **WITS** (Workshop on Information Technologies and Systems) — 2024 × 2, 2025 × 3
+- **WITS** (Workshop on Information Technologies and Systems) — 2024 × 2, 2025 × 3, 2026 × 1
 - **ICIS** (International Conference on Information Systems) — 2023 × 2, 2024 × 2, 2025 × 3, 2026 × 1
 - **CIST** (Conference on Information Systems and Technology) — 2026 × 1
 - **PACIS** (Pacific Asia Conference on Information Systems) — 2024 × 2, 2026 × 1
+- **HICSS** (Hawaii International Conference on System Sciences) — 2026 × 1
 - **QIP** (Quantum Information Processing) — 2023 × 1
 
 ### Ad hoc journal reviewer — business / IS
@@ -188,6 +189,7 @@ key: page-service
 - **The Accounting Review** (TAR)
 - **Information Technology for Development** (ICT4D)
 - **Journal of Electronic Commerce Research** (JECR)
+- **International Journal of Electronic Commerce** (IJEC)
 - **Blockchain Research and Applications** (BRA)
 - **Journal of Digital Management** (JDM)
 - **Nature Humanities and Social Sciences Communications** (HSSC)

@@ -712,7 +712,7 @@ key: page-homepage
     <div class="news-date">May 2026</div>
     <span class="news-cat">Talk</span>
     <div class="news-content">
-      Papers accepted to the <strong>INFORMS Annual Meeting 2026</strong> and <strong>CNAIS Paper Development Workshop</strong>.
+      Papers accepted to the <strong>INFORMS Annual Meeting 2026</strong> and <strong>CNAIS ISR Paper Development Workshop</strong>.
     </div>
   </div>
 
@@ -955,6 +955,18 @@ key: page-homepage
     <div class="award-title">Doctoral Consortium</div>
     <div class="award-org">PACIS — Pacific Asia Conference on Information Systems</div>
   </div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2026</div>
+    <div class="award-title">Doctoral Consortium <span style="font-weight:500;color:#555;">(Nominee)</span></div>
+    <div class="award-org">ICIS — International Conference on Information Systems</div>
+  </div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2026</div>
+    <div class="award-title">Doctoral Consortium <span style="font-weight:500;color:#555;">(Nominee)</span></div>
+    <div class="award-org">CIST — Conference on Information Systems and Technology</div>
+  </div>
   <div class="award-tile cat-grant">
     <span class="award-cat">Grant</span>
     <div class="award-year">2025</div>
@@ -973,6 +985,18 @@ key: page-homepage
     <div class="award-title">Best Short Paper Nominee</div>
     <div class="award-org">ICIS — International Conference on Information Systems</div>
   </div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">Best Paper Award</div>
+    <div class="award-org">GLOSITH — Global Congress of Special Interest Tourism &amp; Hospitality</div>
+  </div>
+  <div class="award-tile cat-service">
+    <span class="award-cat">Service</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">Reviewer Development Workshop</div>
+    <div class="award-org">MIS Quarterly (MISQ)</div>
+  </div>
   <div class="award-tile cat-fellowship">
     <span class="award-cat">Fellowship</span>
     <div class="award-year">2025</div>
@@ -981,7 +1005,7 @@ key: page-homepage
   </div>
   <div class="award-tile cat-fellowship">
     <span class="award-cat">Fellowship</span>
-    <div class="award-year">2024 – 2028</div>
+    <div class="award-year">2024 – 2027</div>
     <div class="award-title">Hong Kong PhD Fellowship</div>
     <div class="award-org">Research Grants Council, Hong Kong</div>
   </div>
