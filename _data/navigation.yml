@@ -19,7 +19,17 @@ header:
       zh-Hans : &ZH_HANS  研究
     url: /research.html
 
-  - titles: 
+  - titles:
+      # @start locale config
+      en      : &EN       Awards
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  荣誉与奖项
+    url: /awards.html
+
+  - titles:
       # @start locale config
       en      : &EN       Service
       en-GB   : *EN
