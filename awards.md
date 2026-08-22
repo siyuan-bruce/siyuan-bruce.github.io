@@ -139,13 +139,13 @@ permalink: /awards.html
   <div class="award-tile cat-research">
     <span class="award-cat">Research</span>
     <div class="award-year">2026</div>
-    <div class="award-title">Doctoral Consortium <span style="font-weight:500;color:#555;">(Nominee)</span></div>
+    <div class="award-title">Doctoral Consortium</div>
     <div class="award-org">ICIS — International Conference on Information Systems</div>
   </div>
   <div class="award-tile cat-research">
     <span class="award-cat">Research</span>
     <div class="award-year">2026</div>
-    <div class="award-title">Doctoral Consortium <span style="font-weight:500;color:#555;">(Nominee)</span></div>
+    <div class="award-title">Doctoral Consortium</div>
     <div class="award-org">CIST — Conference on Information Systems and Technology</div>
   </div>
   <div class="award-tile cat-grant">
