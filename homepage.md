@@ -577,7 +577,23 @@ key: page-homepage
 <div class="news-section">
   <div class="news-year">
     <span class="news-year-label">2026</span>
-    <span class="news-year-count">6 highlights</span>
+    <span class="news-year-count">8 highlights</span>
+  </div>
+
+  <div class="news-item cat-paper">
+    <div class="news-date">Aug 2026</div>
+    <span class="news-cat">Paper</span>
+    <div class="news-content">
+      Paper on AI adoption and team expansion accepted at <strong>CIST 2026</strong>.
+    </div>
+  </div>
+
+  <div class="news-item cat-paper">
+    <div class="news-date">Aug 2026</div>
+    <span class="news-cat">Paper</span>
+    <div class="news-content">
+      Paper on ambient information and selective entry (mobile widgets) accepted at <strong>CIST 2026</strong>.
+    </div>
   </div>
 
   <div class="news-item cat-talk">
