@@ -18,6 +18,7 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-homepage
+permalink: /
 ---
 
 <head>
@@ -181,6 +182,12 @@ key: page-homepage
     font-weight: 600;
     font-size: 14px;
     margin-top: 6px;
+  }
+
+  .visit-counter {
+    margin: 22px 10px 8px;
+    text-align: center;
+    opacity: 0.75;
   }
 
   /* CV Section */
@@ -611,7 +618,7 @@ key: page-homepage
 </p>
 
 <p>
-    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), and <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025). He was also awarded the <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB). Through the <a href="/service.html">IS Reading Group</a>, he has organized 40+ online IS PhD student seminars. 
+    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), and <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025). He was also awarded the <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB). He was selected for the <span style="color:#1A5DCB;">ICIS</span>, <span style="color:#1A5DCB;">CIST</span>, and <span style="color:#1A5DCB;">PACIS</span> doctoral consortia (2026). Through the <a href="/service.html">IS Reading Group</a>, he has organized 40+ online IS PhD student seminars. 
     
   </p>
   <p>
@@ -920,7 +927,10 @@ key: page-homepage
   </details>
 </div>
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=r7AzHOCvRlal1xYrtPrhKbcA0nnj4jrEj9bMJxTlmEE&cl=ffffff&w=300"></script>
+<div class="visit-counter">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=siyuan-bruce.github.io&title=visitors&color=1A5DCB"
+       alt="Visitor count" loading="lazy" />
+</div>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -7,7 +7,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  主页
-    url: /homepage.html
+    url: /
 
   - titles: 
       # @start locale config
@@ -68,6 +68,16 @@ header:
       en-AU   : *EN
       zh-Hans : &ZH_HANS  Gallery
     url: /gallery.html
+
+  - titles: 
+      # @start locale config
+      en      : &EN       CV
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  简历
+    url: /assets/Bruce_CV.pdf
 
   # - titles: 
   #     # @start locale config
