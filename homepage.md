@@ -183,6 +183,55 @@ key: page-homepage
     margin-top: 6px;
   }
 
+  /* CV Section */
+  .cv-heading {
+    margin: 26px 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  .cv-section {
+    margin: 8px 10px 10px;
+    padding-top: 8px;
+    border-top: 1px solid #d8dde6;
+    line-height: 1.6;
+  }
+
+  .cv-blurb {
+    font-size: 14px;
+    color: #444;
+    margin: 0 0 10px;
+  }
+
+  .cv-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cv-button {
+    display: inline-block;
+    padding: 7px 16px;
+    background-color: #1A5DCB;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+    text-decoration: none !important;
+  }
+
+  .cv-button:hover {
+    background-color: #14479c;
+  }
+
+  .cv-updated {
+    font-size: 12.5px;
+    color: #888;
+  }
+
   /* News Section */
   .news-heading,
   .news-section {
@@ -545,6 +594,7 @@ key: page-homepage
       <div class="link-row">
         <a href="https://github.com/siyuan-bruce" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
         <a href="https://siyuan-bruce.github.io/research.html">Research</a>
         <a href="/awards.html">Awards</a>
         <a href="/service.html">Service</a>
@@ -570,6 +620,17 @@ key: page-homepage
   <p>
     He serves as an ad hoc reviewer for leading journals and conferences, and received the <span style="color:#1A5DCB;">Best Reviewer Award at ICIS 2025</span>. In teaching, he was a guest lecturer on blockchain at South China University of Technology and has served as a teaching assistant for multiple courses at HKUST, including undergraduate-level, and DBA-level courses.
   </p>
+  </div>
+</div>
+
+<h2 class="cv-heading">Curriculum Vitae</h2>
+<div class="cv-section">
+  <p class="cv-blurb">
+    Full record of my publications, working papers, conference presentations, teaching, and service.
+  </p>
+  <div class="cv-actions">
+    <a class="cv-button" href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
+    <span class="cv-updated">Last updated: August 2026</span>
   </div>
 </div>
 
