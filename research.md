@@ -216,7 +216,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
      Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi.
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Evgeny Lyandres.
+      Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <strong>Siyuan Jin</strong>, Evgeny Lyandres.
     </div>
     <p class="status-info">Working paper.</p>
   </li>
