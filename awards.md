@@ -148,6 +148,12 @@ permalink: /awards.html
     <div class="award-title">Doctoral Consortium</div>
     <div class="award-org">CIST — Conference on Information Systems and Technology</div>
   </div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2026</div>
+    <div class="award-title">Global Research Award for Oversea Studies</div>
+    <div class="award-org">HKUST</div>
+  </div>
   <div class="award-tile cat-grant">
     <span class="award-cat">Grant</span>
     <div class="award-year">2025</div>
