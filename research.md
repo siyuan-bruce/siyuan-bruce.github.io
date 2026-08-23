@@ -342,7 +342,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
    Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Kai-lung Hui, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Chao He, Chun Wang.
+      <strong>Siyuan Jin</strong>, Kai-Lung Hui, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Chao He, Chun Wang.
     </div>
     <p class="conference-info">Conference: the 4th Global Congress of Special Interest Tourism &amp; Hospitality (GLOSITH 2025) &mdash; Best Paper Award</p>
     <p class="conference-info">Media: Op-eds in the <em>Hong Kong Economic Times</em> (see Letters below)</p>
@@ -421,7 +421,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 2. Mingxi Ye, **Siyuan Jin**, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Major Enterprise." *International Conference on Information Systems (ICIS 2025)*, Nashville, USA, Dec 15, 2025.
 
-3. **Siyuan Jin**, Kai-lung Hui, Allen H. Huang, Chao He, Chun Wang. "Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong." *4th conference from the Global Congress of Special Interest Tourism & Hospitality (GLOSITH)*, Xiamen, Nov 7, 2025.
+3. **Siyuan Jin**, Kai-Lung Hui, Allen H. Huang, Chao He, Chun Wang. "Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong." *4th conference from the Global Congress of Special Interest Tourism & Hospitality (GLOSITH)*, Xiamen, Nov 7, 2025.
 
 4. **Siyuan Jin**, Yuying Cai, Iris Qiu, Kar Yan Tam. "Crisis, Transparency and User Engagement." *Conference on Information Systems and Technology (CIST 2025)*, Atlanta, USA, Oct 26, 2025.
 
