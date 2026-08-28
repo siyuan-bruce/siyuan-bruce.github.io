@@ -450,7 +450,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 16. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
 
 ### Letters
-1. [Hong Kong Economic Times article 4169713](https://paper.hket.com/article/4169713).
+1. "夏日盛會吸旅客 暑期消費存變數" <a href="https://paper.hket.com/article/4169713">Hong Kong Economic Times (經濟日報)</a>.
 2. "端午暑假遊興濃 港迎入境客高峰" <a href="https://paper.hket.com/article/4149054">Hong Kong Economic Times (經濟日報)</a>, June 19, 2026.
 3. "「友善香港」廣傳 提升體驗吸客" <a href="https://paper.hket.com/article/4132723/">Hong Kong Economic Times (經濟日報)</a>, May 21, 2026.
 4. "文體+展會添魅力 港吸遊客穩步增" <a href="https://paper.hket.com/article/4125574/">Hong Kong Economic Times (經濟日報)</a>, May 8, 2026.
