@@ -232,4 +232,16 @@ permalink: /awards.html
     <div class="award-title">China National Scholarship <span style="font-weight:500;color:#555;">(Top 0.1–0.2%)</span></div>
     <div class="award-org">Ministry of Education, China</div>
   </div>
+  <div class="award-tile cat-fellowship">
+    <span class="award-cat">Fellowship</span>
+    <div class="award-year">2019</div>
+    <div class="award-title">First-Class Academic Scholarship <span style="font-weight:500;color:#555;">(RMB 4,000)</span></div>
+    <div class="award-org">South China University of Technology</div>
+  </div>
+  <div class="award-tile cat-fellowship">
+    <span class="award-cat">Fellowship</span>
+    <div class="award-year">2018</div>
+    <div class="award-title">First-Class Academic Scholarship <span style="font-weight:500;color:#555;">(RMB 4,000)</span></div>
+    <div class="award-org">South China University of Technology</div>
+  </div>
 </div>
