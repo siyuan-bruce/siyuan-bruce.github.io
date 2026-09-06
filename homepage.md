@@ -909,7 +909,7 @@ permalink: /
       How generative AI redistributes expertise, coordination, and visibility inside software organizations, and who gains when it does.
     </div>
     <div class="focus-evidence">
-      Job market paper and a second paper under review at <em>Management Science</em> &middot; Principal Investigator, NSFC grant
+      Job market paper on generative AI in distributed teams &middot; Principal Investigator, NSFC grant
     </div>
   </div>
 

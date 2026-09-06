@@ -236,7 +236,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
     <p class="conference-info">Presentations: [2024 HKUST Business PhD Student Conference], [CIST 2024], [SCECR 2025], [2026 MISQ Virtual PDW]</p>
-    <p class="status-info">Under Review at <em>Management Science</em>.</p>
+    <p class="status-info">In preparation for submission to <em>Management Science</em>.</p>
   </li>
 
   <li class="paper-item" data-number="B2">
