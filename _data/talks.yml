@@ -1,13 +1,18 @@
 # Upcoming talks shown on the homepage.
 #
-# Add newest-first; the page renders them in the order listed here.
+# Listed in the order they should appear on the page.
 # Fields:
-#   month    short month shown in the date chip, e.g. Oct  (use TBC if unscheduled)
+#   month    short month shown in the date chip, e.g. Nov  (use TBC if unscheduled)
+#   day      optional day of the month, shown large in the chip
 #   year     year shown under the month
 #   venue    conference or seminar name (bold line)
-#   title    paper or talk title
-#   place    city and country, or "Online"
-#   kind     conference | workshop | seminar | consortium   (sets the tag colour)
+#   title    paper title
+#   session  optional session name, shown under the title
+#   place    optional city and country, or "Online"
+#   speaker  optional; set only when someone else presents the paper
+#   time     optional, e.g. "Mon 4:15 to 5:30 PM"
+#   room     optional room or building
+#   kind     conference | invited | workshop | seminar | consortium  (tag colour)
 #   url      optional; makes the venue name a link
 #
 # Delete an entry once the talk has happened. Anything listed here is
@@ -21,17 +26,44 @@
   kind: conference
 
 - month: Oct
+  day: 30
+  year: 2026
+  venue: INFORMS CIST Doctoral Consortium
+  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  place: San Francisco, USA
+  kind: consortium
+
+- month: Nov
+  day: 2
   year: 2026
   venue: INFORMS Annual Meeting
   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  session: "Applications of AI in Digital Economy"
   place: San Francisco, USA
-  kind: conference
+  time: Mon 4:15 to 5:30 PM
+  room: Moscone South-216 (Level 2)
+  kind: invited
+
+- month: Dec
+  year: 2026
+  venue: ICIS Doctoral Consortium
+  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  time: December 9 to 12
+  kind: consortium
+
+- month: TBC
+  year: 2026
+  venue: ISPOC Job Market Paper Presentation
+  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  place: Online
+  kind: seminar
 
 - month: Oct
   year: 2026
   venue: INFORMS CIST
   title: "Scaling Before Gains: AI Adoption and Team Expansion"
   place: San Francisco, USA
+  speaker: Haochen Jiang (CityU)
   kind: conference
 
 - month: Oct
@@ -39,14 +71,5 @@
   venue: INFORMS CIST
   title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
   place: San Francisco, USA
+  speaker: Haiting Lin (Zhejiang University)
   kind: conference
-
-# Entries below are from the CV but I could not confirm whether they are still
-# ahead of you. Check the dates, then uncomment the ones that are upcoming.
-#
-# - month: TBC
-#   year: 2026
-#   venue: ISPOC Job Market Paper Presentation
-#   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
-#   place: Online
-#   kind: seminar

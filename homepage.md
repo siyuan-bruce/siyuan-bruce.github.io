@@ -649,6 +649,39 @@ permalink: /
     font-variant-numeric: tabular-nums;
   }
 
+  .talk-day {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.05;
+    font-variant-numeric: tabular-nums;
+    margin: 1px 0 0;
+  }
+
+  .talk-session {
+    font-size: 12px;
+    color: #1e3a6e;
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+
+  .talk-meta {
+    font-size: 11.5px;
+    color: #8a8a8a;
+    font-weight: 500;
+  }
+
+  .talk-meta span + span::before {
+    content: '\00b7';
+    margin: 0 6px;
+    color: #c8c8c8;
+  }
+
+  .talk-card.kind-invited .talk-kind {
+    color: #fff;
+    background: #1e3a6e;
+    border-color: #1e3a6e;
+  }
+
   .talk-body {
     flex: 1 1 auto;
     padding: 10px 14px 11px;
@@ -783,6 +816,7 @@ permalink: /
   <div class="talk-card kind-{{ talk.kind | default: 'conference' }}">
     <div class="talk-date">
       <span class="talk-month">{{ talk.month }}</span>
+      {% if talk.day %}<span class="talk-day">{{ talk.day }}</span>{% endif %}
       <span class="talk-year">{{ talk.year }}</span>
     </div>
     <div class="talk-body">
@@ -791,7 +825,13 @@ permalink: /
         <span class="talk-kind">{{ talk.kind | default: 'conference' }}</span>
       </div>
       <div class="talk-title">{{ talk.title }}</div>
-      <div class="talk-place">{{ talk.place }}</div>
+      {% if talk.session %}<div class="talk-session">{{ talk.session }}</div>{% endif %}
+      <div class="talk-meta">
+        {% if talk.place %}<span>{{ talk.place }}</span>{% endif %}
+        {% if talk.speaker %}<span>Presented by {{ talk.speaker }}</span>{% endif %}
+        {% if talk.time %}<span>{{ talk.time }}</span>{% endif %}
+        {% if talk.room %}<span>{{ talk.room }}</span>{% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
