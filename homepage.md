@@ -757,6 +757,93 @@ permalink: /
     .talks-grid { grid-template-columns: 1fr; margin: 12px 6px 6px; }
     .talk-date  { flex-basis: 54px; }
   }
+
+  /* ---- Research focus ---- */
+  .focus-heading {
+    margin: 26px 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  .focus-lede {
+    margin: 6px 10px 0;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.55;
+    text-align: left;
+    max-width: 760px;
+  }
+
+  .focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 12px;
+    margin: 12px 10px 6px;
+    text-align: left;
+  }
+
+  .focus-card {
+    position: relative;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 14px 15px 13px;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .focus-card::before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    height: 3px;
+    border-radius: 4px 4px 0 0;
+    background: var(--focus-color, #1e3a6e);
+  }
+
+  .focus-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(30, 58, 110, 0.1);
+    border-color: #c5d0e0;
+  }
+
+  .focus-card.focus-ai         { --focus-color: #1e3a6e; }
+  .focus-card.focus-blockchain { --focus-color: #2d6a3e; }
+  .focus-card.focus-fintech    { --focus-color: #8B5C2A; }
+
+  .focus-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+    margin-bottom: 5px;
+  }
+
+  .focus-card.focus-ai .focus-name         { color: #1e3a6e; }
+  .focus-card.focus-blockchain .focus-name { color: #2d6a3e; }
+  .focus-card.focus-fintech .focus-name    { color: #8B5C2A; }
+
+  .focus-desc {
+    font-size: 12.5px;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+
+  .focus-evidence {
+    font-size: 11px;
+    color: #8a8a8a;
+    line-height: 1.45;
+    padding-top: 7px;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  @media (max-width: 520px) {
+    .focus-grid { grid-template-columns: 1fr; margin: 12px 6px 6px; }
+  }
 </style>
 </head>
 
@@ -806,6 +893,44 @@ permalink: /
   <p>
     He serves as an ad hoc reviewer for leading journals and conferences, and received the <span style="color:#1A5DCB;">Best Reviewer Award at ICIS 2025</span>. In teaching, he was a guest lecturer on blockchain at South China University of Technology and has served as a teaching assistant for multiple courses at HKUST, including undergraduate-level, and DBA-level courses.
   </p>
+  </div>
+</div>
+
+<h2 class="focus-heading">Research Focus</h2>
+<p class="focus-lede">
+  I work at the intersection of <strong>AI</strong>, <strong>blockchain</strong>, and <strong>FinTech</strong>, studying general-purpose
+  technologies that lower a coordination cost and, in doing so, reopen a governance question. Making work cheaper to
+  coordinate is not the same as making it accountable, and that gap is what my research measures.
+</p>
+<div class="focus-grid">
+  <div class="focus-card focus-ai">
+    <div class="focus-name">AI and the Enterprise Workforce</div>
+    <div class="focus-desc">
+      How generative AI redistributes expertise, coordination, and visibility inside software organizations, and who gains when it does.
+    </div>
+    <div class="focus-evidence">
+      Job market paper and a second paper under review at <em>Management Science</em> &middot; Principal Investigator, NSFC grant
+    </div>
+  </div>
+
+  <div class="focus-card focus-blockchain">
+    <div class="focus-name">Blockchain Governance</div>
+    <div class="focus-desc">
+      How the design of decentralized platforms shapes participation, accountability, and where value accrues.
+    </div>
+    <div class="focus-evidence">
+      <em>Journal of Management Information Systems</em> &middot; Two second-round revisions at <em>Information Systems Research</em>
+    </div>
+  </div>
+
+  <div class="focus-card focus-fintech">
+    <div class="focus-name">FinTech and Digital Money</div>
+    <div class="focus-desc">
+      How tokenized money and digital assets can be designed to satisfy regulation without giving up the properties that make them useful.
+    </div>
+    <div class="focus-evidence">
+      Three Hong Kong Monetary Authority white papers &middot; <em>ACM Distributed Ledger Technologies</em> &middot; e-HKD pilot
+    </div>
   </div>
 </div>
 
