@@ -1,0 +1,52 @@
+# Upcoming talks shown on the homepage.
+#
+# Add newest-first; the page renders them in the order listed here.
+# Fields:
+#   month    short month shown in the date chip, e.g. Oct  (use TBC if unscheduled)
+#   year     year shown under the month
+#   venue    conference or seminar name (bold line)
+#   title    paper or talk title
+#   place    city and country, or "Online"
+#   kind     conference | workshop | seminar | consortium   (sets the tag colour)
+#   url      optional; makes the venue name a link
+#
+# Delete an entry once the talk has happened. Anything listed here is
+# presented as upcoming, so past talks should be moved to the News section.
+
+- month: Oct
+  year: 2026
+  venue: INFORMS Annual Meeting
+  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  place: San Francisco, USA
+  kind: conference
+
+- month: Oct
+  year: 2026
+  venue: INFORMS CIST
+  title: "Scaling Before Gains: AI Adoption and Team Expansion"
+  place: San Francisco, USA
+  kind: conference
+
+- month: Oct
+  year: 2026
+  venue: INFORMS CIST
+  title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
+  place: San Francisco, USA
+  kind: conference
+
+# Entries below are from the CV but I could not confirm whether they are still
+# ahead of you. Check the dates, then uncomment the ones that are upcoming.
+#
+# - month: TBC
+#   year: 2026
+#   venue: Wharton AI Conference
+#   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+#   place: San Francisco, USA
+#   kind: conference
+#
+# - month: TBC
+#   year: 2026
+#   venue: ISPOC Job Market Paper Presentation
+#   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+#   place: Online
+#   kind: seminar

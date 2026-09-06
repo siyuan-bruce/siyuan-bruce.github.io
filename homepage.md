@@ -578,6 +578,152 @@ permalink: /
       border-radius: 50%;
     }
   }
+
+  /* ---- Upcoming talks ---- */
+  .talks-heading {
+    margin: 26px 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .talks-count {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: #999;
+    letter-spacing: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .talks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 12px;
+    margin: 12px 10px 6px;
+    text-align: left;
+  }
+
+  .talk-card {
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .talk-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(30, 58, 110, 0.12);
+    border-color: #c5d0e0;
+  }
+
+  .talk-date {
+    flex: 0 0 62px;
+    background: linear-gradient(160deg, #26467f 0%, #1e3a6e 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 4px;
+    line-height: 1.15;
+  }
+
+  .talk-month {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .talk-year {
+    font-size: 11px;
+    font-weight: 500;
+    color: #b9c6de;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .talk-body {
+    flex: 1 1 auto;
+    padding: 10px 14px 11px;
+    min-width: 0;
+  }
+
+  .talk-venue-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 3px;
+  }
+
+  .talk-venue {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  .talk-venue a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #c5d0e0;
+  }
+
+  .talk-venue a:hover { border-bottom-color: #1e3a6e; }
+
+  .talk-kind {
+    flex: 0 0 auto;
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 7px;
+    border-radius: 10px;
+    border: 1px solid;
+    white-space: nowrap;
+    line-height: 1.5;
+    color: #1e3a6e;
+    border-color: #c5d0e0;
+    background: #f0f4fb;
+  }
+
+  .talk-card.kind-workshop .talk-kind,
+  .talk-card.kind-consortium .talk-kind {
+    color: #2d6a3e;
+    border-color: #b9d4c2;
+    background: #eef6f1;
+  }
+
+  .talk-card.kind-seminar .talk-kind {
+    color: #8B5C2A;
+    border-color: #d8c4ae;
+    background: #faf3eb;
+  }
+
+  .talk-title {
+    font-size: 12.5px;
+    color: #444;
+    line-height: 1.45;
+    margin-bottom: 4px;
+  }
+
+  .talk-place {
+    font-size: 11.5px;
+    color: #8a8a8a;
+    font-weight: 500;
+  }
+
+  @media (max-width: 520px) {
+    .talks-grid { grid-template-columns: 1fr; margin: 12px 6px 6px; }
+    .talk-date  { flex-basis: 54px; }
+  }
 </style>
 </head>
 
@@ -629,6 +775,28 @@ permalink: /
   </p>
   </div>
 </div>
+
+{% if site.data.talks and site.data.talks.size > 0 %}
+<h2 class="talks-heading">Upcoming Talks <span class="talks-count">{{ site.data.talks.size }} scheduled</span></h2>
+<div class="talks-grid">
+  {% for talk in site.data.talks %}
+  <div class="talk-card kind-{{ talk.kind | default: 'conference' }}">
+    <div class="talk-date">
+      <span class="talk-month">{{ talk.month }}</span>
+      <span class="talk-year">{{ talk.year }}</span>
+    </div>
+    <div class="talk-body">
+      <div class="talk-venue-row">
+        <span class="talk-venue">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</span>
+        <span class="talk-kind">{{ talk.kind | default: 'conference' }}</span>
+      </div>
+      <div class="talk-title">{{ talk.title }}</div>
+      <div class="talk-place">{{ talk.place }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
 
 <h2 class="cv-heading">Curriculum Vitae</h2>
 <div class="cv-section">
