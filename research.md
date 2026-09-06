@@ -259,7 +259,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu.
     </div>
-    <p class="conference-info">Presentations: [2026 MISQ Virtual PDW], [2026 CNAIS ISR Paper Development Workshop (UNNC)]</p>
+    <p class="conference-info">Presentations: [CIST 2026, San Francisco], [2026 MISQ Virtual PDW], [2026 CNAIS ISR Paper Development Workshop (UNNC)]</p>
     <p class="status-info">Working paper.</p>
   </li>
 
@@ -297,7 +297,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
     </div>
-    <p class="conference-info">Presentations: [ISPOC Job Market Paper Presentation 2026], [Wharton AI Conference 2026], [INFORMS Annual Meeting 2026], [PACIS 2026 Doctoral Consortium], [2026 HKUST IS Summer Workshop]</p>
+    <p class="conference-info">Presentations: [ICIS 2026 Doctoral Consortium, Lisbon], [INFORMS Annual Meeting 2026, San Francisco], [CIST 2026 Doctoral Consortium, San Francisco], [ISPOC Job Market Paper Presentation 2026], [Wharton AI Conference 2026, San Francisco], [PACIS 2026 Doctoral Consortium], [2026 HKUST IS Summer Workshop]</p>
     <p class="status-info"><strong>Job Market Paper</strong></p>
   </li>
 
