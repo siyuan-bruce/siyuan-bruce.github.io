@@ -58,6 +58,7 @@
   year: 2026
   venue: ICIS Doctoral Consortium
   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  place: Lisbon, Portugal
   time: December 9 to 12
   kind: consortium
 
@@ -67,6 +68,7 @@
   title: "Scaling Before Gains: AI Adoption and Team Expansion"
   place: San Francisco, USA
   speaker: Haochen Jiang (CityU)
+  time: October 31 to November 1
   kind: conference
 
 - month: Oct
@@ -75,4 +77,5 @@
   title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
   place: San Francisco, USA
   speaker: Haiting Lin (Zhejiang University)
+  time: October 31 to November 1
   kind: conference
