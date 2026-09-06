@@ -417,37 +417,53 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 ### **Refereed Conferences & Workshops**
 
-1. **Siyuan Jin**, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu. "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption." *Conference on Information Systems and Technology (CIST 2026)*, San Francisco, USA, Oct 31--Nov 1, 2026.
+1. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *International Conference on Information Systems (ICIS 2026) Doctoral Consortium*, Lisbon, Portugal, Dec 9--12, 2026.
 
-2. Mingxi Ye, **Siyuan Jin**, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Major Enterprise." *International Conference on Information Systems (ICIS 2025)*, Nashville, USA, Dec 15, 2025.
+2. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *ISPOC Job Market Paper Presentation*, Online, Nov 5, 2026.
 
-3. **Siyuan Jin**, Kai-Lung Hui, Allen H. Huang, Chao He, Chun Wang. "Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong." *4th conference from the Global Congress of Special Interest Tourism & Hospitality (GLOSITH)*, Xiamen, Nov 7, 2025.
+3. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *INFORMS Annual Meeting 2026*, invited session "Applications of AI in Digital Economy", San Francisco, USA, Nov 2, 2026.
 
-4. **Siyuan Jin**, Yuying Cai, Iris Qiu, Kar Yan Tam. "Crisis, Transparency and User Engagement." *Conference on Information Systems and Technology (CIST 2025)*, Atlanta, USA, Oct 26, 2025.
+4. **Siyuan Jin**, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu. "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption." *Conference on Information Systems and Technology (CIST 2026)*, San Francisco, USA, Oct 31--Nov 1, 2026.
 
-5. **Siyuan Jin**, Kar Yan Tam, Yong Xia. "The Effect of Agentic IT Reviewers on Code Contribution: Evidence from a Large-Scale Field Quasi-Experiment." *Statistical Challenges in Electronic Commerce Research (SCECR 2025)*, Paphos, Cyprus.
+5. Haochen Jiang, **Siyuan Jin**, Eros Ye, Wei Thoo Yue. "Scaling Before Gains: AI Adoption and Team Expansion." *Conference on Information Systems and Technology (CIST 2026)*, San Francisco, USA, Oct 31--Nov 1, 2026.
 
-6. **Siyuan Jin**, Yuying Cai, Iris Qiu, Kar Yan Tam. "Crisis, Transparency and User Engagement." *Statistical Challenges in Electronic Commerce Research (SCECR 2025)*, Paphos, Cyprus.
+6. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Conference on Information Systems and Technology (CIST 2026) Doctoral Consortium*, San Francisco, USA, Oct 30, 2026.
 
-7. **Siyuan Jin**, Yuying Cai, Iris Qiu, Kar Yan Tam. "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement." *International Conference on Information Systems (ICIS 2024)*, Bangkok, Thailand.
+7. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Wharton AI Conference*, San Francisco, USA, Sep 9, 2026.
 
-8. **Siyuan Jin**, Dongwon Lee, Keongtae Kim, Kar Yan Tam. "When Kpop Meets Blockchain: Consumer Engagement via Voting in DAOs." *International Conference on Information Systems (ICIS 2024)*, Bangkok, Thailand. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Paper]</a> (Best Short Paper Nominee)
+8. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Pacific Asia Conference on Information Systems (PACIS 2026) Doctoral Consortium*.
 
-9. **Siyuan Jin**, Allen H. Huang, Zitong Li, Kar Yan Tam. "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability?" *Greater Bay Area Finance Workshop (2024)*, Shenzhen, China.
+9. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *HKUST Information Systems Summer Workshop*, Hong Kong, 2026.
 
-10. **Siyuan Jin**, Dongwon Lee, Keongtae Kim, Kar Yan Tam. "When Kpop Meets Blockchain: The Effect of DAO Voting on Consumer Engagement." *Conference on Information Systems and Technology (CIST 2024)*, Short Paper, Seattle, USA.
+10. Mingxi Ye, **Siyuan Jin**, Ziyuan Li, Wei Thoo Yue, Kar Yan Tam. "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Major Enterprise." *International Conference on Information Systems (ICIS 2025)*, Nashville, USA, Dec 15, 2025.
 
-11. **Siyuan Jin**, Kar Yan Tam, Bichao Chen, Yong Xia. "Scalable Agency? The Spillover Effects of Agentic IT Reviewers on Code Contribution." *Conference on Information Systems and Technology (CIST 2024)*, Short Paper, Seattle, USA.
+11. **Siyuan Jin**, Kai-Lung Hui, Allen H. Huang, Chao He, Chun Wang. "Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong." *4th conference from the Global Congress of Special Interest Tourism & Hospitality (GLOSITH)*, Xiamen, Nov 7, 2025.
 
-12. **Siyuan Jin**, Zitong Li, Allen H. Huang, Kar Yan Tam. "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability?" *MIS Quarterly Virtual Author Development Workshop*, Online, Jan 2025.
+12. **Siyuan Jin**, Yuying Cai, Iris Qiu, Kar Yan Tam. "Crisis, Transparency and User Engagement." *Conference on Information Systems and Technology (CIST 2025)*, Atlanta, USA, Oct 26, 2025.
 
-13. **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia. "Software Code Quality Measurement: Implications from Metric Distributions." *IEEE International Conference on Software Quality, Reliability, and Security (QRS 2023)*, Chiang Mai, Thailand. <a href="https://ieeexplore.ieee.org/document/10366662">[Paper]</a>
+13. **Siyuan Jin**, Kar Yan Tam, Yong Xia. "The Effect of Agentic IT Reviewers on Code Contribution: Evidence from a Large-Scale Field Quasi-Experiment." *Statistical Challenges in Electronic Commerce Research (SCECR 2025)*, Paphos, Cyprus.
 
-14. **Siyuan Jin**, Zhendong Bei, Bichao Chen, Yong Xia. "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems." *International Workshop on Cloud Intelligence (AIOps 2025)*, Ottawa, Canada. <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
+14. **Siyuan Jin**, Yuying Cai, Iris Qiu, Kar Yan Tam. "Crisis, Transparency and User Engagement." *Statistical Challenges in Electronic Commerce Research (SCECR 2025)*, Paphos, Cyprus.
 
-15. **Siyuan Jin**, Yong Xia, Philip Intallura, Botong Xu. "A UTXO-based Sharding Method for Stablecoin." *IEEE International Conference on Blockchain Computing and Applications (BCCA 2022)*, San Antonio, USA. <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
+15. **Siyuan Jin**, Yuying Cai, Iris Qiu, Kar Yan Tam. "Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement." *International Conference on Information Systems (ICIS 2024)*, Bangkok, Thailand.
 
-16. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
+16. **Siyuan Jin**, Dongwon Lee, Keongtae Kim, Kar Yan Tam. "When Kpop Meets Blockchain: Consumer Engagement via Voting in DAOs." *International Conference on Information Systems (ICIS 2024)*, Bangkok, Thailand. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Paper]</a> (Best Short Paper Nominee)
+
+17. **Siyuan Jin**, Allen H. Huang, Zitong Li, Kar Yan Tam. "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability?" *Greater Bay Area Finance Workshop (2024)*, Shenzhen, China.
+
+18. **Siyuan Jin**, Dongwon Lee, Keongtae Kim, Kar Yan Tam. "When Kpop Meets Blockchain: The Effect of DAO Voting on Consumer Engagement." *Conference on Information Systems and Technology (CIST 2024)*, Short Paper, Seattle, USA.
+
+19. **Siyuan Jin**, Kar Yan Tam, Bichao Chen, Yong Xia. "Scalable Agency? The Spillover Effects of Agentic IT Reviewers on Code Contribution." *Conference on Information Systems and Technology (CIST 2024)*, Short Paper, Seattle, USA.
+
+20. **Siyuan Jin**, Zitong Li, Allen H. Huang, Kar Yan Tam. "Do Users of Blockchain IT Infrastructure Value Environmental Sustainability?" *MIS Quarterly Virtual Author Development Workshop*, Online, Jan 2025.
+
+21. **Siyuan Jin**, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia. "Software Code Quality Measurement: Implications from Metric Distributions." *IEEE International Conference on Software Quality, Reliability, and Security (QRS 2023)*, Chiang Mai, Thailand. <a href="https://ieeexplore.ieee.org/document/10366662">[Paper]</a>
+
+22. **Siyuan Jin**, Zhendong Bei, Bichao Chen, Yong Xia. "Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems." *International Workshop on Cloud Intelligence (AIOps 2025)*, Ottawa, Canada. <a href="https://arxiv.org/abs/2411.13017">[Paper]</a>
+
+23. **Siyuan Jin**, Yong Xia, Philip Intallura, Botong Xu. "A UTXO-based Sharding Method for Stablecoin." *IEEE International Conference on Blockchain Computing and Applications (BCCA 2022)*, San Antonio, USA. <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
+
+24. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
 
 ### Letters
 1. "夏日盛會吸旅客 暑期消費存變數" <a href="https://paper.hket.com/article/4169713">Hong Kong Economic Times (經濟日報)</a>.
