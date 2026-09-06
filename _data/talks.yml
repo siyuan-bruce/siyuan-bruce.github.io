@@ -18,11 +18,13 @@
 # Delete an entry once the talk has happened. Anything listed here is
 # presented as upcoming, so past talks should be moved to the News section.
 
-- month: TBC
+- month: Sep
+  day: 9
   year: 2026
   venue: Wharton AI Conference
   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
   place: San Francisco, USA
+  time: Wed morning
   kind: conference
 
 - month: Oct
@@ -44,19 +46,20 @@
   room: Moscone South-216 (Level 2)
   kind: invited
 
+- month: Nov
+  day: 5
+  year: 2026
+  venue: ISPOC Job Market Paper Presentation
+  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  place: Online
+  kind: seminar
+
 - month: Dec
   year: 2026
   venue: ICIS Doctoral Consortium
   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
   time: December 9 to 12
   kind: consortium
-
-- month: TBC
-  year: 2026
-  venue: ISPOC Job Market Paper Presentation
-  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
-  place: Online
-  kind: seminar
 
 - month: Oct
   year: 2026
