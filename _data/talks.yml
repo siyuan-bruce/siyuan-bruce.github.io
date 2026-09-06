@@ -13,6 +13,13 @@
 # Delete an entry once the talk has happened. Anything listed here is
 # presented as upcoming, so past talks should be moved to the News section.
 
+- month: TBC
+  year: 2026
+  venue: Wharton AI Conference
+  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  place: San Francisco, USA
+  kind: conference
+
 - month: Oct
   year: 2026
   venue: INFORMS Annual Meeting
@@ -36,13 +43,6 @@
 
 # Entries below are from the CV but I could not confirm whether they are still
 # ahead of you. Check the dates, then uncomment the ones that are upcoming.
-#
-# - month: TBC
-#   year: 2026
-#   venue: Wharton AI Conference
-#   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
-#   place: San Francisco, USA
-#   kind: conference
 #
 # - month: TBC
 #   year: 2026

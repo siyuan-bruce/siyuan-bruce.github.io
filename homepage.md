@@ -601,8 +601,8 @@ permalink: /
 
   .talks-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-    gap: 12px;
+    grid-template-columns: 1fr;
+    gap: 10px;
     margin: 12px 10px 6px;
     text-align: left;
   }
