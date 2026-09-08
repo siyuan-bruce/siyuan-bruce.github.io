@@ -884,14 +884,14 @@ permalink: /
 </p>
 
 <p>
-    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), and <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025). He was also awarded the <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB). He was selected for the <span style="color:#1A5DCB;">ICIS, CIST, and PACIS Doctoral Consortia</span> (2026). Through the <a href="/service.html">IS Reading Group</a>, he has organized 40+ online IS PhD student seminars. 
+    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), and <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025). He was also awarded the <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB). He was selected for the <span style="color:#1A5DCB;">ICIS, CIST, and PACIS Doctoral Consortia</span> (2026).
     
   </p>
   <p>
     Before HKUST, he worked for two years at HSBC as a trainee and full-stack engineer, focusing on blockchain projects in IT Architecture and the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>. He received the <span style="color:#1A5DCB;">2021 Top Performer</span> and <span style="color:#1A5DCB;">Role Model</span> awards, and was a finalist in the <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global CBDC Challenge</a> organized by the Monetary Authority of Singapore.
   </p>
   <p>
-    He serves as an ad hoc reviewer for leading journals and conferences, and received the <span style="color:#1A5DCB;">Best Reviewer Award at ICIS 2025</span>. In teaching, he was a guest lecturer on blockchain at South China University of Technology and has served as a teaching assistant for multiple courses at HKUST, including undergraduate-level, and DBA-level courses.
+    He serves as an ad hoc reviewer for leading journals and conferences, and received the <span style="color:#1A5DCB;">Best Reviewer Award at ICIS 2025</span>. Through the <a href="/service.html">IS Reading Group</a>, he has organized 40+ online IS PhD student seminars. In teaching, he was a guest lecturer on blockchain at South China University of Technology and has served as a teaching assistant for multiple courses at HKUST, including undergraduate-level, and DBA-level courses.
   </p>
   </div>
 </div>
