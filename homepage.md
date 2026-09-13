@@ -19,6 +19,7 @@ titles:
   # @end locale config
 key: page-homepage
 permalink: /
+article_header: false
 ---
 
 <head>

@@ -18,15 +18,6 @@
 # Delete an entry once the talk has happened. Anything listed here is
 # presented as upcoming, so past talks should be moved to the News section.
 
-- month: Sep
-  day: 9
-  year: 2026
-  venue: Wharton AI Conference
-  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
-  place: San Francisco, USA
-  time: Wed morning
-  kind: conference
-
 - month: Oct
   day: 30
   year: 2026
