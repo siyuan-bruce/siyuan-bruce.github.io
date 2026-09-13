@@ -11,6 +11,7 @@ titles:
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
+  fr      : &FR       Enseignement
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR
@@ -251,7 +252,7 @@ key: page-teaching
 </div>
 
 <div class="course-container">
-  <div class="course-title">Coding for Business (ISOM 2020) X 4</div>
+  <div class="course-title">Coding for Business (ISOM 2020)</div>
   <div class="course-details">
     <p><strong>Institution:</strong> The Hong Kong University of Science and Technology</p>
     <p><strong>Teaching period:</strong> Fall 2023 (Lecture Instructor: Weiyin Hong)</p>

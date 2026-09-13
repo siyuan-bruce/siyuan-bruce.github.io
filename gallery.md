@@ -7,6 +7,7 @@ titles:
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
+  fr      : &FR       Galerie
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR

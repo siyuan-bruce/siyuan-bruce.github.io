@@ -11,6 +11,7 @@ titles:
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
+  fr      : &FR       Projets DDM
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR
