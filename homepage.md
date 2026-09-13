@@ -891,26 +891,23 @@ article_header: false
     </div>
   </div>
     <div class="profile-text">
-     <p>
+  <p>
     <strong>I am on the 2026&ndash;2027 job market.</strong>
   </p>
-     <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. He is currently a visiting scholar at the Wharton School, University of Pennsylvania, working with Prof. Lynn Wu until December 2026.
+  <p>
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School (University of Pennsylvania) with Prof. Lynn Wu through December 2026.
   </p>
   <p>
-    His research has two main streams: blockchain infrastructure and application governance, and AI and IT workforce governance. His methods include data analytics, econometrics, and experimental methods.
-    His papers have been accepted by leading IS journals, including <span style="color:#1A5DCB;"><em>Journal of Management Information Systems</em> (JMIS, FT50)</span> and <span style="color:#1A5DCB;"><em>ACM Transactions on Management Information Systems</em> (TMIS)</span>, and top IS conferences, including <span style="color:#1A5DCB;">ICIS</span>, <span style="color:#1A5DCB;">CIST</span>, and <span style="color:#1A5DCB;">SCECR</span>, with best-paper nominations at <span style="color:#1A5DCB;">ICIS 2024</span> and <span style="color:#1A5DCB;">ICIS 2025</span>. He has been involved in several Hong Kong Monetary Authority (HKMA) white papers on central bank digital currencies (CBDCs) and quantum computing, and has collaborated with HSBC, NetEase, Shanbei, and other companies.
-</p>
-
-<p>
-    He received the <span style="color:#1A5DCB;">China National Scholarship</span> (2020), <span style="color:#1A5DCB;">Hong Kong PhD Fellowship (HKPFS)</span> (2024), <span style="color:#1A5DCB;">Young Scientists Program Award</span> (2025), and <span style="color:#1A5DCB;">2025 NSFC Young Student Basic Research Program Grant</span> (300,000 RMB), and was selected for the <span style="color:#1A5DCB;">ICIS, CIST, and PACIS Doctoral Consortia</span> (2026).
-    
+    His research spans two streams &mdash; blockchain infrastructure and application governance, and AI and IT workforce governance &mdash; using data analytics, econometrics, and experimental methods. His work appears in leading IS journals, including <em>Journal of Management Information Systems</em> (JMIS, FT50) and <em>ACM Transactions on Management Information Systems</em> (TMIS), and top conferences such as ICIS, CIST, and SCECR, with best-paper nominations at ICIS 2024 and 2025. He has contributed to several Hong Kong Monetary Authority (HKMA) white papers on central bank digital currencies (CBDCs) and quantum computing, and collaborated with industry partners including HSBC, NetEase, and Shanbei.
   </p>
   <p>
-    Before HKUST, he worked for two years at HSBC as a trainee and full-stack engineer on blockchain projects in IT Architecture and the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>. He received the <span style="color:#1A5DCB;">2021 Top Performer</span> and <span style="color:#1A5DCB;">Role Model</span> awards, and was a finalist in the <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">2021 Global CBDC Challenge</a>, organized by the Monetary Authority of Singapore.
+    His honors include the Hong Kong PhD Fellowship (2024), a 2025 NSFC Young Student Basic Research Program Grant (RMB 300,000), and selection for the ICIS, CIST, and PACIS Doctoral Consortia (2026), among <a href="/awards.html">other awards</a>.
   </p>
   <p>
-    He serves as an ad hoc reviewer for leading journals and conferences and received the <span style="color:#1A5DCB;">Best Reviewer Award at ICIS 2025</span>. Through the <a href="/service.html">IS Reading Group</a>, he has organized 40+ online IS PhD student seminars. In teaching, he was a guest lecturer on blockchain at South China University of Technology and has served as a teaching assistant for undergraduate- and DBA-level courses at HKUST.
+    Before HKUST, he spent two years at HSBC as a trainee and full-stack engineer on blockchain projects in IT Architecture and the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, reaching the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> (Monetary Authority of Singapore).
+  </p>
+  <p>
+    He serves as an ad hoc reviewer for leading journals and conferences (Best Reviewer Award, ICIS 2025), runs the <a href="/service.html">IS Reading Group</a> (40+ online IS PhD seminars), and has taught as a guest lecturer at South China University of Technology and as a teaching assistant for undergraduate- and DBA-level courses at HKUST.
   </p>
   </div>
 </div>
