@@ -825,8 +825,6 @@ article_header: false
 
   .focus-card.focus-ai         { --focus-color: #1e3a6e; }
   .focus-card.focus-blockchain { --focus-color: #2d6a3e; }
-  .focus-card.focus-fintech    { --focus-color: #8B5C2A; }
-
   .focus-name {
     font-size: 14px;
     font-weight: 700;
@@ -837,8 +835,6 @@ article_header: false
 
   .focus-card.focus-ai .focus-name         { color: #1e3a6e; }
   .focus-card.focus-blockchain .focus-name { color: #2d6a3e; }
-  .focus-card.focus-fintech .focus-name    { color: #8B5C2A; }
-
   .focus-desc {
     font-size: 12.5px;
     color: #444;
@@ -893,7 +889,7 @@ article_header: false
   </div>
   <div class="profile-text">
     <p>
-      <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School (University of Pennsylvania) with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>I am on the 2026&ndash;2027 job market.</strong>
+      <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School (University of Pennsylvania) with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
     </p>
     <p>
       His research spans two streams: AI and IT workforce governance, and blockchain infrastructure and application governance. His methods include econometrics and experimental methods. His work appears in leading IS journals, including <em>Journal of Management Information Systems</em> (JMIS, FT50) and <em>ACM Transactions on Management Information Systems</em> (TMIS), and top conferences such as ICIS, CIST, and SCECR, with best-paper nominations at ICIS 2024 and 2025. He has contributed to several Hong Kong Monetary Authority (HKMA) white papers on central bank digital currencies (CBDCs) and quantum computing, and collaborated with industry partners including HSBC and other institutions.
@@ -931,16 +927,6 @@ article_header: false
     </div>
     <div class="focus-evidence">
       <em>Journal of Management Information Systems</em> &middot; Two second-round revisions at <em>Information Systems Research</em>
-    </div>
-  </div>
-
-  <div class="focus-card focus-fintech">
-    <div class="focus-name">FinTech and Digital Money</div>
-    <div class="focus-desc">
-      How tokenized money and digital assets can be designed to satisfy regulation without giving up the properties that make them useful.
-    </div>
-    <div class="focus-evidence">
-      Three Hong Kong Monetary Authority white papers &middot; <em>ACM Distributed Ledger Technologies</em> &middot; e-HKD pilot
     </div>
   </div>
 </div>
