@@ -895,10 +895,10 @@ article_header: false
     <strong>I am on the 2026&ndash;2027 job market.</strong>
   </p>
   <p>
-    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School (University of Pennsylvania) with Prof. Lynn Wu through December 2026.
+    <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School (University of Pennsylvania) with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026.
   </p>
   <p>
-    His research spans two streams &mdash; blockchain infrastructure and application governance, and AI and IT workforce governance &mdash; using data analytics, econometrics, and experimental methods. His work appears in leading IS journals, including <em>Journal of Management Information Systems</em> (JMIS, FT50) and <em>ACM Transactions on Management Information Systems</em> (TMIS), and top conferences such as ICIS, CIST, and SCECR, with best-paper nominations at ICIS 2024 and 2025. He has contributed to several Hong Kong Monetary Authority (HKMA) white papers on central bank digital currencies (CBDCs) and quantum computing, and collaborated with industry partners including HSBC, NetEase, and Shanbei.
+    His research spans two streams: blockchain infrastructure and application governance, and AI and IT workforce governance. His methods include data analytics, econometrics, and experimental methods. His work appears in leading IS journals, including <em>Journal of Management Information Systems</em> (JMIS, FT50) and <em>ACM Transactions on Management Information Systems</em> (TMIS), and top conferences such as ICIS, CIST, and SCECR, with best-paper nominations at ICIS 2024 and 2025. He has contributed to several Hong Kong Monetary Authority (HKMA) white papers on central bank digital currencies (CBDCs) and quantum computing, and collaborated with industry partners including HSBC, NetEase, and Shanbei.
   </p>
   <p>
     His honors include the Hong Kong PhD Fellowship (2024), a 2025 NSFC Young Student Basic Research Program Grant (RMB 300,000), and selection for the ICIS, CIST, and PACIS Doctoral Consortia (2026), among <a href="/awards.html">other awards</a>.
