@@ -56,6 +56,17 @@ permalink: /
     text-justify: inter-word;
   }
 
+  .homepage-banner {
+    margin: 24px 10px 20px;
+  }
+
+  .homepage-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
   .profile-sidebar {
     margin-top: 14px;
     font-size: 13px;
@@ -894,6 +905,10 @@ permalink: /
     He serves as an ad hoc reviewer for leading journals and conferences, and received the <span style="color:#1A5DCB;">Best Reviewer Award at ICIS 2025</span>. Through the <a href="/service.html">IS Reading Group</a>, he has organized 40+ online IS PhD student seminars. In teaching, he was a guest lecturer on blockchain at South China University of Technology and has served as a teaching assistant for multiple courses at HKUST, including undergraduate-level, and DBA-level courses.
   </p>
   </div>
+</div>
+
+<div class="homepage-banner">
+  <img src="/assets/images/homepage-research-banner.png" alt="HKUST Business School and Wharton research banner highlighting Information Systems, AI, Future of Work, and Blockchain" loading="lazy" />
 </div>
 
 <h2 class="focus-heading">Research Focus</h2>
