@@ -904,11 +904,6 @@ article_header: false
 </div>
 
 <h2 class="focus-heading">Research Focus</h2>
-<p class="focus-lede">
-  I work at the intersection of <strong>AI</strong>, <strong>blockchain</strong>, and <strong>FinTech</strong>, studying general-purpose
-  technologies that lower a coordination cost and, in doing so, reopen a governance question. Making work cheaper to
-  coordinate is not the same as making it accountable, and that gap is what my research measures.
-</p>
 <div class="focus-grid">
   <div class="focus-card focus-ai">
     <div class="focus-name">AI and the Enterprise Workforce</div>

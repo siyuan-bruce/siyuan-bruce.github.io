@@ -132,6 +132,17 @@ permalink: /gallery.html
 
 
 <div class="year-section">
+  <h3>2026</h3>
+
+  <div class="event">
+    <h4>Wharton AI Conference, San Francisco, USA</h4>
+    <p>Presenting my job market paper, "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams," at the Wharton AI Conference on the San Francisco campus.</p>
+    <img src="assets/images/gallery/2026_Wharton_AI_SF.jpg" alt="2026 Wharton AI Conference, San Francisco">
+  </div>
+</div>
+
+
+<div class="year-section">
   <h3>2025</h3>
 
   <div class="event">
