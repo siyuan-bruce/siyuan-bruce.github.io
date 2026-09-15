@@ -21,6 +21,16 @@ header:
 
   - titles:
       # @start locale config
+      en      : &EN       Policy
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  政策
+    url: /policy.html
+
+  - titles:
+      # @start locale config
       en      : &EN       Awards
       en-GB   : *EN
       en-US   : *EN
