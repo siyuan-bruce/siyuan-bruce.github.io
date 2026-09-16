@@ -40,6 +40,24 @@ body {
   white-space: nowrap;
 }
 
+/* On mobile, wrap the nav onto multiple centered rows instead of a
+   hidden horizontal scroll, so every item is visible and tappable. */
+@include media-breakpoint-down(md) {
+  .navigation {
+    overflow-x: visible;
+  }
+
+  .navigation > ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 2px;
+  }
+
+  .navigation .navigation__item {
+    padding: 5px 9px;
+  }
+}
+
 /* Page title banner (Homepage, Research, Gallery, etc.): one size everywhere */
 .article__header h1 {
   font-size: map-get($base, font-size-h1);
