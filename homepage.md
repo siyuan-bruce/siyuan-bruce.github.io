@@ -63,6 +63,10 @@ seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wh
     margin: 8px 10px 24px;
   }
 
+  .homepage-banner picture {
+    display: block;
+  }
+
   .homepage-banner img {
     display: block;
     width: 100%;
@@ -865,7 +869,11 @@ seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wh
 </head>
 
 <div class="homepage-banner">
-  <img src="/assets/images/homepage-research-banner.png" alt="HKUST Business School and Wharton research banner highlighting Information Systems, AI, Future of Work, and Blockchain" loading="lazy" />
+  <picture>
+    <!-- Banner is hidden on phones: serve a 1x1 placeholder so they never download it -->
+    <source media="(max-width: 600px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+    <img src="/assets/images/homepage-research-banner.webp" width="2172" height="543" fetchpriority="high" decoding="async" alt="HKUST Business School and Wharton research banner highlighting Information Systems, AI, Future of Work, and Blockchain" />
+  </picture>
 </div>
 
 <div class="container">

@@ -39,6 +39,28 @@
           {%- endif -%} -->
         </ul>
       </nav>
+      <script>
+        /* When the tab bar overflows (mobile), scroll it so the current page's tab comes first. */
+        (function () {
+          var nav = document.querySelector('.header .navigation');
+          if (!nav) return;
+          var first = nav.querySelector('.navigation__item');
+          var active = nav.querySelector('.navigation__item--active');
+          if (!first || !active || active === first) return;
+          var touched = false;
+          ['touchstart', 'pointerdown', 'wheel'].forEach(function (type) {
+            nav.addEventListener(type, function () { touched = true; }, { passive: true });
+          });
+          function showActiveFirst() {
+            if (touched || nav.scrollWidth <= nav.clientWidth) return;
+            nav.scrollLeft = 0;
+            nav.scrollLeft = active.getBoundingClientRect().left - first.getBoundingClientRect().left;
+          }
+          showActiveFirst();
+          if (document.fonts && document.fonts.ready) document.fonts.ready.then(showActiveFirst);
+          window.addEventListener('load', showActiveFirst);
+        })();
+      </script>
       {%- endif -%}
     </div>
   </header>
