@@ -1,7 +1,7 @@
 header:
   - titles: 
       # @start locale config
-      en      : &EN       Homepage
+      en      : &EN       Home
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -31,7 +31,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Awards
+      en      : &EN       Award
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -89,17 +89,7 @@ header:
       zh-Hans : &ZH_HANS  简历
     url: /assets/Bruce_CV.pdf
 
-  # - titles: 
-  #     # @start locale config
-  #     en      : &EN       Resume
-  #     en-GB   : *EN
-  #     en-US   : *EN
-  #     en-CA   : *EN
-  #     en-AU   : *EN
-  #     zh-Hans : &ZH_HANS  Resume
-  #   url: /assets/Bruce_CV_Dec.pdf
-
-  # - titles: 
+  # - titles:
   #     # @start locale config
   #     en      : &EN       Github
   #     en-GB   : *EN
