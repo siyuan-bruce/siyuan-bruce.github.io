@@ -21,6 +21,7 @@ titles:
 key: page-homepage
 permalink: /
 article_header: false
+seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wharton"
 ---
 
 <head>
