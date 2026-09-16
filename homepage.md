@@ -70,6 +70,13 @@ seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wh
     border-radius: 4px;
   }
 
+  /* Hide the banner on mobile to save vertical space */
+  @media (max-width: 600px) {
+    .homepage-banner {
+      display: none;
+    }
+  }
+
   .profile-sidebar {
     margin-top: 14px;
     font-size: 13px;
