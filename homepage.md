@@ -967,6 +967,9 @@ seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wh
       For academic service, he serves as an ad hoc reviewer for journals including <em>Journal of Management Information Systems</em>, <em>Decision Sciences</em>, and <em>International Journal of Electronic Commerce</em>, as well as leading IS conferences (Best Reviewer Award, ICIS 2025). He also runs the <a href="/service.html">IS Reading Group</a> (40+ online IS PhD seminars).
     </p>
     <p>
+      In teaching, he has served as a lab instructor and teaching assistant for <a href="/teaching.html">Coding for Business (ISOM 2020)</a> at HKUST, with student feedback (SFQ) scores for overall teaching satisfaction of 4.27/5 (Fall 2023) and 4.16/5 (Spring 2023, above the ISOM undergraduate average of 3.9). He has also given guest lectures on blockchain at South China University of Technology.
+    </p>
+    <p>
       In industry and policy, he has contributed to several white papers on central bank digital currencies (CBDCs) and quantum computing at the Hong Kong Monetary Authority (HKMA), and collaborated with industry partners including HSBC and other institutions. Before HKUST, he spent two years at HSBC as a full-stack engineer on blockchain projects in the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, reaching the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> (Monetary Authority of Singapore). 
     </p>
   </div>
