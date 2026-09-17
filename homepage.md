@@ -53,6 +53,55 @@ seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wh
     border: 1px solid #ddd;
   }
 
+  /* Hidden gallery entrance on the profile photo */
+  .profile-photo-link {
+    position: relative;
+    display: block;
+  }
+
+  .profile-photo-link img {
+    display: block;
+    transition: filter 0.2s ease;
+  }
+
+  .photo-gallery-badge {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.92);
+    color: #1e3a6e;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+  }
+
+  .profile-photo-link:hover img,
+  .profile-photo-link:focus-visible img {
+    filter: brightness(0.94);
+  }
+
+  .profile-photo-link:hover .photo-gallery-badge,
+  .profile-photo-link:focus-visible .photo-gallery-badge {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Touch screens have no hover, so keep the badge faintly visible there */
+  @media (hover: none) {
+    .photo-gallery-badge {
+      opacity: 0.8;
+      transform: none;
+    }
+  }
+
   .profile-text {
     margin: 10px;
     text-align: justify;
@@ -878,7 +927,11 @@ seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wh
 
 <div class="container">
   <div class="profile-image">
-    <img src="./images/profile3.png" alt="Profile Image" loading="lazy" />
+    <!-- Hidden entrance to the photo gallery: the camera badge appears on hover -->
+    <a class="profile-photo-link" href="/gallery.html" title="More photos" aria-label="View photo gallery">
+      <img src="./images/profile3.png" alt="Profile Image" loading="lazy" />
+      <span class="photo-gallery-badge" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
+    </a>
     <div class="profile-sidebar">
       <div class="sidebar-name">Siyuan (Bruce) Jin <span class="chinese-name">(金思远)</span></div>
       <div class="affil-row">
