@@ -370,16 +370,17 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 24. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
 
 ### Letters
-1. "夏日盛會吸旅客 暑期消費存變數" <a href="https://paper.hket.com/article/4169713">Hong Kong Economic Times (經濟日報)</a>, August 2026.
-2. "端午暑假遊興濃 港迎入境客高峰" <a href="https://paper.hket.com/article/4149054">Hong Kong Economic Times (經濟日報)</a>, June 19, 2026.
-3. "「友善香港」廣傳 提升體驗吸客" <a href="https://paper.hket.com/article/4132723/">Hong Kong Economic Times (經濟日報)</a>, May 21, 2026.
-4. "文體+展會添魅力 港吸遊客穩步增" <a href="https://paper.hket.com/article/4125574/">Hong Kong Economic Times (經濟日報)</a>, May 8, 2026.
-5. "醫療旅遊商機巨 港拓優勢須加鞭" <a href="https://paper.hket.com/article/4109817">Hong Kong Economic Times (經濟日報)</a>, April 5, 2026.
-6. "深化體驗添「黏性」 旅客增長常態化" <a href="https://paper.hket.com/article/4086667">Hong Kong Economic Times (經濟日報)</a>, February 20, 2026.
-7. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
-8. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
-9. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
-10. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
+1. "會展+盛事雙引擎 港添旅遊磁吸力" <a href="https://paper.hket.com/article/4184102/">Hong Kong Economic Times (經濟日報)</a>, August 28, 2026.
+2. "夏日盛會吸旅客 暑期消費存變數" <a href="https://paper.hket.com/article/4169713">Hong Kong Economic Times (經濟日報)</a>, August 2026.
+3. "端午暑假遊興濃 港迎入境客高峰" <a href="https://paper.hket.com/article/4149054">Hong Kong Economic Times (經濟日報)</a>, June 19, 2026.
+4. "「友善香港」廣傳 提升體驗吸客" <a href="https://paper.hket.com/article/4132723/">Hong Kong Economic Times (經濟日報)</a>, May 21, 2026.
+5. "文體+展會添魅力 港吸遊客穩步增" <a href="https://paper.hket.com/article/4125574/">Hong Kong Economic Times (經濟日報)</a>, May 8, 2026.
+6. "醫療旅遊商機巨 港拓優勢須加鞭" <a href="https://paper.hket.com/article/4109817">Hong Kong Economic Times (經濟日報)</a>, April 5, 2026.
+7. "深化體驗添「黏性」 旅客增長常態化" <a href="https://paper.hket.com/article/4086667">Hong Kong Economic Times (經濟日報)</a>, February 20, 2026.
+8. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
+9. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
+10. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
+11. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
 
 
 ### **Patent**
