@@ -1032,7 +1032,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   </p>
   <div class="cv-actions">
     <a class="cv-button" href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
-    <span class="cv-updated">Last updated: August 2026</span>
+    <span class="cv-updated">Last updated: September 2026</span>
   </div>
 </div>
 
