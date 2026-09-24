@@ -22,6 +22,7 @@ key: page-homepage
 permalink: /
 article_header: false
 seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wharton"
+description: "Information Systems PhD candidate at HKUST Business School and visiting scholar at Wharton, studying generative AI, the IT workforce, and blockchain governance."
 ---
 
 <head>
