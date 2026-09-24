@@ -1,0 +1,12 @@
+#!/bin/sh
+# Keep the CV date on the homepage in step with the CV itself.
+#
+# When assets/Bruce_CV.pdf is part of a commit, regenerate _data/cv.yml from
+# the date printed inside the PDF and include it in the same commit.
+#
+# Enable once with:  git config core.hooksPath .githooks
+
+if git diff --cached --name-only | grep -q '^assets/Bruce_CV\.pdf$'; then
+  python3 scripts/update-cv-date.py || exit 1
+  git add _data/cv.yml
+fi
