@@ -24,6 +24,7 @@
   venue: INFORMS CIST Doctoral Consortium
   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
   place: San Francisco, USA
+  time: Friday afternoon
   kind: consortium
 
 - month: Nov
@@ -77,7 +78,7 @@
   venue: INFORMS ISS ISR Paper Development Workshop for Early Career Scholar
   title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
   place: San Francisco, USA
-  speaker: Jinan Lin
+  speaker: Jinan Lin (Wisconsin)
   time: Friday afternoon
   kind: workshop
   url: https://cist2026.github.io/iss-events/
