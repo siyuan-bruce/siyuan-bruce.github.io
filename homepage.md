@@ -265,12 +265,6 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     opacity: 0.75;
   }
 
-  .visit-counter-note {
-    margin-top: 4px;
-    font-size: 12px;
-    color: #666;
-  }
-
   /* CV Section */
   .cv-heading {
     margin: 26px 10px 0;
@@ -1329,9 +1323,9 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 </div>
 
 <div class="visit-counter">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=siyuan-bruce.github.io&title=visitors&color=1A5DCB"
+  <!-- Migration baseline: 30,000 historical visits + 653 from the previous counter (2026-09-26). -->
+  <img src="https://hits.sh/siyuan-bruce.github.io/homepage.svg?label=visitors&amp;extraCount=30653&amp;color=1A5DCB"
        alt="Visitor count" loading="lazy" />
-  <div class="visit-counter-note">30,000+ historical visitors (2022&ndash;2025) + current live counter.</div>
 </div>
 
 
