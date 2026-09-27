@@ -70,3 +70,14 @@
   speaker: Haiting Lin (Zhejiang University)
   time: October 31 to November 1
   kind: conference
+
+- month: Oct
+  day: 30
+  year: 2026
+  venue: INFORMS ISS ISR Paper Development Workshop for Early Career Scholar
+  title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
+  place: San Francisco, USA
+  speaker: Jinan Lin
+  time: Friday afternoon
+  kind: workshop
+  url: https://cist2026.github.io/iss-events/
