@@ -968,7 +968,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       In industry and policy, he has contributed to several white papers on central bank digital currencies (CBDCs) and quantum computing at the Hong Kong Monetary Authority (HKMA), and collaborated with industry partners including HSBC and other institutions. Before HKUST, he spent two years at HSBC as a full-stack engineer on blockchain projects in the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, reaching the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> (Monetary Authority of Singapore).
     </p>
     <p>
-      For academic service, he serves as an ad hoc reviewer for journals including <em>Journal of Management Information Systems</em>, <em>Decision Sciences</em>, and <em>International Journal of Electronic Commerce</em>, as well as leading IS conferences (Best Reviewer Award, ICIS 2025). He also runs the <a href="/service.html">IS Reading Group</a> (40+ online IS PhD seminars).
+      For academic service, he serves as an ad hoc reviewer for journals including <em>Journal of Management Information Systems</em>, <em>Decision Sciences</em>, and <em>International Journal of Electronic Commerce</em>, as well as leading IS conferences <strong style="color:#1A5DCB;">(Best Reviewer Award, ICIS 2025)</strong>. He also runs the <a href="/service.html">IS Reading Group</a> (40+ online IS PhD seminars).
     </p>
   </div>
 </div>

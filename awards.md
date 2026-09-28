@@ -24,6 +24,19 @@ permalink: /awards.html
 
 <head>
 <style>
+  .award-section {
+    margin: 28px 0;
+  }
+
+  .award-section-title {
+    font-size: 21px;
+    line-height: 1.3;
+    color: #1e3a6e;
+    margin: 0 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
   .awards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -74,9 +87,9 @@ permalink: /awards.html
   }
 
   .award-year {
-    position: absolute;
-    top: 11px;
-    right: 12px;
+    position: static;
+    display: block;
+    margin-bottom: 6px;
     font-size: 11.5px;
     font-weight: 600;
     color: #888;
@@ -89,7 +102,7 @@ permalink: /awards.html
     color: #111;
     line-height: 1.35;
     margin-bottom: 3px;
-    padding-right: 56px;
+    padding-right: 0;
   }
 
   .award-org {
@@ -109,7 +122,7 @@ permalink: /awards.html
 
   @media (max-width: 600px) {
     .awards-grid {
-      grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+      grid-template-columns: minmax(0, 1fr);
       gap: 8px;
       margin: 8px 0;
     }
@@ -120,7 +133,7 @@ permalink: /awards.html
 
     .award-title {
       font-size: 13px;
-      padding-right: 48px;
+      padding-right: 0;
     }
 
     .award-org {
@@ -130,42 +143,14 @@ permalink: /awards.html
 </style>
 </head>
 
-<div class="awards-grid">
-  <div class="award-tile cat-research">
-    <span class="award-cat">Research</span>
-    <div class="award-year">2026</div>
-    <div class="award-title">Doctoral Consortium</div>
-    <div class="award-org">PACIS — Pacific Asia Conference on Information Systems</div>
-  </div>
-  <div class="award-tile cat-research">
-    <span class="award-cat">Research</span>
-    <div class="award-year">2026</div>
-    <div class="award-title">Doctoral Consortium</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
-  </div>
-  <div class="award-tile cat-research">
-    <span class="award-cat">Research</span>
-    <div class="award-year">2026</div>
-    <div class="award-title">Doctoral Consortium</div>
-    <div class="award-org">CIST — Conference on Information Systems and Technology</div>
-  </div>
+<section class="award-section" aria-labelledby="awards-research">
+  <h2 id="awards-research" class="award-section-title">Research Awards &amp; Recognition</h2>
+  <div class="awards-grid">
   <div class="award-tile cat-research">
     <span class="award-cat">Research</span>
     <div class="award-year">2026</div>
     <div class="award-title">Global Research Award for Oversea Studies</div>
     <div class="award-org">HKUST</div>
-  </div>
-  <div class="award-tile cat-grant">
-    <span class="award-cat">Grant</span>
-    <div class="award-year">2025</div>
-    <div class="award-title">NSFC Young Student Basic Research Program <span style="font-weight:500;color:#555;">(300K RMB)</span></div>
-    <div class="award-org">National Natural Science Foundation of China</div>
-  </div>
-  <div class="award-tile cat-service">
-    <span class="award-cat">Service</span>
-    <div class="award-year">2025</div>
-    <div class="award-title">Best Reviewer Award</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
   </div>
   <div class="award-tile cat-research">
     <span class="award-cat">Research</span>
@@ -179,12 +164,30 @@ permalink: /awards.html
     <div class="award-title">Best Paper Award</div>
     <div class="award-org">GLOSITH — Global Congress of Special Interest Tourism &amp; Hospitality</div>
   </div>
-  <div class="award-tile cat-service">
-    <span class="award-cat">Service</span>
-    <div class="award-year">2025</div>
-    <div class="award-title">Reviewer Development Workshop</div>
-    <div class="award-org">MIS Quarterly (MISQ)</div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2024</div>
+    <div class="award-title">Best Short Paper Nominee</div>
+    <div class="award-org">ICIS — International Conference on Information Systems</div>
   </div>
+  </div>
+</section>
+
+<section class="award-section" aria-labelledby="awards-grant">
+  <h2 id="awards-grant" class="award-section-title">Research Grants</h2>
+  <div class="awards-grid">
+  <div class="award-tile cat-grant">
+    <span class="award-cat">Grant</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">NSFC Young Student Basic Research Program <span style="font-weight:500;color:#555;">(300K RMB)</span></div>
+    <div class="award-org">National Natural Science Foundation of China</div>
+  </div>
+  </div>
+</section>
+
+<section class="award-section" aria-labelledby="awards-fellowship">
+  <h2 id="awards-fellowship" class="award-section-title">Fellowships &amp; Scholarships</h2>
+  <div class="awards-grid">
   <div class="award-tile cat-fellowship">
     <span class="award-cat">Fellowship</span>
     <div class="award-year">2025</div>
@@ -197,35 +200,11 @@ permalink: /awards.html
     <div class="award-title">Hong Kong PhD Fellowship</div>
     <div class="award-org">Research Grants Council, Hong Kong</div>
   </div>
-  <div class="award-tile cat-research">
-    <span class="award-cat">Research</span>
-    <div class="award-year">2024</div>
-    <div class="award-title">Best Short Paper Nominee</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
-  </div>
   <div class="award-tile cat-fellowship">
     <span class="award-cat">Fellowship</span>
     <div class="award-year">2022 – 2024</div>
     <div class="award-title">PhD Postgraduate Studentship</div>
     <div class="award-org">HKUST</div>
-  </div>
-  <div class="award-tile cat-industry">
-    <span class="award-cat">Industry</span>
-    <div class="award-year">2021</div>
-    <div class="award-title"><a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge" target="_blank" rel="noopener noreferrer" style="color:#111;">Global CBDC Challenge Finalist</a> <span style="font-weight:500;color:#555;">(Top 5%)</span></div>
-    <div class="award-org">Monetary Authority of Singapore</div>
-  </div>
-  <div class="award-tile cat-industry">
-    <span class="award-cat">Industry</span>
-    <div class="award-year">2021</div>
-    <div class="award-title">Top Performer Award</div>
-    <div class="award-org">HSBC</div>
-  </div>
-  <div class="award-tile cat-industry">
-    <span class="award-cat">Industry</span>
-    <div class="award-year">2021</div>
-    <div class="award-title">Role Model Award</div>
-    <div class="award-org">HSBC</div>
   </div>
   <div class="award-tile cat-fellowship">
     <span class="award-cat">Fellowship</span>
@@ -245,4 +224,71 @@ permalink: /awards.html
     <div class="award-title">First-Class Academic Scholarship <span style="font-weight:500;color:#555;">(RMB 4,000)</span></div>
     <div class="award-org">South China University of Technology</div>
   </div>
-</div>
+  </div>
+</section>
+
+<section class="award-section" aria-labelledby="awards-doctoral">
+  <h2 id="awards-doctoral" class="award-section-title">Doctoral Consortia</h2>
+  <div class="awards-grid">
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2026</div>
+    <div class="award-title">Doctoral Consortium</div>
+    <div class="award-org">PACIS — Pacific Asia Conference on Information Systems</div>
+  </div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2026</div>
+    <div class="award-title">Doctoral Consortium</div>
+    <div class="award-org">ICIS — International Conference on Information Systems</div>
+  </div>
+  <div class="award-tile cat-research">
+    <span class="award-cat">Research</span>
+    <div class="award-year">2026</div>
+    <div class="award-title">Doctoral Consortium</div>
+    <div class="award-org">CIST — Conference on Information Systems and Technology</div>
+  </div>
+  </div>
+</section>
+
+<section class="award-section" aria-labelledby="awards-service">
+  <h2 id="awards-service" class="award-section-title">Academic Service &amp; Development</h2>
+  <div class="awards-grid">
+  <div class="award-tile cat-service">
+    <span class="award-cat">Service</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">Best Reviewer Award</div>
+    <div class="award-org">ICIS — International Conference on Information Systems</div>
+  </div>
+  <div class="award-tile cat-service">
+    <span class="award-cat">Service</span>
+    <div class="award-year">2025</div>
+    <div class="award-title">Reviewer Development Workshop</div>
+    <div class="award-org">MIS Quarterly (MISQ)</div>
+  </div>
+  </div>
+</section>
+
+<section class="award-section" aria-labelledby="awards-industry">
+  <h2 id="awards-industry" class="award-section-title">Industry Awards</h2>
+  <div class="awards-grid">
+  <div class="award-tile cat-industry">
+    <span class="award-cat">Industry</span>
+    <div class="award-year">2021</div>
+    <div class="award-title"><a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge" target="_blank" rel="noopener noreferrer" style="color:#111;">Global CBDC Challenge Finalist</a> <span style="font-weight:500;color:#555;">(Top 5%)</span></div>
+    <div class="award-org">Monetary Authority of Singapore</div>
+  </div>
+  <div class="award-tile cat-industry">
+    <span class="award-cat">Industry</span>
+    <div class="award-year">2021</div>
+    <div class="award-title">Top Performer Award</div>
+    <div class="award-org">HSBC</div>
+  </div>
+  <div class="award-tile cat-industry">
+    <span class="award-cat">Industry</span>
+    <div class="award-year">2021</div>
+    <div class="award-title">Role Model Award</div>
+    <div class="award-org">HSBC</div>
+  </div>
+  </div>
+</section>
