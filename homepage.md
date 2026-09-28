@@ -1211,7 +1211,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
         <span class="news-year-count">11 updates</span>
       </div>
       <div class="news-item cat-service">
-        <div class="news-date">Dec 2024</div>
+        <div class="news-date">Dec 2025</div>
         <span class="news-cat">Service</span>
         <div class="news-content">
           Selected to participate in the <strong>MISQ Reviewer Workshop</strong>.

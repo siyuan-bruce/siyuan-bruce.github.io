@@ -48,6 +48,13 @@
 
 - month: Dec
   year: 2026
+  venue: Workshop on Information Systems and Economics (WISE)
+  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  place: Lisbon, Portugal
+  kind: workshop
+
+- month: Dec
+  year: 2026
   venue: ICIS Doctoral Consortium
   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
   place: Lisbon, Portugal
