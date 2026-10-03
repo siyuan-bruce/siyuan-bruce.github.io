@@ -116,10 +116,31 @@ key: page-research
       line-height: 1.6;
     }
 
+    .paper-details .paper-abstract { margin-top: 12px; }
+    .paper-details .paper-abstract__text > p { margin: 0 0 12px; }
+    .paper-details .paper-abstract__text > p:last-child {
+      margin-bottom: 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .paper-details > summary:focus-visible {
+      outline: 2px solid #2b6cb0;
+      outline-offset: 4px;
+      border-radius: 2px;
+    }
+
     .paper-number {
       color: #888;
       margin-right: 8px;
       font-weight: 600;
+    }
+
+    .research-stream-question {
+      color: #1e3a6e;
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 8px 0 24px;
     }
   </style>
 </head>
@@ -136,7 +157,9 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 </p>
 
 
-### Research Agenda 1: Token Platforms
+<h3 id="blockchain-digital-markets">Research Stream 1: Blockchain Governance and Digital Markets</h3>
+
+<p class="research-stream-question">How do blockchain’s distinctive features shape value in digital markets?</p>
 
 <ul>
   <li class="paper-item" data-number="A1">
@@ -151,8 +174,12 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop], South China University of Technology</p>
     <details class="paper-details">
       <summary>Abstract</summary>
-      <p>Environmental sustainability is a critical concern in IT infrastructure governance, yet its implications for blockchain infrastructure platforms (BIPs), such as Bitcoin, remain insufficiently understood. We first provide evidence that Tesla’s 2021 suspension of Bitcoin payments due to its negative environmental impact increases investor awareness of Bitcoin and other BIPs’ environmental impacts. Consistent with nonpecuniary preference theory in behavioral finance, we find that following the suspension, BIPs, especially energy-intensive proof-of-work-based platforms, experience losses in token valuations. We further show that investors value environmental disclosures more positively after the suspension, and BIPs substantially increase environmental disclosures. Our findings highlight investor awareness as a potential policy lever for mitigating blockchain infrastructures’ environmental impacts.</p>
-      <p><strong>Keywords:</strong> blockchain platform, decentralized platform, environmental sustainability, IT infrastructure, investor awareness, nonpecuniary preference</p>
+      <div class="paper-abstract">
+        <div class="paper-abstract__text">
+          <p>We study how environmental concerns shape the value of blockchain infrastructure. After Tesla suspended Bitcoin payments over sustainability concerns, token values fell, especially for energy-intensive proof-of-work platforms. Investors also valued environmental disclosures more positively, and platforms increased those disclosures. Consistent with nonpecuniary preference theory, the findings show how investor awareness can influence decentralized infrastructure through token markets.</p>
+          <p><strong>Keywords:</strong> blockchain infrastructure, sustainability, nonpecuniary preference</p>
+        </div>
+      </div>
     </details>
   </li>
 
@@ -171,8 +198,12 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <details class="paper-details">
       <summary>Abstract</summary>
-      <p>Traditional centralized models allow consumers to provide input, but are often limited by selection biases. Instead, blockchain-based decentralized models extend all consumer voice but face sustainability challenges including unsustained contributions and voting power concentration. Utilizing data from a blockchain-based K-pop platform, this study investigates whether fans continue contributing to the platform after initially participating in voting rounds. Findings indicate that voting power becomes less concentrated over time, likely because voters who have smaller voting power value the equity of decentralized voting and increase both tangible and intangible contributions. Conversely, voters who have larger voting power experience expectation disconfirmation; they begin with high expectations about influencing outcomes but if their preferences are disappointed, they decrease tangible contributions while maintaining intangible contributions. We use value cocreation and expectation disconfirmation theory to explain the phenomenon. This study contributes to blockchain and user innovation research and offers practical insights for platform designers aiming to create equitable, sustainable consumer-driven ecosystems.</p>
-      <p><strong>Keywords:</strong> blockchain, continuance contribution, expectation disconfirmation model, K-pop, user innovation, voting, value cocreation</p>
+      <div class="paper-abstract">
+        <div class="paper-abstract__text">
+          <p>We study continued participation in a blockchain-based K-pop platform. Smaller voters increase financial and nonfinancial contributions, while large voters whose preferred outcomes lose reduce purchases but maintain nonfinancial engagement. These patterns are consistent with expectation disconfirmation: large voters expect more influence, making losses more disappointing. The findings help explain how voting power becomes less concentrated over time and inform the design of sustainable, consumer-driven platforms.</p>
+          <p><strong>Keywords:</strong> DAO governance, expectation disconfirmation, consumer engagement</p>
+        </div>
+      </div>
     </details>
   </li>
 
@@ -187,12 +218,12 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50).</p>
     <details class="paper-details">
       <summary>Abstract</summary>
-      <p>
-        Digital asset marketplaces, such as NFT marketplaces, merge primary and secondary markets, enabling resales. While resale royalties in such resale-centric settings are well studied, the impact of expanding primary supply is less understood. Cross-side network theory predicts that more supply should raise demand; however, a substitution effect may emerge. When primary supply competes with secondary listings, greater primary supply can reduce secondary resale opportunities and thereby dampen demand. We study this mechanism using Foundation's removal of invitation-only onboarding on May 19, 2022, with SuperRare as a comparison market. Using a difference-in-differences design, we find that Foundation experiences a 1.9% average weekly decline in bids, 8.8% among active traders, consistent with the substitution effect. Traders with greater resale experience bid less, suggesting heightened uncertainty about resale profits. When prior resales are successful, traders are more willing to bid on riskier NFTs from new minters or those with potential copyright concerns. On the supply side, minters reduce listings by 7.5%, with larger declines among those who had invitation privileges. Our results inform supply controls of resale-focused marketplaces.
-      </p>
-      <p>
-        <strong>Keywords:</strong> Cross-Side Network Effect, Digital Asset Marketplace, NFT Marketplace, Resale, Supply Shock
-      </p>
+      <div class="paper-abstract">
+        <div class="paper-abstract__text">
+          <p>Can more primary-market supply reduce demand? We study Foundation’s removal of invitation-only onboarding, using SuperRare as a comparison. After entry opened, bids and listings declined, with larger bidding declines among active traders. The evidence is consistent with a resale channel: new primary listings compete with secondary listings, reducing expected resale opportunities. The study shows how primary-market entry policy can reshape secondary-market competition and demand.</p>
+          <p><strong>Keywords:</strong> digital assets, primary-market policy, secondary-market competition</p>
+        </div>
+      </div>
     </details>
   </li>
   <!--
@@ -224,11 +255,23 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 </ul>
 
-### Research Agenda 2: Enterprise IT
+<h3 id="ai-organization-of-work">Research Stream 2: AI and the Organization of Work</h3>
+
+<p class="research-stream-question">How does AI reshape the organization of human expertise?</p>
 
 <ul>
-  <!-- Newly added papers -->
-  <li class="paper-item" data-number="B1">
+  <li class="paper-item" data-number="B1" id="codified-expertise">
+    <div class="paper-title">
+      Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.
+    </div>
+    <div class="paper-authors">
+      <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
+    </div>
+    <p class="conference-info">Presentations: [WISE 2026, Lisbon], [ICIS 2026 Doctoral Consortium, Lisbon], [INFORMS Annual Meeting 2026, San Francisco], [CIST 2026 Doctoral Consortium, San Francisco], [ISPOC Job Market Paper Presentation 2026], [Wharton AI Conference 2026, San Francisco], [PACIS 2026 Doctoral Consortium], [2026 HKUST IS Summer Workshop]</p>
+    <p class="status-info"><strong>Job Market Paper</strong></p>
+  </li>
+
+  <li class="paper-item" data-number="B2">
     <div class="paper-title">
       AI Reviewer and Standard Diffusion.
     </div>
@@ -240,20 +283,51 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">In preparation for submission to <em>Management Science</em>.</p>
   </li>
 
-  <li class="paper-item" data-number="B2">
+  <li class="paper-item" data-number="B3">
+    <div class="paper-title">
+      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
+    </div>
+    <div class="paper-authors">
+      Joint with  Wei Thoo Yue, Mingxi Ye, Ziyuan Li,
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
+    </div>
+    <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
+    <p class="conference-info">Presentations: [ICIS 2025]</p>
+    <p class="status-info">Under preparation.</p>
+  </li>
+
+  <!-- <li class="paper-item" data-number="B4">
+    <div class="paper-title">
+      Human Capital Competition, and the Signaling Value of AI Adoption
+    </div>
+    <div class="paper-authors">
+      Haochen Jiang, <strong>Siyuan Jin</strong>, Wei Thoo Yue.
+    </div>
+  </li> -->
+</ul>
+
+<h3 id="other-research">Other Research</h3>
+
+<ul>
+  <li class="paper-item" data-number="C1">
     <div class="paper-title">
       From Hype to Strategy: Using Extensional Representation Encoding to Evaluate Quantum Computing's Business Value.
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, 
+      <strong>Siyuan Jin</strong>,
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
       Yuhan Huang, Qiming Shao, Yong Xia.
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
     <p class="status-info">Accepted at <em>ACM Transactions on Management Information Systems</em> (TMIS).</p>
   </li>
 
-  <li class="paper-item" data-number="B3">
+</ul>
+
+<h4 id="other-working-papers">Other Working Papers</h4>
+
+<ul>
+  <li class="paper-item" data-number="C2" id="mobile-widget-adoption">
     <div class="paper-title">
       Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption.
     </div>
@@ -264,55 +338,17 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Working paper.</p>
   </li>
 
-  <!-- <li class="paper-item" data-number="B5">
+  <!-- <li class="paper-item" data-number="C3">
     <div class="paper-title">
       Not Alone Online: The Effect of Human (Virtual) Peer on E-Learning Platforms.
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee, 
+      <strong>Siyuan Jin</strong>, Xincheng Ma, Dongwon Lee,
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
   </li> -->
 
 </ul>
-
-### Research Agenda 3: Generative AI
-<ul>
-  <li class="paper-item" data-number="C1">
-    <div class="paper-title">
-      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
-    </div>
-    <div class="paper-authors">
-      Joint with  Wei Thoo Yue, Mingxi Ye, Ziyuan Li, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
-    </div>
-    <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
-    <p class="conference-info">Presentations: [ICIS 2025]</p>
-    <p class="status-info">Under preparation.</p>
-  </li>
-
-   <li class="paper-item" data-number="C2">
-    <div class="paper-title">
-      Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.
-    </div>
-    <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
-    </div>
-    <p class="conference-info">Presentations: [WISE 2026, Lisbon], [ICIS 2026 Doctoral Consortium, Lisbon], [INFORMS Annual Meeting 2026, San Francisco], [CIST 2026 Doctoral Consortium, San Francisco], [ISPOC Job Market Paper Presentation 2026], [Wharton AI Conference 2026, San Francisco], [PACIS 2026 Doctoral Consortium], [2026 HKUST IS Summer Workshop]</p>
-    <p class="status-info"><strong>Job Market Paper</strong></p>
-  </li>
-
-  <!-- <li class="paper-item" data-number="C3">
-    <div class="paper-title">
-      Human Capital Competition, and the Signaling Value of AI Adoption
-    </div>
-    <div class="paper-authors">
-      Haochen Jiang, <strong>Siyuan Jin</strong>, Wei Thoo Yue.
-    </div>
-  </li> -->
-</ul>
-
-
 
 ### **Policy Papers**
 

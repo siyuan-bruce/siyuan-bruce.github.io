@@ -887,6 +887,19 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 
   .focus-card.focus-ai         { --focus-color: #1e3a6e; }
   .focus-card.focus-blockchain { --focus-color: #2d6a3e; }
+  .focus-stream-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #666;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  .focus-name a {
+    color: inherit;
+  }
+
   .focus-name {
     font-size: 14px;
     font-weight: 700;
@@ -962,7 +975,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School (University of Pennsylvania) with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
     </p>
     <p>
-      His research spans two streams: AI and IT workforce governance, and blockchain infrastructure and application governance. His methods include econometrics and experimental methods. His work appears in leading IS journals, including <em>Journal of Management Information Systems</em> (JMIS, FT50) and <em>ACM Transactions on Management Information Systems</em> (TMIS), and top conferences with best-paper nominations at ICIS 2024 and 2025. His honors include the Hong Kong PhD Fellowship (2024), a 2025 NSFC Young Student Basic Research Program Grant (RMB 300,000), and selection for the ICIS, CIST, and PACIS Doctoral Consortia (2026), among <a href="/awards.html">other awards</a>. 
+      His research spans two streams: blockchain governance and digital markets, and AI and the organization of work. His methods include econometrics and experimental methods. His work appears in leading IS journals, including <em>Journal of Management Information Systems</em> (JMIS, FT50) and <em>ACM Transactions on Management Information Systems</em> (TMIS), and top conferences with best-paper nominations at ICIS 2024 and 2025. His honors include the Hong Kong PhD Fellowship (2024), a 2025 NSFC Young Student Basic Research Program Grant (RMB 300,000), and selection for the ICIS, CIST, and PACIS Doctoral Consortia (2026), among <a href="/awards.html">other awards</a>.
     </p>
     <p>
       In industry and policy, he has contributed to several white papers on central bank digital currencies (CBDCs) and quantum computing at the Hong Kong Monetary Authority (HKMA), and collaborated with industry partners including HSBC and other institutions. Before HKUST, he spent two years at HSBC as a full-stack engineer on blockchain projects in the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, reaching the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> (Monetary Authority of Singapore).
@@ -973,25 +986,27 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   </div>
 </div>
 
-<h2 class="focus-heading">Research Focus</h2>
+<h2 class="focus-heading">Two Research Streams</h2>
 <div class="focus-grid">
-  <div class="focus-card focus-ai">
-    <div class="focus-name">AI and the Enterprise Workforce</div>
-    <div class="focus-desc">
-      How generative AI redistributes expertise, coordination, and visibility inside software organizations, and who gains when it does.
-    </div>
-    <div class="focus-evidence">
-      Job market paper on generative AI in distributed teams &middot; Principal Investigator, NSFC grant
-    </div>
-  </div>
-
   <div class="focus-card focus-blockchain">
-    <div class="focus-name">Blockchain Governance</div>
+    <div class="focus-stream-label">Stream 1</div>
+    <div class="focus-name"><a href="/research.html#blockchain-digital-markets">Blockchain Governance and Digital Markets</a></div>
     <div class="focus-desc">
-      How the design of decentralized platforms shapes participation, accountability, and where value accrues.
+      How do blockchain’s distinctive features shape value in digital markets?
     </div>
     <div class="focus-evidence">
       <em>Journal of Management Information Systems</em> &middot; Two second-round revisions at <em>Information Systems Research</em>
+    </div>
+  </div>
+
+  <div class="focus-card focus-ai">
+    <div class="focus-stream-label">Stream 2</div>
+    <div class="focus-name"><a href="/research.html#ai-organization-of-work">AI and the Organization of Work</a></div>
+    <div class="focus-desc">
+      How does AI reshape the organization of human expertise?
+    </div>
+    <div class="focus-evidence">
+      Job market paper on generative AI in distributed teams &middot; Principal Investigator, NSFC grant
     </div>
   </div>
 </div>
