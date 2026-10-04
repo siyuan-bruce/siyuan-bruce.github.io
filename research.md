@@ -322,11 +322,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Accepted at <em>ACM Transactions on Management Information Systems</em> (TMIS).</p>
   </li>
 
-</ul>
-
-<h4 id="other-working-papers">Other Working Papers</h4>
-
-<ul>
   <li class="paper-item" data-number="C2" id="mobile-widget-adoption">
     <div class="paper-title">
       Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption.
@@ -357,7 +352,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 ### **Refereed Conferences & Workshops**
 
-1. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Workshop on Information Systems and Economics (WISE 2026)*, Lisbon, Portugal, December 2026.
+1. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Workshop on Information Systems and Economics (WISE 2026)*, Lisbon, Portugal, Dec 16--18, 2026.
 
 2. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *International Conference on Information Systems (ICIS 2026) Doctoral Consortium*, Lisbon, Portugal, Dec 9--12, 2026.
 

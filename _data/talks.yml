@@ -47,10 +47,12 @@
   kind: seminar
 
 - month: Dec
+  day: "16–18"
   year: 2026
   venue: Workshop on Information Systems and Economics (WISE)
   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
   place: Lisbon, Portugal
+  time: December 16 to 18
   kind: workshop
 
 - month: Dec
