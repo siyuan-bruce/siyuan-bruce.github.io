@@ -285,15 +285,15 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   <li class="paper-item" data-number="B3">
     <div class="paper-title">
-      Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Large Enterprise.
+      AI for Me, Gains for Us: Complementarity in Generative AI Teams.
     </div>
     <div class="paper-authors">
-      Joint with  Wei Thoo Yue, Mingxi Ye, Ziyuan Li,
+      Eros Ye, <strong>Siyuan Jin</strong>, Haochen Jiang, Wei Thoo Yue,
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
     </div>
     <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
     <p class="conference-info">Presentations: [ICIS 2025]</p>
-    <p class="status-info">Under preparation.</p>
+    <p class="status-info">Under Review at <em>Management Science</em>.</p>
   </li>
 
   <!-- <li class="paper-item" data-number="B4">
