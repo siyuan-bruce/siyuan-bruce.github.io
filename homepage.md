@@ -975,7 +975,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School (University of Pennsylvania) with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
     </p>
     <p>
-      His research spans two streams: blockchain governance and digital markets, and AI and the organization of work. His methods include econometrics and experimental methods. His work appears in leading IS journals, including <em>Journal of Management Information Systems</em> (JMIS, FT50) and <em>ACM Transactions on Management Information Systems</em> (TMIS), and top conferences with best-paper nominations at ICIS 2024 and 2025. His honors include the Hong Kong PhD Fellowship (2024), a 2025 NSFC Young Student Basic Research Program Grant (RMB 300,000), and selection for the ICIS, CIST, and PACIS Doctoral Consortia (2026), among <a href="/awards.html">other awards</a>.
+      His research asks how emerging technologies shape user and firm decisions, in two streams. The first asks how blockchain&rsquo;s distinctive features create value in digital markets. The second asks how generative AI reshapes the organization of expertise inside the firm: how senior and junior developers use AI, how AI changes the design of software teams across time zones and seniority levels, and how firms oversee AI-assisted work. His work appears in leading IS journals, including <em>Journal of Management Information Systems</em> (JMIS, FT50) and <em>ACM Transactions on Management Information Systems</em> (TMIS), and top conferences with best-paper nominations at ICIS 2024 and 2025. His honors include the Hong Kong PhD Fellowship (2024), a 2025 NSFC Young Student Basic Research Program Grant (RMB 300,000), and selection for the ICIS, CIST, and PACIS Doctoral Consortia (2026), among <a href="/awards.html">other awards</a>.
     </p>
     <p>
       In industry and policy, he has contributed to several white papers on central bank digital currencies (CBDCs) and quantum computing at the Hong Kong Monetary Authority (HKMA), and collaborated with industry partners including HSBC and other institutions. Before HKUST, he spent two years at HSBC as a full-stack engineer on blockchain projects in the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, reaching the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> (Monetary Authority of Singapore).
@@ -1006,7 +1006,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       How does AI reshape the organization of human expertise?
     </div>
     <div class="focus-evidence">
-      Job market paper on generative AI in distributed teams &middot; Principal Investigator, NSFC grant
+      Job market paper on generative AI in distributed teams &middot; Principal Investigator, NSFC grant on software team design in the GenAI era
     </div>
   </div>
 </div>
