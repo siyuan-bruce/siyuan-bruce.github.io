@@ -226,13 +226,12 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       </div>
     </details>
   </li>
-  <!--
   <li class="paper-item" data-number="A4">
     <div class="paper-title">
-      Crisis, Transparency, and User Engagement: An Empirical Analysis of Stablecoin Platforms.
+      Crisis, Transparency, and User Engagement.
     </div>
     <div class="paper-authors">
-      <strong>Siyuan Jin</strong>, Yuying Cai, Luying Qiu, 
+      <strong>Siyuan Jin</strong>, Yuying Cai, Iris Qiu, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">In preparation for submission.</p>
@@ -241,9 +240,9 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <summary>Abstract</summary>
       <p>Public blockchains with smart contract functionality have revolutionized IT operations by enabling fully algorithmic processes and providing high transparency through realtime and detailed information disclosure. Yet, the impact of this IT operational model on user engagement remains largely unexplored. Leveraging the context of stablecoin platforms, particularly in light of the Terra-LUNA crisis, we construct a large-scale individual-level panel dataset from April 12 to June 1, 2022, and apply a cross-platform difference-in-differences approach. We find that, during crises, users can effectively distinguish between algorithmic and institutional IT operations, as well as their respective types of operational transparency. We also find that the presence of attackers switches user preferences for operational transparency. Higher levels of transparency, characterized by frequent and detailed information disclosures, may be perceived as catalysts for attacks in the post-crisis period, significantly impacting user engagement.</p>
     </details>
-  </li> -->
+  </li>
 
-  <li class="paper-item" data-number="A4">
+  <li class="paper-item" data-number="A5">
     <div class="paper-title">
      Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi.
     </div>
@@ -295,6 +294,17 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="conference-info">Presentations: [ICIS 2025]</p>
   </li>
 
+  <li class="paper-item" data-number="B4">
+    <div class="paper-title">
+      Scaling Before Gains: AI Adoption and Team Expansion.
+    </div>
+    <div class="paper-authors">
+      Haochen Jiang, <strong>Siyuan Jin</strong>, Eros Ye, Wei Thoo Yue.
+    </div>
+    <p class="conference-info">Presentations: [CIST 2026, San Francisco]</p>
+    <p class="status-info">In preparation for submission.</p>
+  </li>
+
   <!-- <li class="paper-item" data-number="B4">
     <div class="paper-title">
       Human Capital Competition, and the Signaling Value of AI Adoption
@@ -329,7 +339,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu.
     </div>
     <p class="conference-info">Presentations: [CIST 2026, San Francisco], [2026 MISQ Virtual PDW], [2026 CNAIS ISR Paper Development Workshop (UNNC)], <a href="https://cist2026.github.io/iss-events/">[2026 INFORMS ISS ISR Paper Development Workshop for Early Career Scholar]</a></p>
-    <p class="status-info">Working paper.</p>
+    <p class="status-info">In preparation for submission.</p>
   </li>
 
   <!-- <li class="paper-item" data-number="C3">
@@ -346,7 +356,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 ### **Policy Papers**
 
-<p style="font-size:15px;color:#444;"><em>My policy and government-facing work now has a dedicated page: <strong><a href="/policy.html">Policy &amp; Government Impact</a></strong>, covering the HKMA white papers, e-HKD / CBDC studies, the MAS Global CBDC Challenge, and Hong Kong tourism-policy work.</em></p>
+<p style="font-size:15px;color:#444;"><em>My policy and government-facing work now has a dedicated page: <strong><a href="/policy.html">Policy &amp; Government Impact</a></strong>, covering the HKMA white papers, e-HKD / CBDC studies, the MAS Global CBDC Challenge, and Hong Kong tourism-policy work, including my column in the Hong Kong Economic Times (經濟日報).</em></p>
 
 
 ### **Refereed Conferences & Workshops**
@@ -402,20 +412,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 25. **Siyuan Jin**, Yong Xia, Philip Intallura, Botong Xu. "A UTXO-based Sharding Method for Stablecoin." *IEEE International Conference on Blockchain Computing and Applications (BCCA 2022)*, San Antonio, USA. <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a>
 
 26. Marc Dordal i Carreras, **Siyuan Jin**, Kohei Kawaguchi. "Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets." *International Conference on Central Bank Digital Currency and Payment Systems*.
-
-### Letters
-1. "會展+盛事雙引擎 港添旅遊磁吸力" <a href="https://paper.hket.com/article/4184102/">Hong Kong Economic Times (經濟日報)</a>, August 28, 2026.
-2. "夏日盛會吸旅客 暑期消費存變數" <a href="https://paper.hket.com/article/4169713">Hong Kong Economic Times (經濟日報)</a>, August 2026.
-3. "端午暑假遊興濃 港迎入境客高峰" <a href="https://paper.hket.com/article/4149054">Hong Kong Economic Times (經濟日報)</a>, June 19, 2026.
-4. "「友善香港」廣傳 提升體驗吸客" <a href="https://paper.hket.com/article/4132723/">Hong Kong Economic Times (經濟日報)</a>, May 21, 2026.
-5. "文體+展會添魅力 港吸遊客穩步增" <a href="https://paper.hket.com/article/4125574/">Hong Kong Economic Times (經濟日報)</a>, May 8, 2026.
-6. "醫療旅遊商機巨 港拓優勢須加鞭" <a href="https://paper.hket.com/article/4109817">Hong Kong Economic Times (經濟日報)</a>, April 5, 2026.
-7. "深化體驗添「黏性」 旅客增長常態化" <a href="https://paper.hket.com/article/4086667">Hong Kong Economic Times (經濟日報)</a>, February 20, 2026.
-8. "個性化體驗吸客 港節慶IP添魅力" <a href="https://paper.hket.com/article/4073859">Hong Kong Economic Times (經濟日報)</a>, January 24, 2026.
-9. "節慶添「情緒價值」 提升軟實力吸客" <a href="https://paper.hket.com/article/4058462">Hong Kong Economic Times (經濟日報)</a>, December 24, 2025.
-10. "「高情緒價值」體驗 吸客遊港新引擎" <a href="https://paper.hket.com/article/4048872">Hong Kong Economic Times (經濟日報)</a>, December 5, 2025.
-11. "文娛創新增體驗 吸旅客「多留一晚」" <a href="https://paper.hket.com/article/4034074/">Hong Kong Economic Times (經濟日報)</a>, November 7, 2025.
-
 
 ### **Patent**
    
