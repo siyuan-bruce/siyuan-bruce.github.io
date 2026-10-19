@@ -2,6 +2,11 @@
 button[hidden]{display:none}@media(max-width:600px){header{flex-wrap:wrap}header nav{flex:1 1 100%;margin-left:0;justify-content:flex-start;flex-wrap:wrap}header nav button{font-size:12px;padding:9px 12px}}
 
 .card-quantity{display:block;margin-top:12px;min-height:48px;cursor:pointer}
+.quick-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0;padding:16px 0;border-top:1px solid #aaa;border-bottom:1px solid #aaa}
+.quick-facts dt{font:12px/1.4 Arial,Helvetica,sans-serif;margin-bottom:7px}.quick-facts dd{margin:0;font:26px/1.2 Georgia,'Times New Roman',serif}
+.sheet .status-note{border-left:3px solid #000;padding:9px 14px;background:#f4f3ef;margin:18px 0}
+.step-count{font:11px/1.4 Arial,Helvetica,sans-serif;margin-bottom:9px}
+@media(max-width:800px){.sidebar{display:none}.quick-facts{gap:12px}.quick-facts dt{font-size:11px}.quick-facts dd{font-size:23px}}
 
 /* Monochrome, condition-invariant experimental diagrams. */
 .experiment-visual{margin:28px 0;padding:20px 0 15px;border-top:3px solid #000;border-bottom:2px solid #000;color:#000}
