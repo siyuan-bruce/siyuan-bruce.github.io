@@ -95,7 +95,8 @@ body[data-mode="participant"]{background:#f6f5f2}
 .welcome-steps li{display:flex;gap:16px;align-items:center;padding:15px 0;border-bottom:1px solid #ccc;font:15px/1.5 Arial,Helvetica,sans-serif}
 .welcome-steps li span{display:grid;place-items:center;width:30px;height:30px;border:1px solid #000;border-radius:50%;font:15px Arial,Helvetica,sans-serif;flex-shrink:0}
 .scenario-notice{padding:14px 16px;background:#f4f3ef;border-left:3px solid #000}
-.participant-footer{max-width:880px;min-height:80px;padding:18px 0;align-items:center}
+.participant-footer{max-width:880px;min-height:80px;padding:18px 0;align-items:center;justify-content:flex-end}
+.participant-footer:has(#leaveActivity[hidden]){display:none}
 .text-button{font:12px Arial,Helvetica,sans-serif;background:transparent;border:0;border-bottom:1px solid #000;padding:5px 0;min-height:36px}
 .completion-mark{display:grid;place-items:center;width:42px;height:42px;border:1.5px solid #000;border-radius:50%;font:25px Arial,Helvetica,sans-serif;margin-bottom:24px}
 .completion-note{border-top:1px solid #ccc;margin-top:32px;padding-top:20px}
