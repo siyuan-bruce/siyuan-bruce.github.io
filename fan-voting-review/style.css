@@ -65,3 +65,20 @@ button[hidden]{display:none}@media(max-width:600px){header{flex-wrap:wrap}header
 .allocation-totals{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:17px 0}.allocation-totals strong{display:block;font:25px Georgia}.allocation-totals span,.token-equation span{display:block;font:11px/1.5 Arial,Helvetica,sans-serif;margin-top:5px}
 .token-equation{display:grid;grid-template-columns:1fr 20px 1fr 20px 1fr;gap:10px;align-items:center;padding-top:18px;border-top:1px solid #aaa;text-align:center}.token-equation strong{display:block;font:28px Georgia}.token-equation b{font:22px Georgia}
 @media(max-width:600px){.holding-flow{grid-template-columns:1fr;gap:12px}.visual-arrow{transform:rotate(90deg);font-size:25px}.wallet-visual .holding-state{grid-template-columns:1fr;gap:4px}.poll-options{gap:10px}.poll-option{padding:14px 7px}.poll-option.poll-selected{padding:13px 6px}.poll-option h3{font-size:12px}.poll-status{font-size:11px}.budget-rail{gap:2px;height:30px}.token-equation{gap:5px;grid-template-columns:1fr 12px 1fr 12px 1fr}.token-equation strong{font-size:24px}.token-equation span{font-size:10px}.experiment-visual{margin:24px 0}.sheet .poll-summary{font-size:17px}}
+/* Choice cartoons and the common post-result sequence. */
+.member-icon.avatar-icon{width:58px;height:64px;fill:#efefeb;stroke:#000;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.avatar-icon .avatar-eye{fill:#000;stroke:none}.avatar-icon .avatar-face{fill:none}
+.purpose-candidate{min-height:190px}.purpose-candidate .member-icon.avatar-icon{width:58px;height:64px;margin-bottom:10px}
+.purpose-candidate h3{min-height:49px}.purpose-candidate h3 span{display:block;font:11px/1.4 Arial,Helvetica,sans-serif;margin-top:5px}
+.candidate-winner{border:2px solid #000;background:#f2f2ee}
+.candidate-status{font:700 11px/1.4 Arial,Helvetica,sans-serif;margin-top:10px;display:block}
+.result-candidate{justify-content:flex-start}
+.poll-result-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:24px;align-items:center}
+.banner-photo-placeholder{width:57px;height:72px}.banner-photo-placeholder .member-icon.avatar-icon{width:48px;height:56px}
+.banner-question{font:30px/1 Georgia,'Times New Roman',serif}
+.homepage-banner{min-height:100px}
+.cast-party .member-icon.avatar-icon{width:54px;height:60px}
+.anchors-three{gap:8px;max-width:356px}.anchors-three span{flex:1}.anchors-three span:nth-child(2){text-align:center}.anchors-three span:last-child{text-align:right}
+.preview-config{grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto}
+@media(max-width:800px){.preview-config{grid-template-columns:1fr}}
+@media(max-width:600px){.purpose-candidate{min-height:170px;padding:14px 8px 9px}.purpose-candidate h3{min-height:45px}.poll-result-layout{grid-template-columns:1fr;gap:16px}.anchors-three{font-size:10px}.cast-party .member-icon.avatar-icon{width:48px;height:54px}}
