@@ -82,3 +82,23 @@ button[hidden]{display:none}@media(max-width:600px){header{flex-wrap:wrap}header
 .preview-config{grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto}
 @media(max-width:800px){.preview-config{grid-template-columns:1fr}}
 @media(max-width:600px){.purpose-candidate{min-height:170px;padding:14px 8px 9px}.purpose-candidate h3{min-height:45px}.poll-result-layout{grid-template-columns:1fr;gap:16px}.anchors-three{font-size:10px}.cast-party .member-icon.avatar-icon{width:48px;height:54px}}
+/* Participant-facing interface: no researcher navigation or future-step sidebar. */
+body[data-mode="participant"]{background:#f6f5f2}
+.participant-header{max-width:960px;height:94px;padding:20px 40px}
+.participant-main{max-width:960px;padding:42px 40px 54px;min-height:calc(100vh - 174px)}
+.participant-main .study-layout{display:block}
+.participant-main .sheet{padding:38px 44px;min-height:430px;border-color:#d6d4cd;border-top:3px solid #000}
+.participant-main .welcome-sheet{max-width:790px;margin:0 auto;padding:44px}
+.participant-main .welcome-sheet h1{font-size:44px}
+.participant-main .welcome-sheet .lead{font-size:19px;max-width:48ch}
+.welcome-steps{list-style:none;padding:0;margin:28px 0 32px;border-top:1px solid #ccc}
+.welcome-steps li{display:flex;gap:16px;align-items:center;padding:15px 0;border-bottom:1px solid #ccc;font:15px/1.5 Arial,Helvetica,sans-serif}
+.welcome-steps li span{display:grid;place-items:center;width:30px;height:30px;border:1px solid #000;border-radius:50%;font:15px Arial,Helvetica,sans-serif;flex-shrink:0}
+.scenario-notice{padding:14px 16px;background:#f4f3ef;border-left:3px solid #000}
+.participant-footer{max-width:880px;min-height:80px;padding:18px 0;align-items:center}
+.text-button{font:12px Arial,Helvetica,sans-serif;background:transparent;border:0;border-bottom:1px solid #000;padding:5px 0;min-height:36px}
+.completion-mark{display:grid;place-items:center;width:42px;height:42px;border:1.5px solid #000;border-radius:50%;font:25px Arial,Helvetica,sans-serif;margin-bottom:24px}
+.completion-note{border-top:1px solid #ccc;margin-top:32px;padding-top:20px}
+.sheet .completion-note p{font-size:14px}
+@media(max-width:800px){.participant-header{padding:18px 22px;height:86px}.participant-main{padding:26px 18px 38px}.participant-main .sheet,.participant-main .welcome-sheet{padding:28px 24px}.participant-footer{margin:0 18px;padding:16px 4px;flex-direction:row;align-items:center}.participant-main .welcome-sheet h1{font-size:36px}}
+@media(max-width:480px){.participant-main{padding:20px 12px 30px}.participant-main .sheet,.participant-main .welcome-sheet{padding:26px 20px}.participant-main .actions .primary{width:100%;min-height:48px}.participant-main .sheet h1{font-size:30px}.participant-main .welcome-sheet .lead{font-size:18px}.participant-footer{margin:0 14px;gap:15px}.participant-main .experiment-visual{margin-left:0;margin-right:0}}
