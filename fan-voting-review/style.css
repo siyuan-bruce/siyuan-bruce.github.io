@@ -11,6 +11,22 @@ button[hidden]{display:none}@media(max-width:600px){header{flex-wrap:wrap}header
 @media(max-width:800px){.sidebar{display:none}.quick-facts{gap:12px}.quick-facts dt{font-size:11px}.quick-facts dd{font-size:23px}}
 
 /* Monochrome, condition-invariant experimental diagrams. */
+.poll-purpose-flow{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);gap:16px;align-items:center}
+.purpose-candidates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.purpose-candidate{min-width:0;min-height:142px;padding:18px 8px 12px;border:1px solid #aaa;text-align:center;display:flex;align-items:center;justify-content:center;flex-direction:column}
+.purpose-candidate .member-icon{width:43px;height:43px;margin-bottom:13px}
+.purpose-candidate h3{font:700 12px/1.45 Arial,Helvetica,sans-serif;margin:0;min-height:35px}
+.purpose-arrow{text-align:center;font:11px/1.4 Arial,Helvetica,sans-serif}
+.purpose-arrow span{display:block;margin-bottom:7px}.purpose-arrow svg{display:block;width:100%;height:30px;fill:none;stroke:#000;stroke-width:1.4}
+.homepage-preview{min-width:0;border:1px solid #777;background:#fff;padding:12px}
+.homepage-preview-title{display:flex;gap:7px;align-items:center;font:10px/1.4 Arial,Helvetica,sans-serif;margin-bottom:12px}
+.homepage-mark{border:1px solid #000;padding:2px 4px;font:11px Georgia,'Times New Roman',serif}
+.homepage-banner{display:flex;align-items:center;justify-content:center;gap:13px;min-height:80px;padding:12px 8px;background:#f0f0ed;border:1px solid #aaa}
+.banner-photo-placeholder{border:1px dashed #777;display:grid;place-items:center;width:49px;height:55px;flex-shrink:0}
+.banner-photo-placeholder .member-icon{width:34px;height:40px;margin:0}.homepage-banner strong{font:700 12px/1.4 Arial,Helvetica,sans-serif}
+.sheet .banner-duration{font:11px/1.4 Arial,Helvetica,sans-serif;text-align:center;margin:9px 0 0}
+.homepage-lines{display:grid;gap:5px;margin-top:12px}.homepage-lines span{height:4px;background:#ddd}.homepage-lines span:last-child{width:68%}
+@media(max-width:600px){.poll-purpose-flow{grid-template-columns:1fr;gap:12px}.purpose-candidate{min-height:115px;padding:14px 10px 9px}.purpose-candidate h3{font-size:12px;min-height:18px}.purpose-arrow{display:flex;align-items:center;justify-content:center;gap:8px}.purpose-arrow span{margin:0}.purpose-arrow svg{width:32px;height:38px;transform:rotate(90deg)}.homepage-preview{max-width:360px;width:100%;justify-self:center}}
 .cast-flow{display:grid;grid-template-columns:minmax(0,1fr) 90px minmax(0,1fr);gap:18px;align-items:center}
 .cast-party{min-width:0;min-height:172px;border:1px solid #aaa;padding:16px 12px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center}
 .cast-party h3{font:700 14px/1.45 Arial,Helvetica,sans-serif;margin:0 0 16px;min-height:40px}
