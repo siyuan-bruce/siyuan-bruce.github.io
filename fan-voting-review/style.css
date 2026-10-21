@@ -222,3 +222,9 @@ body[data-mode="participant"]{background:#f6f5f2}
 /* Keep the entire assigned-vote message prominent for zero, five, and 100 votes. */
 .cast-recipient strong{font-size:22px;font-weight:700;line-height:1.35;max-width:100%}
 @media(max-width:600px){.cast-recipient strong{font-size:20px}}
+/* Artist-role colors follow the participant's choice, never the poll result. */
+.artist-role{padding:4px 6px;border:1px solid;border-radius:4px;font-weight:700;max-width:100%}
+.purpose-candidates.two-artists h3 .artist-role{display:block;width:fit-content;margin:6px auto 0;font-weight:700}
+.cast-recipient h3 .artist-role{display:inline-block}
+.artist-role.artist-role-chosen{color:#17456b;background:#e9f2f8;border-color:#17456b}
+.artist-role.artist-role-other{color:#704000;background:#fff3e1;border-color:#704000}
