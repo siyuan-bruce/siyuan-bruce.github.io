@@ -170,3 +170,26 @@ body[data-mode="participant"]{background:#f6f5f2}
 
 /* Two matched member-focused clips before the support choice. */
 .clip-identity{display:flex;align-items:center;gap:16px;margin:20px 0}.clip-identity .member-portrait{width:48px;height:60px}.clip-identity strong{font-size:18px}
+/* Three distinct artist previews; retain the participant's one-screen flow. */
+.intro-player{width:min(100%,640px);aspect-ratio:1280/800;min-height:0;background:#fff}
+.intro-player video{width:100%;height:100%;object-fit:contain;background:#fff}
+.three-artists{grid-template-columns:repeat(3,minmax(0,1fr));max-width:none}
+.member-choice .member-portrait{width:112px;height:140px;object-position:50% 40%}
+.artist-group{font:12px/1.4 Arial,Helvetica,sans-serif;margin-top:-7px}
+.purpose-candidates.three-artists .purpose-candidate{padding:16px 8px}
+.poll-result-layout{display:block}
+.poll-result-layout .video-storyboard{max-width:520px;margin:24px auto 0}
+.purpose-candidates.three-artists h3{font-size:15px}
+@media(max-width:600px){
+ .member-choices.three-artists{grid-template-columns:1fr;gap:10px}
+ .member-choices.three-artists .member-choice{min-height:104px;padding:12px 15px;align-items:center}
+ .member-choices.three-artists .member-choice:has(input:checked){padding:11px 14px}
+ .member-choice-art{display:grid;grid-template-columns:64px 1fr;column-gap:16px;row-gap:3px;align-items:center;text-align:left;padding:0}
+ .member-choice .member-portrait{grid-row:1/3;width:64px;height:80px}
+ .member-choice-art strong{align-self:end}.artist-group{margin:0;align-self:start}
+ .purpose-candidates.three-artists{gap:7px}
+ .purpose-candidates.three-artists .member-portrait{width:70px;height:88px}
+ .purpose-candidates.three-artists h3{font-size:13px}
+ .purpose-candidates.three-artists .purpose-candidate{min-height:205px;padding:12px 5px}
+ .purpose-candidates.three-artists h3 span{font-size:10px}
+}
