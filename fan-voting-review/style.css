@@ -160,8 +160,9 @@ body[data-mode="participant"]{background:#f6f5f2}
 .purpose-candidate .member-portrait{width:112px;height:140px;margin:0 0 12px}
 .cast-party .member-portrait{width:64px;height:80px;margin:0 auto 10px}
 .lead-slot .member-portrait{width:54px;height:72px;margin:0}
-.intro-player{width:100%;min-height:200px;aspect-ratio:16/9;background:#f4f3ef;border:1px solid #777;display:grid;place-items:center;margin:24px 0 12px}
-.intro-player iframe{width:100%;height:100%;min-height:200px;border:0}
+.intro-player{width:min(100%,270px);aspect-ratio:480/854;background:#151515;border:1px solid #777;display:grid;place-items:center;margin:20px auto 12px}
+.intro-player video{display:block;width:100%;height:auto;max-width:100%;background:#000}
+.intro-player .primary{margin:16px;max-width:calc(100% - 32px)}
 .sheet .media-source,.sheet .media-credits p{font:11px/1.6 Arial,Helvetica,sans-serif}
 .media-credits{margin:20px 0;padding:12px 0;border-color:#ccc}.media-credits summary{font-size:11px;font-weight:normal}
 @media(max-width:480px){.member-choice .member-portrait{width:100px;height:125px}.purpose-candidate .member-portrait{width:90px;height:112px}.cast-party .member-portrait{width:54px;height:68px}.intro-player{min-height:200px}}
