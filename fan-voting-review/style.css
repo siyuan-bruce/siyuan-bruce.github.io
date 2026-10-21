@@ -228,3 +228,15 @@ body[data-mode="participant"]{background:#f6f5f2}
 .cast-recipient h3 .artist-role{display:inline-block}
 .artist-role.artist-role-chosen{color:#17456b;background:#e9f2f8;border-color:#17456b}
 .artist-role.artist-role-other{color:#704000;background:#fff3e1;border-color:#704000}
+/* Direct purchase selection: each numbered budget box is a native radio choice. */
+.sheet .purchase-help{font:15px/1.5 Arial,Helvetica,sans-serif;margin:0 0 18px}
+.purchase-question legend{font-family:Arial,Helvetica,sans-serif;font-size:18px}
+.purchase-boxes{grid-template-columns:repeat(10,minmax(0,1fr));gap:7px;height:auto;margin-top:16px}
+.purchase-boxes .budget-unit,.budget-zero{position:relative;display:flex;align-items:center;justify-content:center;min-height:48px;padding:8px 4px;cursor:pointer;font:700 18px/1.3 Arial,Helvetica,sans-serif;color:#000}
+.budget-zero{width:fit-content;min-width:140px;border:1px solid #777;background:#fff;padding:10px 16px;font-size:16px}
+.purchase-boxes input,.budget-zero input{position:absolute;opacity:0;width:1px;height:1px}
+.purchase-boxes .budget-unit:has(input:checked),.budget-zero:has(input:checked){border:2px solid #000;box-shadow:inset 0 0 0 1px #000}
+.budget-zero:has(input:checked){background:#e7e3d6}
+.purchase-boxes .budget-unit:has(input:focus-visible),.budget-zero:has(input:focus-visible){outline:3px solid #000;outline-offset:3px}
+.purchase-boxes .budget-unit:hover,.budget-zero:hover{border-color:#000}
+@media(max-width:600px){.purchase-boxes{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.purchase-boxes .budget-unit{min-height:48px}}
