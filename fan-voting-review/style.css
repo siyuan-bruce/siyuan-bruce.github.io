@@ -166,3 +166,6 @@ body[data-mode="participant"]{background:#f6f5f2}
 .media-credits{margin:20px 0;padding:12px 0;border-color:#ccc}.media-credits summary{font-size:11px;font-weight:normal}
 @media(max-width:480px){.member-choice .member-portrait{width:100px;height:125px}.purpose-candidate .member-portrait{width:90px;height:112px}.cast-party .member-portrait{width:54px;height:68px}.intro-player{min-height:200px}}
 @media(max-width:480px){.member-choices{gap:12px}.member-choice{min-height:154px;padding:14px 9px;gap:6px}.member-choice:has(input:checked){padding:13px 8px}.member-choice .member-icon.avatar-icon{width:58px;height:68px}.member-choice-art{font-size:13px}}
+
+/* Two matched member-focused clips before the support choice. */
+.clip-identity{display:flex;align-items:center;gap:16px;margin:20px 0}.clip-identity .member-portrait{width:48px;height:60px}.clip-identity strong{font-size:18px}
