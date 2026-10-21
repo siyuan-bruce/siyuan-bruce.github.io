@@ -1,11 +1,11 @@
 'use strict';
-const VERSION='scenario-2026-10-20-v29-three-artists-15s';
+const VERSION='scenario-2026-10-20-v30-yooyeon-m2-performance';
 const INTRO_VIDEOS=Object.freeze({
  jennie:{id:'mKQgxwnDezg',start:50,end:65,source:'https://www.youtube.com/watch?v=mKQgxwnDezg',file:'media/jennie_15s.mp4',title:'SOLO',credit:'SBSKPOP X INKIGAYO · 2 December 2018'},
  lisa:{id:'vz8RWyRlX4E',start:20,end:35,source:'https://www.youtube.com/watch?v=vz8RWyRlX4E',file:'media/lisa_15s.mp4',title:'LALISA',credit:'SBSKPOP X INKIGAYO · 19 September 2021'},
- yooyeon:{id:'eEWrbcm6rHI',start:80,end:95,source:'https://www.youtube.com/watch?v=eEWrbcm6rHI',file:'media/yooyeon_15s.mp4',title:'Girls Never Die',credit:'SBSKPOP ZOOM · 12 May 2024'}
+ yooyeon:{id:'8I7hhcdxEyg',start:24,end:39,source:'https://www.youtube.com/watch?v=8I7hhcdxEyg',file:'media/yooyeon_m2_15s.mp4',title:'Girls Never Die',credit:'M2 · M COUNTDOWN · 23 May 2024'}
 });
-const MEMBERS=Object.freeze({jennie:{name:'Jennie',group:'BLACKPINK',photo:'media/jennie.jpg'},lisa:{name:'Lisa',group:'BLACKPINK',photo:'media/lisa.jpg'},yooyeon:{name:'Yooyeon',group:'tripleS',photo:'media/yooyeon.jpg'}});
+const MEMBERS=Object.freeze({jennie:{name:'Jennie',group:'BLACKPINK',photo:'media/jennie.jpg'},lisa:{name:'Lisa',group:'BLACKPINK',photo:'media/lisa.jpg'},yooyeon:{name:'Yooyeon',group:'tripleS',photo:'media/yooyeon_m2.jpg'}});
 const CHOICES=Object.freeze(['A','B','C']);
 const ARTIST_ORDERS=Object.freeze([
  ['jennie','lisa','yooyeon'],['jennie','yooyeon','lisa'],['lisa','jennie','yooyeon'],
@@ -147,7 +147,7 @@ function memberIdentity(choice){return run.candidate_order[CHOICES.indexOf(choic
 function memberName(choice){return MEMBERS[memberIdentity(choice)].name;}
 function memberChoiceQuestion(){return `<fieldset class="member-question"><legend>Choose an artist to support.</legend><p class="fine">This selects who you support; it does not cast a vote.</p><div class="member-choices three-artists">${CHOICES.map(choice=>`<label class="member-choice"><input type="radio" name="member_choice" value="${choice}" aria-label="${memberName(choice)}"><span class="member-choice-art">${avatarIcon(choice)}<strong>${memberName(choice)}</strong><span class="artist-group">${MEMBERS[memberIdentity(choice)].group}</span></span></label>`).join('')}</div></fieldset>`;}
 function avatarIcon(choice){const id=memberIdentity(choice);return `<img class="member-portrait avatar-icon" data-avatar="${id}" data-avatar-choice="${choice}" src="${MEMBERS[id].photo}" alt="" width="160" height="200">`;}
-function mediaCredits(){return '<details class="media-credits"><summary>Media credits</summary><p>Performance excerpts and still frames: SBSKPOP X INKIGAYO (Jennie and Lisa) and SBSKPOP ZOOM (Yooyeon). These artists do not endorse this fictional activity.</p></details>';}
+function mediaCredits(){return '<details class="media-credits"><summary>Media credits</summary><p>Performance excerpts and still frames: SBSKPOP X INKIGAYO (Jennie and Lisa) and M2 (Yooyeon). These artists do not endorse this fictional activity.</p></details>';}
 function isIntroClip(){return ['intro_clip_a','intro_clip_b','intro_clip_c'].includes(screenId());}
 function clipChoice(){return CHOICES[['intro_clip_a','intro_clip_b','intro_clip_c'].indexOf(screenId())];}
 function isFamiliarity(){return ['familiarity','familiarity_b','familiarity_c'].includes(screenId());}
@@ -306,7 +306,7 @@ function notes(){
  if(!REVIEW_MODE)return;
  view='notes';showResearchLinks(true);
  app.innerHTML=`<div class="eyebrow">Researcher design notes</div><h1>Expectations, results, and subsequent choices</h1>
- <p class="lead">Version 29 uses 34 short screens. Participants rate prior familiarity with each artist, watch three 15-second clips, choose an artist, and rate support for all three before seeing their holdings or scenario treatment. Six pilot checks follow the purchase and discussion outcomes.</p>
+ <p class="lead">Version 30 uses 34 short screens. Participants rate prior familiarity with each artist, watch three 15-second clips, choose an artist, and rate support for all three before seeing their holdings or scenario treatment. Six pilot checks follow the purchase and discussion outcomes.</p>
  <h2>Study and result assignment</h2>
  <p>The three studies and four primary conditions per study are unchanged. Study 1 crosses single-use/reusable rights with voting/non-voting at five initial rights. Study 2 crosses five/100 purchased rights with voting/non-voting under single-use rights. Study 3 crosses five/100 purchased rights with win/loss; everyone votes under single-use rights.</p>
  <p>The unified entry assigns study with probability 1/3 and condition with probability 1/4. Studies 1 and 2 independently assign win/loss 50/50; Study 3 includes win/loss in its primary conditions. A primary condition has probability 1/12; a realized condition–result combination has probability 1/24 in Studies 1/2 or 1/12 in Study 3. Results are assigned before responses and do not depend on baseline ratings or purchases.</p>
@@ -317,7 +317,7 @@ function notes(){
  <p>Expectation of influence precedes assigned voting history and the first result. Perceived influence, influence disconfirmation, and disappointment follow. The influence comparison uses 1 = Much less, 4 = As expected, 7 = Much more; losing is not itself coded as negative disconfirmation. These measured process variables do not independently identify causal mediation.</p>
  <p>Poll 2 provides a new $1.00 budget, separate from earlier savings. The primary outcome is intended purchases of 0–20 additional rights at $0.05 each after the first result. The secondary outcome is intention to join a free fan discussion about upcoming K-pop releases. These are stated intentions, not observed purchases, participation, or the field peer-transfer measure.</p>
  <h2>Artist media and baseline ratings</h2>
- <p>Everyone is offered the same three distinct 15-second performance excerpts using native, same-origin MP4 players. Jennie: SOLO, source 00:50–01:05; Lisa: LALISA, 00:20–00:35; Yooyeon: Girls Never Die, 01:20–01:35. Labels identify each artist and group. A fixed crop focuses the Yooyeon excerpt; still frames from these performances identify the artists on later screens.</p>
+ <p>Everyone is offered the same three distinct 15-second performance excerpts using native, same-origin MP4 players. Jennie: SOLO, source 00:50–01:05; Lisa: LALISA, 00:20–00:35; Yooyeon: Girls Never Die (M2 / M COUNTDOWN, 23 May 2024), 00:24–00:39. Labels identify each artist and group. A fixed crop focuses the Yooyeon excerpt; still frames from these performances identify the artists on later screens.</p>
  <p>These stimuli are not fully matched: performers, groups, songs, dates, fame, framing, lighting, and choreography differ. Familiarity and support are measured separately for all three; these measurements do not remove all artist-selection differences. Keep the video set identical across treatment arms and prespecify how baseline preferences enter analysis. Record the version; do not pool this three-artist release scenario with earlier two-member stimuli as identical observations.</p>
  <p>Basic load/play/end/error events and maximum playback position are recorded separately for each artist, alongside the playback self-report. These are not verified attention or uninterrupted viewing. Playback failures do not redraw assignments, automatically exclude participants, or substitute other media. The playback response can proceed without claiming successful viewing.</p>
  <h2>Pilot checks and review limitations</h2>
