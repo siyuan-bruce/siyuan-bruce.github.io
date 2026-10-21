@@ -1,5 +1,6 @@
 'use strict';
-const VERSION='scenario-2026-10-21-v37-readable-vote-total';
+const VERSION='scenario-2026-10-21-v38-welcome-acknowledgement';
+const ACTIVITY_ACKNOWLEDGEMENT='I understand this is a hypothetical voting activity.';
 const INTRO_VIDEOS=Object.freeze({
  jennie:{id:'mKQgxwnDezg',start:50,end:65,source:'https://www.youtube.com/watch?v=mKQgxwnDezg',file:'media/jennie_15s.mp4',title:'SOLO',credit:'SBSKPOP X INKIGAYO · 2 December 2018'},
  yooyeon:{id:'8I7hhcdxEyg',start:24,end:39,source:'https://www.youtube.com/watch?v=8I7hhcdxEyg',file:'media/yooyeon_m2_15s.mp4',title:'Girls Never Die',credit:'M2 · M COUNTDOWN · 23 May 2024'}
@@ -59,11 +60,20 @@ function tokenStrip(available,used=0){return `<div class="tokens" aria-label="${
 function announce(){stopVoteAnimation();app.setAttribute('tabindex','-1');app.focus({preventScroll:true});window.scrollTo(0,0)}
 function experienceFlow(){const labels=['Voting rights','Expectations','Poll 1 voting','Poll 1 result','Reaction','Poll 2 choice','Fan discussion'];return `<ol class="flow">${labels.map((label,i)=>`<li><span>${String(i+1).padStart(2,'0')}</span>${label}</li>`).join('')}</ol>`;}
 function showResearchLinks(visible){document.querySelectorAll('[data-research-only]').forEach(button=>{button.hidden=!(visible&&REVIEW_MODE);});}
+function welcomeAcknowledgement(){return `<label class="check"><input type="checkbox" id="welcomeAck"><span>${ACTIVITY_ACKNOWLEDGEMENT}</span></label><div class="error" id="welcomeError" role="alert"></div>`;}
+function bindWelcomeEntry(){document.getElementById('startCombined').onclick=startFromWelcome;document.getElementById('welcomeAck').onchange=()=>{document.getElementById('welcomeError').textContent='';};}
+function startFromWelcome(){
+ if(view!=='overview')return false;
+ if(!document.getElementById('welcomeAck')?.checked){document.getElementById('welcomeError').textContent='Please confirm that you understand this is a hypothetical voting activity.';return false;}
+ const confirmedAt=new Date().toISOString();
+ startCombined();
+ run.activity_acknowledgement={version:'welcome-notice-v1',statement:ACTIVITY_ACKNOWLEDGEMENT,confirmed:true,confirmed_at:confirmedAt,timing:'before_random_assignment'};
+}
 function overview(){
  view='overview';showResearchLinks(true);
- if(!REVIEW_MODE){document.getElementById('leaveActivity').hidden=true;app.innerHTML=`<section class="sheet welcome-sheet"><h1>Welcome.</h1><p class="lead">Read each situation and select your response.</p><p class="fine">You may stop at any time.</p><div class="actions"><button class="primary" id="startCombined">Get started →</button></div></section>`;document.getElementById('startCombined').onclick=startCombined;return;}
- app.innerHTML=`<section class="hero"><div><div class="eyebrow">Fan voting · preview</div><h1>Imagine a fan vote.</h1><p class="lead">Read a short scenario. Choose what you would think and do.</p><div class="actions"><button class="primary" id="startCombined">Start →</button></div><p class="fine" style="margin-top:20px">Research-team preview only. Ethics approval is required before participant testing.</p></div><div class="rule-illustration"><h3>What you’ll do</h3><div class="rule-row"><b>1. Read</b><p class="fine">Learn how your voting rights work.</p></div><div class="rule-row"><b>2. Choose</b><p class="fine">Select your answers.</p></div><div class="rule-row"><b>3. Finish</b><p class="fine">Review your choices.</p></div></div></section><div class="notice"><p>This is a hypothetical scenario. No real purchases or votes take place.</p></div>`;
- document.getElementById('startCombined').onclick=startCombined;
+ if(!REVIEW_MODE){document.getElementById('leaveActivity').hidden=true;app.innerHTML=`<section class="sheet welcome-sheet"><h1>Welcome.</h1><p class="lead">Read each situation and select your response.</p><p class="fine">You may stop at any time.</p>${welcomeAcknowledgement()}<div class="actions"><button class="primary" id="startCombined">Get started →</button></div></section>`;bindWelcomeEntry();return;}
+ app.innerHTML=`<section class="hero"><div><div class="eyebrow">Fan voting · preview</div><h1>Imagine a fan vote.</h1><p class="lead">Read a short scenario. Choose what you would think and do.</p>${welcomeAcknowledgement()}<div class="actions"><button class="primary" id="startCombined">Start →</button></div><p class="fine" style="margin-top:20px">Research-team preview only. Ethics approval is required before participant testing.</p></div><div class="rule-illustration"><h3>What you’ll do</h3><div class="rule-row"><b>1. Read</b><p class="fine">Learn how your voting rights work.</p></div><div class="rule-row"><b>2. Choose</b><p class="fine">Select your answers.</p></div><div class="rule-row"><b>3. Finish</b><p class="fine">Review your choices.</p></div></div></section><div class="notice"><p>This is a hypothetical scenario. No real purchases or votes take place.</p></div>`;
+ bindWelcomeEntry();
 }
 function startCombined(){selected=Object.keys(designs)[randomIndex(3)];start('random',true);}
 function research(){
@@ -207,7 +217,7 @@ function inventory(after=false){const used=after&&run.rights==='single'&&run.sce
 function renderStep(){
  view='study';showResearchLinks(false);const screen=screenId(),labels=participantSteps(),progress=responseProgress();let content='';
  if(!REVIEW_MODE)document.getElementById('leaveActivity').hidden=screen==='finish';
- if(isFamiliarity()){content=`<div class="eyebrow">Before the clips</div><h1>Before today, how familiar were you with each artist?</h1><p>You will watch two short artist clips, then choose an artist to support. The voting activity is fictional and is not affiliated with the artists.</p>${familiarityQuestion()}<label class="check"><input type="checkbox" id="ack"><span>I understand this is a hypothetical voting activity.</span></label>${nextButton()}`;}
+ if(isFamiliarity()){content=`<div class="eyebrow">Before the clips</div><h1>Before today, how familiar were you with each artist?</h1><p>You will watch two short artist clips, then choose an artist to support. The voting activity is fictional and is not affiliated with the artists.</p>${familiarityQuestion()}${nextButton()}`;}
 
  if(isIntroClip())content=introClip();
  if(isInitialSupport()){content=`<div class="eyebrow">Your support</div><h1>How strongly do you support each artist?</h1>${initialSupportQuestion()}${nextButton()}`;}
@@ -254,7 +264,6 @@ function advance(){
  if(isFamiliarity()){
   const ratings=run.candidate_order.map(id=>[id,readRating('prior_familiarity_'+id)]);
   if(ratings.some(([,value])=>value===null))return fail('Please rate both artists.');
-  if(!document.getElementById('ack').checked)return fail('Please confirm that you understand this is a hypothetical voting activity.');
   run.baseline={prior_familiarity_by_artist:Object.fromEntries(ratings),initial_support_by_artist:{},timing:'before_scenario_disclosure'};
  }
  if(isIntroClip()){
@@ -297,7 +306,7 @@ function notes(){
  if(!REVIEW_MODE)return;
  view='notes';showResearchLinks(true);
  app.innerHTML=`<div class="eyebrow">Researcher design notes</div><h1>Expectations, results, and subsequent choices</h1>
- <p class="lead">Version 37 retains 28 short screens but numbers only the 17 screens requiring a response or playback action. Information-only screens and the closing page are unnumbered; the progress bar advances only after a response screen is completed. Participants rate prior familiarity with both artists on one page before watching either clip. They then watch two 15-second clips, choose an artist, and rate support for both on one page before seeing their holdings or scenario treatment. Each artist has an independent rating. Artist names, role labels, and other essential labels use larger black text. Five pilot checks follow the purchase and discussion outcomes: perceived holding size, initial holdings, rule application, win/loss, and the meaning of the purchase response. Participation recall is omitted; assigned voting/non-voting remains recorded automatically.</p>
+ <p class="lead">Version 38 retains 28 short screens but numbers only the 17 screens requiring a response or playback action. The hypothetical-activity acknowledgement appears on the welcome page before random assignment and is not repeated with the familiarity questions. Information-only screens and the closing page are unnumbered; the progress bar advances only after a response screen is completed. Participants rate prior familiarity with both artists on one page before watching either clip. They then watch two 15-second clips, choose an artist, and rate support for both on one page before seeing their holdings or scenario treatment. Each artist has an independent rating. Artist names, role labels, and other essential labels use larger black text. Five pilot checks follow the purchase and discussion outcomes: perceived holding size, initial holdings, rule application, win/loss, and the meaning of the purchase response. Participation recall is omitted; assigned voting/non-voting remains recorded automatically.</p>
  <h2>Study and result assignment</h2>
  <p>The three studies and four primary conditions per study are unchanged. Study 1 crosses single-use/reusable rights with voting/non-voting at five initial rights. Study 2 crosses five/100 purchased rights with voting/non-voting under single-use rights. Study 3 crosses five/100 purchased rights with win/loss; everyone votes under single-use rights.</p>
  <p>The unified entry assigns study with probability 1/3 and condition with probability 1/4. Studies 1 and 2 independently assign win/loss 50/50; Study 3 includes win/loss in its primary conditions. A primary condition has probability 1/12; a realized condition–result combination has probability 1/24 in Studies 1/2 or 1/12 in Study 3. Results are assigned before responses and do not depend on baseline ratings or purchases.</p>
