@@ -219,3 +219,6 @@ body[data-mode="participant"]{background:#f6f5f2}
  .cast-party strong{font-size:14px}
  .anchors-three{font-size:12px}
 }
+/* Keep the entire assigned-vote message prominent for zero, five, and 100 votes. */
+.cast-recipient strong{font-size:22px;font-weight:700;line-height:1.35;max-width:100%}
+@media(max-width:600px){.cast-recipient strong{font-size:20px}}
