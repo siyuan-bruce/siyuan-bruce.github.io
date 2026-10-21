@@ -154,4 +154,15 @@ body[data-mode="participant"]{background:#f6f5f2}
 .member-choice .member-icon.avatar-icon{width:72px;height:80px;margin:0}
 .member-choice:has(input:checked){border:2px solid #000;padding:17px 15px;background:#efeeea}
 .member-choice:has(input:focus-visible){outline:3px solid #000;outline-offset:4px}
+/* Real member photos and a click-loaded common introductory performance. */
+.member-portrait{display:block;width:128px;height:160px;object-fit:cover;object-position:50% 20%;border:1px solid #aaa;background:#f4f3ef;max-width:100%}
+.member-choice .member-portrait{width:144px;height:180px;margin:0}
+.purpose-candidate .member-portrait{width:112px;height:140px;margin:0 0 12px}
+.cast-party .member-portrait{width:64px;height:80px;margin:0 auto 10px}
+.lead-slot .member-portrait{width:54px;height:72px;margin:0}
+.intro-player{width:100%;min-height:200px;aspect-ratio:16/9;background:#f4f3ef;border:1px solid #777;display:grid;place-items:center;margin:24px 0 12px}
+.intro-player iframe{width:100%;height:100%;min-height:200px;border:0}
+.sheet .media-source,.sheet .media-credits p{font:11px/1.6 Arial,Helvetica,sans-serif}
+.media-credits{margin:20px 0;padding:12px 0;border-color:#ccc}.media-credits summary{font-size:11px;font-weight:normal}
+@media(max-width:480px){.member-choice .member-portrait{width:100px;height:125px}.purpose-candidate .member-portrait{width:90px;height:112px}.cast-party .member-portrait{width:54px;height:68px}.intro-player{min-height:200px}}
 @media(max-width:480px){.member-choices{gap:12px}.member-choice{min-height:154px;padding:14px 9px;gap:6px}.member-choice:has(input:checked){padding:13px 8px}.member-choice .member-icon.avatar-icon{width:58px;height:68px}.member-choice-art{font-size:13px}}
