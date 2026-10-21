@@ -201,3 +201,21 @@ body[data-mode="participant"]{background:#f6f5f2}
  .purpose-candidates.two-artists .purpose-candidate{min-height:205px;padding:12px 5px}
  .purpose-candidates.two-artists h3 span{font-size:10px}
 }
+/* Readable artist identities and roles, with the same hierarchy for both choices. */
+.member-choice-art strong{font-size:20px}
+.artist-group{font-size:15px}
+.purpose-candidates.two-artists h3{font-size:22px;line-height:1.35;min-height:0}
+.purpose-candidates.two-artists h3 span{font-size:16px;line-height:1.4;margin-top:6px}
+.purpose-candidates.two-artists .candidate-status{font-size:16px;line-height:1.4}
+.cast-party h3{font-size:18px;line-height:1.4}
+.sheet .support-scale-help{font-size:14px}
+.familiarity-group{display:block;font:400 15px/1.4 Arial,Helvetica,sans-serif;margin-top:3px}
+.anchors{font-size:13px}
+@media(max-width:600px){
+ .purpose-candidates.two-artists h3{font-size:20px}
+ .purpose-candidates.two-artists h3 span{font-size:15px}
+ .purpose-candidates.two-artists .candidate-status{font-size:15px}
+ .cast-party h3{font-size:16px;min-height:45px}
+ .cast-party strong{font-size:14px}
+ .anchors-three{font-size:12px}
+}
