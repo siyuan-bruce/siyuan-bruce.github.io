@@ -1,5 +1,5 @@
 'use strict';
-const VERSION='scenario-2026-10-20-v31-lisa-square-framing';
+const VERSION='scenario-2026-10-20-v32-grouped-artist-support';
 const INTRO_VIDEOS=Object.freeze({
  jennie:{id:'mKQgxwnDezg',start:50,end:65,source:'https://www.youtube.com/watch?v=mKQgxwnDezg',file:'media/jennie_15s.mp4',title:'SOLO',credit:'SBSKPOP X INKIGAYO · 2 December 2018'},
  lisa:{id:'vz8RWyRlX4E',start:20,end:35,source:'https://www.youtube.com/watch?v=vz8RWyRlX4E',file:'media/lisa_square_15s.mp4',framing:'square_upper_body_crop',source_crop:{width:720,height:720,x:0,y:140},visible_aspect_ratio:'1:1',title:'LALISA',credit:'SBSKPOP X INKIGAYO · 19 September 2021'},
@@ -11,7 +11,7 @@ const ARTIST_ORDERS=Object.freeze([
  ['jennie','lisa','yooyeon'],['jennie','yooyeon','lisa'],['lisa','jennie','yooyeon'],
  ['lisa','yooyeon','jennie'],['yooyeon','jennie','lisa'],['yooyeon','lisa','jennie']
 ]);
-const SCENARIO=Object.freeze({intro_videos:INTRO_VIDEOS,intro_video_duration_seconds_each:15,intro_video_order:'randomized_artist_position_order_A_then_B_then_C',intro_video_exposure:'three_distinct_artist_clips_before_choice',member_identities:['jennie','lisa','yooyeon'],member_selection:'participant_choice_before_scenario_disclosure',outcome_reference:'participant_chosen_artist',initial_budget_cents:500,price_per_right_cents:5,initial_spending_design:'common_unit_price_no_refund',pilot_checks:'post_outcome_no_feedback',screen_format:'one_idea_or_question_per_screen',poll_decision:'featured_artist_for_kpop_release',poll2_decision:'featured_artist_for_another_kpop_release',vote_display:'animated_assigned_participation',stake_measure:'initial_number_of_voting_rights_held',other_fans:100,other_rights_per_poll:1000,campaign_polls:2,first_platform_poll:true,same_candidates_in_poll2:true,repeat_winner_eligible:true,rights_expire_after_poll2:true,poll2_budget_cents:100,earlier_money_separate:true,discussion_topic:'upcoming_kpop_releases',baseline_ratings:'familiarity_and_support_for_each_artist',loss_winner_assignment:'equal_probability_among_two_nonchosen_artists'});
+const SCENARIO=Object.freeze({intro_videos:INTRO_VIDEOS,intro_video_duration_seconds_each:15,intro_video_order:'randomized_artist_position_order_A_then_B_then_C',intro_video_exposure:'three_distinct_artist_clips_before_choice',member_identities:['jennie','lisa','yooyeon'],member_selection:'participant_choice_before_scenario_disclosure',outcome_reference:'participant_chosen_artist',initial_budget_cents:500,price_per_right_cents:5,initial_spending_design:'common_unit_price_no_refund',pilot_checks:'post_outcome_no_feedback',screen_format:'progressive_screens_with_grouped_artist_support',poll_decision:'featured_artist_for_kpop_release',poll2_decision:'featured_artist_for_another_kpop_release',vote_display:'animated_assigned_participation',stake_measure:'initial_number_of_voting_rights_held',other_fans:100,other_rights_per_poll:1000,campaign_polls:2,first_platform_poll:true,same_candidates_in_poll2:true,repeat_winner_eligible:true,rights_expire_after_poll2:true,poll2_budget_cents:100,earlier_money_separate:true,discussion_topic:'upcoming_kpop_releases',baseline_ratings:'familiarity_and_support_for_each_artist',loss_winner_assignment:'equal_probability_among_two_nonchosen_artists'});
 const designs={
  rights:{label:'Voting rights and participation',short:'Rights × voting',hypothesis:'H1 and the design comparison',description:'Does a voting experience change intended purchases of voting rights differently when voting rights are single-use or reusable?',fixed:'Five initial rights; win/loss is randomized before the Poll 2 choice.',cells:[['single',5,true],['single',5,false],['reusable',5,true],['reusable',5,false]]},
  stake:{label:'Rights held and participation',short:'Holdings × voting',hypothesis:'H2 under single-use rights',description:'Is the voter–non-voter difference in intended purchases of voting rights smaller for large holders than for small holders?',fixed:'Five or 100 initial rights; single-use rights; win/loss is randomized before the Poll 2 choice.',cells:[['single',5,true],['single',5,false],['single',100,true],['single',100,false]]},
@@ -38,9 +38,7 @@ const SCREENS=Object.freeze([
  {id:'intro_clip_b',label:'Second artist clip',event:'Second artist performance clip'},
  {id:'intro_clip_c',label:'Third artist clip',event:'Third artist performance clip'},
  {id:'intro',label:'Choose an artist',event:'Member choice'},
- {id:'initial_support',label:'Initial support',event:'Initial support: first artist'},
- {id:'initial_support_b',label:'Initial support',event:'Initial support: second artist'},
- {id:'initial_support_c',label:'Initial support',event:'Initial support: third artist'},
+ {id:'initial_support',label:'Initial support',event:'Initial support: all artists'},
  {id:'video',label:'The new video',event:'Video brief'},
  {id:'candidates',label:'The candidates',event:'Candidates'},
  {id:'holdings',label:'Your rights',event:'Your situation'},
@@ -151,8 +149,9 @@ function mediaCredits(){return '<details class="media-credits"><summary>Media cr
 function isIntroClip(){return ['intro_clip_a','intro_clip_b','intro_clip_c'].includes(screenId());}
 function clipChoice(){return CHOICES[['intro_clip_a','intro_clip_b','intro_clip_c'].indexOf(screenId())];}
 function isFamiliarity(){return ['familiarity','familiarity_b','familiarity_c'].includes(screenId());}
-function isInitialSupport(){return ['initial_support','initial_support_b','initial_support_c'].includes(screenId());}
-function baselineChoice(){return CHOICES[(isFamiliarity()?['familiarity','familiarity_b','familiarity_c']:['initial_support','initial_support_b','initial_support_c']).indexOf(screenId())];}
+function isInitialSupport(){return screenId()==='initial_support';}
+function baselineChoice(){return CHOICES[['familiarity','familiarity_b','familiarity_c'].indexOf(screenId())];}
+function initialSupportQuestion(){return `<div class="support-ratings"><p class="support-scale-help" id="support-scale-help">1 = Very little · 7 = Very strongly</p>${CHOICES.map(choice=>`<fieldset class="support-rating" aria-describedby="support-scale-help"><legend><span class="support-identity">${avatarIcon(choice)}<span>${memberName(choice)}</span></span></legend><div class="scale scale-7">${Array.from({length:7},(_,i)=>`<label class="choice"><input type="radio" name="initial_support_${memberIdentity(choice)}" value="${i+1}">${i+1}</label>`).join('')}</div></fieldset>`).join('')}</div>`;}
 function clipRecord(create=false){
  if(!run||!isIntroClip())return null;
  const identity=memberIdentity(clipChoice()),video=INTRO_VIDEOS[identity];
@@ -217,7 +216,7 @@ function renderStep(){
  if(isFamiliarity()){const choice=baselineChoice(),name=memberName(choice);content=`<div class="eyebrow">Before the clips</div><h1>${name} · ${MEMBERS[memberIdentity(choice)].group}</h1>${screen==='familiarity'?'<p>You will watch three short artist clips, then choose an artist to support. The voting activity is fictional and is not affiliated with the artists.</p>':''}${scale('prior_familiarity','Before today, how familiar were you with '+name+'?',7,'Not at all familiar','Very familiar')}${screen==='familiarity'?'<label class="check"><input type="checkbox" id="ack"><span>I understand this is a hypothetical voting activity.</span></label>':''}${nextButton()}`;}
 
  if(isIntroClip())content=introClip();
- if(isInitialSupport()){const choice=baselineChoice(),name=memberName(choice);content=`<div class="eyebrow">${choice===chosenChoice()?'Your chosen artist':'Another artist'}</div><h1>${name}</h1>${scale('initial_support','How strongly do you support '+name+'?',7,'Very little','Very strongly')}${nextButton()}`;}
+ if(isInitialSupport()){content=`<div class="eyebrow">Your support</div><h1>How strongly do you support each artist?</h1>${initialSupportQuestion()}${nextButton()}`;}
 
  if(screen==='intro')content=`<div class="eyebrow">Before you start</div><h1>Your vote helps decide who appears in the next K-pop release.</h1><p>The artist with the most votes will be featured in the upcoming song and its performance video.</p>${memberChoiceQuestion()}${mediaCredits()}${nextButton()}`;
  if(screen==='video')content=`<div class="eyebrow">The upcoming video</div><h1>The new performance video</h1><p>Imagine a fan platform planning a new song and performance video. <b>Fans will choose its featured artist.</b></p>${performanceStoryboard()}${nextButton()}`;
@@ -272,12 +271,11 @@ function advance(){
   const saved=clipRecord(true);saved.viewing_report=report;saved.reported_at=new Date().toISOString();
  }
  if(isInitialSupport()){
-  const value=readRating('initial_support');if(value===null)return fail('Please choose a response.');
-  run.baseline.initial_support_by_artist[memberIdentity(baselineChoice())]=value;
-  if(screen==='initial_support_c'){
-   run.baseline.initial_support=run.baseline.initial_support_by_artist[memberIdentity(chosenChoice())];
-   run.baseline.completed_at=new Date().toISOString();
-  }
+  const ratings=run.candidate_order.map(id=>[id,readRating('initial_support_'+id)]);
+  if(ratings.some(([,value])=>value===null))return fail('Please rate all three artists.');
+  run.baseline.initial_support_by_artist=Object.fromEntries(ratings);
+  run.baseline.initial_support=run.baseline.initial_support_by_artist[memberIdentity(chosenChoice())];
+  run.baseline.completed_at=new Date().toISOString();
  }
  if(screen==='intro'){
   const choice=radio('member_choice');
@@ -306,7 +304,7 @@ function notes(){
  if(!REVIEW_MODE)return;
  view='notes';showResearchLinks(true);
  app.innerHTML=`<div class="eyebrow">Researcher design notes</div><h1>Expectations, results, and subsequent choices</h1>
- <p class="lead">Version 31 uses 34 short screens. Participants rate prior familiarity with each artist, watch three 15-second clips, choose an artist, and rate support for all three before seeing their holdings or scenario treatment. Six pilot checks follow the purchase and discussion outcomes.</p>
+ <p class="lead">Version 32 uses 32 short screens. Participants rate prior familiarity with each artist, watch three 15-second clips, choose an artist, and rate support for all three on one screen before seeing their holdings or scenario treatment. Each artist has an independent rating. Six pilot checks follow the purchase and discussion outcomes.</p>
  <h2>Study and result assignment</h2>
  <p>The three studies and four primary conditions per study are unchanged. Study 1 crosses single-use/reusable rights with voting/non-voting at five initial rights. Study 2 crosses five/100 purchased rights with voting/non-voting under single-use rights. Study 3 crosses five/100 purchased rights with win/loss; everyone votes under single-use rights.</p>
  <p>The unified entry assigns study with probability 1/3 and condition with probability 1/4. Studies 1 and 2 independently assign win/loss 50/50; Study 3 includes win/loss in its primary conditions. A primary condition has probability 1/12; a realized condition–result combination has probability 1/24 in Studies 1/2 or 1/12 in Study 3. Results are assigned before responses and do not depend on baseline ratings or purchases.</p>

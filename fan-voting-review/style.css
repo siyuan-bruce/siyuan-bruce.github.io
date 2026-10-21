@@ -170,7 +170,7 @@ body[data-mode="participant"]{background:#f6f5f2}
 
 /* Two matched member-focused clips before the support choice. */
 .clip-identity{display:flex;align-items:center;gap:16px;margin:20px 0}.clip-identity .member-portrait{width:48px;height:60px}.clip-identity strong{font-size:18px}
-/* Three distinct artist previews; retain the participant's one-screen flow. */
+/* Three distinct artist previews; retain the participant's progressive flow. */
 .intro-player{width:min(100%,640px);aspect-ratio:1280/800;min-height:0;background:#fff}
 .intro-player video{width:100%;height:100%;object-fit:contain;background:#fff}
 .three-artists{grid-template-columns:repeat(3,minmax(0,1fr));max-width:none}
@@ -180,6 +180,14 @@ body[data-mode="participant"]{background:#f6f5f2}
 .poll-result-layout{display:block}
 .poll-result-layout .video-storyboard{max-width:520px;margin:24px auto 0}
 .purpose-candidates.three-artists h3{font-size:15px}
+/* Related baseline ratings share one screen; each artist keeps a separate radio group. */
+.support-ratings{max-width:520px;margin:20px 0}
+.sheet .support-scale-help{font:13px/1.5 Arial,Helvetica,sans-serif;margin-bottom:22px}
+.support-rating{padding:0 0 18px;margin:0 0 16px;border-bottom:1px solid var(--line);min-width:0}
+.support-rating:last-child{margin-bottom:0;padding-bottom:0;border-bottom:0}
+.support-rating legend{margin-bottom:10px;font:700 18px/1.4 Arial,Helvetica,sans-serif}
+.support-identity{display:inline-flex;align-items:center;gap:12px}
+.support-identity .member-portrait{width:32px;height:40px;object-fit:cover}
 @media(max-width:600px){
  .member-choices.three-artists{grid-template-columns:1fr;gap:10px}
  .member-choices.three-artists .member-choice{min-height:104px;padding:12px 15px;align-items:center}
