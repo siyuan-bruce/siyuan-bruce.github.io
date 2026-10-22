@@ -1,5 +1,5 @@
 'use strict';
-const VERSION='scenario-2026-10-22-v41-no-familiarity';
+const VERSION='scenario-2026-10-22-v42-no-disconfirmation';
 const ACTIVITY_ACKNOWLEDGEMENT='I understand this is a hypothetical voting activity.';
 const INTRO_VIDEOS=Object.freeze({
  jennie:{id:'mKQgxwnDezg',start:50,end:65,source:'https://www.youtube.com/watch?v=mKQgxwnDezg',file:'media/jennie_15s.mp4',title:'SOLO',credit:'SBSKPOP X INKIGAYO · 2 December 2018'},
@@ -42,7 +42,6 @@ const SCREENS=Object.freeze([
  {id:'vote',label:'Poll 1 vote',event:'First-poll voting'},
  {id:'result',label:'Poll 1 result',event:'First-poll win/loss'},
  {id:'influence',label:'Your influence',event:'Perceived influence'},
- {id:'disconfirmation',label:'Compared with expected',event:'Influence disconfirmation'},
  {id:'disappointment',label:'Your reaction',event:'Disappointment'},
  {id:'poll2',label:'The next video',event:'Second-poll introduction'},
  {id:'budget',label:'Your new budget',event:'Second-poll budget'},
@@ -51,7 +50,7 @@ const SCREENS=Object.freeze([
  ...PILOT_ITEMS.map(item=>({id:item.id,label:item.title,event:'Pilot check: '+item.field})),
  {id:'finish',label:'Finish',event:'Debrief'}
 ]);
-const RESPONSE_SCREEN_IDS=Object.freeze(['intro_clip_a','intro_clip_b','intro','initial_support','rule_check','expected','influence','disconfirmation','disappointment','purchase','social',...PILOT_ITEMS.map(item=>item.id)]);
+const RESPONSE_SCREEN_IDS=Object.freeze(['intro_clip_a','intro_clip_b','intro','initial_support','rule_check','expected','influence','disappointment','purchase','social',...PILOT_ITEMS.map(item=>item.id)]);
 const money=c=>'$'+(c/100).toFixed(2);
 const cellLabel=c=>`${c[0]==='single'?'Single-use':'Reusable'} · ${c[1]} rights · ${c[3]?(c[3]==='win'?'Win':'Loss'):(c[2]?'Voted':'Did not vote')}`;
 function randomIndex(n){const limit=Math.floor(4294967296/n)*n;let x;do{x=crypto.getRandomValues(new Uint32Array(1))[0]}while(x>=limit);return x%n;}
@@ -232,7 +231,6 @@ function renderStep(){
  if(screen==='result')content=`<div class="eyebrow">Poll 1 · result</div><h1>The winning choice</h1>${pollResult()}${nextButton()}`;
  const resultReminder=run.member_choice?`<p class="question-context">Your chosen artist ${run.assigned_outcome==='win'?'won':'lost'} Poll 1.</p>`:'';
  if(screen==='influence')content=`<div class="eyebrow">After Poll 1</div><h1>Your influence</h1>${resultReminder}${scale('perceived_influence','How much influence would you feel you had over the result?',7,'None','A great deal')}${nextButton()}`;
- if(screen==='disconfirmation')content=`<div class="eyebrow">After Poll 1</div><h1>Compared with your expectation</h1>${resultReminder}${scale('influence_disconfirmation','Compared with what you expected, how much influence would you feel you had?',7,'Much less','Much more','As expected')}${nextButton()}`;
  if(screen==='disappointment')content=`<div class="eyebrow">After Poll 1</div><h1>Your reaction</h1>${resultReminder}${scale('disappointment','How disappointed would you feel?',7,'Not at all','Very disappointed')}${nextButton()}`;
  if(screen==='poll2')content=`<div class="eyebrow">Poll 2 · next week</div><h1>Another performance video.</h1><p>Your chosen artist ${run.assigned_outcome==='win'?'won':'lost'} Poll 1. <b>Poll 2 selects the featured artist for another song and performance video.</b> The same two artists compete again; any of them can win.</p>${performanceStoryboard()}${nextButton()}`;
  if(screen==='budget')content=`<div class="eyebrow">Poll 2</div><h1>Your new spending budget</h1>${compactFacts([['Poll 2 spending budget',money(SCENARIO.poll2_budget_cents)],['Price per right','$0.05'],['Rights you have',available()]])}<p><b>This $1.00 is your full budget for this purchase.</b> Money left from your earlier budget is saved separately. Keep any of this $1.00 that you do not spend.</p><p>Each additional right lets you cast one more vote under your voting rule.</p>${nextButton()}`;
@@ -284,7 +282,7 @@ function advance(){
   }
  }
  if(screen==='rule_check'){const x=radio('comprehension');if(x===undefined)return fail('Please select an answer.');const correct=Number(x)===(run.rights==='single'?4:10);run.comprehension_attempts.push({answer:Number(x),correct});if(!correct)return fail(`Under your rule, ${run.rights==='single'?'used rights are consumed, so 4 remain':'rights can be used again, so all 10 remain'}. Please try again.`);r.comprehension_first_correct=run.comprehension_attempts[0].correct;}
- const ratingFields={expected:'expected_influence',influence:'perceived_influence',disconfirmation:'influence_disconfirmation',disappointment:'disappointment',social:'social_participation_intention'};
+ const ratingFields={expected:'expected_influence',influence:'perceived_influence',disappointment:'disappointment',social:'social_participation_intention'};
  if(ratingFields[screen]){const name=ratingFields[screen],value=readRating(name);if(value===null)return fail('Please choose a response.');r[name]=value;if(screen==='social'){run.secondary_outcome.response=value;run.main_outcomes_completed_at=new Date().toISOString();}}
  if(screen==='purchase'){const n=purchaseQuantity();if(n===null)return fail('Please choose how many rights to buy, or select Buy none.');r.voting_rights_poll2=n;r.spending_poll2_cents=n*5;run.primary_outcome.voting_rights=n;run.primary_outcome.spending_cents=n*5;}
  const pilotItem=PILOT_ITEMS.find(item=>item.id===screen);if(pilotItem&&savePilotAnswer(pilotItem)===false)return false;
@@ -299,7 +297,7 @@ function notes(){
  if(!REVIEW_MODE)return;
  view='notes';showResearchLinks(true);
  app.innerHTML=`<div class="eyebrow">Researcher design notes</div><h1>Expectations, results, and subsequent choices</h1>
- <p class="lead">Version 41 removes the prior-familiarity ratings. It retains 27 short screens but numbers only the 16 screens requiring a response or playback action. The hypothetical-activity acknowledgement appears on the welcome page before random assignment. Information-only screens and the closing page are unnumbered; the progress bar advances only after a response screen is completed. Participants watch two 15-second clips, choose an artist, and rate support for both on one page before seeing their holdings or scenario treatment. Each artist has an independent rating. Artist names and other essential labels retain larger black text. Role badges use dark blue for your chosen artist and dark amber for another artist, with the same colors before and after the result. Poll 2 purchases use numbered budget boxes and an explicit Buy none option rather than a dropdown, with no initial selection. Spending and remaining rights update without advancing the page. Five pilot checks follow the purchase and discussion outcomes: perceived holding size, initial holdings, rule application, win/loss, and the meaning of the purchase response. Participation recall is omitted; assigned voting/non-voting remains recorded automatically.</p>
+ <p class="lead">Version 42 removes the prior-familiarity ratings and the influence-comparison question. It retains 26 short screens but numbers only the 15 screens requiring a response or playback action. The hypothetical-activity acknowledgement appears on the welcome page before random assignment. Information-only screens and the closing page are unnumbered; the progress bar advances only after a response screen is completed. Participants watch two 15-second clips, choose an artist, and rate support for both on one page before seeing their holdings or scenario treatment. Each artist has an independent rating. Artist names and other essential labels retain larger black text. Role badges use dark blue for your chosen artist and dark amber for another artist, with the same colors before and after the result. Poll 2 purchases use numbered budget boxes and an explicit Buy none option rather than a dropdown, with no initial selection. Spending and remaining rights update without advancing the page. Five pilot checks follow the purchase and discussion outcomes: perceived holding size, initial holdings, rule application, win/loss, and the meaning of the purchase response. Participation recall is omitted; assigned voting/non-voting remains recorded automatically.</p>
  <h2>Study and result assignment</h2>
  <p>The three studies and four primary conditions per study are unchanged. Study 1 crosses single-use/reusable rights with voting/non-voting at five initial rights. Study 2 crosses five/100 purchased rights with voting/non-voting under single-use rights. Study 3 crosses five/100 purchased rights with win/loss; everyone votes under single-use rights.</p>
  <p>The unified entry assigns study with probability 1/3 and condition with probability 1/4. Studies 1 and 2 independently assign win/loss 50/50; Study 3 includes win/loss in its primary conditions. A primary condition has probability 1/12; a realized condition–result combination has probability 1/24 in Studies 1/2 or 1/12 in Study 3. Results are assigned before responses and do not depend on baseline ratings or purchases.</p>
@@ -307,7 +305,7 @@ function notes(){
  <h2>Scenario and measurement</h2>
  <p>This is a fictional fan-platform song/performance-video release, not a real collaboration, announcement, or artist-sponsored poll. The same two artists compete in two polls one week apart; any can win again. The most-voted artist is featured. No fabricated vote totals or winning probabilities are displayed. The same 100 other fans have 1,000 rights available per poll; their turnout and choices are unknown.</p>
  <p>All participants start with $5.00 and buy rights at $0.05 each. Five rights cost $0.25; 100 cost $5.00. This varies holdings together with past spending, not holdings at constant investment. Single-use rights are consumed when used; unused rights carry over. Reusable rights permit one vote per right in each poll. All rights expire after Poll 2.</p>
- <p>Expectation of influence precedes assigned voting history and the first result. Perceived influence, influence disconfirmation, and disappointment follow. The influence comparison uses 1 = Much less, 4 = As expected, 7 = Much more; losing is not itself coded as negative disconfirmation. These measured process variables do not independently identify causal mediation.</p>
+ <p>Expectation of influence precedes assigned voting history and the first result. Perceived influence and disappointment follow. Influence disconfirmation is computed as perceived minus expected influence rather than asked directly. These measured process variables do not independently identify causal mediation.</p>
  <p>Poll 2 provides a new $1.00 budget, separate from earlier savings. The primary outcome is intended purchases of 0–20 additional rights at $0.05 each after the first result. The secondary outcome is intention to join a free fan discussion about upcoming K-pop releases. These are stated intentions, not observed purchases, participation, or the field peer-transfer measure.</p>
  <h2>Artist media and baseline ratings</h2>
  <p>Everyone is offered the same two distinct 15-second performance excerpts using native, same-origin MP4 players. Jennie: SOLO, source 00:50–01:05; Yooyeon: Girls Never Die (M2 / M COUNTDOWN, 23 May 2024), 00:24–00:39. The existing clips and still frames are unchanged. Labels identify each artist and group.</p>
