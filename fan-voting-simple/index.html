@@ -71,7 +71,7 @@ pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-r
 'use strict';
 // ---- Settings (edit here) ----
 const CONFIG={
-  version:'simple-2026-10-22-v1',
+  version:'simple-2026-10-22-v2',
   money:'$', price:3,                 // price of one card; one card = one voting right
   stake:{small:2,large:20},           // cards held before the vote
   budget:60,                          // imaginary budget for the next vote
@@ -139,7 +139,7 @@ const PAGES=[
 
  {id:'cards',need:[],html:()=>`
   <h1>You own ${run.cards} tripleS cards.</h1>
-  <p>On the fan app, fans buy digital photo cards. <b>Each card costs ${money(CONFIG.price)} and comes with 1 voting right.</b> One voting right = one vote.</p>
+  <p>On the fan app, fans buy digital photo cards. <b>Each card costs ${money(CONFIG.price)} and comes with 1 voting right.</b> One voting right = one vote. Fans can also send cards to each other for free.</p>
   <div class="box"><div class="big">${run.cards} cards = ${run.cards} voting rights</div>${cards(run.cards)}<div class="fine">You paid ${money(run.cards*CONFIG.price)} for them.</div></div>
   <div class="box"><b>${run.rights==='single'?'Your voting rights are single-use.':'Your voting rights are reusable.'}</b>
    <p style="margin-top:6px">${run.rights==='single'?'Each voting right can be used <b>once</b>. When you vote, the right is used up. You keep the card.':'Each voting right can be used in <b>every</b> vote. When you vote, you keep the right and the card.'}</p>
@@ -162,13 +162,13 @@ const PAGES=[
   ${scale('votes_mattered','How much did your votes matter for the result?','Not at all','A great deal')}
   ${nextBtn()}`},
 
- {id:'buy',need:['cards_bought','join_chat'],html:()=>`
+ {id:'buy',need:['cards_bought','card_exchange'],html:()=>`
   <h1>Next week, fans vote again.</h1>
   <p>The same two members compete again. <b>To get more voting rights, you must buy more cards:</b> 1 card = 1 voting right = ${money(CONFIG.price)}.</p>
   <div class="box"><span class="big">You have ${left()} voting rights now.</span><div class="fine">Imagine you have ${money(CONFIG.budget)} to spend. Money you do not spend stays yours.</div></div>
   <div class="q">How many more cards would you buy?</div>
   <div class="buy" data-name="cards_bought">${CONFIG.buyOptions.map(n=>`<button type="button" class="opt" data-v="${n}" aria-pressed="false"><b>${n}</b><small>${money(n*CONFIG.price)}</small></button>`).join('')}</div>
-  ${scale('join_chat','How likely are you to join the fan chat about the next vote?','Very unlikely','Very likely')}
+  ${scale('card_exchange','Before the next vote, how likely are you to send or trade cards with other fans?','Very unlikely','Very likely')}
   ${nextBtn()}`},
 
  {id:'checks',need:['check_cards','check_rights_left','check_outcome','fan_experience','attention'],html:()=>`
