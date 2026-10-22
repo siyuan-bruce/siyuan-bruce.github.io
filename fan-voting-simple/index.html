@@ -1,0 +1,226 @@
+---
+layout: null
+sitemap: false
+search: false
+permalink: /fan-voting-simple/
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Fan Voting Study</title>
+<style>
+:root{--ink:#111;--muted:#555;--line:#d9d9d9;--accent:#1f3a8a;--accent-soft:#e8edfb;--bg:#f6f6f4;--card:#fff;--win:#14532d;--lose:#7f1d1d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+.sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px 26px}
+.progress{height:6px;background:#e5e5e5;border-radius:3px;margin-bottom:18px;overflow:hidden}
+.progress span{display:block;height:100%;background:var(--accent);transition:width .3s}
+.step{font-size:13px;color:var(--muted);margin-bottom:4px}
+h1{font-size:26px;line-height:1.25;margin:0 0 12px}
+h2{font-size:18px;margin:22px 0 8px}
+p{margin:0 0 12px}
+.fine{font-size:14px;color:var(--muted)}
+.members{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+.member{border:2px solid var(--line);border-radius:12px;padding:8px;background:#fff;text-align:center;cursor:pointer;font:inherit;color:inherit}
+.member video,.member img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;display:block;background:#000}
+.member b{display:block;font-size:19px;margin-top:6px}
+.member small{color:var(--muted)}
+.member[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);box-shadow:0 0 0 2px var(--accent)}
+.member.static{cursor:default}
+.member.winner{border-color:var(--win);box-shadow:0 0 0 2px var(--win)}
+.member.loser{opacity:.45}
+.tag{display:inline-block;font-size:13px;font-weight:700;padding:2px 8px;border-radius:99px;margin-top:4px}
+.tag.win{background:#dcfce7;color:var(--win)}
+.tag.you{background:var(--accent-soft);color:var(--accent)}
+.q{margin:18px 0 6px;font-weight:600}
+.scale{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{min-height:46px;min-width:46px;padding:8px 12px;border:1.5px solid #999;border-radius:10px;background:#fff;font:inherit;color:inherit;cursor:pointer}
+.opt[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+.ends{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-top:4px}
+.buy{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.buy .opt{display:flex;flex-direction:column;align-items:center;line-height:1.2;padding:8px 4px}
+.buy .opt small{font-size:12px;opacity:.85}
+.next{display:block;width:100%;margin-top:24px;padding:15px;border:0;border-radius:12px;background:var(--accent);color:#fff;font-family:inherit;font-weight:600;font-size:18px;line-height:1;cursor:pointer}
+.next:disabled{background:#b8b8b8;cursor:not-allowed}
+.box{border:1px solid var(--line);border-radius:12px;padding:14px;margin:14px 0;background:#fafafa}
+.cards{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}
+.c{width:30px;height:42px;border-radius:5px;background:linear-gradient(160deg,#c7d2fe,#fbcfe8);border:1px solid #8b8fb5;position:relative}
+.c::after{content:"✓";position:absolute;inset:auto 0 3px 0;text-align:center;font-size:13px;font-weight:700;color:#1f3a8a}
+.c.used::after{content:"✕";color:#7f1d1d}
+.rule{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:15px}
+.rule .arrow{font-size:22px;color:var(--muted)}
+.big{font-size:22px;font-weight:700}
+.result{font-size:24px;font-weight:800;margin:6px 0 2px}
+.err{color:var(--lose);font-size:15px;min-height:1em;margin-top:8px}
+.check{display:flex;gap:10px;align-items:flex-start;margin:16px 0}
+.check input{width:22px;height:22px;margin-top:2px}
+.review{background:#fff7d6;border:1px solid #e3c766;border-radius:10px;padding:10px;margin-bottom:12px;font-size:14px}
+.review select{font:inherit;font-size:14px}
+pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-radius:8px;max-height:260px;overflow:auto}
+@media (max-width:480px){h1{font-size:23px}.sheet{padding:18px 14px 22px}.scale{gap:4px}.buy{grid-template-columns:repeat(4,1fr)}}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+'use strict';
+// ---- Settings (edit here) ----
+const CONFIG={
+  version:'simple-2026-10-22-v1',
+  money:'$', price:3,                 // price of one card; one card = one voting right
+  stake:{small:2,large:20},           // cards held before the vote
+  budget:60,                          // imaginary budget for the next vote
+  buyOptions:[0,1,2,3,5,10,15,20],    // card choices (all within budget)
+  members:{
+    seoyeon:{name:'Seoyeon',video:'media/seoyeon_5s.mp4',photo:'media/seoyeon.jpg'},
+    yooyeon:{name:'Yooyeon',video:'media/yooyeon_5s.mp4',photo:'media/yooyeon.jpg'}
+  },
+  pollTopic:'who sings the opening line of the group’s next song'
+};
+const REVIEW=new URLSearchParams(location.search).has('review');
+const $=s=>document.querySelector(s);
+const app=$('#app');
+function pick(a){const x=crypto.getRandomValues(new Uint32Array(1))[0];return a[x%a.length];}
+const money=n=>CONFIG.money+n;
+let run,page=0;
+
+function newRun(forced={}){
+  const order=forced.order||pick([['seoyeon','yooyeon'],['yooyeon','seoyeon']]);
+  run={version:CONFIG.version,started_at:new Date().toISOString(),
+    assignment:REVIEW&&Object.keys(forced).length?'researcher_preview':'random_1_of_8',
+    stake:forced.stake||pick(['small','large']),
+    rights:forced.rights||pick(['single','reusable']),
+    outcome:forced.outcome||pick(['win','loss']),
+    member_order:order,responses:{},clips:{},pages:[]};
+  run.cards=CONFIG.stake[run.stake];
+}
+const left=()=>run.rights==='single'?0:run.cards;
+const chosen=()=>run.responses.preferred_member;
+const other=()=>run.member_order.find(m=>m!==chosen());
+const winner=()=>run.outcome==='win'?chosen():other();
+const nm=id=>CONFIG.members[id].name;
+
+// ---- Small builders ----
+function scale(name,question,lo,hi){
+  return `<div class="q">${question}</div><div class="scale" data-name="${name}">${[1,2,3,4,5,6,7].map(v=>`<button type="button" class="opt" data-v="${v}" aria-pressed="false">${v}</button>`).join('')}</div><div class="ends"><span>1 = ${lo}</span><span>7 = ${hi}</span></div>`;
+}
+function choice(name,question,opts){
+  return `<div class="q">${question}</div><div class="opts" data-name="${name}">${opts.map(([v,l])=>`<button type="button" class="opt" data-v="${v}" aria-pressed="false">${l}</button>`).join('')}</div>`;
+}
+function cards(n,used=false){return `<div class="cards" aria-label="${n} cards">${Array.from({length:n},()=>`<span class="c${used?' used':''}"></span>`).join('')}</div>`;}
+function memberTile(id,mode){
+  const m=CONFIG.members[id];
+  if(mode==='clip')return `<button type="button" class="member" data-member="${id}" aria-pressed="false"><video src="${m.video}" poster="${m.photo}" muted playsinline autoplay preload="auto"></video><b>${m.name}</b><small>tripleS</small></button>`;
+  const w=winner()===id,cls=mode==='result'?(w?' winner':' loser'):'';
+  return `<div class="member static${cls}"><img src="${m.photo}" alt=""><b>${m.name}</b>${id===chosen()?'<span class="tag you">Your choice</span>':''}${mode==='result'&&w?' <span class="tag win">Winner</span>':''}</div>`;
+}
+const nextBtn=(label='Next')=>`<button class="next" id="next" disabled>${label}</button><div class="err" id="err"></div>`;
+
+// ---- Pages ----
+const PAGES=[
+ {id:'welcome',need:[],html:()=>`
+  <h1>Fan Voting Study</h1>
+  <p>Imagine you are a fan on a K-pop fan app. You will watch two short clips, read a short story, and answer a few questions. It takes about 3 minutes.</p>
+  <p><b>Everything is imaginary.</b> You do not spend any real money. Your payment is fixed.</p>
+  <label class="check"><input type="checkbox" id="agree"> <span>I am 18 or older and I agree to take part.</span></label>
+  ${nextBtn('Start')}`},
+
+ {id:'members',need:['preferred_member','liking'],html:()=>`
+  <h1>Meet two members of tripleS</h1>
+  <p>tripleS is a K-pop girl group. Watch each 5-second clip, then tap the member you like more.</p>
+  <div class="members">${run.member_order.map(id=>memberTile(id,'clip')).join('')}</div>
+  ${scale('liking','How much do you like the member you chose?','Not at all','Very much')}
+  ${nextBtn()}`},
+
+ {id:'cards',need:[],html:()=>`
+  <h1>You own ${run.cards} tripleS cards.</h1>
+  <p>On the fan app, fans buy digital photo cards. <b>Each card costs ${money(CONFIG.price)} and comes with 1 voting right.</b> One voting right = one vote.</p>
+  <div class="box"><div class="big">${run.cards} cards = ${run.cards} voting rights</div>${cards(run.cards)}<div class="fine">You paid ${money(run.cards*CONFIG.price)} for them.</div></div>
+  <div class="box"><b>${run.rights==='single'?'Your voting rights are single-use.':'Your voting rights are reusable.'}</b>
+   <p style="margin-top:6px">${run.rights==='single'?'Each voting right can be used <b>once</b>. When you vote, the right is used up. You keep the card.':'Each voting right can be used in <b>every</b> vote. When you vote, you keep the right and the card.'}</p>
+   <div class="rule"><span class="c"></span><span class="arrow">→ vote →</span>${run.rights==='single'?'<span class="c used"></span><span class="fine">right used up</span>':'<span class="c"></span><span class="fine">right still there</span>'}</div></div>
+  ${nextBtn()}`},
+
+ {id:'vote',need:['expected_influence'],html:()=>`
+  <h1>Fans are voting.</h1>
+  <p>The vote decides ${CONFIG.pollTopic}. <b>${nm(chosen())}</b> and <b>${nm(other())}</b> are the candidates. Thousands of fans vote, and the member with more votes wins.</p>
+  <div class="members">${run.member_order.map(id=>memberTile(id,'plain')).join('')}</div>
+  ${scale('expected_influence',`How much can your ${run.cards} votes change who wins?`,'Not at all','A great deal')}
+  ${nextBtn(`Cast all ${run.cards} votes for ${nm(chosen())}`)}`},
+
+ {id:'result',need:['disappointment','votes_mattered'],html:()=>`
+  <p class="fine">You cast ${run.cards} votes for ${nm(chosen())}. ${run.rights==='single'?`Your ${run.cards} voting rights are now used up. You still own your ${run.cards} cards.`:`You still have your ${run.cards} voting rights.`}</p>
+  <div class="result">${nm(winner())} won.</div>
+  <p>${run.outcome==='win'?'The member you voted for won.':'The member you voted for lost.'}</p>
+  <div class="members">${run.member_order.map(id=>memberTile(id,'result')).join('')}</div>
+  ${scale('disappointment','How disappointed are you?','Not at all','Very')}
+  ${scale('votes_mattered','How much did your votes matter for the result?','Not at all','A great deal')}
+  ${nextBtn()}`},
+
+ {id:'buy',need:['cards_bought','join_chat'],html:()=>`
+  <h1>Next week, fans vote again.</h1>
+  <p>The same two members compete again. <b>To get more voting rights, you must buy more cards:</b> 1 card = 1 voting right = ${money(CONFIG.price)}.</p>
+  <div class="box"><span class="big">You have ${left()} voting rights now.</span><div class="fine">Imagine you have ${money(CONFIG.budget)} to spend. Money you do not spend stays yours.</div></div>
+  <div class="q">How many more cards would you buy?</div>
+  <div class="buy" data-name="cards_bought">${CONFIG.buyOptions.map(n=>`<button type="button" class="opt" data-v="${n}" aria-pressed="false"><b>${n}</b><small>${money(n*CONFIG.price)}</small></button>`).join('')}</div>
+  ${scale('join_chat','How likely are you to join the fan chat about the next vote?','Very unlikely','Very likely')}
+  ${nextBtn()}`},
+
+ {id:'checks',need:['check_cards','check_rights_left','check_outcome','fan_experience','attention'],html:()=>`
+  <h1>Last questions</h1>
+  ${choice('check_cards','In the story, how many cards did you own before the vote?',[['2','2'],['20','20'],['unsure','Not sure']])}
+  ${choice('check_rights_left','After you voted, how many voting rights did you have left?',[['0','0'],['2','2'],['20','20'],['unsure','Not sure']])}
+  ${choice('check_outcome','Did the member you voted for win?',[['win','Won'],['loss','Lost'],['unsure','Not sure']])}
+  ${choice('fan_experience','Have you ever joined an online fan community?',[['never','Never'],['some','A few times'],['often','Often']])}
+  ${choice('attention','To show you are reading, please tap “Agree”.',[['disagree','Disagree'],['neutral','Neutral'],['agree','Agree']])}
+  ${nextBtn('Finish')}`},
+
+ {id:'end',need:[],html:()=>`
+  <h1>Thank you!</h1>
+  <p>This study asks how the number of cards fans own, the voting rule, and a win or loss shape their plans to buy more cards. The story, the cards, and the vote result were imaginary and assigned at random. No money was spent.</p>
+  ${REVIEW?`<button class="next" id="dl">Download test record (JSON)</button><button class="next" id="again" style="background:#555">Start again</button><pre>${JSON.stringify(run,null,1).replace(/</g,'&lt;')}</pre>`:''}`}
+];
+const COUNTED=PAGES.length-1;
+
+function render(){
+  const P=PAGES[page];
+  const bar=page>0&&page<COUNTED?`<div class="step">Page ${page} of ${COUNTED-1}</div><div class="progress"><span style="width:${100*page/(COUNTED-1)}%"></span></div>`:'';
+  app.innerHTML=`${REVIEW?reviewBar():''}<section class="sheet" data-page="${P.id}">${bar}${P.html()}</section>`;
+  wire(P);window.scrollTo(0,0);
+}
+function reviewBar(){
+  const cur=run||{};
+  return `<div class="review"><b>Researcher preview</b> (not shown to participants) · Cell:
+   <select id="rv">${['small','large'].flatMap(s=>['single','reusable'].flatMap(r=>['win','loss'].map(o=>`<option value="${s},${r},${o}"${cur.stake===s&&cur.rights===r&&cur.outcome===o?' selected':''}>${s} stake · ${r} · ${o}</option>`))).join('')}</select>
+   <button id="rvgo">Restart in this cell</button></div>`;
+}
+function ready(P){return P.need.every(k=>run.responses[k]!==undefined)&&(P.id!=='welcome'||$('#agree')?.checked);}
+function wire(P){
+  const btn=$('#next'),upd=()=>{if(btn)btn.disabled=!ready(P);};
+  app.querySelectorAll('[data-name]').forEach(g=>g.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{
+    g.querySelectorAll('.opt').forEach(x=>x.setAttribute('aria-pressed',x===b));
+    const v=b.dataset.v;run.responses[g.dataset.name]=/^\d+$/.test(v)?Number(v):v;upd();}));
+  app.querySelectorAll('.member[data-member]').forEach(b=>{
+    b.onclick=()=>{app.querySelectorAll('.member[data-member]').forEach(x=>x.setAttribute('aria-pressed',x===b));run.responses.preferred_member=b.dataset.member;upd();};
+    const v=b.querySelector('video'),id=b.dataset.member;run.clips[id]=run.clips[id]||{played:false,ended:false};
+    v.onplay=()=>run.clips[id].played=true;v.onended=()=>run.clips[id].ended=true;
+    v.play?.().catch(()=>{});
+  });
+  const ag=$('#agree');if(ag)ag.onchange=upd;
+  if(btn)btn.onclick=()=>{if(!ready(P))return;run.pages.push({page:P.id,done_at:new Date().toISOString()});page++;if(PAGES[page].id==='end')run.completed_at=new Date().toISOString();render();};
+  if(REVIEW){
+    const go=$('#rvgo');if(go)go.onclick=()=>{const [stake,rights,outcome]=$('#rv').value.split(',');newRun({stake,rights,outcome});page=0;render();};
+    const dl=$('#dl');if(dl)dl.onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(run,null,2)],{type:'application/json'}));a.download=`fan_voting_${run.stake}_${run.rights}_${run.outcome}.json`;a.click();};
+    const ag2=$('#again');if(ag2)ag2.onclick=()=>{newRun();page=0;render();};
+  }
+  upd();
+}
+newRun();render();
+</script>
+</body>
+</html>
