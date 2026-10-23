@@ -80,7 +80,7 @@ pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-r
 'use strict';
 // ---- Settings (edit here) ----
 const CONFIG={
-  version:'simple-2026-10-23-v8',
+  version:'simple-2026-10-23-v9',
   money:'$', price:3,                 // price of one card; one card = one voting right
   stake:{small:2,large:50},           // cards held before the vote
   otherFans:1000,                     // other fans voting in each poll
@@ -155,7 +155,7 @@ const PAGES=[
  {id:'cards',need:[],html:()=>`
   <h1>You own ${run.cards} tripleS cards.</h1>
   <p>On the fan app, fans buy digital photo cards. <b>Each card costs ${money(CONFIG.price)} and comes with 1 voting right.</b> One voting right = one vote.</p>
-  <p>Fans also send cards to each other for free, for example to share a member they like or to help a friend complete a set. Cards cannot be sold for money.</p>
+  <p>Fans also send cards to each other for free, for example to give a friend a card of a member they like. Cards cannot be sold for money.</p>
   <div class="box"><div class="big">${run.cards} cards = ${run.cards} voting rights</div>${cards(run.cards)}<div class="fine">You paid ${money(run.cards*CONFIG.price)} for them.</div><p style="margin:8px 0 0"><b>Other fans own about ${CONFIG.avgRights} cards each on average.</b></p></div>
   <div class="box"><b>${run.rights==='single'?'Your voting rights are single-use.':'Your voting rights are reusable.'}</b>
    <p style="margin-top:6px">${run.rights==='single'?'Each voting right can be used <b>once</b>. When you vote, the right is used up. You keep the card.':'Each voting right can be used in <b>every</b> vote. When you vote, you keep the right and the card.'}</p>
@@ -187,7 +187,7 @@ const PAGES=[
   <div class="q">How many more cards would you buy?</div>
   <div class="buy" data-name="cards_bought">${CONFIG.buyOptions.map(n=>`<button type="button" class="opt" data-v="${n}" aria-pressed="false"><b>${n}</b><small>${money(n*CONFIG.price)}</small></button>`).join('')}</div>
   <div class="spendline" id="spend">Cards: <b>—</b> · Left for albums, concerts, and merch: <b>—</b></div>
-  ${brief('Fans send cards to each other for free, for example to share a member they like or to help a friend complete a set.')}
+  ${brief('Fans send cards to each other for free, for example to give a friend a card of a member they like.')}
   ${scale('card_exchange','Before the next vote, how likely are you to send or swap cards with other fans?','Very unlikely','Very likely')}
   ${nextBtn()}`},
 
