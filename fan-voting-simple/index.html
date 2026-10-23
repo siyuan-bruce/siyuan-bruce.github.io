@@ -71,9 +71,10 @@ pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-r
 'use strict';
 // ---- Settings (edit here) ----
 const CONFIG={
-  version:'simple-2026-10-23-v3',
+  version:'simple-2026-10-23-v4',
   money:'$', price:3,                 // price of one card; one card = one voting right
   stake:{small:2,large:20},           // cards held before the vote
+  typical:6,                          // a typical fan's holding (reference point)
   budget:60,                          // imaginary budget for the next vote
   buyOptions:[0,1,2,3,5,10,15,20],    // card choices (all within budget)
   members:{
@@ -140,7 +141,7 @@ const PAGES=[
  {id:'cards',need:[],html:()=>`
   <h1>You own ${run.cards} tripleS cards.</h1>
   <p>On the fan app, fans buy digital photo cards. <b>Each card costs ${money(CONFIG.price)} and comes with 1 voting right.</b> One voting right = one vote. Fans can also send cards to each other for free.</p>
-  <div class="box"><div class="big">${run.cards} cards = ${run.cards} voting rights</div>${cards(run.cards)}<div class="fine">You paid ${money(run.cards*CONFIG.price)} for them.</div></div>
+  <div class="box"><div class="big">${run.cards} cards = ${run.cards} voting rights</div>${cards(run.cards)}<div class="fine">You paid ${money(run.cards*CONFIG.price)} for them.</div><p style="margin:8px 0 0"><b>A typical fan owns about ${CONFIG.typical} cards.</b></p></div>
   <div class="box"><b>${run.rights==='single'?'Your voting rights are single-use.':'Your voting rights are reusable.'}</b>
    <p style="margin-top:6px">${run.rights==='single'?'Each voting right can be used <b>once</b>. When you vote, the right is used up. You keep the card.':'Each voting right can be used in <b>every</b> vote. When you vote, you keep the right and the card.'}</p>
    <div class="rule"><span class="c"></span><span class="arrow">→ vote →</span>${run.rights==='single'?'<span class="c used"></span><span class="fine">right used up</span>':'<span class="c"></span><span class="fine">right still there</span>'}</div></div>
@@ -171,9 +172,10 @@ const PAGES=[
   ${scale('card_exchange','Before the next vote, how likely are you to send or trade cards with other fans?','Very unlikely','Very likely')}
   ${nextBtn()}`},
 
- {id:'checks',need:['check_cards','check_rights_left','check_outcome','fan_experience','attention'],html:()=>`
+ {id:'checks',need:['check_cards','check_relative_stake','check_rights_left','check_outcome','fan_experience','attention'],html:()=>`
   <h1>Last questions</h1>
   ${choice('check_cards','In the story, how many cards did you own before the vote?',[['2','2'],['20','20'],['unsure','Not sure']])}
+  ${choice('check_relative_stake','Compared with a typical fan, you owned…',[['fewer','Fewer cards'],['same','About the same'],['more','More cards'],['unsure','Not sure']])}
   ${choice('check_rights_left','After you voted, how many voting rights did you have left?',[['0','0'],['2','2'],['20','20'],['unsure','Not sure']])}
   ${choice('check_outcome','Did the member you voted for win?',[['win','Won'],['loss','Lost'],['unsure','Not sure']])}
   ${choice('fan_experience','Have you ever joined an online fan community?',[['never','Never'],['some','A few times'],['often','Often']])}
