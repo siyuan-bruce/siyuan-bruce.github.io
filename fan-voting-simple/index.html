@@ -61,6 +61,9 @@ p{margin:0 0 12px}
 .cards.many{gap:3px}
 .cards.many .c{width:20px;height:28px;border-radius:3px}
 .cards.many .c::after{font-size:10px;bottom:1px}
+.cards.huge{display:grid;grid-template-columns:repeat(20,1fr);gap:2px;max-width:420px}
+.cards.huge .c{width:auto;height:auto;aspect-ratio:5/7;border-radius:2px}
+.cards.huge .c::after{display:none}
 .rule{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:15px}
 .rule .arrow{font-size:22px;color:var(--muted)}
 .big{font-size:22px;font-weight:700}
@@ -80,9 +83,9 @@ pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-r
 'use strict';
 // ---- Settings (edit here) ----
 const CONFIG={
-  version:'simple-2026-10-23-v9',
+  version:'simple-2026-10-23-v10',
   money:'$', price:3,                 // price of one card; one card = one voting right
-  stake:{small:2,large:50},           // cards held before the vote
+  stake:{small:2,large:100},           // cards held before the vote
   otherFans:1000,                     // other fans voting in each poll
   avgRights:10,                       // average voting rights (cards) per other fan
   budget:60,                          // imaginary budget for the next vote
@@ -125,7 +128,7 @@ const crowd=()=>`About ${CONFIG.otherFans.toLocaleString('en-US')} other fans al
 function choice(name,question,opts){
   return `<div class="q">${question}</div><div class="opts" data-name="${name}">${opts.map(([v,l])=>`<button type="button" class="opt" data-v="${v}" aria-pressed="false">${l}</button>`).join('')}</div>`;
 }
-function cards(n,used=false){return `<div class="cards${n>20?' many':''}" aria-label="${n} cards">${Array.from({length:n},()=>`<span class="c${used?' used':''}"></span>`).join('')}</div>`;}
+function cards(n,used=false){return `<div class="cards${n>50?' huge':n>20?' many':''}" aria-label="${n} cards">${Array.from({length:n},()=>`<span class="c${used?' used':''}"></span>`).join('')}</div>`;}
 function memberTile(id,mode){
   const m=CONFIG.members[id];
   if(mode==='clip')return `<button type="button" class="member" data-member="${id}" aria-pressed="false"><video src="${m.video}" poster="${m.photo}" muted playsinline autoplay preload="auto"></video><b>${m.name}</b><small>tripleS</small><span class="pick" data-pick>Choose ${m.name}</span></button>`;
@@ -144,12 +147,13 @@ const PAGES=[
   <label class="check"><input type="checkbox" id="agree"> <span>I am 18 or older and I agree to take part.</span></label>
   ${nextBtn('Start')}`},
 
- {id:'members',need:['preferred_member','liking'],html:()=>`
+ {id:'members',need:['preferred_member','liking_seoyeon','liking_yooyeon'],html:()=>`
   <h1>Meet two members of tripleS</h1>
   <p>tripleS is a K-pop girl group. Watch each 5-second clip.</p>
   <div class="q">Which member do you like more? Tap her button.</div>
   <div class="members">${run.member_order.map(id=>memberTile(id,'clip')).join('')}</div>
-  ${scale('liking','How much do you like the member you chose?','Not at all','Very much')}
+  <div class="q" style="margin-top:22px">How much do you like each member?</div>
+  ${run.member_order.map(id=>scale('liking_'+id,nm(id),'Not at all','Very much')).join('')}
   ${nextBtn()}`},
 
  {id:'cards',need:[],html:()=>`
