@@ -31,6 +31,10 @@ p{margin:0 0 12px}
 .member small{color:var(--muted)}
 .member[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);box-shadow:0 0 0 2px var(--accent)}
 .member.static{cursor:default}
+.pick{display:block;margin:8px auto 2px;padding:9px 6px;border:1.5px solid #999;border-radius:10px;font-weight:600;font-size:15px;background:#fff}
+.member[aria-pressed=true] .pick{background:var(--accent);border-color:var(--accent);color:#fff}
+.spendline{margin-top:10px;padding:10px 12px;border-radius:10px;background:#f3f5fb;font-size:15px}
+.spendline b{font-size:17px}
 .member.winner{border-color:var(--win);box-shadow:0 0 0 2px var(--win)}
 .member.loser{opacity:.45}
 .tag{display:inline-block;font-size:13px;font-weight:700;padding:2px 8px;border-radius:99px;margin-top:4px}
@@ -76,7 +80,7 @@ pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-r
 'use strict';
 // ---- Settings (edit here) ----
 const CONFIG={
-  version:'simple-2026-10-23-v6',
+  version:'simple-2026-10-23-v7',
   money:'$', price:3,                 // price of one card; one card = one voting right
   stake:{small:2,large:50},           // cards held before the vote
   otherFans:1000,                     // other fans voting in each poll
@@ -124,7 +128,7 @@ function choice(name,question,opts){
 function cards(n,used=false){return `<div class="cards${n>20?' many':''}" aria-label="${n} cards">${Array.from({length:n},()=>`<span class="c${used?' used':''}"></span>`).join('')}</div>`;}
 function memberTile(id,mode){
   const m=CONFIG.members[id];
-  if(mode==='clip')return `<button type="button" class="member" data-member="${id}" aria-pressed="false"><video src="${m.video}" poster="${m.photo}" muted playsinline autoplay preload="auto"></video><b>${m.name}</b><small>tripleS</small></button>`;
+  if(mode==='clip')return `<button type="button" class="member" data-member="${id}" aria-pressed="false"><video src="${m.video}" poster="${m.photo}" muted playsinline autoplay preload="auto"></video><b>${m.name}</b><small>tripleS</small><span class="pick" data-pick>Choose ${m.name}</span></button>`;
   const w=winner()===id,cls=mode==='result'?(w?' winner':' loser'):'';
   return `<div class="member static${cls}"><img src="${m.photo}" alt=""><b>${m.name}</b>${id===chosen()?'<span class="tag you">Your choice</span>':''}${mode==='result'&&w?' <span class="tag win">Winner</span>':''}</div>`;
 }
@@ -142,7 +146,8 @@ const PAGES=[
 
  {id:'members',need:['preferred_member','liking'],html:()=>`
   <h1>Meet two members of tripleS</h1>
-  <p>tripleS is a K-pop girl group. Watch each 5-second clip, then tap the member you like more.</p>
+  <p>tripleS is a K-pop girl group. Watch each 5-second clip.</p>
+  <div class="q">Which member do you like more? Tap her button.</div>
   <div class="members">${run.member_order.map(id=>memberTile(id,'clip')).join('')}</div>
   ${scale('liking','How much do you like the member you chose?','Not at all','Very much')}
   ${nextBtn()}`},
@@ -178,9 +183,10 @@ const PAGES=[
  {id:'buy',need:['cards_bought','card_exchange'],html:()=>`
   <h1>Next week, fans vote again.</h1>
   <p>The same two members compete again. <b>To get more voting rights, you must buy more cards:</b> 1 card = 1 voting right = ${money(CONFIG.price)}.</p>
-  <div class="box"><span class="big">You have ${left()} voting rights now.</span><div class="fine">Imagine you have ${money(CONFIG.budget)} to spend. Money you do not spend stays yours.</div></div>
+  <div class="box"><span class="big">You have ${left()} voting rights now.</span><p style="margin:8px 0 0">Imagine <b>${money(CONFIG.budget)} is all you have for fan spending this month</b>: cards, albums, concert streams, and merch. Money you do not spend on cards goes to those other things.</p><div class="fine">An album costs about $20. A concert stream costs about $30.</div></div>
   <div class="q">How many more cards would you buy?</div>
   <div class="buy" data-name="cards_bought">${CONFIG.buyOptions.map(n=>`<button type="button" class="opt" data-v="${n}" aria-pressed="false"><b>${n}</b><small>${money(n*CONFIG.price)}</small></button>`).join('')}</div>
+  <div class="spendline" id="spend">Cards: <b>—</b> · Left for albums, concerts, and merch: <b>—</b></div>
   ${brief('Fans send cards to each other for free, for example to share a member they like or to help a friend complete a set.')}
   ${scale('card_exchange','Before the next vote, how likely are you to send or swap cards with other fans?','Very unlikely','Very likely')}
   ${nextBtn()}`},
@@ -220,9 +226,11 @@ function wire(P){
   const btn=$('#next'),upd=()=>{if(btn)btn.disabled=!ready(P);};
   app.querySelectorAll('[data-name]').forEach(g=>g.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{
     g.querySelectorAll('.opt').forEach(x=>x.setAttribute('aria-pressed',x===b));
-    const v=b.dataset.v;run.responses[g.dataset.name]=/^\d+$/.test(v)?Number(v):v;upd();}));
+    const v=b.dataset.v;run.responses[g.dataset.name]=/^\d+$/.test(v)?Number(v):v;
+    if(g.dataset.name==='cards_bought'){const c=Number(v)*CONFIG.price;$('#spend').innerHTML=`Cards: <b>${money(c)}</b> · Left for albums, concerts, and merch: <b>${money(CONFIG.budget-c)}</b>`;}
+    upd();}));
   app.querySelectorAll('.member[data-member]').forEach(b=>{
-    b.onclick=()=>{app.querySelectorAll('.member[data-member]').forEach(x=>x.setAttribute('aria-pressed',x===b));run.responses.preferred_member=b.dataset.member;upd();};
+    b.onclick=()=>{app.querySelectorAll('.member[data-member]').forEach(x=>{x.setAttribute('aria-pressed',x===b);const k=x.querySelector('[data-pick]');k.textContent=(x===b?'✓ Chosen: ':'Choose ')+nm(x.dataset.member);});run.responses.preferred_member=b.dataset.member;upd();};
     const v=b.querySelector('video'),id=b.dataset.member;run.clips[id]=run.clips[id]||{played:false,ended:false};
     v.onplay=()=>run.clips[id].played=true;v.onended=()=>run.clips[id].ended=true;
     v.play?.().catch(()=>{});
