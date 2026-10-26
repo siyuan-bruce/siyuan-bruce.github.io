@@ -1,6 +1,6 @@
 # Upcoming talks shown on the homepage.
 #
-# Listed in the order they should appear on the page.
+# Listed chronologically by the event's start date (earliest first).
 # Fields:
 #   month    short month shown in the date chip, e.g. Nov  (use TBC if unscheduled)
 #   day      optional day of the month, shown large in the chip
@@ -27,6 +27,35 @@
   time: Friday afternoon
   kind: consortium
 
+- month: Oct
+  day: 30
+  year: 2026
+  venue: INFORMS ISS ISR Paper Development Workshop for Early Career Scholar
+  title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
+  place: San Francisco, USA
+  speaker: Jinan Lin (Wisconsin)
+  time: Friday afternoon
+  kind: workshop
+  url: https://cist2026.github.io/iss-events/
+
+- month: Oct
+  year: 2026
+  venue: INFORMS CIST
+  title: "Scaling Before Gains: AI Adoption and Team Expansion"
+  place: San Francisco, USA
+  speaker: Haochen Jiang (CityU)
+  time: October 31 to November 1
+  kind: conference
+
+- month: Oct
+  year: 2026
+  venue: INFORMS CIST
+  title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
+  place: San Francisco, USA
+  speaker: Haiting Lin (Zhejiang University)
+  time: October 31 to November 1
+  kind: conference
+
 - month: Nov
   day: 2
   year: 2026
@@ -47,15 +76,6 @@
   kind: seminar
 
 - month: Dec
-  day: "16–18"
-  year: 2026
-  venue: Workshop on Information Systems and Economics (WISE)
-  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
-  place: Lisbon, Portugal
-  time: December 16 to 18
-  kind: workshop
-
-- month: Dec
   year: 2026
   venue: ICIS Doctoral Consortium
   title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
@@ -63,31 +83,11 @@
   time: December 9 to 12
   kind: consortium
 
-- month: Oct
+- month: Dec
+  day: "16–18"
   year: 2026
-  venue: INFORMS CIST
-  title: "Scaling Before Gains: AI Adoption and Team Expansion"
-  place: San Francisco, USA
-  speaker: Haochen Jiang (CityU)
-  time: October 31 to November 1
-  kind: conference
-
-- month: Oct
-  year: 2026
-  venue: INFORMS CIST
-  title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
-  place: San Francisco, USA
-  speaker: Haiting Lin (Zhejiang University)
-  time: October 31 to November 1
-  kind: conference
-
-- month: Oct
-  day: 30
-  year: 2026
-  venue: INFORMS ISS ISR Paper Development Workshop for Early Career Scholar
-  title: "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption"
-  place: San Francisco, USA
-  speaker: Jinan Lin (Wisconsin)
-  time: Friday afternoon
+  venue: Workshop on Information Systems and Economics (WISE)
+  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
+  place: Lisbon, Portugal
+  time: December 16 to 18
   kind: workshop
-  url: https://cist2026.github.io/iss-events/
