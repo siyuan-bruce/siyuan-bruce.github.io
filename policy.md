@@ -195,7 +195,15 @@ My research connects directly to public policy. I have contributed to <strong>Ho
   <p class="p-links"><strong>MAS Global CBDC Challenge Finalist</strong> (top 5% of 300+ submissions from 50+ countries) · <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">MAS announcement</a> · <a href="https://ieeexplore.ieee.org/document/9795279">Paper</a></p>
 </div>
 
-## CBDC Privacy & Security
+## Privacy & Post-Quantum Security
+
+<div class="policy-entry">
+  <span class="policy-venue">HKUST &amp; HKMA · 2026</span>
+  <div class="p-title">PACT: PQC Accountability and Controlled Transition</div>
+  <div class="p-meta"><a href="https://www.allenhuang.org/">Allen H. Huang</a>, Terrance Fung, <strong>Siyuan Jin</strong>, Dimitrios Papadopoulos.</div>
+  <p class="p-desc">A reference manual published with the HKMA setting out a post-quantum cryptography transition framework for the banking industry, covering how banks inventory cryptographic assets, sequence migration to quantum-resistant standards, and hold that transition accountable.</p>
+  <p class="p-links"><a href="https://bm.hkust.edu.hk/sites/default/files/html/159b11b4df3bd404a3e510d473d71ce2/PQC%20Accountability%20and%20Controlled%20Transition%20/files/assets/common/downloads/PACT_PQC%20Accountability%20and%20Controlled%20Transition.pdf">Report</a></p>
+</div>
 
 <div class="policy-entry">
   <span class="policy-venue">HKMA CBDC Expert Group</span>
