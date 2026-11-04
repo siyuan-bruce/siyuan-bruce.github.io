@@ -203,6 +203,7 @@ My research connects directly to public policy. I have contributed to <strong>Ho
   <div class="p-meta"><a href="https://www.allenhuang.org/">Allen H. Huang</a>, Terrance Fung, <strong>Siyuan Jin</strong>, Dimitrios Papadopoulos.</div>
   <p class="p-desc">A reference manual published with the HKMA setting out a post-quantum cryptography transition framework for the banking industry, covering how banks inventory cryptographic assets, sequence migration to quantum-resistant standards, and hold that transition accountable.</p>
   <p class="p-links"><a href="https://bm.hkust.edu.hk/sites/default/files/html/159b11b4df3bd404a3e510d473d71ce2/PQC%20Accountability%20and%20Controlled%20Transition%20/files/assets/common/downloads/PACT_PQC%20Accountability%20and%20Controlled%20Transition.pdf">Report</a></p>
+  <p class="p-links">Media coverage: <a href="https://www.thestandard.com.hk/finance/article/347250/HKMA-HKUST-launches-PQC-toolkit-to-help-banks-achieve-full-quantum-readiness-by-2030">The Standard</a> · <a href="https://news.rthk.hk/rthk/en/component/k2/1876212-20261102.htm">RTHK</a> · <a href="https://www.hkej.com/instantnews/hongkong/article/4554758/">Hong Kong Economic Journal</a> · <a href="https://std.stheadline.com/daily-education/3632793/">Sing Tao Daily</a> · <a href="https://www.wenweipo.com/a/202611/03/AP6ae8f92be4b0fa89498b9461.html">Wen Wei Po</a> · <a href="https://finance.now.com/news/post.php?id=992140">Now News</a>, and other outlets</p>
 </div>
 
 <div class="policy-entry">
