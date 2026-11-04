@@ -19,17 +19,6 @@
 # presented as upcoming, so past talks should be moved to the News section.
 
 - month: Nov
-  day: 2
-  year: 2026
-  venue: INFORMS Annual Meeting
-  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
-  session: "Applications of AI in Digital Economy"
-  place: San Francisco, USA
-  time: Mon 4:15 to 5:30 PM
-  room: Moscone South-216 (Level 2)
-  kind: invited
-
-- month: Nov
   day: 5
   year: 2026
   venue: ISPOC Job Market Paper Presentation
