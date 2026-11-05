@@ -18,14 +18,6 @@
 # Delete an entry once the talk has happened. Anything listed here is
 # presented as upcoming, so past talks should be moved to the News section.
 
-- month: Nov
-  day: 5
-  year: 2026
-  venue: ISPOC Job Market Paper Presentation
-  title: "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams"
-  place: Online
-  kind: seminar
-
 - month: Dec
   year: 2026
   venue: ICIS Doctoral Consortium
