@@ -107,6 +107,45 @@ permalink: /policy.html
     margin: 0;
   }
 
+  .media-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 16px;
+    margin: 10px 0 2px;
+  }
+
+  .media-logos .media-label {
+    font-size: 13.5px;
+    color: #555;
+  }
+
+  .media-logos a {
+    display: inline-flex;
+  }
+
+  .media-logos img {
+    display: block;
+    height: 22px;
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
+    border-radius: 3px;
+    transition: opacity 0.15s;
+  }
+
+  .media-logos img.logo-wide {
+    max-width: 180px;
+  }
+
+  .media-logos img.logo-sm {
+    height: 17px;
+  }
+
+  .media-logos a:hover img {
+    opacity: 0.75;
+  }
+
   .policy-entry a,
   .policy-intro a {
     color: #1e3a6e;
@@ -203,7 +242,24 @@ My research connects directly to public policy. I have contributed to <strong>Ho
   <div class="p-meta"><a href="https://www.allenhuang.org/">Allen H. Huang</a>, Terrance Fung, <strong>Siyuan Jin</strong>, Dimitrios Papadopoulos.</div>
   <p class="p-desc">A reference manual published with the HKMA setting out a post-quantum cryptography transition framework for the banking industry, covering how banks inventory cryptographic assets, sequence migration to quantum-resistant standards, and hold that transition accountable.</p>
   <p class="p-links"><a href="https://bm.hkust.edu.hk/sites/default/files/html/159b11b4df3bd404a3e510d473d71ce2/PQC%20Accountability%20and%20Controlled%20Transition%20/files/assets/common/downloads/PACT_PQC%20Accountability%20and%20Controlled%20Transition.pdf">Report</a></p>
-  <p class="p-links">Media coverage: <a href="https://www.scmp.com/opinion/comment/article/3362338/hong-kong-banks-can-no-longer-ignore-quantum-threat">South China Morning Post</a> · <a href="https://www.chinadailyhk.com/hk/article/642123">China Daily</a> · <a href="https://thequantuminsider.com/2026/11/02/hkust-hkma-launch-pqc-toolkit-banks/">The Quantum Insider</a> · <a href="https://www.hpcwire.com/off-the-wire/hkma-and-hkust-launch-pqc-toolkit-to-support-banks-quantum-preparedness/">HPCwire</a> · <a href="https://quantumzeitgeist.com/quantum-threats-hkust-hong-kong-banks/">Quantum Zeitgeist</a> · <a href="https://www.thestandard.com.hk/finance/article/347250/HKMA-HKUST-launches-PQC-toolkit-to-help-banks-achieve-full-quantum-readiness-by-2030">The Standard</a> · <a href="https://news.rthk.hk/rthk/en/component/k2/1876212-20261102.htm">RTHK</a> · <a href="https://www.hkej.com/instantnews/hongkong/article/4554758/">Hong Kong Economic Journal</a> · <a href="https://std.stheadline.com/daily-education/3632793/">Sing Tao Daily</a>, and other outlets</p>
+  <div class="media-logos"><span class="media-label">Media coverage:</span>
+    <a href="https://www.scmp.com/opinion/comment/article/3362338/hong-kong-banks-can-no-longer-ignore-quantum-threat" title="South China Morning Post"><img class="logo-wide" src="/assets/images/media/scmp.webp" alt="South China Morning Post" width="602" height="48" loading="lazy"></a>
+    <a href="https://www.chinadailyhk.com/hk/article/642123" title="China Daily"><img src="/assets/images/media/chinadaily.webp" alt="China Daily" width="310" height="48" loading="lazy"></a>
+    <a href="https://thequantuminsider.com/2026/11/02/hkust-hkma-launch-pqc-toolkit-banks/" title="The Quantum Insider"><img src="/assets/images/media/quantuminsider.webp" alt="The Quantum Insider" width="169" height="48" loading="lazy"></a>
+    <a href="https://www.hpcwire.com/off-the-wire/hkma-and-hkust-launch-pqc-toolkit-to-support-banks-quantum-preparedness/" title="HPCwire"><img src="/assets/images/media/hpcwire.webp" alt="HPCwire" width="206" height="48" loading="lazy"></a>
+    <a href="https://quantumzeitgeist.com/quantum-threats-hkust-hong-kong-banks/" title="Quantum Zeitgeist"><img src="/assets/images/media/quantumzeitgeist.webp" alt="Quantum Zeitgeist" width="163" height="48" loading="lazy"></a>
+    <a href="https://www.miragenews.com/hkust-hkma-launch-quantum-readiness-toolkit-for-1770485/" title="Mirage News"><img src="/assets/images/media/miragenews.webp" alt="Mirage News" width="164" height="48" loading="lazy"></a>
+    <a href="https://blockchain.news/news/hkma-hkust-launch-pqc-toolkit-bank-quantum-preparedness" title="Blockchain.News"><img src="/assets/images/media/blockchainnews.webp" alt="Blockchain.News" width="200" height="48" loading="lazy"></a>
+    <a href="https://www.thestandard.com.hk/finance/article/347250/HKMA-HKUST-launches-PQC-toolkit-to-help-banks-achieve-full-quantum-readiness-by-2030" title="The Standard"><img src="/assets/images/media/thestandard.webp" alt="The Standard" width="116" height="48" loading="lazy"></a>
+    <a href="https://news.rthk.hk/rthk/en/component/k2/1876212-20261102.htm" title="RTHK"><img src="/assets/images/media/rthk.webp" alt="RTHK" width="67" height="48" loading="lazy"></a>
+    <a href="https://www.hkej.com/instantnews/hongkong/article/4554758/" title="Hong Kong Economic Journal"><img src="/assets/images/media/hkej.webp" alt="Hong Kong Economic Journal" width="106" height="48" loading="lazy"></a>
+    <a href="https://std.stheadline.com/daily-education/3632793/" title="Sing Tao Daily"><img src="/assets/images/media/singtao.webp" alt="Sing Tao Daily" width="140" height="48" loading="lazy"></a>
+    <a href="https://www.wenweipo.com/a/202611/03/AP6ae8f92be4b0fa89498b9461.html" title="Wen Wei Po"><img src="/assets/images/media/wenweipo.webp" alt="Wen Wei Po" width="152" height="48" loading="lazy"></a>
+    <a href="https://finance.now.com/news/post.php?id=992140" title="Now News"><img src="/assets/images/media/nownews.webp" alt="Now News" width="142" height="48" loading="lazy"></a>
+    <a href="https://www.bastillepost.com/global/article/6315797-hkma-and-hkust-launch-post-quantum-cryptography-toolkit-to-enhance-banking-sectors-cybersecurity-preparedness" title="Bastille Post"><img class="logo-sm" src="/assets/images/media/bastillepost.webp" alt="Bastille Post" width="300" height="48" loading="lazy"></a>
+    <a href="https://portal.sina.com.hk/finance/gia-info-gov-hk/2026/11/02/1974813/" title="Sina"><img src="/assets/images/media/sina.webp" alt="Sina" width="172" height="48" loading="lazy"></a>
+    <a href="https://finance.eastmoney.com/a/202611023918942866.html" title="Eastmoney"><img src="/assets/images/media/eastmoney.webp" alt="Eastmoney" width="199" height="48" loading="lazy"></a>
+  </div>
 </div>
 
 <div class="policy-entry">
@@ -224,6 +280,10 @@ My research connects directly to public policy. I have contributed to <strong>Ho
 <p class="oped-note">
 As part of this work, I write a recurring public-policy column in the <strong>Hong Kong Economic Times (經濟日報)</strong> on Hong Kong's tourism strategy, visitor experience, and competitiveness:
 </p>
+
+<div class="media-logos"><span class="media-label">Column in:</span>
+  <a href="https://service.hket.com/search/result?dis=basic&amp;keyword=%E9%87%91%E6%80%9D%E9%81%A0" title="Hong Kong Economic Times"><img src="/assets/images/media/hket.webp" alt="Hong Kong Economic Times" width="142" height="48" loading="lazy"></a>
+</div>
 
 <ul class="oped-list">
   <li>"會展+盛事雙引擎 港添旅遊磁吸力" <a href="https://paper.hket.com/article/4184102/">經濟日報</a> <span class="oped-date">· August 28, 2026</span></li>
