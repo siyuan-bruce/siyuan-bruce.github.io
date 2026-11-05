@@ -145,7 +145,7 @@ key: page-research
   </style>
 </head>
 
-_The goal of behavioral-science research is truth. The goal of design-science research is utility. --- MIS Quarterly, 2004_
+_The goal of behavioral-science research is truth. The goal of design-science research is utility. (MIS Quarterly, 2004)_
 
 <p style="font-size: 14px; color: #666; font-style: italic; margin-top: 15px; margin-bottom: 15px;">
 FT50 = list of 50 journals used by the Financial Times to compile the FT Research rank, included in the Global MBA, EMBA, and Online MBA rankings.<br>
@@ -256,14 +256,14 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
   <li class="paper-item" data-number="B2">
     <div class="paper-title">
-      AI Reviewer and Standard Diffusion.
+      Making Quality Contractible: How Algorithmic Quality Scoring Reshapes Software Development.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
       Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
     <p class="conference-info">Presentations: [2024 HKUST Business PhD Student Conference], [CIST 2024], [SCECR 2025], [2026 MISQ Virtual PDW]</p>
-    <p class="status-info">In preparation for submission to <em>Management Science</em>.</p>
+    <p class="status-info">Under revision, rejected after a second-round major revision at <em>Information Systems Research</em>.</p>
   </li>
 
   <li class="paper-item" data-number="B3">
@@ -309,7 +309,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>,
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
-      Yuhan Huang, Qiming Shao, Yong Xia.
+      Yuhan Huang, Qiming Shao, Yong Xia. Reference: <a href="https://doi.org/10.1145/3838724">[DOI]</a>
     </div>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
     <p class="status-info">Accepted at <em>ACM Transactions on Management Information Systems</em> (TMIS).</p>
@@ -407,7 +407,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     
   4. **Siyuan Jin**, Yong Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
 
-  5. Bin Zhu, Ziyuan Li, Yong Xia, Ming Zhang, **Siyuan Jin**, Kar Yan Tam, Yuhan Huang, Qiming Shao. (2024). "Systems and Methods for Quantum Monte Carlo Processing". US Patent App. 18/404,169.
+  5. Bing Zhu, Ziyuan Li, Yong Xia, Mianmian Zhang, **Siyuan Jin**, Kar Yan Tam, Yuhan Huang, Qiming Shao. (2024). "Systems and Methods for Quantum Monte Carlo Processing". US Patent App. 18/404,169.
 
   6. Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, **Siyuan Jin**. (2024). "Adaptive Diversity-Based Quantum Circuit Architecture Search". US Patent App. 18/519,617.
 

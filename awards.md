@@ -156,19 +156,19 @@ permalink: /awards.html
     <span class="award-cat">Research</span>
     <div class="award-year">2025</div>
     <div class="award-title">Best Short Paper Nominee</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
+    <div class="award-org">International Conference on Information Systems (ICIS)</div>
   </div>
   <div class="award-tile cat-research">
     <span class="award-cat">Research</span>
     <div class="award-year">2025</div>
     <div class="award-title">Best Paper Award</div>
-    <div class="award-org">GLOSITH — Global Congress of Special Interest Tourism &amp; Hospitality</div>
+    <div class="award-org">Global Congress of Special Interest Tourism &amp; Hospitality (GLOSITH)</div>
   </div>
   <div class="award-tile cat-research">
     <span class="award-cat">Research</span>
     <div class="award-year">2024</div>
     <div class="award-title">Best Short Paper Nominee</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
+    <div class="award-org">International Conference on Information Systems (ICIS)</div>
   </div>
   </div>
 </section>
@@ -234,19 +234,19 @@ permalink: /awards.html
     <span class="award-cat">Research</span>
     <div class="award-year">2026</div>
     <div class="award-title">Doctoral Consortium</div>
-    <div class="award-org">PACIS — Pacific Asia Conference on Information Systems</div>
+    <div class="award-org">Pacific Asia Conference on Information Systems (PACIS)</div>
   </div>
   <div class="award-tile cat-research">
     <span class="award-cat">Research</span>
     <div class="award-year">2026</div>
     <div class="award-title">Doctoral Consortium</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
+    <div class="award-org">International Conference on Information Systems (ICIS)</div>
   </div>
   <div class="award-tile cat-research">
     <span class="award-cat">Research</span>
     <div class="award-year">2026</div>
     <div class="award-title">Doctoral Consortium</div>
-    <div class="award-org">CIST — Conference on Information Systems and Technology</div>
+    <div class="award-org">Conference on Information Systems and Technology (CIST)</div>
   </div>
   </div>
 </section>
@@ -258,7 +258,7 @@ permalink: /awards.html
     <span class="award-cat">Service</span>
     <div class="award-year">2025</div>
     <div class="award-title">Best Reviewer Award</div>
-    <div class="award-org">ICIS — International Conference on Information Systems</div>
+    <div class="award-org">International Conference on Information Systems (ICIS)</div>
   </div>
   <div class="award-tile cat-service">
     <span class="award-cat">Service</span>

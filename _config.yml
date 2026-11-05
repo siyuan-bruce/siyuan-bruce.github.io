@@ -34,7 +34,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : # "person" (default), "organization"
   name      : Siyuan (Bruce) JIN 金思远
-  url       : siyuan-bruce.github.io
+  url       : https://siyuan-bruce.github.io
   avatar    : # path or url of avatar image (square)
   bio       : PhD Candidate at HKUST
   email     : siyuan.jin@connect.ust.hk
@@ -54,7 +54,7 @@ author:
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
 repository: siyuan-bruce/siyuan-bruce.github.io
-repository_tree: master
+repository_tree: main
 
 
 ## => Paths

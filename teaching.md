@@ -233,7 +233,7 @@ key: page-teaching
 
 <div class="epigraph">
   Teaching is not a science and should not be treated as such. Teaching is an art — a performing art.
-  <span class="attribution">— Mr. Dawe</span>
+  <span class="attribution">Mr. Dawe</span>
 </div>
 
 <p class="teaching-interests"><strong>Teaching interests:</strong> Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.</p>
