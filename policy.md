@@ -188,6 +188,11 @@ permalink: /policy.html
     height: 17px;
   }
 
+  .media-logos img.logo-lg {
+    height: 30px;
+    max-width: 200px;
+  }
+
   .media-logos a:hover img {
     opacity: 0.75;
   }
@@ -314,6 +319,24 @@ My research connects directly to public policy. I have contributed to <strong>Ho
   <div class="p-title">CEV Framework: A CBDC Evaluation and Verification Framework for Consensus Algorithms and Operating Architectures</div>
   <div class="p-meta"><strong>Siyuan Jin</strong>, Yong Xia.</div>
   <p class="p-links"><strong>MAS Global CBDC Challenge Finalist</strong> (top 5% of 300+ submissions from 50+ countries) · <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">MAS announcement</a> · <a href="https://ieeexplore.ieee.org/document/9795279">Paper</a></p>
+  <div class="media-block"><span class="media-head">Media coverage</span>
+    <div class="media-row"><div class="media-logos">
+      <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge" title="Monetary Authority of Singapore"><img class="logo-lg" src="/assets/images/media/mas.webp" alt="Monetary Authority of Singapore" width="138" height="48" loading="lazy"></a>
+      <a href="https://cointelegraph.com/news/singapore-central-bank-shortlists-15-companies-to-develop-retail-cbdc" title="Cointelegraph"><img src="/assets/images/media/cointelegraph.webp" alt="Cointelegraph" width="163" height="48" loading="lazy"></a>
+      <a href="https://coingeek.com/singapore-shortlists-15-companies-to-help-build-retail-cbdc/" title="CoinGeek"><img class="logo-sm" src="/assets/images/media/coingeek.webp" alt="CoinGeek" width="325" height="48" loading="lazy"></a>
+      <a href="https://fintechnews.sg/54885/singapore-fintech-festival-2021/meet-the-15-finalists-for-mas-global-cbdc-challenge/" title="Fintech News Singapore"><img src="/assets/images/media/fintechsg.webp" alt="Fintech News Singapore" width="131" height="48" loading="lazy"></a>
+      <a href="https://forkast.news/headlines/singapore-central-bank-finalists-global-cbdc-challenge/" title="Forkast"><img src="/assets/images/media/forkast.webp" alt="Forkast" width="197" height="48" loading="lazy"></a>
+      <a href="https://fintech.global/2021/08/31/mas-lists-the-15-finalists-for-its-central-bank-digital-currency-solution-challenge-fintech/" title="FinTech Global"><img src="/assets/images/media/fintechglobal.webp" alt="FinTech Global" width="127" height="48" loading="lazy"></a>
+      <a href="https://www.crowdfundinsider.com/2021/08/179732-monetary-authority-of-singapore-chooses-15-finalists-for-global-cbdc-challenge/" title="Crowdfund Insider"><img src="/assets/images/media/crowdfundinsider.webp" alt="Crowdfund Insider" width="201" height="48" loading="lazy"></a>
+      <a href="https://beincrypto.com/singapore-ponders-cbdc-release-with-shortlist-of-companies/" title="BeInCrypto"><img class="logo-sm" src="/assets/images/media/beincrypto.webp" alt="BeInCrypto" width="323" height="48" loading="lazy"></a>
+      <a href="https://articles.marketsmedia.com/singapore-names-15-finalists-for-cbdc-challenge" title="Markets Media"><img class="logo-sm" src="/assets/images/media/marketsmedia.webp" alt="Markets Media" width="350" height="48" loading="lazy"></a>
+      <a href="https://ctmfile.com/story/industry-roundup-13-september" title="CTMfile"><img src="/assets/images/media/ctmfile.webp" alt="CTMfile" width="147" height="48" loading="lazy"></a>
+      <a href="https://coinjournal.net/news/citibank-and-anz-among-finalists-for-singapores-cbdc-challenge" title="CoinJournal"><img src="/assets/images/media/coinjournal.webp" alt="CoinJournal" width="271" height="48" loading="lazy"></a>
+      <a href="https://forklog.com/en/?p=48540" title="ForkLog"><img src="/assets/images/media/forklog.webp" alt="ForkLog" width="176" height="48" loading="lazy"></a>
+      <a href="https://bitcoinke.io/2021/09/the-global-cbdc-challenge-finalists-revealed/" title="BitKE"><img src="/assets/images/media/bitcoinke.webp" alt="BitKE" width="64" height="48" loading="lazy"></a>
+      <a href="https://nocash.ro/monetary-authority-of-singapore-announces-15-finalists-for-the-global-cbdc-challenge-over-300-submissions-from-50-countries-received" title="Nocash"><img class="logo-sm" src="/assets/images/media/nocash.webp" alt="Nocash" width="252" height="48" loading="lazy"></a>
+    </div></div>
+  </div>
 </div>
 
 ## Privacy & Post-Quantum Security
