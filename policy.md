@@ -432,6 +432,8 @@ As part of this work, I write a recurring public-policy column in the <strong>Ho
 </div>
 
 <ul class="oped-list">
+  <li>"快速通關重塑旅業 「一程多站」吸國際客" <a href="https://paper.hket.com/article/4220689/">經濟日報</a> <span class="oped-date">· November 6, 2026</span></li>
+  <li>"文體旅深度協同 吸客求量更重質" <a href="https://paper.hket.com/article/4206236">經濟日報</a> <span class="oped-date">· October 9, 2026</span></li>
   <li>"會展+盛事雙引擎 港添旅遊磁吸力" <a href="https://paper.hket.com/article/4184102/">經濟日報</a> <span class="oped-date">· August 28, 2026</span></li>
   <li>"夏日盛會吸旅客 暑期消費存變數" <a href="https://paper.hket.com/article/4169713">經濟日報</a> <span class="oped-date">· August 2026</span></li>
   <li>"端午暑假遊興濃 港迎入境客高峰" <a href="https://paper.hket.com/article/4149054">經濟日報</a> <span class="oped-date">· June 19, 2026</span></li>
