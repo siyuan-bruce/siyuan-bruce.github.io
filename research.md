@@ -190,7 +190,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 <p class="research-stream-question">How do blockchain’s distinctive features shape value in digital markets?</p>
 
-<div class="paper-group paper-group-infra"><span class="paper-group-tag">Infrastructure</span><span class="paper-group-desc">Blockchain platforms and DeFi protocols, and how token markets price them.</span></div>
+<div class="paper-group paper-group-infra"><span class="paper-group-tag">Infrastructure</span><span class="paper-group-desc">Blockchain platforms and how token markets price them.</span></div>
 
 <ul class="papers-infra">
   <li class="paper-item" data-number="A1">
@@ -213,22 +213,12 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       </div>
     </details>
   </li>
-
-  <li class="paper-item" data-number="A2">
-    <div class="paper-title">
-     Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi.
-    </div>
-    <div class="paper-authors">
-      Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <strong>Siyuan Jin</strong>, Evgeny Lyandres (Authors listed alphabetically).
-    </div>
-    <p class="status-info">Working paper.</p>
-  </li>
 </ul>
 
-<div class="paper-group paper-group-app"><span class="paper-group-tag">Applications</span><span class="paper-group-desc">Consumer platforms built on blockchains, from fan voting in DAOs to digital asset marketplaces.</span></div>
+<div class="paper-group paper-group-app"><span class="paper-group-tag">Applications</span><span class="paper-group-desc">Platforms built on blockchains, from fan voting in DAOs to digital asset marketplaces and DeFi trading.</span></div>
 
 <ul class="papers-app">
-  <li class="paper-item" data-number="A3">
+  <li class="paper-item" data-number="A2">
     <div class="paper-title">
       When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs.
     </div>
@@ -251,7 +241,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     </details>
   </li>
 
-  <li class="paper-item" data-number="A4">
+  <li class="paper-item" data-number="A3">
     <div class="paper-title">
       When Supply Lowers Demand: Evidence from Invitation-Only Policy Reform in Digital Asset Marketplaces.
     </div>
@@ -269,6 +259,16 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
         </div>
       </div>
     </details>
+  </li>
+
+  <li class="paper-item" data-number="A4">
+    <div class="paper-title">
+     Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi.
+    </div>
+    <div class="paper-authors">
+      Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <strong>Siyuan Jin</strong>, Evgeny Lyandres (Authors listed alphabetically).
+    </div>
+    <p class="status-info">Working paper.</p>
   </li>
 </ul>
 
