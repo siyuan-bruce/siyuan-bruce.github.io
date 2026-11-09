@@ -31,7 +31,13 @@
         © {{ site.title }} {{ _locale_copyright_dates }},
         Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
         title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+        <!-- Hidden entrance to the photo gallery: a faint camera icon -->
+        <a class="footer-gallery-link" href="/gallery.html" title="Photo gallery" aria-label="Photo gallery"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></a>
       </div>
     </div>
   </div>
+  <style>
+    .footer-gallery-link { display: inline-block; margin-left: 6px; vertical-align: -1px; color: inherit; opacity: 0.3; transition: opacity 0.2s ease; }
+    .footer-gallery-link:hover, .footer-gallery-link:focus-visible { opacity: 1; text-decoration: none; }
+  </style>
 </footer>
