@@ -18,286 +18,286 @@ key: page-gallery
 permalink: /gallery.html
 ---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-        body {
-            line-height: 1.6;
-            background-color: #f8f8f8;
-            padding: 0;
-        }
+<style>
+  body { background-color: #f8f8f8; }
 
-        /* Scoped so it does not change the site page title (Gallery) */
-        .timeline > h1 {
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 30px;
-            color: #333;
-            text-align: center;
-        }
+  .gallery-page { margin-top: 10px; }
 
-        h3 {
-            font-size: 28px;
-            font-weight: bold;
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
+  /* Scoped so it does not change the site page title (Gallery) */
+  .gallery-page > h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin: 0 0 8px;
+  }
 
-        h4 {
-            font-size: 22px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 10px;
-        }
+  .g-year { margin-top: 34px; }
 
-        p {
-            font-size: 16px;
-            margin-bottom: 15px;
-            color: #555;
-        }
+  .g-year > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e3a6e;
+    border-bottom: 2px solid #1e3a6e;
+    padding-bottom: 6px;
+    margin: 0 0 16px;
+  }
 
-        .event {
-            margin-bottom: 40px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+  .g-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+    align-items: start;
+  }
 
-        .event img {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-top: 10px;
-        }
+  .g-card {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
 
-        .event img:hover {
-            transform: scale(1.02);
-            transition: transform 0.2s ease-in-out;
-        }
+  .g-card.g-wide { grid-column: span 2; }
 
-        .year-section {
-            margin-top: 40px;
-            margin-bottom: 20px;
-        }
+  .g-media {
+    display: grid;
+    gap: 2px;
+    aspect-ratio: 4 / 3;
+    background: #e9e9e9;
+  }
 
-        .year-section h3 {
-            border-bottom: 2px solid #007acc;
-            padding-bottom: 10px;
-            color: #007acc;
-        }
+  .g-wide .g-media { aspect-ratio: 12 / 5; }
 
-        .timeline {
-            margin-top: 50px;
-        }
+  .g-v2 { grid-template-columns: 1fr 1fr; }
+  .g-v3 { grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; }
+  .g-v3 .g-photo:first-child { grid-row: span 2; }
+  .g-v4 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+  .g-v5 { grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; }
+  .g-v5 .g-photo:first-child { grid-row: span 2; }
 
-        .timeline .year {
-            font-size: 36px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #007acc;
-        }
+  .g-photo {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    min-height: 0;
+    cursor: zoom-in;
+  }
 
-        .timeline .event-title {
-            font-size: 22px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 5px;
-        }
+  .g-photo.g-hidden { display: none; }
 
-        .timeline .event-description {
-            font-size: 16px;
-            margin-bottom: 15px;
-            color: #555;
-        }
+  .g-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+  }
 
-        .timeline a {
-            color: #007acc;
-            text-decoration: none;
-        }
+  .g-photo:hover img,
+  .g-photo:focus-visible img { transform: scale(1.04); }
 
-        .timeline a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
+  .g-photo:focus-visible { outline: 3px solid #1e3a6e; outline-offset: -3px; }
 
-<div class="timeline">
+  .g-more {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+  }
 
-  <h1>The story continues to unfold with each new adventure...</h1>
+  .g-body { padding: 10px 13px 13px; }
 
+  .g-date {
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #888;
+  }
 
+  .g-body h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.35;
+    margin: 3px 0 5px;
+  }
 
-<div class="year-section">
-  <h3>2026</h3>
+  .g-body p {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: #555;
+    margin: 0;
+  }
 
-  <div class="event">
-    <h4>Wharton AI Conference, San Francisco, USA</h4>
-    <p>Presenting my job market paper, "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams," at the Wharton AI Conference on the San Francisco campus.</p>
-    <img src="assets/images/gallery/2026_Wharton_AI_SF.jpg" alt="2026 Wharton AI Conference, San Francisco">
-    <p>An outing to the Monterey coast during the conference trip.</p>
-    <img src="assets/images/gallery/2026_Wharton_AI_Monterey.jpg" alt="Monterey coast during the 2026 Wharton AI Conference trip" loading="lazy">
-    <img src="assets/images/gallery/2026_Wharton_AI_Monterey_friends.jpg" alt="With friends on the Monterey coast, 2026" loading="lazy">
-  </div>
+  @media (max-width: 560px) {
+    .g-card.g-wide { grid-column: auto; }
+    .g-wide .g-media { aspect-ratio: 4 / 3; }
+  }
+
+  /* Lightbox */
+  .g-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(12, 14, 18, 0.92);
+  }
+
+  .g-lightbox[hidden] { display: none; }
+
+  .g-lightbox figure {
+    margin: 0;
+    max-width: min(92vw, 1400px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .g-lightbox img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 4px;
+    background: #222;
+  }
+
+  .g-lightbox figcaption {
+    margin-top: 10px;
+    max-width: 760px;
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .g-lb-title { display: block; color: #fff; font-weight: 700; }
+  .g-lb-count { display: block; margin-top: 2px; color: #999; font-size: 12px; }
+
+  .g-lightbox button {
+    position: absolute;
+    border: 0;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .g-lightbox button:hover,
+  .g-lightbox button:focus-visible { background: rgba(255, 255, 255, 0.28); }
+
+  .g-lb-close { top: 16px; right: 16px; }
+  .g-lb-prev { left: 16px; top: 50%; transform: translateY(-50%); }
+  .g-lb-next { right: 16px; top: 50%; transform: translateY(-50%); }
+  .g-lightbox button[hidden] { display: none; }
+</style>
+
+<div class="gallery-page">
+<h1>The story continues to unfold with each new adventure...</h1>
+{% for sec in site.data.gallery %}
+<section class="g-year">
+<h3>{{ sec.heading }}</h3>
+<div class="g-grid">
+{% for ev in sec.events %}
+{% assign n = ev.photos | size %}
+{% if ev.wide %}{% assign maxshow = 5 %}{% else %}{% assign maxshow = 4 %}{% endif %}
+{% if n > maxshow %}{% assign v = maxshow %}{% else %}{% assign v = n %}{% endif %}
+<article class="g-card{% if ev.wide %} g-wide{% endif %}">
+<div class="g-media g-v{{ v }}">
+{% for p in ev.photos %}
+{% assign cap = p.caption | default: ev.text %}
+<a class="g-photo{% if forloop.index > maxshow %} g-hidden{% endif %}" href="/assets/images/gallery/large/{{ p.id }}.webp" data-title="{{ ev.title | escape }}" data-caption="{{ cap | escape }}"><img src="/assets/images/gallery/thumbs/{{ p.id }}.webp" alt="{{ cap | escape }}" loading="lazy" decoding="async"{% if p.pos %} style="object-position: {{ p.pos }}"{% endif %}>{% if forloop.index == maxshow and n > maxshow %}<span class="g-more">+{{ n | minus: maxshow }}</span>{% endif %}</a>
+{% endfor %}
+</div>
+<div class="g-body">
+<div class="g-date">{{ ev.date }}</div>
+<h4>{{ ev.title }}</h4>
+<p>{{ ev.text }}</p>
+</div>
+</article>
+{% endfor %}
+</div>
+</section>
+{% endfor %}
 </div>
 
-
-<div class="year-section">
-  <h3>2025</h3>
-
-  <div class="event">
-    <h4>ICIS 2025, Nashville, USA</h4>
-    <p>I am attending ICIS 2025 and presenting my paper.</p>
-    <img src="assets/images/gallery/2025ICIS.jpg" alt="2025 ICIS">
-  </div>
-
-
-  <div class="event">
-    <h4>CIST 2025, Atlanta, USA</h4>
-    <p>Professor Kai-Lung Hui and Professor Yanzhen Chen received award.</p>
-    <img src="assets/images/gallery/2025CISTGroupPhotoUST.jpg" alt="2025 CIST">
-    <p>Winry, Yunxin, and I self-drive to the Great Smoky Mountains National Park in Tennessee.</p>
-    <img src="assets/images/gallery/2025CISTGroupNationalPark.jpg" alt="2025 CIST">
-  </div>
-
-        <div class="event">
-            <h4>Paphos, Cyprus - SCECR 2025</h4>
-            <p>Letian, Yixin, and I were visiting Limasool in Crypus and met an old british gentleman, Andrew. We were on the road to the conference venue, Paphos.</p>
-            <img src="assets/images/gallery/2025_SCECR.png" alt="2025 SCECR">
-        </div>
-        <div class="event">
-            <h4>MISQ Reviewer Virtual Workshop, Online.</h4>
-            <p>We discussed how to review IS papers.</p>
-            <img src="assets/images/gallery/2025_MISQ_reveiwer_workshop.jpg" alt="2025 MISQ">
-        </div>
-        <div class="event">
-            <h4>Web3Ideathon, Hong Kong</h4>
-            <p>I served as a mentor and shared my work.</p>
-            <img src="assets/images/gallery/2025_Web3Ideathon.jpg" alt="2025 Web3">
-        </div>
+<div class="g-lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button type="button" class="g-lb-close" aria-label="Close">&times;</button>
+  <button type="button" class="g-lb-prev" aria-label="Previous photo">&#8249;</button>
+  <figure>
+    <img alt="">
+    <figcaption><span class="g-lb-title"></span><span class="g-lb-cap"></span><span class="g-lb-count"></span></figcaption>
+  </figure>
+  <button type="button" class="g-lb-next" aria-label="Next photo">&#8250;</button>
 </div>
 
+<script>
+(function () {
+  var box = document.querySelector('.g-lightbox');
+  if (!box) return;
+  var img = box.querySelector('img');
+  var title = box.querySelector('.g-lb-title');
+  var cap = box.querySelector('.g-lb-cap');
+  var count = box.querySelector('.g-lb-count');
+  var prev = box.querySelector('.g-lb-prev');
+  var next = box.querySelector('.g-lb-next');
+  var closeBtn = box.querySelector('.g-lb-close');
+  var list = [], idx = 0, opener = null;
 
-<div class="year-section">
-  <h3>2024</h3>
-        <div class="event">
-            <h4>HKUST PhD Friends Gathering, Bangkok.</h4>
-            <p>We are gathering to celebrate ICIS participation.</p>
-            <img src="assets/images/gallery/Bangkok.jpeg" alt="2024 Bangkok">
-        </div>
-        <div class="event">
-            <h4>ICIS Conference, Bangkok - My first ICIS conference.</h4>
-            <p>I presented two works at ICIS.</p>
-            <img src="assets/images/gallery/first_ICIS.jpg" alt="2024 ICIS">
-        </div>
-        <div class="event">
-          <h4>HKUST PhD Students Outdoor Activities, Seattle.</h4>
-          <p>We are walking through National Olympic Park.</p>
-          <img src="assets/images/gallery/2024_Olympic_national_park.jpg" alt="2024 Olympic National Park">
-      </div>
-        <div class="event">
-          <h4>CIST Presentation, Seattle - My first IS and CIST presentation.</h4>
-          <p>I am presenting the paper titled as "When KPOP meets Blockchain: The Impact of DAO Voting on Consumer Engagement"</p>
-          <img src="assets/images/gallery/2024_CIST_pre.jpg" alt="2024 CIST">
-      </div>
-      <div class="event">
-          <h4>HKUST ISR Workshop, Hong Kong</h4>
-          <p>I participated in the HKUST Information Systems Research workshop as a audience.</p>
-          <img src="assets/images/gallery/2024_HKUST_ISR_workshop.jpg" alt="2024 HKUST ISR Workshop">
-      </div>
-      <div class="event">
-          <h4>PhD Conference Gathering, Hong Kong - A remarkable convergence of minds and ideas.</h4>
-          <p>I participated in PhD Conference gathering and discussed PhD life with my academic elder brother Prof. Hui and peers."</p>
-          <img src="assets/images/gallery/2024_PhD_conference_gathering.jpg" alt="PhD Conference Gathering">
-      </div>
-</div>
+  function show(i) {
+    idx = (i + list.length) % list.length;
+    var a = list[idx];
+    img.src = a.getAttribute('href');
+    img.alt = a.getAttribute('data-caption') || '';
+    title.textContent = a.getAttribute('data-title') || '';
+    var c = a.getAttribute('data-caption') || '';
+    cap.textContent = c === (a.closest('.g-card').querySelector('.g-body p') || {}).textContent ? '' : c;
+    count.textContent = list.length > 1 ? (idx + 1) + ' / ' + list.length : '';
+    prev.hidden = next.hidden = list.length < 2;
+  }
 
-<div class="year-section">
-  <h3>2023</h3>
-      <div class="event">
-          <h4>First Year Paper Presentation, Hong Kong</h4>
-          <p>I presented my first year paper, titled "Token-based Platforms and Green Dillemma"</p>
-          <img src="assets/images/gallery/first_year_presentation.png" alt="First Year Paper Presentation" title="First Year Paper Presentation">
-      </div>
-      <div class="event">
-          <h4> e-HKD on-campus trial, Hong Kong</h4>
-          <p>I was involved in the e-HKD on-campus trial, which was a significant event for digital currency research.</p>
-          <img src="assets/images/gallery/e-HKD_experience.png" alt="e-HKD on-campus trial" title="e-HKD on-campus trial">
-      </div>
-</div>
+  function open(links, i, from) {
+    list = links; opener = from;
+    show(i);
+    box.hidden = false;
+    document.documentElement.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
 
-<div class="year-section">
-        <h3>2022</h3>
-        <div class="event">
-            <h4>HKUST Fintechstic NFT & Metaverse Competition</h4>
-            <p>I was invited to become a mentor for HKUST undergraduate students about their competition on NFT and Metaverse. I am very proud of their achievements. The first picture is the NFT designed by the organizer, and the second picture is a moment capture of my mentorship.</p>
+  function close() {
+    box.hidden = true;
+    img.removeAttribute('src');
+    document.documentElement.style.overflow = '';
+    if (opener) opener.focus();
+  }
 
-            <img src="assets/images/gallery/Fintechstic_NFT.jpg" alt="HKUST Fintechstic NFT" title="HKUST Fintechstic">
-            <img src="assets/images/gallery/mentor.jpg" alt="Mentorship" title="Mentor">
-        </div>
+  document.querySelectorAll('.g-card').forEach(function (card) {
+    var links = Array.prototype.slice.call(card.querySelectorAll('.g-photo'));
+    links.forEach(function (a, i) {
+      a.addEventListener('click', function (e) { e.preventDefault(); open(links, i, a); });
+    });
+  });
 
-        <div class="event">
-            <h4>HSBC Lab Farewell, Guangzhou, China (me, Dr. Bing Zhu, Dr. Ziyuan Li)</h4>
-            <p>I left HSBC Lab in Guangzhou, China, and this is a moment capture of my farewell. I am very grateful for the opportunity to work with everyone. I learned a lot from them, and I am very proud of our achievements. The first picture is the gift from the team, and the second picture is a NFT photo of Dr. Bing Zhu, Dr. Ziyuan Li, and me.</p>
-            
-            <img src="assets/images/gallery/HSBC_Lab.jpg" alt="HSBC Lab" title="HSBC Lab" style="width: 300px;">
-            <img src="assets/images/gallery/three_NFT.png" alt="NFT" title="NFT">
-        </div>
-    </div>
-
-    <div class="year-section">
-        <h3>2021</h3>
-
-        <div class="event">
-            <h4>Architecture Summit, Shenzhen, China</h4>
-            <p>I had the opportunity to attend the Architecture Summit in Shenzhen, China, and this is a moment capture of the event.</p>
-            <img src="assets/images/gallery/ArchSummit.jpg" alt="Architecture Summit" title="ArchSummit">
-        </div>
-
-        <div class="event">
-            <h4>Alicloud Conference, Hangzhou, China</h4>
-            <p>I had the opportunity to attend the Alicloud Conference in Hangzhou, China, and this is a moment capture of the event with all HSBC staff.</p>
-            <img src="assets/images/gallery/AliCloud.jpg" alt="Alicloud Conference" title="AliCloud">
-        </div>
-
-        <div class="event">
-            <h4>Graduation at South China University of Technology</h4>
-            <p>I finally graduated from South China University of Technology, and this is a moment capture by my roommate.</p>
-            <img src="assets/images/gallery/graduation2.jpg" alt="Graduation" title="Graduation">
-        </div>
-
-        <div class="event">
-            <h4>Global CBDC Challenge, Online, Singapore Fintech Festival (Dr. Yong Xia, Mark Liu, Me, Bing Qu)</h4>
-            <p>Our HSBC Lab team became the top 15 finalists in the Global CBDC Challenge, and this is a moment capture of our presentation.</p>
-            <img src="assets/images/gallery/Global%20CBDC%20Challenge.png" alt="Global CBDC Challenge" title="Global CBDC Challenge">
-        </div>
-    </div>
-
-    <div class="year-section">
-        <h3>2020</h3>
-
-        <div class="event">
-            <h4>Hiking, Huo Luo Mountain, Guangzhou, China (Me, Zhe Li, Wenjiang Quan, Dr. Yong Xia)</h4>
-            <p>I was an intern at HSBC Lab in Guangzhou, China, and this is a moment capture of our hiking.</p>
-            <img src="assets/images/gallery/Hiking2.jpg" alt="Hiking" title="Hiking">
-        </div>
-    </div>
-
-    <div class="year-section">
-        <h3>2018</h3>
-
-        <div class="event">
-            <h4>School Team Time, Guangzhou, China</h4>
-            <p>I was a basketball player in my undergraduate school, and this is a moment capture of our school team time.</p>
-            <img src="assets/images/gallery/2018_Basketball.jpg" alt="School Team Time" title="School Team Time">
-        </div>
-
-        <div class="event">
-            <h4>Class Team Time, Guangzhou, China</h4>
-            <p>I was a basketball player in my undergraduate class, and this is a moment capture of our class team time.</p>
-            <img src="assets/images/gallery/2018_basketball2.jpg" alt="Class Team Time" title="Class Team Time">
-        </div>
-    </div>
+  prev.addEventListener('click', function () { show(idx - 1); });
+  next.addEventListener('click', function () { show(idx + 1); });
+  closeBtn.addEventListener('click', close);
+  box.addEventListener('click', function (e) { if (e.target === box) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (box.hidden) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft' && list.length > 1) show(idx - 1);
+    else if (e.key === 'ArrowRight' && list.length > 1) show(idx + 1);
+  });
+})();
+</script>

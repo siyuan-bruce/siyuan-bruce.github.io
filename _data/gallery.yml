@@ -1,0 +1,189 @@
+# Gallery page data (gallery.md renders it as a grid of event cards).
+# Each photo needs an `id`; run `python3 _tools/make_gallery_images.py` after adding one,
+# which writes assets/images/gallery/thumbs/<id>.webp and large/<id>.webp from `file`.
+# Optional per photo: `pos` (CSS object-position for the card crop, e.g. "center 30%").
+# Optional per event: `wide: true` makes the card span two columns.
+
+- heading: "2026"
+  events:
+    - title: "Wharton AI Conference, San Francisco, USA"
+      date: "2026"
+      wide: true
+      text: >-
+        Presenting my job market paper, "Codified Expertise: How Generative AI Changes Temporal Coordination
+        in Distributed Teams," at the Wharton AI Conference on the San Francisco campus, with an outing to the
+        Monterey coast during the conference trip.
+      photos:
+        - id: 2026-wharton-ai-sf
+          file: 2026_Wharton_AI_SF.jpg
+          caption: "Presenting Codified Expertise at the Wharton AI Conference, San Francisco."
+        - id: 2026-wharton-ai-monterey
+          file: 2026_Wharton_AI_Monterey.jpg
+          caption: "The Monterey coast during the conference trip."
+          pos: "center 40%"
+        - id: 2026-wharton-ai-monterey-friends
+          file: 2026_Wharton_AI_Monterey_friends.jpg
+          caption: "With friends on the Monterey coast."
+
+- heading: "2025"
+  events:
+    - title: "ICIS 2025, Nashville, USA"
+      date: "2025"
+      text: "I am attending ICIS 2025 and presenting my paper."
+      photos:
+        - id: 2025-icis
+          file: 2025ICIS.jpg
+          pos: "center 35%"
+    - title: "CIST 2025, Atlanta, USA"
+      date: "2025"
+      text: >-
+        Professor Kai-Lung Hui and Professor Yanzhen Chen received award. Winry, Yunxin, and I self-drive to the
+        Great Smoky Mountains National Park in Tennessee.
+      photos:
+        - id: 2025-cist-group
+          file: 2025CISTGroupPhotoUST.jpg
+          caption: "Professor Kai-Lung Hui and Professor Yanzhen Chen received award."
+        - id: 2025-cist-national-park
+          file: 2025CISTGroupNationalPark.jpg
+          caption: "Winry, Yunxin, and I self-drive to the Great Smoky Mountains National Park in Tennessee."
+    - title: "SCECR 2025, Paphos, Cyprus"
+      date: "2025"
+      text: >-
+        Letian, Yixin, and I were visiting Limassol in Cyprus and met an old British gentleman, Andrew. We were
+        on the road to the conference venue, Paphos.
+      photos:
+        - id: 2025-scecr
+          file: 2025_SCECR.png
+    - title: "MISQ Reviewer Virtual Workshop, Online"
+      date: "2025"
+      text: "We discussed how to review IS papers."
+      photos:
+        - id: 2025-misq-reviewer-workshop
+          file: 2025_MISQ_reveiwer_workshop.jpg
+    - title: "Web3Ideathon, Hong Kong"
+      date: "2025"
+      text: "I served as a mentor and shared my work."
+      photos:
+        - id: 2025-web3ideathon
+          file: 2025_Web3Ideathon.jpg
+
+- heading: "2024"
+  events:
+    - title: "ICIS 2024, Bangkok, Thailand"
+      date: "2024"
+      text: "My first ICIS conference, where I presented two works."
+      photos:
+        - id: 2024-icis
+          file: first_ICIS.jpg
+    - title: "HKUST PhD Friends Gathering, Bangkok"
+      date: "2024"
+      text: "We are gathering to celebrate ICIS participation."
+      photos:
+        - id: 2024-bangkok-gathering
+          file: Bangkok.jpeg
+    - title: "CIST 2024, Seattle, USA"
+      date: "2024"
+      text: >-
+        My first IS and CIST presentation, of the paper "When KPOP meets Blockchain: The Impact of DAO Voting
+        on Consumer Engagement."
+      photos:
+        - id: 2024-cist-presentation
+          file: 2024_CIST_pre.jpg
+    - title: "HKUST PhD Students Outdoor Activities, Seattle"
+      date: "2024"
+      text: "We are walking through Olympic National Park."
+      photos:
+        - id: 2024-olympic-national-park
+          file: 2024_Olympic_national_park.jpg
+    - title: "HKUST ISR Workshop, Hong Kong"
+      date: "2024"
+      text: "I participated in the HKUST Information Systems Research workshop as an audience member."
+      photos:
+        - id: 2024-hkust-isr-workshop
+          file: 2024_HKUST_ISR_workshop.jpg
+    - title: "PhD Conference Gathering, Hong Kong"
+      date: "2024"
+      text: >-
+        A remarkable convergence of minds and ideas. I discussed PhD life with my academic elder brother
+        Prof. Hui and peers.
+      photos:
+        - id: 2024-phd-conference-gathering
+          file: 2024_PhD_conference_gathering.jpg
+
+- heading: "2023"
+  events:
+    - title: "First Year Paper Presentation, Hong Kong"
+      date: "2023"
+      text: 'I presented my first year paper, titled "Token-based Platforms and Green Dilemma."'
+      photos:
+        - id: 2023-first-year-presentation
+          file: first_year_presentation.png
+    - title: "e-HKD On-Campus Trial, Hong Kong"
+      date: "2023"
+      text: "I was involved in the e-HKD on-campus trial, a significant event for digital currency research."
+      photos:
+        - id: 2023-ehkd-trial
+          file: e-HKD_experience.png
+
+- heading: "2020–2022"
+  events:
+    - title: "HSBC Laboratory, Guangzhou, China"
+      date: "2020–2022"
+      wide: true
+      text: >-
+        From intern to full-stack engineer on blockchain projects. Our team became one of the top 15 finalists
+        in the Global CBDC Challenge, and I am very grateful for the opportunity to work with everyone.
+      photos:
+        - id: 2021-global-cbdc-challenge
+          file: Global CBDC Challenge.png
+          caption: "Global CBDC Challenge, Singapore Fintech Festival (online, 2021): our team's finalist presentation. Dr. Yong Xia, Mark Liu, me, Bing Qu."
+        - id: 2020-hiking
+          file: Hiking2.jpg
+          caption: "Hiking at Huo Luo Mountain, Guangzhou, during my internship (2020). Me, Zhe Li, Wenjiang Quan, Dr. Yong Xia."
+        - id: 2021-alicloud
+          file: AliCloud.jpg
+          caption: "Alicloud Conference, Hangzhou (2021), with HSBC staff."
+        - id: 2022-hsbc-lab-gift
+          file: HSBC_Lab.jpg
+          caption: "My farewell from HSBC Lab (2022): the gift from the team."
+          pos: "center 30%"
+        - id: 2022-hsbc-lab-nft
+          file: three_NFT.png
+          caption: "An NFT photo of Dr. Bing Zhu, Dr. Ziyuan Li, and me (2022)."
+    - title: "HKUST Fintechstic NFT & Metaverse Competition"
+      date: "2022"
+      text: >-
+        I was invited to mentor HKUST undergraduate students in their competition on NFT and Metaverse, and I
+        am very proud of their achievements.
+      photos:
+        - id: 2022-fintechstic-nft
+          file: Fintechstic_NFT.jpg
+          caption: "The NFT designed by the organizer."
+        - id: 2022-fintechstic-mentor
+          file: mentor.jpg
+          caption: "A moment of my mentorship."
+    - title: "Architecture Summit, Shenzhen, China"
+      date: "2021"
+      text: "I had the opportunity to attend the Architecture Summit in Shenzhen, China."
+      photos:
+        - id: 2021-archsummit
+          file: ArchSummit.jpg
+    - title: "Graduation, South China University of Technology"
+      date: "2021"
+      text: "I finally graduated from South China University of Technology, in a photo taken by my roommate."
+      photos:
+        - id: 2021-graduation
+          file: graduation2.jpg
+
+- heading: "2018"
+  events:
+    - title: "Basketball, South China University of Technology"
+      date: "2018"
+      text: "I played basketball for my undergraduate school team and my class team in Guangzhou, China."
+      photos:
+        - id: 2018-basketball-school
+          file: 2018_Basketball.jpg
+          caption: "School team time."
+        - id: 2018-basketball-class
+          file: 2018_basketball2.jpg
+          caption: "Class team time."
