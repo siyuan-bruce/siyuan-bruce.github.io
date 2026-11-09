@@ -138,6 +138,9 @@ permalink: /gallery.html
     <h4>Wharton AI Conference, San Francisco, USA</h4>
     <p>Presenting my job market paper, "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams," at the Wharton AI Conference on the San Francisco campus.</p>
     <img src="assets/images/gallery/2026_Wharton_AI_SF.jpg" alt="2026 Wharton AI Conference, San Francisco">
+    <p>An outing to the Monterey coast during the conference trip.</p>
+    <img src="assets/images/gallery/2026_Wharton_AI_Monterey.jpg" alt="Monterey coast during the 2026 Wharton AI Conference trip" loading="lazy">
+    <img src="assets/images/gallery/2026_Wharton_AI_Monterey_friends.jpg" alt="With friends on the Monterey coast, 2026" loading="lazy">
   </div>
 </div>
 
