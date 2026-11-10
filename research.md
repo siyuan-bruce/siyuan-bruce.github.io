@@ -279,7 +279,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 <ul>
   <li class="paper-item" data-number="B1" id="codified-expertise">
     <div class="paper-title">
-      Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones.
+      Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
@@ -379,27 +379,27 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 ### **Refereed Conferences & Workshops**
 
-1. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones." *Workshop on Information Systems and Economics (WISE 2026)*, Lisbon, Portugal, Dec 16--18, 2026.
+1. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Workshop on Information Systems and Economics (WISE 2026)*, Lisbon, Portugal, Dec 16--18, 2026.
 
-2. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones." *International Conference on Information Systems (ICIS 2026) Doctoral Consortium*, Lisbon, Portugal, Dec 9--12, 2026.
+2. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *International Conference on Information Systems (ICIS 2026) Doctoral Consortium*, Lisbon, Portugal, Dec 9--12, 2026.
 
-3. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones." *ISPOC Job Market Paper Presentation*, Online, Nov 5, 2026.
+3. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *ISPOC Job Market Paper Presentation*, Online, Nov 5, 2026.
 
-4. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones." *INFORMS Annual Meeting 2026*, invited session "Applications of AI in Digital Economy", San Francisco, USA, Nov 2, 2026.
+4. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *INFORMS Annual Meeting 2026*, invited session "Applications of AI in Digital Economy", San Francisco, USA, Nov 2, 2026.
 
 5. **Siyuan Jin**, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu. "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption." *Conference on Information Systems and Technology (CIST 2026)*, San Francisco, USA, Oct 31--Nov 1, 2026.
 
 6. Haochen Jiang, **Siyuan Jin**, Eros Ye, Wei Thoo Yue. "Scaling Before Gains: AI Adoption and Team Expansion." *Conference on Information Systems and Technology (CIST 2026)*, San Francisco, USA, Oct 31--Nov 1, 2026.
 
-7. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones." *Conference on Information Systems and Technology (CIST 2026) Doctoral Consortium*, San Francisco, USA, Oct 30, 2026.
+7. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Conference on Information Systems and Technology (CIST 2026) Doctoral Consortium*, San Francisco, USA, Oct 30, 2026.
 
 8. **Siyuan Jin**, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu. "Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption." *[INFORMS ISS ISR Paper Development Workshop for Early Career Scholar](https://cist2026.github.io/iss-events/)*, San Francisco, USA, Oct 30, 2026 (afternoon). Presented by Jinan Lin (Wisconsin).
 
-9. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones." *Wharton AI Conference*, San Francisco, USA, Sep 9, 2026.
+9. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Wharton AI Conference*, San Francisco, USA, Sep 9, 2026.
 
-10. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones." *Pacific Asia Conference on Information Systems (PACIS 2026) Doctoral Consortium*.
+10. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *Pacific Asia Conference on Information Systems (PACIS 2026) Doctoral Consortium*.
 
-11. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Access to Expertise across Time Zones." *HKUST Information Systems Summer Workshop*, Hong Kong, 2026.
+11. **Siyuan Jin**, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. "Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams." *HKUST Information Systems Summer Workshop*, Hong Kong, 2026.
 
 12. Eros Ye, **Siyuan Jin**, Haochen Jiang, Wei Thoo Yue, Kar Yan Tam. "AI for Me, Gains for Us: Complementarity in Generative AI Teams." *International Conference on Information Systems (ICIS 2025)*, Nashville, USA, Dec 15, 2025. (Early version presented as "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Major Enterprise.")
 
