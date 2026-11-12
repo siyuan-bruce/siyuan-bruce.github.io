@@ -5,8 +5,6 @@ permalink: /tourism-forecasting-data.html
 key: page-tourism-forecasting-data
 ---
 
-# Data access for Hong Kong tourism forecasting
-
 This page accompanies the manuscript *When Online Discussion Helps Forecast Hong Kong Tourism*. The study uses monthly Hong Kong tourism outcomes and online discussion measures from February 2018 through April 2023. Its forecast evaluation covers January 2020 through April 2023.
 
 ## Public source snapshots
