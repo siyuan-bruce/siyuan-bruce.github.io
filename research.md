@@ -403,7 +403,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 12. Eros Ye, **Siyuan Jin**, Haochen Jiang, Wei Thoo Yue, Kar Yan Tam. "AI for Me, Gains for Us: Complementarity in Generative AI Teams." *International Conference on Information Systems (ICIS 2025)*, Nashville, USA, Dec 15, 2025. (Early version presented as "Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Major Enterprise.")
 
-13. **Siyuan Jin**, Kai-Lung Hui, Allen H. Huang, Chao He, Chun Wang. "Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong." *4th conference from the Global Congress of Special Interest Tourism & Hospitality (GLOSITH)*, Xiamen, Nov 7, 2025.
+13. **Siyuan Jin**, Kai-Lung Hui, Allen H. Huang, Chao He, Chun Wang. "Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong." *4th conference from the Global Congress of Special Interest Tourism & Hospitality (GLOSITH)*, Xiamen, Nov 7, 2025. [Related data and sources](/tourism-forecasting-data.html).
 
 14. **Siyuan Jin**, Yuying Cai, Iris Qiu, Kar Yan Tam. "Crisis, Transparency and User Engagement." *Conference on Information Systems and Technology (CIST 2025)*, Atlanta, USA, Oct 26, 2025.
 
