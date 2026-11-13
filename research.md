@@ -55,7 +55,7 @@ key: page-research
     }
 
     .paper-title {
-      font-size: 18px;
+      font-size: 15px;
       font-weight: 700;
       margin-bottom: 6px;
       color: #111;
