@@ -171,17 +171,18 @@ key: page-research
       line-height: 1.5;
       margin: 8px 0 24px;
     }
-    .conf-list { padding-left: 1.6em; margin-top: 12px; }
-    .conf-list > li { margin-bottom: 18px; font-size: 15px; line-height: 1.5; }
-    .conf-list > li::marker { color: #888; font-size: 13px; }
-    .conf-title { font-weight: 700; color: #111; }
-    .conf-title a { font-weight: 500; }
-    .conf-authors { color: #444; margin-top: 2px; }
-    .conf-note { color: #666; font-size: 14px; font-style: italic; margin-top: 2px; }
-    ul.conf-venues { margin: 4px 0 0; }
-    ul.conf-venues li { position: relative; padding-left: 14px; margin: 1px 0; font-size: 14px; color: #555; }
-    ul.conf-venues li::before { content: ""; position: absolute; left: 2px; top: 0.65em; width: 5px; height: 5px; border-radius: 50%; background: #b8c2d6; }
-    .conf-venues abbr { text-decoration: none; border-bottom: 1px dotted #aaa; cursor: help; }
+    .conf-count { margin: 4px 0 6px; color: #555; font-size: 15px; }
+    .conf-num { font-size: 30px; font-weight: 700; color: #1e3a6e; margin-right: 6px; vertical-align: -4px; }
+    ol.conf-list { padding-left: 2.1em; margin-top: 6px; }
+    ol.conf-list > li { font-size: 15px; line-height: 1.5; margin: 4px 0; color: #555; padding-left: 2px; }
+    ol.conf-list > li::marker { color: #999; font-size: 13px; }
+    .conf-venue { font-weight: 600; color: #111; }
+    .conf-venue a { font-weight: 600; }
+    .conf-sep { color: #aaa; margin: 0 2px; }
+    .conf-paper { font-style: italic; color: #444; }
+    a.conf-paper { color: #1e3a6e; font-weight: 400; }
+    .conf-award { color: #8a5a00; font-size: 13px; font-weight: 600; margin-left: 4px; white-space: nowrap; }
+    .conf-list abbr { text-decoration: none; border-bottom: 1px dotted #aaa; cursor: help; }
   </style>
 </head>
 
@@ -204,7 +205,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 <div class="paper-group paper-group-infra"><span class="paper-group-tag">Infrastructure</span><span class="paper-group-desc">Blockchain platforms and how token markets price them.</span></div>
 
 <ul class="papers-infra">
-  <li class="paper-item" data-number="A1">
+  <li class="paper-item" data-number="A1" id="mining-to-meaning">
     <div class="paper-title">
       From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns?</div>
     <div class="paper-authors">
@@ -229,7 +230,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 <div class="paper-group paper-group-app"><span class="paper-group-tag">Applications</span><span class="paper-group-desc">Platforms built on blockchains, from fan voting in DAOs to digital asset marketplaces and DeFi trading.</span></div>
 
 <ul class="papers-app">
-  <li class="paper-item" data-number="A2">
+  <li class="paper-item" data-number="A2" id="kpop-dao">
     <div class="paper-title">
       When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs.
     </div>
@@ -311,7 +312,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="status-info">Under revision, rejected after a second-round major revision at <em>Information Systems Research</em>.</p>
   </li>
 
-  <li class="paper-item" data-number="B3">
+  <li class="paper-item" data-number="B3" id="ai-for-me">
     <div class="paper-title">
       AI for Me, Gains for Us: Complementarity in Generative AI Teams.
     </div>
@@ -323,7 +324,7 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <p class="conference-info">Presentations: [ICIS 2025]</p>
   </li>
 
-  <li class="paper-item" data-number="B4">
+  <li class="paper-item" data-number="B4" id="scaling-before-gains">
     <div class="paper-title">
       Scaling Before Gains: AI Adoption and Team Expansion.
     </div>
@@ -390,126 +391,35 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 ### **Refereed Conferences & Workshops**
 
-<!-- 2026-11-12 (Bruce): "how to make this more concise and clear". One entry per paper; its venues follow, newest first. -->
+<!-- 2026-11-12 (Bruce): concise list that highlights the count of 26; one line per presentation, newest first. Paper details sit in the paper list above, so lines give the venue and a short title only (hover shows authors and full title). -->
+<p class="conf-count"><span class="conf-num">26</span> presentations, newest first</p>
 <ol class="conf-list">
-  <li>
-    <div class="conf-title">Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams</div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye</div>
-    <ul class="conf-venues">
-      <li><abbr title="Workshop on Information Systems and Economics">WISE</abbr> 2026, Lisbon</li>
-      <li><abbr title="International Conference on Information Systems">ICIS</abbr> 2026 Doctoral Consortium, Lisbon</li>
-      <li>ISPOC Job Market Paper Presentation 2026, online</li>
-      <li>INFORMS Annual Meeting 2026, invited session, San Francisco</li>
-      <li><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2026 Doctoral Consortium, San Francisco</li>
-      <li>Wharton AI Conference 2026, San Francisco</li>
-      <li><abbr title="Pacific Asia Conference on Information Systems">PACIS</abbr> 2026 Doctoral Consortium</li>
-      <li>HKUST Information Systems Summer Workshop 2026, Hong Kong</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption</div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu</div>
-    <ul class="conf-venues">
-      <li><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2026, San Francisco</li>
-      <li><a href="https://cist2026.github.io/iss-events/">INFORMS ISS ISR Paper Development Workshop for Early Career Scholar</a> 2026, San Francisco, presented by Jinan Lin (Wisconsin)</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Scaling Before Gains: AI Adoption and Team Expansion</div>
-    <div class="conf-authors">Haochen Jiang, <strong>Siyuan Jin</strong>, Eros Ye, Wei Thoo Yue</div>
-    <ul class="conf-venues">
-      <li><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2026, San Francisco</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">AI for Me, Gains for Us: Complementarity in Generative AI Teams</div>
-    <div class="conf-authors">Eros Ye, <strong>Siyuan Jin</strong>, Haochen Jiang, Wei Thoo Yue, Kar Yan Tam</div>
-    <div class="conf-note">Earlier title: &ldquo;Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Major Enterprise.&rdquo;</div>
-    <ul class="conf-venues">
-      <li><abbr title="International Conference on Information Systems">ICIS</abbr> 2025, Nashville</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong <a href="/tourism-forecasting-data.html">[Data and sources]</a></div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Kai-Lung Hui, Allen H. Huang, Chao He, Chun Wang</div>
-    <ul class="conf-venues">
-      <li><abbr title="Global Congress of Special Interest Tourism &amp; Hospitality">GLOSITH</abbr> 2025, Xiamen</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Crisis, Transparency and User Engagement</div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Yuying Cai, Iris Qiu, Kar Yan Tam</div>
-    <ul class="conf-venues">
-      <li><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2025, Atlanta</li>
-      <li><abbr title="Statistical Challenges in Electronic Commerce Research">SCECR</abbr> 2025, Paphos</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">The Effect of Agentic IT Reviewers on Code Contribution: Evidence from a Large-Scale Field Quasi-Experiment</div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Kar Yan Tam, Yong Xia</div>
-    <ul class="conf-venues">
-      <li><abbr title="Statistical Challenges in Electronic Commerce Research">SCECR</abbr> 2025, Paphos</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement</div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Yuying Cai, Iris Qiu, Kar Yan Tam</div>
-    <ul class="conf-venues">
-      <li><abbr title="International Conference on Information Systems">ICIS</abbr> 2024, Bangkok</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">When Kpop Meets Blockchain: Consumer Engagement via Voting in DAOs <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Paper]</a></div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Dongwon Lee, Keongtae Kim, Kar Yan Tam</div>
-    <ul class="conf-venues">
-      <li><abbr title="International Conference on Information Systems">ICIS</abbr> 2024, Bangkok, Best Short Paper Nominee</li>
-      <li><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2024, Seattle, as &ldquo;When Kpop Meets Blockchain: The Effect of DAO Voting on Consumer Engagement&rdquo;</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Do Users of Blockchain IT Infrastructure Value Environmental Sustainability?</div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Allen H. Huang, Zitong Li, Kar Yan Tam</div>
-    <div class="conf-note">Now &ldquo;From Mining to Meaning,&rdquo; accepted at the <em>Journal of Management Information Systems</em>.</div>
-    <ul class="conf-venues">
-      <li>MIS Quarterly Virtual Author Development Workshop 2025, online</li>
-      <li>Greater Bay Area Finance Workshop 2024, Shenzhen</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Scalable Agency? The Spillover Effects of Agentic IT Reviewers on Code Contribution</div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Kar Yan Tam, Bichao Chen, Yong Xia</div>
-    <ul class="conf-venues">
-      <li><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2024, Seattle</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Software Code Quality Measurement: Implications from Metric Distributions <a href="https://ieeexplore.ieee.org/document/10366662">[Paper]</a></div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia</div>
-    <ul class="conf-venues">
-      <li><abbr title="IEEE International Conference on Software Quality, Reliability, and Security">QRS</abbr> 2023, Chiang Mai</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems <a href="https://arxiv.org/abs/2411.13017">[Paper]</a></div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Zhendong Bei, Bichao Chen, Yong Xia</div>
-    <ul class="conf-venues">
-      <li><abbr title="International Workshop on Cloud Intelligence">AIOps</abbr> 2025, Ottawa</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">A UTXO-based Sharding Method for Stablecoin <a href="https://ieeexplore.ieee.org/document/9922204">[Paper]</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a></div>
-    <div class="conf-authors"><strong>Siyuan Jin</strong>, Yong Xia, Philip Intallura, Botong Xu</div>
-    <ul class="conf-venues">
-      <li><abbr title="IEEE International Conference on Blockchain Computing and Applications">BCCA</abbr> 2022, San Antonio</li>
-    </ul>
-  </li>
-  <li>
-    <div class="conf-title">Informational Experiment on Consumer&rsquo;s Perception of Central Bank Digital Currency as Liquidity Assets</div>
-    <div class="conf-authors">Marc Dordal i Carreras, <strong>Siyuan Jin</strong>, Kohei Kawaguchi</div>
-    <ul class="conf-venues">
-      <li>International Conference on Central Bank Digital Currency and Payment Systems</li>
-    </ul>
-  </li>
+  <li><span class="conf-venue"><abbr title="Workshop on Information Systems and Economics">WISE</abbr> 2026</span>, Lisbon <span class="conf-sep">·</span> <a class="conf-paper" href="#codified-expertise" title="Siyuan Jin, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.">Codified Expertise</a></li>
+  <li><span class="conf-venue"><abbr title="International Conference on Information Systems">ICIS</abbr> 2026 Doctoral Consortium</span>, Lisbon <span class="conf-sep">·</span> <a class="conf-paper" href="#codified-expertise" title="Siyuan Jin, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.">Codified Expertise</a></li>
+  <li><span class="conf-venue">ISPOC Job Market Paper Presentation 2026</span>, online <span class="conf-sep">·</span> <a class="conf-paper" href="#codified-expertise" title="Siyuan Jin, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.">Codified Expertise</a></li>
+  <li><span class="conf-venue">INFORMS Annual Meeting 2026</span>, San Francisco, invited session <span class="conf-sep">·</span> <a class="conf-paper" href="#codified-expertise" title="Siyuan Jin, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.">Codified Expertise</a></li>
+  <li><span class="conf-venue"><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2026</span>, San Francisco <span class="conf-sep">·</span> <a class="conf-paper" href="#mobile-widget-adoption" title="Siyuan Jin, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu. Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption.">Ambient Information and Selective Entry</a></li>
+  <li><span class="conf-venue"><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2026</span>, San Francisco <span class="conf-sep">·</span> <a class="conf-paper" href="#scaling-before-gains" title="Haochen Jiang, Siyuan Jin, Eros Ye, Wei Thoo Yue. Scaling Before Gains: AI Adoption and Team Expansion.">Scaling Before Gains</a></li>
+  <li><span class="conf-venue"><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2026 Doctoral Consortium</span>, San Francisco <span class="conf-sep">·</span> <a class="conf-paper" href="#codified-expertise" title="Siyuan Jin, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.">Codified Expertise</a></li>
+  <li><span class="conf-venue"><a href="https://cist2026.github.io/iss-events/">INFORMS ISS ISR Paper Development Workshop for Early Career Scholar</a> 2026</span>, San Francisco <span class="conf-sep">·</span> <a class="conf-paper" href="#mobile-widget-adoption" title="Siyuan Jin, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu. Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption.">Ambient Information and Selective Entry</a></li>
+  <li><span class="conf-venue">Wharton AI Conference 2026</span>, San Francisco <span class="conf-sep">·</span> <a class="conf-paper" href="#codified-expertise" title="Siyuan Jin, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.">Codified Expertise</a></li>
+  <li><span class="conf-venue"><abbr title="Pacific Asia Conference on Information Systems">PACIS</abbr> 2026 Doctoral Consortium</span> <span class="conf-sep">·</span> <a class="conf-paper" href="#codified-expertise" title="Siyuan Jin, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.">Codified Expertise</a></li>
+  <li><span class="conf-venue">HKUST Information Systems Summer Workshop 2026</span>, Hong Kong <span class="conf-sep">·</span> <a class="conf-paper" href="#codified-expertise" title="Siyuan Jin, Lynn Wu, Wei Thoo Yue, Kar Yan Tam, Eros Ye. Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams.">Codified Expertise</a></li>
+  <li><span class="conf-venue"><abbr title="International Conference on Information Systems">ICIS</abbr> 2025</span>, Nashville <span class="conf-sep">·</span> <a class="conf-paper" href="#ai-for-me" title="Eros Ye, Siyuan Jin, Haochen Jiang, Wei Thoo Yue, Kar Yan Tam. AI for Me, Gains for Us: Complementarity in Generative AI Teams. Early version: Seniority, Spillovers, and AI-Enhanced Code Contributions: Evidence from a Major Enterprise.">AI for Me, Gains for Us</a></li>
+  <li><span class="conf-venue"><abbr title="Global Congress of Special Interest Tourism &amp; Hospitality">GLOSITH</abbr> 2025</span>, Xiamen <span class="conf-sep">·</span> <a class="conf-paper" href="/tourism-forecasting-data.html" title="Siyuan Jin, Kai-Lung Hui, Allen H. Huang, Chao He, Chun Wang. Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong.">Horizon-Dependent Tourism Forecasting</a></li>
+  <li><span class="conf-venue"><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2025</span>, Atlanta <span class="conf-sep">·</span> <span class="conf-paper" title="Siyuan Jin, Yuying Cai, Iris Qiu, Kar Yan Tam. Crisis, Transparency and User Engagement.">Crisis, Transparency and User Engagement</span></li>
+  <li><span class="conf-venue"><abbr title="Statistical Challenges in Electronic Commerce Research">SCECR</abbr> 2025</span>, Paphos <span class="conf-sep">·</span> <span class="conf-paper" title="Siyuan Jin, Kar Yan Tam, Yong Xia. The Effect of Agentic IT Reviewers on Code Contribution: Evidence from a Large-Scale Field Quasi-Experiment.">The Effect of Agentic IT Reviewers on Code Contribution</span></li>
+  <li><span class="conf-venue"><abbr title="Statistical Challenges in Electronic Commerce Research">SCECR</abbr> 2025</span>, Paphos <span class="conf-sep">·</span> <span class="conf-paper" title="Siyuan Jin, Yuying Cai, Iris Qiu, Kar Yan Tam. Crisis, Transparency and User Engagement.">Crisis, Transparency and User Engagement</span></li>
+  <li><span class="conf-venue"><abbr title="International Workshop on Cloud Intelligence">AIOps</abbr> 2025</span>, Ottawa <span class="conf-sep">·</span> <a class="conf-paper" href="https://arxiv.org/abs/2411.13017" title="Siyuan Jin, Zhendong Bei, Bichao Chen, Yong Xia. Breaking the Cycle of Recurring Failures: Applying Generative AI to Root Cause Analysis in Legacy Banking Systems.">Breaking the Cycle of Recurring Failures</a></li>
+  <li><span class="conf-venue">MIS Quarterly Virtual Author Development Workshop 2025</span>, online <span class="conf-sep">·</span> <a class="conf-paper" href="#mining-to-meaning" title="Siyuan Jin, Allen H. Huang, Zitong Li, Kar Yan Tam. Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Now: From Mining to Meaning (JMIS).">Do Users of Blockchain IT Infrastructure Value Environmental Sustainability?</a></li>
+  <li><span class="conf-venue"><abbr title="International Conference on Information Systems">ICIS</abbr> 2024</span>, Bangkok <span class="conf-sep">·</span> <span class="conf-paper" title="Siyuan Jin, Yuying Cai, Iris Qiu, Kar Yan Tam. Operational Transparency in the Blockchain Era: Examining the Impact of Different Types and Levels on User Engagement.">Operational Transparency in the Blockchain Era</span></li>
+  <li><span class="conf-venue"><abbr title="International Conference on Information Systems">ICIS</abbr> 2024</span>, Bangkok <span class="conf-sep">·</span> <a class="conf-paper" href="#kpop-dao" title="Siyuan Jin, Dongwon Lee, Keongtae Kim, Kar Yan Tam. When Kpop Meets Blockchain: Consumer Engagement via Voting in DAOs.">When Kpop Meets Blockchain</a> <span class="conf-award">Best Short Paper Nominee</span></li>
+  <li><span class="conf-venue">Greater Bay Area Finance Workshop 2024</span>, Shenzhen <span class="conf-sep">·</span> <a class="conf-paper" href="#mining-to-meaning" title="Siyuan Jin, Allen H. Huang, Zitong Li, Kar Yan Tam. Do Users of Blockchain IT Infrastructure Value Environmental Sustainability? Now: From Mining to Meaning (JMIS).">Do Users of Blockchain IT Infrastructure Value Environmental Sustainability?</a></li>
+  <li><span class="conf-venue"><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2024</span>, Seattle <span class="conf-sep">·</span> <a class="conf-paper" href="#kpop-dao" title="Siyuan Jin, Dongwon Lee, Keongtae Kim, Kar Yan Tam. When Kpop Meets Blockchain: Consumer Engagement via Voting in DAOs.">When Kpop Meets Blockchain</a></li>
+  <li><span class="conf-venue"><abbr title="Conference on Information Systems and Technology">CIST</abbr> 2024</span>, Seattle <span class="conf-sep">·</span> <span class="conf-paper" title="Siyuan Jin, Kar Yan Tam, Bichao Chen, Yong Xia. Scalable Agency? The Spillover Effects of Agentic IT Reviewers on Code Contribution.">Scalable Agency?</span></li>
+  <li><span class="conf-venue"><abbr title="IEEE International Conference on Software Quality, Reliability, and Security">QRS</abbr> 2023</span>, Chiang Mai <span class="conf-sep">·</span> <a class="conf-paper" href="https://ieeexplore.ieee.org/document/10366662" title="Siyuan Jin, Ziyuan Li, Bichao Chen, Bing Zhu, Yong Xia. Software Code Quality Measurement: Implications from Metric Distributions.">Software Code Quality Measurement</a></li>
+  <li><span class="conf-venue"><abbr title="IEEE International Conference on Blockchain Computing and Applications">BCCA</abbr> 2022</span>, San Antonio <span class="conf-sep">·</span> <a class="conf-paper" href="https://ieeexplore.ieee.org/document/9922204" title="Siyuan Jin, Yong Xia, Philip Intallura, Botong Xu. A UTXO-based Sharding Method for Stablecoin.">A UTXO-based Sharding Method for Stablecoin</a> <a href="https://github.com/CBDC-IoT/DigitalShell">[Code]</a></li>
+  <li><span class="conf-venue">International Conference on Central Bank Digital Currency and Payment Systems</span> <span class="conf-sep">·</span> <span class="conf-paper" title="Marc Dordal i Carreras, Siyuan Jin, Kohei Kawaguchi. Informational Experiment on Consumer's Perception of Central Bank Digital Currency as Liquidity Assets.">Informational Experiment on Consumer&rsquo;s Perception of Central Bank Digital Currency as Liquidity Assets</span></li>
 </ol>
 
 ### **Patent**
