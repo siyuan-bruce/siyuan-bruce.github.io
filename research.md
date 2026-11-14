@@ -176,6 +176,7 @@ key: page-research
     ul.talk-list { margin: 6px 0 2px; }
     ul.talk-list li { position: relative; padding-left: 14px; margin: 2px 0; font-size: 14px; line-height: 1.5; color: #555; }
     ul.talk-list li::before { content: ""; position: absolute; left: 2px; top: 0.62em; width: 5px; height: 5px; border-radius: 50%; background: #b8c2d6; }
+    .status-links { font-style: normal; font-weight: 500; margin-left: 4px; }
   </style>
 </head>
 
@@ -203,10 +204,9 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns?</div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li,   
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.       Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218"> [Working paper] (Version: April 2026)</a> 
-      <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Accepted at <em>Journal of Management Information Systems</em> (JMIS, FT50).</p>
+    <p class="status-info">Accepted at <em>Journal of Management Information Systems</em> (JMIS, FT50). <span class="status-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218">[Working paper] (Version: April 2026)</a> <a href="/paper/Slides_Green_Token_based_Platform.pdf">[Slides]</a></span></p>
     <details class="paper-details paper-talks">
       <summary>Presentations (5)</summary>
       <ul class="talk-list">
@@ -239,9 +239,9 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
       <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. Reference: <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50).</p>
+    <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50). <span class="status-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Working paper]</a></span></p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <details class="paper-details paper-talks">
       <summary>Presentations (7)</summary>
@@ -272,9 +272,9 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ying Hao, <a href="https://www.bschool.cuhk.edu.hk/staff/li-hongfei/">Hongfei Li</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
-      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. Reference: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5535298">[Working paper]</a>
+      <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50).</p>
+    <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50). <span class="status-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5535298">[Working paper]</a></span></p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <div class="paper-abstract">
@@ -398,10 +398,10 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>,
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>,
-      Yuhan Huang, Qiming Shao, Yong Xia. Reference: <a href="https://doi.org/10.1145/3838724">[DOI]</a>
+      Yuhan Huang, Qiming Shao, Yong Xia.
     </div>
+    <p class="status-info">Accepted at <em>ACM Transactions on Management Information Systems</em> (TMIS). <span class="status-links"><a href="https://doi.org/10.1145/3838724">[DOI]</a></span></p>
     <p class="conference-info">Media Presence: HKUST IEMS Thought Leadership Brief No. 94. <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">[Brief]</a></p>
-    <p class="status-info">Accepted at <em>ACM Transactions on Management Information Systems</em> (TMIS).</p>
   </li>
 
   <li class="paper-item" data-number="C2" id="mobile-widget-adoption">
