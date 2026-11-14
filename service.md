@@ -196,6 +196,12 @@ key: page-service
 - **Nature Humanities and Social Sciences Communications** (HSSC)
 - **ACM Computing Surveys** (CSUR)
 
+## Professional membership
+
+- **AIS** (Association for Information Systems)
+- **ACM** (Association for Computing Machinery)
+- **INFORMS** (Institute for Operations Research and the Management Sciences)
+
 <div class="service-highlight" markdown="1">
 
 ## IS Reading Group

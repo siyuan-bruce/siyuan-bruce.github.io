@@ -372,11 +372,6 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
 
 </ul>
 
-### **Policy Papers**
-
-<p style="font-size:15px;color:#444;"><em>My policy and government-facing work now has a dedicated page: <strong><a href="/policy.html">Policy &amp; Government Impact</a></strong>, covering the HKMA white papers, e-HKD / CBDC studies, the MAS Global CBDC Challenge, and Hong Kong tourism-policy work, including my column in the Hong Kong Economic Times (經濟日報).</em></p>
-
-
 ### **Patent**
    
   1. B. Zhu, Yong Xia, Z. Li, **Siyuan Jin**. (2024). "Network Analysis using optical quantum computing". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007565 A1.
@@ -390,9 +385,3 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   5. Bing Zhu, Ziyuan Li, Yong Xia, Mianmian Zhang, **Siyuan Jin**, Kar Yan Tam, Yuhan Huang, Qiming Shao. (2024). "Systems and Methods for Quantum Monte Carlo Processing". US Patent App. 18/404,169.
 
   6. Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, **Siyuan Jin**. (2024). "Adaptive Diversity-Based Quantum Circuit Architecture Search". US Patent App. 18/519,617.
-
-
-## **Professional Membership**
-- Association for Information Systems (AIS)
-- Association for Computing Machinery (ACM)
-- Institute for Operations Research and Management Sciences (INFORMS)
