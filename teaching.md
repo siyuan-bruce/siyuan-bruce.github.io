@@ -236,7 +236,7 @@ key: page-teaching
   <span class="attribution">Mr. Dawe</span>
 </div>
 
-<p class="teaching-interests"><strong>Teaching interests:</strong> Management Information Systems, Blockchain, Digital Currency, Quantum Computing Management.</p>
+<p class="teaching-interests"><strong>Teaching interests:</strong> Management Information Systems, AI in Business, Blockchain, Digital Currency, Quantum Computing Management.</p>
 
 <div class="role-heading">Instructor</div>
 
