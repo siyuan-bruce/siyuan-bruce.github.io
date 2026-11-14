@@ -183,11 +183,6 @@ key: page-research
 
 _The goal of behavioral-science research is truth. The goal of design-science research is utility. (MIS Quarterly, 2004)_
 
-<p style="font-size: 13px; color: #888; margin-bottom: 18px;">
-  <em>* indicates presentation by coauthors.</em>
-</p>
-
-
 <h3 id="blockchain-digital-markets">Research Stream 1: Blockchain Governance and Digital Markets</h3>
 
 <p class="research-stream-question">How do blockchain’s distinctive features shape value in digital markets?</p>
@@ -446,4 +441,6 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 <p style="font-size: 14px; color: #666; font-style: italic; margin-top: 28px; margin-bottom: 15px;">
 FT50 = list of 50 journals used by the Financial Times to compile the FT Research rank, included in the Global MBA, EMBA, and Online MBA rankings.<br>
 UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Management to provide the top 100 business school rankings.
+<br>
+* indicates presentation by coauthors.
 </p>
