@@ -171,6 +171,11 @@ key: page-research
       line-height: 1.5;
       margin: 8px 0 24px;
     }
+    .paper-talks { margin-top: 8px; }
+    .paper-talks + .paper-details { margin-top: 4px; }
+    ul.talk-list { margin: 6px 0 2px; }
+    ul.talk-list li { position: relative; padding-left: 14px; margin: 2px 0; font-size: 14px; line-height: 1.5; color: #555; }
+    ul.talk-list li::before { content: ""; position: absolute; left: 2px; top: 0.62em; width: 5px; height: 5px; border-radius: 50%; background: #b8c2d6; }
   </style>
 </head>
 
@@ -202,7 +207,16 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="/paper/Slides_Green_Token_based_Platform.pdf"> [Slides]</a>
     </div>
     <p class="status-info">Accepted at <em>Journal of Management Information Systems</em> (JMIS, FT50).</p>
-    <p class="conference-info">Presentations: [HKUST IS Department Seminar], [2024 MIS Quarterly Virtual Paper Development Workshop], [2024 Greater Bay Area Finance Workshop], [ISPSG Workshop], South China University of Technology</p>
+    <details class="paper-details paper-talks">
+      <summary>Presentations (5)</summary>
+      <ul class="talk-list">
+        <li>HKUST IS Department Seminar</li>
+        <li>2024 MIS Quarterly Virtual Paper Development Workshop</li>
+        <li>2024 Greater Bay Area Finance Workshop</li>
+        <li>ISPSG Workshop</li>
+        <li>South China University of Technology</li>
+      </ul>
+    </details>
     <details class="paper-details">
       <summary>Abstract</summary>
       <div class="paper-abstract">
@@ -228,8 +242,19 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>. Reference: <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789"> [Working paper]</a>
     </div>
     <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50).</p>
-    <p class="conference-info">Presentations: [ICIS 2024], [CIST 2024], [2025 HKUST PhD Student Conference], [2025 HKUST IS Summer Workshop], Indiana University*, McGill University*, South China University of Technology</p>
     <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
+    <details class="paper-details paper-talks">
+      <summary>Presentations (7)</summary>
+      <ul class="talk-list">
+        <li>ICIS 2024</li>
+        <li>CIST 2024</li>
+        <li>2025 HKUST PhD Student Conference</li>
+        <li>2025 HKUST IS Summer Workshop</li>
+        <li>Indiana University*</li>
+        <li>McGill University*</li>
+        <li>South China University of Technology</li>
+      </ul>
+    </details>
     <details class="paper-details">
       <summary>Abstract</summary>
       <div class="paper-abstract">
@@ -284,8 +309,20 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
     </div>
-    <p class="conference-info">Presentations: [WISE 2026, Lisbon], [ICIS 2026 Doctoral Consortium, Lisbon], [INFORMS Annual Meeting 2026, San Francisco], [CIST 2026 Doctoral Consortium, San Francisco], [ISPOC Job Market Paper Presentation 2026], [Wharton AI Conference 2026, San Francisco], [PACIS 2026 Doctoral Consortium], [2026 HKUST IS Summer Workshop]</p>
     <p class="status-info"><strong>Job Market Paper</strong></p>
+    <details class="paper-details paper-talks">
+      <summary>Presentations (8)</summary>
+      <ul class="talk-list">
+        <li>WISE 2026, Lisbon</li>
+        <li>ICIS 2026 Doctoral Consortium, Lisbon</li>
+        <li>INFORMS Annual Meeting 2026, San Francisco</li>
+        <li>CIST 2026 Doctoral Consortium, San Francisco</li>
+        <li>ISPOC Job Market Paper Presentation 2026</li>
+        <li>Wharton AI Conference 2026, San Francisco</li>
+        <li>PACIS 2026 Doctoral Consortium</li>
+        <li>2026 HKUST IS Summer Workshop</li>
+      </ul>
+    </details>
   </li>
 
   <li class="paper-item" data-number="B2">
@@ -296,8 +333,16 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <strong>Siyuan Jin</strong>, 
       Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.
     </div>
-    <p class="conference-info">Presentations: [2024 HKUST Business PhD Student Conference], [CIST 2024], [SCECR 2025], [2026 MISQ Virtual PDW]</p>
     <p class="status-info">Under revision, rejected after a second-round major revision at <em>Information Systems Research</em>.</p>
+    <details class="paper-details paper-talks">
+      <summary>Presentations (4)</summary>
+      <ul class="talk-list">
+        <li>2024 HKUST Business PhD Student Conference</li>
+        <li>CIST 2024</li>
+        <li>SCECR 2025</li>
+        <li>2026 MISQ Virtual PDW</li>
+      </ul>
+    </details>
   </li>
 
   <li class="paper-item" data-number="B3" id="ai-for-me">
@@ -309,7 +354,12 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
     </div>
     <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
-    <p class="conference-info">Presentations: [ICIS 2025]</p>
+    <details class="paper-details paper-talks">
+      <summary>Presentations (1)</summary>
+      <ul class="talk-list">
+        <li>ICIS 2025</li>
+      </ul>
+    </details>
   </li>
 
   <li class="paper-item" data-number="B4" id="scaling-before-gains">
@@ -319,8 +369,13 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       Haochen Jiang, <strong>Siyuan Jin</strong>, Eros Ye, Wei Thoo Yue.
     </div>
-    <p class="conference-info">Presentations: [CIST 2026, San Francisco]</p>
     <p class="status-info">In preparation for submission.</p>
+    <details class="paper-details paper-talks">
+      <summary>Presentations (1)</summary>
+      <ul class="talk-list">
+        <li>CIST 2026, San Francisco</li>
+      </ul>
+    </details>
   </li>
 
   <!-- <li class="paper-item" data-number="B4">
@@ -356,8 +411,16 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu.
     </div>
-    <p class="conference-info">Presentations: [CIST 2026, San Francisco], [2026 MISQ Virtual PDW], [2026 CNAIS ISR Paper Development Workshop (UNNC)], <a href="https://cist2026.github.io/iss-events/">[2026 INFORMS ISS ISR Paper Development Workshop for Early Career Scholar]</a></p>
     <p class="status-info">In preparation for submission.</p>
+    <details class="paper-details paper-talks">
+      <summary>Presentations (4)</summary>
+      <ul class="talk-list">
+        <li>CIST 2026, San Francisco</li>
+        <li>2026 MISQ Virtual PDW</li>
+        <li>2026 CNAIS ISR Paper Development Workshop (UNNC)</li>
+        <li><a href="https://cist2026.github.io/iss-events/">2026 INFORMS ISS ISR Paper Development Workshop for Early Career Scholar</a></li>
+      </ul>
+    </details>
   </li>
 
   <!-- <li class="paper-item" data-number="C3">
