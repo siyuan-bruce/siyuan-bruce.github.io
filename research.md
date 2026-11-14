@@ -177,6 +177,7 @@ key: page-research
     ul.talk-list li { position: relative; padding-left: 14px; margin: 2px 0; font-size: 14px; line-height: 1.5; color: #555; }
     ul.talk-list li::before { content: ""; position: absolute; left: 2px; top: 0.62em; width: 5px; height: 5px; border-radius: 50%; background: #b8c2d6; }
     .status-links { font-style: normal; font-weight: 500; margin-left: 4px; }
+    .talk-award { color: #8a5a00; font-weight: 600; font-size: 13px; margin-left: 4px; white-space: nowrap; }
   </style>
 </head>
 
@@ -237,11 +238,10 @@ _The goal of behavioral-science research is truth. The goal of design-science re
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
     <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50). <span class="status-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">[Working paper]</a></span></p>
-    <p class="conference-info">Award: ICIS 2024 Best Short Paper Nominee</p>
     <details class="paper-details paper-talks">
       <summary>Presentations (7)</summary>
       <ul class="talk-list">
-        <li>ICIS 2024</li>
+        <li>ICIS 2024 <span class="talk-award">Best Short Paper Nominee</span></li>
         <li>CIST 2024</li>
         <li>2025 HKUST PhD Student Conference</li>
         <li>2025 HKUST IS Summer Workshop</li>
@@ -348,11 +348,10 @@ _The goal of behavioral-science research is truth. The goal of design-science re
       Eros Ye, <strong>Siyuan Jin</strong>, Haochen Jiang, Wei Thoo Yue,
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
     </div>
-    <p class="conference-info">Award: ICIS 2025 Best Short Paper Nominee</p>
     <details class="paper-details paper-talks">
       <summary>Presentations (1)</summary>
       <ul class="talk-list">
-        <li>ICIS 2025</li>
+        <li>ICIS 2025 <span class="talk-award">Best Short Paper Nominee</span></li>
       </ul>
     </details>
   </li>
