@@ -182,11 +182,6 @@ key: page-research
 
 _The goal of behavioral-science research is truth. The goal of design-science research is utility. (MIS Quarterly, 2004)_
 
-<p style="font-size: 14px; color: #666; font-style: italic; margin-top: 15px; margin-bottom: 15px;">
-FT50 = list of 50 journals used by the Financial Times to compile the FT Research rank, included in the Global MBA, EMBA, and Online MBA rankings.<br>
-UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Management to provide the top 100 business school rankings.
-</p>
-
 <p style="font-size: 13px; color: #888; margin-bottom: 18px;">
   <em>* indicates presentation by coauthors.</em>
 </p>
@@ -448,3 +443,8 @@ UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Managemen
   5. Bing Zhu, Ziyuan Li, Yong Xia, Mianmian Zhang, **Siyuan Jin**, Kar Yan Tam, Yuhan Huang, Qiming Shao. (2024). "Systems and Methods for Quantum Monte Carlo Processing". US Patent App. 18/404,169.
 
   6. Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, **Siyuan Jin**. (2024). "Adaptive Diversity-Based Quantum Circuit Architecture Search". US Patent App. 18/519,617.
+
+<p style="font-size: 14px; color: #666; font-style: italic; margin-top: 28px; margin-bottom: 15px;">
+FT50 = list of 50 journals used by the Financial Times to compile the FT Research rank, included in the Global MBA, EMBA, and Online MBA rankings.<br>
+UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Management to provide the top 100 business school rankings.
+</p>
