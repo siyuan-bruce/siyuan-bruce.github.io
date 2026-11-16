@@ -136,32 +136,20 @@ key: page-research
       font-weight: 600;
     }
 
-    .paper-group {
-      display: flex;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 6px 12px;
-      margin: 4px 0 18px;
-    }
-
-    ul + .paper-group { margin-top: 34px; }
-
-    .paper-group-tag {
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 3px 10px;
+    .paper-tag {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 1px 7px;
       border-radius: 3px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      vertical-align: 2px;
+      white-space: nowrap;
     }
-
-    .paper-group-desc {
-      font-size: 15px;
-      color: #555;
-    }
-
-    .paper-group-infra .paper-group-tag { color: #1f5a35; background: #e6f0e9; }
-    .paper-group-app .paper-group-tag   { color: #7a4a0c; background: #f6ecdc; }
+    .paper-tag-infra { color: #1f5a35; background: #e6f0e9; }
+    .paper-tag-app   { color: #7a4a0c; background: #f6ecdc; }
     ul.papers-infra .paper-item { border-left-color: #2d6a3e; }
     ul.papers-app .paper-item   { border-left-color: #b07020; }
 
@@ -187,12 +175,10 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 
 <p class="research-stream-question">How do blockchain’s distinctive features shape value in digital markets?</p>
 
-<div class="paper-group paper-group-infra"><span class="paper-group-tag">Infrastructure</span></div>
-
 <ul class="papers-infra">
   <li class="paper-item" data-number="A1" id="mining-to-meaning">
     <div class="paper-title">
-      From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns?</div>
+      From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns? <span class="paper-tag paper-tag-infra">Infrastructure</span></div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li,   
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
@@ -220,12 +206,10 @@ _The goal of behavioral-science research is truth. The goal of design-science re
   </li>
 </ul>
 
-<div class="paper-group paper-group-app"><span class="paper-group-tag">Applications</span></div>
-
 <ul class="papers-app">
   <li class="paper-item" data-number="A2" id="kpop-dao">
     <div class="paper-title">
-      When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs.
+      When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs. <span class="paper-tag paper-tag-app">Application</span>
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, 
@@ -258,7 +242,7 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 
   <li class="paper-item" data-number="A3">
     <div class="paper-title">
-      When Supply Lowers Demand: Evidence from Invitation-Only Policy Reform in Digital Asset Marketplaces.
+      When Supply Lowers Demand: Evidence from Invitation-Only Policy Reform in Digital Asset Marketplaces. <span class="paper-tag paper-tag-app">Application</span>
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ying Hao, <a href="https://www.bschool.cuhk.edu.hk/staff/li-hongfei/">Hongfei Li</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
@@ -278,7 +262,7 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 
   <li class="paper-item" data-number="A4">
     <div class="paper-title">
-     Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi.
+     Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi. <span class="paper-tag paper-tag-app">Application</span>
     </div>
     <div class="paper-authors">
       Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <strong>Siyuan Jin</strong>, Evgeny Lyandres (Authors listed alphabetically).
