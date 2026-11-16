@@ -982,7 +982,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       He has contributed to HKMA white papers on central bank digital currencies and quantum computing, and his <a href="/policy.html">policy work</a> has been covered by more than 70 news outlets, including the <em>South China Morning Post</em>, <em>China Daily</em>, RTHK, and Cointelegraph. Before HKUST, he spent two years as a full-stack blockchain engineer at the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, where his team reached the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> of the Monetary Authority of Singapore.
     </p>
     <p>
-      He reviews for JMIS, <em>Decision Sciences</em>, <em>International Journal of Electronic Commerce</em>, and major IS conferences <strong style="color:#1A5DCB;">(Best Reviewer Award, ICIS 2025)</strong>, and co-organized the <a href="/service.html">IS Reading Group</a>, which ran 40+ online seminars for IS PhD students in 2024&ndash;2025.
+      He reviews for JMIS, <em>Decision Sciences</em>, and major IS conferences <strong style="color:#1A5DCB;">(Best Reviewer Award, ICIS 2025)</strong>, and co-organized the <a href="/service.html">IS Reading Group</a>, which ran 40+ online seminars for IS PhD students in 2024&ndash;2025.
     </p>
   </div>
 </div>
