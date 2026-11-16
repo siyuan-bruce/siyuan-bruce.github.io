@@ -299,7 +299,7 @@ _The goal of behavioral-science research is truth. The goal of design-science re
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.
     </div>
-    <p class="status-info"><strong>Job Market Paper</strong></p>
+    <p class="status-info"><strong>Job Market Paper</strong>. Under Review.</p>
     <details class="paper-details paper-talks">
       <summary>Presentations (8)</summary>
       <ul class="talk-list">
@@ -343,6 +343,7 @@ _The goal of behavioral-science research is truth. The goal of design-science re
       Eros Ye, <strong>Siyuan Jin</strong>, Haochen Jiang, Wei Thoo Yue,
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>
     </div>
+    <p class="status-info">Under Review.</p>
     <details class="paper-details paper-talks">
       <summary>Presentations (1)</summary>
       <ul class="talk-list">

@@ -1007,7 +1007,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       How does AI reshape the organization of human expertise?
     </div>
     <div class="focus-evidence">
-      Job market paper on generative AI in distributed teams &middot; Principal Investigator, NSFC grant on software team design in the GenAI era
+      Job market paper on generative AI in distributed teams (under review) &middot; Principal Investigator, NSFC grant on software team design in the GenAI era
     </div>
   </div>
 </div>
