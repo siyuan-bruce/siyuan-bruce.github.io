@@ -301,7 +301,7 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 
   <li class="paper-item" data-number="B2">
     <div class="paper-title">
-      Making Quality Contractible: How Algorithmic Quality Scoring Reshapes Software Development.
+      Benchmarked Quality: How Quality Scores Reshape Technical Debt Prevention.
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, 
