@@ -317,7 +317,7 @@ permalink: /policy.html
       <a href="https://www.nationaltribune.com.au/hkust-and-hsbc-to-conduct-one-week-hypothetical-e-hkd-pilot/" title="National Tribune"><img src="/assets/images/media/nationaltribune.webp" alt="National Tribune" width="147" height="48" loading="lazy"></a>
       <a href="http://www.aastocks.com/en/stocks/news/aafn-con/NOW.1294004/latest-news/AAFN" title="AASTOCKS"><img src="/assets/images/media/aastocks.webp" alt="AASTOCKS" width="201" height="48" loading="lazy"></a>
     </div></div>
-    <details class="media-more"><summary>Chinese media (21)</summary><div class="media-logos">
+    <div class="media-row"><span class="media-label">Chinese</span><div class="media-logos">
       <a href="https://www.881903.com/news2/finance/2502260" title="Commercial Radio 881903"><img src="/assets/images/media/cr881903.webp" alt="Commercial Radio 881903" width="228" height="48" loading="lazy"></a>
       <a href="http://www.metroradio.com.hk/news/default.aspx?NewsId=20230914165021" title="Metro Broadcast"><img src="/assets/images/media/metroradio.webp" alt="Metro Broadcast" width="221" height="48" loading="lazy"></a>
       <a href="https://finance.now.com/news/post.php?id=820055" title="Now News"><img src="/assets/images/media/nownews.webp" alt="Now News" width="142" height="48" loading="lazy"></a>
@@ -339,7 +339,7 @@ permalink: /policy.html
       <a href="https://portal.sina.com.hk/news-hongkong/news-realtime/rthk/2023/09/14/522208/" title="Sina"><img src="/assets/images/media/sina.webp" alt="Sina" width="172" height="48" loading="lazy"></a>
       <a href="https://news.cnyes.com/news/id/5324740" title="Anue (cnyes)"><img src="/assets/images/media/cnyes.webp" alt="Anue (cnyes)" width="116" height="48" loading="lazy"></a>
       <a href="http://caifuhao.eastmoney.com/news/20230518201821167392400" title="Eastmoney"><img src="/assets/images/media/eastmoney.webp" alt="Eastmoney" width="199" height="48" loading="lazy"></a>
-    </div></details>
+    </div></div>
   </div>
 </div>
 
@@ -396,7 +396,7 @@ permalink: /policy.html
       <a href="https://www.miragenews.com/hkust-hkma-launch-quantum-readiness-toolkit-for-1770485/" title="Mirage News"><img src="/assets/images/media/miragenews.webp" alt="Mirage News" width="164" height="48" loading="lazy"></a>
       <a href="https://www.bastillepost.com/global/article/6315797-hkma-and-hkust-launch-post-quantum-cryptography-toolkit-to-enhance-banking-sectors-cybersecurity-preparedness" title="Bastille Post"><img class="logo-sm" src="/assets/images/media/bastillepost.webp" alt="Bastille Post" width="300" height="48" loading="lazy"></a>
     </div></div>
-    <details class="media-more"><summary>Chinese media (37)</summary><div class="media-logos">
+    <div class="media-row"><span class="media-label">Chinese</span><div class="media-logos">
       <a href="https://news.tvb.com/tc/1204104-%E4%BD%99%E5%81%89%E6%96%87%E8%BD%89%E6%95%B8%E5%BF%AB%E4%BB%8A%E5%B9%B4%E5%85%A7%E6%8E%A5%E9%80%9A%E9%8A%80%E8%81%AF%E5%9C%8B%E9%9A%9B%E6%94%AF%E6%8F%B4%E5%85%A8%E7%90%83%E9%80%BE%E4%B8%80%E5%84%84%E5%80%8B%E5%95%86%E6%88%B6" title="TVB News"><img src="/assets/images/media/tvb.webp" alt="TVB News" width="257" height="48" loading="lazy"></a>
       <a href="https://finance.now.com/news/post.php?id=992140" title="Now News"><img src="/assets/images/media/nownews.webp" alt="Now News" width="142" height="48" loading="lazy"></a>
       <a href="https://www.i-cable.com/%E8%B2%A1%E7%B6%93%E8%B3%87%E8%A8%8A/518961/%E4%BD%99%E5%81%89%E6%96%87-%E4%BB%A3%E7%90%86%E5%BC%8F%E9%87%91%E8%9E%8D%E6%87%89%E7%94%A8%E6%97%A2%E8%A6%81%E5%89%B5%E6%96%B0%E4%BA%A6%E8%A6%81%E6%8A%8A%E9%97%9C" title="i-CABLE News"><img src="/assets/images/media/icable.webp" alt="i-CABLE News" width="73" height="48" loading="lazy"></a>
@@ -434,7 +434,7 @@ permalink: /policy.html
       <a href="https://cn.dataconomy.com/2026/11/05/%E9%A6%99%E6%B8%AF%E6%8E%A8%E5%87%BA%E9%9D%A2%E5%90%91%E9%93%B6%E8%A1%8C%E7%9A%84%E5%90%8E%E9%87%8F%E5%AD%90%E5%B7%A5%E5%85%B7%E5%8C%85/" title="Dataconomy"><img src="/assets/images/media/dataconomy.webp" alt="Dataconomy" width="174" height="48" loading="lazy"></a>
       <a href="https://www.odaily.news/zh-CN/newsflash/529855" title="Odaily"><img src="/assets/images/media/odaily.webp" alt="Odaily" width="174" height="48" loading="lazy"></a>
       <a href="https://blockweeks.com/news/335627" title="BlockWeeks"><img src="/assets/images/media/blockweeks.webp" alt="BlockWeeks" width="38" height="48" loading="lazy"></a>
-    </div></details>
+    </div></div>
   </div>
 </div>
 
