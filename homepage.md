@@ -1147,7 +1147,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
         <div class="news-date">Dec 2025</div>
         <span class="news-cat">Honor</span>
         <div class="news-content">
-          Paper on seniority and AI-augmented code contributions nominated for the <strong>ICIS 2025 Best Paper Award</strong>.
+          Paper on seniority and AI-augmented code contributions nominated for the <strong>ICIS 2025 Best Short Paper Award</strong>.
         </div>
       </div>
       <div class="news-item cat-paper">
