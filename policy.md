@@ -135,7 +135,7 @@ permalink: /policy.html
   </div>
 </div>
 
-<h3 class="sec" id="post-quantum">Privacy &amp; Post-Quantum Security</h3>
+<h3 class="sec" id="post-quantum">Post-Quantum Security</h3>
 
 <div class="entry">
   <div class="kicker">HKUST &amp; HKMA &middot; 2026</div>
@@ -204,11 +204,6 @@ permalink: /policy.html
         <a href="https://blockweeks.com/news/335627" title="BlockWeeks"><img src="/assets/images/media/blockweeks.webp" alt="BlockWeeks" width="38" height="48" loading="lazy"></a>
       </div></div>
   </div>
-</div>
-
-<div class="entry">
-  <div class="kicker">HKMA CBDC Expert Group</div>
-  <div class="paper-title">Privacy on CBDC: A Technical Overview</div>
 </div>
 
 <h3 class="sec" id="tourism">Hong Kong Tourism</h3>
