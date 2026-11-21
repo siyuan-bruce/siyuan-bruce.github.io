@@ -47,9 +47,9 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   .sp .home-links { margin-top: 10px; font-size: 14.5px; }
   .sp .home-links a { margin-right: 18px; white-space: nowrap; }
   .sp .home-bio p { font-size: 15.5px; line-height: 1.7; margin: 0 0 14px; }
-  .sp .hitem { padding: 10px 0; border-bottom: 1px solid var(--rule); }
-  .sp .hitem:last-child, .sp .hitem.last { border-bottom: 0; }
-  .sp .hitem .paper-title a, .sp .hitem .title a { font-weight: 600; }
+  .sp .jmp-title { font-size: 18px; font-weight: 600; line-height: 1.4; }
+  .sp .jmp-title a { font-weight: 600; }
+  .sp .jmp .authors { margin-top: 4px; }
   .visit-counter { margin: 40px 0 0; opacity: 0.55; }
   @media (max-width: 600px) {
     .sp .home-head { grid-template-columns: 84px minmax(0, 1fr); column-gap: 14px; align-items: center; }
@@ -87,31 +87,15 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 </div>
 
 <div class="home-bio">
-  <!-- 2026-11-15 (Bruce): "make this part more concise". -->
-  <p><strong>Bruce (Siyuan) Jin (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026.</p>
-  <p>His research asks how blockchain creates value in digital markets and how generative AI reshapes the organization of expertise inside firms. His work appears in the <em>Journal of Management Information Systems</em> (JMIS, FT50).</p>
+  <!-- 2026-11-15 (Bruce): "make this part more concise". 2026-11-21: role lines moved to the header, research streams left to the Research page. -->
+  <p><strong>Bruce (Siyuan) Jin</strong> studies how generative AI reshapes the organization of expertise inside firms and how blockchain creates value in digital markets. He is advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a> at HKUST and works with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> at Wharton. His work appears in the <em>Journal of Management Information Systems</em> (JMIS, FT50).</p>
   <p>He has contributed to HKMA white papers on central bank digital currencies and quantum computing, and his <a href="/policy.html">policy work</a> has been covered by more than 70 news outlets, including the <em>South China Morning Post</em>, <em>China Daily</em>, RTHK, and Cointelegraph. Before HKUST, he spent two years as a full-stack blockchain engineer at the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, where his team reached the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> of the Monetary Authority of Singapore.</p>
-  <p>He reviews for JMIS, <em>Decision Sciences</em>, and major IS conferences (Best Reviewer Award, ICIS 2025), and co-organized the <a href="/service.html">IS Reading Group</a>, which ran 40+ online seminars for IS PhD students in 2024&ndash;2025.</p>
 </div>
 
-<h3 class="sec">Research</h3>
-
-<p class="label">Job market paper</p>
-<div class="hitem">
-  <div class="paper-title"><a href="/research.html#codified-expertise">Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams</a></div>
+<h3 class="sec">Job market paper</h3>
+<div class="jmp">
+  <div class="jmp-title"><a href="/research.html#codified-expertise">Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams</a></div>
   <div class="authors">With Lynn Wu, Wei Thoo Yue, Kar Yan Tam and Eros Ye <span class="note">Under review</span></div>
-</div>
-
-<p class="label">Research streams</p>
-<div class="hitem">
-  <div class="title"><a href="/research.html#ai-organization-of-work">AI and the Organization of Work</a></div>
-  <div class="meta">How does AI reshape the organization of human expertise?</div>
-  <div class="meta">Principal Investigator, NSFC grant on software team design in the GenAI era</div>
-</div>
-<div class="hitem last">
-  <div class="title"><a href="/research.html#blockchain-digital-markets">Blockchain Governance and Digital Markets</a></div>
-  <div class="meta">How do blockchain&rsquo;s distinctive features shape value in digital markets?</div>
-  <div class="meta">Accepted at <em>Journal of Management Information Systems</em> &middot; Two revise-and-resubmits at <em>Information Systems Research</em></div>
 </div>
 
 {% if site.data.talks and site.data.talks.size > 0 %}
@@ -119,8 +103,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 {% for talk in site.data.talks %}
 <div class="row"><span class="key">{{ talk.month }} {{ talk.year }}</span><div>
   <div class="title">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</div>
-  <div class="meta">{{ talk.title }}</div>
-  <div class="meta">{% if talk.place %}{{ talk.place }}{% endif %}{% if talk.time %} &middot; {{ talk.time }}{% endif %}{% if talk.room %} &middot; {{ talk.room }}{% endif %}{% if talk.speaker %} &middot; Presented by {{ talk.speaker }}{% endif %}</div>
+  <div class="meta">{% if talk.title contains "Codified Expertise" %}Job market paper{% else %}{{ talk.title }}{% endif %}{% if talk.place %} &middot; {{ talk.place }}{% endif %}{% if talk.time %} &middot; {{ talk.time }}{% endif %}{% if talk.room %} &middot; {{ talk.room }}{% endif %}{% if talk.speaker %} &middot; Presented by {{ talk.speaker }}{% endif %}</div>
 </div></div>
 {% endfor %}
 {% endif %}
