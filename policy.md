@@ -56,7 +56,7 @@ permalink: /policy.html
 <div class="entry">
   <div class="kicker">HKMA CBDC Expert Group</div>
   <div class="paper-title">Tokenised Forms of Money</div>
-  <div class="authors">Kar Yan Tam (lead), <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Douglas Arner, Dong Lou, <strong>Siyuan Jin</strong></div>
+  <div class="authors">Kar Yan Tam, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Douglas Arner, Dong Lou, <strong>Siyuan Jin</strong></div>
 </div>
 
 <div class="entry">
