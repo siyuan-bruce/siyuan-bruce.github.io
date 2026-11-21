@@ -930,6 +930,49 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   @media (max-width: 520px) {
     .focus-grid { grid-template-columns: 1fr; margin: 12px 6px 6px; }
   }
+
+  /* 2026-11-21 (Bruce): "the homepage text are too wider". One centered column whose text
+     edges line up with the 880px banner (900px less the 10px side margins of each block) */
+  .article__content { max-width: 900px; margin-left: auto; margin-right: auto; }
+  @media screen and (min-width: 600px) {
+    .profile-image { margin-right: 10px; }
+  }
+
+  /* 2026-11-21 (Bruce): "go ahead and apply Calm". Same content and order; one emphasis,
+     links in regular weight, space instead of boxes. Delete this block to undo it. */
+  .profile-text { text-align: left !important; }
+  .profile-text p { margin-bottom: 18px; }
+  .profile-text a { font-weight: 400 !important; }
+  .profile-text strong[style] { color: inherit !important; font-weight: 400 !important; }
+  .profile-sidebar .sidebar-name, .profile-sidebar .affil-icon { display: none; }
+  .profile-sidebar .affil-row { border-bottom: 0; padding: 2px 0; font-size: 13.5px; }
+  .profile-sidebar .contact-email a { font-weight: 400; }
+  .profile-sidebar .link-row { gap: 4px 16px; margin-top: 12px; }
+  .profile-sidebar .link-row a { border: 0; padding: 0; background: none; font-size: 13.5px; font-weight: 400; }
+  .article__content .focus-heading, .article__content .talks-heading, .article__content .cv-heading { margin: 64px 10px 0; font-weight: 600; border-bottom: 0 !important; padding-bottom: 0 !important; }
+  .article__content .focus-heading { margin-top: 36px; }
+  .focus-grid { gap: 48px; margin-top: 18px; }
+  .focus-card, .focus-card:hover { border: 0; border-radius: 0; padding: 0; background: none; transform: none; box-shadow: none; }
+  .focus-card::before { display: none; }
+  .focus-stream-label { color: #8b919a; font-weight: 600; }
+  .focus-card .focus-name, .focus-card.focus-ai .focus-name, .focus-card.focus-blockchain .focus-name { color: #1a1a1a; font-size: 16px; font-weight: 600; }
+  .focus-desc { font-size: 14.5px; color: #545b66; }
+  .focus-evidence { font-size: 13px; color: #8b919a; border-top: 0 !important; padding-top: 0; }
+  .talks-grid { gap: 0; margin-top: 14px; }
+  .talk-card, .talk-card:hover { border: 0; border-radius: 0; background: none; transform: none; box-shadow: none; padding: 12px 0; }
+  .talk-date { flex: 0 0 128px; padding-right: 14px !important; background: none; color: #8b919a; flex-direction: row; flex-wrap: wrap; align-items: baseline; align-content: flex-start; justify-content: flex-start; gap: 0 4px; padding: 1px 0 0; }
+  .talk-month, .talk-day, .talk-year { font-size: 13.5px; font-weight: 400; color: #8b919a; text-transform: none; letter-spacing: 0; margin: 0; line-height: 1.5; }
+  .talk-kind { display: none; }
+  .talk-body { padding: 0 !important; }
+  .talk-venue { font-size: 15.5px; font-weight: 600; }
+  .talk-title { font-size: 14.5px; color: #545b66; }
+  .talk-meta { font-size: 13px; color: #8b919a; }
+  .cv-section { border-top: 0; margin-top: 14px; padding-top: 0; }
+  .cv-button { background: none !important; color: #1e3a6e !important; padding: 0 !important; font-weight: 500 !important; }
+  @media (max-width: 520px) {
+    .talk-date { flex-basis: 96px; }
+    .focus-grid, .talks-grid { margin-left: 10px; margin-right: 10px; }
+  }
 </style>
 </head>
 
