@@ -839,6 +839,9 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   /* 2026-11-21 (Bruce): "the homepage text are too wider". One centered column whose text
      edges line up with the 780px banner (800px less the 10px side margins of each block) */
   .article__content { max-width: 800px; margin-left: auto; margin-right: auto; }
+  @media (max-width: 600px) {
+    .article__content { margin-left: -10px; margin-right: -10px; }
+  }
   @media screen and (min-width: 600px) {
     .profile-image { margin-right: 10px; }
   }
