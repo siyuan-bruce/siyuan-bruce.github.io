@@ -164,49 +164,69 @@ key: page-service
       padding: 0.7rem 0.85rem 0.7rem 1rem;
     }
   }
+
+  .s-list { margin: 0.3rem 0 1.2rem; }
+  .s-item {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    column-gap: 14px;
+    padding: 5px 0;
+    border-bottom: 1px solid #edf0f5;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .s-item:last-child { border-bottom: none; }
+  .s-abbr { font-weight: 700; color: #1e3a6e; }
+  .s-note { color: #666; font-size: 13.5px; white-space: nowrap; }
+  @media (max-width: 600px) {
+    .s-item { grid-template-columns: 58px minmax(0, 1fr); column-gap: 10px; font-size: 14px; }
+    .s-note { white-space: normal; }
+  }
 </style>
 </head>
 
 <div class="service-page" markdown="1">
 
-## Conference and journal reviewing
+## Reviewing
 
-### Ad hoc conference reviewer
+### Conferences
 
-- **WITS** (Workshop on Information Technologies and Systems): 2024 × 2, 2025 × 3, 2026 × 1
-- **ICIS** (International Conference on Information Systems): 2023 × 2, 2024 × 2, 2025 × 3, 2026 × 1
-- **CIST** (Conference on Information Systems and Technology): 2026 × 1
-- **PACIS** (Pacific Asia Conference on Information Systems): 2024 × 2, 2026 × 1
-- **HICSS** (Hawaii International Conference on System Sciences): 2026 × 1
-- **QIP** (Quantum Information Processing): 2023 × 1
+<div class="s-list">
+  <div class="s-item"><span class="s-abbr">ICIS</span><span>International Conference on Information Systems <span class="s-note">&middot; 2023&ndash;2026 &middot; 8 reviews</span></span></div>
+  <div class="s-item"><span class="s-abbr">WITS</span><span>Workshop on Information Technologies and Systems <span class="s-note">&middot; 2024&ndash;2026 &middot; 6 reviews</span></span></div>
+  <div class="s-item"><span class="s-abbr">PACIS</span><span>Pacific Asia Conference on Information Systems <span class="s-note">&middot; 2024, 2026 &middot; 3 reviews</span></span></div>
+  <div class="s-item"><span class="s-abbr">CIST</span><span>Conference on Information Systems and Technology <span class="s-note">&middot; 2026</span></span></div>
+  <div class="s-item"><span class="s-abbr">HICSS</span><span>Hawaii International Conference on System Sciences <span class="s-note">&middot; 2026</span></span></div>
+  <div class="s-item"><span class="s-abbr">QIP</span><span>Quantum Information Processing <span class="s-note">&middot; 2023</span></span></div>
+</div>
 
-### Ad hoc journal reviewer: business and IS
+### Journals
 
-- **Management Science** (MS)
-- **Journal of Management Information Systems** (JMIS)
-- **Communications of the Association for Information Systems** (CAIS)
-- **Decision Sciences** (DS)
-- **Review of Accounting Studies** (RAST)
-- **The Accounting Review** (TAR)
-- **Information Technology for Development** (ICT4D)
-- **Journal of Electronic Commerce Research** (JECR)
-- **International Journal of Electronic Commerce** (IJEC)
-- **Blockchain Research and Applications** (BRA)
-- **Journal of Digital Management** (JDM)
-- **Nature Humanities and Social Sciences Communications** (HSSC)
-- **ACM Computing Surveys** (CSUR)
+<div class="s-list">
+  <div class="s-item"><span class="s-abbr">MS</span><span>Management Science</span></div>
+  <div class="s-item"><span class="s-abbr">JMIS</span><span>Journal of Management Information Systems</span></div>
+  <div class="s-item"><span class="s-abbr">CAIS</span><span>Communications of the Association for Information Systems</span></div>
+  <div class="s-item"><span class="s-abbr">DS</span><span>Decision Sciences</span></div>
+  <div class="s-item"><span class="s-abbr">RAST</span><span>Review of Accounting Studies</span></div>
+  <div class="s-item"><span class="s-abbr">TAR</span><span>The Accounting Review</span></div>
+  <div class="s-item"><span class="s-abbr">ICT4D</span><span>Information Technology for Development</span></div>
+  <div class="s-item"><span class="s-abbr">JECR</span><span>Journal of Electronic Commerce Research</span></div>
+  <div class="s-item"><span class="s-abbr">IJEC</span><span>International Journal of Electronic Commerce</span></div>
+  <div class="s-item"><span class="s-abbr">BRA</span><span>Blockchain Research and Applications</span></div>
+  <div class="s-item"><span class="s-abbr">JDM</span><span>Journal of Digital Management</span></div>
+  <div class="s-item"><span class="s-abbr">HSSC</span><span>Nature Humanities and Social Sciences Communications</span></div>
+  <div class="s-item"><span class="s-abbr">CSUR</span><span>ACM Computing Surveys</span></div>
+</div>
 
 ## Professional membership
 
-- **AIS** (Association for Information Systems)
-- **ACM** (Association for Computing Machinery)
-- **INFORMS** (Institute for Operations Research and the Management Sciences)
+AIS (Association for Information Systems) &middot; ACM (Association for Computing Machinery) &middot; INFORMS
 
 <div class="service-highlight" markdown="1">
 
 ## IS Reading Group
 
-Inspired by open talks in other subjects, we run an **information systems** paper sharing series. The main audience is PhD students; faculty and practitioners are welcome for more advanced topics. Email [siyuan.jin@connect.ust.hk](mailto:siyuan.jin@connect.ust.hk) to get involved. **Schedules, archives, and full information:** [IS Reading Group site](https://siyuan-bruce.github.io/reading_group/home.html).
+An online paper series for IS PhD students, with 40+ seminars in 2024&ndash;2025. Faculty and practitioners are welcome. Schedules and archives are on the [IS Reading Group site](https://siyuan-bruce.github.io/reading_group/home.html); email [siyuan.jin@connect.ust.hk](mailto:siyuan.jin@connect.ust.hk) to get involved.
 
 </div>
 

@@ -409,23 +409,18 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 
 </ul>
 
-### **Patent**
-   
-  1. B. Zhu, Yong Xia, Z. Li, **Siyuan Jin**. (2024). "Network Analysis using optical quantum computing". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007565 A1.
-       
-  2. **Siyuan Jin**, Yong Xia. (2024). "Method for implementing network consensus algorithm". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007483 A1.
-   
-  3. **Siyuan Jin**, Yong Xia. (2024). "Transaction security for multi-tier transaction networks". International Bureau, World Intellectual Property Organization. Publication No. WO2024/007527 A1.
-    
-  4. **Siyuan Jin**, Yong Xia. (2024). "Blockchain transaction sharding for improved transaction throughput." International Bureau, World Intellectual Property Organization. Publication No. WO2024/011707 A1.
+### **Patents**
 
-  5. Bing Zhu, Ziyuan Li, Yong Xia, Mianmian Zhang, **Siyuan Jin**, Kar Yan Tam, Yuhan Huang, Qiming Shao. (2024). "Systems and Methods for Quantum Monte Carlo Processing". US Patent App. 18/404,169.
+<details class="paper-details paper-talks">
+  <summary>6 patents on blockchain and quantum computing (2024)</summary>
+  <ul class="talk-list">
+    <li>B. Zhu, Yong Xia, Z. Li, <strong>Siyuan Jin</strong>. &ldquo;Network analysis using optical quantum computing.&rdquo; WIPO WO2024/007565 A1, 2024.</li>
+    <li><strong>Siyuan Jin</strong>, Yong Xia. &ldquo;Method for implementing network consensus algorithm.&rdquo; WIPO WO2024/007483 A1, 2024.</li>
+    <li><strong>Siyuan Jin</strong>, Yong Xia. &ldquo;Transaction security for multi-tier transaction networks.&rdquo; WIPO WO2024/007527 A1, 2024.</li>
+    <li><strong>Siyuan Jin</strong>, Yong Xia. &ldquo;Blockchain transaction sharding for improved transaction throughput.&rdquo; WIPO WO2024/011707 A1, 2024.</li>
+    <li>Bing Zhu, Ziyuan Li, Yong Xia, Mianmian Zhang, <strong>Siyuan Jin</strong>, Kar Yan Tam, Yuhan Huang, Qiming Shao. &ldquo;Systems and methods for quantum Monte Carlo processing.&rdquo; US Patent App. 18/404,169, 2024.</li>
+    <li>Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, <strong>Siyuan Jin</strong>. &ldquo;Adaptive diversity-based quantum circuit architecture search.&rdquo; US Patent App. 18/519,617, 2024.</li>
+  </ul>
+</details>
 
-  6. Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, **Siyuan Jin**. (2024). "Adaptive Diversity-Based Quantum Circuit Architecture Search". US Patent App. 18/519,617.
-
-<p style="font-size: 14px; color: #666; font-style: italic; margin-top: 28px; margin-bottom: 15px;">
-FT50 = list of 50 journals used by the Financial Times to compile the FT Research rank, included in the Global MBA, EMBA, and Online MBA rankings.<br>
-UTD24 = list of 24 journals used by UT Dallas' Naveen Jindal School of Management to provide the top 100 business school rankings.
-<br>
-* indicates presentation by coauthors.
-</p>
+<p style="font-size: 13.5px; color: #666; margin-top: 28px; margin-bottom: 15px;">FT50: Financial Times top 50 journals &middot; UTD24: UT Dallas top 24 journals &middot; *: presented by a coauthor</p>
