@@ -26,90 +26,1032 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 ---
 
 <head>
-<link rel="stylesheet" href="/assets/css/site-pages.css">
 <style>
-  /* Homepage header on top of the shared page system (assets/css/site-pages.css) */
-  .sp .home-head { display: grid; grid-template-columns: 168px minmax(0, 1fr); column-gap: 32px; align-items: center; margin: 8px 0 28px; }
-  .sp .home-photo { position: relative; display: block; }
-  .sp .home-photo img { display: block; width: 168px; height: auto; border-radius: 6px; transition: filter 0.2s ease; }
-  .sp .home-photo:hover img, .sp .home-photo:focus-visible img { filter: brightness(0.94); }
-  .photo-gallery-badge {
-    position: absolute; right: 8px; bottom: 8px; width: 30px; height: 30px; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    background: rgba(255, 255, 255, 0.92); color: #1e3a6e; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
-    opacity: 0; transform: translateY(4px); transition: opacity 0.2s ease, transform 0.2s ease; pointer-events: none;
+  /* Base styles */
+  .container {
+    width: 100%;
+    text-align: center;
   }
-  .sp .home-photo:hover .photo-gallery-badge, .sp .home-photo:focus-visible .photo-gallery-badge { opacity: 1; transform: translateY(0); }
-  .sp .home-name { font-size: 32px; font-weight: 700; line-height: 1.2; letter-spacing: -0.015em; color: var(--ink); margin: 0 0 8px; padding: 0; border: 0; }
-  .sp .home-name .zh { font-weight: 400; font-size: 24px; color: var(--ink2); margin-left: 6px; white-space: nowrap; }
-  .sp .home-role { font-size: 15.5px; color: var(--ink2); line-height: 1.55; }
-  .sp .home-market { margin-top: 10px; font-size: 15.5px; font-weight: 600; color: var(--accent); }
-  .sp .home-links { margin-top: 10px; font-size: 14.5px; }
-  .sp .home-links a { margin-right: 18px; white-space: nowrap; }
-  .sp .home-bio p { font-size: 15.5px; line-height: 1.7; margin: 0 0 14px; }
-  .sp .jmp-title { font-size: 18px; font-weight: 600; line-height: 1.4; }
-  .sp .jmp-title a { font-weight: 600; }
-  .sp .jmp .authors { margin-top: 4px; }
-  .visit-counter { margin: 40px 0 0; opacity: 0.55; }
+
+  body {
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 260px;
+    margin: 10px auto;
+  }
+
+  .profile-image img {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+
+  /* Hidden gallery entrance on the profile photo */
+  .profile-photo-link {
+    position: relative;
+    display: block;
+  }
+
+  .profile-photo-link img {
+    display: block;
+    transition: filter 0.2s ease;
+  }
+
+  .photo-gallery-badge {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.92);
+    color: #1e3a6e;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+  }
+
+  .profile-photo-link:hover img,
+  .profile-photo-link:focus-visible img {
+    filter: brightness(0.94);
+  }
+
+  .profile-photo-link:hover .photo-gallery-badge,
+  .profile-photo-link:focus-visible .photo-gallery-badge {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Touch screens have no hover, so keep the badge faintly visible there */
+  @media (hover: none) {
+    .photo-gallery-badge {
+      opacity: 0.8;
+      transform: none;
+    }
+  }
+
+  .profile-text {
+    margin: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .homepage-banner {
+    margin: 8px 10px 24px;
+  }
+
+  .homepage-banner picture {
+    display: block;
+  }
+
+  .homepage-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  /* Hide the banner on mobile to save vertical space */
   @media (max-width: 600px) {
-    .sp .home-head { grid-template-columns: 84px minmax(0, 1fr); column-gap: 14px; align-items: center; }
-    .sp .home-head > div { display: contents; }
-    .sp .home-photo { grid-row: 1; }
-    .sp .home-photo img { width: 84px; }
-    .sp .home-name { grid-column: 2; grid-row: 1; margin: 0; font-size: 25px; }
-    .sp .home-name .zh { display: block; font-size: 18px; margin: 2px 0 0; }
-    .sp .home-role, .sp .home-market, .sp .home-links { grid-column: 1 / -1; }
-    .sp .home-role { margin-top: 14px; font-size: 14.5px; }
-    .sp .home-market { font-size: 14.5px; }
+    .homepage-banner {
+      display: none;
+    }
+  }
+
+  .profile-sidebar {
+    margin-top: 14px;
+    font-size: 13px;
+    color: #444;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .profile-sidebar .affil-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+    font-size: 13px;
+  }
+
+  .profile-sidebar .affil-row:has(+ .contact-email) {
+    border-bottom: none;
+    margin-bottom: 8px;
+  }
+
+  .profile-sidebar .affil-icon {
+    flex-shrink: 0;
+    width: 16px;
+    text-align: center;
+    color: #1e3a6e;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  .profile-sidebar .link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  .profile-sidebar .link-row a {
+    color: #1e3a6e;
+    text-decoration: none;
+    font-size: 12.5px;
+    padding: 3px 9px;
+    border: 1px solid #c5d0e0;
+    border-radius: 3px;
+    background: #fff;
+    transition: background 0.15s;
+  }
+
+  .profile-sidebar .link-row a:hover {
+    background: #f0f4fb;
+    text-decoration: none;
+  }
+
+  .profile-sidebar .sidebar-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+    line-height: 1.35;
+  }
+
+  .profile-sidebar .sidebar-name .chinese-name {
+    font-weight: 600;
+    color: #444;
+  }
+
+  .profile-sidebar .contact-email {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #f0f0f0;
+    font-size: 12.5px;
+    line-height: 1.5;
+  }
+
+  .profile-sidebar .contact-email a {
+    color: #1e3a6e;
+    text-decoration: none;
+    word-break: break-all;
+  }
+
+  .profile-sidebar .contact-email a:hover {
+    text-decoration: underline;
+  }
+
+  .profile-sidebar .contact-email .label {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #888;
+    margin-bottom: 4px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .paper-item {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 3px solid #1e3a6e;
+  }
+
+  .paper-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #111;
+    line-height: 1.4;
+  }
+
+  .paper-authors {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+  .conference-info {
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .visit-counter {
+    margin: 22px 10px 8px;
+    text-align: center;
+    opacity: 0.75;
+  }
+
+  /* CV Section */
+  .cv-heading {
+    margin: 26px 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  .cv-section {
+    margin: 8px 10px 10px;
+    padding-top: 8px;
+    border-top: 1px solid #d8dde6;
+    line-height: 1.6;
+  }
+
+  .cv-blurb {
+    font-size: 14px;
+    color: #444;
+    margin: 0 0 10px;
+  }
+
+  .cv-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cv-button {
+    display: inline-block;
+    padding: 7px 16px;
+    background-color: #1A5DCB;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+    text-decoration: none !important;
+  }
+
+  .cv-button:hover {
+    background-color: #14479c;
+  }
+
+  .cv-updated {
+    font-size: 12.5px;
+    color: #888;
+  }
+
+  /* News Section */
+  .news-heading,
+  .news-section {
+    display: none;
+  }
+
+  .news-section {
+    margin: 10px;
+    line-height: 1.5;
+  }
+
+  .news-year {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 18px 0 4px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d8dde6;
+  }
+
+  .news-year:first-child {
+    margin-top: 2px;
+  }
+
+  .news-year-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  .news-year-count {
+    font-size: 11.5px;
+    color: #999;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .news-item {
+    display: grid;
+    grid-template-columns: 80px 82px 1fr;
+    column-gap: 14px;
+    align-items: baseline;
+    padding: 8px 0;
+    border-bottom: 1px solid #f3f3f3;
+  }
+
+  .news-item:last-child {
+    border-bottom: none;
+  }
+
+  .news-date {
+    font-size: 13px;
+    font-weight: 600;
+    color: #666;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .news-cat {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1.45;
+    justify-self: start;
+  }
+
+  .news-item.cat-paper .news-cat {
+    color: #1e3a6e;
+    border-color: #c5d0e0;
+    background: #f0f4fb;
+  }
+
+  .news-item.cat-award .news-cat {
+    color: #8B5C2A;
+    border-color: #d8c4ae;
+    background: #faf3eb;
+  }
+
+  .news-item.cat-talk .news-cat {
+    color: #2d6a3e;
+    border-color: #b9d4c2;
+    background: #eef6f1;
+  }
+
+  .news-item.cat-service .news-cat {
+    color: #6e2a3e;
+    border-color: #d8b6c2;
+    background: #fbf0f4;
+  }
+
+  .news-item.cat-milestone .news-cat {
+    color: #4a4a4a;
+    border-color: #d0d0d0;
+    background: #f3f3f3;
+  }
+
+  .news-content {
+    font-size: 14.5px;
+    color: #333;
+  }
+
+  .news-content strong {
+    color: #111;
+    font-weight: 600;
+  }
+
+  .news-content a {
+    text-decoration: none;
+    color: #1e3a6e;
+  }
+
+  .news-content a:hover {
+    text-decoration: underline;
+  }
+
+  .news-older {
+    margin-top: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #fafbfd;
+  }
+
+  .news-older > summary {
+    padding: 10px 14px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #1e3a6e;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    transition: background 0.15s;
+  }
+
+  .news-older > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .news-older > summary::before {
+    content: '▸';
+    display: inline-block;
+    margin-right: 8px;
+    color: #888;
+    transition: transform 0.18s ease;
+  }
+
+  .news-older[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  .news-older > summary:hover {
+    background: #f0f4fb;
+  }
+
+  .news-older[open] > summary {
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .news-older-inner {
+    padding: 4px 14px 10px;
+  }
+
+  @media (max-width: 600px) {
+    .news-item {
+      grid-template-columns: 64px 1fr;
+      grid-template-rows: auto auto;
+      column-gap: 10px;
+      row-gap: 4px;
+      padding: 9px 0;
+    }
+
+    .news-date {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      font-size: 12px;
+      align-self: center;
+    }
+
+    .news-cat {
+      grid-column: 2;
+      grid-row: 1;
+      font-size: 9.5px;
+      padding: 1px 7px;
+    }
+
+    .news-content {
+      grid-column: 2;
+      grid-row: 2;
+      font-size: 14px;
+    }
+
+    .news-year-label {
+      font-size: 16px;
+    }
+  }
+
+  /* Desktop layout */
+  @media screen and (min-width: 600px) {
+    .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .profile-image {
+      flex: 1 1 auto;
+      max-width: 260px;
+      margin: 0 0 0 24px;
+      order: 2;
+    }
+
+    .profile-text {
+      margin-top: 0;
+      order: 1;
+      flex: 70%;
+    }
+
+    .card {
+      display: flex;
+      background-color: #fff;
+      border: 1px solid #e0e0e0;
+      padding: 16px;
+      margin: 8px 0;
+      border-radius: 2px;
+      position: relative;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .card-content {
+      max-width: 70%;
+    }
+
+    .card h3 {
+      font-size: 1.35em;
+      margin-bottom: 2px;
+      margin-top: 0;
+      color: #111;
+    }
+
+    .card small {
+      font-size: 0.875em;
+      color: #666;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .card ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .card ul li {
+      margin-bottom: 0;
+      padding-left: 20px;
+    }
+
+    /* Timeline */
+    .timeline {
+      position: relative;
+      margin-left: 20px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      bottom: 0;
+      width: 1px;
+      background-color: #ccc;
+    }
+
+    .timeline-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-left: 40px;
+      position: relative;
+    }
+
+    .university-logo {
+      height: 160px;
+      justify-self: end;
+      align-self: flex-start;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 8px;
+      width: 7px;
+      height: 7px;
+      background-color: #1e3a6e;
+      border-radius: 50%;
+    }
+
+    header.header {
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  /* Mobile adjustments */
+  @media (max-width: 600px) {
+    .card {
+      max-width: 100%;
+      padding: 14px;
+      margin: 8px 0;
+    }
+
+    h3 {
+      font-size: 1.1em;
+    }
+
+    p,
+    ul li {
+      font-size: 0.95em;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 8px;
+      width: 7px;
+      height: 7px;
+      background-color: #1e3a6e;
+      border-radius: 50%;
+    }
+  }
+
+  /* ---- Upcoming talks ---- */
+  .talks-heading {
+    margin: 26px 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .talks-count {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: #999;
+    letter-spacing: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .talks-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 12px 10px 6px;
+    text-align: left;
+  }
+
+  .talk-card {
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .talk-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(30, 58, 110, 0.12);
+    border-color: #c5d0e0;
+  }
+
+  .talk-date {
+    flex: 0 0 62px;
+    background: linear-gradient(160deg, #26467f 0%, #1e3a6e 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 4px;
+    line-height: 1.15;
+  }
+
+  .talk-month {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .talk-year {
+    font-size: 11px;
+    font-weight: 500;
+    color: #b9c6de;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .talk-day {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.05;
+    font-variant-numeric: tabular-nums;
+    margin: 1px 0 0;
+  }
+
+  .talk-session {
+    font-size: 12px;
+    color: #1e3a6e;
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+
+  .talk-meta {
+    font-size: 11.5px;
+    color: #8a8a8a;
+    font-weight: 500;
+  }
+
+  .talk-meta span + span::before {
+    content: '\00b7';
+    margin: 0 6px;
+    color: #c8c8c8;
+  }
+
+  .talk-card.kind-invited .talk-kind {
+    color: #fff;
+    background: #1e3a6e;
+    border-color: #1e3a6e;
+  }
+
+  .talk-body {
+    flex: 1 1 auto;
+    padding: 10px 14px 11px;
+    min-width: 0;
+  }
+
+  .talk-venue-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 3px;
+  }
+
+  .talk-venue {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  .talk-venue a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #c5d0e0;
+  }
+
+  .talk-venue a:hover { border-bottom-color: #1e3a6e; }
+
+  .talk-kind {
+    flex: 0 0 auto;
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 7px;
+    border-radius: 10px;
+    border: 1px solid;
+    white-space: nowrap;
+    line-height: 1.5;
+    color: #1e3a6e;
+    border-color: #c5d0e0;
+    background: #f0f4fb;
+  }
+
+  .talk-card.kind-workshop .talk-kind,
+  .talk-card.kind-consortium .talk-kind {
+    color: #2d6a3e;
+    border-color: #b9d4c2;
+    background: #eef6f1;
+  }
+
+  .talk-card.kind-seminar .talk-kind {
+    color: #8B5C2A;
+    border-color: #d8c4ae;
+    background: #faf3eb;
+  }
+
+  .talk-title {
+    font-size: 12.5px;
+    color: #444;
+    line-height: 1.45;
+    margin-bottom: 4px;
+  }
+
+  .talk-place {
+    font-size: 11.5px;
+    color: #8a8a8a;
+    font-weight: 500;
+  }
+
+  @media (max-width: 520px) {
+    .talks-grid { grid-template-columns: 1fr; margin: 12px 6px 6px; }
+    .talk-date  { flex-basis: 54px; }
+  }
+
+  /* ---- Research focus ---- */
+  .focus-heading {
+    margin: 26px 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  .focus-lede {
+    margin: 6px 10px 0;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.55;
+    text-align: left;
+    max-width: 760px;
+  }
+
+  .focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 12px;
+    margin: 12px 10px 6px;
+    text-align: left;
+  }
+
+  .focus-card {
+    position: relative;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 14px 15px 13px;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .focus-card::before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    height: 3px;
+    border-radius: 4px 4px 0 0;
+    background: var(--focus-color, #1e3a6e);
+  }
+
+  .focus-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(30, 58, 110, 0.1);
+    border-color: #c5d0e0;
+  }
+
+  .focus-card.focus-ai         { --focus-color: #1e3a6e; }
+  .focus-card.focus-blockchain { --focus-color: #2d6a3e; }
+  .focus-stream-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #666;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  .focus-name a {
+    color: inherit;
+  }
+
+  .focus-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -0.01em;
+    margin-bottom: 5px;
+  }
+
+  .focus-card.focus-ai .focus-name         { color: #1e3a6e; }
+  .focus-card.focus-blockchain .focus-name { color: #2d6a3e; }
+  .focus-desc {
+    font-size: 12.5px;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+
+  .focus-evidence {
+    font-size: 11px;
+    color: #8a8a8a;
+    line-height: 1.45;
+    padding-top: 7px;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  @media (max-width: 520px) {
+    .focus-grid { grid-template-columns: 1fr; margin: 12px 6px 6px; }
   }
 </style>
 </head>
 
-<div class="sp">
+<div class="homepage-banner">
+  <picture>
+    <!-- Banner is hidden on phones: serve a 1x1 placeholder so they never download it -->
+    <source media="(max-width: 600px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+    <img src="/assets/images/homepage-research-banner.webp" width="2172" height="543" fetchpriority="high" decoding="async" alt="HKUST Business School and Wharton research banner highlighting Information Systems, AI, Future of Work, and Blockchain" />
+  </picture>
+</div>
 
-<div class="home-head">
-  <!-- Hidden entrance to the photo gallery: the camera badge appears on hover -->
-  <a class="home-photo" href="/gallery.html" title="More photos" aria-label="View photo gallery">
-    <img src="/images/profile3-420.jpg" width="420" height="560" alt="Bruce (Siyuan) Jin" />
-    <span class="photo-gallery-badge" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
-  </a>
-  <div>
-    <h1 class="home-name">Bruce (Siyuan) Jin <span class="zh">金思远</span></h1>
-    <div class="home-role">PhD Candidate in Information Systems, HKUST Business School<br>Visiting Scholar, The Wharton School, through December 2026</div>
-    <div class="home-market">On the 2026&ndash;2027 academic job market</div>
-    <div class="home-links">
-      <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>
-      <a href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-      <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://github.com/siyuan-bruce" target="_blank" rel="noopener noreferrer">GitHub</a>
+<div class="container">
+  <div class="profile-image">
+    <!-- Hidden entrance to the photo gallery: the camera badge appears on hover -->
+    <a class="profile-photo-link" href="/gallery.html" title="More photos" aria-label="View photo gallery">
+      <img src="./images/profile3.png" alt="Profile Image" loading="lazy" />
+      <span class="photo-gallery-badge" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
+    </a>
+    <div class="profile-sidebar">
+      <div class="sidebar-name">Bruce (Siyuan) Jin <span class="chinese-name">(金思远)</span></div>
+      <div class="affil-row">
+        <span class="affil-icon">&#127979;</span>
+        <span><strong>HKUST</strong> &middot; PhD Candidate, Information Systems</span>
+      </div>
+      <div class="affil-row">
+        <span class="affil-icon">&#127963;</span>
+        <span><strong>Wharton</strong> &middot; Visiting Scholar (through Dec 2026)</span>
+      </div>
+      <div class="contact-email">
+        <span class="label">Email</span>
+        <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>
+      </div>
+      <div class="link-row">
+        <a href="https://github.com/siyuan-bruce" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a href="/research.html">Research</a>
+        <a href="/research.html#awards">Awards</a>
+        <a href="/service.html">Service</a>
+      </div>
+    </div>
+  </div>
+  <div class="profile-text">
+    <!-- 2026-11-15 (Bruce): "make this part more concise". -->
+    <p>
+      <strong>Bruce (Siyuan) Jin (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
+    </p>
+    <p>
+      His research asks how blockchain creates value in digital markets and how generative AI reshapes the organization of expertise inside firms. His work appears in the <em>Journal of Management Information Systems</em> (JMIS, FT50).
+    </p>
+    <p>
+      He has contributed to HKMA white papers on central bank digital currencies and quantum computing, and his <a href="/policy.html">policy work</a> has been covered by more than 70 news outlets, including the <em>South China Morning Post</em>, <em>China Daily</em>, RTHK, and Cointelegraph. Before HKUST, he spent two years as a full-stack blockchain engineer at the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, where his team reached the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> of the Monetary Authority of Singapore.
+    </p>
+    <p>
+      He reviews for JMIS, <em>Decision Sciences</em>, and major IS conferences <strong style="color:#1A5DCB;">(Best Reviewer Award, ICIS 2025)</strong>, and co-organized the <a href="/service.html">IS Reading Group</a>, which ran 40+ online seminars for IS PhD students in 2024&ndash;2025.
+    </p>
+  </div>
+</div>
+
+<h2 class="focus-heading">Two Research Streams</h2>
+<div class="focus-grid">
+  <div class="focus-card focus-blockchain">
+    <div class="focus-stream-label">Stream 1</div>
+    <div class="focus-name"><a href="/research.html#blockchain-digital-markets">Blockchain Governance and Digital Markets</a></div>
+    <div class="focus-desc">
+      How do blockchain’s distinctive features shape value in digital markets?
+    </div>
+    <div class="focus-evidence">
+      <em>Journal of Management Information Systems</em> &middot; Two second-round revisions at <em>Information Systems Research</em>
+    </div>
+  </div>
+
+  <div class="focus-card focus-ai">
+    <div class="focus-stream-label">Stream 2</div>
+    <div class="focus-name"><a href="/research.html#ai-organization-of-work">AI and the Organization of Work</a></div>
+    <div class="focus-desc">
+      How does AI reshape the organization of human expertise?
+    </div>
+    <div class="focus-evidence">
+      Job market paper on generative AI in distributed teams (under review) &middot; Principal Investigator, NSFC grant on software team design in the GenAI era
     </div>
   </div>
 </div>
 
-<div class="home-bio">
-  <!-- 2026-11-15 (Bruce): "make this part more concise". 2026-11-21: role lines moved to the header, research streams left to the Research page. -->
-  <p><strong>Bruce (Siyuan) Jin</strong> studies how generative AI reshapes the organization of expertise inside firms and how blockchain creates value in digital markets. He is advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a> at HKUST and works with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> at Wharton. His work appears in the <em>Journal of Management Information Systems</em> (JMIS, FT50).</p>
-  <p>He has contributed to HKMA white papers on central bank digital currencies and quantum computing, and his <a href="/policy.html">policy work</a> has been covered by more than 70 news outlets, including the <em>South China Morning Post</em>, <em>China Daily</em>, RTHK, and Cointelegraph. Before HKUST, he spent two years as a full-stack blockchain engineer at the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, where his team reached the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> of the Monetary Authority of Singapore.</p>
-</div>
-
-<h3 class="sec">Job market paper</h3>
-<div class="jmp">
-  <div class="jmp-title"><a href="/research.html#codified-expertise">Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams</a></div>
-  <div class="authors">With Lynn Wu, Wei Thoo Yue, Kar Yan Tam and Eros Ye <span class="note">Under review</span></div>
-</div>
-
 {% if site.data.talks and site.data.talks.size > 0 %}
-<h3 class="sec">Upcoming talks</h3>
-{% for talk in site.data.talks %}
-<div class="row"><span class="key">{{ talk.month }} {{ talk.year }}</span><div>
-  <div class="title">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</div>
-  <div class="meta">{% if talk.title contains "Codified Expertise" %}Job market paper{% else %}{{ talk.title }}{% endif %}{% if talk.place %} &middot; {{ talk.place }}{% endif %}{% if talk.time %} &middot; {{ talk.time }}{% endif %}{% if talk.room %} &middot; {{ talk.room }}{% endif %}{% if talk.speaker %} &middot; Presented by {{ talk.speaker }}{% endif %}</div>
-</div></div>
-{% endfor %}
+<h2 class="talks-heading">Upcoming Talks <span class="talks-count">{{ site.data.talks.size }} scheduled</span></h2>
+<div class="talks-grid">
+  {% for talk in site.data.talks %}
+  <div class="talk-card kind-{{ talk.kind | default: 'conference' }}">
+    <div class="talk-date">
+      <span class="talk-month">{{ talk.month }}</span>
+      {% if talk.day %}<span class="talk-day">{{ talk.day }}</span>{% endif %}
+      <span class="talk-year">{{ talk.year }}</span>
+    </div>
+    <div class="talk-body">
+      <div class="talk-venue-row">
+        <span class="talk-venue">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</span>
+        <span class="talk-kind">{{ talk.kind | default: 'conference' }}</span>
+      </div>
+      <div class="talk-title">{{ talk.title }}</div>
+      {% if talk.session %}<div class="talk-session">{{ talk.session }}</div>{% endif %}
+      <div class="talk-meta">
+        {% if talk.place %}<span>{{ talk.place }}</span>{% endif %}
+        {% if talk.speaker %}<span>Presented by {{ talk.speaker }}</span>{% endif %}
+        {% if talk.time %}<span>{{ talk.time }}</span>{% endif %}
+        {% if talk.room %}<span>{{ talk.room }}</span>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
 {% endif %}
 
-<!-- News stays hidden, as before; the entries are kept for later use. -->
-<div hidden>
+<h2 class="cv-heading">Curriculum Vitae</h2>
+<div class="cv-section">
+  <p class="cv-blurb">
+    Full record of my publications, working papers, conference presentations, teaching, and service.
+  </p>
+  <div class="cv-actions">
+    <a class="cv-button" href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
+    <span class="cv-updated">Last updated: {{ site.data.cv.updated }}</span>
+  </div>
+</div>
+
 <h2 class="news-heading">News</h2>
 <div class="news-section">
   <div class="news-year">
@@ -395,14 +1337,12 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     </div>
   </details>
 </div>
-</div>
 
 <div class="visit-counter">
   <!-- Migration baseline: 30,000 historical visits + 653 from the previous counter (2026-09-26). -->
-  <img src="https://hits.sh/siyuan-bruce.github.io/homepage.svg?label=visitors&amp;extraCount=30653&amp;color=8b919a"
+  <img src="https://hits.sh/siyuan-bruce.github.io/homepage.svg?label=visitors&amp;extraCount=30653&amp;color=1A5DCB"
        alt="Visitor count" loading="lazy" />
 </div>
 
-</div>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
