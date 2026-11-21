@@ -835,102 +835,6 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     .talk-date  { flex-basis: 54px; }
   }
 
-  /* ---- Research focus ---- */
-  .focus-heading {
-    margin: 26px 10px 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: #111;
-    letter-spacing: -0.01em;
-  }
-
-  .focus-lede {
-    margin: 6px 10px 0;
-    font-size: 13px;
-    color: #555;
-    line-height: 1.55;
-    text-align: left;
-    max-width: 760px;
-  }
-
-  .focus-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 12px;
-    margin: 12px 10px 6px;
-    text-align: left;
-  }
-
-  .focus-card {
-    position: relative;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    padding: 14px 15px 13px;
-    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-  }
-
-  .focus-card::before {
-    content: '';
-    position: absolute;
-    left: -1px;
-    right: -1px;
-    top: -1px;
-    height: 3px;
-    border-radius: 4px 4px 0 0;
-    background: var(--focus-color, #1e3a6e);
-  }
-
-  .focus-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 14px rgba(30, 58, 110, 0.1);
-    border-color: #c5d0e0;
-  }
-
-  .focus-card.focus-ai         { --focus-color: #1e3a6e; }
-  .focus-card.focus-blockchain { --focus-color: #2d6a3e; }
-  .focus-stream-label {
-    font-size: 11px;
-    font-weight: 700;
-    color: #666;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-  }
-
-  .focus-name a {
-    color: inherit;
-  }
-
-  .focus-name {
-    font-size: 14px;
-    font-weight: 700;
-    color: #111;
-    letter-spacing: -0.01em;
-    margin-bottom: 5px;
-  }
-
-  .focus-card.focus-ai .focus-name         { color: #1e3a6e; }
-  .focus-card.focus-blockchain .focus-name { color: #2d6a3e; }
-  .focus-desc {
-    font-size: 12.5px;
-    color: #444;
-    line-height: 1.5;
-    margin-bottom: 8px;
-  }
-
-  .focus-evidence {
-    font-size: 11px;
-    color: #8a8a8a;
-    line-height: 1.45;
-    padding-top: 7px;
-    border-top: 1px solid #f0f0f0;
-  }
-
-  @media (max-width: 520px) {
-    .focus-grid { grid-template-columns: 1fr; margin: 12px 6px 6px; }
-  }
-
   /* 2026-11-21 (Bruce): "the homepage text are too wider". One centered column whose text
      edges line up with the 880px banner (900px less the 10px side margins of each block) */
   .article__content { max-width: 900px; margin-left: auto; margin-right: auto; }
@@ -948,15 +852,8 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   .profile-sidebar .contact-email a { font-weight: 400; }
   .profile-sidebar .link-row { gap: 4px 16px; margin-top: 12px; }
   .profile-sidebar .link-row a { border: 0; padding: 0; background: none; font-size: 13.5px; font-weight: 400; }
-  .article__content .focus-heading, .article__content .talks-heading, .article__content .cv-heading { margin: 64px 10px 0; font-weight: 600; border-bottom: 0 !important; padding-bottom: 0 !important; }
-  .article__content .focus-heading { margin-top: 36px; }
-  .focus-grid { gap: 48px; margin-top: 18px; }
-  .focus-card, .focus-card:hover { border: 0; border-radius: 0; padding: 0; background: none; transform: none; box-shadow: none; }
-  .focus-card::before { display: none; }
-  .focus-stream-label { color: #8b919a; font-weight: 600; }
-  .focus-card .focus-name, .focus-card.focus-ai .focus-name, .focus-card.focus-blockchain .focus-name { color: #1a1a1a; font-size: 16px; font-weight: 600; }
-  .focus-desc { font-size: 14.5px; color: #545b66; }
-  .focus-evidence { font-size: 13px; color: #8b919a; border-top: 0 !important; padding-top: 0; }
+  .article__content .talks-heading, .article__content .cv-heading { margin: 64px 10px 0; font-weight: 600; border-bottom: 0 !important; padding-bottom: 0 !important; }
+  .article__content .talks-heading { margin-top: 36px; }
   .talks-grid { gap: 0; margin-top: 14px; }
   .talk-card, .talk-card:hover { border: 0; border-radius: 0; background: none; transform: none; box-shadow: none; padding: 12px 0; }
   .talk-date { flex: 0 0 128px; padding-right: 14px !important; background: none; color: #8b919a; flex-direction: row; flex-wrap: wrap; align-items: baseline; align-content: flex-start; justify-content: flex-start; gap: 0 4px; padding: 1px 0 0; }
@@ -970,7 +867,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   .cv-button { background: none !important; color: #1e3a6e !important; padding: 0 !important; font-weight: 500 !important; }
   @media (max-width: 520px) {
     .talk-date { flex-basis: 96px; }
-    .focus-grid, .talks-grid { margin-left: 10px; margin-right: 10px; }
+    .talks-grid { margin-left: 10px; margin-right: 10px; }
   }
 </style>
 </head>
@@ -1029,30 +926,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   </div>
 </div>
 
-<h2 class="focus-heading">Two Research Streams</h2>
-<div class="focus-grid">
-  <div class="focus-card focus-blockchain">
-    <div class="focus-stream-label">Stream 1</div>
-    <div class="focus-name"><a href="/research.html#blockchain-digital-markets">Blockchain Governance and Digital Markets</a></div>
-    <div class="focus-desc">
-      How do blockchain’s distinctive features shape value in digital markets?
-    </div>
-    <div class="focus-evidence">
-      <em>Journal of Management Information Systems</em> &middot; Two revisions at <em>Information Systems Research</em> (2nd and 3rd round)
-    </div>
-  </div>
-
-  <div class="focus-card focus-ai">
-    <div class="focus-stream-label">Stream 2</div>
-    <div class="focus-name"><a href="/research.html#ai-organization-of-work">AI and the Organization of Work</a></div>
-    <div class="focus-desc">
-      How does AI reshape the organization of human expertise?
-    </div>
-    <div class="focus-evidence">
-      Job market paper on generative AI in distributed teams (under review) &middot; Principal Investigator, NSFC grant on software team design in the GenAI era
-    </div>
-  </div>
-</div>
+<!-- 2026-11-21 (Bruce): "no need to show research streams we already introduced in the text". The streams live on the Research page. -->
 
 {% if site.data.talks and site.data.talks.size > 0 %}
 <h2 class="talks-heading">Upcoming Talks <span class="talks-count">{{ site.data.talks.size }} scheduled</span></h2>
