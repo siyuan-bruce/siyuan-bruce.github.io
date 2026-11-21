@@ -32,6 +32,17 @@ body {
   text-decoration: none !important;
 }
 
+/* 2026-11-21 (Bruce): the bar's contents share the 780px content column's edges on every page */
+.header > .main {
+  max-width: calc(780px + #{2 * map-get($spacers, 5)});
+  @include media-breakpoint-down(lg) {
+    max-width: calc(780px + #{2 * map-get($spacers, 4)});
+  }
+  @include media-breakpoint-down(md) {
+    max-width: calc(780px + #{2 * map-get($spacers, 3)});
+  }
+}
+
 .header .header__title,
 .header .navigation > ul {
   height: 68px;
@@ -60,6 +71,10 @@ body {
 .header .navigation .navigation__item {
   flex-shrink: 0;
   padding: 4px 15px;
+}
+
+.header .navigation .navigation__item:last-child {
+  padding-right: 0;
 }
 
 .header .navigation .navigation__item::after {
@@ -97,6 +112,10 @@ body {
   border: 0;
   border-radius: 0;
   background: #1a1a1a;
+}
+
+.header .navigation .navigation__item--active:last-child::after {
+  right: 0;
 }
 
 /* Below the theme's md breakpoint the name sits above the links */

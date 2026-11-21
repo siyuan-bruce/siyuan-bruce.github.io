@@ -25,9 +25,6 @@ permalink: /policy.html
 <head>
 <link rel="stylesheet" href="/assets/css/site-pages.css">
 <style>
-  .sp .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px 32px; margin: 4px 0 0; }
-  .sp .stat b { display: block; font-size: 26px; font-weight: 600; line-height: 1.15; letter-spacing: -0.01em; color: var(--ink); font-variant-numeric: tabular-nums; }
-  .sp .stat span { display: block; margin-top: 6px; font-size: 13px; line-height: 1.45; color: var(--ink3); }
   .sp .entry { padding: 18px 0 20px; }
   .sp .kicker { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink3); margin-bottom: 4px; }
   .sp .press { margin-top: 14px; }
@@ -46,7 +43,6 @@ permalink: /policy.html
   .sp .logos a.media-text { height: 20px; padding: 0 6px; border: 1px solid var(--rule); border-radius: 3px; font-size: 12px; color: var(--ink); }
   .sp .entry .folded { margin-top: 8px; }
   @media (max-width: 600px) {
-    .sp .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .sp .press .row { display: block; }
     .sp .press .key { display: block; margin-bottom: 6px; }
   }
@@ -55,14 +51,7 @@ permalink: /policy.html
 
 <div class="sp">
 
-<div class="stats">
-  <div class="stat"><b>4</b><span>HKMA white papers on digital money and post-quantum security</span></div>
-  <div class="stat"><b>70+</b><span>news outlets covering this work</span></div>
-  <div class="stat"><b>Top 5%</b><span>MAS Global CBDC Challenge, 300+ submissions</span></div>
-  <div class="stat"><b>13</b><span>newspaper columns on Hong Kong tourism</span></div>
-</div>
-
-<h3 class="sec" id="digital-money">Digital Money &amp; Central Bank Digital Currency</h3>
+<h3 class="sec first" id="digital-money">Digital Money &amp; Central Bank Digital Currency</h3>
 
 <div class="entry">
   <div class="kicker">HKMA CBDC Expert Group</div>

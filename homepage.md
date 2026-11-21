@@ -109,9 +109,10 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     text-justify: inter-word;
   }
 
-  /* 2026-11-21 (Bruce): keep the banner, less wide; centered with white space around it */
+  /* 2026-11-21 (Bruce): keep the banner, less wide; centered with white space around it.
+     780px: the column every page and the top bar share */
   .homepage-banner {
-    max-width: 880px;
+    max-width: 780px;
     margin: 32px auto 36px;
   }
 
@@ -836,8 +837,8 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   }
 
   /* 2026-11-21 (Bruce): "the homepage text are too wider". One centered column whose text
-     edges line up with the 880px banner (900px less the 10px side margins of each block) */
-  .article__content { max-width: 900px; margin-left: auto; margin-right: auto; }
+     edges line up with the 780px banner (800px less the 10px side margins of each block) */
+  .article__content { max-width: 800px; margin-left: auto; margin-right: auto; }
   @media screen and (min-width: 600px) {
     .profile-image { margin-right: 10px; }
   }
