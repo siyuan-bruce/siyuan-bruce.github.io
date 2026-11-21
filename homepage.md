@@ -21,7 +21,7 @@ titles:
 key: page-homepage
 permalink: /
 article_header: false
-seo_title: "Siyuan (Bruce) Jin (金思远) | Information Systems PhD, HKUST & Wharton"
+seo_title: "Bruce (Siyuan) Jin (金思远) | Information Systems PhD, HKUST & Wharton"
 description: "Information Systems PhD candidate at HKUST Business School and visiting scholar at Wharton, studying generative AI, the IT workforce, and blockchain governance."
 ---
 
@@ -947,7 +947,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       <span class="photo-gallery-badge" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
     </a>
     <div class="profile-sidebar">
-      <div class="sidebar-name">Siyuan (Bruce) Jin <span class="chinese-name">(金思远)</span></div>
+      <div class="sidebar-name">Bruce (Siyuan) Jin <span class="chinese-name">(金思远)</span></div>
       <div class="affil-row">
         <span class="affil-icon">&#127979;</span>
         <span><strong>HKUST</strong> &middot; PhD Candidate, Information Systems</span>
@@ -973,7 +973,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   <div class="profile-text">
     <!-- 2026-11-15 (Bruce): "make this part more concise". -->
     <p>
-      <strong>Siyuan (Bruce) JIN (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
+      <strong>Bruce (Siyuan) Jin (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
     </p>
     <p>
       His research asks how blockchain creates value in digital markets and how generative AI reshapes the organization of expertise inside firms. His work appears in the <em>Journal of Management Information Systems</em> (JMIS, FT50).

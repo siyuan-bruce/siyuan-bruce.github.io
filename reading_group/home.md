@@ -396,11 +396,11 @@ key: page-is_reading_group
                   <span class="organizer-item"><span class="organizer-name">Jingyuan Deng</span> <span class="institution">(NUS)</span></span>
                   <span class="organizer-item"><span class="organizer-name">Yihan Deng</span> <span class="institution">(CityU)</span></span>
                   <span class="organizer-item"><span class="organizer-name">Weibo Li</span> <span class="institution">(ASU)</span></span>
-                  <span class="organizer-item"><span class="organizer-name">Siyuan (Bruce) Jin</span> <span class="institution">(HKUST)</span></span>
+                  <span class="organizer-item"><span class="organizer-name">Bruce (Siyuan) Jin</span> <span class="institution">(HKUST)</span></span>
               </li>
               <li>
                   <span class="year">2024</span>
-                  <span class="organizer-item"><span class="organizer-name">Siyuan (Bruce) Jin</span> <span class="institution">(HKUST)</span></span>
+                  <span class="organizer-item"><span class="organizer-name">Bruce (Siyuan) Jin</span> <span class="institution">(HKUST)</span></span>
                   <span class="organizer-item"><span class="organizer-name">Zhe Wang</span> <span class="institution">(PolyU)</span></span>
               </li>
           </ul>
