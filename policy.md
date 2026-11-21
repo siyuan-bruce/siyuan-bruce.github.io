@@ -60,11 +60,6 @@ permalink: /policy.html
 </div>
 
 <div class="entry">
-  <div class="kicker">HKMA CBDC Research</div>
-  <div class="paper-title">CBDC Unified Ledger</div>
-</div>
-
-<div class="entry">
   <div class="kicker">ACM DLT: Research &amp; Practice</div>
   <div class="paper-title">Consumer Perceptions and Willingness to Adopt rCBDCs Before and After the e-HKD Pilot</div>
   <div class="authors"><a href="https://marcdordal.github.io/">Marc Dordal i Carreras</a>, <a href="https://www.kohei-kawaguchi.com/">Kohei Kawaguchi</a>, <strong>Siyuan Jin</strong>, Haicheng Guo</div>
