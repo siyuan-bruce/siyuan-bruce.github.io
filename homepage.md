@@ -917,12 +917,12 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       <strong>Bruce (Siyuan) Jin (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
     </p>
     <p>
-      His research asks how blockchain creates value in digital markets and how generative AI reshapes the organization of expertise inside firms. His work appears in the <em>Journal of Management Information Systems</em> (JMIS, FT50).
+      His research asks how blockchain creates value in digital markets and how generative AI reshapes the organization of expertise inside firms. His work appears in the <em>Journal of Management Information Systems</em> (JMIS, FT50), and two papers are in revision at <em>Information Systems Research</em>.
     </p>
     <p>
-      He has contributed to HKMA white papers on central bank digital currencies and quantum computing, and his <a href="/policy.html">policy work</a> has been covered by more than 70 news outlets, including the <em>South China Morning Post</em>, <em>China Daily</em>, RTHK, and Cointelegraph. Before HKUST, he spent two years as a full-stack blockchain engineer at the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, where his team reached the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> of the Monetary Authority of Singapore.
+      He has contributed to HKMA white papers on central bank digital currencies and quantum computing, and his <a href="/policy.html">policy work</a> has been covered by more than 70 news outlets. Before HKUST, he spent two years as a blockchain engineer at the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>.
     </p>
-    <!-- 2026-11-21 (Bruce): reviewing and the IS Reading Group left the bio; they sit on the Service page and the Best Reviewer Award under Research > Awards. -->
+    <!-- 2026-11-21 (Bruce): reviewing and the IS Reading Group left the bio (Service page; Best Reviewer Award under Research > Awards). The policy paragraph is two sentences; outlet names and the 2021 Global CBDC Challenge finals sit on the Policy page. -->
   </div>
 </div>
 
