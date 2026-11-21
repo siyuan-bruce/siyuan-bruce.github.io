@@ -965,7 +965,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
         <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
         <a href="/research.html">Research</a>
-        <a href="/awards.html">Awards</a>
+        <a href="/research.html#awards">Awards</a>
         <a href="/service.html">Service</a>
       </div>
     </div>
