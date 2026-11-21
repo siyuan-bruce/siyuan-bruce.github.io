@@ -27,7 +27,7 @@ key: page-research
 
 <div class="sp">
 
-<p class="lead jump"><a href="#ai-organization-of-work">AI and work</a> &middot; <a href="#blockchain-digital-markets">Blockchain and digital markets</a> &middot; <a href="#other-research">Other papers</a> &middot; <a href="#patents">Patents</a> &middot; <a href="#awards">Awards</a></p>
+<p class="lead jump"><a href="#ai-organization-of-work">AI and work</a> &middot; <a href="#blockchain-digital-markets">Blockchain and digital markets</a> &middot; <a href="#human-it-interaction">Human-IT interaction</a> &middot; <a href="#other-research">Other papers</a> &middot; <a href="#patents">Patents</a> &middot; <a href="#awards">Awards</a></p>
 
 <h3 class="sec" id="ai-organization-of-work">AI and the Organization of Work</h3>
 <p class="sec-q">How does AI reshape the organization of human expertise?</p>
@@ -187,22 +187,10 @@ key: page-research
   </li>
 </ul>
 
-<h3 class="sec" id="other-research">Other Research</h3>
+<h3 class="sec" id="human-it-interaction">Human-IT Interaction</h3>
+<p class="sec-q">How does the way technology presents information shape how people use it?</p>
 
 <ul>
-  <li class="row paper">
-    <span class="key s1">Accepted</span>
-    <div>
-      <div class="paper-title">From Hype to Strategy: Using Extensional Representation Encoding to Evaluate Quantum Computing&rsquo;s Business Value</div>
-      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yuhan Huang, Qiming Shao, Yong Xia</div>
-      <div class="venue"><em>ACM Transactions on Management Information Systems</em></div>
-      <div class="actions">
-        <a href="https://doi.org/10.1145/3838724">Paper</a>
-        <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">HKUST IEMS brief</a>
-      </div>
-    </div>
-  </li>
-
   <li class="row paper" id="mobile-widget-adoption">
     <span class="key">In preparation</span>
     <div>
@@ -217,6 +205,23 @@ key: page-research
             <li><a href="https://cist2026.github.io/iss-events/">2026 INFORMS ISS ISR Paper Development Workshop for Early Career Scholar</a></li>
           </ul>
         </details>
+      </div>
+    </div>
+  </li>
+</ul>
+
+<h3 class="sec" id="other-research">Other Research</h3>
+
+<ul>
+  <li class="row paper">
+    <span class="key s1">Accepted</span>
+    <div>
+      <div class="paper-title">From Hype to Strategy: Using Extensional Representation Encoding to Evaluate Quantum Computing&rsquo;s Business Value</div>
+      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yuhan Huang, Qiming Shao, Yong Xia</div>
+      <div class="venue"><em>ACM Transactions on Management Information Systems</em></div>
+      <div class="actions">
+        <a href="https://doi.org/10.1145/3838724">Paper</a>
+        <a href="https://iems.ust.hk/publications/thought-leadership-briefs/extensional-knowledge-representation-for-quantum-monte-carlo-analysis-a-design-science-approach">HKUST IEMS brief</a>
       </div>
     </div>
   </li>
