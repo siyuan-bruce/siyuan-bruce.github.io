@@ -943,7 +943,6 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   .profile-text { text-align: left !important; }
   .profile-text p { margin-bottom: 18px; }
   .profile-text a { font-weight: 400 !important; }
-  .profile-text strong[style] { color: inherit !important; font-weight: 400 !important; }
   .profile-sidebar .sidebar-name, .profile-sidebar .affil-icon { display: none; }
   .profile-sidebar .affil-row { border-bottom: 0; padding: 2px 0; font-size: 13.5px; }
   .profile-sidebar .contact-email a { font-weight: 400; }
@@ -1026,9 +1025,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     <p>
       He has contributed to HKMA white papers on central bank digital currencies and quantum computing, and his <a href="/policy.html">policy work</a> has been covered by more than 70 news outlets, including the <em>South China Morning Post</em>, <em>China Daily</em>, RTHK, and Cointelegraph. Before HKUST, he spent two years as a full-stack blockchain engineer at the <a href="https://www.ventures.hsbc.com/en/about-us">HSBC Laboratory</a>, where his team reached the finals of the 2021 <a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge">Global CBDC Challenge</a> of the Monetary Authority of Singapore.
     </p>
-    <p>
-      He reviews for JMIS, <em>Decision Sciences</em>, and major IS conferences <strong style="color:#1A5DCB;">(Best Reviewer Award, ICIS 2025)</strong>, and co-organized the <a href="/service.html">IS Reading Group</a>, which ran 40+ online seminars for IS PhD students in 2024&ndash;2025.
-    </p>
+    <!-- 2026-11-21 (Bruce): reviewing and the IS Reading Group left the bio; they sit on the Service page and the Best Reviewer Award under Research > Awards. -->
   </div>
 </div>
 
