@@ -27,7 +27,7 @@ key: page-research
 
 <div class="sp">
 
-<p class="lead"><a href="#ai-organization-of-work">AI and work</a> &middot; <a href="#blockchain-digital-markets">Blockchain and digital markets</a> &middot; <a href="#other-research">Other papers</a> &middot; <a href="#patents">Patents</a> &middot; <a href="#awards">Awards</a></p>
+<p class="lead jump"><a href="#ai-organization-of-work">AI and work</a> &middot; <a href="#blockchain-digital-markets">Blockchain and digital markets</a> &middot; <a href="#other-research">Other papers</a> &middot; <a href="#patents">Patents</a> &middot; <a href="#awards">Awards</a></p>
 
 <h3 class="sec" id="ai-organization-of-work">AI and the Organization of Work</h3>
 <p class="sec-q">How does AI reshape the organization of human expertise?</p>
@@ -36,8 +36,8 @@ key: page-research
   <li class="row paper" id="codified-expertise">
     <span class="key s2">Under review</span>
     <div>
-      <div class="paper-title">Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams. <span class="tag jmp">Job market paper</span></div>
-      <div class="authors"><strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye.</div>
+      <div class="paper-title">Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams <span class="tag jmp">Job market paper</span></div>
+      <div class="authors"><strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye</div>
       <div class="actions">
         <details><summary>8 talks</summary>
           <ul class="bullets">
@@ -58,8 +58,8 @@ key: page-research
   <li class="row paper">
     <span class="key s2">In revision</span>
     <div>
-      <div class="paper-title">Benchmarked Quality: How Quality Scores Reshape Technical Debt Prevention.</div>
-      <div class="authors"><strong>Siyuan Jin</strong>, Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia.</div>
+      <div class="paper-title">Benchmarked Quality: How Quality Scores Reshape Technical Debt Prevention</div>
+      <div class="authors"><strong>Siyuan Jin</strong>, Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia</div>
       <div class="venue">Rejected after a second-round major revision at <em>Information Systems Research</em></div>
       <div class="actions">
         <details><summary>4 talks</summary>
@@ -77,8 +77,8 @@ key: page-research
   <li class="row paper" id="ai-for-me">
     <span class="key s2">Under review</span>
     <div>
-      <div class="paper-title">AI for Me, Gains for Us: Complementarity in Generative AI Teams.</div>
-      <div class="authors">Eros Ye, <strong>Siyuan Jin</strong>, Haochen Jiang, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.</div>
+      <div class="paper-title">AI for Me, Gains for Us: Complementarity in Generative AI Teams</div>
+      <div class="authors">Eros Ye, <strong>Siyuan Jin</strong>, Haochen Jiang, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
       <div class="actions">
         <details><summary>1 talk</summary>
           <ul class="bullets">
@@ -92,8 +92,8 @@ key: page-research
   <li class="row paper" id="scaling-before-gains">
     <span class="key">In preparation</span>
     <div>
-      <div class="paper-title">Scaling Before Gains: AI Adoption and Team Expansion.</div>
-      <div class="authors">Haochen Jiang, <strong>Siyuan Jin</strong>, Eros Ye, Wei Thoo Yue.</div>
+      <div class="paper-title">Scaling Before Gains: AI Adoption and Team Expansion</div>
+      <div class="authors">Haochen Jiang, <strong>Siyuan Jin</strong>, Eros Ye, Wei Thoo Yue</div>
       <div class="actions">
         <details><summary>1 talk</summary>
           <ul class="bullets">
@@ -113,7 +113,7 @@ key: page-research
     <span class="key s1">Accepted</span>
     <div>
       <div class="paper-title">From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns? <span class="tag">Infrastructure</span></div>
-      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.</div>
+      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
       <div class="venue"><em>Journal of Management Information Systems</em> <span class="note">FT50</span></div>
       <div class="actions">
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218">Paper</a>
@@ -138,8 +138,8 @@ key: page-research
   <li class="row paper" id="kpop-dao">
     <span class="key s1">R&amp;R</span>
     <div>
-      <div class="paper-title">When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs. <span class="tag">Application</span></div>
-      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.</div>
+      <div class="paper-title">When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs <span class="tag">Application</span></div>
+      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
       <div class="venue"><em>Information Systems Research</em>, 2nd round <span class="note">UTD24, FT50</span></div>
       <div class="actions">
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5186789">Paper</a>
@@ -165,8 +165,8 @@ key: page-research
   <li class="row paper">
     <span class="key s1">R&amp;R</span>
     <div>
-      <div class="paper-title">Supplier Openness and Lower Demand: Evidence from an Invitation-Only Policy Reform in Digital Asset Marketplaces. <span class="tag">Application</span></div>
-      <div class="authors"><strong>Siyuan Jin</strong>, Ying Hao, <a href="https://www.bschool.cuhk.edu.hk/staff/li-hongfei/">Hongfei Li</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.</div>
+      <div class="paper-title">Supplier Openness and Lower Demand: Evidence from an Invitation-Only Policy Reform in Digital Asset Marketplaces <span class="tag">Application</span></div>
+      <div class="authors"><strong>Siyuan Jin</strong>, Ying Hao, <a href="https://www.bschool.cuhk.edu.hk/staff/li-hongfei/">Hongfei Li</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
       <div class="venue"><em>Information Systems Research</em>, 3rd round <span class="note">UTD24, FT50</span></div>
       <div class="actions">
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5535298">Paper</a>
@@ -181,8 +181,8 @@ key: page-research
   <li class="row paper">
     <span class="key">Working paper</span>
     <div>
-      <div class="paper-title">Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi. <span class="tag">Application</span></div>
-      <div class="authors">Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <strong>Siyuan Jin</strong>, Evgeny Lyandres (authors listed alphabetically).</div>
+      <div class="paper-title">Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi <span class="tag">Application</span></div>
+      <div class="authors">Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <strong>Siyuan Jin</strong>, Evgeny Lyandres (authors listed alphabetically)</div>
     </div>
   </li>
 </ul>
@@ -193,8 +193,8 @@ key: page-research
   <li class="row paper">
     <span class="key s1">Accepted</span>
     <div>
-      <div class="paper-title">From Hype to Strategy: Using Extensional Representation Encoding to Evaluate Quantum Computing&rsquo;s Business Value.</div>
-      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yuhan Huang, Qiming Shao, Yong Xia.</div>
+      <div class="paper-title">From Hype to Strategy: Using Extensional Representation Encoding to Evaluate Quantum Computing&rsquo;s Business Value</div>
+      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yuhan Huang, Qiming Shao, Yong Xia</div>
       <div class="venue"><em>ACM Transactions on Management Information Systems</em></div>
       <div class="actions">
         <a href="https://doi.org/10.1145/3838724">Paper</a>
@@ -206,8 +206,8 @@ key: page-research
   <li class="row paper" id="mobile-widget-adoption">
     <span class="key">In preparation</span>
     <div>
-      <div class="paper-title">Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption.</div>
-      <div class="authors"><strong>Siyuan Jin</strong>, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu.</div>
+      <div class="paper-title">Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption</div>
+      <div class="authors"><strong>Siyuan Jin</strong>, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu</div>
       <div class="actions">
         <details><summary>4 talks</summary>
           <ul class="bullets">

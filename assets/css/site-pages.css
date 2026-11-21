@@ -8,7 +8,8 @@
   --ink3: #8b919a;
   --rule: #e7e9ed;
   --accent: #1e3a6e;
-  max-width: 760px;
+  max-width: 780px;
+  margin: 0 auto;
   color: var(--ink);
   font-size: 15px;
   line-height: 1.6;
@@ -19,9 +20,14 @@
 .sp ul { list-style: none; margin: 0; padding: 0; }
 .sp em { font-style: italic; }
 
+/* Center the page title with the column on pages that use this system */
+.col-main .article__header { max-width: 780px; margin-left: auto; margin-right: auto; }
+
 /* Lead line under the page title */
 .sp .lead { font-size: 14.5px; color: var(--ink2); margin: 0 0 4px; }
-.sp .lead a { font-weight: 500; }
+.sp .lead a { font-weight: 400; color: var(--ink2); }
+.sp .lead a:hover { color: var(--accent); }
+.sp .lead.jump { font-size: 14px; }
 .sp .lead strong { color: var(--ink); font-weight: 600; }
 
 /* Section headings: one style, separated by space and a hairline */
@@ -40,9 +46,8 @@
 /* The row: key column + item */
 .sp .row {
   display: grid; grid-template-columns: 100px minmax(0, 1fr); column-gap: 16px;
-  align-items: baseline; padding: 8px 0; border-bottom: 1px solid var(--rule);
+  align-items: baseline; padding: 6px 0;
 }
-.sp .row:last-child { border-bottom: 0; }
 .sp .key { font-size: 13.5px; color: var(--ink3); font-variant-numeric: tabular-nums; }
 .sp .key.abbr { color: var(--ink); font-weight: 600; }
 .sp .title { font-size: 15.5px; font-weight: 600; line-height: 1.45; }
@@ -73,7 +78,7 @@
 .sp .folded > .row:first-of-type { margin-top: 4px; }
 
 /* Papers: the key column holds the status, strongest first */
-.sp .paper { padding: 14px 0; }
+.sp .paper { padding: 12px 0 14px; }
 .sp .paper .key { font-size: 13px; }
 .sp .key.s1 { color: var(--ink); font-weight: 600; }
 .sp .key.s2 { color: var(--ink2); font-weight: 500; }
