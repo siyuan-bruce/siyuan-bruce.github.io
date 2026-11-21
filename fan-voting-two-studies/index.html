@@ -34,6 +34,8 @@ p{margin:0 0 12px}
 .q{margin:18px 0 6px;font-weight:600}
 .scale{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
 .scale .opt{min-width:0;padding:8px 0}
+.scale.s10{grid-template-columns:repeat(10,minmax(0,1fr))}
+.share{margin-top:10px;font-weight:600}
 .opts{display:flex;flex-wrap:wrap;gap:8px}
 .opt{min-height:46px;min-width:46px;padding:8px 12px;border:1.5px solid #999;border-radius:10px;background:#fff;font:inherit;color:inherit;cursor:pointer}
 .opt[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -61,7 +63,7 @@ p{margin:0 0 12px}
 .cellhead{margin:28px 0 8px;font-size:15px;font-weight:700;color:#7a5b00;background:#fff7d6;border:1px solid #e3c766;border-radius:8px;padding:6px 10px;break-after:avoid}
 .print .sheet{margin-bottom:14px;break-inside:avoid}
 pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-radius:8px;max-height:260px;overflow:auto}
-@media (max-width:480px){h1{font-size:23px}.sheet{padding:18px 14px 22px}.scale{gap:4px}.buy{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:480px){h1{font-size:23px}.sheet{padding:18px 14px 22px}.scale{gap:4px}.scale.s10{grid-template-columns:repeat(5,minmax(0,1fr))}.buy{grid-template-columns:repeat(3,1fr)}}
 </style>
 </head>
 <body>
@@ -70,7 +72,8 @@ pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-r
 'use strict';
 // ---- Settings (edit here). Numbers come from the field data unless noted. ----
 const CONFIG={
-  version:'two-studies-2026-11-20-v11',
+  version:'two-studies-2026-11-20-v12',
+  waitSeconds:5,                       // same counting wait for voters and fans who missed the vote (Kim et al. 2019, Exp. 4)
   money:'$', price:2.99,               // one digital card in the group's app (US App Store price); one card = one voting token
   tokens:{small:4,large:40},           // median pre-vote token balance of small and large first-time voters (4 and 41)
   roundVoters:3600, roundTokens:18000, // median round in the sample: 3,616 voters casting 17,850 tokens
@@ -78,6 +81,8 @@ const CONFIG={
   castOptions:{small:[1,2,3,4],large:[1,2,3,5,10,20,40]},
   buyOptions:[0,1,2,3,5,10],
   askExchange:false,                   // true adds the card-exchange item (the field's transfer outcome) to the last page
+  askSatisfaction:true,                // satisfaction with the company, 1-10, after the result (Kim et al. 2019, Exp. 4)
+  shareInStudy2:true,                  // Study 2: the stake's share of a typical round, 1 in 4,500 vs 1 in 450 (after Kim et al. 2019, Exp. 1C)
   members:{
     seoyeon:{name:'Seoyeon',video:'media/seoyeon_5s.mp4',photo:'media/seoyeon.jpg'},
     yooyeon:{name:'Yooyeon',video:'media/yooyeon_5s.mp4',photo:'media/yooyeon.jpg'}
@@ -119,8 +124,8 @@ const winner=()=>run.outcome==='win'?chosen():other();
 const nm=id=>CONFIG.members[id].name;
 
 // ---- Small builders ----
-function scale(name,question,lo,hi){
-  return `<div class="q">${question}</div><div class="scale" data-name="${name}">${[1,2,3,4,5,6,7].map(v=>`<button type="button" class="opt" data-v="${v}" aria-pressed="false">${v}</button>`).join('')}</div><div class="ends"><span>1 = ${lo}</span><span>7 = ${hi}</span></div>`;
+function scale(name,question,lo,hi,max=7){
+  return `<div class="q">${question}</div><div class="scale${max===10?' s10':''}" data-name="${name}">${Array.from({length:max},(_,i)=>`<button type="button" class="opt" data-v="${i+1}" aria-pressed="false">${i+1}</button>`).join('')}</div><div class="ends"><span>1 = ${lo}</span><span>${max} = ${hi}</span></div>`;
 }
 function choice(name,question,opts){
   return `<div class="q">${question}</div><div class="opts" data-name="${name}">${opts.map(([v,l])=>`<button type="button" class="opt" data-v="${v}" aria-pressed="false">${l}</button>`).join('')}</div>`;
@@ -154,7 +159,7 @@ const PAGES=[
   <h1>Fans are voting.</h1>
   <p>The vote decides ${CONFIG.topic1}. <b>${nm(chosen())}</b> and <b>${nm(other())}</b> are the candidates. The member with more tokens wins.</p>
   <p class="fine">${crowd()}</p>
-  <div class="box"><div class="big">You hold ${run.tokens} tokens.</div>${tokens(run.tokens)}</div>
+  <div class="box"><div class="big">You hold ${run.tokens} tokens.</div>${tokens(run.tokens)}${run.study===2&&CONFIG.shareInStudy2?`<div class="share">Your ${run.tokens} tokens are about 1 in every ${fmt(Math.round(CONFIG.roundTokens/run.tokens))} tokens cast in a typical round.</div>`:''}</div>
   ${voted()?`
    ${choice('tokens_cast',`How many of your ${run.tokens} tokens do you cast for ${nm(chosen())}?`,CONFIG.castOptions[run.stake].map(n=>[String(n),String(n)]))}
    ${scale('expected_influence','How much do you feel your votes can change who wins?','Not at all','A great deal')}
@@ -162,7 +167,7 @@ const PAGES=[
   :`<div class="notice">Imagine you were busy that day. When you opened the app, voting had just closed. <b>Your ${run.tokens} tokens were not cast.</b></div>
    ${nextBtn('Continue')}`}`},
 
- {id:'result',need:['disappointment'],html:()=>`
+ {id:'result',need:()=>['disappointment',...(CONFIG.askSatisfaction?['satisfaction']:[])],html:()=>`
   <h1>Voting has closed.</h1>
   <div class="result">${nm(winner())} performs the solo stage.</div>
   <div class="tally"><span class="w" style="width:${CONFIG.tally.winner}%">${nm(winner())} ${CONFIG.tally.winner}%</span><span class="l" style="width:${CONFIG.tally.loser}%">${nm(winner()===chosen()?other():chosen())} ${CONFIG.tally.loser}%</span></div>
@@ -171,6 +176,7 @@ const PAGES=[
    ${voted()?`You cast ${cast()} ${cast()===1?'token':'tokens'}, which ${cast()===1?'is':'are'} now used up. You have ${left()} left.`:`Your ${run.tokens} tokens are still unspent.`}</p>
   <div class="members">${run.member_order.map(id=>memberTile(id,'result')).join('')}</div>
   ${scale('disappointment','How disappointed do you feel?','Not at all','Very')}
+  ${CONFIG.askSatisfaction?scale('satisfaction','How satisfied are you with the company that runs the group\'s app and its votes?','Not at all','Very satisfied',10):''}
   ${nextBtn()}`},
 
  {id:'next',need:()=>['cards_bought',run.study===1?'check_voted':'check_tokens','check_outcome',...(CONFIG.askExchange?['card_exchange']:[])],html:()=>`
@@ -200,6 +206,16 @@ function render(){
   app.innerHTML=`${REVIEW?reviewBar():''}<section class="sheet" data-page="${P.id}">${bar}${P.html()}</section>`;
   wire(P);window.scrollTo(0,0);
 }
+// After the vote page, voters and fans who missed the vote wait the same time while tokens are counted (Kim et al. 2019, Exp. 4).
+let waitId=0;
+function countThen(next){
+  const id=++waitId,s=CONFIG.waitSeconds;
+  app.innerHTML=`${REVIEW?reviewBar():''}<section class="sheet" data-page="count"><h1>Counting the tokens.</h1><p>Voting has closed. The result appears in a few seconds.</p><div class="progress"><span id="cbar" style="width:0%;transition:width ${s}s linear"></span></div></section>`;
+  if(REVIEW){const go=$('#rvgo');if(go)go.onclick=()=>{waitId++;newRun(CELLS[Number($('#rv').value)]);page=0;render();};}
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{const b=$('#cbar');if(b)b.style.width='100%';}));
+  run.wait_seconds=s;window.scrollTo(0,0);
+  setTimeout(()=>{if(id===waitId)next();},s*1000);
+}
 function reviewBar(){
   return `<div class="review"><b>Researcher preview</b> (not shown to participants) · Cell:
    <select id="rv">${CELLS.map((c,i)=>`<option value="${i}"${run&&run.cell===cellId(c)?' selected':''}>${cellId(c)}</option>`).join('')}</select>
@@ -218,7 +234,8 @@ function wire(P){
     v.play?.().catch(()=>{});
   });
   if(btn)btn.onclick=()=>{if(!ready(P))return;run.pages.push({page:P.id,done_at:new Date().toISOString()});page++;
-    if(PAGES[page].id==='end'){run.completed_at=new Date().toISOString();run.tokens_left=left();}render();};
+    if(PAGES[page].id==='end'){run.completed_at=new Date().toISOString();run.tokens_left=left();}
+    if(P.id==='vote')countThen(render);else render();};
   if(REVIEW){
     const go=$('#rvgo');if(go)go.onclick=()=>{newRun(CELLS[Number($('#rv').value)]);page=0;render();};
     const dl=$('#dl');if(dl)dl.onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(run,null,2)],{type:'application/json'}));a.download=`fan_voting_${run.cell}.json`;a.click();};
