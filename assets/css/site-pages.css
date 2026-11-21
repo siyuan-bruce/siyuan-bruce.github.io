@@ -1,0 +1,111 @@
+/* One visual system for the Research, Teaching and Service pages (2026-11-21).
+   Three grays carry the hierarchy; navy marks only what can be clicked or the job market paper.
+   Every list uses the same row: a muted key column (status, year or term) and the item. */
+
+.sp {
+  --ink: #1a1a1a;
+  --ink2: #545b66;
+  --ink3: #8b919a;
+  --rule: #e7e9ed;
+  --accent: #1e3a6e;
+  max-width: 760px;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.sp a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.sp a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.sp p { margin: 0 0 12px; }
+.sp ul { list-style: none; margin: 0; padding: 0; }
+.sp em { font-style: italic; }
+
+/* Lead line under the page title */
+.sp .lead { font-size: 14.5px; color: var(--ink2); margin: 0 0 4px; }
+.sp .lead a { font-weight: 500; }
+.sp .lead strong { color: var(--ink); font-weight: 600; }
+
+/* Section headings: one style, separated by space and a hairline */
+.sp .sec {
+  font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -0.01em;
+  color: var(--ink); margin: 44px 0 10px; padding: 28px 0 0;
+  border: 0; border-top: 1px solid var(--rule);
+}
+.sp .sec.first { margin-top: 12px; padding-top: 0; border-top: 0; }
+.sp .sec-q { font-size: 15.5px; color: var(--ink2); margin: -2px 0 8px; }
+.sp .label {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink3); margin: 22px 0 2px;
+}
+
+/* The row: key column + item */
+.sp .row {
+  display: grid; grid-template-columns: 100px minmax(0, 1fr); column-gap: 16px;
+  align-items: baseline; padding: 8px 0; border-bottom: 1px solid var(--rule);
+}
+.sp .row:last-child { border-bottom: 0; }
+.sp .key { font-size: 13.5px; color: var(--ink3); font-variant-numeric: tabular-nums; }
+.sp .key.abbr { color: var(--ink); font-weight: 600; }
+.sp .title { font-size: 15.5px; font-weight: 600; line-height: 1.45; }
+.sp .meta { font-size: 14px; color: var(--ink2); margin-top: 2px; }
+.sp .meta b { color: var(--ink); font-weight: 600; }
+.sp .name { font-size: 15px; }
+.sp .name.strong { font-weight: 600; }
+.sp .note { color: var(--ink3); font-weight: 400; }
+.sp .note::before { content: "\00b7\00a0"; }
+
+/* Toggles */
+.sp details { margin: 0; }
+.sp summary {
+  display: inline; cursor: pointer; list-style: none; user-select: none;
+  font-size: 13.5px; font-weight: 500; color: var(--accent);
+}
+.sp summary::-webkit-details-marker { display: none; }
+.sp summary::before { content: "\25B8\00a0"; }
+.sp details[open] > summary::before { content: "\25BE\00a0"; }
+.sp summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+.sp .more { font-size: 14px; color: #333; line-height: 1.6; margin: 8px 0 2px; }
+.sp .more + .more { margin-top: 6px; }
+.sp .bullets li { position: relative; padding-left: 14px; margin: 2px 0; font-size: 14px; line-height: 1.5; color: var(--ink2); }
+.sp .bullets li::before { content: ""; position: absolute; left: 2px; top: 0.62em; width: 5px; height: 5px; border-radius: 50%; background: #c3c9d3; }
+.sp .bullets b { color: var(--ink); font-weight: 600; }
+.sp .bullets strong { color: var(--ink); font-weight: 600; }
+.sp .folded { margin-top: 10px; }
+.sp .folded > .row:first-of-type { margin-top: 4px; }
+
+/* Papers: the key column holds the status, strongest first */
+.sp .paper { padding: 14px 0; }
+.sp .paper .key { font-size: 13px; }
+.sp .key.s1 { color: var(--ink); font-weight: 600; }
+.sp .key.s2 { color: var(--ink2); font-weight: 500; }
+.sp .paper-title { font-size: 16px; font-weight: 600; line-height: 1.45; }
+.sp .tag {
+  margin-left: 8px; font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink3); white-space: nowrap;
+}
+.sp .tag.jmp { color: var(--accent); }
+.sp .authors { font-size: 14.5px; color: var(--ink2); margin-top: 3px; }
+.sp .authors a, .sp .name a { color: inherit; font-weight: inherit; }
+.sp .authors a:hover { color: var(--accent); }
+.sp .authors strong { color: var(--ink); font-weight: 600; }
+.sp .venue { font-size: 14.5px; margin-top: 1px; }
+.sp .actions { margin-top: 6px; font-size: 13.5px; }
+.sp .actions > a, .sp .actions > details { display: inline-block; margin-right: 20px; vertical-align: top; font-weight: 500; }
+.sp .actions > details[open] { display: block; margin-right: 0; }
+.sp .actions .abstract p { font-size: 14.5px; color: #333; line-height: 1.6; margin: 8px 0 0; }
+.sp .actions .abstract p.kw { font-size: 13.5px; color: var(--ink2); }
+.sp .fine { font-size: 13px; color: var(--ink3); margin: 14px 0 0; }
+
+/* Two-column name list */
+.sp .cols { columns: 2; column-gap: 40px; font-size: 15px; margin-top: 4px; }
+.sp .cols li { break-inside: avoid; padding: 3px 0; }
+
+@media (max-width: 600px) {
+  .sp .row { grid-template-columns: 64px minmax(0, 1fr); column-gap: 10px; }
+  .sp .key { font-size: 12.5px; }
+  .sp .paper { display: block; }
+  .sp .paper .key {
+    display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 2px;
+  }
+  .sp .sec { font-size: 19px; }
+  .sp .cols { columns: 1; }
+}
