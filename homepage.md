@@ -996,7 +996,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
       How do blockchain’s distinctive features shape value in digital markets?
     </div>
     <div class="focus-evidence">
-      <em>Journal of Management Information Systems</em> &middot; Two second-round revisions at <em>Information Systems Research</em>
+      <em>Journal of Management Information Systems</em> &middot; Two revisions at <em>Information Systems Research</em> (2nd and 3rd round)
     </div>
   </div>
 
