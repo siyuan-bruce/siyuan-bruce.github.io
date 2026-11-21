@@ -109,8 +109,10 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     text-justify: inter-word;
   }
 
+  /* 2026-11-21 (Bruce): keep the banner, less wide; centered with white space around it */
   .homepage-banner {
-    margin: 8px 10px 24px;
+    max-width: 880px;
+    margin: 32px auto 36px;
   }
 
   .homepage-banner picture {

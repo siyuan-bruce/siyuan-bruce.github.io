@@ -1,14 +1,3 @@
-header:
-  - titles: 
-      # @start locale config
-      en      : &EN       Home
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  主页
-    url: /
-
   - titles: 
       # @start locale config
       en      : &EN       Research
@@ -48,16 +37,6 @@ header:
       en-AU   : *EN
       zh-Hans : &ZH_HANS  教学
     url: /teaching.html
-
-  - titles: 
-      # @start locale config
-      en      : &EN       IS Reading Group
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  IS 论文小组
-    url: /reading_group/home.html
 
   - titles: 
       # @start locale config

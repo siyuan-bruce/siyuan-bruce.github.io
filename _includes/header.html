@@ -8,11 +8,11 @@
     <div class="main">
       <div class="header__title">
         <div class="header__brand">
-          {%- include svg/logo.svg -%}
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- if site.title -%}
-            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+            {%- assign _zh = site.title | split: " " | last -%}{%- assign _en = site.title | remove: _zh | strip -%}
+            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ _en }}<span class="header__zh">{{ _zh }}</span></a>
           {%- endif -%}
         </div>
         <!-- {%- if site.search.provider -%}

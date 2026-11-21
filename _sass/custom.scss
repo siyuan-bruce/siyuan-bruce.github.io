@@ -14,30 +14,138 @@ body {
   padding-top: 0;
 }
 
-/* ── Header: sticky on scroll, slimmer shadow ────────────── */
+/* ── Header (2026-11-21, option B): white bar with one hairline, the name in ink with the
+   Chinese name in gray, links in small spaced capitals, a fine rule under the current page ── */
 .header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
-  border-bottom: 1px solid #e0e0e0;
+  background: #fff !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #eceef1;
 }
 
-/* ── Navigation: keep labels on one line; slightly smaller than body ─ */
-.navigation > ul {
+.header a,
+.header a:link,
+.header a:visited,
+.header a:hover {
+  text-decoration: none !important;
+}
+
+.header .header__title,
+.header .navigation > ul {
+  height: 68px;
+}
+
+.header .header__brand > a,
+.header .header__brand > a:link,
+.header .header__brand > a:visited,
+.header .header__brand > a:hover {
+  color: #1a1a1a;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+
+.header .header__zh {
+  color: #8b919a;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.header .navigation > ul {
   flex-wrap: nowrap;
 }
 
-.navigation .navigation__item {
+.header .navigation .navigation__item {
   flex-shrink: 0;
-  padding: 4px 8px;
+  padding: 4px 15px;
 }
 
-.navigation .navigation__item a {
-  font-size: 0.875rem;
+.header .navigation .navigation__item::after {
+  display: none;
+}
+
+.header .navigation .navigation__item a,
+.header .navigation .navigation__item a:link,
+.header .navigation .navigation__item a:visited {
+  color: #6b7280;
+  font-size: 11.5px;
   font-weight: 500;
-  letter-spacing: 0;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   white-space: nowrap;
+  transition: color 0.15s;
+}
+
+.header .navigation .navigation__item a:hover,
+.header .navigation .navigation__item--active a,
+.header .navigation .navigation__item--active a:link,
+.header .navigation .navigation__item--active a:visited {
+  color: #1a1a1a;
+}
+
+.header .navigation .navigation__item--active::after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: -3px;
+  width: auto;
+  height: 1px;
+  border: 0;
+  border-radius: 0;
+  background: #1a1a1a;
+}
+
+/* Below the theme's md breakpoint the name sits above the links */
+@media (max-width: 1023px) {
+  .header .header__title,
+  .header .navigation > ul {
+    height: auto;
+  }
+  .header .header__brand {
+    height: 52px;
+  }
+  .header .navigation > ul {
+    padding: 2px 0 14px;
+    margin: 0;
+  }
+  .header .navigation .navigation__item:first-child {
+    padding-left: 0;
+  }
+  .header .navigation .navigation__item--active:first-child::after {
+    left: 0;
+  }
+}
+
+/* Phones: all links on one line, spread across the width, no scroll strip */
+@media (max-width: 600px) {
+  .header .navigation {
+    width: 100%;
+    scrollbar-width: none;
+  }
+  .header .navigation::-webkit-scrollbar {
+    display: none;
+  }
+  .header .navigation > ul {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .header .navigation .navigation__item {
+    padding: 4px 0;
+  }
+  .header .navigation .navigation__item--active::after {
+    left: 0;
+    right: 0;
+  }
+  .header .navigation .navigation__item a,
+  .header .navigation .navigation__item a:link,
+  .header .navigation .navigation__item a:visited {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+  }
 }
 
 /* Page title banner (Homepage, Research, Gallery, etc.): one size everywhere */
