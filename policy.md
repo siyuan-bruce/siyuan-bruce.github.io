@@ -34,15 +34,16 @@ permalink: /policy.html
   .sp .press-head { font-size: 13px; color: var(--ink3); margin-bottom: 2px; }
   .sp .press .row { grid-template-columns: 64px minmax(0, 1fr); column-gap: 12px; padding: 7px 0; align-items: start; }
   .sp .press .key { font-size: 12.5px; line-height: 20px; }
+  /* 2026-11-21 (Bruce): "for media, donot use grey colors". Logos in full color */
   .sp .logos { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
   .sp .logos a { display: inline-flex; align-items: center; font-weight: 400; }
   .sp .logos a:hover { text-decoration: none; }
-  .sp .logos img { display: block; height: 20px; width: auto; max-width: 140px; object-fit: contain; filter: grayscale(1); opacity: 0.55; transition: filter 0.15s, opacity 0.15s; }
-  .sp .logos a:hover img { filter: none; opacity: 1; }
+  .sp .logos img { display: block; height: 20px; width: auto; max-width: 140px; object-fit: contain; transition: opacity 0.15s; }
+  .sp .logos a:hover img { opacity: 0.75; }
   .sp .logos img.logo-wide { max-width: 170px; }
   .sp .logos img.logo-sm { height: 16px; }
   .sp .logos img.logo-lg { height: 28px; max-width: 190px; }
-  .sp .logos a.media-text { height: 20px; padding: 0 6px; border: 1px solid var(--rule); border-radius: 3px; font-size: 12px; color: var(--ink2); }
+  .sp .logos a.media-text { height: 20px; padding: 0 6px; border: 1px solid var(--rule); border-radius: 3px; font-size: 12px; color: var(--ink); }
   .sp .entry .folded { margin-top: 8px; }
   @media (max-width: 600px) {
     .sp .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
