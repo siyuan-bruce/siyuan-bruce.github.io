@@ -2,13 +2,12 @@
 # Each photo needs an `id`; run `python3 _tools/make_gallery_images.py` after adding one,
 # which writes assets/images/gallery/thumbs/<id>.webp and large/<id>.webp from `file`.
 # Optional per photo: `pos` (CSS object-position for the card crop, e.g. "center 30%").
-# Optional per event: `wide: true` makes the card span two columns.
+# Events with one photo sit two to a row; events with two to five photos span the column (the page shows at most five).
 
 - heading: "2026"
   events:
     - title: "Wharton AI Conference, San Francisco, USA"
       date: "2026"
-      wide: true
       text: >-
         Presenting my job market paper, "Codified Expertise: How Generative AI Changes Temporal Coordination
         in Distributed Teams," at the Wharton AI Conference on the San Francisco campus, with an outing to the
@@ -129,7 +128,6 @@
   events:
     - title: "HSBC Laboratory, Guangzhou, China"
       date: "2020–2022"
-      wide: true
       text: >-
         From intern to full-stack engineer on blockchain projects. Our team became one of the top 15 finalists
         in the Global CBDC Challenge, and I am very grateful for the opportunity to work with everyone.
