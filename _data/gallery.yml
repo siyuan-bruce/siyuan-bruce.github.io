@@ -58,13 +58,13 @@
       text: "We discussed how to review IS papers."
       photos:
         - id: 2025-misq-reviewer-workshop
-          file: 2025_MISQ_reveiwer_workshop.jpg
+          file: 2025_MISQ_reviewer_workshop_cropped.jpg
     - title: "Web3Ideathon, Hong Kong"
       date: "2025"
       text: "I served as a mentor and shared my work."
       photos:
         - id: 2025-web3ideathon
-          file: 2025_Web3Ideathon.jpg
+          file: 2025_Web3Ideathon_cropped.jpg
 
 - heading: "2024"
   events:
