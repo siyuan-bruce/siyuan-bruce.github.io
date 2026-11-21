@@ -242,13 +242,13 @@ _The goal of behavioral-science research is truth. The goal of design-science re
 
   <li class="paper-item" data-number="A3">
     <div class="paper-title">
-      When Supply Lowers Demand: Evidence from Invitation-Only Policy Reform in Digital Asset Marketplaces. <span class="paper-tag paper-tag-app">Application</span>
+      Supplier Openness and Lower Demand: Evidence from an Invitation-Only Policy Reform in Digital Asset Marketplaces. <span class="paper-tag paper-tag-app">Application</span>
     </div>
     <div class="paper-authors">
       <strong>Siyuan Jin</strong>, Ying Hao, <a href="https://www.bschool.cuhk.edu.hk/staff/li-hongfei/">Hongfei Li</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, 
       <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>.
     </div>
-    <p class="status-info">Revise &amp; Resubmit (2nd round) at <em>Information Systems Research</em> (UTD24, FT50). <span class="status-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5535298">[Working paper]</a></span></p>
+    <p class="status-info">Revise &amp; Resubmit (3rd round) at <em>Information Systems Research</em> (UTD24, FT50). <span class="status-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5535298">[Working paper]</a></span></p>
     <details class="paper-details">
       <summary>Abstract</summary>
       <div class="paper-abstract">
