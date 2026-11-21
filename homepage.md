@@ -41,7 +41,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   }
   .sp .home-photo:hover .photo-gallery-badge, .sp .home-photo:focus-visible .photo-gallery-badge { opacity: 1; transform: translateY(0); }
   .sp .home-name { font-size: 32px; font-weight: 700; line-height: 1.2; letter-spacing: -0.015em; color: var(--ink); margin: 0 0 8px; padding: 0; border: 0; }
-  .sp .home-name .zh { font-weight: 400; font-size: 24px; color: var(--ink2); margin-left: 6px; }
+  .sp .home-name .zh { font-weight: 400; font-size: 24px; color: var(--ink2); margin-left: 6px; white-space: nowrap; }
   .sp .home-role { font-size: 15.5px; color: var(--ink2); line-height: 1.55; }
   .sp .home-market { margin-top: 10px; font-size: 15.5px; font-weight: 600; color: var(--accent); }
   .sp .home-links { margin-top: 10px; font-size: 14.5px; }
