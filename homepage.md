@@ -913,7 +913,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   <div class="profile-text">
     <!-- 2026-11-15 (Bruce): "make this part more concise". -->
     <p>
-      <strong>Bruce (Siyuan) Jin (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by Prof. <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School with Prof. <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
+      <strong>Bruce (Siyuan) Jin (金思远)</strong> is a PhD candidate in Information Systems at HKUST Business School, advised by <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, and a visiting scholar at the Wharton School with <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a> through December 2026. <strong>He is on the 2026&ndash;2027 job market.</strong>
     </p>
     <p>
       His research asks how blockchain creates value in digital markets and how generative AI reshapes the organization of expertise inside firms. His work appears in the <em>Journal of Management Information Systems</em> (JMIS, FT50), and two papers are in revision at <em>Information Systems Research</em>.
