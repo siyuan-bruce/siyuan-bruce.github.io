@@ -250,6 +250,13 @@ key: page-research
 
 <h3 class="sec" id="awards">Awards &amp; Honors</h3>
 
+<!-- 2026-11-22 (Bruce): the three doctoral consortia as separate rows, first in this section -->
+<p class="label">Doctoral consortia and workshops</p>
+<div class="row"><span class="key">2026</span><span class="name strong">ICIS Doctoral Consortium</span></div>
+<div class="row"><span class="key">2026</span><span class="name strong">INFORMS CIST Doctoral Consortium</span></div>
+<div class="row"><span class="key">2026</span><span class="name strong">PACIS Doctoral Consortium</span></div>
+<div class="row"><span class="key">2025</span><span class="name">MISQ Reviewer Development Workshop</span></div>
+
 <p class="label">Paper and reviewer awards</p>
 <!-- 2026-11-22 (Bruce): GLOSITH Best Paper Award shown only on the Policy page (Hong Kong Tourism), since that paper is not on this page. -->
 <div class="row"><span class="key">2025</span><span class="name strong">ICIS Best Reviewer Award</span></div>
@@ -261,10 +268,6 @@ key: page-research
 <div class="row"><span class="key">2025</span><span class="name">HKUST Young Scientist PhD Program Award <span class="note">HKD 30,000</span></span></div>
 <div class="row"><span class="key">2024</span><span class="name">Hong Kong PhD Fellowship</span></div>
 <div class="row"><span class="key">2022</span><span class="name">HKUST Postgraduate Studentship</span></div>
-
-<p class="label">Doctoral consortia and workshops</p>
-<div class="row"><span class="key">2026</span><span class="name">Doctoral Consortium at ICIS, INFORMS CIST and PACIS</span></div>
-<div class="row"><span class="key">2025</span><span class="name">MISQ Reviewer Development Workshop</span></div>
 
 <details class="folded"><summary>Before the PhD (5)</summary>
 <div class="row"><span class="key">2021</span><span class="name"><a href="https://www.mas.gov.sg/news/media-releases/2021/mas-announces-15-finalists-for-the-global-cbdc-challenge" target="_blank" rel="noopener noreferrer">MAS Global CBDC Challenge</a> Finalist <span class="note">top 5%</span></span></div>
