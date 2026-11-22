@@ -58,6 +58,6 @@ key: page-service
 <p>AIS &middot; INFORMS &middot; ACM</p>
 
 <h3 class="sec">IS Reading Group</h3>
-<p>An online paper series for IS PhD students, with 40+ seminars in 2024&ndash;2025. Faculty and practitioners are welcome. Schedules and archives are on the <a href="https://siyuan-bruce.github.io/reading_group/home.html">IS Reading Group site</a>; Weibo Li (ASU) now leads the group; email <a href="mailto:weiboli@asu.edu">weiboli@asu.edu</a> to get involved.</p>
+<p>An online paper series for IS PhD students, with 40+ seminars in 2024&ndash;2025. Faculty and practitioners are welcome. Schedules and archives are on the <a href="https://siyuan-bruce.github.io/reading_group/home.html">IS Reading Group site</a>. Weibo Li (ASU) now leads the group. Email <a href="mailto:weiboli@asu.edu">weiboli@asu.edu</a> to get involved.</p>
 
 </div>
