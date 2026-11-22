@@ -251,7 +251,7 @@ key: page-research
 <h3 class="sec" id="awards">Awards &amp; Honors</h3>
 
 <p class="label">Paper and reviewer awards</p>
-<div class="row"><span class="key">2025</span><span class="name strong">GLOSITH Best Paper Award</span></div>
+<!-- 2026-11-22 (Bruce): GLOSITH Best Paper Award shown only on the Policy page (Hong Kong Tourism), since that paper is not on this page. -->
 <div class="row"><span class="key">2025</span><span class="name strong">ICIS Best Reviewer Award</span></div>
 <div class="row"><span class="key">2024, 2025</span><span class="name strong">ICIS Best Short Paper Nominee <span class="note">two papers</span></span></div>
 
