@@ -207,8 +207,38 @@ body {
 }
 
 /* ── Footer ──────────────────────────────────────────────── */
+/* 2026-11-21 (Bruce): white, one gray line under a hairline that spans the 780px content column */
 .footer {
-  border-top: 1px solid #e0e0e0;
+  display: block;
+  background: #fff;
+  border-top: 0;
+  padding: 0;
+  > .main {
+    max-width: calc(780px + #{2 * map-get($spacers, 5)});
+    @include media-breakpoint-down(lg) { max-width: calc(780px + #{2 * map-get($spacers, 4)}); }
+    @include media-breakpoint-down(md) { max-width: calc(780px + #{2 * map-get($spacers, 3)}); }
+  }
+  .site-info {
+    border-top: 1px solid #e7e9ed;
+    padding: 22px 0 40px;
+    font-size: 13px;
+    line-height: 1.9;
+    color: #8b919a;
+    text-align: center;
+  }
+  .fi { white-space: nowrap; }
+  .fi + .fi::before { content: "\00b7"; margin: 0 9px; color: #c3c9d3; }
+  /* the theme's .footer a:link/:visited/:hover rules are more specific, hence !important */
+  a, a:link, a:visited { color: #8b919a !important; font-weight: 400; text-decoration: none; }
+  a:hover, a:focus-visible { color: #1e3a6e !important; }
+  .footer-gallery-link { display: inline-block; margin-left: 9px; vertical-align: -1px; opacity: 0.45; transition: opacity 0.2s ease; }
+  .footer-gallery-link:hover, .footer-gallery-link:focus-visible { opacity: 1; }
+  /* phones: the line wraps, so space the items instead of separating them with dots */
+  @media (max-width: 600px) {
+    .site-info { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0 18px; }
+    .fi + .fi::before { content: none; }
+    .footer-gallery-link { margin-left: 0; }
+  }
 }
 
 /* end custom scss snippet */

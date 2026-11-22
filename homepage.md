@@ -262,12 +262,6 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     margin-top: 6px;
   }
 
-  .visit-counter {
-    margin: 22px 10px 8px;
-    text-align: center;
-    opacity: 0.75;
-  }
-
   /* CV Section */
   .cv-heading {
     margin: 26px 10px 0;
@@ -856,9 +850,9 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   .profile-sidebar .contact-email a { font-weight: 400; }
   .profile-sidebar .link-row { gap: 4px 16px; margin-top: 12px; }
   .profile-sidebar .link-row a { border: 0; padding: 0; background: none; font-size: 13.5px; font-weight: 400; }
-  .article__content .talks-heading, .article__content .cv-heading { margin: 64px 10px 0; font-weight: 600; border-bottom: 0 !important; padding-bottom: 0 !important; }
-  .article__content .talks-heading { margin-top: 36px; }
-  .talks-grid { gap: 0; margin-top: 14px; }
+  /* 2026-11-21 (Bruce): homepage section headings in the shared .sec style (site-pages.css): space and a hairline above */
+  .article__content .talks-heading, .article__content .cv-heading { display: block; margin: 56px 10px 14px; padding: 36px 0 0 !important; border: 0 !important; border-top: 1px solid #e7e9ed !important; font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -0.01em; color: #1a1a1a; }
+  .talks-grid { gap: 0; margin-top: 0; }
   .talk-card, .talk-card:hover { border: 0; border-radius: 0; background: none; transform: none; box-shadow: none; padding: 12px 0; }
   .talk-date { flex: 0 0 128px; padding-right: 14px !important; background: none; color: #8b919a; flex-direction: row; flex-wrap: wrap; align-items: baseline; align-content: flex-start; justify-content: flex-start; gap: 0 4px; padding: 1px 0 0; }
   .talk-month, .talk-day, .talk-year { font-size: 13.5px; font-weight: 400; color: #8b919a; text-transform: none; letter-spacing: 0; margin: 0; line-height: 1.5; }
@@ -866,8 +860,9 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   .talk-body { padding: 0 !important; }
   .talk-venue { font-size: 15.5px; font-weight: 600; }
   .talk-title { font-size: 14.5px; color: #545b66; }
-  .talk-meta { font-size: 13px; color: #8b919a; }
-  .cv-section { border-top: 0; margin-top: 14px; padding-top: 0; }
+  .talk-meta { font-size: 14px; font-weight: 400; color: #8b919a; margin-top: 2px; }
+  .talk-meta a { color: #1e3a6e; font-weight: 400; }
+  .cv-section { border-top: 0; margin-top: 0; padding-top: 0; }
   .cv-button { background: none !important; color: #1e3a6e !important; padding: 0 !important; font-weight: 500 !important; }
   @media (max-width: 520px) {
     .talk-date { flex-basis: 96px; }
@@ -933,7 +928,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 <!-- 2026-11-21 (Bruce): "no need to show research streams we already introduced in the text". The streams live on the Research page. -->
 
 {% if site.data.talks and site.data.talks.size > 0 %}
-<h2 class="talks-heading">Upcoming Talks <span class="talks-count">{{ site.data.talks.size }} scheduled</span></h2>
+<h2 class="talks-heading">Upcoming Talks</h2>
 <div class="talks-grid">
   {% for talk in site.data.talks %}
   <div class="talk-card kind-{{ talk.kind | default: 'conference' }}">
@@ -945,11 +940,10 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     <div class="talk-body">
       <div class="talk-venue-row">
         <span class="talk-venue">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}</span>
-        <span class="talk-kind">{{ talk.kind | default: 'conference' }}</span>
       </div>
-      <div class="talk-title">{{ talk.title }}</div>
       {% if talk.session %}<div class="talk-session">{{ talk.session }}</div>{% endif %}
       <div class="talk-meta">
+        {% if talk.paper %}<span><a href="/research.html#{{ talk.paper }}" title="{{ talk.title }}">{{ talk.short | default: talk.title }}</a></span>{% elsif talk.title %}<span>{{ talk.title }}</span>{% endif %}
         {% if talk.place %}<span>{{ talk.place }}</span>{% endif %}
         {% if talk.speaker %}<span>Presented by {{ talk.speaker }}</span>{% endif %}
         {% if talk.time %}<span>{{ talk.time }}</span>{% endif %}
@@ -1258,11 +1252,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   </details>
 </div>
 
-<div class="visit-counter">
-  <!-- Migration baseline: 30,000 historical visits + 653 from the previous counter (2026-09-26). -->
-  <img src="https://hits.sh/siyuan-bruce.github.io/homepage.svg?label=visitors&amp;extraCount=30653&amp;color=1A5DCB"
-       alt="Visitor count" loading="lazy" />
-</div>
+<!-- 2026-11-21 (Bruce): "drop the visitor count". -->
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">

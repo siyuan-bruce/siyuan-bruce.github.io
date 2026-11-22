@@ -1,43 +1,17 @@
-
-<footer class="footer py-4 js-page-footer">
+<!-- 2026-11-21 (Bruce): one quiet line under a hairline in the 780px column, in place of the theme's
+     blue band, round icons and "Powered by" line. Styles in _sass/custom.scss (Footer). -->
+<footer class="footer js-page-footer">
   <div class="main">
-
-    {%- assign _site_author = site.author -%}
-    {%- if _site_author.type == 'organization' -%}
-      {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
-    {%- else -%}
-      {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
-    {%- endif -%}
-
-    <div itemscope itemtype="{{ _site_author_itemtype }}">
-      <meta itemprop="name" content="{{ _site_author.name }}">
-      {%- assign _site_author_url = _site_author.url | default: '/'-%}
-      {%- include snippets/get-nav-url.html path=_site_author_url -%}
-      {%- assign _site_author_url = __return -%}
-      <meta itemprop="url" content="{{ _site_author_url }}">
-      {%- if _site_author.bio -%}
-        <meta itemprop="description" content="{{ _site_author.bio }}">
-      {%- endif -%}
-      <div class="footer__author-links">
-        {%- include author-links.html author=_site_author -%}
-      </div>
-    </div>
-    {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
-    {%- assign _locale_copyright_dates = __return -%}
-    <div class="site-info mt-2">
-      <div>
-        {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
-        {%- assign _locale_copyright_dates = __return -%}
-        © {{ site.title }} {{ _locale_copyright_dates }},
-        Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
-        title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
-        <!-- Hidden entrance to the photo gallery: a faint camera icon -->
-        <a class="footer-gallery-link" href="/gallery.html" title="Photo gallery" aria-label="Photo gallery"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></a>
-      </div>
+    <div class="site-info" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="url" content="{{ site.author.url }}">
+      <span class="fi" itemprop="name">Bruce (Siyuan) Jin</span>
+      <a class="fi" href="mailto:{{ site.author.email }}" itemprop="email">Email</a>
+      <a class="fi" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="fi" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="fi" href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+      <span class="fi">&copy; {{ site.time | date: '%Y' }}</span>
+      <!-- Hidden entrance to the photo gallery: a faint camera icon -->
+      <a class="footer-gallery-link" href="/gallery.html" title="Photo gallery" aria-label="Photo gallery"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></a>
     </div>
   </div>
-  <style>
-    .footer-gallery-link { display: inline-block; margin-left: 6px; vertical-align: -1px; color: inherit; opacity: 0.3; transition: opacity 0.2s ease; }
-    .footer-gallery-link:hover, .footer-gallery-link:focus-visible { opacity: 1; text-decoration: none; }
-  </style>
 </footer>

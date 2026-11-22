@@ -56,7 +56,7 @@ key: page-research
   </li>
 
   <li class="row paper">
-    <span class="key s2">In revision</span>
+    <span class="key">Working paper</span>
     <div>
       <div class="paper-title">Benchmarked Quality: How Quality Scores Reshape Technical Debt Prevention</div>
       <div class="authors"><strong>Siyuan Jin</strong>, Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia</div>
@@ -112,7 +112,7 @@ key: page-research
   <li class="row paper" id="mining-to-meaning">
     <span class="key s1">Accepted</span>
     <div>
-      <div class="paper-title">From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns? <span class="tag">Infrastructure</span></div>
+      <div class="paper-title">From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns?</div>
       <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
       <div class="venue"><em>Journal of Management Information Systems</em> <span class="note">FT50</span></div>
       <div class="actions">
@@ -138,7 +138,7 @@ key: page-research
   <li class="row paper" id="kpop-dao">
     <span class="key s1">R&amp;R</span>
     <div>
-      <div class="paper-title">When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs <span class="tag">Application</span></div>
+      <div class="paper-title">When K-Pop Meets Blockchain: Consumer Engagement Through Voting in DAOs</div>
       <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/dongwon">Dongwon Lee</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
       <div class="venue"><em>Information Systems Research</em>, 2nd round <span class="note">UTD24, FT50</span></div>
       <div class="actions">
@@ -165,7 +165,7 @@ key: page-research
   <li class="row paper">
     <span class="key s1">R&amp;R</span>
     <div>
-      <div class="paper-title">Supplier Openness and Lower Demand: Evidence from an Invitation-Only Policy Reform in Digital Asset Marketplaces <span class="tag">Application</span></div>
+      <div class="paper-title">Supplier Openness and Lower Demand: Evidence from an Invitation-Only Policy Reform in Digital Asset Marketplaces</div>
       <div class="authors"><strong>Siyuan Jin</strong>, Ying Hao, <a href="https://www.bschool.cuhk.edu.hk/staff/li-hongfei/">Hongfei Li</a>, <a href="https://www.bschool.cuhk.edu.hk/staff/kim-keongtae/">Keongtae Kim</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
       <div class="venue"><em>Information Systems Research</em>, 3rd round <span class="note">UTD24, FT50</span></div>
       <div class="actions">
@@ -181,7 +181,7 @@ key: page-research
   <li class="row paper">
     <span class="key">Working paper</span>
     <div>
-      <div class="paper-title">Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi <span class="tag">Application</span></div>
+      <div class="paper-title">Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi</div>
       <div class="authors">Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <strong>Siyuan Jin</strong>, Evgeny Lyandres (authors listed alphabetically)</div>
     </div>
   </li>
