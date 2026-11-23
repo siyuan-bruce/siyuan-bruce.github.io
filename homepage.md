@@ -873,7 +873,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
   /* 2026-11-23 (Bruce): on phones the photo was full width and pushed the bio below the first screen.
      The photo shrinks to a small card beside the email and links, and the bio starts on the first screen. */
   @media (max-width: 600px) {
-    .profile-image { display: flex; align-items: flex-start; gap: 16px; max-width: none; margin: 6px 10px 22px; }
+    .profile-image { display: flex; align-items: flex-start; gap: 16px; width: auto; max-width: none; margin: 6px 10px 22px; }
     .profile-photo-link { flex: 0 0 96px; }
     .profile-image img { max-width: 96px; }
     .profile-photo-link .photo-gallery-badge { display: none; }

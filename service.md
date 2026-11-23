@@ -30,7 +30,7 @@ key: page-service
 <h3 class="sec first">Reviewing</h3>
 
 <p class="label">Conferences</p>
-<div class="row"><span class="key abbr">ICIS</span><span class="name">International Conference on Information Systems <span class="note">2023&ndash;2026 &middot; 8 reviews &middot; Best Reviewer Award, 2025</span></span></div>
+<div class="row"><span class="key abbr">ICIS</span><span class="name">International Conference on Information Systems <span class="note">2023&ndash;2026 &middot; 8 reviews &middot; <span style="white-space:nowrap">Best Reviewer Award 2025</span></span></span></div>
 <div class="row"><span class="key abbr">WITS</span><span class="name">Workshop on Information Technologies and Systems <span class="note">2024&ndash;2026 &middot; 6 reviews</span></span></div>
 <div class="row"><span class="key abbr">PACIS</span><span class="name">Pacific Asia Conference on Information Systems <span class="note">2024, 2026 &middot; 3 reviews</span></span></div>
 <div class="row"><span class="key abbr">CIST</span><span class="name">Conference on Information Systems and Technology <span class="note">2026</span></span></div>
