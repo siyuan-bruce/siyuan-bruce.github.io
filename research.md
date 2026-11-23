@@ -90,7 +90,7 @@ key: page-research
   </li>
 
   <li class="row paper" id="scaling-before-gains">
-    <span class="key">In preparation</span>
+    <span class="key">Working paper</span>
     <div>
       <div class="paper-title">Scaling Before Gains: AI Adoption and Team Expansion</div>
       <div class="authors">Haochen Jiang, <strong>Siyuan Jin</strong>, Eros Ye, Wei Thoo Yue</div>
@@ -192,7 +192,7 @@ key: page-research
 
 <ul>
   <li class="row paper" id="mobile-widget-adoption">
-    <span class="key">In preparation</span>
+    <span class="key">Working paper</span>
     <div>
       <div class="paper-title">Ambient Information and Selective Entry: Evidence from Mobile Widget Adoption</div>
       <div class="authors"><strong>Siyuan Jin</strong>, Haiting Lin, Jinglong Zhang, Jinan Lin, Zike Cao, Liangfei Qiu</div>
