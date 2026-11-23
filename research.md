@@ -122,13 +122,12 @@ key: page-research
           <p>We study how environmental concerns shape the value of blockchain infrastructure. After Tesla suspended Bitcoin payments over sustainability concerns, token values fell, especially for energy-intensive proof-of-work platforms. Investors also valued environmental disclosures more positively, and platforms increased those disclosures. Consistent with nonpecuniary preference theory, the findings show how investor awareness can influence decentralized infrastructure through token markets.</p>
           <p class="kw"><strong>Keywords:</strong> blockchain infrastructure, sustainability, nonpecuniary preference</p>
         </details>
-        <details><summary>5 talks</summary>
+        <details><summary>4 talks</summary>
           <ul class="bullets">
             <li>HKUST IS Department Seminar</li>
             <li>2024 MIS Quarterly Virtual Paper Development Workshop</li>
             <li>2024 Greater Bay Area Finance Workshop</li>
             <li>ISPSG Workshop</li>
-            <li>South China University of Technology</li>
           </ul>
         </details>
       </div>
