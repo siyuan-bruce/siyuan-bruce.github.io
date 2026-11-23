@@ -50,13 +50,8 @@ permalink: /policy.html
 
 <div class="sp">
 
-<h3 class="sec first" id="digital-money">Digital Money &amp; Central Bank Digital Currency</h3>
-
-<div class="entry">
-  <div class="kicker">HKMA CBDC Expert Group</div>
-  <div class="paper-title">Tokenised Forms of Money</div>
-  <div class="authors">Kar Yan Tam, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Douglas Arner, Dong Lou, <strong>Siyuan Jin</strong></div>
-</div>
+<!-- 2026-11-22 (Bruce): "no need to do categorization". One list without section headings;
+     published work first, work that has not been published (Tokenised Forms of Money, the GLOSITH paper) last. -->
 
 <div class="entry">
   <div class="kicker">ACM DLT: Research &amp; Practice</div>
@@ -129,8 +124,6 @@ permalink: /policy.html
   </div>
 </div>
 
-<h3 class="sec" id="post-quantum">Post-Quantum Security</h3>
-
 <div class="entry">
   <div class="kicker">HKUST &amp; HKMA &middot; 2026</div>
   <div class="paper-title">PACT: PQC Accountability and Controlled Transition</div>
@@ -200,14 +193,6 @@ permalink: /policy.html
   </div>
 </div>
 
-<h3 class="sec" id="tourism">Hong Kong Tourism</h3>
-
-<div class="entry">
-  <div class="kicker">GLOSITH 2025 &middot; Best Paper Award</div>
-  <div class="paper-title">Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong</div>
-  <div class="authors"><strong>Siyuan Jin</strong>, Kai-Lung Hui, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Chao He, Chun Wang</div>
-</div>
-
 <div class="entry">
   <div class="kicker">Hong Kong Economic Times &middot; Column</div>
   <div class="paper-title">Hong Kong Tourism Strategy</div>
@@ -231,6 +216,18 @@ permalink: /policy.html
       <li class="row"><span class="key">Nov 2025</span><a class="name" href="https://paper.hket.com/article/4034074/">文娛創新增體驗 吸旅客「多留一晚」</a></li>
     </ul>
   </details>
+</div>
+
+<div class="entry">
+  <div class="kicker">HKMA CBDC Expert Group</div>
+  <div class="paper-title">Tokenised Forms of Money</div>
+  <div class="authors">Kar Yan Tam, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Douglas Arner, Dong Lou, <strong>Siyuan Jin</strong></div>
+</div>
+
+<div class="entry">
+  <div class="kicker">GLOSITH 2025 &middot; Best Paper Award</div>
+  <div class="paper-title">Horizon-Dependent Tourism Forecasting with Multi-Platform Signals: Evidence from Hong Kong</div>
+  <div class="authors"><strong>Siyuan Jin</strong>, Kai-Lung Hui, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Chao He, Chun Wang</div>
 </div>
 
 </div>
