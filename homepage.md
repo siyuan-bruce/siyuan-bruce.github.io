@@ -868,6 +868,18 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     .talk-date { flex-basis: 96px; }
     .talks-grid { margin-left: 10px; margin-right: 10px; }
   }
+  /* 2026-11-23 (Bruce): sidebar is the email and three links only, so it sits right under the photo */
+  .profile-sidebar .contact-email { margin-top: 0; padding-top: 0; border-top: 0; }
+  /* 2026-11-23 (Bruce): on phones the photo was full width and pushed the bio below the first screen.
+     The photo shrinks to a small card beside the email and links, and the bio starts on the first screen. */
+  @media (max-width: 600px) {
+    .profile-image { display: flex; align-items: flex-start; gap: 16px; max-width: none; margin: 6px 10px 22px; }
+    .profile-photo-link { flex: 0 0 96px; }
+    .profile-image img { max-width: 96px; }
+    .profile-photo-link .photo-gallery-badge { display: none; }
+    .profile-sidebar { flex: 1 1 auto; min-width: 0; margin-top: 2px; }
+    .profile-sidebar .link-row { margin-top: 8px; }
+  }
 </style>
 </head>
 
@@ -888,25 +900,16 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
     </a>
     <div class="profile-sidebar">
       <div class="sidebar-name">Bruce (Siyuan) Jin <span class="chinese-name">(金思远)</span></div>
-      <div class="affil-row">
-        <span class="affil-icon">&#127979;</span>
-        <span><strong>HKUST</strong> &middot; PhD Candidate, Information Systems</span>
-      </div>
-      <div class="affil-row">
-        <span class="affil-icon">&#127963;</span>
-        <span><strong>Wharton</strong> &middot; Visiting Scholar (through Dec 2026)</span>
-      </div>
+      <!-- 2026-11-23 (Bruce): sidebar trimmed to email and outside profiles. The HKUST and Wharton rows repeated the bio,
+           and CV, Research, Awards and Service repeated the top bar. -->
       <div class="contact-email">
         <span class="label">Email</span>
         <a href="mailto:siyuan.jin@connect.ust.hk">siyuan.jin@connect.ust.hk</a>
       </div>
       <div class="link-row">
-        <a href="https://github.com/siyuan-bruce" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=uki4jU4AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
         <a href="https://www.linkedin.com/in/si-yuan-bruce-jin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-        <a href="/research.html">Research</a>
-        <a href="/research.html#awards">Awards</a>
-        <a href="/service.html">Service</a>
+        <a href="https://github.com/siyuan-bruce" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   </div>
@@ -958,7 +961,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 <h2 class="cv-heading">Curriculum Vitae</h2>
 <div class="cv-section">
   <p class="cv-blurb">
-    Full record of my publications, working papers, conference presentations, teaching, and service.
+    The full record of publications, working papers, conference presentations, teaching and service.
   </p>
   <div class="cv-actions">
     <a class="cv-button" href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
