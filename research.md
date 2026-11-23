@@ -147,7 +147,7 @@ key: page-research
           <p>We study continued participation in a blockchain-based K-pop platform. Smaller voters increase financial and nonfinancial contributions, while large voters whose preferred outcomes lose reduce purchases but maintain nonfinancial engagement. These patterns are consistent with expectation disconfirmation: large voters expect more influence, making losses more disappointing. The findings help explain how voting power becomes less concentrated over time and inform the design of sustainable, consumer-driven platforms.</p>
           <p class="kw"><strong>Keywords:</strong> DAO governance, expectation disconfirmation, consumer engagement</p>
         </details>
-        <details><summary>7 talks</summary>
+        <details><summary>6 talks</summary>
           <ul class="bullets">
             <li>ICIS 2024 <b>Best Short Paper Nominee</b></li>
             <li>CIST 2024</li>
@@ -155,7 +155,6 @@ key: page-research
             <li>2025 HKUST IS Summer Workshop</li>
             <li>Indiana University (by a coauthor)</li>
             <li>McGill University (by a coauthor)</li>
-            <li>South China University of Technology</li>
           </ul>
         </details>
       </div>
