@@ -22,6 +22,8 @@ p{margin:0 0 12px}
 .member video,.member img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;display:block;background:#000}
 .member b{display:block;font-size:19px;margin-top:6px}
 .member small{color:var(--muted)}
+.num{display:inline-block;margin-top:8px;padding:2px 12px;border-radius:99px;background:#111827;color:#fff;font-size:14px;font-weight:700}
+.member .num+b{margin-top:2px}
 .member[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);box-shadow:0 0 0 2px var(--accent)}
 .member.static{cursor:default}
 .pick{display:block;margin:8px auto 2px;padding:9px 6px;border:1.5px solid #999;border-radius:10px;font-weight:600;font-size:15px;background:#fff}
@@ -72,7 +74,7 @@ pre{white-space:pre-wrap;font-size:12px;background:#f3f3f3;padding:10px;border-r
 'use strict';
 // ---- Settings (edit here). Numbers come from the field data unless noted. ----
 const CONFIG={
-  version:'two-studies-2026-11-24-v13',
+  version:'two-studies-2026-11-24-v14',
   waitSeconds:5,                       // same counting wait for voters and fans who missed the vote (Kim et al. 2019, Exp. 4)
   money:'$', price:2.99,               // one digital card in the group's app (US App Store price); one card = one voting token
   tokens:{small:4,large:40},           // median pre-vote token balance of small and large first-time voters (4 and 41)
@@ -124,7 +126,10 @@ const left=()=>run.tokens-cast();
 const chosen=()=>run.responses.preferred_member;
 const other=()=>run.member_order.find(m=>m!==chosen());
 const winner=()=>run.outcome==='win'?chosen():other();
-const nm=id=>CONFIG.members[id].name;
+// Members carry a number by screen position (left tile = Member 1) so the two names are easy to tell apart (v14, Bruce 2026-11-24)
+const num=id=>run.member_order.indexOf(id)+1;
+const mno=id=>'Member '+num(id);
+const nm=id=>`${mno(id)} (${CONFIG.members[id].name})`;
 
 // ---- Small builders ----
 function scale(name,question,lo,hi,max=7){
@@ -136,9 +141,9 @@ function choice(name,question,opts){
 function tokens(n,used=0){return `<div class="tokens${n>20?' many':''}" aria-label="${n} tokens">${Array.from({length:n},(_,i)=>`<span class="t${i<used?' used':''}"></span>`).join('')}</div>`;}
 function memberTile(id,mode){
   const m=CONFIG.members[id];
-  if(mode==='clip')return `<button type="button" class="member" data-member="${id}" aria-pressed="false"><video src="${m.video}" poster="${m.photo}" muted playsinline autoplay preload="auto"></video><b>${m.name}</b><small>tripleS</small><span class="pick" data-pick>Choose ${m.name}</span></button>`;
+  if(mode==='clip')return `<button type="button" class="member" data-member="${id}" aria-pressed="false"><video src="${m.video}" poster="${m.photo}" muted playsinline autoplay preload="auto"></video><span class="num">${mno(id)}</span><b>${m.name}</b><small>tripleS</small><span class="pick" data-pick>Choose ${mno(id)}</span></button>`;
   const w=winner()===id,cls=mode==='result'?(w?' winner':' loser'):'';
-  return `<div class="member static${cls}"><img src="${m.photo}" alt=""><b>${m.name}</b>${id===chosen()?'<span class="tag you">You like her more</span>':''}${mode==='result'&&w?' <span class="tag win">Winner</span>':''}</div>`;
+  return `<div class="member static${cls}"><img src="${m.photo}" alt=""><span class="num">${mno(id)}</span><b>${m.name}</b>${id===chosen()?'<span class="tag you">You like her more</span>':''}${mode==='result'&&w?' <span class="tag win">Winner</span>':''}</div>`;
 }
 const nextBtn=(label='Next')=>`<button class="next" id="next" disabled>${label}</button><div class="err" id="err"></div>`;
 const crowd=()=>`About ${fmt(CONFIG.roundVoters)} fans vote in a typical round and cast about ${fmt(CONFIG.roundTokens)} tokens in total. The count stays hidden until voting closes.`;
@@ -174,7 +179,7 @@ const PAGES=[
  {id:'result',need:()=>[...(CONFIG.askVoteAgain?['vote_again']:[]),'cards_bought',...(CONFIG.askExchange?['card_exchange']:[])],html:()=>`
   <h1>Voting has closed.</h1>
   <div class="result">${nm(winner())} performs the solo stage.</div>
-  <div class="tally"><span class="w" style="width:${CONFIG.tally.winner}%">${nm(winner())} ${CONFIG.tally.winner}%</span><span class="l" style="width:${CONFIG.tally.loser}%">${nm(winner()===chosen()?other():chosen())} ${CONFIG.tally.loser}%</span></div>
+  <div class="tally"><span class="w" style="width:${CONFIG.tally.winner}%">${mno(winner())} ${CONFIG.tally.winner}%</span><span class="l" style="width:${CONFIG.tally.loser}%">${mno(winner()===chosen()?other():chosen())} ${CONFIG.tally.loser}%</span></div>
   <p class="fine">Share of all tokens cast.</p>
   <p><b>${voted()?`The member you voted for ${run.outcome==='win'?'won':'lost'}.`:`The member you like more ${run.outcome==='win'?'won':'lost'}.`}</b>
    ${voted()?`You cast ${cast()} ${cast()===1?'token':'tokens'}, which ${cast()===1?'is':'are'} now used up. You have ${left()} left.`:`Your ${run.tokens} tokens are still unspent.`}</p>
@@ -237,7 +242,7 @@ function wire(P){
     g.querySelectorAll('.opt').forEach(x=>x.setAttribute('aria-pressed',x===b));
     const v=b.dataset.v;run.responses[g.dataset.name]=/^\d+$/.test(v)?Number(v):v;upd();}));
   app.querySelectorAll('.member[data-member]').forEach(b=>{
-    b.onclick=()=>{app.querySelectorAll('.member[data-member]').forEach(x=>{x.setAttribute('aria-pressed',x===b);x.querySelector('[data-pick]').textContent=(x===b?'✓ Chosen: ':'Choose ')+nm(x.dataset.member);});run.responses.preferred_member=b.dataset.member;upd();};
+    b.onclick=()=>{app.querySelectorAll('.member[data-member]').forEach(x=>{x.setAttribute('aria-pressed',x===b);x.querySelector('[data-pick]').textContent=(x===b?'✓ Chosen: ':'Choose ')+mno(x.dataset.member);});run.responses.preferred_member=b.dataset.member;upd();};
     const v=b.querySelector('video'),id=b.dataset.member;run.clips[id]=run.clips[id]||{played:false,ended:false};
     v.onplay=()=>run.clips[id].played=true;v.onended=()=>run.clips[id].ended=true;
     v.play?.().catch(()=>{});
