@@ -118,7 +118,6 @@ key: page-research
       <div class="actions">
         <a href="https://doi.org/10.1080/07421222.2026.2736936">Paper</a>
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218">Preprint</a>
-        <a href="/paper/Slides_Green_Token_based_Platform.pdf">Slides</a>
         <!-- 2026-11-25 (Bruce): AI-made explainer video (2.5 min, narrated, subtitled) -->
         <details><summary>Video</summary>
           <video controls preload="none" playsinline poster="/paper/From_Mining_to_Meaning_video_poster.jpg" style="width:100%; max-width:720px; margin-top:8px; border-radius:6px;">
