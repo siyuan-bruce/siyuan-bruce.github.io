@@ -23,6 +23,26 @@
         - id: 2026-wharton-ai-monterey-friends
           file: 2026_Wharton_AI_Monterey_friends.jpg
           caption: "With friends on the Monterey coast."
+        - id: 2026-monterey-rocks
+          file: 2026_Monterey_rocks.jpg
+          caption: "Rocks at Pacific Grove on the Monterey coast."
+        - id: 2026-monterey-cypress
+          file: 2026_Monterey_cypress.jpg
+          caption: "A cypress on the Pacific Grove shore."
+    - title: "Temple University Seminar, Philadelphia, USA"
+      date: "2026"
+      text: >-
+        Professor Dongwon Lee presents our paper, "When K-Pop Meets Blockchain: Consumer Engagement Through
+        Voting in DAOs," at a Temple University seminar.
+      photos:
+        - id: 2026-temple-seminar
+          file: 2026_Temple_seminar.jpg
+    - title: "Wharton Visit, Philadelphia, USA"
+      date: "2026"
+      text: "Dinner with colleagues during my visit to the Wharton School."
+      photos:
+        - id: 2026-wharton-dinner
+          file: 2026_Wharton_dinner.jpg
 
 - heading: "2025"
   events:
