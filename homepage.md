@@ -964,7 +964,16 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 <div class="news-section">
   <div class="news-year">
     <span class="news-year-label">2026</span>
-    <span class="news-year-count">8 highlights</span>
+    <span class="news-year-count">9 highlights</span>
+  </div>
+
+  <!-- 2026-11-25 (Bruce): JMIS paper published; link the AI-made video -->
+  <div class="news-item cat-paper">
+    <div class="news-date">Nov 2026</div>
+    <span class="news-cat">Paper</span>
+    <div class="news-content">
+      My MPhil thesis paper, <a href="/research.html#mining-to-meaning">From Mining to Meaning</a>, is published in <strong><em>Journal of Management Information Systems</em></strong> 43(4). Watch the <a href="/paper/From_Mining_to_Meaning_video.mp4">short video</a> I made with AI.
+    </div>
   </div>
 
   <div class="news-item cat-paper">

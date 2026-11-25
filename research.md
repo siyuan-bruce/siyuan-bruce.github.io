@@ -119,6 +119,13 @@ key: page-research
         <a href="https://doi.org/10.1080/07421222.2026.2736936">Paper</a>
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218">Preprint</a>
         <a href="/paper/Slides_Green_Token_based_Platform.pdf">Slides</a>
+        <!-- 2026-11-25 (Bruce): AI-made explainer video (2.5 min, narrated, subtitled) -->
+        <details><summary>Video</summary>
+          <video controls preload="none" playsinline poster="/paper/From_Mining_to_Meaning_video_poster.jpg" style="width:100%; max-width:720px; margin-top:8px; border-radius:6px;">
+            <source src="/paper/From_Mining_to_Meaning_video.mp4" type="video/mp4">
+            <a href="/paper/From_Mining_to_Meaning_video.mp4">Download the video</a>
+          </video>
+        </details>
         <details class="abstract"><summary>Abstract</summary>
           <p>We study how environmental concerns shape the value of blockchain infrastructure. After Tesla suspended Bitcoin payments over sustainability concerns, token values fell, especially for energy-intensive proof-of-work platforms. Investors also valued environmental disclosures more positively, and platforms increased those disclosures. Consistent with nonpecuniary preference theory, the findings show how investor awareness can influence decentralized infrastructure through token markets.</p>
           <p class="kw"><strong>Keywords:</strong> blockchain infrastructure, sustainability, nonpecuniary preference</p>
