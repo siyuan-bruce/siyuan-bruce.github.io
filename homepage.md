@@ -958,16 +958,7 @@ description: "Information Systems PhD candidate at HKUST Business School and vis
 </div>
 {% endif %}
 
-<h2 class="cv-heading">Curriculum Vitae</h2>
-<div class="cv-section">
-  <p class="cv-blurb">
-    The full record of publications, working papers, conference presentations, teaching and service.
-  </p>
-  <div class="cv-actions">
-    <a class="cv-button" href="/assets/Bruce_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
-    <span class="cv-updated">Last updated: {{ site.data.cv.updated }}</span>
-  </div>
-</div>
+<!-- 2026-11-24 (Bruce): Curriculum Vitae section dropped; it duplicated the CV link in the top bar. -->
 
 <h2 class="news-heading">News</h2>
 <div class="news-section">
