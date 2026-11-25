@@ -109,13 +109,15 @@ key: page-research
 
 <ul>
   <li class="row paper" id="mining-to-meaning">
-    <span class="key s1">Accepted</span>
+    <!-- 2026-11-25 (Bruce): published in JMIS 43(4), 1123-1155, online 24 Nov 2026 -->
+    <span class="key s1">Published</span>
     <div>
       <div class="paper-title">From Mining to Meaning: How Do Blockchain Infrastructure Platforms Respond to Environmental Sustainability Concerns?</div>
       <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, Zitong Li, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
-      <div class="venue"><em>Journal of Management Information Systems</em> <span class="note">FT50</span></div>
+      <div class="venue"><em>Journal of Management Information Systems</em>, 43(4), 1123&ndash;1155, 2026 <span class="note">FT50</span></div>
       <div class="actions">
-        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218">Paper</a>
+        <a href="https://doi.org/10.1080/07421222.2026.2736936">Paper</a>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6975218">Preprint</a>
         <a href="/paper/Slides_Green_Token_based_Platform.pdf">Slides</a>
         <details class="abstract"><summary>Abstract</summary>
           <p>We study how environmental concerns shape the value of blockchain infrastructure. After Tesla suspended Bitcoin payments over sustainability concerns, token values fell, especially for energy-intensive proof-of-work platforms. Investors also valued environmental disclosures more positively, and platforms increased those disclosures. Consistent with nonpecuniary preference theory, the findings show how investor awareness can influence decentralized infrastructure through token markets.</p>
