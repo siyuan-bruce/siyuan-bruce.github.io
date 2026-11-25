@@ -27,9 +27,8 @@ key: page-research
 
 <div class="sp">
 
-<p class="lead jump"><a href="#ai-organization-of-work">AI and work</a> &middot; <a href="#blockchain-digital-markets">Blockchain and digital markets</a> &middot; <a href="#human-it-interaction">Human-IT interaction</a> &middot; <a href="#quantum-computing">Quantum computing</a> &middot; <a href="#patents">Patents</a> &middot; <a href="#awards">Awards</a></p>
-
-<h3 class="sec" id="ai-organization-of-work">AI and the Organization of Work</h3>
+<!-- 2026-11-24 (Bruce): jump-link line under the title dropped; the first section heading opens the page. -->
+<h3 class="sec first" id="ai-organization-of-work">AI and the Organization of Work</h3>
 <p class="sec-q">How does AI reshape the organization of human expertise?</p>
 
 <ul>
