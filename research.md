@@ -59,7 +59,7 @@ key: page-research
     <div>
       <div class="paper-title">Benchmarked Quality: How Quality Scores Reshape Technical Debt Prevention</div>
       <div class="authors"><strong>Siyuan Jin</strong>, Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia</div>
-      <div class="venue">Rejected after a second-round major revision at <em>Information Systems Research</em></div>
+      <div class="venue">Rejected after a second-round review at <em>Information Systems Research</em></div>
       <div class="actions">
         <details><summary>4 talks</summary>
           <ul class="bullets">
@@ -186,7 +186,7 @@ key: page-research
   <li class="row paper">
     <span class="key">Working paper</span>
     <div>
-      <div class="paper-title">Treasury Trades as De Facto Disclosure: Asset-Pair Signaling and the Information Environment in DeFi</div>
+      <div class="paper-title">Treasury Trades as De Facto Disclosures in DeFi</div>
       <div class="authors">Janja Brendel, <a href="https://www.allenhuang.org/">Allen H. Huang</a>, <strong>Siyuan Jin</strong>, Evgeny Lyandres (authors listed alphabetically)</div>
     </div>
   </li>
@@ -242,15 +242,26 @@ key: page-research
 
 <h3 class="sec" id="patents">Patents</h3>
 
-<details><summary>6 patents on blockchain and quantum computing, 2024</summary>
-  <ul class="bullets" style="margin-top:6px">
-    <li>B. Zhu, Yong Xia, Z. Li, <strong>Siyuan Jin</strong>. &ldquo;Network analysis using optical quantum computing.&rdquo; WIPO WO2024/007565 A1.</li>
-    <li><strong>Siyuan Jin</strong>, Yong Xia. &ldquo;Method for implementing network consensus algorithm.&rdquo; WIPO WO2024/007483 A1.</li>
-    <li><strong>Siyuan Jin</strong>, Yong Xia. &ldquo;Transaction security for multi-tier transaction networks.&rdquo; WIPO WO2024/007527 A1.</li>
-    <li><strong>Siyuan Jin</strong>, Yong Xia. &ldquo;Blockchain transaction sharding for improved transaction throughput.&rdquo; WIPO WO2024/011707 A1.</li>
-    <li>Bing Zhu, Ziyuan Li, Yong Xia, Mianmian Zhang, <strong>Siyuan Jin</strong>, Kar Yan Tam, Yuhan Huang, Qiming Shao. &ldquo;Systems and methods for quantum Monte Carlo processing.&rdquo; US Patent App. 18/404,169.</li>
-    <li>Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, <strong>Siyuan Jin</strong>. &ldquo;Adaptive diversity-based quantum circuit architecture search.&rdquo; US Patent App. 18/519,617.</li>
-  </ul>
+<!-- 2026-11-27 (Bruce): the granted U.S. patent opens the section as a row, without the grant date; the six published applications fold below it, newest first, with titles, inventor order and numbers as on the CV.
+     The patent number links to the A1 publication page until Google Patents lists US12810261B2. -->
+<ul>
+  <li class="row paper" id="patent-sharding">
+    <span class="key s1">Granted</span>
+    <div>
+      <div class="paper-title">Blockchain Transaction Sharding for Improved Transaction Throughput</div>
+      <div class="authors"><strong>Siyuan Jin</strong>, Yong Xia</div>
+      <div class="venue"><a href="https://patents.google.com/patent/US20260004262A1/en">U.S. Patent No. 12,810,261</a></div>
+    </div>
+  </li>
+</ul>
+
+<details class="folded"><summary>Published applications (6)</summary>
+<div class="row"><span class="key">2026</span><div><div class="title">Network Analysis Using Optical Quantum Computing</div><div class="authors">Bing Zhu, Yong Xia, Ziyuan Li, <strong>Siyuan Jin</strong></div><div class="venue">U.S. application <a href="https://patents.google.com/patent/US20260004178A1/en">US 2026/0004178 A1</a></div></div></div>
+<div class="row"><span class="key">2025</span><div><div class="title">Hybrid Computer System for Asset Selection Optimization</div><div class="authors"><strong>Siyuan Jin</strong>, Ziyuan Li, Bing Zhu, Yong Xia, Yuhan Huang, Mianmian Zhang</div><div class="venue">International application <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2025123180">WO 2025/123180 A1</a></div></div></div>
+<div class="row"><span class="key">2024</span><div><div class="title">Systems and Methods for Quantum Monte Carlo Processing</div><div class="authors">Bing Zhu, Ziyuan Li, Yong Xia, Mianmian Zhang, <strong>Siyuan Jin</strong>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yuhan Huang, Qiming Shao</div><div class="venue">U.S. application <a href="https://patents.google.com/patent/US20240428112A1/en">US 2024/0428112 A1</a></div></div></div>
+<div class="row"><span class="key">2024</span><div><div class="title">Adaptive Diversity-Based Quantum Circuit Architecture Search</div><div class="authors">Bing Zhu, Ziyuan Li, Yong Xia, Qiming Shao, Yuhan Huang, <strong>Siyuan Jin</strong></div><div class="venue">U.S. application <a href="https://patents.google.com/patent/US20240428106A1/en">US 2024/0428106 A1</a></div></div></div>
+<div class="row"><span class="key">2024</span><div><div class="title">Method for Implementing Network Consensus Algorithm</div><div class="authors"><strong>Siyuan Jin</strong>, Yong Xia</div><div class="venue">International application <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024007483">WO 2024/007483 A1</a></div></div></div>
+<div class="row"><span class="key">2024</span><div><div class="title">Transaction Security for Multi-Tier Transaction Networks</div><div class="authors"><strong>Siyuan Jin</strong>, Yong Xia</div><div class="venue">International application <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024007527">WO 2024/007527 A1</a></div></div></div>
 </details>
 
 <h3 class="sec" id="awards">Awards &amp; Honors</h3>
