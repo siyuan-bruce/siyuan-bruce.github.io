@@ -39,7 +39,7 @@ key: page-teaching
 </div></div>
 <div class="row"><span class="key">Fall 2023</span><div>
   <div class="title">Coding for Business (ISOM 2020), lab sections</div>
-  <div class="meta">HKUST &middot; 24&nbsp;students &middot; 12&nbsp;lab&nbsp;hours &middot; Student rating <b>4.27/5</b> teaching, <b>4.18/5</b> lab &middot; Lecture by Weiyin Hong</div>
+  <div class="meta">HKUST &middot; 24&nbsp;students &middot; 12&nbsp;lab&nbsp;hours &middot; Student rating <b>4.27/5</b> teaching, <b>4.18/5</b> lab</div>
   <details><summary>Description and student comment</summary><p class="more">This course intends to introduce students to basic programming concepts and skills for business data coding and business problem solving. Using Python as an illustrative programming language, this course provides students with a basic understanding of programming concepts and syntaxes, including data types, associated methods and functions, and control flow statements. Through the process of learning a programming language, students will also develop logical and critical thinking skills and be able to tackle simple business problems with coding. For SBM students only.</p><p class="more">"The TA(s) during this lab section are really helpful. They're always willing to help and answer my questions whenever I need assistance. They also proactively reach out to me whenever I look confused. I really appreciate the amount of support and assistance I received from this lab. Thank you!" (anonymous course evaluation)</p></details>
 </div></div>
 
