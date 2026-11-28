@@ -36,7 +36,7 @@ key: page-research
     <span class="key s2">Under review</span>
     <div>
       <div class="paper-title">Codified Expertise: How Generative AI Changes Temporal Coordination in Distributed Teams <span class="tag jmp">Job market paper</span></div>
-      <div class="authors"><strong>Siyuan Jin</strong>, Lynn Wu, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye</div>
+      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a>, <a href="https://www.cb.cityu.edu.hk/staff/weityue/">Wei Thoo Yue</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Eros Ye</div>
       <div class="actions">
         <details><summary>8 talks</summary>
           <ul class="bullets">
@@ -58,7 +58,7 @@ key: page-research
     <span class="key">Working paper</span>
     <div>
       <div class="paper-title">Benchmarked Quality: How Quality Scores Reshape Technical Debt Prevention</div>
-      <div class="authors"><strong>Siyuan Jin</strong>, Lynn Wu, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia</div>
+      <div class="authors"><strong>Siyuan Jin</strong>, <a href="https://oid.wharton.upenn.edu/profile/wulynn/">Lynn Wu</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a>, Yong Xia</div>
       <div class="venue">Rejected after a second-round review at <em>Information Systems Research</em></div>
       <div class="actions">
         <details><summary>4 talks</summary>
@@ -77,7 +77,7 @@ key: page-research
     <span class="key s2">Under review</span>
     <div>
       <div class="paper-title">AI for Me, Gains for Us: Complementarity in Generative AI Teams</div>
-      <div class="authors">Eros Ye, <strong>Siyuan Jin</strong>, Haochen Jiang, Wei Thoo Yue, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
+      <div class="authors">Eros Ye, <strong>Siyuan Jin</strong>, Haochen Jiang, <a href="https://www.cb.cityu.edu.hk/staff/weityue/">Wei Thoo Yue</a>, <a href="https://isom.hkust.edu.hk/faculty-and-staff/directory/kytam">Kar Yan Tam</a></div>
       <div class="actions">
         <details><summary>1 talk</summary>
           <ul class="bullets">
@@ -92,7 +92,7 @@ key: page-research
     <span class="key">Working paper</span>
     <div>
       <div class="paper-title">Scaling Before Gains: AI Adoption and Team Expansion</div>
-      <div class="authors">Haochen Jiang, <strong>Siyuan Jin</strong>, Eros Ye, Wei Thoo Yue</div>
+      <div class="authors">Haochen Jiang, <strong>Siyuan Jin</strong>, Eros Ye, <a href="https://www.cb.cityu.edu.hk/staff/weityue/">Wei Thoo Yue</a></div>
       <div class="actions">
         <details><summary>1 talk</summary>
           <ul class="bullets">
